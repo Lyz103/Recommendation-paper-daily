@@ -71,7 +71,7 @@ def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
     for result in search.results():
         # REFACTORED: More efficient and case-insensitive filtering
         title_lower = result.title.lower()
-        if "recommendation" in title_lower:
+        if "recommendation" not in title_lower:
             continue
 
         paper_id = result.get_short_id()
