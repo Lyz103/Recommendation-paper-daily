@@ -10,6 +10,7 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-09-26 | **SynerGen: Contextualized Generative Recommender for Unified Search and Recommendation** | Vianne R. Gao, Chen Xue, Marc Versage, Xie Zhou, Zhongruo Wang, Chao Li, Yeon Seonwoo, Nan Chen, Zhen Ge, Gourab Kundu, Weiqi Zhang, Tian Wang, Qingjun Cui, Trishul Chilimbi | [Link](http://arxiv.org/abs/2509.21777) | Not Available |
 | 2025-09-25 | **Interactive Recommendation Agent with Active User Commands** | Jiakai Tang, Yujie Luo, Xunke Xi, Fei Sun, Xueyang Feng, Sunhao Dai, Chao Yi, Dian Chen, Zhujin Gao, Yang Li, Xu Chen, Wen Chen, Jian Wu, Yuning Jiang, Bo Zheng | [Link](http://arxiv.org/abs/2509.21317) | Not Available |
 | 2025-09-25 | **IntSR: An Integrated Generative Framework for Search and Recommendation** | Huimin Yan, Longfei Xu, Junjie Sun, Ni Ou, Wei Luo, Xing Tan, Ran Cheng, Kaikui Liu, Xiangxiang Chu | [Link](http://arxiv.org/abs/2509.21179) | Not Available |
 | 2025-09-25 | **RecIS: Sparse to Dense, A Unified Training Framework for Recommendation Models** | Hua Zong, Qingtao Zeng, Zhengxiong Zhou, Zhihua Han, Zhensong Yan, Mingjie Liu, Hechen Sun, Jiawei Liu, Yiwen Hu, Qi Wang, YiHan Xian, Wenjie Guo, Houyuan Xiang, Zhiyuan Zeng, Xiangrong Sheng, Bencheng Yan, Nan Hu, Yuheng Huang, Jinqing Lian, Ziru Xu, Yan Zhang, Ju Huang, Siran Yang, Huimin Yi, Jiamang Wang, Pengjie Wang, Han Zhu, Jian Wu, Dan Ou, Jian Xu, Haihong Tang, Yuning Jiang, Bo Zheng, Lin Qu | [Link](http://arxiv.org/abs/2509.20883) | Not Available |
