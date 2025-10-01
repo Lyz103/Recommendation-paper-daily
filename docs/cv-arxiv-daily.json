@@ -1451,6 +1451,72 @@
             "abstract": "Personalized federated recommendation system (FedRec) has gained significant attention for its ability to preserve privacy in delivering tailored recommendations. To alleviate the statistical heterogeneity challenges among clients and improve personalization, decoupling item embeddings into the server and client-specific views has become a promising way. Among them, the global item embedding table serves as a consensus representation that integrates and reflects the collective patterns across all clients. However, the inherent sparsity and high uniformity of interaction data from massive-scale clients results in degraded consensus and insufficient decoupling, reducing consensus's utility. To this end, we propose a \\textbf{Fed}erated \\textbf{C}onsistency- and \\textbf{C}omplementarity-aware \\textbf{C}onsensus-enhanced \\textbf{R}ecommendation (Fed3CR) method for personalized FedRec. To improve the efficiency of the utilization of consensus, we propose an \\textbf{A}daptive \\textbf{C}onsensus \\textbf{E}nhancement (ACE) strategy to learn the relationship between global and client-specific item embeddings. It enables the client to adaptively enhance specific information in the consensus, transforming it into a form that best suits itself. To improve the quality of decoupling, we propose a \\textbf{C}onsistency- and \\textbf{C}omplementarity-aware \\textbf{O}ptimization (C2O) strategy, which helps to learn more effective and complementary representations. Notably, our proposed Fed3CR is a plug-and-play method, which can be integrated with other FedRec methods to improve its performance. Extensive experiments on four real-world datasets represent the superior performance of Fed3CR.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2509.26107": {
+            "title": "Items Proxy Bridging: Enabling Frictionless Critiquing in Knowledge Graph Recommendations",
+            "authors": "Huanyu Zhang, Xiaoxuan Shen, Yu Lei, Baolin Yi, Jianfang Liu, Yinao xie",
+            "first_author": "Huanyu Zhang",
+            "url": "http://arxiv.org/abs/2509.26107v1",
+            "pdf_url": "http://arxiv.org/abs/2509.26107",
+            "publish_date": "2025-09-30",
+            "abstract": "Modern recommender systems place great inclination towards facilitating user experience, as more applications enabling users to critique and then refine recommendations immediately. Considering the real-time requirements, critique-able recommender systems typically straight modify the model parameters and update the recommend list through analyzing the user critiquing keyphrases in the inference phase. Current critiquing methods require first constructing a specially designated model which establish direct correlations between users and keyphrases during the training phase allowing for innovative recommendations upon the critiquing,restricting the applicable scenarios. Additionally, all these approaches ignore the catastrophic forgetting problem, where the cumulative changes in parameters during continuous multi-step critiquing may lead to a collapse in model performance. Thus, We conceptualize a proxy bridging users and keyphrases, proposing a streamlined yet potent Items Proxy Generic Critiquing Framework (IPGC) framework, which can serve as a universal plugin for most knowledge graph recommender models based on collaborative filtering (CF) strategies. IPGC provides a new paradigm for frictionless integration of critique mechanisms to enable iterative recommendation refinement in mainstream recommendation scenarios. IPGC describes the items proxy mechanism for transforming the critiquing optimization objective of user-keyphrase pairs into user-item pairs, adapting it for general CF recommender models without the necessity of specifically designed user-keyphrase correlation module. Furthermore, an anti-forgetting regularizer is introduced in order to efficiently mitigate the catastrophic forgetting problem of the model as a prior for critiquing optimization.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.26063": {
+            "title": "Fading to Grow: Growing Preference Ratios via Preference Fading Discrete Diffusion for Recommendation",
+            "authors": "Guoqing Hu, An Zhang. Shuchang Liu, Wenyu Mao, Jiancan Wu, Xun Yang, Xiang Li, Lantao Hu, Han Li, Kun Gai, Xiang Wang",
+            "first_author": "Guoqing Hu",
+            "url": "http://arxiv.org/abs/2509.26063v1",
+            "pdf_url": "http://arxiv.org/abs/2509.26063",
+            "publish_date": "2025-09-30",
+            "abstract": "Recommenders aim to rank items from a discrete item corpus in line with user interests, yet suffer from extremely sparse user preference data. Recent advances in diffusion models have inspired diffusion-based recommenders, which alleviate sparsity by injecting noise during a forward process to prevent the collapse of perturbed preference distributions. However, current diffusion-based recommenders predominantly rely on continuous Gaussian noise, which is intrinsically mismatched with the discrete nature of user preference data in recommendation. In this paper, building upon recent advances in discrete diffusion, we propose PreferGrow, a discrete diffusion-based recommender system that models preference ratios by fading and growing user preferences over the discrete item corpus. PreferGrow differs from existing diffusion-based recommenders in three core aspects: (1) Discrete modeling of preference ratios: PreferGrow models relative preference ratios between item pairs, rather than operating in the item representation or raw score simplex. This formulation aligns naturally with the discrete and ranking-oriented nature of recommendation tasks. (2) Perturbing via preference fading: Instead of injecting continuous noise, PreferGrow fades user preferences by replacing the preferred item with alternatives -- physically akin to negative sampling -- thereby eliminating the need for any prior noise assumption. (3) Preference reconstruction via growing: PreferGrow reconstructs user preferences by iteratively growing the preference signals from the estimated ratios. PreferGrow offers a well-defined matrix-based formulation with theoretical guarantees on Markovianity and reversibility, and it demonstrates consistent performance gains over state-of-the-art diffusion-based recommenders across five benchmark datasets, highlighting both its theoretical soundness and empirical effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.25992": {
+            "title": "MHINDR -- a DSM5 based mental health diagnosis and recommendation framework using LLM",
+            "authors": "Vaishali Agarwal, Sachin Thukral, Arnab Chatterjee",
+            "first_author": "Vaishali Agarwal",
+            "url": "http://arxiv.org/abs/2509.25992v1",
+            "pdf_url": "http://arxiv.org/abs/2509.25992",
+            "publish_date": "2025-09-30",
+            "abstract": "Mental health forums offer valuable insights into psychological issues, stressors, and potential solutions. We propose MHINDR, a large language model (LLM) based framework integrated with DSM-5 criteria to analyze user-generated text, dignose mental health conditions, and generate personalized interventions and insights for mental health practitioners. Our approach emphasizes on the extraction of temporal information for accurate diagnosis and symptom progression tracking, together with psychological features to create comprehensive mental health summaries of users. The framework delivers scalable, customizable, and data-driven therapeutic recommendations, adaptable to diverse clinical contexts, patient needs, and workplace well-being programs.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2509.25755": {
+            "title": "HiFIRec: Towards High-Frequency yet Low-Intention Behaviors for Multi-Behavior Recommendation",
+            "authors": "Ruiqi Luo, Ran Jin, Zhenglong Li, Kaixi Hu, Xiaohui Tao, Lin Li",
+            "first_author": "Ruiqi Luo",
+            "url": "http://arxiv.org/abs/2509.25755v1",
+            "pdf_url": "http://arxiv.org/abs/2509.25755",
+            "publish_date": "2025-09-30",
+            "abstract": "Multi-behavior recommendation leverages multiple types of user-item interactions to address data sparsity and cold-start issues, providing personalized services in domains such as healthcare and e-commerce. Most existing methods utilize graph neural networks to model user intention in a unified manner, which inadequately considers the heterogeneity across different behaviors. Especially, high-frequency yet low-intention behaviors may implicitly contain noisy signals, and frequent patterns that are plausible while misleading, thereby hindering the learning of user intentions. To this end, this paper proposes a novel multi-behavior recommendation method, HiFIRec, that corrects the effect of high-frequency yet low-intention behaviors by differential behavior modeling. To revise the noisy signals, we hierarchically suppress it across layers by extracting neighborhood information through layer-wise neighborhood aggregation and further capturing user intentions through adaptive cross-layer feature fusion. To correct plausible frequent patterns, we propose an intensity-aware non-sampling strategy that dynamically adjusts the weights of negative samples. Extensive experiments on two benchmarks show that HiFIRec relatively improves HR@10 by 4.21%-6.81% over several state-of-the-art methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.25522": {
+            "title": "Understanding Generative Recommendation with Semantic IDs from a Model-scaling View",
+            "authors": "Jingzhe Liu, Liam Collins, Jiliang Tang, Tong Zhao, Neil Shah, Clark Mingxuan Ju",
+            "first_author": "Jingzhe Liu",
+            "url": "http://arxiv.org/abs/2509.25522v1",
+            "pdf_url": "http://arxiv.org/abs/2509.25522",
+            "publish_date": "2025-09-29",
+            "abstract": "Recent advancements in generative models have allowed the emergence of a promising paradigm for recommender systems (RS), known as Generative Recommendation (GR), which tries to unify rich item semantics and collaborative filtering signals. One popular modern approach is to use semantic IDs (SIDs), which are discrete codes quantized from the embeddings of modality encoders (e.g., large language or vision models), to represent items in an autoregressive user interaction sequence modeling setup (henceforth, SID-based GR). While generative models in other domains exhibit well-established scaling laws, our work reveals that SID-based GR shows significant bottlenecks while scaling up the model. In particular, the performance of SID-based GR quickly saturates as we enlarge each component: the modality encoder, the quantization tokenizer, and the RS itself. In this work, we identify the limited capacity of SIDs to encode item semantic information as one of the fundamental bottlenecks. Motivated by this observation, as an initial effort to obtain GR models with better scaling behaviors, we revisit another GR paradigm that directly uses large language models (LLMs) as recommenders (henceforth, LLM-as-RS). Our experiments show that the LLM-as-RS paradigm has superior model scaling properties and achieves up to 20 percent improvement over the best achievable performance of SID-based GR through scaling. We also challenge the prevailing belief that LLMs struggle to capture collaborative filtering information, showing that their ability to model user-item interactions improves as LLMs scale up. Our analyses on both SID-based GR and LLMs across model sizes from 44M to 14B parameters underscore the intrinsic scaling limits of SID-based GR and position LLM-as-RS as a promising path toward foundation models for GR.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2509.25289": {
+            "title": "ClustRecNet: A Novel End-to-End Deep Learning Framework for Clustering Algorithm Recommendation",
+            "authors": "Mohammadreza Bakhtyari, Bogdan Mazoure, Renato Cordeiro de Amorim, Guillaume Rabusseau, Vladimir Makarenkov",
+            "first_author": "Mohammadreza Bakhtyari",
+            "url": "http://arxiv.org/abs/2509.25289v1",
+            "pdf_url": "http://arxiv.org/abs/2509.25289",
+            "publish_date": "2025-09-29",
+            "abstract": "We introduce ClustRecNet - a novel deep learning (DL)-based recommendation framework for determining the most suitable clustering algorithms for a given dataset, addressing the long-standing challenge of clustering algorithm selection in unsupervised learning. To enable supervised learning in this context, we construct a comprehensive data repository comprising 34,000 synthetic datasets with diverse structural properties. Each of them was processed using 10 popular clustering algorithms. The resulting clusterings were assessed via the Adjusted Rand Index (ARI) to establish ground truth labels, used for training and evaluation of our DL model. The proposed network architecture integrates convolutional, residual, and attention mechanisms to capture both local and global structural patterns from the input data. This design supports end-to-end training to learn compact representations of datasets and enables direct recommendation of the most suitable clustering algorithm, reducing reliance on handcrafted meta-features and traditional Cluster Validity Indices (CVIs). Comprehensive experiments across synthetic and real-world benchmarks demonstrate that our DL model consistently outperforms conventional CVIs (e.g. Silhouette, Calinski-Harabasz, Davies-Bouldin, and Dunn) as well as state-of-the-art AutoML clustering recommendation approaches (e.g. ML2DAC, AutoCluster, and AutoML4Clust). Notably, the proposed model achieves a 0.497 ARI improvement over the Calinski-Harabasz index on synthetic data and a 15.3% ARI gain over the best-performing AutoML approach on real-world data.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

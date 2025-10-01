@@ -7,6 +7,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-09-30 | **Items Proxy Bridging: Enabling Frictionless Critiquing in Knowledge Graph Recommendations** | Huanyu Zhang, Xiaoxuan Shen, Yu Lei, Baolin Yi, Jianfang Liu, Yinao xie | [Link](http://arxiv.org/abs/2509.26107) | Not Available |
+| 2025-09-30 | **Fading to Grow: Growing Preference Ratios via Preference Fading Discrete Diffusion for Recommendation** | Guoqing Hu, An Zhang. Shuchang Liu, Wenyu Mao, Jiancan Wu, Xun Yang, Xiang Li, Lantao Hu, Han Li, Kun Gai, Xiang Wang | [Link](http://arxiv.org/abs/2509.26063) | Not Available |
+| 2025-09-30 | **MHINDR -- a DSM5 based mental health diagnosis and recommendation framework using LLM** | Vaishali Agarwal, Sachin Thukral, Arnab Chatterjee | [Link](http://arxiv.org/abs/2509.25992) | Not Available |
+| 2025-09-30 | **HiFIRec: Towards High-Frequency yet Low-Intention Behaviors for Multi-Behavior Recommendation** | Ruiqi Luo, Ran Jin, Zhenglong Li, Kaixi Hu, Xiaohui Tao, Lin Li | [Link](http://arxiv.org/abs/2509.25755) | Not Available |
+| 2025-09-29 | **Understanding Generative Recommendation with Semantic IDs from a Model-scaling View** | Jingzhe Liu, Liam Collins, Jiliang Tang, Tong Zhao, Neil Shah, Clark Mingxuan Ju | [Link](http://arxiv.org/abs/2509.25522) | Not Available |
+| 2025-09-29 | **ClustRecNet: A Novel End-to-End Deep Learning Framework for Clustering Algorithm Recommendation** | Mohammadreza Bakhtyari, Bogdan Mazoure, Renato Cordeiro de Amorim, Guillaume Rabusseau, Vladimir Makarenkov | [Link](http://arxiv.org/abs/2509.25289) | Not Available |
 | 2025-09-29 | **Multi-Item-Query Attention for Stable Sequential Recommendation** | Mingshi Xu, Haoren Zhu, Wilfred Siu Hung Ng | [Link](http://arxiv.org/abs/2509.24424) | Not Available |
 | 2025-09-28 | **From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation** | KaiWen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Jiang Zhong, He Bai, Junnan Zhu | [Link](http://arxiv.org/abs/2509.23649) | Not Available |
 | 2025-09-28 | **A Hierarchical Structure-Enhanced Personalized Recommendation Model for Traditional Chinese Medicine Formulas Based on KG Diffusion Guidance** | ChaoBo Zhang, Long Tan | [Link](http://arxiv.org/abs/2509.23560) | Not Available |
