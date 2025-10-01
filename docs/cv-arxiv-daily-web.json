@@ -1363,6 +1363,94 @@
             "abstract": "The dominant retrieve-then-rank pipeline in large-scale recommender systems suffers from mis-calibration and engineering overhead due to its architectural split and differing optimization objectives. While recent generative sequence models have shown promise in unifying retrieval and ranking by auto-regressively generating ranked items, existing solutions typically address either personalized search or query-free recommendation, often exhibiting performance trade-offs when attempting to unify both. We introduce \\textit{SynerGen}, a novel generative recommender model that bridges this critical gap by providing a single generative backbone for both personalized search and recommendation, while simultaneously excelling at retrieval and ranking tasks. Trained on behavioral sequences, our decoder-only Transformer leverages joint optimization with InfoNCE for retrieval and a hybrid pointwise-pairwise loss for ranking, allowing semantic signals from search to improve recommendation and vice versa. We also propose a novel time-aware rotary positional embedding to effectively incorporate time information into the attention mechanism. \\textit{SynerGen} achieves significant improvements on widely adopted recommendation and search benchmarks compared to strong generative recommender and joint search and recommendation baselines. This work demonstrates the viability of a single generative foundation model for industrial-scale unified information access.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2509.24424": {
+            "title": "Multi-Item-Query Attention for Stable Sequential Recommendation",
+            "authors": "Mingshi Xu, Haoren Zhu, Wilfred Siu Hung Ng",
+            "first_author": "Mingshi Xu",
+            "url": "http://arxiv.org/abs/2509.24424v1",
+            "pdf_url": "http://arxiv.org/abs/2509.24424",
+            "publish_date": "2025-09-29",
+            "abstract": "The inherent instability and noise in user interaction data challenge sequential recommendation systems. Prevailing masked attention models, relying on a single query from the most recent item, are sensitive to this noise, reducing prediction reliability. We propose the Multi-Item-Query attention mechanism (MIQ-Attn) to enhance model stability and accuracy. MIQ-Attn constructs multiple diverse query vectors from user interactions, effectively mitigating noise and improving consistency. It is designed for easy adoption as a drop-in replacement for existing single-query attention. Experiments show MIQ-Attn significantly improves performance on benchmark datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.23649": {
+            "title": "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation",
+            "authors": "KaiWen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Jiang Zhong, He Bai, Junnan Zhu",
+            "first_author": "KaiWen Wei",
+            "url": "http://arxiv.org/abs/2509.23649v1",
+            "pdf_url": "http://arxiv.org/abs/2509.23649",
+            "publish_date": "2025-09-28",
+            "abstract": "Generative recommendation, which directly generates item identifiers, has emerged as a promising paradigm for recommendation systems. However, its potential is fundamentally constrained by the reliance on purely autoregressive training. This approach focuses solely on predicting the next item while ignoring the rich internal structure of a user's interaction history, thus failing to grasp the underlying intent. To address this limitation, we propose Masked History Learning (MHL), a novel training framework that shifts the objective from simple next-step prediction to deep comprehension of history. MHL augments the standard autoregressive objective with an auxiliary task of reconstructing masked historical items, compelling the model to understand ``why'' an item path is formed from the user's past behaviors, rather than just ``what'' item comes next. We introduce two key contributions to enhance this framework: (1) an entropy-guided masking policy that intelligently targets the most informative historical items for reconstruction, and (2) a curriculum learning scheduler that progressively transitions from history reconstruction to future prediction. Experiments on three public datasets show that our method significantly outperforms state-of-the-art generative models, highlighting that a comprehensive understanding of the past is crucial for accurately predicting a user's future path. The code will be released to the public.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.23560": {
+            "title": "A Hierarchical Structure-Enhanced Personalized Recommendation Model for Traditional Chinese Medicine Formulas Based on KG Diffusion Guidance",
+            "authors": "ChaoBo Zhang, Long Tan",
+            "first_author": "ChaoBo Zhang",
+            "url": "http://arxiv.org/abs/2509.23560v1",
+            "pdf_url": "http://arxiv.org/abs/2509.23560",
+            "publish_date": "2025-09-28",
+            "abstract": "Artificial intelligence technology plays a crucial role in recommending prescriptions for traditional Chinese medicine (TCM). Previous studies have made significant progress by focusing on the symptom-herb relationship in prescriptions. However, several limitations hinder model performance: (i) Insufficient attention to patient-personalized information such as age, BMI, and medical history, which hampers accurate identification of syndrome and reduces efficacy. (ii) The typical long-tailed distribution of herb data introduces training biases and affects generalization ability. (iii) The oversight of the 'monarch, minister, assistant and envoy' compatibility among herbs increases the risk of toxicity or side effects, opposing the 'treatment based on syndrome differentiation' principle in clinical TCM. Therefore, we propose a novel hierarchical structure-enhanced personalized recommendation model for TCM formulas based on knowledge graph diffusion guidance, namely TCM-HEDPR. Specifically, we pre-train symptom representations using patient-personalized prompt sequences and apply prompt-oriented contrastive learning for data augmentation. Furthermore, we employ a KG-guided homogeneous graph diffusion method integrated with a self-attention mechanism to globally capture the non-linear symptom-herb relationship. Lastly, we design a heterogeneous graph hierarchical network to integrate herbal dispensing relationships with implicit syndromes, guiding the prescription generation process at a fine-grained level and mitigating the long-tailed herb data distribution problem. Extensive experiments on two public datasets and one clinical dataset demonstrate the effectiveness of TCM-HEDPR. In addition, we incorporate insights from modern medicine and network pharmacology to evaluate the recommended prescriptions comprehensively. It can provide a new paradigm for the recommendation of modern TCM.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2509.23242": {
+            "title": "TATTOO: Training-free AesTheTic-aware Outfit recOmmendation",
+            "authors": "Yuntian Wu, Xiaonan Hu, Ziqi Zhou, Hao Lu",
+            "first_author": "Yuntian Wu",
+            "url": "http://arxiv.org/abs/2509.23242v1",
+            "pdf_url": "http://arxiv.org/abs/2509.23242",
+            "publish_date": "2025-09-27",
+            "abstract": "The global fashion e-commerce market relies significantly on intelligent and aesthetic-aware outfit-completion tools to promote sales. While previous studies have approached the problem of fashion outfit-completion and compatible-item retrieval, most of them require expensive, task-specific training on large-scale labeled data, and no effort is made to guide outfit recommendation with explicit human aesthetics. In the era of Multimodal Large Language Models (MLLMs), we show that the conventional training-based pipeline could be streamlined to a training-free paradigm, with better recommendation scores and enhanced aesthetic awareness. We achieve this with TATTOO, a Training-free AesTheTic-aware Outfit recommendation approach. It first generates a target-item description using MLLMs, followed by an aesthetic chain-of-thought used to distill the images into a structured aesthetic profile including color, style, occasion, season, material, and balance. By fusing the visual summary of the outfit with the textual description and aesthetics vectors using a dynamic entropy-gated mechanism, candidate items can be represented in a shared embedding space and be ranked accordingly. Experiments on a real-world evaluation set Aesthetic-100 show that TATTOO achieves state-of-the-art performance compared with existing training-based methods. Another standard Polyvore dataset is also used to measure the advanced zero-shot retrieval capability of our training-free method.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2509.23175": {
+            "title": "WARBERT: A Hierarchical BERT-based Model for Web API Recommendation",
+            "authors": "Zishuo Xu, Yuhong Gu, Dezhong Yao",
+            "first_author": "Zishuo Xu",
+            "url": "http://arxiv.org/abs/2509.23175v1",
+            "pdf_url": "http://arxiv.org/abs/2509.23175",
+            "publish_date": "2025-09-27",
+            "abstract": "With the emergence of Web 2.0 and microservices architecture, the number of Web APIs has increased dramatically, further intensifying the demand for efficient Web API recommendation. Existing solutions typically fall into two categories: recommendation-type methods, which treat each API as a label for classification, and match-type methods, which focus on matching mashups through API retrieval. However, three critical challenges persist: 1) the semantic ambiguities in comparing API and mashup descriptions, 2) the lack of detailed comparisons between the individual API and the mashup in recommendation-type methods, and 3) time inefficiencies for API retrieval in match-type methods. To address these challenges, we propose WARBERT, a hierarchical BERT-based model for Web API recommendation. WARBERT leverages dual-component feature fusion and attention comparison to extract precise semantic representations of API and mashup descriptions. WARBERT consists of two main components: WARBERT(R) for Recommendation and WARBERT(M) for Matching. Specifically, WAR-BERT(R) serves as an initial filter, narrowing down the candidate APIs, while WARBERT(M) refines the matching process by calculating the similarity between candidate APIs and mashup. The final likelihood of a mashup being matched with an API is determined by combining the predictions from WARBERT(R) and WARBERT(M). Additionally, WARBERT(R) incorporates an auxiliary task of mashup category judgment, which enhances its effectiveness in candidate selection. Experimental results on the ProgrammableWeb dataset demonstrate that WARBERT outperforms most existing solutions and achieves improvements of up to 11.7% compared to the model MTFM (Multi-Task Fusion Model), delivering significant enhancements in accuracy and effiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.22681": {
+            "title": "FLAME: A Serving System Optimized for Large-Scale Generative Recommendation with Efficiency",
+            "authors": "Xianwen Guo, Bin Huang, Xiaomeng Wu, Guanlin Wu, Fangjian Li, Shijia Wang, Qiang Xiao, Chuanjiang Luo, Yong Li",
+            "first_author": "Xianwen Guo",
+            "url": "http://arxiv.org/abs/2509.22681v1",
+            "pdf_url": "http://arxiv.org/abs/2509.22681",
+            "publish_date": "2025-09-17",
+            "abstract": "Generative recommendation (GR) models possess greater scaling power compared to traditional deep learning recommendation models (DLRMs), yet they also impose a tremendous increase in computational burden. Measured in FLOPs, a typical GR model's workload sits in $10^9 \\sim 10^{11}$ range, roughly four orders of magnitude higher than traditional DLRMs. Delivering accurate results in a few tens of milliseconds while processing billions of such requests per day puts extreme demands on the performance of the online serving system. Therefore, for industry practitioners, the alluring gains of GR models are tempered by the formidable challenge of online deployment at scale in production services. In this work, we introduce a comprehensive solution of online serving system tailored For Large-scale GenerAtive RecoMmendation with Efficiency (FLAME). Specifically, we leveraging CPU-GPU heterogeneous hardware to decouple feature pre-processing and model computation. We encapsulated several memory optimization features as the Proximal Data Accelerator (PDA) module to make full use of limited bandwidth and storage resources, which achieves a 1.9x throughput gain and a 1.7x latency reduction. We implement the Fused Kernel Engine (FKE) module based on the functionality and interface of NVIDIA TensorRT to boost model computation, delivering a speedup ratio of 4.6x-6.1x, throughput gain ratio of 4.7x-6.3x one step further. In addition, we design the Dynamic Stream Orchestrator (DSO) module to coordinate concurrent requests, enhancing the system throughput performance with 1.3x improvement in throughput and 2.3x speed-up under non-uniform distribution of upstream candidates. Comprehensive evaluations demonstrate that our FLAME effectively supports large-scale online deployment of GR models and achieves remarkable improvements in system performance.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2509.22661": {
+            "title": "Next Point-of-interest (POI) Recommendation Model Based on Multi-modal Spatio-temporal Context Feature Embedding",
+            "authors": "Lingyu Zhang, Guobin Wu, Yan Wang, Pengfei Xu, Jian Liang, Xuan Song, Yunhai Wang",
+            "first_author": "Lingyu Zhang",
+            "url": "http://arxiv.org/abs/2509.22661v1",
+            "pdf_url": "http://arxiv.org/abs/2509.22661",
+            "publish_date": "2025-08-29",
+            "abstract": "The next Point-of-interest (POI) recommendation is mainly based on sequential traffic information to predict the user's next boarding point location. This is a highly regarded and widely applied research task in the field of intelligent transportation, and there have been many research results to date. Traditional POI prediction models primarily rely on short-term traffic sequence information, often neglecting both long-term and short-term preference data, as well as crucial spatiotemporal context features in user behavior. To address this issue, this paper introduces user long-term preference information and key spatiotemporal context information, and proposes a POI recommendation model based on multimodal spatiotemporal context feature embedding. The model extracts long-term preference features and key spatiotemporal context features from traffic data through modules such as spatiotemporal feature processing, multimodal embedding, and self-attention aggregation. It then uses a weighted fusion method to dynamically adjust the weights of long-term and short-term features based on users' historical behavior patterns and the current context. Finally, the fused features are matched using attention, and the probability of each location candidate becoming the next location is calculated. This paper conducts experimental verification on multiple transportation datasets, and the results show that the POI prediction model combining multiple types of features has higher prediction accuracy than existing SOTA models and methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2509.22659": {
+            "title": "Federated Consistency- and Complementarity-aware Consensus-enhanced Recommendation",
+            "authors": "Yunqi Mi, Boyang Yan, Guoshuai Zhao, Jialie Shen, Xueming Qian",
+            "first_author": "Yunqi Mi",
+            "url": "http://arxiv.org/abs/2509.22659v1",
+            "pdf_url": "http://arxiv.org/abs/2509.22659",
+            "publish_date": "2025-08-27",
+            "abstract": "Personalized federated recommendation system (FedRec) has gained significant attention for its ability to preserve privacy in delivering tailored recommendations. To alleviate the statistical heterogeneity challenges among clients and improve personalization, decoupling item embeddings into the server and client-specific views has become a promising way. Among them, the global item embedding table serves as a consensus representation that integrates and reflects the collective patterns across all clients. However, the inherent sparsity and high uniformity of interaction data from massive-scale clients results in degraded consensus and insufficient decoupling, reducing consensus's utility. To this end, we propose a \\textbf{Fed}erated \\textbf{C}onsistency- and \\textbf{C}omplementarity-aware \\textbf{C}onsensus-enhanced \\textbf{R}ecommendation (Fed3CR) method for personalized FedRec. To improve the efficiency of the utilization of consensus, we propose an \\textbf{A}daptive \\textbf{C}onsensus \\textbf{E}nhancement (ACE) strategy to learn the relationship between global and client-specific item embeddings. It enables the client to adaptively enhance specific information in the consensus, transforming it into a form that best suits itself. To improve the quality of decoupling, we propose a \\textbf{C}onsistency- and \\textbf{C}omplementarity-aware \\textbf{O}ptimization (C2O) strategy, which helps to learn more effective and complementary representations. Notably, our proposed Fed3CR is a plug-and-play method, which can be integrated with other FedRec methods to improve its performance. Extensive experiments on four real-world datasets represent the superior performance of Fed3CR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

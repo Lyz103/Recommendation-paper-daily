@@ -1,4 +1,4 @@
-## Updated on 2025-09-29
+## Updated on 2025-10-01
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,14 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-09-29 | **Multi-Item-Query Attention for Stable Sequential Recommendation** | Mingshi Xu, Haoren Zhu, Wilfred Siu Hung Ng | [Link](http://arxiv.org/abs/2509.24424) | Not Available |
+| 2025-09-28 | **From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation** | KaiWen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Jiang Zhong, He Bai, Junnan Zhu | [Link](http://arxiv.org/abs/2509.23649) | Not Available |
+| 2025-09-28 | **A Hierarchical Structure-Enhanced Personalized Recommendation Model for Traditional Chinese Medicine Formulas Based on KG Diffusion Guidance** | ChaoBo Zhang, Long Tan | [Link](http://arxiv.org/abs/2509.23560) | Not Available |
+| 2025-09-27 | **TATTOO: Training-free AesTheTic-aware Outfit recOmmendation** | Yuntian Wu, Xiaonan Hu, Ziqi Zhou, Hao Lu | [Link](http://arxiv.org/abs/2509.23242) | Not Available |
+| 2025-09-27 | **WARBERT: A Hierarchical BERT-based Model for Web API Recommendation** | Zishuo Xu, Yuhong Gu, Dezhong Yao | [Link](http://arxiv.org/abs/2509.23175) | Not Available |
+| 2025-09-17 | **FLAME: A Serving System Optimized for Large-Scale Generative Recommendation with Efficiency** | Xianwen Guo, Bin Huang, Xiaomeng Wu, Guanlin Wu, Fangjian Li, Shijia Wang, Qiang Xiao, Chuanjiang Luo, Yong Li | [Link](http://arxiv.org/abs/2509.22681) | Not Available |
+| 2025-08-29 | **Next Point-of-interest (POI) Recommendation Model Based on Multi-modal Spatio-temporal Context Feature Embedding** | Lingyu Zhang, Guobin Wu, Yan Wang, Pengfei Xu, Jian Liang, Xuan Song, Yunhai Wang | [Link](http://arxiv.org/abs/2509.22661) | Not Available |
+| 2025-08-27 | **Federated Consistency- and Complementarity-aware Consensus-enhanced Recommendation** | Yunqi Mi, Boyang Yan, Guoshuai Zhao, Jialie Shen, Xueming Qian | [Link](http://arxiv.org/abs/2509.22659) | Not Available |
 | 2025-09-26 | **SynerGen: Contextualized Generative Recommender for Unified Search and Recommendation** | Vianne R. Gao, Chen Xue, Marc Versage, Xie Zhou, Zhongruo Wang, Chao Li, Yeon Seonwoo, Nan Chen, Zhen Ge, Gourab Kundu, Weiqi Zhang, Tian Wang, Qingjun Cui, Trishul Chilimbi | [Link](http://arxiv.org/abs/2509.21777) | Not Available |
 | 2025-09-25 | **Interactive Recommendation Agent with Active User Commands** | Jiakai Tang, Yujie Luo, Xunke Xi, Fei Sun, Xueyang Feng, Sunhao Dai, Chao Yi, Dian Chen, Zhujin Gao, Yang Li, Xu Chen, Wen Chen, Jian Wu, Yuning Jiang, Bo Zheng | [Link](http://arxiv.org/abs/2509.21317) | Not Available |
 | 2025-09-25 | **IntSR: An Integrated Generative Framework for Search and Recommendation** | Huimin Yan, Longfei Xu, Junjie Sun, Ni Ou, Wei Luo, Xing Tan, Ran Cheng, Kaikui Liu, Xiangxiang Chu | [Link](http://arxiv.org/abs/2509.21179) | Not Available |
