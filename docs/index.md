@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025-10-01
+## Updated on 2025-10-02
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
