@@ -1517,6 +1517,61 @@
             "abstract": "We introduce ClustRecNet - a novel deep learning (DL)-based recommendation framework for determining the most suitable clustering algorithms for a given dataset, addressing the long-standing challenge of clustering algorithm selection in unsupervised learning. To enable supervised learning in this context, we construct a comprehensive data repository comprising 34,000 synthetic datasets with diverse structural properties. Each of them was processed using 10 popular clustering algorithms. The resulting clusterings were assessed via the Adjusted Rand Index (ARI) to establish ground truth labels, used for training and evaluation of our DL model. The proposed network architecture integrates convolutional, residual, and attention mechanisms to capture both local and global structural patterns from the input data. This design supports end-to-end training to learn compact representations of datasets and enables direct recommendation of the most suitable clustering algorithm, reducing reliance on handcrafted meta-features and traditional Cluster Validity Indices (CVIs). Comprehensive experiments across synthetic and real-world benchmarks demonstrate that our DL model consistently outperforms conventional CVIs (e.g. Silhouette, Calinski-Harabasz, Davies-Bouldin, and Dunn) as well as state-of-the-art AutoML clustering recommendation approaches (e.g. ML2DAC, AutoCluster, and AutoML4Clust). Notably, the proposed model achieves a 0.497 ARI improvement over the Calinski-Harabasz index on synthetic data and a 15.3% ARI gain over the best-performing AutoML approach on real-world data.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2510.02215": {
+            "title": "C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems",
+            "authors": "Mertcan Cokbas, Ziteng Liu, Zeyi Tao, Chengkai Zhang, Elder Veliz, Qin Huang, Ellie Wen, Huayu Li, Qiang Jin, Murat Duman, Benjamin Au, Guy Lebanon, Sagar Chordia",
+            "first_author": "Mertcan Cokbas",
+            "url": "http://arxiv.org/abs/2510.02215v1",
+            "pdf_url": "http://arxiv.org/abs/2510.02215",
+            "publish_date": "2025-10-02",
+            "abstract": "Training large-scale recommendation models under a single global objective implicitly assumes homogeneity across user populations. However, real-world data are composites of heterogeneous cohorts with distinct conditional distributions. As models increase in scale and complexity and as more data is used for training, they become dominated by central distribution patterns, neglecting head and tail regions. This imbalance limits the model's learning ability and can result in inactive attention weights or dead neurons. In this paper, we reveal how the attention mechanism can play a key role in factorization machines for shared embedding selection, and propose to address this challenge by analyzing the substructures in the dataset and exposing those with strong distributional contrast through auxiliary learning. Unlike previous research, which heuristically applies weighted labels or multi-task heads to mitigate such biases, we leverage partially conflicting auxiliary labels to regularize the shared representation. This approach customizes the learning process of attention layers to preserve mutual information with minority cohorts while improving global performance. We evaluated C2AL on massive production datasets with billions of data points each for six SOTA models. Experiments show that the factorization machine is able to capture fine-grained user-ad interactions using the proposed method, achieving up to a 0.16% reduction in normalized entropy overall and delivering gains exceeding 0.30% on targeted minority cohorts.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.01698": {
+            "title": "TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling",
+            "authors": "Seungheon Doh, Keunwoo Choi, Juhan Nam",
+            "first_author": "Seungheon Doh",
+            "url": "http://arxiv.org/abs/2510.01698v1",
+            "pdf_url": "http://arxiv.org/abs/2510.01698",
+            "publish_date": "2025-10-02",
+            "abstract": "While the recent developments in large language models (LLMs) have successfully enabled generative recommenders with natural language interactions, their recommendation behavior is limited, leaving other simpler yet crucial components such as metadata or attribute filtering underutilized in the system. We propose an LLM-based music recommendation system with tool calling to serve as a unified retrieval-reranking pipeline. Our system positions an LLM as an end-to-end recommendation system that interprets user intent, plans tool invocations, and orchestrates specialized components: boolean filters (SQL), sparse retrieval (BM25), dense retrieval (embedding similarity), and generative retrieval (semantic IDs). Through tool planning, the system predicts which types of tools to use, their execution order, and the arguments needed to find music matching user preferences, supporting diverse modalities while seamlessly integrating multiple database filtering methods. We demonstrate that this unified tool-calling framework achieves competitive performance across diverse recommendation scenarios by selectively employing appropriate retrieval methods based on user queries, envisioning a new paradigm for conversational music recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.01622": {
+            "title": "LLM4Rec: Large Language Models for Multimodal Generative Recommendation with Causal Debiasing",
+            "authors": "Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau",
+            "first_author": "Bo Ma",
+            "url": "http://arxiv.org/abs/2510.01622v1",
+            "pdf_url": "http://arxiv.org/abs/2510.01622",
+            "publish_date": "2025-10-02",
+            "abstract": "Contemporary generative recommendation systems face significant challenges in handling multimodal data, eliminating algorithmic biases, and providing transparent decision-making processes. This paper introduces an enhanced generative recommendation framework that addresses these limitations through five key innovations: multimodal fusion architecture, retrieval-augmented generation mechanisms, causal inference-based debiasing, explainable recommendation generation, and real-time adaptive learning capabilities. Our framework leverages advanced large language models as the backbone while incorporating specialized modules for cross-modal understanding, contextual knowledge integration, bias mitigation, explanation synthesis, and continuous model adaptation. Extensive experiments on three benchmark datasets (MovieLens-25M, Amazon-Electronics, Yelp-2023) demonstrate consistent improvements in recommendation accuracy, fairness, and diversity compared to existing approaches. The proposed framework achieves up to 2.3% improvement in NDCG@10 and 1.4% enhancement in diversity metrics while maintaining computational efficiency through optimized inference strategies.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.01609": {
+            "title": "AgentRec: Next-Generation LLM-Powered Multi-Agent Collaborative Recommendation with Adaptive Intelligence",
+            "authors": "Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau",
+            "first_author": "Bo Ma",
+            "url": "http://arxiv.org/abs/2510.01609v1",
+            "pdf_url": "http://arxiv.org/abs/2510.01609",
+            "publish_date": "2025-10-02",
+            "abstract": "Interactive conversational recommender systems have gained significant attention for their ability to capture user preferences through natural language interactions. However, existing approaches face substantial challenges in handling dynamic user preferences, maintaining conversation coherence, and balancing multiple ranking objectives simultaneously. This paper introduces AgentRec, a next-generation LLM-powered multi-agent collaborative recommendation framework that addresses these limitations through hierarchical agent networks with adaptive intelligence. Our approach employs specialized LLM-powered agents for conversation understanding, preference modeling, context awareness, and dynamic ranking, coordinated through an adaptive weighting mechanism that learns from interaction patterns. We propose a three-tier learning strategy combining rapid response for simple queries, intelligent reasoning for complex preferences, and deep collaboration for challenging scenarios. Extensive experiments on three real-world datasets demonstrate that AgentRec achieves consistent improvements over state-of-the-art baselines, with 2.8\\% enhancement in conversation success rate, 1.9\\% improvement in recommendation accuracy (NDCG@10), and 3.2\\% better conversation efficiency while maintaining comparable computational costs through intelligent agent coordination.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2510.00080": {
+            "title": "SoREX: Towards Self-Explainable Social Recommendation with Relevant Ego-Path Extraction",
+            "authors": "Hanze Guo, Yijun Ma, Xiao Zhou",
+            "first_author": "Hanze Guo",
+            "url": "http://arxiv.org/abs/2510.00080v1",
+            "pdf_url": "http://arxiv.org/abs/2510.00080",
+            "publish_date": "2025-09-30",
+            "abstract": "Social recommendation has been proven effective in addressing data sparsity in user-item interaction modeling by leveraging social networks. The recent integration of Graph Neural Networks (GNNs) has further enhanced prediction accuracy in contemporary social recommendation algorithms. However, many GNN-based approaches in social recommendation lack the ability to furnish meaningful explanations for their predictions. In this study, we confront this challenge by introducing SoREX, a self-explanatory GNN-based social recommendation framework. SoREX adopts a two-tower framework enhanced by friend recommendation, independently modeling social relations and user-item interactions, while jointly optimizing an auxiliary task to reinforce social signals. To offer explanations, we propose a novel ego-path extraction approach. This method involves transforming the ego-net of a target user into a collection of multi-hop ego-paths, from which we extract factor-specific and candidate-aware ego-path subsets as explanations. This process facilitates the summarization of detailed comparative explanations among different candidate items through intricate substructure analysis. Furthermore, we conduct explanation re-aggregation to explicitly correlate explanations with downstream predictions, imbuing our framework with inherent self-explainability. Comprehensive experiments conducted on four widely adopted benchmark datasets validate the effectiveness of SoREX in predictive accuracy. Additionally, qualitative and quantitative analyses confirm the efficacy of the extracted explanations in SoREX. Our code and data are available at https://github.com/antman9914/SoREX.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
         }
     }
 }

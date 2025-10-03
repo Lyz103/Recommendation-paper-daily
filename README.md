@@ -10,6 +10,11 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-02 | **C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems** | Mertcan Cokbas, Ziteng Liu, Zeyi Tao, Chengkai Zhang, Elder Veliz, Qin Huang, Ellie Wen, Huayu Li, Qiang Jin, Murat Duman, Benjamin Au, Guy Lebanon, Sagar Chordia | [Link](http://arxiv.org/abs/2510.02215) | Not Available |
+| 2025-10-02 | **TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling** | Seungheon Doh, Keunwoo Choi, Juhan Nam | [Link](http://arxiv.org/abs/2510.01698) | Not Available |
+| 2025-10-02 | **LLM4Rec: Large Language Models for Multimodal Generative Recommendation with Causal Debiasing** | Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau | [Link](http://arxiv.org/abs/2510.01622) | Not Available |
+| 2025-10-02 | **AgentRec: Next-Generation LLM-Powered Multi-Agent Collaborative Recommendation with Adaptive Intelligence** | Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau | [Link](http://arxiv.org/abs/2510.01609) | Not Available |
+| 2025-09-30 | **SoREX: Towards Self-Explainable Social Recommendation with Relevant Ego-Path Extraction** | Hanze Guo, Yijun Ma, Xiao Zhou | [Link](http://arxiv.org/abs/2510.00080) | Not Available |
 | 2025-09-30 | **Items Proxy Bridging: Enabling Frictionless Critiquing in Knowledge Graph Recommendations** | Huanyu Zhang, Xiaoxuan Shen, Yu Lei, Baolin Yi, Jianfang Liu, Yinao xie | [Link](http://arxiv.org/abs/2509.26107) | Not Available |
 | 2025-09-30 | **Fading to Grow: Growing Preference Ratios via Preference Fading Discrete Diffusion for Recommendation** | Guoqing Hu, An Zhang. Shuchang Liu, Wenyu Mao, Jiancan Wu, Xun Yang, Xiang Li, Lantao Hu, Han Li, Kun Gai, Xiang Wang | [Link](http://arxiv.org/abs/2509.26063) | Not Available |
 | 2025-09-30 | **MHINDR -- a DSM5 based mental health diagnosis and recommendation framework using LLM** | Vaishali Agarwal, Sachin Thukral, Arnab Chatterjee | [Link](http://arxiv.org/abs/2509.25992) | Not Available |
