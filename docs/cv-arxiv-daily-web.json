@@ -1572,6 +1572,50 @@
             "abstract": "Social recommendation has been proven effective in addressing data sparsity in user-item interaction modeling by leveraging social networks. The recent integration of Graph Neural Networks (GNNs) has further enhanced prediction accuracy in contemporary social recommendation algorithms. However, many GNN-based approaches in social recommendation lack the ability to furnish meaningful explanations for their predictions. In this study, we confront this challenge by introducing SoREX, a self-explanatory GNN-based social recommendation framework. SoREX adopts a two-tower framework enhanced by friend recommendation, independently modeling social relations and user-item interactions, while jointly optimizing an auxiliary task to reinforce social signals. To offer explanations, we propose a novel ego-path extraction approach. This method involves transforming the ego-net of a target user into a collection of multi-hop ego-paths, from which we extract factor-specific and candidate-aware ego-path subsets as explanations. This process facilitates the summarization of detailed comparative explanations among different candidate items through intricate substructure analysis. Furthermore, we conduct explanation re-aggregation to explicitly correlate explanations with downstream predictions, imbuing our framework with inherent self-explainability. Comprehensive experiments conducted on four widely adopted benchmark datasets validate the effectiveness of SoREX in predictive accuracy. Additionally, qualitative and quantitative analyses confirm the efficacy of the extracted explanations in SoREX. Our code and data are available at https://github.com/antman9914/SoREX.",
             "primary_category": "cs.SI",
             "code_url": "null"
+        },
+        "2510.03038": {
+            "title": "CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration",
+            "authors": "Tianqi Liu, Kairui Fu, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu",
+            "first_author": "Tianqi Liu",
+            "url": "http://arxiv.org/abs/2510.03038v1",
+            "pdf_url": "http://arxiv.org/abs/2510.03038",
+            "publish_date": "2025-10-03",
+            "abstract": "With the advancement of mobile device capabilities, deploying reranking models directly on devices has become feasible, enabling real-time contextual recommendations. When migrating models from cloud to devices, resource heterogeneity inevitably necessitates model compression. Recent quantization methods show promise for efficient deployment, yet they overlook device-specific user interests, resulting in compromised recommendation accuracy. While on-device finetuning captures personalized user preference, it imposes additional computational burden through local retraining. To address these challenges, we propose a framework for \\underline{\\textbf{C}}ustomizing \\underline{\\textbf{H}}ybrid-precision \\underline{\\textbf{O}}n-device model for sequential \\underline{\\textbf{R}}ecommendation with \\underline{\\textbf{D}}evice-cloud collaboration (\\textbf{CHORD}), leveraging channel-wise mixed-precision quantization to simultaneously achieve personalization and resource-adaptive deployment. CHORD distributes randomly initialized models across heterogeneous devices and identifies user-specific critical parameters through auxiliary hypernetwork modules on the cloud. Our parameter sensitivity analysis operates across multiple granularities (layer, filter, and element levels), enabling precise mapping from user profiles to quantization strategy. Through on-device mixed-precision quantization, CHORD delivers dynamic model adaptation and accelerated inference without backpropagation, eliminating costly retraining cycles. We minimize communication overhead by encoding quantization strategies using only 2 bits per channel instead of 32-bit weights. Experiments on three real-world datasets with two popular backbones (SASRec and Caser) demonstrate the accuracy, efficiency, and adaptivity of CHORD.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.02656": {
+            "title": "A Simple but Effective Elaborative Query Reformulation Approach for Natural Language Recommendation",
+            "authors": "Qianfeng Wen, Yifan Liu, Justin Cui, Joshua Zhang, Anton Korikov, George-Kirollos Saad, Scott Sanner",
+            "first_author": "Qianfeng Wen",
+            "url": "http://arxiv.org/abs/2510.02656v1",
+            "pdf_url": "http://arxiv.org/abs/2510.02656",
+            "publish_date": "2025-10-03",
+            "abstract": "Natural Language (NL) recommender systems aim to retrieve relevant items from free-form user queries and item descriptions. Existing systems often rely on dense retrieval (DR), which struggles to interpret challenging queries that express broad (e.g., \"cities for youth friendly activities\") or indirect (e.g., \"cities for a high school graduation trip\") user intents. While query reformulation (QR) has been widely adopted to improve such systems, existing QR methods tend to focus only on expanding the range of query subtopics (breadth) or elaborating on the potential meaning of a query (depth), but not both. In this paper, we propose EQR (Elaborative Subtopic Query Reformulation), a large language model-based QR method that combines both breadth and depth by generating potential query subtopics with information-rich elaborations. We also introduce three new natural language recommendation benchmarks in travel, hotel, and restaurant domains to establish evaluation of NL recommendation with challenging queries. Experiments show EQR substantially outperforms state-of-the-art QR methods in various evaluation metrics, highlighting that a simple yet effective QR approach can significantly improve NL recommender systems for queries with broad and indirect user intents.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.02352": {
+            "title": "Evaluating Bias in Spoken Dialogue LLMs for Real-World Decisions and Recommendations",
+            "authors": "Yihao Wu, Tianrui Wang, Yizhou Peng, Yi-Wen Chao, Xuyi Zhuang, Xinsheng Wang, Shunshun Yin, Ziyang Ma",
+            "first_author": "Yihao Wu",
+            "url": "http://arxiv.org/abs/2510.02352v1",
+            "pdf_url": "http://arxiv.org/abs/2510.02352",
+            "publish_date": "2025-09-27",
+            "abstract": "While biases in large language models (LLMs), such as stereotypes and cultural tendencies in outputs, have been examined and identified, their presence and characteristics in spoken dialogue models (SDMs) with audio input and output remain largely unexplored. Paralinguistic features, such as age, gender, and accent, can affect model outputs; when compounded by multi-turn conversations, these effects may exacerbate biases, with potential implications for fairness in decision-making and recommendation tasks. In this paper, we systematically evaluate biases in speech LLMs and study the impact of multi-turn dialogues with repeated negative feedback. Bias is measured using Group Unfairness Score (GUS) for decisions and similarity-based normalized statistics rate (SNSR) for recommendations, across both open-source models like Qwen2.5-Omni and GLM-4-Voice, as well as closed-source APIs such as GPT-4o Audio and Gemini-2.5-Flash. Our analysis reveals that closed-source models generally exhibit lower bias, while open-source models are more sensitive to age and gender, and recommendation tasks tend to amplify cross-group disparities. We found that biased decisions may persist in multi-turn conversations. This work provides the first systematic study of biases in end-to-end spoken dialogue models, offering insights towards fair and reliable audio-based interactive systems. To facilitate further research, we release the FairDialogue dataset and evaluation code.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2510.02331": {
+            "title": "Synthetic Dialogue Generation for Interactive Conversational Elicitation & Recommendation (ICER)",
+            "authors": "Moonkyung Ryu, Chih-Wei Hsu, Yinlam Chow, Mohammad Ghavamzadeh, Craig Boutilier",
+            "first_author": "Moonkyung Ryu",
+            "url": "http://arxiv.org/abs/2510.02331v1",
+            "pdf_url": "http://arxiv.org/abs/2510.02331",
+            "publish_date": "2025-09-26",
+            "abstract": "While language models (LMs) offer great potential for conversational recommender systems (CRSs), the paucity of public CRS data makes fine-tuning LMs for CRSs challenging. In response, LMs as user simulators qua data generators can be used to train LM-based CRSs, but often lack behavioral consistency, generating utterance sequences inconsistent with those of any real user. To address this, we develop a methodology for generating natural dialogues that are consistent with a user's underlying state using behavior simulators together with LM-prompting. We illustrate our approach by generating a large, open-source CRS data set with both preference elicitation and example critiquing. Rater evaluation on some of these dialogues shows them to exhibit considerable consistency, factuality and naturalness.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }

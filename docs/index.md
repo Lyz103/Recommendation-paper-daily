@@ -7,6 +7,10 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-03 | **CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration** | Tianqi Liu, Kairui Fu, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu | [Link](http://arxiv.org/abs/2510.03038) | Not Available |
+| 2025-10-03 | **A Simple but Effective Elaborative Query Reformulation Approach for Natural Language Recommendation** | Qianfeng Wen, Yifan Liu, Justin Cui, Joshua Zhang, Anton Korikov, George-Kirollos Saad, Scott Sanner | [Link](http://arxiv.org/abs/2510.02656) | Not Available |
+| 2025-09-27 | **Evaluating Bias in Spoken Dialogue LLMs for Real-World Decisions and Recommendations** | Yihao Wu, Tianrui Wang, Yizhou Peng, Yi-Wen Chao, Xuyi Zhuang, Xinsheng Wang, Shunshun Yin, Ziyang Ma | [Link](http://arxiv.org/abs/2510.02352) | Not Available |
+| 2025-09-26 | **Synthetic Dialogue Generation for Interactive Conversational Elicitation & Recommendation (ICER)** | Moonkyung Ryu, Chih-Wei Hsu, Yinlam Chow, Mohammad Ghavamzadeh, Craig Boutilier | [Link](http://arxiv.org/abs/2510.02331) | Not Available |
 | 2025-10-02 | **C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems** | Mertcan Cokbas, Ziteng Liu, Zeyi Tao, Elder Veliz, Qin Huang, Ellie Wen, Huayu Li, Qiang Jin, Murat Duman, Benjamin Au, Guy Lebanon, Sagar Chordia, Chengkai Zhang | [Link](http://arxiv.org/abs/2510.02215) | Not Available |
 | 2025-10-02 | **TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling** | Seungheon Doh, Keunwoo Choi, Juhan Nam | [Link](http://arxiv.org/abs/2510.01698) | Not Available |
 | 2025-10-02 | **LLM4Rec: Large Language Models for Multimodal Generative Recommendation with Causal Debiasing** | Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau | [Link](http://arxiv.org/abs/2510.01622) | Not Available |
