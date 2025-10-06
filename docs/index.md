@@ -2,12 +2,12 @@
 layout: default
 ---
 
-## Updated on 2025-10-05
+## Updated on 2025-10-06
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
-| 2025-10-02 | **C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems** | Mertcan Cokbas, Ziteng Liu, Zeyi Tao, Chengkai Zhang, Elder Veliz, Qin Huang, Ellie Wen, Huayu Li, Qiang Jin, Murat Duman, Benjamin Au, Guy Lebanon, Sagar Chordia | [Link](http://arxiv.org/abs/2510.02215) | Not Available |
+| 2025-10-02 | **C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale Recommendation Systems** | Mertcan Cokbas, Ziteng Liu, Zeyi Tao, Elder Veliz, Qin Huang, Ellie Wen, Huayu Li, Qiang Jin, Murat Duman, Benjamin Au, Guy Lebanon, Sagar Chordia, Chengkai Zhang | [Link](http://arxiv.org/abs/2510.02215) | Not Available |
 | 2025-10-02 | **TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling** | Seungheon Doh, Keunwoo Choi, Juhan Nam | [Link](http://arxiv.org/abs/2510.01698) | Not Available |
 | 2025-10-02 | **LLM4Rec: Large Language Models for Multimodal Generative Recommendation with Causal Debiasing** | Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau | [Link](http://arxiv.org/abs/2510.01622) | Not Available |
 | 2025-10-02 | **AgentRec: Next-Generation LLM-Powered Multi-Agent Collaborative Recommendation with Adaptive Intelligence** | Bo Ma, Hang Li, ZeHua Hu, XiaoFan Gui, LuYao Liu, Simon Lau | [Link](http://arxiv.org/abs/2510.01609) | Not Available |
