@@ -1533,7 +1533,7 @@
             "title": "TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling",
             "authors": "Seungheon Doh, Keunwoo Choi, Juhan Nam",
             "first_author": "Seungheon Doh",
-            "url": "http://arxiv.org/abs/2510.01698v1",
+            "url": "http://arxiv.org/abs/2510.01698v2",
             "pdf_url": "http://arxiv.org/abs/2510.01698",
             "publish_date": "2025-10-02",
             "abstract": "While the recent developments in large language models (LLMs) have successfully enabled generative recommenders with natural language interactions, their recommendation behavior is limited, leaving other simpler yet crucial components such as metadata or attribute filtering underutilized in the system. We propose an LLM-based music recommendation system with tool calling to serve as a unified retrieval-reranking pipeline. Our system positions an LLM as an end-to-end recommendation system that interprets user intent, plans tool invocations, and orchestrates specialized components: boolean filters (SQL), sparse retrieval (BM25), dense retrieval (embedding similarity), and generative retrieval (semantic IDs). Through tool planning, the system predicts which types of tools to use, their execution order, and the arguments needed to find music matching user preferences, supporting diverse modalities while seamlessly integrating multiple database filtering methods. We demonstrate that this unified tool-calling framework achieves competitive performance across diverse recommendation scenarios by selectively employing appropriate retrieval methods based on user queries, envisioning a new paradigm for conversational music recommendation systems.",
@@ -1615,6 +1615,94 @@
             "publish_date": "2025-09-26",
             "abstract": "While language models (LMs) offer great potential for conversational recommender systems (CRSs), the paucity of public CRS data makes fine-tuning LMs for CRSs challenging. In response, LMs as user simulators qua data generators can be used to train LM-based CRSs, but often lack behavioral consistency, generating utterance sequences inconsistent with those of any real user. To address this, we develop a methodology for generating natural dialogues that are consistent with a user's underlying state using behavior simulators together with LM-prompting. We illustrate our approach by generating a large, open-source CRS data set with both preference elicitation and example critiquing. Rater evaluation on some of these dialogues shows them to exhibit considerable consistency, factuality and naturalness.",
             "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2510.04551": {
+            "title": "Fine-grained auxiliary learning for real-world product recommendation",
+            "authors": "Mario Almagro, Diego Ortego, David Jimenez",
+            "first_author": "Mario Almagro",
+            "url": "http://arxiv.org/abs/2510.04551v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04551",
+            "publish_date": "2025-10-06",
+            "abstract": "Product recommendation is the task of recovering the closest items to a given query within a large product corpora. Generally, one can determine if top-ranked products are related to the query by applying a similarity threshold; exceeding it deems the product relevant, otherwise manual revision is required. Despite being a well-known problem, the integration of these models in real-world systems is often overlooked. In particular, production systems have strong coverage requirements, i.e., a high proportion of recommendations must be automated. In this paper we propose ALC , an Auxiliary Learning strategy that boosts Coverage through learning fine-grained embeddings. Concretely, we introduce two training objectives that leverage the hardest negatives in the batch to build discriminative training signals between positives and negatives. We validate ALC using three extreme multi-label classification approaches in two product recommendation datasets; LF-AmazonTitles-131K and Tech and Durables (proprietary), demonstrating state-of-the-art coverage rates when combined with a recent threshold-consistent margin loss.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2510.04508": {
+            "title": "MARCO: A Cooperative Knowledge Transfer Framework for Personalized Cross-domain Recommendations",
+            "authors": "Lili Xie, Yi Zhang, Ruihong Qiu, Jiajun Liu, Sen Wang",
+            "first_author": "Lili Xie",
+            "url": "http://arxiv.org/abs/2510.04508v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04508",
+            "publish_date": "2025-10-06",
+            "abstract": "Recommender systems frequently encounter data sparsity issues, particularly when addressing cold-start scenarios involving new users or items. Multi-source cross-domain recommendation (CDR) addresses these challenges by transferring valuable knowledge from multiple source domains to enhance recommendations in a target domain. However, existing reinforcement learning (RL)-based CDR methods typically rely on a single-agent framework, leading to negative transfer issues caused by inconsistent domain contributions and inherent distributional discrepancies among source domains. To overcome these limitations, MARCO, a Multi-Agent Reinforcement Learning-based Cross-Domain recommendation framework, is proposed. It leverages cooperative multi-agent reinforcement learning, where each agent is dedicated to estimating the contribution from an individual source domain, effectively managing credit assignment and mitigating negative transfer. In addition, an entropy-based action diversity penalty is introduced to enhance policy expressiveness and stabilize training by encouraging diverse agents' joint actions. Extensive experiments across four benchmark datasets demonstrate MARCO's superior performance over state-of-the-art methods, highlighting its robustness and strong generalization capabilities. The code is at https://github.com/xiewilliams/MARCO.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.04502": {
+            "title": "Causality-aware Graph Aggregation Weight Estimator for Popularity Debiasing in Top-K Recommendation",
+            "authors": "Yue Que, Yingyi Zhang, Xiangyu Zhao, Chen Ma",
+            "first_author": "Yue Que",
+            "url": "http://arxiv.org/abs/2510.04502v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04502",
+            "publish_date": "2025-10-06",
+            "abstract": "Graph-based recommender systems leverage neighborhood aggregation to generate node representations, which is highly sensitive to popularity bias, resulting in an echo effect during information propagation. Existing graph-based debiasing solutions refine the aggregation process with attempts such as edge reconstruction or weight adjustment. However, these methods remain inadequate in fully alleviating popularity bias. Specifically, this is because 1) they provide no insights into graph aggregation rationality, thus lacking an optimality guarantee; 2) they fail to well balance the training and debiasing process, which undermines the effectiveness. In this paper, we propose a novel approach to mitigate popularity bias through rational modeling of the graph aggregation process. We reveal that graph aggregation is a special form of backdoor adjustment in causal inference, where the aggregation weight corresponds to the historical interaction likelihood distribution. Based on this insight, we devise an encoder-decoder architecture, namely Causality-aware Graph Aggregation Weight Estimator for Debiasing (CAGED), to approximate the unbiased aggregation weight by optimizing the evidence lower bound of the interaction likelihood. In order to enhance the debiasing effectiveness during early training stages, we further design a momentum update strategy that incrementally refines the aggregation weight matrix. Extensive experiments on three datasets demonstrate that CAGED outperforms existing graph-based debiasing methods. Our implementation is available at https://github.com/QueYork/CAGED.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.04375": {
+            "title": "Adaptive Weighted Loss for Sequential Recommendations on Sparse Domains",
+            "authors": "Akshay Mittal, Vinay Venkatesh, Krishna Kandi, Shalini Sudarshan",
+            "first_author": "Akshay Mittal",
+            "url": "http://arxiv.org/abs/2510.04375v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04375",
+            "publish_date": "2025-10-05",
+            "abstract": "The effectiveness of single-model sequential recommendation architectures, while scalable, is often limited when catering to \"power users\" in sparse or niche domains. Our previous research, PinnerFormerLite, addressed this by using a fixed weighted loss to prioritize specific domains. However, this approach can be sub-optimal, as a single, uniform weight may not be sufficient for domains with very few interactions, where the training signal is easily diluted by the vast, generic dataset.   This paper proposes a novel, data-driven approach: a Dynamic Weighted Loss function with comprehensive theoretical foundations and extensive empirical validation. We introduce an adaptive algorithm that adjusts the loss weight for each domain based on its sparsity in the training data, assigning a higher weight to sparser domains and a lower weight to denser ones. This ensures that even rare user interests contribute a meaningful gradient signal, preventing them from being overshadowed.   We provide rigorous theoretical analysis including convergence proofs, complexity analysis, and bounds analysis to establish the stability and efficiency of our approach. Our comprehensive empirical validation across four diverse datasets (MovieLens, Amazon Electronics, Yelp Business, LastFM Music) with state-of-the-art baselines (SIGMA, CALRec, SparseEnNet) demonstrates that this dynamic weighting system significantly outperforms all comparison methods, particularly for sparse domains, achieving substantial lifts in key metrics like Recall at 10 and NDCG at 10 while maintaining performance on denser domains and introducing minimal computational overhead.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.04272": {
+            "title": "Closing the Loop: Coordinating Inventory and Recommendation via Deep Reinforcement Learning on Multiple Timescales",
+            "authors": "Jinyang Jiang, Jinhui Han, Yijie Peng, Ying Zhang",
+            "first_author": "Jinyang Jiang",
+            "url": "http://arxiv.org/abs/2510.04272v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04272",
+            "publish_date": "2025-10-05",
+            "abstract": "Effective cross-functional coordination is essential for enhancing firm-wide profitability, particularly in the face of growing organizational complexity and scale. Recent advances in artificial intelligence, especially in reinforcement learning (RL), offer promising avenues to address this fundamental challenge. This paper proposes a unified multi-agent RL framework tailored for joint optimization across distinct functional modules, exemplified via coordinating inventory replenishment and personalized product recommendation. We first develop an integrated theoretical model to capture the intricate interplay between these functions and derive analytical benchmarks that characterize optimal coordination. The analysis reveals synchronized adjustment patterns across products and over time, highlighting the importance of coordinated decision-making. Leveraging these insights, we design a novel multi-timescale multi-agent RL architecture that decomposes policy components according to departmental functions and assigns distinct learning speeds based on task complexity and responsiveness. Our model-free multi-agent design improves scalability and deployment flexibility, while multi-timescale updates enhance convergence stability and adaptability across heterogeneous decisions. We further establish the asymptotic convergence of the proposed algorithm. Extensive simulation experiments demonstrate that the proposed approach significantly improves profitability relative to siloed decision-making frameworks, while the behaviors of the trained RL agents align closely with the managerial insights from our theoretical model. Taken together, this work provides a scalable, interpretable RL-based solution to enable effective cross-functional coordination in complex business settings.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2510.04239": {
+            "title": "Empowering Denoising Sequential Recommendation with Large Language Model Embeddings",
+            "authors": "Tongzhou Wu, Yuhao Wang, Maolin Wang, Chi Zhang, Xiangyu Zhao",
+            "first_author": "Tongzhou Wu",
+            "url": "http://arxiv.org/abs/2510.04239v1",
+            "pdf_url": "http://arxiv.org/abs/2510.04239",
+            "publish_date": "2025-10-05",
+            "abstract": "Sequential recommendation aims to capture user preferences by modeling sequential patterns in user-item interactions. However, these models are often influenced by noise such as accidental interactions, leading to suboptimal performance. Therefore, to reduce the effect of noise, some works propose explicitly identifying and removing noisy items. However, we find that simply relying on collaborative information may result in an over-denoising problem, especially for cold items. To overcome these limitations, we propose a novel framework: Interest Alignment for Denoising Sequential Recommendation (IADSR) which integrates both collaborative and semantic information. Specifically, IADSR is comprised of two stages: in the first stage, we obtain the collaborative and semantic embeddings of each item from a traditional sequential recommendation model and an LLM, respectively. In the second stage, we align the collaborative and semantic embeddings and then identify noise in the interaction sequence based on long-term and short-term interests captured in the collaborative and semantic modalities. Our extensive experiments on four public datasets validate the effectiveness of the proposed framework and its compatibility with different sequential recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.03930": {
+            "title": "LLM Chemistry Estimation for Multi-LLM Recommendation",
+            "authors": "Huascar Sanchez, Briland Hitaj",
+            "first_author": "Huascar Sanchez",
+            "url": "http://arxiv.org/abs/2510.03930v1",
+            "pdf_url": "http://arxiv.org/abs/2510.03930",
+            "publish_date": "2025-10-04",
+            "abstract": "Multi-LLM collaboration promises accurate, robust, and context-aware solutions, yet existing approaches rely on implicit selection and output assessment without analyzing whether collaborating models truly complement or conflict. We introduce LLM Chemistry -- a framework that measures when LLM combinations exhibit synergistic or antagonistic behaviors that shape collective performance beyond individual capabilities. We formalize the notion of chemistry among LLMs, propose algorithms that quantify it by analyzing interaction dependencies, and recommend optimal model ensembles accordingly. Our theoretical analysis shows that chemistry among collaborating LLMs is most evident under heterogeneous model profiles, with its outcome impact shaped by task type, group size, and complexity. Evaluation on classification, summarization, and program repair tasks provides initial evidence for these task-dependent effects, thereby reinforcing our theoretical results. This establishes LLM Chemistry as both a diagnostic factor in multi-LLM systems and a foundation for ensemble recommendation.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.03350": {
+            "title": "How does course recommendation impact student outcomes? Examining directed self-placement with regression discontinuity analysis",
+            "authors": "Jason Godfrey",
+            "first_author": "Jason Godfrey",
+            "url": "http://arxiv.org/abs/2510.03350v1",
+            "pdf_url": "http://arxiv.org/abs/2510.03350",
+            "publish_date": "2025-10-02",
+            "abstract": "For many students, placement into developmental education becomes a self-fulfilling prophecy. Placing college students into developmental education significantly negatively impacts student attainment, student probability of passing, and college credits earned. To combat these negative effects, many universities are investigating alternative placement mechanisms. Could directed self-placement be an effective alternative mechanism? Do students who self-place suffer the same negative impacts from placement recommendations as their traditionally placed counterparts? This paper uses longitudinal data with causal inference methods to examine whether directed self-placement has similar negative impacts on student grades and pass rates as mandatory placement schema. We begin with an analysis of over 20,000 student placement records into one of two different placement tracks for first-year writing. Longitudinal and institutional data allow us to control for characteristic variables such as student race, family income, and sex. The results of our regression discontinuity design show that directed self-placement does not negatively impact student grades or pass rate. This may be an improvement for students who place at or near the threshold for developmental/remedial education; However, class, race, and gender-based statistical differences persist in the program at-large, demonstrating that placement technique plays only one part in building a more equitable program.",
+            "primary_category": "econ.GN",
             "code_url": "null"
         }
     }

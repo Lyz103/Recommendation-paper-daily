@@ -10,6 +10,14 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-06 | **Fine-grained auxiliary learning for real-world product recommendation** | Mario Almagro, Diego Ortego, David Jimenez | [Link](http://arxiv.org/abs/2510.04551) | Not Available |
+| 2025-10-06 | **MARCO: A Cooperative Knowledge Transfer Framework for Personalized Cross-domain Recommendations** | Lili Xie, Yi Zhang, Ruihong Qiu, Jiajun Liu, Sen Wang | [Link](http://arxiv.org/abs/2510.04508) | Not Available |
+| 2025-10-06 | **Causality-aware Graph Aggregation Weight Estimator for Popularity Debiasing in Top-K Recommendation** | Yue Que, Yingyi Zhang, Xiangyu Zhao, Chen Ma | [Link](http://arxiv.org/abs/2510.04502) | Not Available |
+| 2025-10-05 | **Adaptive Weighted Loss for Sequential Recommendations on Sparse Domains** | Akshay Mittal, Vinay Venkatesh, Krishna Kandi, Shalini Sudarshan | [Link](http://arxiv.org/abs/2510.04375) | Not Available |
+| 2025-10-05 | **Closing the Loop: Coordinating Inventory and Recommendation via Deep Reinforcement Learning on Multiple Timescales** | Jinyang Jiang, Jinhui Han, Yijie Peng, Ying Zhang | [Link](http://arxiv.org/abs/2510.04272) | Not Available |
+| 2025-10-05 | **Empowering Denoising Sequential Recommendation with Large Language Model Embeddings** | Tongzhou Wu, Yuhao Wang, Maolin Wang, Chi Zhang, Xiangyu Zhao | [Link](http://arxiv.org/abs/2510.04239) | Not Available |
+| 2025-10-04 | **LLM Chemistry Estimation for Multi-LLM Recommendation** | Huascar Sanchez, Briland Hitaj | [Link](http://arxiv.org/abs/2510.03930) | Not Available |
+| 2025-10-02 | **How does course recommendation impact student outcomes? Examining directed self-placement with regression discontinuity analysis** | Jason Godfrey | [Link](http://arxiv.org/abs/2510.03350) | Not Available |
 | 2025-10-03 | **CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration** | Tianqi Liu, Kairui Fu, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu | [Link](http://arxiv.org/abs/2510.03038) | Not Available |
 | 2025-10-03 | **A Simple but Effective Elaborative Query Reformulation Approach for Natural Language Recommendation** | Qianfeng Wen, Yifan Liu, Justin Cui, Joshua Zhang, Anton Korikov, George-Kirollos Saad, Scott Sanner | [Link](http://arxiv.org/abs/2510.02656) | Not Available |
 | 2025-09-27 | **Evaluating Bias in Spoken Dialogue LLMs for Real-World Decisions and Recommendations** | Yihao Wu, Tianrui Wang, Yizhou Peng, Yi-Wen Chao, Xuyi Zhuang, Xinsheng Wang, Shunshun Yin, Ziyang Ma | [Link](http://arxiv.org/abs/2510.02352) | Not Available |
