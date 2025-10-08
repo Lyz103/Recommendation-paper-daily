@@ -1704,6 +1704,50 @@
             "abstract": "For many students, placement into developmental education becomes a self-fulfilling prophecy. Placing college students into developmental education significantly negatively impacts student attainment, student probability of passing, and college credits earned. To combat these negative effects, many universities are investigating alternative placement mechanisms. Could directed self-placement be an effective alternative mechanism? Do students who self-place suffer the same negative impacts from placement recommendations as their traditionally placed counterparts? This paper uses longitudinal data with causal inference methods to examine whether directed self-placement has similar negative impacts on student grades and pass rates as mandatory placement schema. We begin with an analysis of over 20,000 student placement records into one of two different placement tracks for first-year writing. Longitudinal and institutional data allow us to control for characteristic variables such as student race, family income, and sex. The results of our regression discontinuity design show that directed self-placement does not negatively impact student grades or pass rate. This may be an improvement for students who place at or near the threshold for developmental/remedial education; However, class, race, and gender-based statistical differences persist in the program at-large, demonstrating that placement technique plays only one part in building a more equitable program.",
             "primary_category": "econ.GN",
             "code_url": "null"
+        },
+        "2510.06078": {
+            "title": "Constraint-Aware Route Recommendation from Natural Language via Hierarchical LLM Agents",
+            "authors": "Tao Zhe, Rui Liu, Fateme Memar, Xiao Luo, Wei Fan, Xinyue Ye, Zhongren Peng, Dongjie Wang",
+            "first_author": "Tao Zhe",
+            "url": "http://arxiv.org/abs/2510.06078v1",
+            "pdf_url": "http://arxiv.org/abs/2510.06078",
+            "publish_date": "2025-10-07",
+            "abstract": "Route recommendation aims to provide users with optimal travel plans that satisfy diverse and complex requirements. Classical routing algorithms (e.g., shortest-path and constraint-aware search) are efficient but assume structured inputs and fixed objectives, limiting adaptability to natural-language queries. Recent LLM-based approaches enhance flexibility but struggle with spatial reasoning and the joint modeling of route-level and POI-level preferences. To address these limitations, we propose RouteLLM, a hierarchical multi-agent framework that grounds natural-language intents into constraint-aware routes. It first parses user queries into structured intents including POIs, paths, and constraints. A manager agent then coordinates specialized sub-agents: a constraint agent that resolves and formally check constraints, a POI agent that retrieves and ranks candidate POIs, and a path refinement agent that refines routes via a routing engine with preference-conditioned costs. A final verifier agent ensures constraint satisfaction and produces the final route with an interpretable rationale. This design bridges linguistic flexibility and spatial structure, enabling reasoning over route feasibility and user preferences. Experiments show that our method reliably grounds textual preferences into constraint-aware routes, improving route quality and preference satisfaction over classical methods.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2510.05598": {
+            "title": "AgentDR Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents",
+            "authors": "Mingdai Yang, Nurendra Choudhary, Jiangshu Du, Edward W. Huang, Philip S. Yu, Karthik Subbian, Danai Kourta",
+            "first_author": "Mingdai Yang",
+            "url": "http://arxiv.org/abs/2510.05598v1",
+            "pdf_url": "http://arxiv.org/abs/2510.05598",
+            "publish_date": "2025-10-07",
+            "abstract": "Recent agent-based recommendation frameworks aim to simulate user behaviors by incorporating memory mechanisms and prompting strategies, but they struggle with hallucinating non-existent items and full-catalog ranking. Besides, a largely underexplored opportunity lies in leveraging LLMs'commonsense reasoning to capture user intent through substitute and complement relationships between items, which are usually implicit in datasets and difficult for traditional ID-based recommenders to capture. In this work, we propose a novel LLM-agent framework, AgenDR, which bridges LLM reasoning with scalable recommendation tools. Our approach delegates full-ranking tasks to traditional models while utilizing LLMs to (i) integrate multiple recommendation outputs based on personalized tool suitability and (ii) reason over substitute and complement relationships grounded in user history. This design mitigates hallucination, scales to large catalogs, and enhances recommendation relevance through relational reasoning. Through extensive experiments on three public grocery datasets, we show that our framework achieves superior full-ranking performance, yielding on average a twofold improvement over its underlying tools. We also introduce a new LLM-based evaluation metric that jointly measures semantic alignment and ranking correctness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.05495": {
+            "title": "Automated Research Article Classification and Recommendation Using NLP and ML",
+            "authors": "Shadikur Rahman, Hasibul Karim Shanto, Umme Ayman Koana, Syed Muhammad Danish",
+            "first_author": "Shadikur Rahman",
+            "url": "http://arxiv.org/abs/2510.05495v1",
+            "pdf_url": "http://arxiv.org/abs/2510.05495",
+            "publish_date": "2025-10-07",
+            "abstract": "In the digital era, the exponential growth of scientific publications has made it increasingly difficult for researchers to efficiently identify and access relevant work. This paper presents an automated framework for research article classification and recommendation that leverages Natural Language Processing (NLP) techniques and machine learning. Using a large-scale arXiv.org dataset spanning more than three decades, we evaluate multiple feature extraction approaches (TF--IDF, Count Vectorizer, Sentence-BERT, USE, Mirror-BERT) in combination with diverse machine learning classifiers (Logistic Regression, SVM, Na\\\"ive Bayes, Random Forest, Gradient Boosted Trees, and k-Nearest Neighbour). Our experiments show that Logistic Regression with TF--IDF consistently yields the best classification performance, achieving an accuracy of 69\\%. To complement classification, we incorporate a recommendation module based on the cosine similarity of vectorized articles, enabling efficient retrieval of related research papers. The proposed system directly addresses the challenge of information overload in digital libraries and demonstrates a scalable, data-driven solution to support literature discovery.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.05125": {
+            "title": "Catalog-Native LLM: Speaking Item-ID Dialect with Less Entanglement for Recommendation",
+            "authors": "Reza Shirkavand, Xiaokai Wei, Chen Wang, Zheng Hui, Heng Huang, Michelle Gong",
+            "first_author": "Reza Shirkavand",
+            "url": "http://arxiv.org/abs/2510.05125v1",
+            "pdf_url": "http://arxiv.org/abs/2510.05125",
+            "publish_date": "2025-09-30",
+            "abstract": "While collaborative filtering delivers predictive accuracy and efficiency, and Large Language Models (LLMs) enable expressive and generalizable reasoning, modern recommendation systems must bring these strengths together. Growing user expectations, such as natural-language queries and transparent explanations, further highlight the need for a unified approach. However, doing so is nontrivial. Collaborative signals are often token-efficient but semantically opaque, while LLMs are semantically rich but struggle to model implicit user preferences when trained only on textual inputs. This paper introduces Item-ID + Oral-language Mixture-of-Experts Language Model (IDIOMoE), which treats item interaction histories as a native dialect within the language space, enabling collaborative signals to be understood in the same way as natural language. By splitting the Feed Forward Network of each block of a pretrained LLM into a separate text expert and an item expert with token-type gating, our method avoids destructive interference between text and catalog modalities. IDIOMoE demonstrates strong recommendation performance across both public and proprietary datasets, while preserving the text understanding of the pretrained model.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }

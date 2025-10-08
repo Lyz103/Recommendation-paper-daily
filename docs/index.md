@@ -2,11 +2,15 @@
 layout: default
 ---
 
-## Updated on 2025-10-07
+## Updated on 2025-10-08
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-07 | **Constraint-Aware Route Recommendation from Natural Language via Hierarchical LLM Agents** | Tao Zhe, Rui Liu, Fateme Memar, Xiao Luo, Wei Fan, Xinyue Ye, Zhongren Peng, Dongjie Wang | [Link](http://arxiv.org/abs/2510.06078) | Not Available |
+| 2025-10-07 | **AgentDR Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents** | Mingdai Yang, Nurendra Choudhary, Jiangshu Du, Edward W. Huang, Philip S. Yu, Karthik Subbian, Danai Kourta | [Link](http://arxiv.org/abs/2510.05598) | Not Available |
+| 2025-10-07 | **Automated Research Article Classification and Recommendation Using NLP and ML** | Shadikur Rahman, Hasibul Karim Shanto, Umme Ayman Koana, Syed Muhammad Danish | [Link](http://arxiv.org/abs/2510.05495) | Not Available |
+| 2025-09-30 | **Catalog-Native LLM: Speaking Item-ID Dialect with Less Entanglement for Recommendation** | Reza Shirkavand, Xiaokai Wei, Chen Wang, Zheng Hui, Heng Huang, Michelle Gong | [Link](http://arxiv.org/abs/2510.05125) | Not Available |
 | 2025-10-06 | **Fine-grained auxiliary learning for real-world product recommendation** | Mario Almagro, Diego Ortego, David Jimenez | [Link](http://arxiv.org/abs/2510.04551) | Not Available |
 | 2025-10-06 | **MARCO: A Cooperative Knowledge Transfer Framework for Personalized Cross-domain Recommendations** | Lili Xie, Yi Zhang, Ruihong Qiu, Jiajun Liu, Sen Wang | [Link](http://arxiv.org/abs/2510.04508) | Not Available |
 | 2025-10-06 | **Causality-aware Graph Aggregation Weight Estimator for Popularity Debiasing in Top-K Recommendation** | Yue Que, Yingyi Zhang, Xiangyu Zhao, Chen Ma | [Link](http://arxiv.org/abs/2510.04502) | Not Available |
