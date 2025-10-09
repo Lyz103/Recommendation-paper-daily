@@ -1533,7 +1533,7 @@
             "title": "TalkPlay-Tools: Conversational Music Recommendation with LLM Tool Calling",
             "authors": "Seungheon Doh, Keunwoo Choi, Juhan Nam",
             "first_author": "Seungheon Doh",
-            "url": "http://arxiv.org/abs/2510.01698v2",
+            "url": "http://arxiv.org/abs/2510.01698v3",
             "pdf_url": "http://arxiv.org/abs/2510.01698",
             "publish_date": "2025-10-02",
             "abstract": "While the recent developments in large language models (LLMs) have successfully enabled generative recommenders with natural language interactions, their recommendation behavior is limited, leaving other simpler yet crucial components such as metadata or attribute filtering underutilized in the system. We propose an LLM-based music recommendation system with tool calling to serve as a unified retrieval-reranking pipeline. Our system positions an LLM as an end-to-end recommendation system that interprets user intent, plans tool invocations, and orchestrates specialized components: boolean filters (SQL), sparse retrieval (BM25), dense retrieval (embedding similarity), and generative retrieval (semantic IDs). Through tool planning, the system predicts which types of tools to use, their execution order, and the arguments needed to find music matching user preferences, supporting diverse modalities while seamlessly integrating multiple database filtering methods. We demonstrate that this unified tool-calling framework achieves competitive performance across diverse recommendation scenarios by selectively employing appropriate retrieval methods based on user queries, envisioning a new paradigm for conversational music recommendation systems.",
