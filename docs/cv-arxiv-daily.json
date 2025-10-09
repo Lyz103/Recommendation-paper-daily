@@ -1748,6 +1748,39 @@
             "abstract": "While collaborative filtering delivers predictive accuracy and efficiency, and Large Language Models (LLMs) enable expressive and generalizable reasoning, modern recommendation systems must bring these strengths together. Growing user expectations, such as natural-language queries and transparent explanations, further highlight the need for a unified approach. However, doing so is nontrivial. Collaborative signals are often token-efficient but semantically opaque, while LLMs are semantically rich but struggle to model implicit user preferences when trained only on textual inputs. This paper introduces Item-ID + Oral-language Mixture-of-Experts Language Model (IDIOMoE), which treats item interaction histories as a native dialect within the language space, enabling collaborative signals to be understood in the same way as natural language. By splitting the Feed Forward Network of each block of a pretrained LLM into a separate text expert and an item expert with token-type gating, our method avoids destructive interference between text and catalog modalities. IDIOMoE demonstrates strong recommendation performance across both public and proprietary datasets, while preserving the text understanding of the pretrained model.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2510.06924": {
+            "title": "Ethical AI prompt recommendations in large language models using collaborative filtering",
+            "authors": "Jordan Nelson, Almas Baimagambetov, Konstantinos Avgerinakis, Nikolaos Polatidis",
+            "first_author": "Jordan Nelson",
+            "url": "http://arxiv.org/abs/2510.06924v1",
+            "pdf_url": "http://arxiv.org/abs/2510.06924",
+            "publish_date": "2025-10-08",
+            "abstract": "As large language models (LLMs) shape AI development, ensuring ethical prompt recommendations is crucial. LLMs offer innovation but risk bias, fairness issues, and accountability concerns. Traditional oversight methods struggle with scalability, necessitating dynamic solutions. This paper proposes using collaborative filtering, a technique from recommendation systems, to enhance ethical prompt selection. By leveraging user interactions, it promotes ethical guidelines while reducing bias. Contributions include a synthetic dataset for prompt recommendations and the application of collaborative filtering. The work also tackles challenges in ethical AI, such as bias mitigation, transparency, and preventing unethical prompt engineering.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.06657": {
+            "title": "LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations",
+            "authors": "Boyuan Long, Yueqi Wang, Hiloni Mehta, Mick Zomnir, Omkar Pathak, Changping Meng, Ruolin Jia, Yajun Peng, Dapeng Hong, Xia Wu, Mingyan Gao, Onkar Dalal, Ningren Han",
+            "first_author": "Boyuan Long",
+            "url": "http://arxiv.org/abs/2510.06657v1",
+            "pdf_url": "http://arxiv.org/abs/2510.06657",
+            "publish_date": "2025-10-08",
+            "abstract": "This paper presents a case study on deploying Large Language Models (LLMs) as an advanced \"annotation\" mechanism to achieve nuanced content understanding (e.g., discerning content \"vibe\") at scale within a large-scale industrial short-form video recommendation system. Traditional machine learning classifiers for content understanding face protracted development cycles and a lack of deep, nuanced comprehension. The \"LLM-as-annotators\" approach addresses these by significantly shortening development times and enabling the annotation of subtle attributes. This work details an end-to-end workflow encompassing: (1) iterative definition and robust evaluation of target attributes, refined by offline metrics and online A/B testing; (2) scalable offline bulk annotation of video corpora using LLMs with multimodal features, optimized inference, and knowledge distillation for broad application; and (3) integration of these rich annotations into the online recommendation serving system, for example, through personalized restrict retrieval. Experimental results demonstrate the efficacy of this approach, with LLMs outperforming human raters in offline annotation quality for nuanced attributes and yielding significant improvements of user participation and satisfied consumption in online A/B tests. The study provides insights into designing and scaling production-level LLM pipelines for rich content evaluation, highlighting the adaptability and benefits of LLM-generated nuanced understanding for enhancing content discovery, user satisfaction, and the overall effectiveness of modern recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.06275": {
+            "title": "Reproducibility Study of \"XRec: Large Language Models for Explainable Recommendation\"",
+            "authors": "Ranjan Mishra, Julian I. Bibo, Quinten van Engelen, Henk Schaapman",
+            "first_author": "Ranjan Mishra",
+            "url": "http://arxiv.org/abs/2510.06275v1",
+            "pdf_url": "http://arxiv.org/abs/2510.06275",
+            "publish_date": "2025-10-06",
+            "abstract": "In this study, we reproduced the work done in the paper \"XRec: Large Language Models for Explainable Recommendation\" by Ma et al. (2024). The original authors introduced XRec, a model-agnostic collaborative instruction-tuning framework that enables large language models (LLMs) to provide users with comprehensive explanations of generated recommendations. Our objective was to replicate the results of the original paper, albeit using Llama 3 as the LLM for evaluation instead of GPT-3.5-turbo. We built on the source code provided by Ma et al. (2024) to achieve our goal. Our work extends the original paper by modifying the input embeddings or deleting the output embeddings of XRec's Mixture of Experts module. Based on our results, XRec effectively generates personalized explanations and its stability is improved by incorporating collaborative information. However, XRec did not consistently outperform all baseline models in every metric. Our extended analysis further highlights the importance of the Mixture of Experts embeddings in shaping the explanation structures, showcasing how collaborative signals interact with language modeling. Through our work, we provide an open-source evaluation implementation that enhances accessibility for researchers and practitioners alike. Our complete code repository can be found at https://github.com/julianbibo/xrec-reproducibility.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }

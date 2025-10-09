@@ -7,6 +7,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-08 | **Ethical AI prompt recommendations in large language models using collaborative filtering** | Jordan Nelson, Almas Baimagambetov, Konstantinos Avgerinakis, Nikolaos Polatidis | [Link](http://arxiv.org/abs/2510.06924) | Not Available |
+| 2025-10-08 | **LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations** | Boyuan Long, Yueqi Wang, Hiloni Mehta, Mick Zomnir, Omkar Pathak, Changping Meng, Ruolin Jia, Yajun Peng, Dapeng Hong, Xia Wu, Mingyan Gao, Onkar Dalal, Ningren Han | [Link](http://arxiv.org/abs/2510.06657) | Not Available |
+| 2025-10-06 | **Reproducibility Study of "XRec: Large Language Models for Explainable Recommendation"** | Ranjan Mishra, Julian I. Bibo, Quinten van Engelen, Henk Schaapman | [Link](http://arxiv.org/abs/2510.06275) | Not Available |
 | 2025-10-07 | **Constraint-Aware Route Recommendation from Natural Language via Hierarchical LLM Agents** | Tao Zhe, Rui Liu, Fateme Memar, Xiao Luo, Wei Fan, Xinyue Ye, Zhongren Peng, Dongjie Wang | [Link](http://arxiv.org/abs/2510.06078) | Not Available |
 | 2025-10-07 | **AgentDR Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents** | Mingdai Yang, Nurendra Choudhary, Jiangshu Du, Edward W. Huang, Philip S. Yu, Karthik Subbian, Danai Kourta | [Link](http://arxiv.org/abs/2510.05598) | Not Available |
 | 2025-10-07 | **Automated Research Article Classification and Recommendation Using NLP and ML** | Shadikur Rahman, Hasibul Karim Shanto, Umme Ayman Koana, Syed Muhammad Danish | [Link](http://arxiv.org/abs/2510.05495) | Not Available |
