@@ -1781,6 +1781,50 @@
             "abstract": "In this study, we reproduced the work done in the paper \"XRec: Large Language Models for Explainable Recommendation\" by Ma et al. (2024). The original authors introduced XRec, a model-agnostic collaborative instruction-tuning framework that enables large language models (LLMs) to provide users with comprehensive explanations of generated recommendations. Our objective was to replicate the results of the original paper, albeit using Llama 3 as the LLM for evaluation instead of GPT-3.5-turbo. We built on the source code provided by Ma et al. (2024) to achieve our goal. Our work extends the original paper by modifying the input embeddings or deleting the output embeddings of XRec's Mixture of Experts module. Based on our results, XRec effectively generates personalized explanations and its stability is improved by incorporating collaborative information. However, XRec did not consistently outperform all baseline models in every metric. Our extended analysis further highlights the importance of the Mixture of Experts embeddings in shaping the explanation structures, showcasing how collaborative signals interact with language modeling. Through our work, we provide an open-source evaluation implementation that enhances accessibility for researchers and practitioners alike. Our complete code repository can be found at https://github.com/julianbibo/xrec-reproducibility.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2510.08012": {
+            "title": "Do We Really Need SFT? Prompt-as-Policy over Knowledge Graphs for Cold-start Next POI Recommendation",
+            "authors": "Jinze Wang, Lu Zhang, Yiyang Cui, Zhishu Shen, Xingjun Ma, Jiong Jin, Tiehua Zhang",
+            "first_author": "Jinze Wang",
+            "url": "http://arxiv.org/abs/2510.08012v1",
+            "pdf_url": "http://arxiv.org/abs/2510.08012",
+            "publish_date": "2025-10-09",
+            "abstract": "Next point-of-interest (POI) recommendation is crucial for smart urban services such as tourism, dining, and transportation, yet most approaches struggle under cold-start conditions where user-POI interactions are sparse. Recent efforts leveraging large language models (LLMs) address this challenge through either supervised fine-tuning (SFT) or in-context learning (ICL). However, SFT demands costly annotations and fails to generalize to inactive users, while static prompts in ICL cannot adapt to diverse user contexts. To overcome these limitations, we propose Prompt-as-Policy over knowledge graphs, a reinforcement-guided prompting framework that learns to construct prompts dynamically through contextual bandit optimization. Our method treats prompt construction as a learnable policy that adaptively determines (i) which relational evidences to include, (ii) the number of evidence per candidate, and (iii) their organization and ordering within prompts. More specifically, we construct a knowledge graph (KG) to discover candidates and mine relational paths, which are transformed into evidence cards that summarize rationales for each candidate POI. The frozen LLM then acts as a reasoning engine, generating recommendations from the KG-discovered candidate set based on the policy-optimized prompts. Experiments on three real-world datasets demonstrate that Prompt-as-Policy consistently outperforms state-of-the-art baselines, achieving average 7.7\\% relative improvements in Acc@1 for inactive users, while maintaining competitive performance on active users, without requiring model fine-tuning.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2510.07910": {
+            "title": "MMM: Quantum-Chemical Molecular Representation Learning for Combinatorial Drug Recommendation",
+            "authors": "Chongmyung Kwon, Yujin Kim, Seoeun Park, Yunji Lee, Charmgil Hong",
+            "first_author": "Chongmyung Kwon",
+            "url": "http://arxiv.org/abs/2510.07910v1",
+            "pdf_url": "http://arxiv.org/abs/2510.07910",
+            "publish_date": "2025-10-09",
+            "abstract": "Drug recommendation is an essential task in machine learning-based clinical decision support systems. However, the risk of drug-drug interactions (DDI) between co-prescribed medications remains a significant challenge. Previous studies have used graph neural networks (GNNs) to represent drug structures. Regardless, their simplified discrete forms cannot fully capture the molecular binding affinity and reactivity. Therefore, we propose Multimodal DDI Prediction with Molecular Electron Localization Function (ELF) Maps (MMM), a novel framework that integrates three-dimensional (3D) quantum-chemical information into drug representation learning. It generates 3D electron density maps using the ELF. To capture both therapeutic relevance and interaction risks, MMM combines ELF-derived features that encode global electronic properties with a bipartite graph encoder that models local substructure interactions. This design enables learning complementary characteristics of drug molecules. We evaluate MMM in the MIMIC-III dataset (250 drugs, 442 substructures), comparing it with several baseline models. In particular, a comparison with the GNN-based SafeDrug model demonstrates statistically significant improvements in the F1-score (p = 0.0387), Jaccard (p = 0.0112), and the DDI rate (p = 0.0386). These results demonstrate the potential of ELF-based 3D representations to enhance prediction accuracy and support safer combinatorial drug prescribing in clinical practice.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.07784": {
+            "title": "PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations",
+            "authors": "Ruining He, Lukasz Heldt, Lichan Hong, Raghunandan Keshavan, Shifan Mao, Nikhil Mehta, Zhengyang Su, Alicia Tsai, Yueqi Wang, Shao-Chuan Wang, Xinyang Yi, Lexi Baugher, Baykal Cakici, Ed Chi, Cristos Goodrow, Ningren Han, He Ma, Romer Rosales, Abby Van Soest, Devansh Tandon, Su-Lin Wu, Weilong Yang, Yilin Zheng",
+            "first_author": "Ruining He",
+            "url": "http://arxiv.org/abs/2510.07784v1",
+            "pdf_url": "http://arxiv.org/abs/2510.07784",
+            "publish_date": "2025-10-09",
+            "abstract": "Large Language Models (LLMs) pose a new paradigm of modeling and computation for information tasks. Recommendation systems are a critical application domain poised to benefit significantly from the sequence modeling capabilities and world knowledge inherent in these large models. In this paper, we introduce PLUM, a framework designed to adapt pre-trained LLMs for industry-scale recommendation tasks. PLUM consists of item tokenization using Semantic IDs, continued pre-training (CPT) on domain-specific data, and task-specific fine-tuning for recommendation objectives. For fine-tuning, we focus particularly on generative retrieval, where the model is directly trained to generate Semantic IDs of recommended items based on user context. We conduct comprehensive experiments on large-scale internal video recommendation datasets. Our results demonstrate that PLUM achieves substantial improvements for retrieval compared to a heavily-optimized production model built with large embedding tables. We also present a scaling study for the model's retrieval performance, our learnings about CPT, a few enhancements to Semantic IDs, along with an overview of the training and inference methods that enable launching this framework to billions of users in YouTube.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.07621": {
+            "title": "Retentive Relevance: Capturing Long-Term User Value in Recommendation Systems",
+            "authors": "Saeideh Bakhshi, Phuong Mai Nguyen, Robert Schiller, Tiantian Xu, Pawan Kodandapani, Andrew Levine, Cayman Simpson, Qifan Wang",
+            "first_author": "Saeideh Bakhshi",
+            "url": "http://arxiv.org/abs/2510.07621v1",
+            "pdf_url": "http://arxiv.org/abs/2510.07621",
+            "publish_date": "2025-10-08",
+            "abstract": "Recommendation systems have traditionally relied on short-term engagement signals, such as clicks and likes, to personalize content. However, these signals are often noisy, sparse, and insufficient for capturing long-term user satisfaction and retention. We introduce Retentive Relevance, a novel content-level survey-based feedback measure that directly assesses users' intent to return to the platform for similar content. Unlike other survey measures that focus on immediate satisfaction, Retentive Relevance targets forward-looking behavioral intentions, capturing longer term user intentions and providing a stronger predictor of retention. We validate Retentive Relevance using psychometric methods, establishing its convergent, discriminant, and behavioral validity. Through large-scale offline modeling, we show that Retentive Relevance significantly outperforms both engagement signals and other survey measures in predicting next-day retention, especially for users with limited historical engagement. We develop a production-ready proxy model that integrates Retentive Relevance into the final stage of a multi-stage ranking system on a social media platform. Calibrated score adjustments based on this model yield substantial improvements in engagement, and retention, while reducing exposure to low-quality content, as demonstrated by large-scale A/B experiments. This work provides the first empirically validated framework linking content-level user perceptions to retention outcomes in production systems. We offer a scalable, user-centered solution that advances both platform growth and user experience. Our work has broad implications for responsible AI development.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

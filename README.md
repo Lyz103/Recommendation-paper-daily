@@ -1,4 +1,4 @@
-## Updated on 2025-10-10
+## Updated on 2025-10-11
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-09 | **Do We Really Need SFT? Prompt-as-Policy over Knowledge Graphs for Cold-start Next POI Recommendation** | Jinze Wang, Lu Zhang, Yiyang Cui, Zhishu Shen, Xingjun Ma, Jiong Jin, Tiehua Zhang | [Link](http://arxiv.org/abs/2510.08012) | Not Available |
+| 2025-10-09 | **MMM: Quantum-Chemical Molecular Representation Learning for Combinatorial Drug Recommendation** | Chongmyung Kwon, Yujin Kim, Seoeun Park, Yunji Lee, Charmgil Hong | [Link](http://arxiv.org/abs/2510.07910) | Not Available |
+| 2025-10-09 | **PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations** | Ruining He, Lukasz Heldt, Lichan Hong, Raghunandan Keshavan, Shifan Mao, Nikhil Mehta, Zhengyang Su, Alicia Tsai, Yueqi Wang, Shao-Chuan Wang, Xinyang Yi, Lexi Baugher, Baykal Cakici, Ed Chi, Cristos Goodrow, Ningren Han, He Ma, Romer Rosales, Abby Van Soest, Devansh Tandon, Su-Lin Wu, Weilong Yang, Yilin Zheng | [Link](http://arxiv.org/abs/2510.07784) | Not Available |
+| 2025-10-08 | **Retentive Relevance: Capturing Long-Term User Value in Recommendation Systems** | Saeideh Bakhshi, Phuong Mai Nguyen, Robert Schiller, Tiantian Xu, Pawan Kodandapani, Andrew Levine, Cayman Simpson, Qifan Wang | [Link](http://arxiv.org/abs/2510.07621) | Not Available |
 | 2025-10-08 | **Ethical AI prompt recommendations in large language models using collaborative filtering** | Jordan Nelson, Almas Baimagambetov, Konstantinos Avgerinakis, Nikolaos Polatidis | [Link](http://arxiv.org/abs/2510.06924) | Not Available |
 | 2025-10-08 | **LLM-Powered Nuanced Video Attribute Annotation for Enhanced Recommendations** | Boyuan Long, Yueqi Wang, Hiloni Mehta, Mick Zomnir, Omkar Pathak, Changping Meng, Ruolin Jia, Yajun Peng, Dapeng Hong, Xia Wu, Mingyan Gao, Onkar Dalal, Ningren Han | [Link](http://arxiv.org/abs/2510.06657) | Not Available |
 | 2025-10-06 | **Reproducibility Study of "XRec: Large Language Models for Explainable Recommendation"** | Ranjan Mishra, Julian I. Bibo, Quinten van Engelen, Henk Schaapman | [Link](http://arxiv.org/abs/2510.06275) | Not Available |
