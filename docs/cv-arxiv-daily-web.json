@@ -1891,6 +1891,127 @@
             "abstract": "Large Language Models (LLMs) have advanced recommendation capabilities through enhanced reasoning, but pose significant challenges for real-world deployment due to high inference costs. Conversely, while Small Language Models (SLMs) offer an efficient alternative, their reasoning capabilities for recommendation remain underexplored. Existing systems often use natural language rationales merely as unsupervised descriptive text, failing to harness their full potential as learning signals. In this work our main idea is to create a common understanding of user and items across multiple domains called Thought Space with SLMs instead of using LLMs' distilled knowledge. To that end we propose PULSE (Preference Understanding by Latent Semantic Embeddings), a framework that treats SLM-generated rationales as director learning signals, supervising them with interaction histories to jointly model user actions (what) and their semantic drivers (why). Existing methods consider only interactions such as sequences and embeddings, whereas PULSE treats rationales as first-class signals, this novel design yields embeddings that are more robust and generalizable. Extensive experiments demonstrate that PULSE outperforms leading ID, Collaborative Filtering (CF), and LLM-based sequential recommendation models across multiple benchmark datasets. Furthermore, PULSE exhibits superior transferability in cross-domain recommendation and demonstrates strong performance on downstream tasks such as reasoning-oriented question answering. Our code is available \\href{https://anonymous.4open.science/r/Thinking_PULSE-0FC5/README.md}{here}.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2510.11639": {
+            "title": "OneRec-Think: In-Text Reasoning for Generative Recommendation",
+            "authors": "Zhanyu Liu, Shiyao Wang, Xingmei Wang, Rongzhou Zhang, Jiaxin Deng, Honghui Bao, Jinghao Zhang, Wuchao Li, Pengfei Zheng, Xiangyu Wu, Yifei Hu, Qigen Hu, Xinchen Luo, Lejian Ren, Zixing Zhang, Qianqian Wang, Kuo Cai, Yunfan Wu, Hongtao Cheng, Zexuan Cheng, Lu Ren, Huanjie Wang, Yi Su, Ruiming Tang, Kun Gai, Guorui Zhou",
+            "first_author": "Zhanyu Liu",
+            "url": "http://arxiv.org/abs/2510.11639v1",
+            "pdf_url": "http://arxiv.org/abs/2510.11639",
+            "publish_date": "2025-10-13",
+            "abstract": "The powerful generative capacity of Large Language Models (LLMs) has instigated a paradigm shift in recommendation. However, existing generative models (e.g., OneRec) operate as implicit predictors, critically lacking the capacity for explicit and controllable reasoning-a key advantage of LLMs. To bridge this gap, we propose OneRec-Think, a unified framework that seamlessly integrates dialogue, reasoning, and personalized recommendation. OneRec-Think incorporates: (1) Itemic Alignment: cross-modal Item-Textual Alignment for semantic grounding; (2) Reasoning Activation: Reasoning Scaffolding to activate LLM reasoning within the recommendation context; and (3) Reasoning Enhancement, where we design a recommendation-specific reward function that accounts for the multi-validity nature of user preferences. Experiments across public benchmarks show state-of-the-art performance. Moreover, our proposed \"Think-Ahead\" architecture enables effective industrial deployment on Kuaishou, achieving a 0.159\\% gain in APP Stay Time and validating the practical efficacy of the model's explicit reasoning capability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.11472": {
+            "title": "Differentiable Fast Top-K Selection for Large-Scale Recommendation",
+            "authors": "Yanjie Zhu, Zhen Zhang, Yunli Wang, Zhiqiang Wang, Yu Li, Rufan Zhou, Shiyang Wen, Peng Jiang, Chenhao Lin, Jian Yang",
+            "first_author": "Yanjie Zhu",
+            "url": "http://arxiv.org/abs/2510.11472v1",
+            "pdf_url": "http://arxiv.org/abs/2510.11472",
+            "publish_date": "2025-10-13",
+            "abstract": "Cascade ranking is a widely adopted paradigm in large-scale information retrieval systems for Top-K item selection. However, the Top-K operator is non-differentiable, hindering end-to-end training. Existing methods include Learning-to-Rank approaches (e.g., LambdaLoss), which optimize ranking metrics like NDCG and suffer from objective misalignment, and differentiable sorting-based methods (e.g., ARF, LCRON), which relax permutation matrices for direct Top-K optimization but introduce gradient conflicts through matrix aggregation. A promising alternative is to directly construct a differentiable approximation of the Top-K selection operator, bypassing the use of soft permutation matrices. However, even state-of-the-art differentiable Top-K operator (e.g., LapSum) require $O(n \\log n)$ complexity due to their dependence on sorting for solving the threshold. Thus, we propose DFTopK, a novel differentiable Top-K operator achieving optimal $O(n)$ time complexity. By relaxing normalization constraints, DFTopK admits a closed-form solution and avoids sorting. DFTopK also avoids the gradient conflicts inherent in differentiable sorting-based methods. We evaluate DFTopK on both the public benchmark RecFLow and an industrial system. Experimental results show that DFTopK significantly improves training efficiency while achieving superior performance, which enables us to scale up training samples more efficiently. In the online A/B test, DFTopK yielded a +1.77\\% revenue lift with the same computational budget compared to the baseline. To the best of our knowledge, this work is the first to introduce differentiable Top-K operators into recommendation systems and the first to achieve theoretically optimal linear-time complexity for Top-K selection. We have open-sourced our implementation to facilitate future research in both academia and industry.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.11402": {
+            "title": "On Inherited Popularity Bias in Cold-Start Item Recommendation",
+            "authors": "Gregor Meehan, Johan Pauwels",
+            "first_author": "Gregor Meehan",
+            "url": "http://arxiv.org/abs/2510.11402v1",
+            "pdf_url": "http://arxiv.org/abs/2510.11402",
+            "publish_date": "2025-10-13",
+            "abstract": "Collaborative filtering (CF) recommender systems struggle with making predictions on unseen, or 'cold', items. Systems designed to address this challenge are often trained with supervision from warm CF models in order to leverage collaborative and content information from the available interaction data. However, since they learn to replicate the behavior of CF methods, cold-start models may therefore also learn to imitate their predictive biases. In this paper, we show that cold-start systems can inherit popularity bias, a common cause of recommender system unfairness arising when CF models overfit to more popular items, thereby maximizing user-oriented accuracy but neglecting rarer items. We demonstrate that cold-start recommenders not only mirror the popularity biases of warm models, but are in fact affected more severely: because they cannot infer popularity from interaction data, they instead attempt to estimate it based solely on content features. This leads to significant over-prediction of certain cold items with similar content to popular warm items, even if their ground truth popularity is very low. Through experiments on three multimedia datasets, we analyze the impact of this behavior on three generative cold-start methods. We then describe a simple post-processing bias mitigation method that, by using embedding magnitude as a proxy for predicted popularity, can produce more balanced recommendations with limited harm to user-oriented cold-start accuracy.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10955": {
+            "title": "HatLLM: Hierarchical Attention Masking for Enhanced Collaborative Modeling in LLM-based Recommendation",
+            "authors": "Yu Cui, Feng Liu, Jiawei Chen, Canghong Jin, Xingyu Lou, Changwang Zhang, Jun Wang, Yuegang Sun, Can Wang",
+            "first_author": "Yu Cui",
+            "url": "http://arxiv.org/abs/2510.10955v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10955",
+            "publish_date": "2025-10-13",
+            "abstract": "Recent years have witnessed a surge of research on leveraging large language models (LLMs) for sequential recommendation. LLMs have demonstrated remarkable potential in inferring users' nuanced preferences through fine-grained semantic reasoning. However, they also exhibit a notable limitation in effectively modeling collaborative signals, i.e., behavioral correlations inherent in users' historical interactions. Our empirical analysis further reveals that the attention mechanisms in LLMs tend to disproportionately focus on tokens within the same item, thereby impeding the capture of cross-item correlations.   To address this limitation, we propose a novel hierarchical attention masking strategy for LLM-based recommendation, termed HatLLM. Specifically, in shallow layers, HatLLM masks attention between tokens from different items, facilitating intra-item semantic understanding; in contrast, in deep layers, HatLLM masks attention within items, thereby compelling the model to capture cross-item correlations. This progressive, layer-wise approach enables LLMs to jointly model both token-level and item-level dependencies. Extensive experiments on three real-world datasets demonstrate that HatLLM achieves significant performance gains (9.13% on average) over existing LLM-based methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10920": {
+            "title": "Comparative Explanations via Counterfactual Reasoning in Recommendations",
+            "authors": "Yi Yu, Zhenxing Hu",
+            "first_author": "Yi Yu",
+            "url": "http://arxiv.org/abs/2510.10920v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10920",
+            "publish_date": "2025-10-13",
+            "abstract": "Explainable recommendation through counterfactual reasoning seeks to identify the influential aspects of items in recommendations, which can then be used as explanations. However, state-of-the-art approaches, which aim to minimize changes in product aspects while reversing their recommended decisions according to an aggregated decision boundary score, often lead to factual inaccuracies in explanations. To solve this problem, in this work we propose a novel method of Comparative Counterfactual Explanations for Recommendation (CoCountER). CoCountER creates counterfactual data based on soft swap operations, enabling explanations for recommendations of arbitrary pairs of comparative items. Empirical experiments validate the effectiveness of our approach.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10564": {
+            "title": "Multi-Granularity Sequence Denoising with Weakly Supervised Signal for Sequential Recommendation",
+            "authors": "Liang Li, Zhou Yang, Xiaofei Zhu",
+            "first_author": "Liang Li",
+            "url": "http://arxiv.org/abs/2510.10564v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10564",
+            "publish_date": "2025-10-12",
+            "abstract": "Sequential recommendation aims to predict the next item based on user interests in historical interaction sequences. Historical interaction sequences often contain irrelevant noisy items, which significantly hinders the performance of recommendation systems. Existing research employs unsupervised methods that indirectly identify item-granularity irrelevant noise by predicting the ground truth item. Since these methods lack explicit noise labels, they are prone to misidentify users' interested items as noise. Additionally, while these methods focus on removing item-granularity noise driven by the ground truth item, they overlook interest-granularity noise, limiting their ability to perform broader denoising based on user interests. To address these issues, we propose Multi-Granularity Sequence Denoising with Weakly Supervised Signal for Sequential Recommendation(MGSD-WSS). MGSD-WSS first introduces the Multiple Gaussian Kernel Perceptron module to map the original and enhance sequence into a common representation space and utilizes weakly supervised signals to accurately identify noisy items in the historical interaction sequence. Subsequently, it employs the item-granularity denoising module with noise-weighted contrastive learning to obtain denoised item representations. Then, it extracts target interest representations from the ground truth item and applies noise-weighted contrastive learning to obtain denoised interest representations. Finally, based on the denoised item and interest representations, MGSD-WSS predicts the next item. Extensive experiments on five datasets demonstrate that the proposed method significantly outperforms state-of-the-art sequence recommendation and denoising models. Our code is available at https://github.com/lalunex/MGSD-WSS.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10556": {
+            "title": "Self-Supervised Representation Learning with ID-Content Modality Alignment for Sequential Recommendation",
+            "authors": "Donglin Zhou, Weike Pan, Zhong Ming",
+            "first_author": "Donglin Zhou",
+            "url": "http://arxiv.org/abs/2510.10556v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10556",
+            "publish_date": "2025-10-12",
+            "abstract": "Sequential recommendation (SR) models often capture user preferences based on the historically interacted item IDs, which usually obtain sub-optimal performance when the interaction history is limited. Content-based sequential recommendation has recently emerged as a promising direction that exploits items' textual and visual features to enhance preference learning. However, there are still three key challenges: (i) how to reduce the semantic gap between different content modality representations; (ii) how to jointly model user behavior preferences and content preferences; and (iii) how to design an effective training strategy to align ID representations and content representations. To address these challenges, we propose a novel model, self-supervised representation learning with ID-Content modality alignment, named SICSRec. Firstly, we propose a LLM-driven sample construction method and develop a supervised fine-tuning approach to align item-level modality representations. Secondly, we design a novel Transformer-based sequential model, where an ID-modality sequence encoder captures user behavior preferences, a content-modality sequence encoder learns user content preferences, and a mix-modality sequence decoder grasps the intrinsic relationship between these two types of preferences. Thirdly, we propose a two-step training strategy with a content-aware contrastive learning task to align modality representations and ID representations, which decouples the training process of content modality dependency and item collaborative dependency. Extensive experiments conducted on four public video streaming datasets demonstrate our SICSRec outperforms the state-of-the-art ID-modality sequential recommenders and content-modality sequential recommenders by 8.04% on NDCG@5 and 6.62% on NDCD@10 on average, respectively.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10127": {
+            "title": "Breaking the Likelihood Trap: Consistent Generative Recommendation with Graph-structured Model",
+            "authors": "Qiya Yang, Xiaoxi Liang, Zeping Xiao, Yingjie Deng, Yalong Wang, Yongqi Liu, Han Li",
+            "first_author": "Qiya Yang",
+            "url": "http://arxiv.org/abs/2510.10127v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10127",
+            "publish_date": "2025-10-11",
+            "abstract": "Reranking, as the final stage of recommender systems, demands real-time inference, accuracy, and diversity. It plays a crucial role in determining the final exposure, directly influencing user experience. Recently, generative reranking has gained increasing attention for its strong ability to model complex dependencies among items. However, most existing methods suffer from the \"likelihood trap\", where high-likelihood sequences are often perceived as low-quality by humans. These models tend to repeatedly recommend a set of high-frequency items, resulting in list homogeneity, thereby limiting user engagement. In this work, we propose Consistent Graph-structured Generative Recommendation (Congrats), a novel generative reranking framework. To break the likelihood trap, we introduce a novel graph-structured decoder that can capture diverse sequences along multiple paths. This design not only expands the decoding space to promote diversity, but also improves prediction accuracy by implicit item dependencies derived from vertex transitions. Furthermore, we design a differentiable cascade system that incorporates an evaluator, enabling the model to learn directly from user preferences as the training objective. Extensive offline experiments validate the superior performance of Congrats over state-of-the-art reranking methods. Moreover, Congrats has been evaluated on a large-scale video-sharing app, Kuaishou, with over 300 million daily active users, demonstrating that our approach significantly improves both recommendation quality and diversity, validating our effectiveness in practical industrial environments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10109": {
+            "title": "Integrating Structure-Aware Attention and Knowledge Graphs in Explainable Recommendation Systems",
+            "authors": "Shuangquan Lyu, Ming Wang, Huajun Zhang, Jiasen Zheng, Junjiang Lin, Xiaoxuan Sun",
+            "first_author": "Shuangquan Lyu",
+            "url": "http://arxiv.org/abs/2510.10109v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10109",
+            "publish_date": "2025-10-11",
+            "abstract": "This paper designs and implements an explainable recommendation model that integrates knowledge graphs with structure-aware attention mechanisms. The model is built on graph neural networks and incorporates a multi-hop neighbor aggregation strategy. By integrating the structural information of knowledge graphs and dynamically assigning importance to different neighbors through an attention mechanism, the model enhances its ability to capture implicit preference relationships. In the proposed method, users and items are embedded into a unified graph structure. Multi-level semantic paths are constructed based on entities and relations in the knowledge graph to extract richer contextual information. During the rating prediction phase, recommendations are generated through the interaction between user and target item representations. The model is optimized using a binary cross-entropy loss function. Experiments conducted on the Amazon Books dataset validate the superior performance of the proposed model across various evaluation metrics. The model also shows good convergence and stability. These results further demonstrate the effectiveness and practicality of structure-aware attention mechanisms in knowledge graph-enhanced recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.10105": {
+            "title": "Lighter-X: An Efficient and Plug-and-play Strategy for Graph-based Recommendation through Decoupled Propagation",
+            "authors": "Yanping Zheng, Zhewei Wei, Frank de Hoog, Xu Chen, Hongteng Xu, Yuhang Ye, Jiadeng Huang",
+            "first_author": "Yanping Zheng",
+            "url": "http://arxiv.org/abs/2510.10105v1",
+            "pdf_url": "http://arxiv.org/abs/2510.10105",
+            "publish_date": "2025-10-11",
+            "abstract": "Graph Neural Networks (GNNs) have demonstrated remarkable effectiveness in recommendation systems. However, conventional graph-based recommenders, such as LightGCN, require maintaining embeddings of size $d$ for each node, resulting in a parameter complexity of $\\mathcal{O}(n \\times d)$, where $n$ represents the total number of users and items. This scaling pattern poses significant challenges for deployment on large-scale graphs encountered in real-world applications. To address this scalability limitation, we propose \\textbf{Lighter-X}, an efficient and modular framework that can be seamlessly integrated with existing GNN-based recommender architectures. Our approach substantially reduces both parameter size and computational complexity while preserving the theoretical guarantees and empirical performance of the base models, thereby enabling practical deployment at scale. Specifically, we analyze the original structure and inherent redundancy in their parameters, identifying opportunities for optimization. Based on this insight, we propose an efficient compression scheme for the sparse adjacency structure and high-dimensional embedding matrices, achieving a parameter complexity of $\\mathcal{O}(h \\times d)$, where $h \\ll n$. Furthermore, the model is optimized through a decoupled framework, reducing computational complexity during the training process and enhancing scalability. Extensive experiments demonstrate that Lighter-X achieves comparable performance to baseline models with significantly fewer parameters. In particular, on large-scale interaction graphs with millions of edges, we are able to attain even better results with only 1\\% of the parameter over LightGCN.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.09643": {
+            "title": "Direct Routing Gradient (DRGrad): A Personalized Information Surgery for Multi-Task Learning (MTL) Recommendations",
+            "authors": "Yuguang Liu, Yiyun Miao, Luyao Xia",
+            "first_author": "Yuguang Liu",
+            "url": "http://arxiv.org/abs/2510.09643v1",
+            "pdf_url": "http://arxiv.org/abs/2510.09643",
+            "publish_date": "2025-10-04",
+            "abstract": "Multi-task learning (MTL) has emerged as a successful strategy in industrial-scale recommender systems, offering significant advantages such as capturing diverse users' interests and accurately detecting different behaviors like ``click\" or ``dwell time\". However, negative transfer and the seesaw phenomenon pose challenges to MTL models due to the complex and often contradictory task correlations in real-world recommendations. To address the problem while making better use of personalized information, we propose a personalized Direct Routing Gradient framework (DRGrad), which consists of three key components: router, updater and personalized gate network. DRGrad judges the stakes between tasks in the training process, which can leverage all valid gradients for the respective task to reduce conflicts. We evaluate the efficiency of DRGrad on complex MTL using a real-world recommendation dataset with 15 billion samples. The results show that DRGrad's superior performance over competing state-of-the-art MTL models, especially in terms of AUC (Area Under the Curve) metrics, indicating that it effectively manages task conflicts in multi-task learning environments without increasing model complexity, while also addressing the deficiencies in noise processing. Moreover, experiments on the public Census-income dataset and Synthetic dataset, have demonstrated the capability of DRGrad in judging and routing the stakes between tasks with varying degrees of correlation and personalization.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }
