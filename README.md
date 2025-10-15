@@ -10,6 +10,9 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-14 | **Causal Inspired Multi Modal Recommendation** | Jie Yang, Chenyang Gu, Zixuan Liu | [Link](http://arxiv.org/abs/2510.12325) | Not Available |
+| 2025-10-14 | **Reinforced Preference Optimization for Recommendation** | Junfei Tan, Yuxin Chen, An Zhang, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Xiang Wang | [Link](http://arxiv.org/abs/2510.12211) | Not Available |
+| 2025-10-14 | **MIARec: Mutual-influence-aware Heterogeneous Network Embedding for Scientific Paper Recommendation** | Wenjin Xie, Tao Jia | [Link](http://arxiv.org/abs/2510.12054) | Not Available |
 | 2025-10-13 | **OneRec-Think: In-Text Reasoning for Generative Recommendation** | Zhanyu Liu, Shiyao Wang, Xingmei Wang, Rongzhou Zhang, Jiaxin Deng, Honghui Bao, Jinghao Zhang, Wuchao Li, Pengfei Zheng, Xiangyu Wu, Yifei Hu, Qigen Hu, Xinchen Luo, Lejian Ren, Zixing Zhang, Qianqian Wang, Kuo Cai, Yunfan Wu, Hongtao Cheng, Zexuan Cheng, Lu Ren, Huanjie Wang, Yi Su, Ruiming Tang, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2510.11639) | Not Available |
 | 2025-10-13 | **Differentiable Fast Top-K Selection for Large-Scale Recommendation** | Yanjie Zhu, Zhen Zhang, Yunli Wang, Zhiqiang Wang, Yu Li, Rufan Zhou, Shiyang Wen, Peng Jiang, Chenhao Lin, Jian Yang | [Link](http://arxiv.org/abs/2510.11472) | Not Available |
 | 2025-10-13 | **On Inherited Popularity Bias in Cold-Start Item Recommendation** | Gregor Meehan, Johan Pauwels | [Link](http://arxiv.org/abs/2510.11402) | Not Available |

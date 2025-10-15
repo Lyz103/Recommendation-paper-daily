@@ -2012,6 +2012,39 @@
             "abstract": "Multi-task learning (MTL) has emerged as a successful strategy in industrial-scale recommender systems, offering significant advantages such as capturing diverse users' interests and accurately detecting different behaviors like ``click\" or ``dwell time\". However, negative transfer and the seesaw phenomenon pose challenges to MTL models due to the complex and often contradictory task correlations in real-world recommendations. To address the problem while making better use of personalized information, we propose a personalized Direct Routing Gradient framework (DRGrad), which consists of three key components: router, updater and personalized gate network. DRGrad judges the stakes between tasks in the training process, which can leverage all valid gradients for the respective task to reduce conflicts. We evaluate the efficiency of DRGrad on complex MTL using a real-world recommendation dataset with 15 billion samples. The results show that DRGrad's superior performance over competing state-of-the-art MTL models, especially in terms of AUC (Area Under the Curve) metrics, indicating that it effectively manages task conflicts in multi-task learning environments without increasing model complexity, while also addressing the deficiencies in noise processing. Moreover, experiments on the public Census-income dataset and Synthetic dataset, have demonstrated the capability of DRGrad in judging and routing the stakes between tasks with varying degrees of correlation and personalization.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2510.12325": {
+            "title": "Causal Inspired Multi Modal Recommendation",
+            "authors": "Jie Yang, Chenyang Gu, Zixuan Liu",
+            "first_author": "Jie Yang",
+            "url": "http://arxiv.org/abs/2510.12325v1",
+            "pdf_url": "http://arxiv.org/abs/2510.12325",
+            "publish_date": "2025-10-14",
+            "abstract": "Multimodal recommender systems enhance personalized recommendations in e-commerce and online advertising by integrating visual, textual, and user-item interaction data. However, existing methods often overlook two critical biases: (i) modal confounding, where latent factors (e.g., brand style or product category) simultaneously drive multiple modalities and influence user preference, leading to spurious feature-preference associations; (ii) interaction bias, where genuine user preferences are mixed with noise from exposure effects and accidental clicks. To address these challenges, we propose a Causal-inspired multimodal Recommendation framework. Specifically, we introduce a dual-channel cross-modal diffusion module to identify hidden modal confounders, utilize back-door adjustment with hierarchical matching and vector-quantized codebooks to block confounding paths, and apply front-door adjustment combined with causal topology reconstruction to build a deconfounded causal subgraph. Extensive experiments on three real-world e-commerce datasets demonstrate that our method significantly outperforms state-of-the-art baselines while maintaining strong interpretability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.12211": {
+            "title": "Reinforced Preference Optimization for Recommendation",
+            "authors": "Junfei Tan, Yuxin Chen, An Zhang, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Xiang Wang",
+            "first_author": "Junfei Tan",
+            "url": "http://arxiv.org/abs/2510.12211v1",
+            "pdf_url": "http://arxiv.org/abs/2510.12211",
+            "publish_date": "2025-10-14",
+            "abstract": "Recent breakthroughs in large language models (LLMs) have fundamentally shifted recommender systems from discriminative to generative paradigms, where user behavior modeling is achieved by generating target items conditioned on historical interactions. Yet current generative recommenders still suffer from two core limitations: the lack of high-quality negative modeling and the reliance on implicit rewards. Reinforcement learning with verifiable rewards (RLVR) offers a natural solution by enabling on-policy sampling of harder negatives and grounding optimization in explicit reward signals. However, applying RLVR to generative recommenders remains non-trivial. Its unique generation space often leads to invalid or repetitive items that undermine sampling efficiency, and ranking supervision is sparse since most items receive identical zero rewards. To address these challenges, we propose Reinforced Preference Optimization for Recommendation (ReRe), a reinforcement-based paradigm tailored to LLM-based recommenders, an important direction in generative recommendation. ReRe incorporates constrained beam search to improve sampling efficiency and diversify hard negatives, while augmenting rule-based accuracy rewards with auxiliary ranking rewards for finer-grained supervision. Extensive experiments on three real-world datasets demonstrate that ReRe consistently outperforms both traditional and LLM-based recommenders in ranking performance. Further analysis shows that ReRe not only enhances performance across both base and SFT-initialized models but also generalizes robustly across different backbone families and scales. Beyond empirical gains, we systematically investigate the design space of RLVR in recommendation across generation, sampling strategy, reward modeling, and optimization algorithm, offering insights for future research.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.12054": {
+            "title": "MIARec: Mutual-influence-aware Heterogeneous Network Embedding for Scientific Paper Recommendation",
+            "authors": "Wenjin Xie, Tao Jia",
+            "first_author": "Wenjin Xie",
+            "url": "http://arxiv.org/abs/2510.12054v1",
+            "pdf_url": "http://arxiv.org/abs/2510.12054",
+            "publish_date": "2025-10-14",
+            "abstract": "With the rapid expansion of scientific literature, scholars increasingly demand precise and high-quality paper recommendations. Among various recommendation methodologies, graph-based approaches have garnered attention by effectively exploiting the structural characteristics inherent in scholarly networks. However, these methods often overlook the asymmetric academic influence that is prevalent in scholarly networks when learning graph representations. To address this limitation, this study proposes the Mutual-Influence-Aware Recommendation (MIARec) model, which employs a gravity-based approach to measure the mutual academic influence between scholars and incorporates this influence into the feature aggregation process during message propagation in graph representation learning. Additionally, the model utilizes a multi-channel aggregation method to capture both individual embeddings of distinct single relational sub-networks and their interdependent embeddings, thereby enabling a more comprehensive understanding of the heterogeneous scholarly network. Extensive experiments conducted on real-world datasets demonstrate that the MIARec model outperforms baseline models across three primary evaluation metrics, indicating its effectiveness in scientific paper recommendation tasks.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
