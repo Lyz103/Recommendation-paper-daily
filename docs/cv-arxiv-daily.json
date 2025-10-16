@@ -2045,6 +2045,72 @@
             "abstract": "With the rapid expansion of scientific literature, scholars increasingly demand precise and high-quality paper recommendations. Among various recommendation methodologies, graph-based approaches have garnered attention by effectively exploiting the structural characteristics inherent in scholarly networks. However, these methods often overlook the asymmetric academic influence that is prevalent in scholarly networks when learning graph representations. To address this limitation, this study proposes the Mutual-Influence-Aware Recommendation (MIARec) model, which employs a gravity-based approach to measure the mutual academic influence between scholars and incorporates this influence into the feature aggregation process during message propagation in graph representation learning. Additionally, the model utilizes a multi-channel aggregation method to capture both individual embeddings of distinct single relational sub-networks and their interdependent embeddings, thereby enabling a more comprehensive understanding of the heterogeneous scholarly network. Extensive experiments conducted on real-world datasets demonstrate that the MIARec model outperforms baseline models across three primary evaluation metrics, indicating its effectiveness in scientific paper recommendation tasks.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2510.13738": {
+            "title": "HyMiRec: A Hybrid Multi-interest Learning Framework for LLM-based Sequential Recommendation",
+            "authors": "Jingyi Zhou, Cheng Chen, Kai Zuo, Manjie Xu, Zhendong Fu, Yibo Chen, Xu Tang, Yao Hu",
+            "first_author": "Jingyi Zhou",
+            "url": "http://arxiv.org/abs/2510.13738v1",
+            "pdf_url": "http://arxiv.org/abs/2510.13738",
+            "publish_date": "2025-10-15",
+            "abstract": "Large language models (LLMs) have recently demonstrated strong potential for sequential recommendation. However, current LLM-based approaches face critical limitations in modeling users' long-term and diverse interests. First, due to inference latency and feature fetching bandwidth constraints, existing methods typically truncate user behavior sequences to include only the most recent interactions, resulting in the loss of valuable long-range preference signals. Second, most current methods rely on next-item prediction with a single predicted embedding, overlooking the multifaceted nature of user interests and limiting recommendation diversity. To address these challenges, we propose HyMiRec, a hybrid multi-interest sequential recommendation framework, which leverages a lightweight recommender to extracts coarse interest embeddings from long user sequences and an LLM-based recommender to captures refined interest embeddings. To alleviate the overhead of fetching features, we introduce a residual codebook based on cosine similarity, enabling efficient compression and reuse of user history embeddings. To model the diverse preferences of users, we design a disentangled multi-interest learning module, which leverages multiple interest queries to learn disentangles multiple interest signals adaptively, allowing the model to capture different facets of user intent. Extensive experiments are conducted on both benchmark datasets and a collected industrial dataset, demonstrating our effectiveness over existing state-of-the-art methods. Furthermore, online A/B testing shows that HyMiRec brings consistent improvements in real-world recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.13371": {
+            "title": "MADREC: A Multi-Aspect Driven LLM Agent for Explainable and Adaptive Recommendation",
+            "authors": "Jiin Park, Misuk Kim",
+            "first_author": "Jiin Park",
+            "url": "http://arxiv.org/abs/2510.13371v1",
+            "pdf_url": "http://arxiv.org/abs/2510.13371",
+            "publish_date": "2025-10-15",
+            "abstract": "Recent attempts to integrate large language models (LLMs) into recommender systems have gained momentum, but most remain limited to simple text generation or static prompt-based inference, failing to capture the complexity of user preferences and real-world interactions. This study proposes the Multi-Aspect Driven LLM Agent MADRec, an autonomous LLM-based recommender that constructs user and item profiles by unsupervised extraction of multi-aspect information from reviews and performs direct recommendation, sequential recommendation, and explanation generation. MADRec generates structured profiles via aspect-category-based summarization and applies Re-Ranking to construct high-density inputs. When the ground-truth item is missing from the output, the Self-Feedback mechanism dynamically adjusts the inference criteria. Experiments across multiple domains show that MADRec outperforms traditional and LLM-based baselines in both precision and explainability, with human evaluation further confirming the persuasiveness of the generated explanations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.13359": {
+            "title": "Improving Visual Recommendation on E-commerce Platforms Using Vision-Language Models",
+            "authors": "Yuki Yada, Sho Akiyama, Ryo Watanabe, Yuta Ueno, Yusuke Shido, Andre Rusli",
+            "first_author": "Yuki Yada",
+            "url": "http://arxiv.org/abs/2510.13359v1",
+            "pdf_url": "http://arxiv.org/abs/2510.13359",
+            "publish_date": "2025-10-15",
+            "abstract": "On large-scale e-commerce platforms with tens of millions of active monthly users, recommending visually similar products is essential for enabling users to efficiently discover items that align with their preferences. This study presents the application of a vision-language model (VLM) -- which has demonstrated strong performance in image recognition and image-text retrieval tasks -- to product recommendations on Mercari, a major consumer-to-consumer marketplace used by more than 20 million monthly users in Japan. Specifically, we fine-tuned SigLIP, a VLM employing a sigmoid-based contrastive loss, using one million product image-title pairs from Mercari collected over a three-month period, and developed an image encoder for generating item embeddings used in the recommendation system. Our evaluation comprised an offline analysis of historical interaction logs and an online A/B test in a production environment. In offline analysis, the model achieved a 9.1% improvement in nDCG@5 compared with the baseline. In the online A/B test, the click-through rate improved by 50% whereas the conversion rate improved by 14% compared with the existing model. These results demonstrate the effectiveness of VLM-based encoders for e-commerce product recommendations and provide practical insights into the development of visual similarity-based recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.13229": {
+            "title": "Beyond Static LLM Policies: Imitation-Enhanced Reinforcement Learning for Recommendation",
+            "authors": "Yi Zhang, Lili Xie, Ruihong Qiu, Jiajun Liu, Sen Wang",
+            "first_author": "Yi Zhang",
+            "url": "http://arxiv.org/abs/2510.13229v1",
+            "pdf_url": "http://arxiv.org/abs/2510.13229",
+            "publish_date": "2025-10-15",
+            "abstract": "Recommender systems (RecSys) have become critical tools for enhancing user engagement by delivering personalized content across diverse digital platforms. Recent advancements in large language models (LLMs) demonstrate significant potential for improving RecSys, primarily due to their exceptional generalization capabilities and sophisticated contextual understanding, which facilitate the generation of flexible and interpretable recommendations. However, the direct deployment of LLMs as primary recommendation policies presents notable challenges, including persistent latency issues stemming from frequent API calls and inherent model limitations such as hallucinations and biases. To address these issues, this paper proposes a novel offline reinforcement learning (RL) framework that leverages imitation learning from LLM-generated trajectories. Specifically, inverse reinforcement learning is employed to extract robust reward models from LLM demonstrations. This approach negates the need for LLM fine-tuning, thereby substantially reducing computational overhead. Simultaneously, the RL policy is guided by the cumulative rewards derived from these demonstrations, effectively transferring the semantic insights captured by the LLM. Comprehensive experiments conducted on two benchmark datasets validate the effectiveness of the proposed method, demonstrating superior performance when compared against state-of-the-art RL-based and in-context learning baselines. The code can be found at https://github.com/ArronDZhang/IL-Rec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.12816": {
+            "title": "Maximum In-Support Return Modeling for Dynamic Recommendation with Language Model Prior",
+            "authors": "Xiaocong Chen, Siyu Wang, Lina Yao",
+            "first_author": "Xiaocong Chen",
+            "url": "http://arxiv.org/abs/2510.12816v1",
+            "pdf_url": "http://arxiv.org/abs/2510.12816",
+            "publish_date": "2025-10-09",
+            "abstract": "Reinforcement Learning-based recommender systems (RLRS) offer an effective way to handle sequential recommendation tasks but often face difficulties in real-world settings, where user feedback data can be sub-optimal or sparse. In this paper, we introduce MDT4Rec, an offline RLRS framework that builds on the Decision Transformer (DT) to address two major challenges: learning from sub-optimal histories and representing complex user-item interactions. First, MDT4Rec shifts the trajectory stitching procedure from the training phase to action inference, allowing the system to shorten its historical context when necessary and thereby ignore negative or unsuccessful past experiences. Second, MDT4Rec initializes DT with a pre-trained large language model (LLM) for knowledge transfer, replaces linear embedding layers with Multi-Layer Perceptrons (MLPs) for more flexible representations, and employs Low-Rank Adaptation (LoRA) to efficiently fine-tune only a small subset of parameters. We evaluate MDT4Rec on five public datasets and in an online simulation environment, demonstrating that it outperforms existing methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.12815": {
+            "title": "Energy-Guided Diffusion Sampling for Long-Term User Behavior Prediction in Reinforcement Learning-based Recommendation",
+            "authors": "Xiaocong Chen, Siyu Wang, Lina Yao",
+            "first_author": "Xiaocong Chen",
+            "url": "http://arxiv.org/abs/2510.12815v1",
+            "pdf_url": "http://arxiv.org/abs/2510.12815",
+            "publish_date": "2025-10-09",
+            "abstract": "Reinforcement learning-based recommender systems (RL4RS) have gained attention for their ability to adapt to dynamic user preferences. However, these systems face challenges, particularly in offline settings, where data inefficiency and reliance on pre-collected trajectories limit their broader applicability. While offline reinforcement learning methods leverage extensive datasets to address these issues, they often struggle with noisy data and fail to capture long-term user preferences, resulting in suboptimal recommendation policies. To overcome these limitations, we propose Diffusion-enhanced Actor-Critic for Offline RL4RS (DAC4Rec), a novel framework that integrates diffusion processes with reinforcement learning to model complex user preferences more effectively. DAC4Rec leverages the denoising capabilities of diffusion models to enhance the robustness of offline RL algorithms and incorporates a Q-value-guided policy optimization strategy to better handle suboptimal trajectories. Additionally, we introduce an energy-based sampling strategy to reduce randomness during recommendation generation, ensuring more targeted and reliable outcomes. We validate the effectiveness of DAC4Rec through extensive experiments on six real-world offline datasets and in an online simulation environment, demonstrating its ability to optimize long-term user preferences. Furthermore, we show that the proposed diffusion policy can be seamlessly integrated into other commonly used RL algorithms in RL4RS, highlighting its versatility and wide applicability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

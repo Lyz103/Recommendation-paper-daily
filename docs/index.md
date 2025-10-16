@@ -7,6 +7,12 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-15 | **HyMiRec: A Hybrid Multi-interest Learning Framework for LLM-based Sequential Recommendation** | Jingyi Zhou, Cheng Chen, Kai Zuo, Manjie Xu, Zhendong Fu, Yibo Chen, Xu Tang, Yao Hu | [Link](http://arxiv.org/abs/2510.13738) | Not Available |
+| 2025-10-15 | **MADREC: A Multi-Aspect Driven LLM Agent for Explainable and Adaptive Recommendation** | Jiin Park, Misuk Kim | [Link](http://arxiv.org/abs/2510.13371) | Not Available |
+| 2025-10-15 | **Improving Visual Recommendation on E-commerce Platforms Using Vision-Language Models** | Yuki Yada, Sho Akiyama, Ryo Watanabe, Yuta Ueno, Yusuke Shido, Andre Rusli | [Link](http://arxiv.org/abs/2510.13359) | Not Available |
+| 2025-10-15 | **Beyond Static LLM Policies: Imitation-Enhanced Reinforcement Learning for Recommendation** | Yi Zhang, Lili Xie, Ruihong Qiu, Jiajun Liu, Sen Wang | [Link](http://arxiv.org/abs/2510.13229) | Not Available |
+| 2025-10-09 | **Maximum In-Support Return Modeling for Dynamic Recommendation with Language Model Prior** | Xiaocong Chen, Siyu Wang, Lina Yao | [Link](http://arxiv.org/abs/2510.12816) | Not Available |
+| 2025-10-09 | **Energy-Guided Diffusion Sampling for Long-Term User Behavior Prediction in Reinforcement Learning-based Recommendation** | Xiaocong Chen, Siyu Wang, Lina Yao | [Link](http://arxiv.org/abs/2510.12815) | Not Available |
 | 2025-10-14 | **Causal Inspired Multi Modal Recommendation** | Jie Yang, Chenyang Gu, Zixuan Liu | [Link](http://arxiv.org/abs/2510.12325) | Not Available |
 | 2025-10-14 | **Reinforced Preference Optimization for Recommendation** | Junfei Tan, Yuxin Chen, An Zhang, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Xiang Wang | [Link](http://arxiv.org/abs/2510.12211) | Not Available |
 | 2025-10-14 | **MIARec: Mutual-influence-aware Heterogeneous Network Embedding for Scientific Paper Recommendation** | Wenjin Xie, Tao Jia | [Link](http://arxiv.org/abs/2510.12054) | Not Available |
