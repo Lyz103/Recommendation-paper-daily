@@ -2111,6 +2111,50 @@
             "abstract": "Reinforcement learning-based recommender systems (RL4RS) have gained attention for their ability to adapt to dynamic user preferences. However, these systems face challenges, particularly in offline settings, where data inefficiency and reliance on pre-collected trajectories limit their broader applicability. While offline reinforcement learning methods leverage extensive datasets to address these issues, they often struggle with noisy data and fail to capture long-term user preferences, resulting in suboptimal recommendation policies. To overcome these limitations, we propose Diffusion-enhanced Actor-Critic for Offline RL4RS (DAC4Rec), a novel framework that integrates diffusion processes with reinforcement learning to model complex user preferences more effectively. DAC4Rec leverages the denoising capabilities of diffusion models to enhance the robustness of offline RL algorithms and incorporates a Q-value-guided policy optimization strategy to better handle suboptimal trajectories. Additionally, we introduce an energy-based sampling strategy to reduce randomness during recommendation generation, ensuring more targeted and reliable outcomes. We validate the effectiveness of DAC4Rec through extensive experiments on six real-world offline datasets and in an online simulation environment, demonstrating its ability to optimize long-term user preferences. Furthermore, we show that the proposed diffusion policy can be seamlessly integrated into other commonly used RL algorithms in RL4RS, highlighting its versatility and wide applicability.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2510.14641": {
+            "title": "Causality Enhancement for Cross-Domain Recommendation",
+            "authors": "Zhibo Wu, Yunfan Wu, Lin Jiang, Ping Yang, Yao Hu",
+            "first_author": "Zhibo Wu",
+            "url": "http://arxiv.org/abs/2510.14641v1",
+            "pdf_url": "http://arxiv.org/abs/2510.14641",
+            "publish_date": "2025-10-16",
+            "abstract": "Cross-domain recommendation forms a crucial component in recommendation systems. It leverages auxiliary information through source domain tasks or features to enhance target domain recommendations. However, incorporating inconsistent source domain tasks may result in insufficient cross-domain modeling or negative transfer. While incorporating source domain features without considering the underlying causal relationships may limit their contribution to final predictions. Thus, a natural idea is to directly train a cross-domain representation on a causality-labeled dataset from the source to target domain. Yet this direction has been rarely explored, as identifying unbiased real causal labels is highly challenging in real-world scenarios. In this work, we attempt to take a first step in this direction by proposing a causality-enhanced framework, named CE-CDR. Specifically, we first reformulate the cross-domain recommendation as a causal graph for principled guidance. We then construct a causality-aware dataset heuristically. Subsequently, we derive a theoretically unbiased Partial Label Causal Loss to generalize beyond the biased causality-aware dataset to unseen cross-domain patterns, yielding an enriched cross-domain representation, which is then fed into the target model to enhance target-domain recommendations. Theoretical and empirical analyses, as well as extensive experiments, demonstrate the rationality and effectiveness of CE-CDR and its general applicability as a model-agnostic plugin. Moreover, it has been deployed in production since April 2025, showing its practical value in real-world applications.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.14629": {
+            "title": "MR.Rec: Synergizing Memory and Reasoning for Personalized Recommendation Assistant with LLMs",
+            "authors": "Jiani Huang, Xingchen Zou, Lianghao Xia, Qing Li",
+            "first_author": "Jiani Huang",
+            "url": "http://arxiv.org/abs/2510.14629v1",
+            "pdf_url": "http://arxiv.org/abs/2510.14629",
+            "publish_date": "2025-10-16",
+            "abstract": "The application of Large Language Models (LLMs) in recommender systems faces key challenges in delivering deep personalization and intelligent reasoning, especially for interactive scenarios. Current methods are often constrained by limited context windows and single-turn reasoning, hindering their ability to capture dynamic user preferences and proactively reason over recommendation contexts. To address these limitations, we propose MR.Rec, a novel framework that synergizes memory and reasoning for LLM-based recommendations. To achieve personalization, we develop a comprehensive Retrieval-Augmented Generation (RAG) system that efficiently indexes and retrieves relevant external memory to enhance LLM personalization capabilities. Furthermore, to enable the synergy between memory and reasoning, our RAG system goes beyond conventional query-based retrieval by integrating reasoning enhanced memory retrieval. Finally, we design a reinforcement learning framework that trains the LLM to autonomously learn effective strategies for both memory utilization and reasoning refinement. By combining dynamic memory retrieval with adaptive reasoning, this approach ensures more accurate, context-aware, and highly personalized recommendations. Extensive experiments demonstrate that MR.Rec significantly outperforms state-of-the-art baselines across multiple metrics, validating its efficacy in delivering intelligent and personalized recommendations. We will release code and data upon paper notification.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.14626": {
+            "title": "GemiRec: Interest Quantization and Generation for Multi-Interest Recommendation",
+            "authors": "Zhibo Wu, Yunfan Wu, Quan Liu, Lin Jiang, Ping Yang, Yao Hu",
+            "first_author": "Zhibo Wu",
+            "url": "http://arxiv.org/abs/2510.14626v1",
+            "pdf_url": "http://arxiv.org/abs/2510.14626",
+            "publish_date": "2025-10-16",
+            "abstract": "Multi-interest recommendation has gained attention, especially in industrial retrieval stage. Unlike classical dual-tower methods, it generates multiple user representations instead of a single one to model comprehensive user interests. However, prior studies have identified two underlying limitations: the first is interest collapse, where multiple representations homogenize. The second is insufficient modeling of interest evolution, as they struggle to capture latent interests absent from a user's historical behavior. We begin with a thorough review of existing works in tackling these limitations. Then, we attempt to tackle these limitations from a new perspective. Specifically, we propose a framework-level refinement for multi-interest recommendation, named GemiRec. The proposed framework leverages interest quantization to enforce a structural interest separation and interest generation to learn the evolving dynamics of user interests explicitly. It comprises three modules: (a) Interest Dictionary Maintenance Module (IDMM) maintains a shared quantized interest dictionary. (b) Multi-Interest Posterior Distribution Module (MIPDM) employs a generative model to capture the distribution of user future interests. (c) Multi-Interest Retrieval Module (MIRM) retrieves items using multiple user-interest representations. Both theoretical and empirical analyses, as well as extensive experiments, demonstrate its advantages and effectiveness. Moreover, it has been deployed in production since March 2025, showing its practical value in industrial applications.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.14257": {
+            "title": "Synergistic Integration and Discrepancy Resolution of Contextualized Knowledge for Personalized Recommendation",
+            "authors": "Lingyu Mu, Hao Deng, Haibo Xing, Kaican Lin, Zhitong Zhu, Yu Zhang, Xiaoyi Zeng, Zhengxiao Liu, Zheng Lin, Jinxin Hu",
+            "first_author": "Lingyu Mu",
+            "url": "http://arxiv.org/abs/2510.14257v1",
+            "pdf_url": "http://arxiv.org/abs/2510.14257",
+            "publish_date": "2025-10-16",
+            "abstract": "The integration of large language models (LLMs) into recommendation systems has revealed promising potential through their capacity to extract world knowledge for enhanced reasoning capabilities. However, current methodologies that adopt static schema-based prompting mechanisms encounter significant limitations: (1) they employ universal template structures that neglect the multi-faceted nature of user preference diversity; (2) they implement superficial alignment between semantic knowledge representations and behavioral feature spaces without achieving comprehensive latent space integration. To address these challenges, we introduce CoCo, an end-to-end framework that dynamically constructs user-specific contextual knowledge embeddings through a dual-mechanism approach. Our method realizes profound integration of semantic and behavioral latent dimensions via adaptive knowledge fusion and contradiction resolution modules. Experimental evaluations across diverse benchmark datasets and an enterprise-level e-commerce platform demonstrate CoCo's superiority, achieving a maximum 8.58% improvement over seven cutting-edge methods in recommendation accuracy. The framework's deployment on a production advertising system resulted in a 1.91% sales growth, validating its practical effectiveness. With its modular design and model-agnostic architecture, CoCo provides a versatile solution for next-generation recommendation systems requiring both knowledge-enhanced reasoning and personalized adaptation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

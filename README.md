@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-16 | **Causality Enhancement for Cross-Domain Recommendation** | Zhibo Wu, Yunfan Wu, Lin Jiang, Ping Yang, Yao Hu | [Link](http://arxiv.org/abs/2510.14641) | Not Available |
+| 2025-10-16 | **MR.Rec: Synergizing Memory and Reasoning for Personalized Recommendation Assistant with LLMs** | Jiani Huang, Xingchen Zou, Lianghao Xia, Qing Li | [Link](http://arxiv.org/abs/2510.14629) | Not Available |
+| 2025-10-16 | **GemiRec: Interest Quantization and Generation for Multi-Interest Recommendation** | Zhibo Wu, Yunfan Wu, Quan Liu, Lin Jiang, Ping Yang, Yao Hu | [Link](http://arxiv.org/abs/2510.14626) | Not Available |
+| 2025-10-16 | **Synergistic Integration and Discrepancy Resolution of Contextualized Knowledge for Personalized Recommendation** | Lingyu Mu, Hao Deng, Haibo Xing, Kaican Lin, Zhitong Zhu, Yu Zhang, Xiaoyi Zeng, Zhengxiao Liu, Zheng Lin, Jinxin Hu | [Link](http://arxiv.org/abs/2510.14257) | Not Available |
 | 2025-10-15 | **HyMiRec: A Hybrid Multi-interest Learning Framework for LLM-based Sequential Recommendation** | Jingyi Zhou, Cheng Chen, Kai Zuo, Manjie Xu, Zhendong Fu, Yibo Chen, Xu Tang, Yao Hu | [Link](http://arxiv.org/abs/2510.13738) | Not Available |
 | 2025-10-15 | **MADREC: A Multi-Aspect Driven LLM Agent for Explainable and Adaptive Recommendation** | Jiin Park, Misuk Kim | [Link](http://arxiv.org/abs/2510.13371) | Not Available |
 | 2025-10-15 | **Improving Visual Recommendation on E-commerce Platforms Using Vision-Language Models** | Yuki Yada, Sho Akiyama, Ryo Watanabe, Yuta Ueno, Yusuke Shido, Andre Rusli | [Link](http://arxiv.org/abs/2510.13359) | Not Available |
