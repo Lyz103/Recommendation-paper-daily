@@ -1,4 +1,4 @@
-## Updated on 2025-10-19
+## Updated on 2025-10-20
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-17 | **Enhance Large Language Models as Recommendation Systems with Collaborative Filtering** | Zhisheng Yang, Xiaofei Xu, Ke Deng, Li Li | [Link](http://arxiv.org/abs/2510.15647) | Not Available |
+| 2025-10-17 | **MTmixAtt: Integrating Mixture-of-Experts with Multi-Mix Attention for Large-Scale Recommendation** | Xianyang Qi, Yuan Tian, Zhaoyu Hu, Zhirui Kuai, Chang Liu, Hongxiang Lin, Lei Wang | [Link](http://arxiv.org/abs/2510.15286) | Not Available |
 | 2025-10-16 | **Causality Enhancement for Cross-Domain Recommendation** | Zhibo Wu, Yunfan Wu, Lin Jiang, Ping Yang, Yao Hu | [Link](http://arxiv.org/abs/2510.14641) | Not Available |
 | 2025-10-16 | **MR.Rec: Synergizing Memory and Reasoning for Personalized Recommendation Assistant with LLMs** | Jiani Huang, Xingchen Zou, Lianghao Xia, Qing Li | [Link](http://arxiv.org/abs/2510.14629) | Not Available |
 | 2025-10-16 | **GemiRec: Interest Quantization and Generation for Multi-Interest Recommendation** | Zhibo Wu, Yunfan Wu, Quan Liu, Lin Jiang, Ping Yang, Yao Hu | [Link](http://arxiv.org/abs/2510.14626) | Not Available |
