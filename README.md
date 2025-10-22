@@ -1,4 +1,4 @@
-## Updated on 2025-10-21
+## Updated on 2025-10-22
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,10 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-19 | **Preference Measurement Error, Concentration in Recommendation Systems, and Persuasion** | Andreas Haupt | [Link](http://arxiv.org/abs/2510.16972) | Not Available |
+| 2025-10-19 | **The Layout Is the Model: On Action-Item Coupling in Generative Recommendation** | Xiaokai Wei, Jiajun Wu, Daiyao Yi, Reza Shirkavand, Michelle Gong | [Link](http://arxiv.org/abs/2510.16804) | Not Available |
+| 2025-10-18 | **FRONTIER-RevRec: A Large-scale Dataset for Reviewer Recommendation** | Qiyao Peng, Chen Wang, Yinghui Wang, Hongtao Liu, Xuan Guo, Wenjun Wang | [Link](http://arxiv.org/abs/2510.16597) | Not Available |
+| 2025-10-14 | **Aligning Language Models with Investor and Market Behavior for Financial Recommendations** | Fernando Spadea, Oshani Seneviratne | [Link](http://arxiv.org/abs/2510.15993) | Not Available |
 | 2025-10-17 | **Enhance Large Language Models as Recommendation Systems with Collaborative Filtering** | Zhisheng Yang, Xiaofei Xu, Ke Deng, Li Li | [Link](http://arxiv.org/abs/2510.15647) | Not Available |
 | 2025-10-17 | **MTmixAtt: Integrating Mixture-of-Experts with Multi-Mix Attention for Large-Scale Recommendation** | Xianyang Qi, Yuan Tian, Zhaoyu Hu, Zhirui Kuai, Chang Liu, Hongxiang Lin, Lei Wang | [Link](http://arxiv.org/abs/2510.15286) | Not Available |
 | 2025-10-16 | **Causality Enhancement for Cross-Domain Recommendation** | Zhibo Wu, Yunfan Wu, Lin Jiang, Ping Yang, Yao Hu | [Link](http://arxiv.org/abs/2510.14641) | Not Available |

@@ -2177,6 +2177,50 @@
             "abstract": "Industrial recommender systems critically depend on high-quality ranking models. However, traditional pipelines still rely on manual feature engineering and scenario-specific architectures, which hinder cross-scenario transfer and large-scale deployment. To address these challenges, we propose \\textbf{MTmixAtt}, a unified Mixture-of-Experts (MoE) architecture with Multi-Mix Attention, designed for large-scale recommendation tasks. MTmixAtt integrates two key components. The \\textbf{AutoToken} module automatically clusters heterogeneous features into semantically coherent tokens, removing the need for human-defined feature groups. The \\textbf{MTmixAttBlock} module enables efficient token interaction via a learnable mixing matrix, shared dense experts, and scenario-aware sparse experts, capturing both global patterns and scenario-specific behaviors within a single framework. Extensive experiments on the industrial TRec dataset from Meituan demonstrate that MTmixAtt consistently outperforms state-of-the-art baselines including Transformer-based models, WuKong, HiFormer, MLP-Mixer, and RankMixer. At comparable parameter scales, MTmixAtt achieves superior CTR and CTCVR metrics; scaling to MTmixAtt-1B yields further monotonic gains. Large-scale online A/B tests validate the real-world impact: in the \\textit{Homepage} scenario, MTmixAtt increases Payment PV by \\textbf{+3.62\\%} and Actual Payment GTV by \\textbf{+2.54\\%}. Overall, MTmixAtt provides a unified and scalable solution for modeling arbitrary heterogeneous features across scenarios, significantly improving both user experience and commercial outcomes.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2510.16972": {
+            "title": "Preference Measurement Error, Concentration in Recommendation Systems, and Persuasion",
+            "authors": "Andreas Haupt",
+            "first_author": "Andreas Haupt",
+            "url": "http://arxiv.org/abs/2510.16972v1",
+            "pdf_url": "http://arxiv.org/abs/2510.16972",
+            "publish_date": "2025-10-19",
+            "abstract": "Algorithmic recommendation based on noisy preference measurement is prevalent in recommendation systems. This paper discusses the consequences of such recommendation on market concentration and inequality. Binary types denoting a statistical majority and minority are noisily revealed through a statistical experiment. The achievable utilities and recommendation shares for the two groups can be analyzed as a Bayesian Persuasion problem. While under arbitrary noise structures, effects on concentration compared to a full-information market are ambiguous, under symmetric noise, concentration increases and consumer welfare becomes more unequal. We define symmetric statistical experiments and analyze persuasion under a restriction to such experiments, which may be of independent interest.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2510.16804": {
+            "title": "The Layout Is the Model: On Action-Item Coupling in Generative Recommendation",
+            "authors": "Xiaokai Wei, Jiajun Wu, Daiyao Yi, Reza Shirkavand, Michelle Gong",
+            "first_author": "Xiaokai Wei",
+            "url": "http://arxiv.org/abs/2510.16804v1",
+            "pdf_url": "http://arxiv.org/abs/2510.16804",
+            "publish_date": "2025-10-19",
+            "abstract": "Generative Recommendation (GR) models treat a user's interaction history as a sequence to be autoregressively predicted. When both items and actions (e.g., watch time, purchase, comment) are modeled, the layout-the ordering and visibility of item/action tokens-critically determines what information the model can use and how it generalizes. We present a unified study of token layouts for GR grounded in first principles: (P1) maximize item/action signal in both input/output space, (P2) preserve the conditioning relationship \"action given item\" and (P3) no information leakage.   While interleaved layout (where item and action occupy separate tokens) naturally satisfies these principles, it also bloats sequence length with larger training/inference cost. On the non-interleaved front, we design a novel and effective approach, Lagged Action Conditioning (LAC), which appears strange on the surface but aligns well with the design principles to yield strong accuracy. Comprehensive experiments on public datasets and large-scale production logs evaluate different layout options and empirically verifies the design principles. Our proposed non-interleaved method, LAC, achieves competitive or superior quality at substantially lower FLOPs than interleaving. Our findings offer actionable guidance for assembling GR systems that are both accurate and efficient.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.16597": {
+            "title": "FRONTIER-RevRec: A Large-scale Dataset for Reviewer Recommendation",
+            "authors": "Qiyao Peng, Chen Wang, Yinghui Wang, Hongtao Liu, Xuan Guo, Wenjun Wang",
+            "first_author": "Qiyao Peng",
+            "url": "http://arxiv.org/abs/2510.16597v1",
+            "pdf_url": "http://arxiv.org/abs/2510.16597",
+            "publish_date": "2025-10-18",
+            "abstract": "Reviewer recommendation is a critical task for enhancing the efficiency of academic publishing workflows. However, research in this area has been persistently hindered by the lack of high-quality benchmark datasets, which are often limited in scale, disciplinary scope, and comparative analyses of different methodologies. To address this gap, we introduce FRONTIER-RevRec, a large-scale dataset constructed from authentic peer review records (2007-2025) from the Frontiers open-access publishing platform https://www.frontiersin.org/. The dataset contains 177941 distinct reviewers and 478379 papers across 209 journals spanning multiple disciplines including clinical medicine, biology, psychology, engineering, and social sciences. Our comprehensive evaluation on this dataset reveals that content-based methods significantly outperform collaborative filtering. This finding is explained by our structural analysis, which uncovers fundamental differences between academic recommendation and commercial domains. Notably, approaches leveraging language models are particularly effective at capturing the semantic alignment between a paper's content and a reviewer's expertise. Furthermore, our experiments identify optimal aggregation strategies to enhance the recommendation pipeline. FRONTIER-RevRec is intended to serve as a comprehensive benchmark to advance research in reviewer recommendation and facilitate the development of more effective academic peer review systems. The FRONTIER-RevRec dataset is available at: https://anonymous.4open.science/r/FRONTIER-RevRec-5D05.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.15993": {
+            "title": "Aligning Language Models with Investor and Market Behavior for Financial Recommendations",
+            "authors": "Fernando Spadea, Oshani Seneviratne",
+            "first_author": "Fernando Spadea",
+            "url": "http://arxiv.org/abs/2510.15993v1",
+            "pdf_url": "http://arxiv.org/abs/2510.15993",
+            "publish_date": "2025-10-14",
+            "abstract": "Most financial recommendation systems often fail to account for key behavioral and regulatory factors, leading to advice that is misaligned with user preferences, difficult to interpret, or unlikely to be followed. We present FLARKO (Financial Language-model for Asset Recommendation with Knowledge-graph Optimization), a novel framework that integrates Large Language Models (LLMs), Knowledge Graphs (KGs), and Kahneman-Tversky Optimization (KTO) to generate asset recommendations that are both profitable and behaviorally aligned. FLARKO encodes users' transaction histories and asset trends as structured KGs, providing interpretable and controllable context for the LLM. To demonstrate the adaptability of our approach, we develop and evaluate both a centralized architecture (CenFLARKO) and a federated variant (FedFLARKO). To our knowledge, this is the first demonstration of combining KTO for fine-tuning of LLMs for financial asset recommendation. We also present the first use of structured KGs to ground LLM reasoning over behavioral financial data in a federated learning (FL) setting. Evaluated on the FAR-Trans dataset, FLARKO consistently outperforms state-of-the-art recommendation baselines on behavioral alignment and joint profitability, while remaining interpretable and resource-efficient.",
+            "primary_category": "q-fin.PM",
+            "code_url": "null"
         }
     }
 }
