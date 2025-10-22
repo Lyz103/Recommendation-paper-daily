@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-21 | **Evaluating LLM-Based Mobile App Recommendations: An Empirical Study** | Quim Motger, Xavier Franch, Vincenzo Gervasi, Jordi Marco | [Link](http://arxiv.org/abs/2510.18364) | Not Available |
+| 2025-10-21 | **Enhancing Hotel Recommendations with AI: LLM-Based Review Summarization and Query-Driven Insights** | Nikolaos Belibasakis, Anastasios Giannaros, Ioanna Giannoukou, Spyros Sioutas | [Link](http://arxiv.org/abs/2510.18277) | Not Available |
 | 2025-10-19 | **Preference Measurement Error, Concentration in Recommendation Systems, and Persuasion** | Andreas Haupt | [Link](http://arxiv.org/abs/2510.16972) | Not Available |
 | 2025-10-19 | **The Layout Is the Model: On Action-Item Coupling in Generative Recommendation** | Xiaokai Wei, Jiajun Wu, Daiyao Yi, Reza Shirkavand, Michelle Gong | [Link](http://arxiv.org/abs/2510.16804) | Not Available |
 | 2025-10-18 | **FRONTIER-RevRec: A Large-scale Dataset for Reviewer Recommendation** | Qiyao Peng, Chen Wang, Yinghui Wang, Hongtao Liu, Xuan Guo, Wenjun Wang | [Link](http://arxiv.org/abs/2510.16597) | Not Available |

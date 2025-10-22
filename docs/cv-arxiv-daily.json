@@ -2221,6 +2221,28 @@
             "abstract": "Most financial recommendation systems often fail to account for key behavioral and regulatory factors, leading to advice that is misaligned with user preferences, difficult to interpret, or unlikely to be followed. We present FLARKO (Financial Language-model for Asset Recommendation with Knowledge-graph Optimization), a novel framework that integrates Large Language Models (LLMs), Knowledge Graphs (KGs), and Kahneman-Tversky Optimization (KTO) to generate asset recommendations that are both profitable and behaviorally aligned. FLARKO encodes users' transaction histories and asset trends as structured KGs, providing interpretable and controllable context for the LLM. To demonstrate the adaptability of our approach, we develop and evaluate both a centralized architecture (CenFLARKO) and a federated variant (FedFLARKO). To our knowledge, this is the first demonstration of combining KTO for fine-tuning of LLMs for financial asset recommendation. We also present the first use of structured KGs to ground LLM reasoning over behavioral financial data in a federated learning (FL) setting. Evaluated on the FAR-Trans dataset, FLARKO consistently outperforms state-of-the-art recommendation baselines on behavioral alignment and joint profitability, while remaining interpretable and resource-efficient.",
             "primary_category": "q-fin.PM",
             "code_url": "null"
+        },
+        "2510.18364": {
+            "title": "Evaluating LLM-Based Mobile App Recommendations: An Empirical Study",
+            "authors": "Quim Motger, Xavier Franch, Vincenzo Gervasi, Jordi Marco",
+            "first_author": "Quim Motger",
+            "url": "http://arxiv.org/abs/2510.18364v1",
+            "pdf_url": "http://arxiv.org/abs/2510.18364",
+            "publish_date": "2025-10-21",
+            "abstract": "Large Language Models (LLMs) are increasingly used to recommend mobile applications through natural language prompts, offering a flexible alternative to keyword-based app store search. Yet, the reasoning behind these recommendations remains opaque, raising questions about their consistency, explainability, and alignment with traditional App Store Optimization (ASO) metrics. In this paper, we present an empirical analysis of how widely-used general purpose LLMs generate, justify, and rank mobile app recommendations. Our contributions are: (i) a taxonomy of 16 generalizable ranking criteria elicited from LLM outputs; (ii) a systematic evaluation framework to analyse recommendation consistency and responsiveness to explicit ranking instructions; and (iii) a replication package to support reproducibility and future research on AI-based recommendation systems. Our findings reveal that LLMs rely on a broad yet fragmented set of ranking criteria, only partially aligned with standard ASO metrics. While top-ranked apps tend to be consistent across runs, variability increases with ranking depth and search specificity. LLMs exhibit varying sensitivity to explicit ranking instructions - ranging from substantial adaptations to near-identical outputs - highlighting their complex reasoning dynamics in conversational app discovery. Our results aim to support end-users, app developers, and recommender-systems researchers in navigating the emerging landscape of conversational app discovery.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.18277": {
+            "title": "Enhancing Hotel Recommendations with AI: LLM-Based Review Summarization and Query-Driven Insights",
+            "authors": "Nikolaos Belibasakis, Anastasios Giannaros, Ioanna Giannoukou, Spyros Sioutas",
+            "first_author": "Nikolaos Belibasakis",
+            "url": "http://arxiv.org/abs/2510.18277v1",
+            "pdf_url": "http://arxiv.org/abs/2510.18277",
+            "publish_date": "2025-10-21",
+            "abstract": "The increasing number of data a booking platform such as Booking.com and AirBnB offers make it challenging for interested parties to browse through the available accommodations and analyze reviews in an efficient way. Efforts have been made from the booking platform providers to utilize recommender systems in an effort to enable the user to filter the results by factors such as stars, amenities, cost but most valuable insights can be provided by the unstructured text-based reviews. Going through these reviews one-by-one requires a substantial amount of time to be devoted while a respectable percentage of the reviews won't provide to the user what they are actually looking for.   This research publication explores how Large Language Models (LLMs) can enhance short rental apartments recommendations by summarizing and mining key insights from user reviews. The web application presented in this paper, named \"instaGuide\", automates the procedure of isolating the text-based user reviews from a property on the Booking.com platform, synthesizing the summary of the reviews, and enabling the user to query specific aspects of the property in an effort to gain feedback on their personal questions/criteria.   During the development of the instaGuide tool, numerous LLM models were evaluated based on accuracy, cost, and response quality. The results suggest that the LLM-powered summarization reduces significantly the amount of time the users need to devote on their search for the right short rental apartment, improving the overall decision-making procedure.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
