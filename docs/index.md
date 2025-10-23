@@ -2,11 +2,14 @@
 layout: default
 ---
 
-## Updated on 2025-10-22
+## Updated on 2025-10-23
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-22 | **Code Sharing in Healthcare Research: A Practical Guide and Recommendations for Good Practice** | Lukas Hughes-Noehrer, Matthew J Parkes, Andrew Stewart, Anthony J Wilson, Gary S Collins, Richard D Riley, Maya Mathur, Matthew P Fox, Nazrul Islam, Paul N Zivich, Timothy J Feeney | [Link](http://arxiv.org/abs/2510.19279) | Not Available |
+| 2025-10-21 | **Prior-informed optimization of treatment recommendation via bandit algorithms trained on large language model-processed historical records** | Saman Nessari, Ali Bozorgi-Amiri | [Link](http://arxiv.org/abs/2510.19014) | Not Available |
+| 2025-10-20 | **Evaluating LLMs for Career Guidance: Comparative Analysis of Computing Competency Recommendations Across Ten African Countries** | Precious Eze, Stephanie Lunn, Bruk Berhane | [Link](http://arxiv.org/abs/2510.18902) | Not Available |
 | 2025-10-21 | **Evaluating LLM-Based Mobile App Recommendations: An Empirical Study** | Quim Motger, Xavier Franch, Vincenzo Gervasi, Jordi Marco | [Link](http://arxiv.org/abs/2510.18364) | Not Available |
 | 2025-10-21 | **Enhancing Hotel Recommendations with AI: LLM-Based Review Summarization and Query-Driven Insights** | Nikolaos Belibasakis, Anastasios Giannaros, Ioanna Giannoukou, Spyros Sioutas | [Link](http://arxiv.org/abs/2510.18277) | Not Available |
 | 2025-10-19 | **Preference Measurement Error, Concentration in Recommendation Systems, and Persuasion** | Andreas Haupt | [Link](http://arxiv.org/abs/2510.16972) | Not Available |

@@ -2243,6 +2243,39 @@
             "abstract": "The increasing number of data a booking platform such as Booking.com and AirBnB offers make it challenging for interested parties to browse through the available accommodations and analyze reviews in an efficient way. Efforts have been made from the booking platform providers to utilize recommender systems in an effort to enable the user to filter the results by factors such as stars, amenities, cost but most valuable insights can be provided by the unstructured text-based reviews. Going through these reviews one-by-one requires a substantial amount of time to be devoted while a respectable percentage of the reviews won't provide to the user what they are actually looking for.   This research publication explores how Large Language Models (LLMs) can enhance short rental apartments recommendations by summarizing and mining key insights from user reviews. The web application presented in this paper, named \"instaGuide\", automates the procedure of isolating the text-based user reviews from a property on the Booking.com platform, synthesizing the summary of the reviews, and enabling the user to query specific aspects of the property in an effort to gain feedback on their personal questions/criteria.   During the development of the instaGuide tool, numerous LLM models were evaluated based on accuracy, cost, and response quality. The results suggest that the LLM-powered summarization reduces significantly the amount of time the users need to devote on their search for the right short rental apartment, improving the overall decision-making procedure.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2510.19279": {
+            "title": "Code Sharing in Healthcare Research: A Practical Guide and Recommendations for Good Practice",
+            "authors": "Lukas Hughes-Noehrer, Matthew J Parkes, Andrew Stewart, Anthony J Wilson, Gary S Collins, Richard D Riley, Maya Mathur, Matthew P Fox, Nazrul Islam, Paul N Zivich, Timothy J Feeney",
+            "first_author": "Lukas Hughes-Noehrer",
+            "url": "http://arxiv.org/abs/2510.19279v1",
+            "pdf_url": "http://arxiv.org/abs/2510.19279",
+            "publish_date": "2025-10-22",
+            "abstract": "As computational analysis becomes increasingly more complex in health research, transparent sharing of analytical code is vital for reproducibility and trust. This practical guide, aligned to open science practices, outlines actionable recommendations for code sharing in healthcare research. Emphasising the FAIR (Findable, Accessible, Interoperable, Reusable) principles, the authors address common barriers and provide clear guidance to help make code more robust, reusable, and scrutinised as part of the scientific record. This supports better science and more reliable evidence for computationally-driven practice and helps to adhere to new standards and guidelines of codesharing mandated by publishers and funding bodies.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2510.19014": {
+            "title": "Prior-informed optimization of treatment recommendation via bandit algorithms trained on large language model-processed historical records",
+            "authors": "Saman Nessari, Ali Bozorgi-Amiri",
+            "first_author": "Saman Nessari",
+            "url": "http://arxiv.org/abs/2510.19014v1",
+            "pdf_url": "http://arxiv.org/abs/2510.19014",
+            "publish_date": "2025-10-21",
+            "abstract": "Current medical practice depends on standardized treatment frameworks and empirical methodologies that neglect individual patient variations, leading to suboptimal health outcomes. We develop a comprehensive system integrating Large Language Models (LLMs), Conditional Tabular Generative Adversarial Networks (CTGAN), T-learner counterfactual models, and contextual bandit approaches to provide customized, data-informed clinical recommendations. The approach utilizes LLMs to process unstructured medical narratives into structured datasets (93.2% accuracy), uses CTGANs to produce realistic synthetic patient data (55% accuracy via two-sample verification), deploys T-learners to forecast patient-specific treatment responses (84.3% accuracy), and integrates prior-informed contextual bandits to enhance online therapeutic selection by effectively balancing exploration of new possibilities with exploitation of existing knowledge. Testing on stage III colon cancer datasets revealed that our KernelUCB approach obtained 0.60-0.61 average reward scores across 5,000 rounds, exceeding other reference methods. This comprehensive system overcomes cold-start limitations in online learning environments, improves computational effectiveness, and constitutes notable progress toward individualized medicine adapted to specific patient characteristics.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2510.18902": {
+            "title": "Evaluating LLMs for Career Guidance: Comparative Analysis of Computing Competency Recommendations Across Ten African Countries",
+            "authors": "Precious Eze, Stephanie Lunn, Bruk Berhane",
+            "first_author": "Precious Eze",
+            "url": "http://arxiv.org/abs/2510.18902v1",
+            "pdf_url": "http://arxiv.org/abs/2510.18902",
+            "publish_date": "2025-10-20",
+            "abstract": "Employers increasingly expect graduates to utilize large language models (LLMs) in the workplace, yet the competencies needed for computing roles across Africa remain unclear given varying national contexts. This study examined how six LLMs, namely ChatGPT 4, DeepSeek, Gemini, Claude 3.5, Llama 3, and Mistral AI, describe entry-level computing career expectations across ten African countries. Using the Computing Curricula 2020 framework and drawing on Digital Colonialism Theory and Ubuntu Philosophy, we analyzed 60 LLM responses to standardized prompts. Technical skills such as cloud computing and programming appeared consistently, but notable differences emerged in how models addressed non-technical competencies, particularly ethics and responsible AI use. Models varied considerably in recognizing country-specific factors, including local technology ecosystems, language requirements, and national policies. Open-source models demonstrated stronger contextual awareness and a better balance between technical and professional skills, earning top scores in nine of ten countries. Still, all models struggled with cultural sensitivity and infrastructure considerations, averaging only 35.4% contextual awareness. This first broad comparison of LLM career guidance for African computing students uncovers entrenched infrastructure assumptions and Western-centric biases, creating gaps between technical recommendations and local needs. The strong performance of cost-effective open-source models (Llama: 4.47/5; DeepSeek: 4.25/5) compared to proprietary alternatives (ChatGPT 4: 3.90/5; Claude: 3.46/5) challenges assumptions about AI tool quality in resource-constrained settings. Our findings highlight how computing competency requirements vary widely across Africa and underscore the need for decolonial approaches to AI in education that emphasize contextual relevance",
+            "primary_category": "cs.CY",
+            "code_url": "null"
         }
     }
 }
