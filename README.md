@@ -1,4 +1,4 @@
-## Updated on 2025-10-24
+## Updated on 2025-10-25
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,12 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-23 | **Generative Reasoning Recommendation via LLMs** | Minjie Hong, Zetong Zhou, Zirun Guo, Ziang Zhang, Ruofan Hu, Weinan Gan, Jieming Zhu, Zhou Zhao | [Link](http://arxiv.org/abs/2510.20815) | Not Available |
+| 2025-10-23 | **The Order of Recommendation Matters: Structured Exploration for Improving the Fairness of Content Creators** | Salima Jaoua, Nicolò Pagan, Anikó Hannák, Stefania Ionescu | [Link](http://arxiv.org/abs/2510.20698) | Not Available |
+| 2025-10-23 | **Attention Enhanced Entity Recommendation for Intelligent Monitoring in Cloud Systems** | Fiza Hussain, Anson Bastos, Anjaly Parayil, Ayush Choure, Chetan Bansal, Rujia Wang, Saravan Rajmohan | [Link](http://arxiv.org/abs/2510.20640) | Not Available |
+| 2025-10-23 | **Rotate Both Ways: Time-and-Order RoPE for Generative Recommendation** | Xiaokai Wei, Jiajun Wu, Daiyao Yi, Reza Shirkavand, Michelle Gong | [Link](http://arxiv.org/abs/2510.20455) | Not Available |
+| 2025-10-23 | **Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates** | Changping Meng, Hongyi Ling, Jianling Wang, Yifan Liu, Shuzhou Zhang, Dapeng Hong, Mingyan Gao, Onkar Dalal, Ed Chi, Lichan Hong, Haokai Lu, Ningren Han | [Link](http://arxiv.org/abs/2510.20260) | Not Available |
+| 2025-10-22 | **Challenges and Recommendations in Establishing National Human Diversity Genomic Projects** | Taras K. Oleksyk, Walter W. Wolfsberger, Karishma Chhugani, Yu-Ning Huang, Valerii Pokrytiuk, Khrystyna Shchubelka, Alex Zelikovsky, Bogdan Pasaniuc, Viorel Jinga, Octavian Bucur, Scott C. Edmunds, Heinner Guio, Zane Lombard, Brenna M. Henn, Andrei Lobiuc, Alexei Levitchi, Dumitru Ciorba, Viorel Bostan, Viorel Munteanu, Victor Gordeev, Christian P. Schaaf, Hoh Boon-Peng, Andrés Moreno Estrada, Mihai Covasa, Mihai Dimian, Ulykbek Kairov, Victoria M. Pak, Seow Shih Wee, Charleston W. K. Chiang, Emmanuel Nepolo, Matteo Pellegrini, Yosr Hamdi, Malak S. Abedalthagafi, Nicola Jane Mulder, Jazlyn Mooney, Javier E. Sanchez-Galan, Sandro José de Souza, Henriette Raventós, Marina Muzzio, Gabriela Chavarria-Soley, Serghei Mangul | [Link](http://arxiv.org/abs/2510.19869) | Not Available |
 | 2025-10-22 | **Code Sharing in Healthcare Research: A Practical Guide and Recommendations for Good Practice** | Lukas Hughes-Noehrer, Matthew J Parkes, Andrew Stewart, Anthony J Wilson, Gary S Collins, Richard D Riley, Maya Mathur, Matthew P Fox, Nazrul Islam, Paul N Zivich, Timothy J Feeney | [Link](http://arxiv.org/abs/2510.19279) | Not Available |
 | 2025-10-21 | **Prior-informed optimization of treatment recommendation via bandit algorithms trained on large language model-processed historical records** | Saman Nessari, Ali Bozorgi-Amiri | [Link](http://arxiv.org/abs/2510.19014) | Not Available |
 | 2025-10-20 | **Evaluating LLMs for Career Guidance: Comparative Analysis of Computing Competency Recommendations Across Ten African Countries** | Precious Eze, Stephanie Lunn, Bruk Berhane | [Link](http://arxiv.org/abs/2510.18902) | Not Available |
