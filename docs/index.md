@@ -2,11 +2,27 @@
 layout: default
 ---
 
-## Updated on 2025-10-26
+## Updated on 2025-10-28
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-27 | **Think before Recommendation: Autonomous Reasoning-enhanced Recommender** | Xiaoyu Kong, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Jiancan Wu, Xiang Wang | [Link](http://arxiv.org/abs/2510.23077) | Not Available |
+| 2025-10-27 | **GTR-Mamba: Geometry-to-Tangent Routing for Hyperbolic POI Recommendation** | Zhuoxuan Li, Jieyuan Pei, Tangwei Ye, Zhongyuan Lai, Zihan Liu, Fengyuan Xu, Qi Zhang, Liang Hu | [Link](http://arxiv.org/abs/2510.22942) | Not Available |
+| 2025-10-27 | **MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback** | Shihao Cai, Chongming Gao, Haoyan Liu, Wentao Shi, Jianshan Sun, Ruiming Tang, Fuli Feng | [Link](http://arxiv.org/abs/2510.22888) | Not Available |
+| 2025-10-24 | **Multimodal Item Scoring for Natural Language Recommendation via Gaussian Process Regression with LLM Relevance Judgments** | Yifan Liu, Qianfeng Wen, Jiazhou Liang, Mark Zhao, Justin Cui, Anton Korikov, Armin Torogh, Junyoung Kim, Scott Sanner | [Link](http://arxiv.org/abs/2510.22023) | Not Available |
+| 2025-10-21 | **Unifying Inductive, Cross-Domain, and Multimodal Learning for Robust and Generalizable Recommendation** | Chanyoung Chung, Kyeongryul Lee, Sunbin Park, Joyce Jiyoung Whang | [Link](http://arxiv.org/abs/2510.21812) | Not Available |
+| 2025-10-21 | **DiffGRM: Diffusion-based Generative Recommendation Model** | Zhao Liu, Yichen Zhu, Yiqing Yang, Guoping Tang, Rui Huang, Qiang Luo, Xiao Lv, Ruiming Tang, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2510.21805) | Not Available |
+| 2025-09-30 | **TriMat: Context-aware Recommendation by Tri-Matrix Factorization** | Hao Wang | [Link](http://arxiv.org/abs/2510.21730) | Not Available |
+| 2025-10-24 | **Towards Explainable Personalized Recommendations by Learning from Users' Photos** | Jorge Díez, Pablo Pérez-Núñez, Oscar Luaces, Beatriz Remeseiro, Antonio Bahamonde | [Link](http://arxiv.org/abs/2510.21455) | Not Available |
+| 2025-10-24 | **SciNUP: Natural Language User Interest Profiles for Scientific Literature Recommendation** | Mariam Arustashvili, Krisztian Balog | [Link](http://arxiv.org/abs/2510.21352) | Not Available |
+| 2025-10-24 | **CausalRec: A CausalBoost Attention Model for Sequential Recommendation** | Yunbo Hou, Tianle Yang, Ruijie Li, Li He, Liang Wang, Weiping Li, Bo Zheng, Guojie Song | [Link](http://arxiv.org/abs/2510.21333) | Not Available |
+| 2025-10-24 | **Pctx: Tokenizing Personalized Context for Generative Recommendation** | Qiyong Zhong, Jiajie Su, Yunshan Ma, Julian McAuley, Yupeng Hou | [Link](http://arxiv.org/abs/2510.21276) | Not Available |
+| 2025-10-24 | **Bi-Level Optimization for Generative Recommendation: Bridging Tokenization and Generation** | Yimeng Bai, Chang Liu, Yang Zhang, Dingxian Wang, Frank Yang, Andrew Rabinovich, Wenge Rong, Fuli Feng | [Link](http://arxiv.org/abs/2510.21242) | Not Available |
+| 2025-10-24 | **Generative Federated Learning for Smart Prediction and Recommendation Applications** | Anwesha Mukherjee, Rajkumar Buyya | [Link](http://arxiv.org/abs/2510.21183) | Not Available |
+| 2025-10-24 | **VOGUE: A Multimodal Dataset for Conversational Recommendation in Fashion** | David Guo, Minqi Sun, Yilun Jiang, Jiazhou Liang, Scott Sanner | [Link](http://arxiv.org/abs/2510.21151) | Not Available |
+| 2025-10-24 | **CDrugRed: A Chinese Drug Recommendation Dataset for Discharge Medications in Metabolic Diseases** | Juntao Li, Haobin Yuan, Ling Luo, Yan Jiang, Fan Wang, Ping Zhang, Huiyi Lv, Jian Wang, Yuanyuan Sun, Hongfei Lin | [Link](http://arxiv.org/abs/2510.21084) | Not Available |
+| 2025-10-23 | **Gaussian Mixture Flow Matching with Domain Alignment for Multi-Domain Sequential Recommendation** | Xiaoxin Ye, Chengkai Huang, Hongtao Huang, Lina Yao | [Link](http://arxiv.org/abs/2510.21021) | Not Available |
 | 2025-10-23 | **Generative Reasoning Recommendation via LLMs** | Minjie Hong, Zetong Zhou, Zirun Guo, Ziang Zhang, Ruofan Hu, Weinan Gan, Jieming Zhu, Zhou Zhao | [Link](http://arxiv.org/abs/2510.20815) | Not Available |
 | 2025-10-23 | **The Order of Recommendation Matters: Structured Exploration for Improving the Fairness of Content Creators** | Salima Jaoua, Nicolò Pagan, Anikó Hannák, Stefania Ionescu | [Link](http://arxiv.org/abs/2510.20698) | Not Available |
 | 2025-10-23 | **Attention Enhanced Entity Recommendation for Intelligent Monitoring in Cloud Systems** | Fiza Hussain, Anson Bastos, Anjaly Parayil, Ayush Choure, Chetan Bansal, Rujia Wang, Saravan Rajmohan | [Link](http://arxiv.org/abs/2510.20640) | Not Available |
