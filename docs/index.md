@@ -2,11 +2,13 @@
 layout: default
 ---
 
-## Updated on 2025-10-29
+## Updated on 2025-10-30
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-28 | **MiniOneRec: An Open-Source Framework for Scaling Generative Recommendation** | Xiaoyu Kong, Leheng Sheng, Junfei Tan, Yuxin Chen, Jiancan Wu, An Zhang, Xiang Wang, Xiangnan He | [Link](http://arxiv.org/abs/2510.24431) | Not Available |
+| 2025-10-28 | **From Time and Place to Preference: LLM-Driven Geo-Temporal Context in Recommendations** | Yejin Kim, Shaghayegh Agah, Mayur Nankani, Neeraj Sharma, Feifei Peng, Maria Peifer, Sardar Hamidian, H Howie Huang | [Link](http://arxiv.org/abs/2510.24430) | Not Available |
 | 2025-10-27 | **Think before Recommendation: Autonomous Reasoning-enhanced Recommender** | Xiaoyu Kong, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Jiancan Wu, Xiang Wang | [Link](http://arxiv.org/abs/2510.23077) | Not Available |
 | 2025-10-27 | **GTR-Mamba: Geometry-to-Tangent Routing for Hyperbolic POI Recommendation** | Zhuoxuan Li, Jieyuan Pei, Tangwei Ye, Zhongyuan Lai, Zihan Liu, Fengyuan Xu, Qi Zhang, Liang Hu | [Link](http://arxiv.org/abs/2510.22942) | Not Available |
 | 2025-10-27 | **MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback** | Shihao Cai, Chongming Gao, Haoyan Liu, Wentao Shi, Jianshan Sun, Ruiming Tang, Fuli Feng | [Link](http://arxiv.org/abs/2510.22888) | Not Available |
