@@ -2,11 +2,15 @@
 layout: default
 ---
 
-## Updated on 2025-10-30
+## Updated on 2025-10-31
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-29 | **MMQ-v2: Align, Denoise, and Amplify: Adaptive Behavior Mining for Semantic IDs Learning in Recommendation** | Yi Xu, Moyu Zhang, Chaofan Fan, Jinxin Hu, Xiaochen Li, Yu Zhang, Xiaoyi Zeng, Jing Zhang | [Link](http://arxiv.org/abs/2510.25622) | Not Available |
+| 2025-10-29 | **Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy** | Junichiro Niimi | [Link](http://arxiv.org/abs/2510.25378) | Not Available |
+| 2025-10-29 | **Revisiting scalable sequential recommendation with Multi-Embedding Approach and Mixture-of-Experts** | Qiushi Pan, Hao Wang, Guoyuan An, Luankang Zhang, Wei Guo, Yong Liu | [Link](http://arxiv.org/abs/2510.25285) | Not Available |
+| 2025-10-29 | **TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation** | Yehjin Shin, Jeongwhan Choi, Seojin Kim, Noseong Park | [Link](http://arxiv.org/abs/2510.25259) | Not Available |
 | 2025-10-28 | **MiniOneRec: An Open-Source Framework for Scaling Generative Recommendation** | Xiaoyu Kong, Leheng Sheng, Junfei Tan, Yuxin Chen, Jiancan Wu, An Zhang, Xiang Wang, Xiangnan He | [Link](http://arxiv.org/abs/2510.24431) | Not Available |
 | 2025-10-28 | **From Time and Place to Preference: LLM-Driven Geo-Temporal Context in Recommendations** | Yejin Kim, Shaghayegh Agah, Mayur Nankani, Neeraj Sharma, Feifei Peng, Maria Peifer, Sardar Hamidian, H Howie Huang | [Link](http://arxiv.org/abs/2510.24430) | Not Available |
 | 2025-10-27 | **Think before Recommendation: Autonomous Reasoning-enhanced Recommender** | Xiaoyu Kong, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Jiancan Wu, Xiang Wang | [Link](http://arxiv.org/abs/2510.23077) | Not Available |
