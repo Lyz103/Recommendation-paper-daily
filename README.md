@@ -10,6 +10,9 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-30 | **WeaveRec: An LLM-Based Cross-Domain Sequential Recommendation Framework with Model Merging** | Min Hou, Xin Liu, Le Wu, Chenyi He, Hao Liu, Zhi Li, Xin Li, Si Wei | [Link](http://arxiv.org/abs/2510.26546) | Not Available |
+| 2025-10-30 | **Barlow Twins for Sequential Recommendation** | Ivan Razvorotnev, Marina Munkhoeva, Evgeny Frolov | [Link](http://arxiv.org/abs/2510.26407) | Not Available |
+| 2025-10-30 | **ORBIT -- Open Recommendation Benchmark for Reproducible Research with Hidden Tests** | Jingyuan He, Jiongnan Liu, Vishan Vishesh Oberoi, Bolin Wu, Mahima Jagadeesh Patel, Kangrui Mao, Chuning Shi, I-Ta Lee, Arnold Overwijk, Chenyan Xiong | [Link](http://arxiv.org/abs/2510.26095) | Not Available |
 | 2025-10-29 | **MMQ-v2: Align, Denoise, and Amplify: Adaptive Behavior Mining for Semantic IDs Learning in Recommendation** | Yi Xu, Moyu Zhang, Chaofan Fan, Jinxin Hu, Xiaochen Li, Yu Zhang, Xiaoyi Zeng, Jing Zhang | [Link](http://arxiv.org/abs/2510.25622) | Not Available |
 | 2025-10-29 | **Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy** | Junichiro Niimi | [Link](http://arxiv.org/abs/2510.25378) | Not Available |
 | 2025-10-29 | **Revisiting scalable sequential recommendation with Multi-Embedding Approach and Mixture-of-Experts** | Qiushi Pan, Hao Wang, Guoyuan An, Luankang Zhang, Wei Guo, Yong Liu | [Link](http://arxiv.org/abs/2510.25285) | Not Available |
