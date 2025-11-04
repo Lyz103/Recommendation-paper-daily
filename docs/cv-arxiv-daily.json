@@ -2378,9 +2378,9 @@
         },
         "2510.22023": {
             "title": "Multimodal Item Scoring for Natural Language Recommendation via Gaussian Process Regression with LLM Relevance Judgments",
-            "authors": "Yifan Liu, Qianfeng Wen, Jiazhou Liang, Mark Zhao, Justin Cui, Anton Korikov, Armin Torogh, Junyoung Kim, Scott Sanner",
+            "authors": "Yifan Liu, Qianfeng Wen, Jiazhou Liang, Mark Zhao, Justin Cui, Anton Korikov, Armin Toroghi, Junyoung Kim, Scott Sanner",
             "first_author": "Yifan Liu",
-            "url": "http://arxiv.org/abs/2510.22023v1",
+            "url": "http://arxiv.org/abs/2510.22023v2",
             "pdf_url": "http://arxiv.org/abs/2510.22023",
             "publish_date": "2025-10-24",
             "abstract": "Natural Language Recommendation (NLRec) generates item suggestions based on the relevance between user-issued NL requests and NL item description passages. Existing NLRec approaches often use Dense Retrieval (DR) to compute item relevance scores from aggregation of inner products between user request embeddings and relevant passage embeddings. However, DR views the request as the sole relevance label, thus leading to a unimodal scoring function centered on the query embedding that is often a weak proxy for query relevance. To better capture the potential multimodal distribution of the relevance scoring function that may arise from complex NLRec data, we propose GPR-LLM that uses Gaussian Process Regression (GPR) with LLM relevance judgments for a subset of candidate passages. Experiments on four NLRec datasets and two LLM backbones demonstrate that GPR-LLM with an RBF kernel, capable of modeling multimodal relevance scoring functions, consistently outperforms simpler unimodal kernels (dot product, cosine similarity), as well as baseline methods including DR, cross-encoder, and pointwise LLM-based relevance scoring by up to 65%. Overall, GPR-LLM provides an efficient and effective approach to NLRec within a minimal LLM labeling budget.",
@@ -2616,6 +2616,61 @@
             "publish_date": "2025-10-30",
             "abstract": "Recommender systems are among the most impactful AI applications, interacting with billions of users every day, guiding them to relevant products, services, or information tailored to their preferences. However, the research and development of recommender systems are hindered by existing datasets that fail to capture realistic user behaviors and inconsistent evaluation settings that lead to ambiguous conclusions. This paper introduces the Open Recommendation Benchmark for Reproducible Research with HIdden Tests (ORBIT), a unified benchmark for consistent and realistic evaluation of recommendation models. ORBIT offers a standardized evaluation framework of public datasets with reproducible splits and transparent settings for its public leaderboard. Additionally, ORBIT introduces a new webpage recommendation task, ClueWeb-Reco, featuring web browsing sequences from 87 million public, high-quality webpages. ClueWeb-Reco is a synthetic dataset derived from real, user-consented, and privacy-guaranteed browsing data. It aligns with modern recommendation scenarios and is reserved as the hidden test part of our leaderboard to challenge recommendation models' generalization ability. ORBIT measures 12 representative recommendation models on its public benchmark and introduces a prompted LLM baseline on the ClueWeb-Reco hidden test. Our benchmark results reflect general improvements of recommender systems on the public datasets, with variable individual performances. The results on the hidden test reveal the limitations of existing approaches in large-scale webpage recommendation and highlight the potential for improvements with LLM integrations. ORBIT benchmark, leaderboard, and codebase are available at https://www.open-reco-bench.ai.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.27342": {
+            "title": "Pairwise and Attribute-Aware Decision Tree-Based Preference Elicitation for Cold-Start Recommendation",
+            "authors": "Alireza Gharahighehi, Felipe Kenji Nakano, Xuehua Yang, Wenhan Cu, Celine Vens",
+            "first_author": "Alireza Gharahighehi",
+            "url": "http://arxiv.org/abs/2510.27342v1",
+            "pdf_url": "http://arxiv.org/abs/2510.27342",
+            "publish_date": "2025-10-31",
+            "abstract": "Recommender systems (RSs) are intelligent filtering methods that suggest items to users based on their inferred preferences, derived from their interaction history on the platform. Collaborative filtering-based RSs rely on users past interactions to generate recommendations. However, when a user is new to the platform, referred to as a cold-start user, there is no historical data available, making it difficult to provide personalized recommendations. To address this, rating elicitation techniques can be used to gather initial ratings or preferences on selected items, helping to build an early understanding of the user's tastes. Rating elicitation approaches are generally categorized into two types: non-personalized and personalized. Decision tree-based rating elicitation is a personalized method that queries users about their preferences at each node of the tree until sufficient information is gathered. In this paper, we propose an extension to the decision tree approach for rating elicitation in the context of music recommendation. Our method: (i) elicits not only item ratings but also preferences on attributes such as genres to better cluster users, and (ii) uses item pairs instead of single items at each node to more effectively learn user preferences. Experimental results demonstrate that both proposed enhancements lead to improved performance, particularly with a reduced number of queries.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.27274": {
+            "title": "Traceable Drug Recommendation over Medical Knowledge Graphs",
+            "authors": "Yu Lin, Zhen Jia, Philipp Christmann, Xu Zhang, Shengdong Du, Tianrui Li",
+            "first_author": "Yu Lin",
+            "url": "http://arxiv.org/abs/2510.27274v1",
+            "pdf_url": "http://arxiv.org/abs/2510.27274",
+            "publish_date": "2025-10-31",
+            "abstract": "Drug recommendation (DR) systems aim to support healthcare professionals in selecting appropriate medications based on patients' medical conditions. State-of-the-art approaches utilize deep learning techniques for improving DR, but fall short in providing any insights on the derivation process of recommendations -- a critical limitation in such high-stake applications. We propose TraceDR, a novel DR system operating over a medical knowledge graph (MKG), which ensures access to large-scale and high-quality information. TraceDR simultaneously predicts drug recommendations and related evidence within a multi-task learning framework, enabling traceability of medication recommendations. For covering a more diverse set of diseases and drugs than existing works, we devise a framework for automatically constructing patient health records and release DrugRec, a new large-scale testbed for DR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.27272": {
+            "title": "Inferring trust in recommendation systems from brain, behavioural, and physiological data",
+            "authors": "Vincent K. M. Cheung, Pei-Cheng Shih, Masato Hirano, Masataka Goto, Shinichi Furuya",
+            "first_author": "Vincent K. M. Cheung",
+            "url": "http://arxiv.org/abs/2510.27272v1",
+            "pdf_url": "http://arxiv.org/abs/2510.27272",
+            "publish_date": "2025-10-31",
+            "abstract": "As people nowadays increasingly rely on artificial intelligence (AI) to curate information and make decisions, assigning the appropriate amount of trust in automated intelligent systems has become ever more important. However, current measurements of trust in automation still largely rely on self-reports that are subjective and disruptive to the user. Here, we take music recommendation as a model to investigate the neural and cognitive processes underlying trust in automation. We observed that system accuracy was directly related to users' trust and modulated the influence of recommendation cues on music preference. Modelling users' reward encoding process with a reinforcement learning model further revealed that system accuracy, expected reward, and prediction error were related to oscillatory neural activity recorded via EEG and changes in pupil diameter. Our results provide a neurally grounded account of calibrating trust in automation and highlight the promises of a multimodal approach towards developing trustable AI systems.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2510.27157": {
+            "title": "A Survey on Generative Recommendation: Data, Model, and Tasks",
+            "authors": "Min Hou, Le Wu, Yuxin Liao, Yonghui Yang, Zhen Zhang, Changlong Zheng, Han Wu, Richang Hong",
+            "first_author": "Min Hou",
+            "url": "http://arxiv.org/abs/2510.27157v1",
+            "pdf_url": "http://arxiv.org/abs/2510.27157",
+            "publish_date": "2025-10-31",
+            "abstract": "Recommender systems serve as foundational infrastructure in modern information ecosystems, helping users navigate digital content and discover items aligned with their preferences. At their core, recommender systems address a fundamental problem: matching users with items. Over the past decades, the field has experienced successive paradigm shifts, from collaborative filtering and matrix factorization in the machine learning era to neural architectures in the deep learning era. Recently, the emergence of generative models, especially large language models (LLMs) and diffusion models, have sparked a new paradigm: generative recommendation, which reconceptualizes recommendation as a generation task rather than discriminative scoring. This survey provides a comprehensive examination through a unified tripartite framework spanning data, model, and task dimensions. Rather than simply categorizing works, we systematically decompose approaches into operational stages-data augmentation and unification, model alignment and training, task formulation and execution. At the data level, generative models enable knowledge-infused augmentation and agent-based simulation while unifying heterogeneous signals. At the model level, we taxonomize LLM-based methods, large recommendation models, and diffusion approaches, analyzing their alignment mechanisms and innovations. At the task level, we illuminate new capabilities including conversational interaction, explainable reasoning, and personalized content generation. We identify five key advantages: world knowledge integration, natural language understanding, reasoning capabilities, scaling laws, and creative generation. We critically examine challenges in benchmark design, model robustness, and deployment efficiency, while charting a roadmap toward intelligent recommendation assistants that fundamentally reshape human-information interaction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2510.26994": {
+            "title": "HADSF: Aspect Aware Semantic Control for Explainable Recommendation",
+            "authors": "Zheng Nie, Peijie Sun",
+            "first_author": "Zheng Nie",
+            "url": "http://arxiv.org/abs/2510.26994v1",
+            "pdf_url": "http://arxiv.org/abs/2510.26994",
+            "publish_date": "2025-10-30",
+            "abstract": "Recent advances in large language models (LLMs) promise more effective information extraction for review-based recommender systems, yet current methods still (i) mine free-form reviews without scope control, producing redundant and noisy representations, (ii) lack principled metrics that link LLM hallucination to downstream effectiveness, and (iii) leave the cost-quality trade-off across model scales largely unexplored. We address these gaps with the Hyper-Adaptive Dual-Stage Semantic Framework (HADSF), a two-stage approach that first induces a compact, corpus-level aspect vocabulary via adaptive selection and then performs vocabulary-guided, explicitly constrained extraction of structured aspect-opinion triples. To assess the fidelity of the resulting representations, we introduce Aspect Drift Rate (ADR) and Opinion Fidelity Rate (OFR) and empirically uncover a nonmonotonic relationship between hallucination severity and rating prediction error. Experiments on approximately 3 million reviews across LLMs spanning 1.5B-70B parameters show that, when integrated into standard rating predictors, HADSF yields consistent reductions in prediction error and enables smaller models to achieve competitive performance in representative deployment scenarios. We release code, data pipelines, and metric implementations to support reproducible research on hallucination-aware, LLM-enhanced explainable recommendation. Code is available at https://github.com/niez233/HADSF",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }

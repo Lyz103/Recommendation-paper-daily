@@ -2,11 +2,16 @@
 layout: default
 ---
 
-## Updated on 2025-11-02
+## Updated on 2025-11-04
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-10-31 | **Pairwise and Attribute-Aware Decision Tree-Based Preference Elicitation for Cold-Start Recommendation** | Alireza Gharahighehi, Felipe Kenji Nakano, Xuehua Yang, Wenhan Cu, Celine Vens | [Link](http://arxiv.org/abs/2510.27342) | Not Available |
+| 2025-10-31 | **Traceable Drug Recommendation over Medical Knowledge Graphs** | Yu Lin, Zhen Jia, Philipp Christmann, Xu Zhang, Shengdong Du, Tianrui Li | [Link](http://arxiv.org/abs/2510.27274) | Not Available |
+| 2025-10-31 | **Inferring trust in recommendation systems from brain, behavioural, and physiological data** | Vincent K. M. Cheung, Pei-Cheng Shih, Masato Hirano, Masataka Goto, Shinichi Furuya | [Link](http://arxiv.org/abs/2510.27272) | Not Available |
+| 2025-10-31 | **A Survey on Generative Recommendation: Data, Model, and Tasks** | Min Hou, Le Wu, Yuxin Liao, Yonghui Yang, Zhen Zhang, Changlong Zheng, Han Wu, Richang Hong | [Link](http://arxiv.org/abs/2510.27157) | Not Available |
+| 2025-10-30 | **HADSF: Aspect Aware Semantic Control for Explainable Recommendation** | Zheng Nie, Peijie Sun | [Link](http://arxiv.org/abs/2510.26994) | Not Available |
 | 2025-10-30 | **WeaveRec: An LLM-Based Cross-Domain Sequential Recommendation Framework with Model Merging** | Min Hou, Xin Liu, Le Wu, Chenyi He, Hao Liu, Zhi Li, Xin Li, Si Wei | [Link](http://arxiv.org/abs/2510.26546) | Not Available |
 | 2025-10-30 | **Barlow Twins for Sequential Recommendation** | Ivan Razvorotnev, Marina Munkhoeva, Evgeny Frolov | [Link](http://arxiv.org/abs/2510.26407) | Not Available |
 | 2025-10-30 | **ORBIT -- Open Recommendation Benchmark for Reproducible Research with Hidden Tests** | Jingyuan He, Jiongnan Liu, Vishan Vishesh Oberoi, Bolin Wu, Mahima Jagadeesh Patel, Kangrui Mao, Chuning Shi, I-Ta Lee, Arnold Overwijk, Chenyan Xiong | [Link](http://arxiv.org/abs/2510.26095) | Not Available |
@@ -19,7 +24,7 @@ layout: default
 | 2025-10-27 | **Think before Recommendation: Autonomous Reasoning-enhanced Recommender** | Xiaoyu Kong, Junguang Jiang, Bin Liu, Ziru Xu, Han Zhu, Jian Xu, Bo Zheng, Jiancan Wu, Xiang Wang | [Link](http://arxiv.org/abs/2510.23077) | Not Available |
 | 2025-10-27 | **GTR-Mamba: Geometry-to-Tangent Routing for Hyperbolic POI Recommendation** | Zhuoxuan Li, Jieyuan Pei, Tangwei Ye, Zhongyuan Lai, Zihan Liu, Fengyuan Xu, Qi Zhang, Liang Hu | [Link](http://arxiv.org/abs/2510.22942) | Not Available |
 | 2025-10-27 | **MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback** | Shihao Cai, Chongming Gao, Haoyan Liu, Wentao Shi, Jianshan Sun, Ruiming Tang, Fuli Feng | [Link](http://arxiv.org/abs/2510.22888) | Not Available |
-| 2025-10-24 | **Multimodal Item Scoring for Natural Language Recommendation via Gaussian Process Regression with LLM Relevance Judgments** | Yifan Liu, Qianfeng Wen, Jiazhou Liang, Mark Zhao, Justin Cui, Anton Korikov, Armin Torogh, Junyoung Kim, Scott Sanner | [Link](http://arxiv.org/abs/2510.22023) | Not Available |
+| 2025-10-24 | **Multimodal Item Scoring for Natural Language Recommendation via Gaussian Process Regression with LLM Relevance Judgments** | Yifan Liu, Qianfeng Wen, Jiazhou Liang, Mark Zhao, Justin Cui, Anton Korikov, Armin Toroghi, Junyoung Kim, Scott Sanner | [Link](http://arxiv.org/abs/2510.22023) | Not Available |
 | 2025-10-21 | **Unifying Inductive, Cross-Domain, and Multimodal Learning for Robust and Generalizable Recommendation** | Chanyoung Chung, Kyeongryul Lee, Sunbin Park, Joyce Jiyoung Whang | [Link](http://arxiv.org/abs/2510.21812) | Not Available |
 | 2025-10-21 | **DiffGRM: Diffusion-based Generative Recommendation Model** | Zhao Liu, Yichen Zhu, Yiqing Yang, Guoping Tang, Rui Huang, Qiang Luo, Xiao Lv, Ruiming Tang, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2510.21805) | Not Available |
 | 2025-09-30 | **TriMat: Context-aware Recommendation by Tri-Matrix Factorization** | Hao Wang | [Link](http://arxiv.org/abs/2510.21730) | Not Available |
