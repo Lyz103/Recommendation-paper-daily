@@ -1907,10 +1907,10 @@
             "title": "Differentiable Fast Top-K Selection for Large-Scale Recommendation",
             "authors": "Yanjie Zhu, Zhen Zhang, Yunli Wang, Zhiqiang Wang, Yu Li, Rufan Zhou, Shiyang Wen, Peng Jiang, Chenhao Lin, Jian Yang",
             "first_author": "Yanjie Zhu",
-            "url": "http://arxiv.org/abs/2510.11472v1",
+            "url": "http://arxiv.org/abs/2510.11472v2",
             "pdf_url": "http://arxiv.org/abs/2510.11472",
             "publish_date": "2025-10-13",
-            "abstract": "Cascade ranking is a widely adopted paradigm in large-scale information retrieval systems for Top-K item selection. However, the Top-K operator is non-differentiable, hindering end-to-end training. Existing methods include Learning-to-Rank approaches (e.g., LambdaLoss), which optimize ranking metrics like NDCG and suffer from objective misalignment, and differentiable sorting-based methods (e.g., ARF, LCRON), which relax permutation matrices for direct Top-K optimization but introduce gradient conflicts through matrix aggregation. A promising alternative is to directly construct a differentiable approximation of the Top-K selection operator, bypassing the use of soft permutation matrices. However, even state-of-the-art differentiable Top-K operator (e.g., LapSum) require $O(n \\log n)$ complexity due to their dependence on sorting for solving the threshold. Thus, we propose DFTopK, a novel differentiable Top-K operator achieving optimal $O(n)$ time complexity. By relaxing normalization constraints, DFTopK admits a closed-form solution and avoids sorting. DFTopK also avoids the gradient conflicts inherent in differentiable sorting-based methods. We evaluate DFTopK on both the public benchmark RecFLow and an industrial system. Experimental results show that DFTopK significantly improves training efficiency while achieving superior performance, which enables us to scale up training samples more efficiently. In the online A/B test, DFTopK yielded a +1.77\\% revenue lift with the same computational budget compared to the baseline. To the best of our knowledge, this work is the first to introduce differentiable Top-K operators into recommendation systems and the first to achieve theoretically optimal linear-time complexity for Top-K selection. We have open-sourced our implementation to facilitate future research in both academia and industry.",
+            "abstract": "Cascade ranking is a widely adopted paradigm in large-scale information retrieval systems for Top-K item selection. However, the Top-K operator is non-differentiable, hindering end-to-end training. Existing methods include Learning-to-Rank approaches (e.g., LambdaLoss), which optimize ranking metrics like NDCG and suffer from objective misalignment, and differentiable sorting-based methods (e.g., ARF, LCRON), which relax permutation matrices for direct Top-K optimization but introduce gradient conflicts through matrix aggregation. A promising alternative is to directly construct a differentiable approximation of the Top-K selection operator, bypassing the use of soft permutation matrices. However, even state-of-the-art differentiable Top-K operator (e.g., LapSum) require $O(n \\log n)$ complexity due to their dependence on sorting for solving the threshold. Thus, we propose DFTopK, a novel differentiable Top-K operator achieving optimal $O(n)$ time complexity. By relaxing normalization constraints, DFTopK admits a closed-form solution and avoids sorting. DFTopK also avoids the gradient conflicts inherent in differentiable sorting-based methods. We evaluate DFTopK on both the public benchmark RecFLow and an industrial system. Experimental results show that DFTopK significantly improves training efficiency while achieving superior performance, which enables us to scale up training samples more efficiently. In the online A/B test, DFTopK yielded a +1.77% revenue lift with the same computational budget compared to the baseline. To the best of our knowledge, this work is the first to introduce differentiable Top-K operators into recommendation systems and the first to achieve theoretically optimal linear-time complexity for Top-K selection. We have open-sourced our implementation to facilitate future research in both academia and industry.",
             "primary_category": "cs.LG",
             "code_url": "null"
         },
@@ -2671,6 +2671,105 @@
             "publish_date": "2025-10-30",
             "abstract": "Recent advances in large language models (LLMs) promise more effective information extraction for review-based recommender systems, yet current methods still (i) mine free-form reviews without scope control, producing redundant and noisy representations, (ii) lack principled metrics that link LLM hallucination to downstream effectiveness, and (iii) leave the cost-quality trade-off across model scales largely unexplored. We address these gaps with the Hyper-Adaptive Dual-Stage Semantic Framework (HADSF), a two-stage approach that first induces a compact, corpus-level aspect vocabulary via adaptive selection and then performs vocabulary-guided, explicitly constrained extraction of structured aspect-opinion triples. To assess the fidelity of the resulting representations, we introduce Aspect Drift Rate (ADR) and Opinion Fidelity Rate (OFR) and empirically uncover a nonmonotonic relationship between hallucination severity and rating prediction error. Experiments on approximately 3 million reviews across LLMs spanning 1.5B-70B parameters show that, when integrated into standard rating predictors, HADSF yields consistent reductions in prediction error and enables smaller models to achieve competitive performance in representative deployment scenarios. We release code, data pipelines, and metric implementations to support reproducible research on hallucination-aware, LLM-enhanced explainable recommendation. Code is available at https://github.com/niez233/HADSF",
             "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2511.02181": {
+            "title": "KGBridge: Knowledge-Guided Prompt Learning for Non-overlapping Cross-Domain Recommendation",
+            "authors": "Yuhan Wang, Qing Xie, Zhifeng Bao, Mengzi Tang, Lin Li, Yongjian Liu",
+            "first_author": "Yuhan Wang",
+            "url": "http://arxiv.org/abs/2511.02181v1",
+            "pdf_url": "http://arxiv.org/abs/2511.02181",
+            "publish_date": "2025-11-04",
+            "abstract": "Knowledge Graphs (KGs), as structured knowledge bases that organize relational information across diverse domains, provide a unified semantic foundation for cross-domain recommendation (CDR). By integrating symbolic knowledge with user-item interactions, KGs enrich semantic representations, support reasoning, and enhance model interpretability. Despite this potential, existing KG-based methods still face major challenges in CDR, particularly under non-overlapping user scenarios. These challenges arise from: (C1) sensitivity to KG sparsity and popularity bias, (C2) dependence on overlapping users for domain alignment and (C3) lack of explicit disentanglement between transferable and domain-specific knowledge, which limit effective and stable knowledge transfer. To this end, we propose KGBridge, a knowledge-guided prompt learning framework for cross-domain sequential recommendation under non-overlapping user scenarios. KGBridge comprises two core components: a KG-enhanced Prompt Encoder, which models relation-level semantics as soft prompts to provide structured and dynamic priors for user sequence modeling (addressing C1), and a Two-stage Training Paradigm, which combines cross-domain pretraining and privacy-preserving fine-tuning to enable knowledge transfer without user overlap (addressing C2). By combining relation-aware semantic control with correspondence-driven disentanglement, KGBridge explicitly separates and balances domain-shared and domain-specific semantics, thereby maintaining complementarity and stabilizing adaptation during fine-tuning (addressing C3). Extensive experiments on benchmark datasets demonstrate that KGBridge consistently outperforms state-of-the-art baselines and remains robust under varying KG sparsity, highlighting its effectiveness in mitigating structural imbalance and semantic entanglement in KG-enhanced cross-domain recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.02113": {
+            "title": "Enhancing Multimodal Recommendations with Vision-Language Models and Information-Aware Fusion",
+            "authors": "Hai-Dang Kieu, Min Xu, Thanh Trung Huynh, Dung D. Le",
+            "first_author": "Hai-Dang Kieu",
+            "url": "http://arxiv.org/abs/2511.02113v1",
+            "pdf_url": "http://arxiv.org/abs/2511.02113",
+            "publish_date": "2025-11-03",
+            "abstract": "Recent advances in multimodal recommendation (MMR) have shown that incorporating rich content sources such as images and text can lead to significant gains representation quality. However, existing methods often rely on coarse visual features and uncontrolled fusion, leading to redundant or misaligned representations. As a result, visual encoders often fail to capture salient, item-relevant semantics, limiting their contribution in multimodal fusion. From an information-theoretic perspective, effective fusion should balance the unique, shared, and redundant information across modalities, preserving complementary cues while avoiding correlation bias. This paper presents VLIF, a vision-language and information-theoretic fusion framework that enhances multimodal recommendation through two key components. (i) A VLM-based visual enrichment module generates fine-grained, title-guided descriptions to transform product images into semantically aligned representations. (ii) An information-aware fusion module, inspired by Partial Information Decomposition (PID), disentangles redundant and synergistic signals across modalities for controlled integration. Experiments on three Amazon datasets demonstrate that VLIF consistently outperforms recent multimodal baselines and substantially strengthens the contribution of visual features.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.02052": {
+            "title": "Solving cold start in news recommendations: a RippleNet-based system for large scale media outlet",
+            "authors": "Karol Radziszewski, Micha\u0142 Szpunar, Piotr Ociepka, Mateusz Buczy\u0144ski",
+            "first_author": "Karol Radziszewski",
+            "url": "http://arxiv.org/abs/2511.02052v1",
+            "pdf_url": "http://arxiv.org/abs/2511.02052",
+            "publish_date": "2025-11-03",
+            "abstract": "We present a scalable recommender system implementation based on RippleNet, tailored for the media domain with a production deployment in Onet.pl, one of Poland's largest online media platforms. Our solution addresses the cold-start problem for newly published content by integrating content-based item embeddings into the knowledge propagation mechanism of RippleNet, enabling effective scoring of previously unseen items. The system architecture leverages Amazon SageMaker for distributed training and inference, and Apache Airflow for orchestrating data pipelines and model retraining workflows. To ensure high-quality training data, we constructed a comprehensive golden dataset consisting of user and item features and a separate interaction table, all enabling flexible extensions and integration of new signals.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.01489": {
+            "title": "An Explanation-oriented Inquiry Dialogue Game for Expert Collaborative Recommendations",
+            "authors": "Qurat-ul-ain Shaheen, Katarzyna Budzynska, Carles Sierra",
+            "first_author": "Qurat-ul-ain Shaheen",
+            "url": "http://arxiv.org/abs/2511.01489v1",
+            "pdf_url": "http://arxiv.org/abs/2511.01489",
+            "publish_date": "2025-11-03",
+            "abstract": "This work presents a requirement analysis for collaborative dialogues among medical experts and an inquiry dialogue game based on this analysis for incorporating explainability into multiagent system design. The game allows experts with different knowledge bases to collaboratively make recommendations while generating rich traces of the reasoning process through combining explanation-based illocutionary forces in an inquiry dialogue. The dialogue game was implemented as a prototype web-application and evaluated against the specification through a formative user study. The user study confirms that the dialogue game meets the needs for collaboration among medical experts. It also provides insights on the real-life value of dialogue-based communication tools for the medical community.",
+            "primary_category": "cs.MA",
+            "code_url": "null"
+        },
+        "2511.01404": {
+            "title": "A Soft-partitioned Semi-supervised Collaborative Transfer Learning Approach for Multi-Domain Recommendation",
+            "authors": "Xiaoyu Liu, Yiqing Wu, Ruidong Han, Fuzhen Zhuang, Xiang Li, Wei Lin",
+            "first_author": "Xiaoyu Liu",
+            "url": "http://arxiv.org/abs/2511.01404v1",
+            "pdf_url": "http://arxiv.org/abs/2511.01404",
+            "publish_date": "2025-11-03",
+            "abstract": "In industrial practice, Multi-domain Recommendation (MDR) plays a crucial role. Shared-specific architectures are widely used in industrial solutions to capture shared and unique attributes via shared and specific parameters. However, with imbalanced data across different domains, these models face two key issues: (1) Overwhelming: Dominant domain data skews model performance, neglecting non-dominant domains. (2) Overfitting: Sparse data in non-dominant domains leads to overfitting in specific parameters. To tackle these challenges, we propose Soft-partitioned Semi-supervised Collaborative Transfer Learning (SSCTL) for multi-domain recommendation. SSCTL generates dynamic parameters to address the overwhelming issue, thus shifting focus towards samples from non-dominant domains. To combat overfitting, it leverages pseudo-labels with weights from dominant domain instances to enhance non-dominant domain data. We conduct comprehensive experiments, both online and offline, to validate the efficacy of our proposed method. Online tests yielded significant improvements across various domains, with increases in GMV ranging from 0.54% to 2.90% and enhancements in CTR ranging from 0.22% to 1.69%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.00584": {
+            "title": "Structurally Refined Graph Transformer for Multimodal Recommendation",
+            "authors": "Ke Shi, Yan Zhang, Miao Zhang, Lifan Chen, Jiali Yi, Kui Xiao, Xiaoju Hou, Zhifei Li",
+            "first_author": "Ke Shi",
+            "url": "http://arxiv.org/abs/2511.00584v1",
+            "pdf_url": "http://arxiv.org/abs/2511.00584",
+            "publish_date": "2025-11-01",
+            "abstract": "Multimodal recommendation systems utilize various types of information, including images and text, to enhance the effectiveness of recommendations. The key challenge is predicting user purchasing behavior from the available data. Current recommendation models prioritize extracting multimodal information while neglecting the distinction between redundant and valuable data. They also rely heavily on a single semantic framework (e.g., local or global semantics), resulting in an incomplete or biased representation of user preferences, particularly those less expressed in prior interactions. Furthermore, these approaches fail to capture the complex interactions between users and items, limiting the model's ability to meet diverse users. To address these challenges, we present SRGFormer, a structurally optimized multimodal recommendation model. By modifying the transformer for better integration into our model, we capture the overall behavior patterns of users. Then, we enhance structural information by embedding multimodal information into a hypergraph structure to aid in learning the local structures between users and items. Meanwhile, applying self-supervised tasks to user-item collaborative signals enhances the integration of multimodal information, thereby revealing the representational features inherent to the data's modality. Extensive experiments on three public datasets reveal that SRGFormer surpasses previous benchmark models, achieving an average performance improvement of 4.47 percent on the Sports dataset. The code is publicly available online.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.00436": {
+            "title": "Simple and Behavior-Driven Augmentation for Recommendation with Rich Collaborative Signals",
+            "authors": "Doyun Choi, Cheonwoo Lee, Jaemin Yoo",
+            "first_author": "Doyun Choi",
+            "url": "http://arxiv.org/abs/2511.00436v2",
+            "pdf_url": "http://arxiv.org/abs/2511.00436",
+            "publish_date": "2025-11-01",
+            "abstract": "Contrastive learning (CL) has been widely used for enhancing the performance of graph collaborative filtering (GCF) for personalized recommendation. Since data augmentation plays a crucial role in the success of CL, previous works have designed augmentation methods to remove noisy interactions between users and items in order to generate effective augmented views. However, the ambiguity in defining ''noisiness'' presents a persistent risk of losing core information and generating unreliable data views, while increasing the overall complexity of augmentation. In this paper, we propose Simple Collaborative Augmentation for Recommendation (SCAR), a novel and intuitive augmentation method designed to maximize the effectiveness of CL for GCF. Instead of removing information, SCAR leverages collaborative signals extracted from user-item interactions to generate pseudo-interactions, which are then either added to or used to replace existing interactions. This results in more robust representations while avoiding the pitfalls of overly complex augmentation modules. We conduct experiments on four benchmark datasets and show that SCAR outperforms previous CL-based GCF methods as well as other state-of-the-art self-supervised learning approaches across key evaluation metrics. SCAR exhibits strong robustness across different hyperparameter settings and is particularly effective in sparse data scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.00375": {
+            "title": "PolyRecommender: A Multimodal Recommendation System for Polymer Discovery",
+            "authors": "Xin Wang, Yunhao Xiao, Rui Qiao",
+            "first_author": "Xin Wang",
+            "url": "http://arxiv.org/abs/2511.00375v1",
+            "pdf_url": "http://arxiv.org/abs/2511.00375",
+            "publish_date": "2025-11-01",
+            "abstract": "We introduce PolyRecommender, a multimodal discovery framework that integrates chemical language representations from PolyBERT with molecular graph-based representations from a graph encoder. The system first retrieves candidate polymers using language-based similarity and then ranks them using fused multimodal embeddings according to multiple target properties. By leveraging the complementary knowledge encoded in both modalities, PolyRecommender enables efficient retrieval and robust ranking across related polymer properties. Our work establishes a generalizable multimodal paradigm, advancing AI-guided design for the discovery of next-generation polymers.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2511.00176": {
+            "title": "Effectiveness of LLMs in Temporal User Profiling for Recommendation",
+            "authors": "Milad Sabouri, Masoud Mansoury, Kun Lin, Bamshad Mobasher",
+            "first_author": "Milad Sabouri",
+            "url": "http://arxiv.org/abs/2511.00176v1",
+            "pdf_url": "http://arxiv.org/abs/2511.00176",
+            "publish_date": "2025-10-31",
+            "abstract": "Effectively modeling the dynamic nature of user preferences is crucial for enhancing recommendation accuracy and fostering transparency in recommender systems. Traditional user profiling often overlooks the distinction between transitory short-term interests and stable long-term preferences. This paper examines the capability of leveraging Large Language Models (LLMs) to capture these temporal dynamics, generating richer user representations through distinct short-term and long-term textual summaries of interaction histories. Our observations suggest that while LLMs tend to improve recommendation quality in domains with more active user engagement, their benefits appear less pronounced in sparser environments. This disparity likely stems from the varying distinguishability of short-term and long-term preferences across domains; the approach shows greater utility where these temporal interests are more clearly separable (e.g., Movies\\&TV) compared to domains with more stable user profiles (e.g., Video Games). This highlights a critical trade-off between enhanced performance and computational costs, suggesting context-dependent LLM application. Beyond predictive capability, this LLM-driven approach inherently provides an intrinsic potential for interpretability through its natural language profiles and attention weights. This work contributes insights into the practical capability and inherent interpretability of LLM-driven temporal user profiling, outlining new research directions for developing adaptive and transparent recommender systems.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }

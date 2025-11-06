@@ -2,11 +2,20 @@
 layout: default
 ---
 
-## Updated on 2025-11-05
+## Updated on 2025-11-06
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-11-04 | **KGBridge: Knowledge-Guided Prompt Learning for Non-overlapping Cross-Domain Recommendation** | Yuhan Wang, Qing Xie, Zhifeng Bao, Mengzi Tang, Lin Li, Yongjian Liu | [Link](http://arxiv.org/abs/2511.02181) | Not Available |
+| 2025-11-03 | **Enhancing Multimodal Recommendations with Vision-Language Models and Information-Aware Fusion** | Hai-Dang Kieu, Min Xu, Thanh Trung Huynh, Dung D. Le | [Link](http://arxiv.org/abs/2511.02113) | Not Available |
+| 2025-11-03 | **Solving cold start in news recommendations: a RippleNet-based system for large scale media outlet** | Karol Radziszewski, Michał Szpunar, Piotr Ociepka, Mateusz Buczyński | [Link](http://arxiv.org/abs/2511.02052) | Not Available |
+| 2025-11-03 | **An Explanation-oriented Inquiry Dialogue Game for Expert Collaborative Recommendations** | Qurat-ul-ain Shaheen, Katarzyna Budzynska, Carles Sierra | [Link](http://arxiv.org/abs/2511.01489) | Not Available |
+| 2025-11-03 | **A Soft-partitioned Semi-supervised Collaborative Transfer Learning Approach for Multi-Domain Recommendation** | Xiaoyu Liu, Yiqing Wu, Ruidong Han, Fuzhen Zhuang, Xiang Li, Wei Lin | [Link](http://arxiv.org/abs/2511.01404) | Not Available |
+| 2025-11-01 | **Structurally Refined Graph Transformer for Multimodal Recommendation** | Ke Shi, Yan Zhang, Miao Zhang, Lifan Chen, Jiali Yi, Kui Xiao, Xiaoju Hou, Zhifei Li | [Link](http://arxiv.org/abs/2511.00584) | Not Available |
+| 2025-11-01 | **Simple and Behavior-Driven Augmentation for Recommendation with Rich Collaborative Signals** | Doyun Choi, Cheonwoo Lee, Jaemin Yoo | [Link](http://arxiv.org/abs/2511.00436) | Not Available |
+| 2025-11-01 | **PolyRecommender: A Multimodal Recommendation System for Polymer Discovery** | Xin Wang, Yunhao Xiao, Rui Qiao | [Link](http://arxiv.org/abs/2511.00375) | Not Available |
+| 2025-10-31 | **Effectiveness of LLMs in Temporal User Profiling for Recommendation** | Milad Sabouri, Masoud Mansoury, Kun Lin, Bamshad Mobasher | [Link](http://arxiv.org/abs/2511.00176) | Not Available |
 | 2025-10-31 | **Pairwise and Attribute-Aware Decision Tree-Based Preference Elicitation for Cold-Start Recommendation** | Alireza Gharahighehi, Felipe Kenji Nakano, Xuehua Yang, Wenhan Cu, Celine Vens | [Link](http://arxiv.org/abs/2510.27342) | Not Available |
 | 2025-10-31 | **Traceable Drug Recommendation over Medical Knowledge Graphs** | Yu Lin, Zhen Jia, Philipp Christmann, Xu Zhang, Shengdong Du, Tianrui Li | [Link](http://arxiv.org/abs/2510.27274) | Not Available |
 | 2025-10-31 | **Inferring trust in recommendation systems from brain, behavioural, and physiological data** | Vincent K. M. Cheung, Pei-Cheng Shih, Masato Hirano, Masataka Goto, Shinichi Furuya | [Link](http://arxiv.org/abs/2510.27272) | Not Available |
