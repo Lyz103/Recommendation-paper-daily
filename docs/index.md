@@ -7,6 +7,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-11-05 | **Discourse-Aware Scientific Paper Recommendation via QA-Style Summarization and Multi-Level Contrastive Learning** | Shenghua Wang, Zhen Yin | [Link](http://arxiv.org/abs/2511.03330) | Not Available |
+| 2025-11-05 | **Generative Sequential Recommendation via Hierarchical Behavior Modeling** | Zhefan Wang, Guokai Yan, Jinbei Yu, Siyu Gu, Jingyan Chen, Peng Jiang, Zhiqiang Guo, Min Zhang | [Link](http://arxiv.org/abs/2511.03155) | Not Available |
+| 2025-11-04 | **No-Human in the Loop: Agentic Evaluation at Scale for Recommendation** | Tao Zhang, Kehui Yao, Luyi Ma, Jiao Chen, Reza Yousefi Maragheh, Kai Zhao, Jianpeng Xu, Evren Korpeoglu, Sushant Kumar, Kannan Achan | [Link](http://arxiv.org/abs/2511.03051) | Not Available |
 | 2025-11-04 | **KGBridge: Knowledge-Guided Prompt Learning for Non-overlapping Cross-Domain Recommendation** | Yuhan Wang, Qing Xie, Zhifeng Bao, Mengzi Tang, Lin Li, Yongjian Liu | [Link](http://arxiv.org/abs/2511.02181) | Not Available |
 | 2025-11-03 | **Enhancing Multimodal Recommendations with Vision-Language Models and Information-Aware Fusion** | Hai-Dang Kieu, Min Xu, Thanh Trung Huynh, Dung D. Le | [Link](http://arxiv.org/abs/2511.02113) | Not Available |
 | 2025-11-03 | **Solving cold start in news recommendations: a RippleNet-based system for large scale media outlet** | Karol Radziszewski, Michał Szpunar, Piotr Ociepka, Mateusz Buczyński | [Link](http://arxiv.org/abs/2511.02052) | Not Available |

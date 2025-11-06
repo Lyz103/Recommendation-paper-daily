@@ -2771,6 +2771,39 @@
             "abstract": "Effectively modeling the dynamic nature of user preferences is crucial for enhancing recommendation accuracy and fostering transparency in recommender systems. Traditional user profiling often overlooks the distinction between transitory short-term interests and stable long-term preferences. This paper examines the capability of leveraging Large Language Models (LLMs) to capture these temporal dynamics, generating richer user representations through distinct short-term and long-term textual summaries of interaction histories. Our observations suggest that while LLMs tend to improve recommendation quality in domains with more active user engagement, their benefits appear less pronounced in sparser environments. This disparity likely stems from the varying distinguishability of short-term and long-term preferences across domains; the approach shows greater utility where these temporal interests are more clearly separable (e.g., Movies\\&TV) compared to domains with more stable user profiles (e.g., Video Games). This highlights a critical trade-off between enhanced performance and computational costs, suggesting context-dependent LLM application. Beyond predictive capability, this LLM-driven approach inherently provides an intrinsic potential for interpretability through its natural language profiles and attention weights. This work contributes insights into the practical capability and inherent interpretability of LLM-driven temporal user profiling, outlining new research directions for developing adaptive and transparent recommender systems.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2511.03330": {
+            "title": "Discourse-Aware Scientific Paper Recommendation via QA-Style Summarization and Multi-Level Contrastive Learning",
+            "authors": "Shenghua Wang, Zhen Yin",
+            "first_author": "Shenghua Wang",
+            "url": "http://arxiv.org/abs/2511.03330v1",
+            "pdf_url": "http://arxiv.org/abs/2511.03330",
+            "publish_date": "2025-11-05",
+            "abstract": "The rapid growth of open-access (OA) publications has intensified the challenge of identifying relevant scientific papers. Due to privacy constraints and limited access to user interaction data, recent efforts have shifted toward content-based recommendation, which relies solely on textual information. However, existing models typically treat papers as unstructured text, neglecting their discourse organization and thereby limiting semantic completeness and interpretability. To address these limitations, we propose OMRC-MR, a hierarchical framework that integrates QA-style OMRC (Objective, Method, Result, Conclusion) summarization, multi-level contrastive learning, and structure-aware re-ranking for scholarly recommendation. The QA-style summarization module converts raw papers into structured and discourse-consistent representations, while multi-level contrastive objectives align semantic representations across metadata, section, and document levels. The final re-ranking stage further refines retrieval precision through contextual similarity calibration. Experiments on DBLP, S2ORC, and the newly constructed Sci-OMRC dataset demonstrate that OMRC-MR consistently surpasses state-of-the-art baselines, achieving up to 7.2% and 3.8% improvements in Precision@10 and Recall@10, respectively. Additional evaluations confirm that QA-style summarization produces more coherent and factually complete representations. Overall, OMRC-MR provides a unified and interpretable content-based paradigm for scientific paper recommendation, advancing trustworthy and privacy-aware scholarly information retrieval.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.03155": {
+            "title": "Generative Sequential Recommendation via Hierarchical Behavior Modeling",
+            "authors": "Zhefan Wang, Guokai Yan, Jinbei Yu, Siyu Gu, Jingyan Chen, Peng Jiang, Zhiqiang Guo, Min Zhang",
+            "first_author": "Zhefan Wang",
+            "url": "http://arxiv.org/abs/2511.03155v1",
+            "pdf_url": "http://arxiv.org/abs/2511.03155",
+            "publish_date": "2025-11-05",
+            "abstract": "Recommender systems in multi-behavior domains, such as advertising and e-commerce, aim to guide users toward high-value but inherently sparse conversions. Leveraging auxiliary behaviors (e.g., clicks, likes, shares) is therefore essential. Recent progress on generative recommendations has brought new possibilities for multi-behavior sequential recommendation. However, existing generative approaches face two significant challenges: 1) Inadequate Sequence Modeling: capture the complex, cross-level dependencies within user behavior sequences, and 2) Lack of Suitable Datasets: publicly available multi-behavior recommendation datasets are almost exclusively derived from e-commerce platforms, limiting the validation of feasibility in other domains, while also lacking sufficient side information for semantic ID generation. To address these issues, we propose a novel generative framework, GAMER (Generative Augmentation and Multi-lEvel behavior modeling for Recommendation), built upon a decoder-only backbone. GAMER introduces a cross-level interaction layer to capture hierarchical dependencies among behaviors and a sequential augmentation strategy that enhances robustness in training. To further advance this direction, we collect and release ShortVideoAD, a large-scale multi-behavior dataset from a mainstream short-video platform, which differs fundamentally from existing e-commerce datasets and provides pretrained semantic IDs for research on generative methods. Extensive experiments show that GAMER consistently outperforms both discriminative and generative baselines across multiple metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.03051": {
+            "title": "No-Human in the Loop: Agentic Evaluation at Scale for Recommendation",
+            "authors": "Tao Zhang, Kehui Yao, Luyi Ma, Jiao Chen, Reza Yousefi Maragheh, Kai Zhao, Jianpeng Xu, Evren Korpeoglu, Sushant Kumar, Kannan Achan",
+            "first_author": "Tao Zhang",
+            "url": "http://arxiv.org/abs/2511.03051v1",
+            "pdf_url": "http://arxiv.org/abs/2511.03051",
+            "publish_date": "2025-11-04",
+            "abstract": "Evaluating large language models (LLMs) as judges is increasingly critical for building scalable and trustworthy evaluation pipelines. We present ScalingEval, a large-scale benchmarking study that systematically compares 36 LLMs, including GPT, Gemini, Claude, and Llama, across multiple product categories using a consensus-driven evaluation protocol. Our multi-agent framework aggregates pattern audits and issue codes into ground-truth labels via scalable majority voting, enabling reproducible comparison of LLM evaluators without human annotation. Applied to large-scale complementary-item recommendation, the benchmark reports four key findings: (i) Anthropic Claude 3.5 Sonnet achieves the highest decision confidence; (ii) Gemini 1.5 Pro offers the best overall performance across categories; (iii) GPT-4o provides the most favorable latency-accuracy-cost tradeoff; and (iv) GPT-OSS 20B leads among open-source models. Category-level analysis shows strong consensus in structured domains (Electronics, Sports) but persistent disagreement in lifestyle categories (Clothing, Food). These results establish ScalingEval as a reproducible benchmark and evaluation protocol for LLMs as judges, with actionable guidance on scaling, reliability, and model family tradeoffs.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
