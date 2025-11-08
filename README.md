@@ -1,4 +1,4 @@
-## Updated on 2025-11-07
+## Updated on 2025-11-08
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -10,6 +10,8 @@
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
+| 2025-11-06 | **LLM-as-a-Judge: Toward World Models for Slate Recommendation Systems** | Baptiste Bonin, Maxime Heuillet, Audrey Durand | [Link](http://arxiv.org/abs/2511.04541) | Not Available |
+| 2025-11-06 | **Denoised Recommendation Model with Collaborative Signal Decoupling** | Zefeng Li, Ning Yang | [Link](http://arxiv.org/abs/2511.04237) | Not Available |
 | 2025-11-05 | **Discourse-Aware Scientific Paper Recommendation via QA-Style Summarization and Multi-Level Contrastive Learning** | Shenghua Wang, Zhen Yin | [Link](http://arxiv.org/abs/2511.03330) | Not Available |
 | 2025-11-05 | **Generative Sequential Recommendation via Hierarchical Behavior Modeling** | Zhefan Wang, Guokai Yan, Jinbei Yu, Siyu Gu, Jingyan Chen, Peng Jiang, Zhiqiang Guo, Min Zhang | [Link](http://arxiv.org/abs/2511.03155) | Not Available |
 | 2025-11-04 | **No-Human in the Loop: Agentic Evaluation at Scale for Recommendation** | Tao Zhang, Kehui Yao, Luyi Ma, Jiao Chen, Reza Yousefi Maragheh, Kai Zhao, Jianpeng Xu, Evren Korpeoglu, Sushant Kumar, Kannan Achan | [Link](http://arxiv.org/abs/2511.03051) | Not Available |

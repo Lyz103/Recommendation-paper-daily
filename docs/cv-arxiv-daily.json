@@ -2804,6 +2804,28 @@
             "abstract": "Evaluating large language models (LLMs) as judges is increasingly critical for building scalable and trustworthy evaluation pipelines. We present ScalingEval, a large-scale benchmarking study that systematically compares 36 LLMs, including GPT, Gemini, Claude, and Llama, across multiple product categories using a consensus-driven evaluation protocol. Our multi-agent framework aggregates pattern audits and issue codes into ground-truth labels via scalable majority voting, enabling reproducible comparison of LLM evaluators without human annotation. Applied to large-scale complementary-item recommendation, the benchmark reports four key findings: (i) Anthropic Claude 3.5 Sonnet achieves the highest decision confidence; (ii) Gemini 1.5 Pro offers the best overall performance across categories; (iii) GPT-4o provides the most favorable latency-accuracy-cost tradeoff; and (iv) GPT-OSS 20B leads among open-source models. Category-level analysis shows strong consensus in structured domains (Electronics, Sports) but persistent disagreement in lifestyle categories (Clothing, Food). These results establish ScalingEval as a reproducible benchmark and evaluation protocol for LLMs as judges, with actionable guidance on scaling, reliability, and model family tradeoffs.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2511.04541": {
+            "title": "LLM-as-a-Judge: Toward World Models for Slate Recommendation Systems",
+            "authors": "Baptiste Bonin, Maxime Heuillet, Audrey Durand",
+            "first_author": "Baptiste Bonin",
+            "url": "http://arxiv.org/abs/2511.04541v1",
+            "pdf_url": "http://arxiv.org/abs/2511.04541",
+            "publish_date": "2025-11-06",
+            "abstract": "Modeling user preferences across domains remains a key challenge in slate recommendation (i.e. recommending an ordered sequence of items) research. We investigate how Large Language Models (LLM) can effectively act as world models of user preferences through pairwise reasoning over slates. We conduct an empirical study involving several LLMs on three tasks spanning different datasets. Our results reveal relationships between task performance and properties of the preference function captured by LLMs, hinting towards areas for improvement and highlighting the potential of LLMs as world models in recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.04237": {
+            "title": "Denoised Recommendation Model with Collaborative Signal Decoupling",
+            "authors": "Zefeng Li, Ning Yang",
+            "first_author": "Zefeng Li",
+            "url": "http://arxiv.org/abs/2511.04237v1",
+            "pdf_url": "http://arxiv.org/abs/2511.04237",
+            "publish_date": "2025-11-06",
+            "abstract": "Although the collaborative filtering (CF) algorithm has achieved remarkable performance in recommendation systems, it suffers from suboptimal recommendation performance due to noise in the user-item interaction matrix. Numerous noise-removal studies have improved recommendation models, but most existing approaches conduct denoising on a single graph. This may cause attenuation of collaborative signals: removing edges between two nodes can interrupt paths between other nodes, weakening path-dependent collaborative information. To address these limitations, this study proposes a novel GNN-based CF model called DRCSD for denoising unstable interactions. DRCSD includes two core modules: a collaborative signal decoupling module (decomposes signals into distinct orders by structural characteristics) and an order-wise denoising module (performs targeted denoising on each order). Additionally, the information aggregation mechanism of traditional GNN-based CF models is modified to avoid cross-order signal interference until the final pooling operation. Extensive experiments on three public real-world datasets show that DRCSD has superior robustness against unstable interactions and achieves statistically significant performance improvements in recommendation accuracy metrics compared to state-of-the-art baseline models.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
