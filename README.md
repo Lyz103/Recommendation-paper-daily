@@ -289,6 +289,7 @@
 | 2025-04-10 | **A Novel Mamba-based Sequential Recommendation Method** | Jun Yuan | [Link](http://arxiv.org/abs/2504.07398) | Not Available |
 | 2025-04-08 | **Unified Generative Search and Recommendation** | Teng Shi, Jun Xu, Xiao Zhang, Xiaoxue Zang, Kai Zheng, Yang Song, Enyun Yu | [Link](http://arxiv.org/abs/2504.05730) | Not Available |
 | 2025-02-26 | **Multi-Perspective Attention Mechanism for Bias-Aware Sequential Recommendation** | Mingjian Fu, Hengsheng Chen, Dongchun Jiang, Yanchao Tan | [Link](http://arxiv.org/abs/2504.05323) | Not Available |
+| 2025-02-20 | **Multimodal Quantitative Language for Generative Recommendation** | Jianyang Zhai, Zi-Feng Mai, Chang-Dong Wang, Feidiao Yang, Xiawu Zheng, Hui Li, Yonghong Tian | [Link](http://arxiv.org/abs/2504.05314) | Not Available |
 | 2025-03-28 | **Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation** | Jiakai Tang, Sunhao Dai, Teng Shi, Jun Xu, Xu Chen, Wen Chen, Jian Wu, Yuning Jiang | [Link](http://arxiv.org/abs/2503.22675) | Not Available |
 | 2025-03-17 | **Leveraging the Dynamics of Leadership in Group Recommendation Systems** | Peijin Yu, Shin'ichi Konomi | [Link](http://arxiv.org/abs/2503.12877) | Not Available |
 | 2025-03-12 | **Towards Next-Generation Recommender Systems: A Benchmark for Personalized Recommendation Assistant with LLMs** | Jiani Huang, Shijie Wang, Liang-bo Ning, Wenqi Fan, Shuaiqiang Wang, Dawei Yin, Qing Li | [Link](http://arxiv.org/abs/2503.09382) | Not Available |
