@@ -7281,6 +7281,61 @@
             "abstract": "Information overload in the modern society calls for highly efficient recommendation algorithms. In this letter we present a novel diffusion based recommendation model, with users' ratings built into a transition matrix. To speed up computation we introduce a Green function method. The numerical tests on a benchmark database show that our prediction is superior to the standard recommendation methods.",
             "primary_category": "physics.soc-ph",
             "code_url": "null"
+        },
+        "2302.03497": {
+            "title": "MMRec: Simplifying Multimodal Recommendation",
+            "authors": "Xin Zhou",
+            "first_author": "Xin Zhou",
+            "url": "http://arxiv.org/abs/2302.03497v2",
+            "pdf_url": "http://arxiv.org/abs/2302.03497",
+            "publish_date": "2023-02-02",
+            "abstract": "This paper presents an open-source toolbox, MMRec for multimodal recommendation. MMRec simplifies and canonicalizes the process of implementing and comparing multimodal recommendation models. The objective of MMRec is to provide a unified and configurable arena that can minimize the effort in implementing and testing multimodal recommendation models. It enables multimodal models, ranging from traditional matrix factorization to modern graph-based algorithms, capable of fusing information from multiple modalities simultaneously. Our documentation, examples, and source code are available at \\url{https://github.com/enoche/MMRec}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2211.01155": {
+            "title": "Recommendation with User Active Disclosing Willingness",
+            "authors": "Lei Wang, Xu Chen, Quanyu Dai, Zhenhua Dong",
+            "first_author": "Lei Wang",
+            "url": "http://arxiv.org/abs/2211.01155v1",
+            "pdf_url": "http://arxiv.org/abs/2211.01155",
+            "publish_date": "2022-10-25",
+            "abstract": "Recommender system has been deployed in a large amount of real-world applications, profoundly influencing people's daily life and production.Traditional recommender models mostly collect as comprehensive as possible user behaviors for accurate preference estimation. However, considering the privacy, preference shaping and other issues, the users may not want to disclose all their behaviors for training the model. In this paper, we study a novel recommendation paradigm, where the users are allowed to indicate their \"willingness\" on disclosing different behaviors, and the models are optimized by trading-off the recommendation quality as well as the violation of the user \"willingness\". More specifically, we formulate the recommendation problem as a multiplayer game, where the action is a selection vector representing whether the items are involved into the model training. For efficiently solving this game, we design a tailored algorithm based on influence function to lower the time cost for recommendation quality exploration, and also extend it with multiple anchor selection vectors.We conduct extensive experiments to demonstrate the effectiveness of our model on balancing the recommendation quality and user disclosing willingness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2208.04104": {
+            "title": "INSPIRED2: An Improved Dataset for Sociable Conversational Recommendation",
+            "authors": "Ahtsham Manzoor, Dietmar Jannach",
+            "first_author": "Ahtsham Manzoor",
+            "url": "http://arxiv.org/abs/2208.04104v2",
+            "pdf_url": "http://arxiv.org/abs/2208.04104",
+            "publish_date": "2022-08-08",
+            "abstract": "Conversational recommender systems (CRS) that are able to interact with users in natural language often utilize recommendation dialogs which were previously collected with the help of paired humans, where one plays the role of a seeker and the other as a recommender. These recommendation dialogs include items and entities that indicate the users' preferences. In order to precisely model the seekers' preferences and respond consistently, CRS typically rely on item and entity annotations. A recent example of such a dataset is INSPIRED, which consists of recommendation dialogs for sociable conversational recommendation, where items and entities were annotated using automatic keyword or pattern matching techniques. An analysis of this dataset unfortunately revealed that there is a substantial number of cases where items and entities were either wrongly annotated or annotations were missing at all. This leads to the question to what extent automatic techniques for annotations are effective. Moreover, it is important to study impact of annotation quality on the overall effectiveness of a CRS in terms of the quality of the system's responses. To study these aspects, we manually fixed the annotations in INSPIRED. We then evaluated the performance of several benchmark CRS using both versions of the dataset. Our analyses suggest that the improved version of the dataset, i.e., INSPIRED2, helped increase the performance of several benchmark CRS, emphasizing the importance of data quality both for end-to-end learning and retrieval-based approaches to conversational recommendation. We release our improved dataset (INSPIRED2) publicly at https://github.com/ahtsham58/INSPIRED2.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "1309.7517": {
+            "title": "Improving tag recommendation by folding in more consistency",
+            "authors": "Modou Gueye, Talel Abdessalem, Hubert Naacke",
+            "first_author": "Modou Gueye",
+            "url": "http://arxiv.org/abs/1309.7517v1",
+            "pdf_url": "http://arxiv.org/abs/1309.7517",
+            "publish_date": "2013-09-29",
+            "abstract": "Tag recommendation is a major aspect of collaborative tagging systems. It aims to recommend tags to a user for tagging an item. In this paper we present a part of our work in progress which is a novel improvement of recommendations by re-ranking the output of a tag recommender. We mine association rules between candidates tags in order to determine a more consistent list of tags to recommend.   Our method is an add-on one which leads to better recommendations as we show in this paper. It is easily parallelizable and morever it may be applied to a lot of tag recommenders. The experiments we did on five datasets with two kinds of tag recommender demonstrated the efficiency of our method.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2105.01269": {
+            "title": "Semantic Modeling for Food Recommendation Explanations",
+            "authors": "Ishita Padhiar, Oshani Seneviratne, Shruthi Chari, Daniel Gruen, Deborah L. McGuinness",
+            "first_author": "Ishita Padhiar",
+            "url": "http://arxiv.org/abs/2105.01269v1",
+            "pdf_url": "http://arxiv.org/abs/2105.01269",
+            "publish_date": "2021-05-04",
+            "abstract": "With the increased use of AI methods to provide recommendations in the health, specifically in the food dietary recommendation space, there is also an increased need for explainability of those recommendations. Such explanations would benefit users of recommendation systems by empowering them with justifications for following the system's suggestions. We present the Food Explanation Ontology (FEO) that provides a formalism for modeling explanations to users for food-related recommendations. FEO models food recommendations, using concepts from the explanation domain to create responses to user questions about food recommendations they receive from AI systems such as personalized knowledge base question answering systems. FEO uses a modular, extensible structure that lends itself to a variety of explanations while still preserving important semantic details to accurately represent explanations of food recommendations. In order to evaluate this system, we used a set of competency questions derived from explanation types present in literature that are relevant to food recommendations. Our motivation with the use of FEO is to empower users to make decisions about their health, fully equipped with an understanding of the AI recommender systems as they relate to user questions, by providing reasoning behind their recommendations in the form of explanations.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }

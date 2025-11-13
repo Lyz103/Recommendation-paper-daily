@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2025-11-12
+## Updated on 2025-11-13
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
@@ -412,6 +412,7 @@ layout: default
 | 2023-03-02 | **Heterogeneous Graph Contrastive Learning for Recommendation** | Mengru Chen, Chao Huang, Lianghao Xia, Wei Wei, Yong Xu, Ronghua Luo | [Link](http://arxiv.org/abs/2303.00995) | Not Available |
 | 2023-03-01 | **REASONER: An Explainable Recommendation Dataset with Multi-aspect Real User Labeled Ground Truths Towards more Measurable Explainable Recommendation** | Xu Chen, Jingsen Zhang, Lei Wang, Quanyu Dai, Zhenhua Dong, Ruiming Tang, Rui Zhang, Li Chen, Ji-Rong Wen | [Link](http://arxiv.org/abs/2303.00168) | Not Available |
 | 2023-02-13 | **Improving Recommendation Fairness via Data Augmentation** | Lei Chen, Le Wu, Kun Zhang, Richang Hong, Defu Lian, Zhiqiang Zhang, Jun Zhou, Meng Wang | [Link](http://arxiv.org/abs/2302.06333) | Not Available |
+| 2023-02-02 | **MMRec: Simplifying Multimodal Recommendation** | Xin Zhou | [Link](http://arxiv.org/abs/2302.03497) | Not Available |
 | 2023-02-03 | **Improving Recommendation Relevance by simulating User Interest** | Alexander Kushkuley, Joshua Correa | [Link](http://arxiv.org/abs/2302.01522) | Not Available |
 | 2023-01-26 | **Cross-domain recommendation via user interest alignment** | Chuang Zhao, Hongke Zhao, Ming He, Jian Zhang, Jianping Fan | [Link](http://arxiv.org/abs/2301.11467) | Not Available |
 | 2023-01-25 | **Transferable Fairness for Cold-Start Recommendation** | Yunqi Li, Dingxian Wang, Hanxiong Chen, Yongfeng Zhang | [Link](http://arxiv.org/abs/2301.10665) | Not Available |
@@ -423,6 +424,7 @@ layout: default
 | 2022-11-17 | **Learning to Counterfactually Explain Recommendations** | Yuanshun Yao, Chong Wang, Hang Li | [Link](http://arxiv.org/abs/2211.09752) | Not Available |
 | 2022-11-14 | **Talent Recommendation on LinkedIn User Profiles** | Yuzhou Peng | [Link](http://arxiv.org/abs/2211.07297) | Not Available |
 | 2022-11-05 | **Aligning Recommendation and Conversation via Dual Imitation** | Jinfeng Zhou, Bo Wang, Minlie Huang, Dongming Zhao, Kun Huang, Ruifang He, Yuexian Hou | [Link](http://arxiv.org/abs/2211.02848) | Not Available |
+| 2022-10-25 | **Recommendation with User Active Disclosing Willingness** | Lei Wang, Xu Chen, Quanyu Dai, Zhenhua Dong | [Link](http://arxiv.org/abs/2211.01155) | Not Available |
 | 2022-10-31 | **Mitigating Popularity Bias in Recommendation with Unbalanced Interactions: A Gradient Perspective** | Weijieying Ren, Lei Wang, Kunpeng Liu, Ruocheng Guo, Lim Ee Peng, Yanjie Fu | [Link](http://arxiv.org/abs/2211.01154) | Not Available |
 | 2022-10-04 | **IGNiteR: News Recommendation in Microblogging Applications (Extended Version)** | Yuting Feng, Bogdan Cautis | [Link](http://arxiv.org/abs/2210.01942) | Not Available |
 | 2022-09-27 | **Efficient On-Device Session-Based Recommendation** | Xin Xia, Junliang Yu, Qinyong Wang, Chaoqun Yang, Quoc Viet Hung Nguyen, Hongzhi Yin | [Link](http://arxiv.org/abs/2209.13422) | Not Available |
@@ -438,6 +440,7 @@ layout: default
 | 2022-08-27 | **SupervisorBot: NLP-Annotated Real-Time Recommendations of Psychotherapy Treatment Strategies with Deep Reinforcement Learning** | Baihan Lin, Guillermo Cecchi, Djallel Bouneffouf | [Link](http://arxiv.org/abs/2208.13077) | Not Available |
 | 2022-08-19 | **Exploring Popularity Bias in Music Recommendation Models and Commercial Steaming Services** | Douglas R. Turnbull, Sean McQuillan, Vera Crabtree, John Hunter, Sunny Zhang | [Link](http://arxiv.org/abs/2208.09517) | Not Available |
 | 2022-08-17 | **EGCR: Explanation Generation for Conversational Recommendation** | Bingbing Wen, Xiaoning Bu, Chirag Shah | [Link](http://arxiv.org/abs/2208.08035) | Not Available |
+| 2022-08-08 | **INSPIRED2: An Improved Dataset for Sociable Conversational Recommendation** | Ahtsham Manzoor, Dietmar Jannach | [Link](http://arxiv.org/abs/2208.04104) | Not Available |
 | 2022-07-14 | **Reinforced Path Reasoning for Counterfactual Explainable Recommendation** | Xiangmeng Wang, Qian Li, Dianer Yu, Guandong Xu | [Link](http://arxiv.org/abs/2207.06674) | Not Available |
 | 2022-06-28 | **Item Recommendation Using User Feedback Data and Item Profile** | Debashish Roy, Rajarshi Roy Chowdhury, Abdullah Bin Nasser, Afdhal Azmi, Marzieh Babaeianjelodar | [Link](http://arxiv.org/abs/2206.14133) | Not Available |
 | 2022-06-22 | **DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation** | Zhu Sun, Hui Fang, Jie Yang, Xinghua Qu, Hongyang Liu, Di Yu, Yew-Soon Ong, Jie Zhang | [Link](http://arxiv.org/abs/2206.10848) | Not Available |
@@ -488,6 +491,7 @@ layout: default
 | 2021-05-20 | **Personalized Counterfactual Fairness in Recommendation** | Yunqi Li, Hanxiong Chen, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang | [Link](http://arxiv.org/abs/2105.09829) | Not Available |
 | 2021-05-13 | **Pink for Princesses, Blue for Superheroes: The Need to Examine Gender Stereotypes in Kid's Products in Search and Recommendations** | Amifa Raj, Ashlee Milton, Michael D. Ekstrand | [Link](http://arxiv.org/abs/2105.09296) | Not Available |
 | 2021-05-13 | **Causal Intervention for Leveraging Popularity Bias in Recommendation** | Yang Zhang, Fuli Feng, Xiangnan He, Tianxin Wei, Chonggang Song, Guohui Ling, Yongdong Zhang | [Link](http://arxiv.org/abs/2105.06067) | Not Available |
+| 2021-05-04 | **Semantic Modeling for Food Recommendation Explanations** | Ishita Padhiar, Oshani Seneviratne, Shruthi Chari, Daniel Gruen, Deborah L. McGuinness | [Link](http://arxiv.org/abs/2105.01269) | Not Available |
 | 2021-05-03 | **Automatic Collection Creation and Recommendation** | Sanidhya Singal, Piyush Singh, Manjeet Dahiya | [Link](http://arxiv.org/abs/2105.01004) | Not Available |
 | 2021-04-27 | **A Survey on Accuracy-oriented Neural Recommendation: From Collaborative Filtering to Information-rich Recommendation** | Le Wu, Xiangnan He, Xiang Wang, Kun Zhang, Meng Wang | [Link](http://arxiv.org/abs/2104.13030) | Not Available |
 | 2021-04-21 | **User-oriented Fairness in Recommendation** | Yunqi Li, Hanxiong Chen, Zuohui Fu, Yingqiang Ge, Yongfeng Zhang | [Link](http://arxiv.org/abs/2104.10671) | Not Available |
@@ -650,6 +654,7 @@ layout: default
 | 2013-11-06 | **Exploration in Interactive Personalized Music Recommendation: A Reinforcement Learning Approach** | Xinxi Wang, Yi Wang, David Hsu, Ye Wang | [Link](http://arxiv.org/abs/1311.6355) | Not Available |
 | 2013-09-27 | **A Random Walk Model for Item Recommendation in Folksonomies** | Zhu Zhang, Daniel Zeng, Ahmed Abbasi, Jing Peng | [Link](http://arxiv.org/abs/1310.7957) | Not Available |
 | 2013-09-29 | **Context-aware recommendations from implicit data via scalable tensor factorization** | Balázs Hidasi, Domonkos Tikk | [Link](http://arxiv.org/abs/1309.7611) | Not Available |
+| 2013-09-29 | **Improving tag recommendation by folding in more consistency** | Modou Gueye, Talel Abdessalem, Hubert Naacke | [Link](http://arxiv.org/abs/1309.7517) | Not Available |
 | 2013-08-06 | **Benchmarking Soundtrack Recommendation Systems with SRBench** | Aleksandar Stupar, Sebastian Michel | [Link](http://arxiv.org/abs/1308.1224) | Not Available |
 | 2013-05-02 | **Privacy Preserving Recommendation System Based on Groups** | Shang Shang, Yuk Hui, Pan Hui, Paul Cuff, Sanjeev Kulkarni | [Link](http://arxiv.org/abs/1305.0540) | Not Available |
 | 2013-04-17 | **Friends, Strangers, and the Value of Ego Networks for Recommendation** | Amit Sharma, Mevlana Gemici, Dan Cosley | [Link](http://arxiv.org/abs/1304.4837) | Not Available |
