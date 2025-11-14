@@ -1,4 +1,4 @@
-## Updated on 2025-11-13
+## Updated on 2025-11-14
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -483,6 +483,7 @@
 | 2021-09-22 | **Exploring Heterogeneous Metadata for Video Recommendation with Two-tower Model** | Jianling Wang, Ainur Yessenalina, Alireza Roshan-Ghias | [Link](http://arxiv.org/abs/2109.11059) | Not Available |
 | 2021-09-13 | **BeautifAI -- A Personalised Occasion-oriented Makeup Recommendation System** | Kshitij Gulati, Gaurav Verma, Mukesh Mohania, Ashish Kundu | [Link](http://arxiv.org/abs/2109.06072) | Not Available |
 | 2021-09-05 | **Recommendation Fairness: From Static to Dynamic** | Dell Zhang, Jun Wang | [Link](http://arxiv.org/abs/2109.03150) | Not Available |
+| 2021-09-06 | **An Evaluation-Focused Framework for Visualization Recommendation Algorithms** | Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle | [Link](http://arxiv.org/abs/2109.02706) | Not Available |
 | 2021-08-24 | **Counterfactual Explainable Recommendation** | Juntao Tan, Shuyuan Xu, Yingqiang Ge, Yunqi Li, Xu Chen, Yongfeng Zhang | [Link](http://arxiv.org/abs/2108.10539) | Not Available |
 | 2021-08-20 | **Is News Recommendation a Sequential Recommendation Task?** | Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang | [Link](http://arxiv.org/abs/2108.08984) | Not Available |
 | 2021-08-18 | **Hyperbolic Hypergraphs for Sequential Recommendation** | Yicong Li, Hongxu Chen, Xiangguo Sun, Zhenchao Sun, Lin Li, Lizhen Cui, Philip S. Yu, Guandong Xu | [Link](http://arxiv.org/abs/2108.08134) | Not Available |
