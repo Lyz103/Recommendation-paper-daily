@@ -2,13 +2,32 @@
 layout: default
 ---
 
-## Updated on 2025-11-14
+## Updated on 2025-11-15
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-13 | **GPR: Towards a Generative Pre-trained One-Model Paradigm for Large-Scale Advertising Recommendation** | Jun Zhang, Yi Li, Yue Liu, Changping Wang, Yuan Wang, Yuling Xiong, Xun Liu, Haiyang Wu, Qian Li, Enming Zhang, Jiawei Sun, Xin Xu, Zishuai Zhang, Ruoran Liu, Suyuan Huang, Zhaoxin Zhang, Zhengkai Guo, Shuojin Yang, Meng-Hao Guo, Huan Yu, Jie Jiang, Shi-Min Hu | [Link](http://arxiv.org/abs/2511.10138) | Not Available |
+| 2025-11-12 | **Potent but Stealthy: Rethink Profile Pollution against Sequential Recommendation via Bi-level Constrained Reinforcement Paradigm** | Jiajie Su, Zihan Nan, Yunshan Ma, Xiaobo Xia, Xiaohua Feng, Weiming Liu, Xiaolin Zheng, Chaochao Chen | [Link](http://arxiv.org/abs/2511.09392) | Not Available |
+| 2025-11-12 | **Efficient Model-Agnostic Continual Learning for Next POI Recommendation** | Chenhao Wang, Shanshan Feng, Lisi Chen, Fan Li, Shuo Shang | [Link](http://arxiv.org/abs/2511.08941) | Not Available |
+| 2025-11-11 | **Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents** | Xiao Wang, Ke Qin, Dongyang Zhang, Xiurui Xie, Shuang Liang | [Link](http://arxiv.org/abs/2511.08378) | Not Available |
+| 2025-11-11 | **From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization** | Peiyu Hu, Wayne Lu, Jia Wang | [Link](http://arxiv.org/abs/2511.08006) | Not Available |
+| 2025-11-10 | **A Hybrid Multimodal Deep Learning Framework for Intelligent Fashion Recommendation** | Kamand Kalashi, Babak Teimourpour | [Link](http://arxiv.org/abs/2511.07573) | Not Available |
+| 2025-11-10 | **The Value of Personalized Recommendations: Evidence from Netflix** | Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, Nathan Kallus | [Link](http://arxiv.org/abs/2511.07280) | Not Available |
+| 2025-11-10 | **AdaRec: Adaptive Recommendation with LLMs via Narrative Profiling and Dual-Channel Reasoning** | Meiyun Wang, Charin Polpanumas | [Link](http://arxiv.org/abs/2511.07166) | Not Available |
+| 2025-11-10 | **Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation** | Huayang Xu, Huanhuan Yuan, Guanfeng Liu, Junhua Fang, Lei Zhao, Pengpeng Zhao | [Link](http://arxiv.org/abs/2511.07028) | Not Available |
 | 2025-11-10 | **Learning to Fast Unrank in Collaborative Filtering Recommendation** | Junpeng Zhao, Lin Li, Ming Li, Amran Bhuiyan, Jimmy Huang | [Link](http://arxiv.org/abs/2511.06803) | Not Available |
+| 2025-11-09 | **TOOL4POI: A Tool-Augmented LLM Framework for Next POI Recommendation** | Dongsheng Wang, Shen Gao, Chengrui Huang, Yuxi Huang, Ruixiang Feng, Shuo Shang | [Link](http://arxiv.org/abs/2511.06405) | Not Available |
+| 2025-11-09 | **HyMoERec: Hybrid Mixture-of-Experts for Sequential Recommendation** | Kunrong Li, Zhu Sun, Kwan Hui Lim | [Link](http://arxiv.org/abs/2511.06388) | Not Available |
+| 2025-11-09 | **Exploiting Inter-Session Information with Frequency-enhanced Dual-Path Networks for Sequential Recommendation** | Peng He, Yanglei Gan, Tingting Dai, Run Lin, Xuexin Li, Yao Liu, Qiao Liu | [Link](http://arxiv.org/abs/2511.06285) | Not Available |
+| 2025-11-09 | **LLaDA-Rec: Discrete Diffusion for Parallel Semantic ID Generation in Generative Recommendation** | Teng Shi, Chenglei Shen, Weijie Yu, Shen Nie, Chongxuan Li, Xiao Zhang, Ming He, Yan Han, Jun Xu | [Link](http://arxiv.org/abs/2511.06254) | Not Available |
+| 2025-11-09 | **Overview of CHIP 2025 Shared Task 2: Discharge Medication Recommendation for Metabolic Diseases Based on Chinese Electronic Health Records** | Juntao Li, Haobin Yuan, Ling Luo, Tengxiao Lv, Yan Jiang, Fan Wang, Ping Zhang, Huiyi Lv, Jian Wang, Yuanyuan Sun, Hongfei Lin | [Link](http://arxiv.org/abs/2511.06230) | Not Available |
+| 2025-11-09 | **Scene-Aware Urban Design: A Human-AI Recommendation Framework Using Co-Occurrence Embeddings and Vision-Language Models** | Rodrigo Gallardo, Oz Fishman, Alexander Htet Kyaw | [Link](http://arxiv.org/abs/2511.06201) | Not Available |
+| 2025-11-08 | **A Remarkably Efficient Paradigm to Multimodal Large Language Models for Sequential Recommendation** | Qiyong Zhong, Jiajie Su, Ming Yang, Yunshan Ma, Xiaolin Zheng, Chaochao Chen | [Link](http://arxiv.org/abs/2511.05885) | Not Available |
+| 2025-11-08 | **WAR-Re: Web API Recommendation with Semantic Reasoning** | Zishuo Xu, Dezhong Yao, Yao Wan | [Link](http://arxiv.org/abs/2511.05820) | Not Available |
+| 2025-11-08 | **User Hesitation and Negative Transfer in Multi-Behavior Recommendation** | Cheng Li, Yong Xu, Suhua Tang, Wenqiang Lin, Xin He, Jinde Cao | [Link](http://arxiv.org/abs/2511.05808) | Not Available |
+| 2025-11-05 | **Beyond Resolution: Multi-Scale Weather and Climate Data for Alpine Renewable Energy in the Digital Twin Era -- First Evaluations and Recommendations** | Irene Schicker, Marianne Bügelmayer-Blaschek, Annemarie Lexer, Katharina Baier, Kristofer Hasel, Paolo Gazzaneo | [Link](http://arxiv.org/abs/2511.05584) | Not Available |
 | 2025-11-06 | **LLM-as-a-Judge: Toward World Models for Slate Recommendation Systems** | Baptiste Bonin, Maxime Heuillet, Audrey Durand | [Link](http://arxiv.org/abs/2511.04541) | Not Available |
 | 2025-11-06 | **Denoised Recommendation Model with Collaborative Signal Decoupling** | Zefeng Li, Ning Yang | [Link](http://arxiv.org/abs/2511.04237) | Not Available |
 | 2025-11-05 | **Discourse-Aware Scientific Paper Recommendation via QA-Style Summarization and Multi-Level Contrastive Learning** | Shenghua Wang, Zhen Yin | [Link](http://arxiv.org/abs/2511.03330) | Not Available |
