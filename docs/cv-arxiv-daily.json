@@ -7372,9 +7372,9 @@
         },
         "2511.09392": {
             "title": "Potent but Stealthy: Rethink Profile Pollution against Sequential Recommendation via Bi-level Constrained Reinforcement Paradigm",
-            "authors": "Jiajie Su, Zihan Nan, Yunshan Ma, Xiaobo Xia, Xiaohua Feng, Weiming Liu, Xiaolin Zheng, Chaochao Chen",
+            "authors": "Jiajie Su, Zihan Nan, Yunshan Ma, Xiaobo Xia, Xiaohua Feng, Weiming Liu, Xiang Chen, Xiaolin Zheng, Chaochao Chen",
             "first_author": "Jiajie Su",
-            "url": "http://arxiv.org/abs/2511.09392v2",
+            "url": "http://arxiv.org/abs/2511.09392v3",
             "pdf_url": "http://arxiv.org/abs/2511.09392",
             "publish_date": "2025-11-12",
             "abstract": "Sequential Recommenders, which exploit dynamic user intents through interaction sequences, is vulnerable to adversarial attacks. While existing attacks primarily rely on data poisoning, they require large-scale user access or fake profiles thus lacking practicality. In this paper, we focus on the Profile Pollution Attack that subtly contaminates partial user interactions to induce targeted mispredictions. Previous PPA methods suffer from two limitations, i.e., i) over-reliance on sequence horizon impact restricts fine-grained perturbations on item transitions, and ii) holistic modifications cause detectable distribution shifts. To address these challenges, we propose a constrained reinforcement driven attack CREAT that synergizes a bi-level optimization framework with multi-reward reinforcement learning to balance adversarial efficacy and stealthiness. We first develop a Pattern Balanced Rewarding Policy, which integrates pattern inversion rewards to invert critical patterns and distribution consistency rewards to minimize detectable shifts via unbalanced co-optimal transport. Then we employ a Constrained Group Relative Reinforcement Learning paradigm, enabling step-wise perturbations through dynamic barrier constraints and group-shared experience replay, achieving targeted pollution with minimal detectability. Extensive experiments demonstrate the effectiveness of CREAT.",
@@ -7482,9 +7482,9 @@
         },
         "2511.06285": {
             "title": "Exploiting Inter-Session Information with Frequency-enhanced Dual-Path Networks for Sequential Recommendation",
-            "authors": "Peng He, Yanglei Gan, Tingting Dai, Run Lin, Xuexin Li, Yao Liu, Qiao Liu",
+            "authors": "Peng He, Yao Liu, Yanglei Gan, Run Lin, Tingting Dai, Qiao Liu, Xuexin Li",
             "first_author": "Peng He",
-            "url": "http://arxiv.org/abs/2511.06285v2",
+            "url": "http://arxiv.org/abs/2511.06285v3",
             "pdf_url": "http://arxiv.org/abs/2511.06285",
             "publish_date": "2025-11-09",
             "abstract": "Sequential recommendation (SR) aims to predict a user's next item preference by modeling historical interaction sequences. Recent advances often integrate frequency-domain modules to compensate for self-attention's low-pass nature by restoring the high-frequency signals critical for personalized recommendations. Nevertheless, existing frequency-aware solutions process each session in isolation and optimize exclusively with time-domain objectives. Consequently, they overlook cross-session spectral dependencies and fail to enforce alignment between predicted and actual spectral signatures, leaving valuable frequency information under-exploited. To this end, we propose FreqRec, a Frequency-Enhanced Dual-Path Network for sequential Recommendation that jointly captures inter-session and intra-session behaviors via a learnable Frequency-domain Multi-layer Perceptrons. Moreover, FreqRec is optimized under a composite objective that combines cross entropy with a frequency-domain consistency loss, explicitly aligning predicted and true spectral signatures. Extensive experiments on three benchmarks show that FreqRec surpasses strong baselines and remains robust under data sparsity and noisy-log conditions.",
@@ -7566,6 +7566,61 @@
             "publish_date": "2025-11-05",
             "abstract": "When Austrian hydropower production plummeted by 44% in early 2025 due to reduced snowpack, it exposed a critical vulnerability: standard meteorological and climatological datasets systematically fail in mountain regions that hold untapped renewable potential. This perspectives paper evaluates emerging solutions to the Alpine energy-climate data gap, analyzing datasets from global reanalyses (ERA5, 31 km) to kilometre-scale Digital Twins (Climate DT, Extremes DT, 4.4 km), regional reanalyses (ARA, 2.5 km), and next-generation AI weather prediction models (AIFS, 31 km). The multi-resolution assessment reveals that no single dataset excels universally: coarse reanalyses provide essential climatologies but miss valley-scale processes, while Digital Twins resolve Alpine dynamics yet remain computationally demanding. Effective energy planning therefore requires strategic dataset combinations validated against energy-relevant indices such as population-weighted extremes, wind-gust return periods, and Alpine-adjusted storm thresholds. A key frontier is sub-hourly (10-15 min) temporal resolution to match grid-operation needs. Six evidence-based recommendations outline pathways for bridging spatial and temporal scales. As renewable deployment expands globally into complex terrain, the Alpine region offers transferable perspectives for tackling identical forecasting and climate analysis challenges in mountainous regions worldwide.",
             "primary_category": "physics.ao-ph",
+            "code_url": "null"
+        },
+        "2511.11370": {
+            "title": "SRLF: An Agent-Driven Set-Wise Reflective Learning Framework for Sequential Recommendation",
+            "authors": "Jiahao Wang, Bokang Fu, Yu Zhu, Yuli Liu",
+            "first_author": "Jiahao Wang",
+            "url": "http://arxiv.org/abs/2511.11370v1",
+            "pdf_url": "http://arxiv.org/abs/2511.11370",
+            "publish_date": "2025-11-14",
+            "abstract": "LLM-based agents are emerging as a promising paradigm for simulating user behavior to enhance recommender systems. However, their effectiveness is often limited by existing studies that focus on modeling user ratings for individual items. This point-wise approach leads to prevalent issues such as inaccurate user preference comprehension and rigid item-semantic representations.   To address these limitations, we propose the novel Set-wise Reflective Learning Framework (SRLF). Our framework operationalizes a closed-loop \"assess-validate-reflect\" cycle that harnesses the powerful in-context learning capabilities of LLMs. SRLF departs from conventional point-wise assessment by formulating a holistic judgment on an entire set of items. It accomplishes this by comprehensively analyzing both the intricate interrelationships among items within the set and their collective alignment with the user's preference profile. This method of set-level contextual understanding allows our model to capture complex relational patterns essential to user behavior, making it significantly more adept for sequential recommendation. Extensive experiments validate our approach, confirming that this set-wise perspective is crucial for achieving state-of-the-art performance in sequential recommendation tasks.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.11255": {
+            "title": "Align$^3$GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation",
+            "authors": "Wencai Ye, Mingjie Sun, Shuhang Chen, Wenjin Wu, Peng Jiang",
+            "first_author": "Wencai Ye",
+            "url": "http://arxiv.org/abs/2511.11255v1",
+            "pdf_url": "http://arxiv.org/abs/2511.11255",
+            "publish_date": "2025-11-14",
+            "abstract": "Large Language Models (LLMs) demonstrate significant advantages in leveraging structured world knowledge and multi-step reasoning capabilities. However, fundamental challenges arise when transforming LLMs into real-world recommender systems due to semantic and behavioral misalignment. To bridge this gap, we propose Align$^3$GR, a novel framework that unifies token-level, behavior modeling-level, and preference-level alignment. Our approach introduces: Dual tokenization fusing user-item semantic and collaborative signals. Enhanced behavior modeling with bidirectional semantic alignment. Progressive DPO strategy combining self-play (SP-DPO) and real-world feedback (RF-DPO) for dynamic preference adaptation. Experiments show Align$^3$GR outperforms the SOTA baseline by +17.8% in Recall@10 and +20.2% in NDCG@10 on the public dataset, with significant gains in online A/B tests and full-scale deployment on an industrial large-scale recommendation platform.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.11172": {
+            "title": "Enhancing Group Recommendation using Soft Impute Singular Value Decomposition",
+            "authors": "Mubaraka Sani Ibrahim, Isah Charles Saidu, Lehel Csato",
+            "first_author": "Mubaraka Sani Ibrahim",
+            "url": "http://arxiv.org/abs/2511.11172v1",
+            "pdf_url": "http://arxiv.org/abs/2511.11172",
+            "publish_date": "2025-11-14",
+            "abstract": "The growing popularity of group activities increased the need to develop methods for providing recommendations to a group of users based on the collective preferences of the group members. Several group recommender systems have been proposed, but these methods often struggle due to sparsity and high-dimensionality of the available data, common in many real-world applications. In this paper, we propose a group recommender system called Group Soft-Impute SVD, which leverages soft-impute singular value decomposition to enhance group recommendations. This approach addresses the challenge of sparse high-dimensional data using low-rank matrix completion. We compared the performance of Group Soft-Impute SVD with Group MF based approaches and found that our method outperforms the baselines in recall for small user groups while achieving comparable results across all group sizes when tasked on Goodbooks, Movielens, and Synthetic datasets. Furthermore, our method recovers lower matrix ranks than the baselines, demonstrating its effectiveness in handling high-dimensional data.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.10962": {
+            "title": "LEMUR: Large scale End-to-end MUltimodal Recommendation",
+            "authors": "Xintian Han, Honggang Chen, Quan Lin, Jingyue Gao, Xiangyuan Ren, Lifei Zhu, Zhisheng Ye, Shikang Wu, XiongHang Xie, Xiaochu Gan, Bingzheng Wei, Peng Xu, Zhe Wang, Yuchao Zheng, Jingjian Lin, Di Wu, Junfeng Ge",
+            "first_author": "Xintian Han",
+            "url": "http://arxiv.org/abs/2511.10962v1",
+            "pdf_url": "http://arxiv.org/abs/2511.10962",
+            "publish_date": "2025-11-14",
+            "abstract": "Traditional ID-based recommender systems often struggle with cold-start and generalization challenges. Multimodal recommendation systems, which leverage textual and visual data, offer a promising solution to mitigate these issues. However, existing industrial approaches typically adopt a two-stage training paradigm: first pretraining a multimodal model, then applying its frozen representations to train the recommendation model. This decoupled framework suffers from misalignment between multimodal learning and recommendation objectives, as well as an inability to adapt dynamically to new data. To address these limitations, we propose LEMUR, the first large-scale multimodal recommender system trained end-to-end from raw data. By jointly optimizing both the multimodal and recommendation components, LEMUR ensures tighter alignment with downstream objectives while enabling real-time parameter updates. Constructing multimodal sequential representations from user history often entails prohibitively high computational costs. To alleviate this bottleneck, we propose a novel memory bank mechanism that incrementally accumulates historical multimodal representations throughout the training process. After one month of deployment in Douyin Search, LEMUR has led to a 0.843% reduction in query change rate decay and a 0.81% improvement in QAUC. Additionally, LEMUR has shown significant gains across key offline metrics for Douyin Advertisement. Our results validate the superiority of end-to-end multimodal recommendation in real-world industrial scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.10902": {
+            "title": "Multimodal Peer Review Simulation with Actionable To-Do Recommendations for Community-Aware Manuscript Revisions",
+            "authors": "Mengze Hong, Di Jiang, Weiwei Zhao, Yawen Li, Yihang Wang, Xinyuan Luo, Yanjie Sun, Chen Jason Zhang",
+            "first_author": "Mengze Hong",
+            "url": "http://arxiv.org/abs/2511.10902v1",
+            "pdf_url": "http://arxiv.org/abs/2511.10902",
+            "publish_date": "2025-11-14",
+            "abstract": "While large language models (LLMs) offer promising capabilities for automating academic workflows, existing systems for academic peer review remain constrained by text-only inputs, limited contextual grounding, and a lack of actionable feedback. In this work, we present an interactive web-based system for multimodal, community-aware peer review simulation to enable effective manuscript revisions before paper submission. Our framework integrates textual and visual information through multimodal LLMs, enhances review quality via retrieval-augmented generation (RAG) grounded in web-scale OpenReview data, and converts generated reviews into actionable to-do lists using the proposed Action:Objective[\\#] format, providing structured and traceable guidance. The system integrates seamlessly into existing academic writing platforms, providing interactive interfaces for real-time feedback and revision tracking. Experimental results highlight the effectiveness of the proposed system in generating more comprehensive and useful reviews aligned with expert standards, surpassing ablated baselines and advancing transparent, human-centered scholarly assistance.",
+            "primary_category": "cs.CL",
             "code_url": "null"
         }
     }
