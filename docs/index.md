@@ -8,6 +8,16 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-17 | **Mitigating Recommendation Biases via Group-Alignment and Global-Uniformity in Representation Learning** | Miaomiao Cai, Min Hou, Lei Chen, Le Wu, Haoyue Bai, Yong Li, Meng Wang | [Link](http://arxiv.org/abs/2511.13041) | Not Available |
+| 2025-11-17 | **Personalized Federated Recommendation With Knowledge Guidance** | Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu | [Link](http://arxiv.org/abs/2511.12959) | Not Available |
+| 2025-11-17 | **A Plug-and-Play Spatially-Constrained Representation Enhancement Framework for Local-Life Recommendation** | Hao Jiang, Guoquan Wang, Sheng Yu, Yang Zeng, Wencong Zeng, Guorui Zhou | [Link](http://arxiv.org/abs/2511.12947) | Not Available |
+| 2025-11-17 | **Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation** | Yu Hou, Won-Yong Shin | [Link](http://arxiv.org/abs/2511.12922) | Not Available |
+| 2025-11-16 | **LLM4SCREENLIT: Recommendations on Assessing the Performance of Large Language Models for Screening Literature in Systematic Reviews** | Lech Madeyski, Barbara Kitchenham, Martin Shepperd | [Link](http://arxiv.org/abs/2511.12635) | Not Available |
+| 2025-11-16 | **MindRec: Mind-inspired Coarse-to-fine Decoding for Generative Recommendation** | Mengyao Gao, Chongming Gao, Haoyan Liu, Qingpeng Cai, Peng Jiang, Jiajia Chen, Shuai Yuan, Xiangnan He | [Link](http://arxiv.org/abs/2511.12597) | Not Available |
+| 2025-11-16 | **Task-Aware Retrieval Augmentation for Dynamic Recommendation** | Zhen Tao, Xinke Jiang, Qingshuai Feng, Haoyu Zhang, Lun Du, Yuchen Fang, Hao Miao, Bangquan Xie, Qingqiang Sun | [Link](http://arxiv.org/abs/2511.12495) | Not Available |
+| 2025-11-15 | **A Practical Machine Learning Approach for Dynamic Stock Recommendation** | Hongyang Yang, Xiao-Yang Liu, Qingwei Wu | [Link](http://arxiv.org/abs/2511.12129) | Not Available |
+| 2025-11-15 | **Continuous-time Discrete-space Diffusion Model for Recommendation** | Chengyi Liu, Xiao Chen, Shijie Wang, Wenqi Fan, Qing Li | [Link](http://arxiv.org/abs/2511.12114) | Not Available |
+| 2025-11-15 | **Dynamic Graph Recommendation via Sparse Augmentation and Singular Adaptation** | Zhen Tao, Yuehang Cao, Yang Fang, Yunhui Liu, Xiang Zhao, Tieke He | [Link](http://arxiv.org/abs/2511.11969) | Not Available |
 | 2025-11-14 | **SRLF: An Agent-Driven Set-Wise Reflective Learning Framework for Sequential Recommendation** | Jiahao Wang, Bokang Fu, Yu Zhu, Yuli Liu | [Link](http://arxiv.org/abs/2511.11370) | Not Available |
 | 2025-11-14 | **Align$^3$GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation** | Wencai Ye, Mingjie Sun, Shuhang Chen, Wenjin Wu, Peng Jiang | [Link](http://arxiv.org/abs/2511.11255) | Not Available |
 | 2025-11-14 | **Enhancing Group Recommendation using Soft Impute Singular Value Decomposition** | Mubaraka Sani Ibrahim, Isah Charles Saidu, Lehel Csato | [Link](http://arxiv.org/abs/2511.11172) | Not Available |
