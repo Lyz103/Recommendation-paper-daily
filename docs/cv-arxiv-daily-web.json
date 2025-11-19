@@ -7638,7 +7638,7 @@
             "title": "Personalized Federated Recommendation With Knowledge Guidance",
             "authors": "Jaehyung Lim, Wonbin Kweon, Woojoo Kim, Junyoung Kim, Dongha Kim, Hwanjo Yu",
             "first_author": "Jaehyung Lim",
-            "url": "http://arxiv.org/abs/2511.12959v1",
+            "url": "http://arxiv.org/abs/2511.12959v2",
             "pdf_url": "http://arxiv.org/abs/2511.12959",
             "publish_date": "2025-11-17",
             "abstract": "Federated Recommendation (FedRec) has emerged as a key paradigm for building privacy-preserving recommender systems. However, existing FedRec models face a critical dilemma: memory-efficient single-knowledge models suffer from a suboptimal knowledge replacement practice that discards valuable personalization, while high-performance dual-knowledge models are often too memory-intensive for practical on-device deployment. We propose Federated Recommendation with Knowledge Guidance (FedRKG), a model-agnostic framework that resolves this dilemma. The core principle, Knowledge Guidance, avoids full replacement and instead fuses global knowledge into preserved local embeddings, attaining the personalization benefits of dual-knowledge within a single-knowledge memory footprint. Furthermore, we introduce Adaptive Guidance, a fine-grained mechanism that dynamically modulates the intensity of this guidance for each user-item interaction, overcoming the limitations of static fusion methods. Extensive experiments on benchmark datasets demonstrate that FedRKG significantly outperforms state-of-the-art methods, validating the effectiveness of our approach. The code is available at https://github.com/Jaehyung-Lim/fedrkg.",
@@ -7679,13 +7679,13 @@
             "code_url": "null"
         },
         "2511.12597": {
-            "title": "MindRec: Mind-inspired Coarse-to-fine Decoding for Generative Recommendation",
+            "title": "MindRec: A Diffusion-driven Coarse-to-Fine Paradigm for Generative Recommendation",
             "authors": "Mengyao Gao, Chongming Gao, Haoyan Liu, Qingpeng Cai, Peng Jiang, Jiajia Chen, Shuai Yuan, Xiangnan He",
             "first_author": "Mengyao Gao",
-            "url": "http://arxiv.org/abs/2511.12597v1",
+            "url": "http://arxiv.org/abs/2511.12597v2",
             "pdf_url": "http://arxiv.org/abs/2511.12597",
             "publish_date": "2025-11-16",
-            "abstract": "Recent advancements in large language model-based recommendation systems often represent items as text or semantic IDs and generate recommendations in an auto-regressive manner. However, due to the left-to-right greedy decoding strategy and the unidirectional logical flow, such methods often fail to produce globally optimal recommendations. In contrast, human reasoning does not follow a rigid left-to-right sequence. Instead, it often begins with keywords or intuitive insights, which are then refined and expanded. Inspired by this fact, we propose Mind-inspired Recommender (MindRec), a novel generative framework that emulates human thought processes. Particularly, our method first generates key tokens that reflect user preferences, and then expands them into the complete item, enabling flexible and human-like generation. To further emulate the structured nature of human decision-making, we organize items into a hierarchical category tree. This structure guides the model to first produce the coarse-grained category and then progressively refine its selection through finer-grained subcategories before generating the specific item. To mitigate the local optimum problem inherent in greedy decoding, we design a novel beam search algorithm, Diffusion Beam Search, tailored for our mind-inspired generation paradigm. Experimental results demonstrate that MindRec yields a 9.5\\% average improvement in top-1 recommendation performance over state-of-the-art methods, highlighting its potential to enhance recommendation accuracy. The implementation is available via https://github.com/Mr-Peach0301/MindRec.",
+            "abstract": "Recent advancements in large language model-based recommendation systems often represent items as text or semantic IDs and generate recommendations in an auto-regressive manner. However, due to the left-to-right greedy decoding strategy and the unidirectional logical flow, such methods often fail to produce globally optimal recommendations. In contrast, human reasoning does not follow a rigid left-to-right sequence. Instead, it often begins with keywords or intuitive insights, which are then refined and expanded. Inspired by this fact, we propose MindRec, a diffusion-driven coarse-to-fine generative paradigm that emulates human thought processes. Built upon a diffusion language model, MindRec departs from auto-regressive generation by leveraging a masked diffusion process to reconstruct items in a flexible, non-sequential manner. Particularly, our method first generates key tokens that reflect user preferences, and then expands them into the complete item, enabling adaptive and human-like generation. To further emulate the structured nature of human decision-making, we organize items into a hierarchical category tree. This structure guides the model to first produce the coarse-grained category and then progressively refine its selection through finer-grained subcategories before generating the specific item. To mitigate the local optimum problem inherent in greedy decoding, we design a novel beam search algorithm, Diffusion Beam Search, tailored for our mind-inspired generation paradigm. Experimental results demonstrate that MindRec yields a 9.5\\% average improvement in top-1 accuracy over state-of-the-art methods, highlighting its potential to enhance recommendation performance. The implementation is available via https://github.com/Mr-Peach0301/MindRec.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -7731,6 +7731,72 @@
             "publish_date": "2025-11-15",
             "abstract": "Dynamic recommendation, focusing on modeling user preference from historical interactions and providing recommendations on current time, plays a key role in many personalized services. Recent works show that pre-trained dynamic graph neural networks (GNNs) can achieve excellent performance. However, existing methods by fine-tuning node representations at large scales demand significant computational resources. Additionally, the long-tail distribution of degrees leads to insufficient representations for nodes with sparse interactions, posing challenges for efficient fine-tuning. To address these issues, we introduce GraphSASA, a novel method for efficient fine-tuning in dynamic recommendation systems. GraphSASA employs test-time augmentation by leveraging the similarity of node representation distributions during hierarchical graph aggregation, which enhances node representations. Then it applies singular value decomposition, freezing the original vector matrix while focusing fine-tuning on the derived singular value matrices, which reduces the parameter burden of fine-tuning and improves the fine-tuning adaptability. Experimental results demonstrate that our method achieves state-of-the-art performance on three large-scale datasets.",
             "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2511.14528": {
+            "title": "LLM-Assisted Thematic Analysis: Opportunities, Limitations, and Recommendations",
+            "authors": "Tatiane Ornelas, Allysson Allex Ara\u00fajo, J\u00falia Ara\u00fajo, Marina Ara\u00fajo, Bianca Trinkenreich, Marcos Kalinowski",
+            "first_author": "Tatiane Ornelas",
+            "url": "http://arxiv.org/abs/2511.14528v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14528",
+            "publish_date": "2025-11-18",
+            "abstract": "[Context] Large Language Models (LLMs) are increasingly used to assist qualitative research in Software Engineering (SE), yet the methodological implications of this usage remain underexplored. Their integration into interpretive processes such as thematic analysis raises fundamental questions about rigor, transparency, and researcher agency. [Objective] This study investigates how experienced SE researchers conceptualize the opportunities, risks, and methodological implications of integrating LLMs into thematic analysis. [Method] A reflective workshop with 25 ISERN researchers guided participants through structured discussions of LLM-assisted open coding, theme generation, and theme reviewing, using color-coded canvases to document perceived opportunities, limitations, and recommendations. [Results] Participants recognized potential efficiency and scalability gains, but highlighted risks related to bias, contextual loss, reproducibility, and the rapid evolution of LLMs. They also emphasized the need for prompting literacy and continuous human oversight. [Conclusion] Findings portray LLMs as tools that can support, but not substitute, interpretive analysis. The study contributes to ongoing community reflections on how LLMs can responsibly enhance qualitative research in SE.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2511.14461": {
+            "title": "Effective Diversification of Multi-Carousel Book Recommendation",
+            "authors": "Dani\u00ebl Wilten, Gideon Maillette de Buy Wenniger, Arjen Hommersom, Paul Lucassen, Emiel Poortman",
+            "first_author": "Dani\u00ebl Wilten",
+            "url": "http://arxiv.org/abs/2511.14461v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14461",
+            "publish_date": "2025-11-18",
+            "abstract": "Using multiple carousels, lists that wrap around and can be scrolled, is the basis for offering content in most contemporary movie streaming platforms. Carousels allow for highlighting different aspects of users' taste, that fall in categories such as genres and authors. However, while carousels offer structure and greater ease of navigation, they alone do not increase diversity in recommendations, while this is essential to keep users engaged. In this work we propose several approaches to effectively increase item diversity within the domain of book recommendations, on top of a collaborative filtering algorithm. These approaches are intended to improve book recommendations in the web catalogs of public libraries. Furthermore, we introduce metrics to evaluate the resulting strategies, and show that the proposed system finds a suitable balance between accuracy and beyond-accuracy aspects.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.14227": {
+            "title": "DevPiolt: Operation Recommendation for IoT Devices at Xiaomi Home",
+            "authors": "Yuxiang Wang, Siwen Wang, Haowei Han, Ao Wang, Boya Liu, Yong Zhao, Chengbo Wu, Bin Zhu, Bin Qin, Xiaokai Zhou, Xiao Yan, Jiawei Jiang, Bo Du",
+            "first_author": "Yuxiang Wang",
+            "url": "http://arxiv.org/abs/2511.14227v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14227",
+            "publish_date": "2025-11-18",
+            "abstract": "Operation recommendation for IoT devices refers to generating personalized device operations for users based on their context, such as historical operations, environment information, and device status. This task is crucial for enhancing user satisfaction and corporate profits. Existing recommendation models struggle with complex operation logic, diverse user preferences, and sensitive to suboptimal suggestions, limiting their applicability to IoT device operations. To address these issues, we propose DevPiolt, a LLM-based recommendation model for IoT device operations. Specifically, we first equip the LLM with fundamental domain knowledge of IoT operations via continual pre-training and multi-task fine-tuning. Then, we employ direct preference optimization to align the fine-tuned LLM with specific user preferences. Finally, we design a confidence-based exposure control mechanism to avoid negative user experiences from low-quality recommendations. Extensive experiments show that DevPiolt significantly outperforms baselines on all datasets, with an average improvement of 69.5% across all metrics. DevPiolt has been practically deployed in Xiaomi Home app for one quarter, providing daily operation recommendations to 255,000 users. Online experiment results indicate a 21.6% increase in unique visitor device coverage and a 29.1% increase in page view acceptance rates.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2511.14221": {
+            "title": "LLM-Aligned Geographic Item Tokenization for Local-Life Recommendation",
+            "authors": "Hao Jiang, Guoquan Wang, Donglin Zhou, Sheng Yu, Yang Zeng, Wencong Zeng, Kun Gai, Guorui Zhou",
+            "first_author": "Hao Jiang",
+            "url": "http://arxiv.org/abs/2511.14221v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14221",
+            "publish_date": "2025-11-18",
+            "abstract": "Recent advances in Large Language Models (LLMs) have enhanced text-based recommendation by enriching traditional ID-based methods with semantic generalization capabilities. Text-based methods typically encode item textual information via prompt design and generate discrete semantic IDs through item tokenization. However, in domain-specific tasks such as local-life services, simply injecting location information into prompts fails to capture fine-grained spatial characteristics and real-world distance awareness among items. To address this, we propose LGSID, an LLM-Aligned Geographic Item Tokenization Framework for Local-life Recommendation. This framework consists of two key components: (1) RL-based Geographic LLM Alignment, and (2) Hierarchical Geographic Item Tokenization. In the RL-based alignment module, we initially train a list-wise reward model to capture real-world spatial relationships among items. We then introduce a novel G-DPO algorithm that uses pre-trained reward model to inject generalized spatial knowledge and collaborative signals into LLMs while preserving their semantic understanding. Furthermore, we propose a hierarchical geographic item tokenization strategy, where primary tokens are derived from discrete spatial and content attributes, and residual tokens are refined using the aligned LLM's geographic representation vectors. Extensive experiments on real-world Kuaishou industry datasets show that LGSID consistently outperforms state-of-the-art discriminative and generative recommendation models. Ablation studies, visualizations, and case studies further validate its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.14182": {
+            "title": "WebRec: Enhancing LLM-based Recommendations with Attention-guided RAG from Web",
+            "authors": "Zihuai Zhao, Yujuan Ding, Wenqi Fan, Qing Li",
+            "first_author": "Zihuai Zhao",
+            "url": "http://arxiv.org/abs/2511.14182v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14182",
+            "publish_date": "2025-11-18",
+            "abstract": "Recommender systems play a vital role in alleviating information overload and enriching users' online experience. In the era of large language models (LLMs), LLM-based recommender systems have emerged as a prevalent paradigm for advancing personalized recommendations. Recently, retrieval-augmented generation (RAG) has drawn growing interest to facilitate the recommendation capability of LLMs, incorporating useful information retrieved from external knowledge bases. However, as a rich source of up-to-date information, the web remains under-explored by existing RAG-based recommendations. In particular, unique challenges are posed from two perspectives: one is to generate effective queries for web retrieval, considering the inherent knowledge gap between web search and recommendations; another challenge lies in harnessing online websites that contain substantial noisy content. To tackle these limitations, we propose WebRec, a novel web-based RAG framework, which takes advantage of the reasoning capability of LLMs to interpret recommendation tasks into queries of user preferences that cater to web retrieval. Moreover, given noisy web-retrieved information, where relevant pieces of evidence are scattered far apart, an insightful MP-Head is designed to enhance LLM attentions between distant tokens of relevant information via message passing. Extensive experiments have been conducted to demonstrate the effectiveness of our proposed web-based RAG methods in recommendation scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.14064": {
+            "title": "CafeMed: Causal Attention Fusion Enhanced Medication Recommendation",
+            "authors": "Kelin Ren, Chan-Yang Ju, Dong-Ho Lee",
+            "first_author": "Kelin Ren",
+            "url": "http://arxiv.org/abs/2511.14064v1",
+            "pdf_url": "http://arxiv.org/abs/2511.14064",
+            "publish_date": "2025-11-18",
+            "abstract": "Medication recommendation systems play a crucial role in assisting clinicians with personalized treatment decisions. While existing approaches have made significant progress in learning medication representations, they suffer from two fundamental limitations: (i) treating medical entities as independent features without modeling their synergistic effects on medication selection; (ii) employing static causal relationships that fail to adapt to patient-specific contexts and health states. To address these challenges, we propose CafeMed, a framework that integrates dynamic causal reasoning with cross-modal attention for safe and accurate medication recommendation. CafeMed introduces two key components: the Causal Weight Generator (CWG) that transforms static causal effects into dynamic modulation weights based on individual patient states, and the Channel Harmonized Attention Refinement Module (CHARM) that captures complex interdependencies between diagnoses and procedures. This design enables CafeMed to model how different medical conditions jointly influence treatment decisions while maintaining medication safety constraints. Extensive experiments on MIMIC-III and MIMIC-IV datasets demonstrate that CafeMed significantly outperforms state-of-the-art baselines, achieving superior accuracy in medication prediction while maintaining the lower drug--drug interaction rates. Our results indicate that incorporating dynamic causal relationships and cross-modal synergies leads to more clinically-aligned and personalized medication recommendations. Our code is released publicly at https://github.com/rkl71/CafeMed.",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }
