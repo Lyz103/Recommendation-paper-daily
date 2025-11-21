@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-20 | **The Oracle and The Prism: A Decoupled and Efficient Framework for Generative Recommendation Explanation** | Jiaheng Zhang, Daqiang Zhang | [Link](http://arxiv.org/abs/2511.16543) | Not Available |
+| 2025-11-20 | **Music Recommendation with Large Language Models: Challenges, Opportunities, and Evaluation** | Elena V. Epure, Yashar Deldjoo, Bruno Sguerra, Markus Schedl, Manuel Moussallam | [Link](http://arxiv.org/abs/2511.16478) | Not Available |
+| 2025-11-20 | **An Efficient LLM-based Evolutional Recommendation with Locate-Forget-Update Paradigm** | Hao Liu, Le Wu, Min Hou, Han Wu, Kun Zhang, Xin Li, Si Wei | [Link](http://arxiv.org/abs/2511.16414) | Not Available |
+| 2025-11-20 | **Revisiting Fairness-aware Interactive Recommendation: Item Lifecycle as a Control Knob** | Yun Lu, Xiaoyu Shi, Hong Xie, Chongjun Xia, Zhenhui Gong, Mingsheng Shang | [Link](http://arxiv.org/abs/2511.16248) | Not Available |
 | 2025-11-19 | **ItemRAG: Item-Based Retrieval-Augmented Generation for LLM-Based Recommendation** | Sunwoo Kim, Geon Lee, Kyungho Kim, Jaemin Yoo, Kijung Shin | [Link](http://arxiv.org/abs/2511.15141) | Not Available |
 | 2025-11-19 | **Multi-Aspect Cross-modal Quantization for Generative Recommendation** | Fuwei Zhang, Xiaoyu Liu, Dongbo Xi, Jishen Yin, Huan Chen, Peng Yan, Fuzhen Zhuang, Zhao Zhang | [Link](http://arxiv.org/abs/2511.15122) | Not Available |
 | 2025-11-18 | **SilverTorch: A Unified Model-based System to Democratize Large-Scale Recommendation on GPUs** | Bi Xue, Hong Wu, Lei Chen, Chao Yang, Yiming Ma, Fei Ding, Zhen Wang, Liang Wang, Xiaoheng Mao, Ke Huang, Xialu Li, Peng Xia, Rui Jian, Yanli Zhao, Yanzun Huang, Yijie Deng, Harry Tran, Ryan Chang, Min Yu, Eric Dong, Jiazhou Wang, Qianqian Zhang, Keke Zhai, Hongzhang Yin, Pawel Garbacki, Zheng Fang, Yiyi Pan, Min Ni, Yang Liu | [Link](http://arxiv.org/abs/2511.14881) | Not Available |

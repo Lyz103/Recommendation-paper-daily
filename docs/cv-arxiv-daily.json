@@ -7831,6 +7831,50 @@
             "abstract": "Serving deep learning based recommendation models (DLRM) at scale is challenging. Existing systems rely on CPU-based ANN indexing and filtering services, suffering from non-negligible costs and forgoing joint optimization opportunities. Such inefficiency makes them difficult to support more complex model architectures, such as learned similarities and multi-task retrieval.   In this paper, we propose SilverTorch, a model-based system for serving recommendation models on GPUs. SilverTorch unifies model serving by replacing standalone indexing and filtering services with layers of served models. We propose a Bloom index algorithm on GPUs for feature filtering and a tensor-native fused Int8 ANN kernel on GPUs for nearest neighbor search. We further co-design the ANN search index and filtering index to reduce GPU memory utilization and eliminate unnecessary computation. Benefit from SilverTorch's serving paradigm, we introduce a OverArch scoring layer and a Value Model to aggregate results across multi-tasks. These advancements improve the accuracy for retrieval and enable future studies for serving more complex models. For ranking, SilverTorch's design accelerates item embedding calculation by caching the pre-calculated embeddings inside the serving model.   Our evaluation on the industry-scale datasets show that SilverTorch achieves up to 5.6x lower latency and 23.7x higher throughput compared to the state-of-the-art approaches. We also demonstrate that SilverTorch's solution is 13.35x more cost-efficient than CPU-based solution while improving accuracy via serving more complex models. SilverTorch serves over hundreds of models online across major products and recommends contents for billions of daily active users.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2511.16543": {
+            "title": "The Oracle and The Prism: A Decoupled and Efficient Framework for Generative Recommendation Explanation",
+            "authors": "Jiaheng Zhang, Daqiang Zhang",
+            "first_author": "Jiaheng Zhang",
+            "url": "http://arxiv.org/abs/2511.16543v1",
+            "pdf_url": "http://arxiv.org/abs/2511.16543",
+            "publish_date": "2025-11-20",
+            "abstract": "The integration of Large Language Models (LLMs) into explainable recommendation systems often leads to a performance-efficiency trade-off in end-to-end architectures, where joint optimization of ranking and explanation can result in suboptimal compromises. To resolve this, we propose Prism, a novel decoupled framework that rigorously separates the recommendation process into a dedicated ranking stage and an explanation generation stage.   Inspired by knowledge distillation, Prism leverages a powerful teacher LLM (e.g., FLAN-T5-XXL) as an Oracle to produce high-fidelity explanatory knowledge. A compact, fine-tuned student model (e.g., BART-Base), the Prism, then specializes in synthesizing this knowledge into personalized explanations. This decomposition ensures that each component is optimized for its specific objective, eliminating inherent conflicts in coupled models.   Extensive experiments on benchmark datasets demonstrate that our 140M-parameter Prism model significantly outperforms its 11B-parameter teacher in human evaluations of faithfulness and personalization, while achieving a 24 times speedup and a 10 times reduction in memory consumption during inference. These results validate that decoupling, coupled with targeted distillation, provides an efficient and effective pathway to high-quality explainable recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.16478": {
+            "title": "Music Recommendation with Large Language Models: Challenges, Opportunities, and Evaluation",
+            "authors": "Elena V. Epure, Yashar Deldjoo, Bruno Sguerra, Markus Schedl, Manuel Moussallam",
+            "first_author": "Elena V. Epure",
+            "url": "http://arxiv.org/abs/2511.16478v1",
+            "pdf_url": "http://arxiv.org/abs/2511.16478",
+            "publish_date": "2025-11-20",
+            "abstract": "Music Recommender Systems (MRS) have long relied on an information-retrieval framing, where progress is measured mainly through accuracy on retrieval-oriented subtasks. While effective, this reductionist paradigm struggles to address the deeper question of what makes a good recommendation, and attempts to broaden evaluation, through user studies or fairness analyses, have had limited impact. The emergence of Large Language Models (LLMs) disrupts this framework: LLMs are generative rather than ranking-based, making standard accuracy metrics questionable. They also introduce challenges such as hallucinations, knowledge cutoffs, non-determinism, and opaque training data, rendering traditional train/test protocols difficult to interpret. At the same time, LLMs create new opportunities, enabling natural-language interaction and even allowing models to act as evaluators.   This work argues that the shift toward LLM-driven MRS requires rethinking evaluation. We first review how LLMs reshape user modeling, item modeling, and natural-language recommendation in music. We then examine evaluation practices from NLP, highlighting methodologies and open challenges relevant to MRS. Finally, we synthesize insights-focusing on how LLM prompting applies to MRS, to outline a structured set of success and risk dimensions. Our goal is to provide the MRS community with an updated, pedagogical, and cross-disciplinary perspective on evaluation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.16414": {
+            "title": "An Efficient LLM-based Evolutional Recommendation with Locate-Forget-Update Paradigm",
+            "authors": "Hao Liu, Le Wu, Min Hou, Han Wu, Kun Zhang, Xin Li, Si Wei",
+            "first_author": "Hao Liu",
+            "url": "http://arxiv.org/abs/2511.16414v1",
+            "pdf_url": "http://arxiv.org/abs/2511.16414",
+            "publish_date": "2025-11-20",
+            "abstract": "Nowadays, Large Language Models (LLMs) have shown exceptional performance in sequential recommendations, and the adoption of LLM-based recommender systems (LLMRec) is becoming increasingly widespread in existing e-commerce platforms. Despite the impressive performance, the constant high volume of new user-item interactions makes it difficult to adapt to the evolution of user preference over time, especially for LLM-based recommender systems. The challenge arises from the large number of parameters in LLMs, which makes traditional evolution methods (i.e., Re-training or Fine-tuning) impractical. Specifically, Re-training with all interactions results in prohibitively high computational costs. On the other hand, fine-tuning with only new interactions leads to preference forgetting among inactive users, ultimately compromising overall performance. To tackle this problem, we propose EvoRec, an efficient Locate-Forget-Update framework designed for LLM-based recommender systems to model the evolution of user preferences. EvoRec identifies a small set of parameters associated with preference changes and updates them precisely, thereby saving computational resources while maintaining strong recommendation performance. Notably, the modified parameters account for only 30\\% of LoRA adapter parameters, with no additional parameters introduced. Extensive experiments on two real-world datasets demonstrate that, compared to existing methods, EvoRec not only efficiently evolves LLMRec to adapt to the preferences of active users, but also preserves the interests of inactive users from being disturbed during evolution.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.16248": {
+            "title": "Revisiting Fairness-aware Interactive Recommendation: Item Lifecycle as a Control Knob",
+            "authors": "Yun Lu, Xiaoyu Shi, Hong Xie, Chongjun Xia, Zhenhui Gong, Mingsheng Shang",
+            "first_author": "Yun Lu",
+            "url": "http://arxiv.org/abs/2511.16248v1",
+            "pdf_url": "http://arxiv.org/abs/2511.16248",
+            "publish_date": "2025-11-20",
+            "abstract": "This paper revisits fairness-aware interactive recommendation (e.g., TikTok, KuaiShou) by introducing a novel control knob, i.e., the lifecycle of items. We make threefold contributions. First, we conduct a comprehensive empirical analysis and uncover that item lifecycles in short-video platforms follow a compressed three-phase pattern, i.e., rapid growth, transient stability, and sharp decay, which significantly deviates from the classical four-stage model (introduction, growth, maturity, decline). Second, we introduce LHRL, a lifecycle-aware hierarchical reinforcement learning framework that dynamically harmonizes fairness and accuracy by leveraging phase-specific exposure dynamics. LHRL consists of two key components: (1) PhaseFormer, a lightweight encoder combining STL decomposition and attention mechanisms for robust phase detection; (2) a two-level HRL agent, where the high-level policy imposes phase-aware fairness constraints, and the low-level policy optimizes immediate user engagement. This decoupled optimization allows for effective reconciliation between long-term equity and short-term utility. Third, experiments on multiple real-world interactive recommendation datasets demonstrate that LHRL significantly improves both fairness and user engagement. Furthermore, the integration of lifecycle-aware rewards into existing RL-based models consistently yields performance gains, highlighting the generalizability and practical value of our approach.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
