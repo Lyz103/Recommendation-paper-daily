@@ -8,6 +8,8 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-21 | **CLLMRec: LLM-powered Cognitive-Aware Concept Recommendation via Semantic Alignment and Prerequisite Knowledge Distillation** | Xiangrui Xiong, Yichuan Lu, Zifei Pan, Chang Sun | [Link](http://arxiv.org/abs/2511.17041) | Not Available |
+| 2025-11-21 | **RASTP: Representation-Aware Semantic Token Pruning for Generative Recommendation with Semantic Identifiers** | Tianyu Zhan, Kairui Fu, Zheqi Lv, Shengyu Zhang | [Link](http://arxiv.org/abs/2511.16943) | Not Available |
 | 2025-11-20 | **The Oracle and The Prism: A Decoupled and Efficient Framework for Generative Recommendation Explanation** | Jiaheng Zhang, Daqiang Zhang | [Link](http://arxiv.org/abs/2511.16543) | Not Available |
 | 2025-11-20 | **Music Recommendation with Large Language Models: Challenges, Opportunities, and Evaluation** | Elena V. Epure, Yashar Deldjoo, Bruno Sguerra, Markus Schedl, Manuel Moussallam | [Link](http://arxiv.org/abs/2511.16478) | Not Available |
 | 2025-11-20 | **An Efficient LLM-based Evolutional Recommendation with Locate-Forget-Update Paradigm** | Hao Liu, Le Wu, Min Hou, Han Wu, Kun Zhang, Xin Li, Si Wei | [Link](http://arxiv.org/abs/2511.16414) | Not Available |
