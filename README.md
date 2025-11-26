@@ -11,6 +11,12 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-25 | **Lower Bias, Higher Welfare: How Creator Competition Reshapes Bias-Variance Tradeoff in Recommendation Platforms?** | Kang Wang, Renzhe Xu, Bo Li | [Link](http://arxiv.org/abs/2511.20289) | Not Available |
+| 2025-11-25 | **HHFT: Hierarchical Heterogeneous Feature Transformer for Recommendation Systems** | Liren Yu, Wenming Zhang, Silu Zhou, Zhixuan Zhang, Dan Ou | [Link](http://arxiv.org/abs/2511.20235) | Not Available |
+| 2025-11-25 | **Enhancing Sequential Recommendation with World Knowledge from Large Language Models** | Tianjie Dai, Xu Chen, Yunmeng Shu, Jinsong Lan, Xiaoyong Zhu, Jiangchao Yao, Bo Zheng | [Link](http://arxiv.org/abs/2511.20177) | Not Available |
+| 2025-11-25 | **Towards A Tri-View Diffusion Framework for Recommendation** | Ximing Chen, Pui Ieng Lei, Yijun Sheng, Yanyan Liu, Zhiguo Gong | [Link](http://arxiv.org/abs/2511.20122) | Not Available |
+| 2025-11-25 | **LLM-EDT: Large Language Model Enhanced Cross-domain Sequential Recommendation with Dual-phase Training** | Ziwei Liu, Qidong Liu, Wanyu Wang, Yejing Wang, Tong Xu, Wei Huang, Chong Chen, Peng Chuan, Xiangyu Zhao | [Link](http://arxiv.org/abs/2511.19931) | Not Available |
+| 2025-11-24 | **SCoTER: Structured Chain-of-Thought Transfer for Enhanced Recommendation** | Yang Wu, Qian Li, Yuling Xiong, Hongbo Tang, Xun Liu, Jun Zhang, Huan Yu, Jie Jiang, Hailong Shi | [Link](http://arxiv.org/abs/2511.19514) | Not Available |
 | 2025-11-24 | **From Raw Features to Effective Embeddings: A Three-Stage Approach for Multimodal Recipe Recommendation** | Jeeho Shin, Kyungho Kim, Kijung Shin | [Link](http://arxiv.org/abs/2511.19176) | Not Available |
 | 2025-11-24 | **Impact Analysis of COVID-19 in Bangladesh Power Sector and Recommendations based on Practical Data and Machine Learning Approach** | Anis Ahmed, Arefin Ahamed Shuvo, Naruttam Kumar Roy, Neloy Prosad Bishnu, Ali Nasir | [Link](http://arxiv.org/abs/2511.19070) | Not Available |
 | 2025-11-24 | **Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation** | Chenhao Zhai, Chang Meng, Xueliang Wang, Shuchang Liu, Xiaolong Hu, Shisong Tang, Xiaoqiang Feng, Xiu Li | [Link](http://arxiv.org/abs/2511.18997) | Not Available |

@@ -8095,6 +8095,72 @@
             "abstract": "In the past two decades, open access to news and information has increased rapidly, empowering educated political growth within democratic societies. News recommender systems (NRSs) have shown to be useful in this process, minimizing political disengagement and information overload by providing individuals with articles on topics that matter to them. Unfortunately, NRSs often conflate underlying user interest with the partisan bias of the articles in their reading history and with the most popular biases present in the coverage of their favored topics. Over extended interaction, this can result in the formation of filter bubbles and the polarization of user partisanship. In this paper, we propose a novel embedding space called Constructed Political Coordinates (CPC), which models the political partisanship of users over a given topic-space, relative to a larger sample population. We apply a simple collaborative filtering (CF) framework using CPC-based correlation to recommend articles sourced from oppositional users, who have different biases from the user in question. We compare against classical CF methods and find that CPC-based methods promote pointed bias diversity and better match the true political tolerance of users, while classical methods implicitly exploit biases to maximize interaction.",
             "primary_category": "cs.SI",
             "code_url": "null"
+        },
+        "2511.20289": {
+            "title": "Lower Bias, Higher Welfare: How Creator Competition Reshapes Bias-Variance Tradeoff in Recommendation Platforms?",
+            "authors": "Kang Wang, Renzhe Xu, Bo Li",
+            "first_author": "Kang Wang",
+            "url": "http://arxiv.org/abs/2511.20289v1",
+            "pdf_url": "http://arxiv.org/abs/2511.20289",
+            "publish_date": "2025-11-25",
+            "abstract": "Understanding the bias-variance tradeoff in user representation learning is essential for improving recommendation quality in modern content platforms. While well studied in static settings, this tradeoff becomes significantly more complex when content creators strategically adapt to platform incentives. To analyze how such competition reshapes the tradeoff for maximizing user welfare, we introduce the Content Creator Competition with Bias-Variance Tradeoff framework, a tractable game-theoretic model that captures the platform's decision on regularization strength in user feature estimation. We derive and compare the platform's optimal policy under two key settings: a non-strategic baseline with fixed content and a strategic environment where creators compete in response to the platform's algorithmic design.   Our theoretical analysis in a stylized model shows that, compared to the non-strategic environment, content creator competition shifts the platform's optimal policy toward weaker regularization, thereby favoring lower bias in the bias-variance tradeoff. To validate and assess the robustness of these insights beyond the stylized setting, we conduct extensive experiments on both synthetic and real-world benchmark datasets. The empirical results consistently support our theoretical conclusion: in strategic environments, reducing bias leads to higher user welfare. These findings offer practical implications for the design of real-world recommendation algorithms in the presence of content creator competition.",
+            "primary_category": "cs.GT",
+            "code_url": "null"
+        },
+        "2511.20235": {
+            "title": "HHFT: Hierarchical Heterogeneous Feature Transformer for Recommendation Systems",
+            "authors": "Liren Yu, Wenming Zhang, Silu Zhou, Zhixuan Zhang, Dan Ou",
+            "first_author": "Liren Yu",
+            "url": "http://arxiv.org/abs/2511.20235v1",
+            "pdf_url": "http://arxiv.org/abs/2511.20235",
+            "publish_date": "2025-11-25",
+            "abstract": "We propose HHFT (Hierarchical Heterogeneous Feature Transformer), a Transformer-based architecture tailored for industrial CTR prediction. HHFT addresses the limitations of DNN through three key designs: (1) Semantic Feature Partitioning: Grouping heterogeneous features (e.g. user profile, item information, behaviour sequennce) into semantically coherent blocks to preserve domain-specific information; (2) Heterogeneous Transformer Encoder: Adopting block-specific QKV projections and FFNs to avoid semantic confusion between distinct feature types; (3) Hiformer Layer: Capturing high-order interactions across features. Our findings reveal that Transformers significantly outperform DNN baselines, achieving a +0.4% improvement in CTR AUC at scale. We have successfully deployed the model on Taobao's production platform, observing a significant uplift in key business metrics, including a +0.6% increase in Gross Merchandise Value (GMV).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.20177": {
+            "title": "Enhancing Sequential Recommendation with World Knowledge from Large Language Models",
+            "authors": "Tianjie Dai, Xu Chen, Yunmeng Shu, Jinsong Lan, Xiaoyong Zhu, Jiangchao Yao, Bo Zheng",
+            "first_author": "Tianjie Dai",
+            "url": "http://arxiv.org/abs/2511.20177v1",
+            "pdf_url": "http://arxiv.org/abs/2511.20177",
+            "publish_date": "2025-11-25",
+            "abstract": "Sequential Recommendation System~(SRS) has become pivotal in modern society, which predicts subsequent actions based on the user's historical behavior. However, traditional collaborative filtering-based sequential recommendation models often lead to suboptimal performance due to the limited information of their collaborative signals. With the rapid development of LLMs, an increasing number of works have incorporated LLMs' world knowledge into sequential recommendation. Although they achieve considerable gains, these approaches typically assume the correctness of LLM-generated results and remain susceptible to noise induced by LLM hallucinations. To overcome these limitations, we propose GRASP (Generation Augmented Retrieval with Holistic Attention for Sequential Prediction), a flexible framework that integrates generation augmented retrieval for descriptive synthesis and similarity retrieval, and holistic attention enhancement which employs multi-level attention to effectively employ LLM's world knowledge even with hallucinations and better capture users' dynamic interests. The retrieved similar users/items serve as auxiliary contextual information for the later holistic attention enhancement module, effectively mitigating the noisy guidance of supervision-based methods. Comprehensive evaluations on two public benchmarks and one industrial dataset reveal that GRASP consistently achieves state-of-the-art performance when integrated with diverse backbones. The code is available at: https://anonymous.4open.science/r/GRASP-SRS.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.20122": {
+            "title": "Towards A Tri-View Diffusion Framework for Recommendation",
+            "authors": "Ximing Chen, Pui Ieng Lei, Yijun Sheng, Yanyan Liu, Zhiguo Gong",
+            "first_author": "Ximing Chen",
+            "url": "http://arxiv.org/abs/2511.20122v1",
+            "pdf_url": "http://arxiv.org/abs/2511.20122",
+            "publish_date": "2025-11-25",
+            "abstract": "Diffusion models (DMs) have recently gained significant interest for their exceptional potential in recommendation tasks. This stems primarily from their prominent capability in distilling, modeling, and generating comprehensive user preferences. However, previous work fails to examine DMs in recommendation tasks through a rigorous lens. In this paper, we first experimentally investigate the completeness of recommender models from a thermodynamic view. We reveal that existing DM-based recommender models operate by maximizing the energy, while classic recommender models operate by reducing the entropy. Based on this finding, we propose a minimalistic diffusion framework that incorporates both factors via the maximization of Helmholtz free energy. Meanwhile, to foster the optimization, our reverse process is armed with a well-designed denoiser to maintain the inherent anisotropy, which measures the user-item cross-correlation in the context of bipartite graphs. Finally, we adopt an Acceptance-Rejection Gumbel Sampling Process (AR-GSP) to prioritize the far-outnumbered unobserved interactions for model robustness. AR-GSP integrates an acceptance-rejection sampling to ensure high-quality hard negative samples for general recommendation tasks, and a timestep-dependent Gumbel Softmax to handle an adaptive sampling strategy for diffusion models. Theoretical analyses and extensive experiments demonstrate that our proposed framework has distinct superiority over baselines in terms of accuracy and efficiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.19931": {
+            "title": "LLM-EDT: Large Language Model Enhanced Cross-domain Sequential Recommendation with Dual-phase Training",
+            "authors": "Ziwei Liu, Qidong Liu, Wanyu Wang, Yejing Wang, Tong Xu, Wei Huang, Chong Chen, Peng Chuan, Xiangyu Zhao",
+            "first_author": "Ziwei Liu",
+            "url": "http://arxiv.org/abs/2511.19931v1",
+            "pdf_url": "http://arxiv.org/abs/2511.19931",
+            "publish_date": "2025-11-25",
+            "abstract": "Cross-domain Sequential Recommendation (CDSR) has been proposed to enrich user-item interactions by incorporating information from various domains. Despite current progress, the imbalance issue and transition issue hinder further development of CDSR. The former one presents a phenomenon that the interactions in one domain dominate the entire behavior, leading to difficulty in capturing the domain-specific features in the other domain. The latter points to the difficulty in capturing users' cross-domain preferences within the mixed interaction sequence, resulting in poor next-item prediction performance for specific domains. With world knowledge and powerful reasoning ability, Large Language Models (LLMs) partially alleviate the above issues by performing as a generator and an encoder. However, current LLMs-enhanced CDSR methods are still under exploration, which fail to recognize the irrelevant noise and rough profiling problems. Thus, to make peace with the aforementioned challenges, we proposed an LLMs Enhanced Cross-domain Sequential Recommendation with Dual-phase Training ({LLM-EDT}). To address the imbalance issue while introducing less irrelevant noise, we first propose the transferable item augmenter to adaptively generate possible cross-domain behaviors for users. Then, to alleviate the transition issue, we introduce a dual-phase training strategy to empower the domain-specific thread with a domain-shared background. As for the rough profiling problem, we devise a domain-aware profiling module to summarize the user's preference in each domain and adaptively aggregate them to generate comprehensive user profiles. The experiments on three public datasets validate the effectiveness of our proposed LLM-EDT. To ease reproducibility, we have released the detailed code online at {https://anonymous.4open.science/r/LLM-EDT-583F}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.19514": {
+            "title": "SCoTER: Structured Chain-of-Thought Transfer for Enhanced Recommendation",
+            "authors": "Yang Wu, Qian Li, Yuling Xiong, Hongbo Tang, Xun Liu, Jun Zhang, Huan Yu, Jie Jiang, Hailong Shi",
+            "first_author": "Yang Wu",
+            "url": "http://arxiv.org/abs/2511.19514v1",
+            "pdf_url": "http://arxiv.org/abs/2511.19514",
+            "publish_date": "2025-11-24",
+            "abstract": "Harnessing the reasoning power of Large Language Models (LLMs) for recommender systems is hindered by two fundamental challenges. First, current approaches lack a mechanism for automated, data-driven discovery of effective reasoning patterns, relying instead on brittle manual templates or unstable zero-shot prompting. Second, they employ structure-collapsing integration: direct prompting incurs prohibitive online inference costs, while feature extraction collapses reasoning chains into single vectors, discarding stepwise logic. To address these challenges, we propose SCoTER (Structured Chain-of-Thought Transfer for Enhanced Recommendation), a unified framework that treats pattern discovery and structure-aware transfer as a jointly optimized problem. Specifically, SCoTER operationalizes this through two synergistic components: a GVM pipeline for automated pattern discovery and a structure-preserving integration architecture that transfers stepwise logic to efficient models. Formally, we provide information-theoretic justification proving that structure-preserving transfer achieves tighter performance bounds than structure-agnostic alternatives. Empirically, experiments on four benchmarks demonstrate improvements of 3.75\\%-11.59\\% over a strong TIGER backbone. Moreover, in production deployment on the Tencent Advertising Platform, SCoTER achieved a 2.14\\% lift in Gross Merchandise Value (GMV) while eliminating online LLM inference costs. Overall, SCoTER establishes a principled and production-validated blueprint for transferring structured LLM reasoning to large-scale recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
