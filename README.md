@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-11-28 | **Masked Diffusion for Generative Recommendation** | Kulin Shah, Bhuvesh Kumar, Neil Shah, Liam Collins | [Link](http://arxiv.org/abs/2511.23021) | Not Available |
+| 2025-11-27 | **CoFiRec: Coarse-to-Fine Tokenization for Generative Recommendation** | Tianxin Wei, Xuying Ning, Xuxing Chen, Ruizhong Qiu, Yupeng Hou, Yan Xie, Shuang Yang, Zhigang Hua, Jingrui He | [Link](http://arxiv.org/abs/2511.22707) | Not Available |
+| 2025-11-27 | **Benchmarking In-context Experiential Learning Through Repeated Product Recommendations** | Gilbert Yang, Yaqin Chen, Thomson Yen, Hongseok Namkoong | [Link](http://arxiv.org/abs/2511.22130) | Not Available |
+| 2025-11-27 | **Selecting User Histories to Generate LLM Users for Cold-Start Item Recommendation** | Nachiket Subbaraman, Jaskinder Sarai, Aniruddh Nath, Lichan Hong, Lukasz Heldt, Li Wei, Zhe Zhao | [Link](http://arxiv.org/abs/2511.21989) | Not Available |
 | 2025-11-26 | **Generative AI Compensates for Age-Related Cognitive Decline in Decision Making: Preference-Aligned Recommendations Reduce Choice Difficulty** | Sayaka Ishibashi, Kou Tamura, Ayana Goma, Kenta Yamamoto, Kouhei Masumoto | [Link](http://arxiv.org/abs/2511.21164) | Not Available |
 | 2025-11-26 | **Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations** | Guancheng Lin, Xiao Yu, Jacky Keung, Xing Hu, Xin Xia, Alex X. Liu | [Link](http://arxiv.org/abs/2511.21022) | Not Available |
 | 2025-11-15 | **Semantics Meet Signals: Dual Codebook Representationl Learning for Generative Recommendation** | Zheng Hui, Xiaokai Wei, Reza Shirkavand, Chen Wang, Weizhi Zhang, Alejandro Peláez, Michelle Gong | [Link](http://arxiv.org/abs/2511.20673) | Not Available |

@@ -7902,7 +7902,7 @@
             "title": "From Raw Features to Effective Embeddings: A Three-Stage Approach for Multimodal Recipe Recommendation",
             "authors": "Jeeho Shin, Kyungho Kim, Kijung Shin",
             "first_author": "Jeeho Shin",
-            "url": "http://arxiv.org/abs/2511.19176v1",
+            "url": "http://arxiv.org/abs/2511.19176v2",
             "pdf_url": "http://arxiv.org/abs/2511.19176",
             "publish_date": "2025-11-24",
             "abstract": "Recipe recommendation has become an essential task in web-based food platforms. A central challenge is effectively leveraging rich multimodal features beyond user-recipe interactions. Our analysis shows that even simple uses of multimodal signals yield competitive performance, suggesting that systematic enhancement of these signals is highly promising. We propose TESMR, a 3-stage framework for recipe recommendation that progressively refines raw multimodal features into effective embeddings through: (1) content-based enhancement using foundation models with multimodal comprehension, (2) relation-based enhancement via message propagation over user-recipe interactions, and (3) learning-based enhancement through contrastive learning with learnable embeddings. Experiments on two real-world datasets show that TESMR outperforms existing methods, achieving 7-15% higher Recall@10.",
@@ -8193,6 +8193,50 @@
             "publish_date": "2025-11-15",
             "abstract": "Generative recommendation has recently emerged as a powerful paradigm that unifies retrieval and generation, representing items as discrete semantic tokens and enabling flexible sequence modeling with autoregressive models. Despite its success, existing approaches rely on a single, uniform codebook to encode all items, overlooking the inherent imbalance between popular items rich in collaborative signals and long-tail items that depend on semantic understanding. We argue that this uniform treatment limits representational efficiency and hinders generalization. To address this, we introduce FlexCode, a popularity-aware framework that adaptively allocates a fixed token budget between a collaborative filtering (CF) codebook and a semantic codebook. A lightweight MoE dynamically balances CF-specific precision and semantic generalization, while an alignment and smoothness objective maintains coherence across the popularity spectrum. We perform experiments on both public and industrial-scale datasets, showing that FlexCode consistently outperform strong baselines. FlexCode provides a new mechanism for token representation in generative recommenders, achieving stronger accuracy and tail robustness, and offering a new perspective on balancing memorization and generalization in token-based recommendation models.",
             "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2511.23021": {
+            "title": "Masked Diffusion for Generative Recommendation",
+            "authors": "Kulin Shah, Bhuvesh Kumar, Neil Shah, Liam Collins",
+            "first_author": "Kulin Shah",
+            "url": "http://arxiv.org/abs/2511.23021v1",
+            "pdf_url": "http://arxiv.org/abs/2511.23021",
+            "publish_date": "2025-11-28",
+            "abstract": "Generative recommendation (GR) with semantic IDs (SIDs) has emerged as a promising alternative to traditional recommendation approaches due to its performance gains, capitalization on semantic information provided through language model embeddings, and inference and storage efficiency. Existing GR with SIDs works frame the probability of a sequence of SIDs corresponding to a user's interaction history using autoregressive modeling. While this has led to impressive next item prediction performances in certain settings, these autoregressive GR with SIDs models suffer from expensive inference due to sequential token-wise decoding, potentially inefficient use of training data and bias towards learning short-context relationships among tokens. Inspired by recent breakthroughs in NLP, we propose to instead model and learn the probability of a user's sequence of SIDs using masked diffusion. Masked diffusion employs discrete masking noise to facilitate learning the sequence distribution, and models the probability of masked tokens as conditionally independent given the unmasked tokens, allowing for parallel decoding of the masked tokens. We demonstrate through thorough experiments that our proposed method consistently outperforms autoregressive modeling. This performance gap is especially pronounced in data-constrained settings and in terms of coarse-grained recall, consistent with our intuitions. Moreover, our approach allows the flexibility of predicting multiple SIDs in parallel during inference while maintaining superior performance to autoregressive modeling.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2511.22707": {
+            "title": "CoFiRec: Coarse-to-Fine Tokenization for Generative Recommendation",
+            "authors": "Tianxin Wei, Xuying Ning, Xuxing Chen, Ruizhong Qiu, Yupeng Hou, Yan Xie, Shuang Yang, Zhigang Hua, Jingrui He",
+            "first_author": "Tianxin Wei",
+            "url": "http://arxiv.org/abs/2511.22707v1",
+            "pdf_url": "http://arxiv.org/abs/2511.22707",
+            "publish_date": "2025-11-27",
+            "abstract": "In web environments, user preferences are often refined progressively as users move from browsing broad categories to exploring specific items. However, existing generative recommenders overlook this natural refinement process. Generative recommendation formulates next-item prediction as autoregressive generation over tokenized user histories, where each item is represented as a sequence of discrete tokens. Prior models typically fuse heterogeneous attributes such as ID, category, title, and description into a single embedding before quantization, which flattens the inherent semantic hierarchy of items and fails to capture the gradual evolution of user intent during web interactions. To address this limitation, we propose CoFiRec, a novel generative recommendation framework that explicitly incorporates the Coarse-to-Fine nature of item semantics into the tokenization process. Instead of compressing all attributes into a single latent space, CoFiRec decomposes item information into multiple semantic levels, ranging from high-level categories to detailed descriptions and collaborative filtering signals. Based on this design, we introduce the CoFiRec Tokenizer, which tokenizes each level independently while preserving structural order. During autoregressive decoding, the language model is instructed to generate item tokens from coarse to fine, progressively modeling user intent from general interests to specific item-level interests. Experiments across multiple public benchmarks and backbones demonstrate that CoFiRec outperforms existing methods, offering a new perspective for generative recommendation. Theoretically, we prove that structured tokenization leads to lower dissimilarity between generated and ground truth items, supporting its effectiveness in generative recommendation. Our code is available at https://github.com/YennNing/CoFiRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2511.22130": {
+            "title": "Benchmarking In-context Experiential Learning Through Repeated Product Recommendations",
+            "authors": "Gilbert Yang, Yaqin Chen, Thomson Yen, Hongseok Namkoong",
+            "first_author": "Gilbert Yang",
+            "url": "http://arxiv.org/abs/2511.22130v1",
+            "pdf_url": "http://arxiv.org/abs/2511.22130",
+            "publish_date": "2025-11-27",
+            "abstract": "To reliably navigate ever-shifting real-world environments, agents must grapple with incomplete knowledge and adapt their behavior through experience. However, current evaluations largely focus on tasks that leave no ambiguity, and do not measure agents' ability to adaptively learn and reason through the experiences they accrued. We exemplify the need for this in-context experiential learning in a product recommendation context, where agents must navigate shifting customer preferences and product landscapes through natural language dialogue. We curate a benchmark for experiential learning and active exploration (BELA) that combines (1) rich real-world products from Amazon, (2) a diverse collection of user personas to represent heterogeneous yet latent preferences, and (3) a LLM user simulator powered by the persona to create rich interactive trajectories. We observe that current frontier models struggle to meaningfully improve across episodes, underscoring the need for agentic systems with strong in-context learning capabilities.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2511.21989": {
+            "title": "Selecting User Histories to Generate LLM Users for Cold-Start Item Recommendation",
+            "authors": "Nachiket Subbaraman, Jaskinder Sarai, Aniruddh Nath, Lichan Hong, Lukasz Heldt, Li Wei, Zhe Zhao",
+            "first_author": "Nachiket Subbaraman",
+            "url": "http://arxiv.org/abs/2511.21989v1",
+            "pdf_url": "http://arxiv.org/abs/2511.21989",
+            "publish_date": "2025-11-27",
+            "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in reasoning, generalization, and simulating human-like behavior across a wide range of tasks. These strengths present new opportunities to enhance traditional recommendation systems (RS), especially in the cold-start item scenario where newly introduced items lack interactions. Existing works have used LLMs to address cold-start issues in traditional RS through data augmentation, but they have limitations. One recent work directly addresses this issue by prompting LLMs to generate augmented interaction data between randomly sampled users and cold-start items. Then, they train the traditional RS with augmented data, incorporating collaborative signals for cold-start items. Although they use LLMs to provide cold-start items with feedback, they use partial user histories, which does not allow the LLM to fully emulate the user. Furthermore, randomly selecting users is not optimal for augmentation. To address these challenges, we leverage the LLM as a user and develop a reinforcement learning (RL) framework that trains a policy to select users for augmentation, optimizing for cold-start item performance after augmented training. The policy model learns to select users for cold-start item data augmentation based on their behavioral features and histories. To optimize user selection for cold-start item performance, we employ a policy gradient method that updates the policy in the direction of actions that lead to high rewards. Experiments on Amazon Product Review datasets show substantial gains in cold-start item recall, demonstrating the effectiveness of our method as a scalable, serving-efficient augmentation strategy for modern RS.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
