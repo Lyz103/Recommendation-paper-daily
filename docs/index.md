@@ -8,6 +8,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-03 | **LLM as Explainable Re-Ranker for Recommendation System** | Yaqi Wang, Haojia Sun, Shuting Zhang | [Link](http://arxiv.org/abs/2512.03439) | Not Available |
 | 2025-12-02 | **AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations** | Luyao Niu, Zhicheng Deng, Boyang Li, Nuoxian Huang, Ruiqi Liu, Wenjia Zhang | [Link](http://arxiv.org/abs/2512.02502) | Not Available |
 | 2025-12-02 | **Q-BERT4Rec: Quantized Semantic-ID Representation Learning for Multimodal Recommendation** | Haofeng Huang, Ling Gai | [Link](http://arxiv.org/abs/2512.02474) | Not Available |
 | 2025-12-01 | **Structured Spectral Reasoning for Frequency-Adaptive Multimodal Recommendation** | Wei Yang, Rui Zhong, Yiqun Chen, Chi Lu, Peng Jiang | [Link](http://arxiv.org/abs/2512.01372) | Not Available |
