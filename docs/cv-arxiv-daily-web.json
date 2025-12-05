@@ -8293,6 +8293,28 @@
             "abstract": "The application of large language models (LLMs) in recommendation systems has recently gained traction. Traditional recommendation systems often lack explainability and suffer from issues such as popularity bias. Previous research has also indicated that LLMs, when used as standalone predictors, fail to achieve accuracy comparable to traditional models. To address these challenges, we propose to use LLM as an explainable re-ranker, a hybrid approach that combines traditional recommendation models with LLMs to enhance both accuracy and interpretability. We constructed a dataset to train the re-ranker LLM and evaluated the alignment between the generated dataset and human expectations. Leveraging a two-stage training process, our model significantly improved NDCG, a key ranking metric. Moreover, the re-ranker outperformed a zero-shot baseline in ranking accuracy and interpretability. These results highlight the potential of integrating traditional recommendation models with LLMs to address limitations in existing systems and pave the way for more explainable and fair recommendation frameworks.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2512.05066": {
+            "title": "Multi-LLM Collaboration for Medication Recommendation",
+            "authors": "Huascar Sanchez, Briland Hitaj, Jules Bergmann, Linda Briesemeister",
+            "first_author": "Huascar Sanchez",
+            "url": "http://arxiv.org/abs/2512.05066v1",
+            "pdf_url": "http://arxiv.org/abs/2512.05066",
+            "publish_date": "2025-12-04",
+            "abstract": "As healthcare increasingly turns to AI for scalable and trustworthy clinical decision support, ensuring reliability in model reasoning remains a critical challenge. Individual large language models (LLMs) are susceptible to hallucinations and inconsistency, whereas naive ensembles of models often fail to deliver stable and credible recommendations. Building on our previous work on LLM Chemistry, which quantifies the collaborative compatibility among LLMs, we apply this framework to improve the reliability in medication recommendation from brief clinical vignettes. Our approach leverages multi-LLM collaboration guided by Chemistry-inspired interaction modeling, enabling ensembles that are effective (exploiting complementary strengths), stable (producing consistent quality), and calibrated (minimizing interference and error amplification). We evaluate our Chemistry-based Multi-LLM collaboration strategy on real-world clinical scenarios to investigate whether such interaction-aware ensembles can generate credible, patient-specific medication recommendations. Preliminary results are encouraging, suggesting that LLM Chemistry-guided collaboration may offer a promising path toward reliable and trustworthy AI assistants in clinical practice.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.04564": {
+            "title": "Dataset creation for supervised deep learning-based analysis of microscopic images -- review of important considerations and recommendations",
+            "authors": "Christof A. Bertram, Viktoria Weiss, Jonas Ammeling, F. Maria Schabel, Taryn A. Donovan, Frauke Wilm, Christian Marzahl, Katharina Breininger, Marc Aubreville",
+            "first_author": "Christof A. Bertram",
+            "url": "http://arxiv.org/abs/2512.04564v1",
+            "pdf_url": "http://arxiv.org/abs/2512.04564",
+            "publish_date": "2025-12-04",
+            "abstract": "Supervised deep learning (DL) receives great interest for automated analysis of microscopic images with an increasing body of literature supporting its potential. The development and validation of those DL models relies heavily on the availability of high-quality, large-scale datasets. However, creating such datasets is a complex and resource-intensive process, often hindered by challenges such as time constraints, domain variability, and risks of bias in image collection and label creation. This review provides a comprehensive guide to the critical steps in dataset creation, including: 1) image acquisition, 2) selection of annotation software, and 3) annotation creation. In addition to ensuring a sufficiently large number of images, it is crucial to address sources of image variability (domain shifts) - such as those related to slide preparation and digitization - that could lead to algorithmic errors if not adequately represented in the training data. Key quality criteria for annotations are the three \"C\"s: correctness, completeness, and consistency. This review explores methods to enhance annotation quality through the use of advanced techniques that mitigate the limitations of single annotators. To support dataset creators, a standard operating procedure (SOP) is provided as supplemental material, outlining best practices for dataset development. Furthermore, the article underscores the importance of open datasets in driving innovation and enhancing reproducibility of DL research. By addressing the challenges and offering practical recommendations, this review aims to advance the creation of and availability to high-quality, large-scale datasets, ultimately contributing to the development of generalizable and robust DL models for pathology applications.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
         }
     }
 }

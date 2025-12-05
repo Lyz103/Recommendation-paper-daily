@@ -8,6 +8,8 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-04 | **Multi-LLM Collaboration for Medication Recommendation** | Huascar Sanchez, Briland Hitaj, Jules Bergmann, Linda Briesemeister | [Link](http://arxiv.org/abs/2512.05066) | Not Available |
+| 2025-12-04 | **Dataset creation for supervised deep learning-based analysis of microscopic images -- review of important considerations and recommendations** | Christof A. Bertram, Viktoria Weiss, Jonas Ammeling, F. Maria Schabel, Taryn A. Donovan, Frauke Wilm, Christian Marzahl, Katharina Breininger, Marc Aubreville | [Link](http://arxiv.org/abs/2512.04564) | Not Available |
 | 2025-12-03 | **LLM as Explainable Re-Ranker for Recommendation System** | Yaqi Wang, Haojia Sun, Shuting Zhang | [Link](http://arxiv.org/abs/2512.03439) | Not Available |
 | 2025-12-02 | **AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations** | Luyao Niu, Zhicheng Deng, Boyang Li, Nuoxian Huang, Ruiqi Liu, Wenjia Zhang | [Link](http://arxiv.org/abs/2512.02502) | Not Available |
 | 2025-12-02 | **Q-BERT4Rec: Quantized Semantic-ID Representation Learning for Multimodal Recommendation** | Haofeng Huang, Ling Gai | [Link](http://arxiv.org/abs/2512.02474) | Not Available |
