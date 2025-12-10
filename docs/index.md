@@ -8,6 +8,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-09 | **VI-MMRec: Similarity-Aware Training Cost-free Virtual User-Item Interactions for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Zitong Wan, Hewei Wang, Weijie Liu, Yijie Li, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2512.08702) | Not Available |
 | 2025-12-08 | **Exploring Test-time Scaling via Prediction Merging on Large-Scale Recommendation** | Fuyuan Lyu, Zhentai Chen, Jingyan Jiang, Lingjie Li, Xing Tang, Xiuqiang He, Xue Liu | [Link](http://arxiv.org/abs/2512.07650) | Not Available |
 | 2025-12-08 | **Meta-analyses of dietary exposures must consider energy adjustment: recommendations from a meta-scientific review** | Natalia Ortega, Peter WG Tennant, Darren C Greenwood, Octavio Pano, Christina C Dahm, Russell J de Souza, Daniel B Ibsen, Conor J MacDonald, Deirdre K Tobias, Georgia D Tomova | [Link](http://arxiv.org/abs/2512.07531) | Not Available |
 | 2025-12-08 | **OnePiece: The Great Route to Generative Recommendation -- A Case Study from Tencent Algorithm Competition** | Jiangxia Cao, Shuo Yang, Zijun Wang, Qinghai Tan | [Link](http://arxiv.org/abs/2512.07424) | Not Available |
