@@ -7977,9 +7977,9 @@
         },
         "2511.18413": {
             "title": "Multi-Agent Collaborative Filtering: Orchestrating Users and Items for Agentic Recommendations",
-            "authors": "Yu Xia, Sungchul Kim, Tong Yu, Ryan A. Rossi, Julian McAuely",
+            "authors": "Yu Xia, Sungchul Kim, Tong Yu, Ryan A. Rossi, Julian McAuley",
             "first_author": "Yu Xia",
-            "url": "http://arxiv.org/abs/2511.18413v1",
+            "url": "http://arxiv.org/abs/2511.18413v2",
             "pdf_url": "http://arxiv.org/abs/2511.18413",
             "publish_date": "2025-11-23",
             "abstract": "Agentic recommendations cast recommenders as large language model (LLM) agents that can plan, reason, use tools, and interact with users of varying preferences in web applications. However, most existing agentic recommender systems focus on generic single-agent plan-execute workflows or multi-agent task decomposition pipelines. Without recommendation-oriented design, they often underuse the collaborative signals in the user-item interaction history, leading to unsatisfying recommendation results. To address this, we propose the Multi-Agent Collaborative Filtering (MACF) framework for agentic recommendations, drawing an analogy between traditional collaborative filtering algorithms and LLM-based multi-agent collaboration. Specifically, given a target user and query, we instantiate similar users and relevant items as LLM agents with unique profiles. Each agent is able to call retrieval tools, suggest candidate items, and interact with other agents. Different from the static preference aggregation in traditional collaborative filtering, MACF employs a central orchestrator agent to adaptively manage the collaboration between user and item agents via dynamic agent recruitment and personalized collaboration instruction. Experimental results on datasets from three different domains show the advantages of our MACF framework compared to strong agentic recommendation baselines.",
@@ -8391,6 +8391,39 @@
             "publish_date": "2025-12-09",
             "abstract": "Although existing multimodal recommendation models have shown promising performance, their effectiveness continues to be limited by the pervasive data sparsity problem. This problem arises because users typically interact with only a small subset of available items, leading existing models to arbitrarily treat unobserved items as negative samples. To this end, we propose VI-MMRec, a model-agnostic and training cost-free framework that enriches sparse user-item interactions via similarity-aware virtual user-item interactions. These virtual interactions are constructed based on modality-specific feature similarities of user-interacted items. Specifically, VI-MMRec introduces two different strategies: (1) Overlay, which independently aggregates modality-specific similarities to preserve modality-specific user preferences, and (2) Synergistic, which holistically fuses cross-modal similarities to capture complementary user preferences. To ensure high-quality augmentation, we design a statistically informed weight allocation mechanism that adaptively assigns weights to virtual user-item interactions based on dataset-specific modality relevance. As a plug-and-play framework, VI-MMRec seamlessly integrates with existing models to enhance their performance without modifying their core architecture. Its flexibility allows it to be easily incorporated into various existing models, maximizing performance with minimal implementation effort. Moreover, VI-MMRec introduces no additional overhead during training, making it significantly advantageous for practical deployment. Comprehensive experiments conducted on six real-world datasets using seven state-of-the-art multimodal recommendation models validate the effectiveness of our VI-MMRec.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.09442": {
+            "title": "Reference Recommendation based Membership Inference Attack against Hybrid-based Recommender Systems",
+            "authors": "Xiaoxiao Chi, Xuyun Zhang, Yan Wang, Hongsheng Hu, Wanchun Dou",
+            "first_author": "Xiaoxiao Chi",
+            "url": "http://arxiv.org/abs/2512.09442v1",
+            "pdf_url": "http://arxiv.org/abs/2512.09442",
+            "publish_date": "2025-12-10",
+            "abstract": "Recommender systems have been widely deployed across various domains such as e-commerce and social media, and intelligently suggest items like products and potential friends to users based on their preferences and interaction history, which are often privacy-sensitive. Recent studies have revealed that recommender systems are prone to membership inference attacks (MIAs), where an attacker aims to infer whether or not a user's data has been used for training a target recommender system. However, existing MIAs fail to exploit the unique characteristic of recommender systems, and therefore are only applicable to mixed recommender systems consisting of two recommendation algorithms. This leaves a gap in investigating MIAs against hybrid-based recommender systems where the same algorithm utilizing user-item historical interactions and attributes of users and items serves and produces personalised recommendations. To investigate how the personalisation in hybrid-based recommender systems influences MIA, we propose a novel metric-based MIA. Specifically, we leverage the characteristic of personalisation to obtain reference recommendation for any target users. Then, a relative membership metric is proposed to exploit a target user's historical interactions, target recommendation, and reference recommendation to infer the membership of the target user's data. Finally, we theoretically and empirically demonstrate the efficacy of the proposed metric-based MIA on hybrid-based recommender systems.",
+            "primary_category": "cs.CR",
+            "code_url": "null"
+        },
+        "2512.09200": {
+            "title": "Meta Lattice: Model Space Redesign for Cost-Effective Industry-Scale Ads Recommendations",
+            "authors": "Liang Luo, Yuxin Chen, Zhengyu Zhang, Mengyue Hang, Andrew Gu, Buyun Zhang, Boyang Liu, Chen Chen, Chengze Fan, Dong Liang, Fan Yang, Feifan Gu, Huayu Li, Jade Nie, Jiayi Xu, Jiyan Yang, Jongsoo Park, Laming Chen, Longhao Jin, Qianru Li, Qin Huang, Shali Jiang, Shiwen Shen, Shuaiwen Wang, Sihan Zeng, Siyang Yuan, Tongyi Tang, Weilin Zhang, Wenjun Wang, Xi Liu, Xiaohan Wei, Xiaozhen Xia, Yuchen Hao, Yunlong He, Yasmine Badr, Zeliang Chen, Maxim Naumov, Yantao Yao, Wenlin Chen, Santanu Kolay, GP Musumeci, Ellie Dingqiao Wen",
+            "first_author": "Liang Luo",
+            "url": "http://arxiv.org/abs/2512.09200v1",
+            "pdf_url": "http://arxiv.org/abs/2512.09200",
+            "publish_date": "2025-12-09",
+            "abstract": "The rapidly evolving landscape of products, surfaces, policies, and regulations poses significant challenges for deploying state-of-the-art recommendation models at industry scale, primarily due to data fragmentation across domains and escalating infrastructure costs that hinder sustained quality improvements.   To address this challenge, we propose Lattice, a recommendation framework centered around model space redesign that extends Multi-Domain, Multi-Objective (MDMO) learning beyond models and learning objectives. Lattice addresses these challenges through a comprehensive model space redesign that combines cross-domain knowledge sharing, data consolidation, model unification, distillation, and system optimizations to achieve significant improvements in both quality and cost-efficiency.   Our deployment of Lattice at Meta has resulted in 10% revenue-driving top-line metrics gain, 11.5% user satisfaction improvement, 6% boost in conversion rate, with 20% capacity saving.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.09127": {
+            "title": "Knowledge-Guided Large Language Model for Automatic Pediatric Dental Record Understanding and Safe Antibiotic Recommendation",
+            "authors": "Zihan Han, Junyan Ge, Caifeng Li",
+            "first_author": "Zihan Han",
+            "url": "http://arxiv.org/abs/2512.09127v1",
+            "pdf_url": "http://arxiv.org/abs/2512.09127",
+            "publish_date": "2025-12-09",
+            "abstract": "Accurate interpretation of pediatric dental clinical records and safe antibiotic prescribing remain persistent challenges in dental informatics. Traditional rule-based clinical decision support systems struggle with unstructured dental narratives, incomplete radiographic descriptions, and complex safety constraints. To address these limitations, this study proposes a Knowledge-Guided Large Language Model (KG-LLM) that integrates a pediatric dental knowledge graph, retrieval-augmented generation (RAG), and a multi-stage safety validation pipeline for evidence-grounded antibiotic recommendation. The framework first employs a clinical NER/RE module to extract structured entities and relations from dental notes and radiology reports. Relevant guidelines, drug-safety rules, and analogous historical cases are subsequently retrieved from the knowledge graph and supplied to the LLM for diagnostic summarization and dose-drug-duration prediction. Safety assurance is achieved through a dual-layer validation mechanism combining deterministic rule checking with a learned classifier for detecting allergies, contraindications, and dosing errors. Experiments on 32,000 de-identified pediatric dental visit records demonstrate the effectiveness of the proposed approach. Compared with a domain-adapted Llama-2 clinical baseline, KG-LLM improves record-understanding performance (F1: 0.914 vs. 0.867), drug-dose-duration accuracy (Top-1: 0.782 vs. 0.716), and reduces unsafe antibiotic suggestions by 50%. Additional evaluation across summary quality, recommendation accuracy, and global safety scores further confirms the robustness of the system. Ablation analyses indicate that the knowledge graph, RAG, and safety modules each contribute substantially to clinical reliability and interpretability.",
+            "primary_category": "cs.CL",
             "code_url": "null"
         }
     }
