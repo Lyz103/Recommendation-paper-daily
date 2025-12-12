@@ -8425,6 +8425,50 @@
             "abstract": "Accurate interpretation of pediatric dental clinical records and safe antibiotic prescribing remain persistent challenges in dental informatics. Traditional rule-based clinical decision support systems struggle with unstructured dental narratives, incomplete radiographic descriptions, and complex safety constraints. To address these limitations, this study proposes a Knowledge-Guided Large Language Model (KG-LLM) that integrates a pediatric dental knowledge graph, retrieval-augmented generation (RAG), and a multi-stage safety validation pipeline for evidence-grounded antibiotic recommendation. The framework first employs a clinical NER/RE module to extract structured entities and relations from dental notes and radiology reports. Relevant guidelines, drug-safety rules, and analogous historical cases are subsequently retrieved from the knowledge graph and supplied to the LLM for diagnostic summarization and dose-drug-duration prediction. Safety assurance is achieved through a dual-layer validation mechanism combining deterministic rule checking with a learned classifier for detecting allergies, contraindications, and dosing errors. Experiments on 32,000 de-identified pediatric dental visit records demonstrate the effectiveness of the proposed approach. Compared with a domain-adapted Llama-2 clinical baseline, KG-LLM improves record-understanding performance (F1: 0.914 vs. 0.867), drug-dose-duration accuracy (Top-1: 0.782 vs. 0.716), and reduces unsafe antibiotic suggestions by 50%. Additional evaluation across summary quality, recommendation accuracy, and global safety scores further confirms the robustness of the system. Ablation analyses indicate that the knowledge graph, RAG, and safety modules each contribute substantially to clinical reliability and interpretability.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2512.10388": {
+            "title": "The Best of the Two Worlds: Harmonizing Semantic and Hash IDs for Sequential Recommendation",
+            "authors": "Ziwei Liu, Yejing Wang, Qidong Liu, Zijian Zhang, Chong Chen, Wei Huang, Xiangyu Zhao",
+            "first_author": "Ziwei Liu",
+            "url": "http://arxiv.org/abs/2512.10388v1",
+            "pdf_url": "http://arxiv.org/abs/2512.10388",
+            "publish_date": "2025-12-11",
+            "abstract": "Conventional Sequential Recommender Systems (SRS) typically assign unique Hash IDs (HID) to construct item embeddings. These HID embeddings effectively learn collaborative information from historical user-item interactions, making them vulnerable to situations where most items are rarely consumed (the long-tail problem). Recent methods that incorporate auxiliary information often suffer from noisy collaborative sharing caused by co-occurrence signals or semantic homogeneity caused by flat dense embeddings. Semantic IDs (SIDs), with their capability of code sharing and multi-granular semantic modeling, provide a promising alternative. However, the collaborative overwhelming phenomenon hinders the further development of SID-based methods. The quantization mechanisms commonly compromise the uniqueness of identifiers required for modeling head items, creating a performance seesaw between head and tail items. To address this dilemma, we propose \\textbf{\\name}, a novel framework that harmonizes the SID and HID. Specifically, we devise a dual-branch modeling architecture that enables the model to capture both the multi-granular semantics within SID while preserving the unique collaborative identity of HID. Furthermore, we introduce a dual-level alignment strategy that bridges the two representations, facilitating knowledge transfer and supporting robust preference modeling. Extensive experiments on three real-world datasets show that \\name~ effectively balances recommendation quality for both head and tail items while surpassing the existing baselines. The implementation code can be found online\\footnote{https://github.com/ziwliu8/H2Rec}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.10370": {
+            "title": "LLM-Empowered Representation Learning for Emerging Item Recommendation",
+            "authors": "Ziying Zhang, Quanming Yao, Yaqing Wang",
+            "first_author": "Ziying Zhang",
+            "url": "http://arxiv.org/abs/2512.10370v1",
+            "pdf_url": "http://arxiv.org/abs/2512.10370",
+            "publish_date": "2025-12-11",
+            "abstract": "In this work, we tackle the challenge of recommending emerging items, whose interactions gradually accumulate over time. Existing methods often overlook this dynamic process, typically assuming that emerging items have few or even no historical interactions. Such an assumption oversimplifies the problem, as a good model must preserve the uniqueness of emerging items while leveraging their shared patterns with established ones. To address this challenge, we propose EmerFlow, a novel LLM-empowered representation learning framework that generates distinctive embeddings for emerging items. It first enriches the raw features of emerging items through LLM reasoning, then aligns these representations with the embedding space of the existing recommendation model. Finally, new interactions are incorporated through meta-learning to refine the embeddings. This enables EmerFlow to learn expressive embeddings for emerging items from only limited interactions. Extensive experiments across diverse domains, including movies and pharmaceuticals, show that EmerFlow consistently outperforms existing methods.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2512.10149": {
+            "title": "STARS: Semantic Tokens with Augmented Representations for Recommendation at Scale",
+            "authors": "Han Chen, Steven Zhu, Yingrui Li",
+            "first_author": "Han Chen",
+            "url": "http://arxiv.org/abs/2512.10149v1",
+            "pdf_url": "http://arxiv.org/abs/2512.10149",
+            "publish_date": "2025-12-10",
+            "abstract": "Real-world ecommerce recommender systems must deliver relevant items under strict tens-of-milliseconds latency constraints despite challenges such as cold-start products, rapidly shifting user intent, and dynamic context including seasonality, holidays, and promotions. We introduce STARS, a transformer-based sequential recommendation framework built for large-scale, low-latency ecommerce settings. STARS combines several innovations: dual-memory user embeddings that separate long-term preferences from short-term session intent; semantic item tokens that fuse pretrained text embeddings, learnable deltas, and LLM-derived attribute tags, strengthening content-based matching, long-tail coverage, and cold-start performance; context-aware scoring with learned calendar and event offsets; and a latency-conscious two-stage retrieval pipeline that performs offline embedding generation and online maximum inner-product search with filtering, enabling tens-of-milliseconds response times. In offline evaluations on production-scale data, STARS improves Hit@5 by more than 75 percent relative to our existing LambdaMART system. A large-scale A/B test on 6 million visits shows statistically significant lifts, including Total Orders +0.8%, Add-to-Cart on Home +2.0%, and Visits per User +0.5%. These results demonstrate that combining semantic enrichment, multi-intent modeling, and deployment-oriented design can yield state-of-the-art recommendation quality in real-world environments without sacrificing serving efficiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.10106": {
+            "title": "A Simulation Framework for Studying Recommendation-Network Co-evolution in Social Platforms",
+            "authors": "Gaurav Koley, Sanika Digrajkar",
+            "first_author": "Gaurav Koley",
+            "url": "http://arxiv.org/abs/2512.10106v1",
+            "pdf_url": "http://arxiv.org/abs/2512.10106",
+            "publish_date": "2025-12-10",
+            "abstract": "Studying how recommendation systems reshape social networks is difficult on live platforms: confounds abound, and controlled experiments risk user harm. We present an agent-based simulator where content production, tie formation, and a graph attention network (GAT) recommender co-evolve in a closed loop. We calibrate parameters using Mastodon data and validate out-of-sample against Bluesky (4--6\\% error on structural metrics; 10--15\\% on held-out temporal splits). Across 18 configurations at 100 agents, we find that \\emph{activation timing} affects outcomes: introducing recommendations at $t=10$ vs.\\ $t=40$ decreases transitivity by 10\\% while engagement differs by $<$8\\%. Delaying activation increases content diversity by 9\\% while reducing modularity by 4\\%. Scaling experiments ($n$ up to 5,000) show the effect persists but attenuates. Jacobian analysis confirms local stability under bounded reactance parameters. We release configuration schemas and reproduction scripts.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
         }
     }
 }
