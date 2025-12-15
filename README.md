@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-12 | **xGR: Efficient Generative Recommendation Serving at Scale** | Qingxiao Sun, Tongxuan Liu, Shen Zhang, Siyu Wu, Peijun Yang, Haotian Liang, Menxin Li, Xiaolong Ma, Zhiwei Liang, Ziyi Ren, Minchao Zhang, Xinyu Liu, Ke Zhang, Depei Qian, Hailong Yang | [Link](http://arxiv.org/abs/2512.11529) | Not Available |
+| 2025-12-12 | **Bridge2AI Recommendations for AI-Ready Genomic Data** | Matthew Cannon, Wesley Goar, In-Hee Lee, James Stevenson, Amy Heiser, Nathan Sheffield, James Eddy, Monica Munoz-Torres, Sek Wong Kong, Alex H Wagner | [Link](http://arxiv.org/abs/2512.11519) | Not Available |
+| 2025-12-12 | **FAIR: Focused Attention Is All You Need for Generative Recommendation** | Longtao Xiao, Haolin Zhang, Guohao Cai, Jieming Zhu, Yifan Wang, Heng Chang, Zhenhua Dong, Xiu Li, Ruixuan Li | [Link](http://arxiv.org/abs/2512.11254) | Not Available |
+| 2025-11-25 | **Emotion-Driven Personalized Recommendation for AI-Generated Content Using Multi-Modal Sentiment and Intent Analysis** | Zheqi Hu, Xuanjing Chen, Jinlin Hu | [Link](http://arxiv.org/abs/2512.10963) | Not Available |
 | 2025-12-11 | **The Best of the Two Worlds: Harmonizing Semantic and Hash IDs for Sequential Recommendation** | Ziwei Liu, Yejing Wang, Qidong Liu, Zijian Zhang, Chong Chen, Wei Huang, Xiangyu Zhao | [Link](http://arxiv.org/abs/2512.10388) | Not Available |
 | 2025-12-11 | **LLM-Empowered Representation Learning for Emerging Item Recommendation** | Ziying Zhang, Quanming Yao, Yaqing Wang | [Link](http://arxiv.org/abs/2512.10370) | Not Available |
 | 2025-12-10 | **STARS: Semantic Tokens with Augmented Representations for Recommendation at Scale** | Han Chen, Steven Zhu, Yingrui Li | [Link](http://arxiv.org/abs/2512.10149) | Not Available |

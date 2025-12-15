@@ -8254,7 +8254,7 @@
             "title": "ProEx: A Unified Framework Leveraging Large Language Model with Profile Extrapolation for Recommendation",
             "authors": "Yi Zhang, Yiwen Zhang, Yu Wang, Tong Chen, Hongzhi Yin",
             "first_author": "Yi Zhang",
-            "url": "http://arxiv.org/abs/2512.00679v1",
+            "url": "http://arxiv.org/abs/2512.00679v2",
             "pdf_url": "http://arxiv.org/abs/2512.00679",
             "publish_date": "2025-11-30",
             "abstract": "The powerful text understanding and generation capabilities of large language models (LLMs) have brought new vitality to general recommendation with implicit feedback. One possible strategy involves generating a unique user (or item) profile from historical interaction data, which is then mapped to a semantic representation in the language space. However, a single-instance profile may be insufficient to comprehensively capture the complex intentions behind a user's interacted items. Moreover, due to the inherent instability of LLMs, a biased or misinterpreted profile could even undermine the original recommendation performance. Consequently, an intuitive solution is to generate multiple profiles for each user (or item), each reflecting a distinct aspect of their characteristics. In light of this, we propose a unified recommendation framework with multi-faceted profile extrapolation (ProEx) in this paper. By leveraging chain-of-thought reasoning, we construct multiple distinct profiles for each user and item. These new profiles are subsequently mapped into semantic vectors, extrapolating from the position of the original profile to explore a broader region of the language space. Subsequently, we introduce the concept of environments, where each environment represents a possible linear combination of all profiles. The differences across environments are minimized to reveal the inherent invariance of user preferences. We apply ProEx to three discriminative methods and three generative methods, and conduct extensive experiments on three datasets. The experimental results demonstrate that ProEx significantly enhances the performance of these base recommendation models.",
@@ -8468,6 +8468,50 @@
             "publish_date": "2025-12-10",
             "abstract": "Studying how recommendation systems reshape social networks is difficult on live platforms: confounds abound, and controlled experiments risk user harm. We present an agent-based simulator where content production, tie formation, and a graph attention network (GAT) recommender co-evolve in a closed loop. We calibrate parameters using Mastodon data and validate out-of-sample against Bluesky (4--6\\% error on structural metrics; 10--15\\% on held-out temporal splits). Across 18 configurations at 100 agents, we find that \\emph{activation timing} affects outcomes: introducing recommendations at $t=10$ vs.\\ $t=40$ decreases transitivity by 10\\% while engagement differs by $<$8\\%. Delaying activation increases content diversity by 9\\% while reducing modularity by 4\\%. Scaling experiments ($n$ up to 5,000) show the effect persists but attenuates. Jacobian analysis confirms local stability under bounded reactance parameters. We release configuration schemas and reproduction scripts.",
             "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2512.11529": {
+            "title": "xGR: Efficient Generative Recommendation Serving at Scale",
+            "authors": "Qingxiao Sun, Tongxuan Liu, Shen Zhang, Siyu Wu, Peijun Yang, Haotian Liang, Menxin Li, Xiaolong Ma, Zhiwei Liang, Ziyi Ren, Minchao Zhang, Xinyu Liu, Ke Zhang, Depei Qian, Hailong Yang",
+            "first_author": "Qingxiao Sun",
+            "url": "http://arxiv.org/abs/2512.11529v1",
+            "pdf_url": "http://arxiv.org/abs/2512.11529",
+            "publish_date": "2025-12-12",
+            "abstract": "Recommendation system delivers substantial economic benefits by providing personalized predictions. Generative recommendation (GR) integrates LLMs to enhance the understanding of long user-item sequences. Despite employing attention-based architectures, GR's workload differs markedly from that of LLM serving. GR typically processes long prompt while producing short, fixed-length outputs, yet the computational cost of each decode phase is especially high due to the large beam width. In addition, since the beam search involves a vast item space, the sorting overhead becomes particularly time-consuming. We propose xGR, a GR-oriented serving system that meets strict low-latency requirements under highconcurrency scenarios. First, xGR unifies the processing of prefill and decode phases through staged computation and separated KV cache. Second, xGR enables early sorting termination and mask-based item filtering with data structure reuse. Third, xGR reconstructs the overall pipeline to exploit multilevel overlap and multi-stream parallelism. Our experiments with real-world recommendation service datasets demonstrate that xGR achieves at least 3.49x throughput compared to the state-of-the-art baseline under strict latency constraints.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.11519": {
+            "title": "Bridge2AI Recommendations for AI-Ready Genomic Data",
+            "authors": "Matthew Cannon, Wesley Goar, In-Hee Lee, James Stevenson, Amy Heiser, Nathan Sheffield, James Eddy, Monica Munoz-Torres, Sek Wong Kong, Alex H Wagner",
+            "first_author": "Matthew Cannon",
+            "url": "http://arxiv.org/abs/2512.11519v1",
+            "pdf_url": "http://arxiv.org/abs/2512.11519",
+            "publish_date": "2025-12-12",
+            "abstract": "Rapid advancements in technology have led to an increased use of artificial intelligence (AI) technologies in medicine and bioinformatics research. In anticipation of this, the National Institutes of Health (NIH) assembled the Bridge to Artificial Intelligence (Bridge2AI) consortium to coordinate development of AI-ready datasets that can be leveraged by AI models to address grand challenges in human health and disease. The widespread availability of genome sequencing technologies for biomedical research presents a key data type for informing AI models, necessitating that genomics data sets are AI-ready. To this end, the Genomic Information Standards Team (GIST) of the Bridge2AI Standards Working Group has documented a set of recommendations for maintaining AI-ready genomics datasets. In this report, we describe recommendations for the collection, storage, identification, and proper use of genomics datasets to enable them to be considered AI-ready and thus drive new insights in medicine through AI and machine learning applications.",
+            "primary_category": "q-bio.OT",
+            "code_url": "null"
+        },
+        "2512.11254": {
+            "title": "FAIR: Focused Attention Is All You Need for Generative Recommendation",
+            "authors": "Longtao Xiao, Haolin Zhang, Guohao Cai, Jieming Zhu, Yifan Wang, Heng Chang, Zhenhua Dong, Xiu Li, Ruixuan Li",
+            "first_author": "Longtao Xiao",
+            "url": "http://arxiv.org/abs/2512.11254v1",
+            "pdf_url": "http://arxiv.org/abs/2512.11254",
+            "publish_date": "2025-12-12",
+            "abstract": "Recently, transformer-based generative recommendation has garnered significant attention for user behavior modeling. However, it often requires discretizing items into multi-code representations (e.g., typically four code tokens or more), which sharply increases the length of the original item sequence. This expansion poses challenges to transformer-based models for modeling user behavior sequences with inherent noises, since they tend to overallocate attention to irrelevant or noisy context. To mitigate this issue, we propose FAIR, the first generative recommendation framework with focused attention, which enhances attention scores to relevant context while suppressing those to irrelevant ones. Specifically, we propose (1) a focused attention mechanism integrated into the standard Transformer, which learns two separate sets of Q and K attention weights and computes their difference as the final attention scores to eliminate attention noise while focusing on relevant contexts; (2) a noise-robustness objective, which encourages the model to maintain stable attention patterns under stochastic perturbations, preventing undesirable shifts toward irrelevant context due to noise; and (3) a mutual information maximization objective, which guides the model to identify contexts that are most informative for next-item prediction. We validate the effectiveness of FAIR on four public benchmarks, demonstrating its superior performance compared to existing methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.10963": {
+            "title": "Emotion-Driven Personalized Recommendation for AI-Generated Content Using Multi-Modal Sentiment and Intent Analysis",
+            "authors": "Zheqi Hu, Xuanjing Chen, Jinlin Hu",
+            "first_author": "Zheqi Hu",
+            "url": "http://arxiv.org/abs/2512.10963v1",
+            "pdf_url": "http://arxiv.org/abs/2512.10963",
+            "publish_date": "2025-11-25",
+            "abstract": "With the rapid growth of AI-generated content (AIGC) across domains such as music, video, and literature, the demand for emotionally aware recommendation systems has become increasingly important. Traditional recommender systems primarily rely on user behavioral data such as clicks, views, or ratings, while neglecting users' real-time emotional and intentional states during content interaction. To address this limitation, this study proposes a Multi-Modal Emotion and Intent Recognition Model (MMEI) based on a BERT-based Cross-Modal Transformer with Attention-Based Fusion, integrated into a cloud-native personalized AIGC recommendation framework. The proposed system jointly processes visual (facial expression), auditory (speech tone), and textual (comments or utterances) modalities through pretrained encoders ViT, Wav2Vec2, and BERT, followed by an attention-based fusion module to learn emotion-intent representations. These embeddings are then used to drive personalized content recommendations through a contextual matching layer. Experiments conducted on benchmark emotion datasets (AIGC-INT, MELD, and CMU-MOSEI) and an AIGC interaction dataset demonstrate that the proposed MMEI model achieves a 4.3% improvement in F1-score and a 12.3% reduction in cross-entropy loss compared to the best fusion-based transformer baseline. Furthermore, user-level online evaluations reveal that emotion-driven recommendations increase engagement time by 15.2% and enhance satisfaction scores by 11.8%, confirming the model's effectiveness in aligning AI-generated content with users' affective and intentional states. This work highlights the potential of cross-modal emotional intelligence for next-generation AIGC ecosystems, enabling adaptive, empathetic, and context-aware recommendation experiences.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
