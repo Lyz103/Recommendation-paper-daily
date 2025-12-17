@@ -8612,6 +8612,72 @@
             "abstract": "Deep Learning Recommendation Models (DLRMs) underpin personalized services but face a critical freshness-accuracy tradeoff due to massive parameter synchronization overheads. Production DLRMs deploy decoupled training/inference clusters, where synchronizing petabyte-scale embedding tables (EMTs) causes multi-minute staleness, degrading recommendation quality and revenue. We observe that (1) inference nodes exhibit sustained CPU underutilization (peak <= 20%), and (2) EMT gradients possess intrinsic low-rank structure, enabling compact update representation. We present LiveUpdate, a system that eliminates inter-cluster synchronization by colocating Low-Rank Adaptation (LoRA) trainers within inference nodes. LiveUpdate addresses two core challenges: (1) dynamic rank adaptation via singular value monitoring to constrain memory overhead (<2% of EMTs), and (2) NUMA-aware resource scheduling with hardware-enforced QoS to eliminate update inference contention (P99 latency impact <20ms). Evaluations show LiveUpdate reduces update costs by 2x versus delta-update baselines while achieving higher accuracy within 1-hour windows. By transforming idle inference resources into freshness engines, LiveUpdate delivers online model updates while outperforming state-of-the-art delta-update methods by 0.04% to 0.24% in accuracy.",
             "primary_category": "cs.DC",
             "code_url": "null"
+        },
+        "2512.14047": {
+            "title": "AsarRec: Adaptive Sequential Augmentation for Robust Self-supervised Sequential Recommendation",
+            "authors": "Kaike Zhang, Qi Cao, Fei Sun, Xinran Liu",
+            "first_author": "Kaike Zhang",
+            "url": "http://arxiv.org/abs/2512.14047v1",
+            "pdf_url": "http://arxiv.org/abs/2512.14047",
+            "publish_date": "2025-12-16",
+            "abstract": "Sequential recommender systems have demonstrated strong capabilities in modeling users' dynamic preferences and capturing item transition patterns. However, real-world user behaviors are often noisy due to factors such as human errors, uncertainty, and behavioral ambiguity, which can lead to degraded recommendation performance. To address this issue, recent approaches widely adopt self-supervised learning (SSL), particularly contrastive learning, by generating perturbed views of user interaction sequences and maximizing their mutual information to improve model robustness. However, these methods heavily rely on their pre-defined static augmentation strategies~(where the augmentation type remains fixed once chosen) to construct augmented views, leading to two critical challenges: (1) the optimal augmentation type can vary significantly across different scenarios; (2) inappropriate augmentations may even degrade recommendation performance, limiting the effectiveness of SSL. To overcome these limitations, we propose an adaptive augmentation framework. We first unify existing basic augmentation operations into a unified formulation via structured transformation matrices. Building on this, we introduce AsarRec (Adaptive Sequential Augmentation for Robust Sequential Recommendation), which learns to generate transformation matrices by encoding user sequences into probabilistic transition matrices and projecting them into hard semi-doubly stochastic matrices via a differentiable Semi-Sinkhorn algorithm. To ensure that the learned augmentations benefit downstream performance, we jointly optimize three objectives: diversity, semantic invariance, and informativeness. Extensive experiments on three benchmark datasets under varying noise levels validate the effectiveness of AsarRec, demonstrating its superior robustness and consistent improvements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.14036": {
+            "title": "DTRec: Learning Dynamic Reasoning Trajectories for Sequential Recommendation",
+            "authors": "Yifan Shao, Peilin Zhou, Shoujin Wang, Weizhi Zhang, Xu Cai, Sunghun Kim",
+            "first_author": "Yifan Shao",
+            "url": "http://arxiv.org/abs/2512.14036v1",
+            "pdf_url": "http://arxiv.org/abs/2512.14036",
+            "publish_date": "2025-12-16",
+            "abstract": "Inspired by advances in LLMs, reasoning-enhanced sequential recommendation performs multi-step deliberation before making final predictions, unlocking greater potential for capturing user preferences. However, current methods are constrained by static reasoning trajectories that are ill-suited for the diverse complexity of user behaviors. They suffer from two key limitations: (1) a static reasoning direction, which uses flat supervision signals misaligned with human-like hierarchical reasoning, and (2) a fixed reasoning depth, which inefficiently applies the same computational effort to all users, regardless of pattern complexity. These rigidity lead to suboptimal performance and significant computational waste. To overcome these challenges, we propose DTRec, a novel and effective framework that explores the Dynamic reasoning Trajectory for Sequential Recommendation along both direction and depth. To guide the direction, we develop Hierarchical Process Supervision (HPS), which provides coarse-to-fine supervisory signals to emulate the natural, progressive refinement of human cognitive processes. To optimize the depth, we introduce the Adaptive Reasoning Halting (ARH) mechanism that dynamically adjusts the number of reasoning steps by jointly monitoring three indicators. Extensive experiments on three real-world datasets demonstrate the superiority of our approach, achieving up to a 24.5% performance improvement over strong baselines while simultaneously reducing computational cost by up to 41.6%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.14034": {
+            "title": "Intent-Guided Reasoning for Sequential Recommendation",
+            "authors": "Yifan Shao, Peilin Zhou",
+            "first_author": "Yifan Shao",
+            "url": "http://arxiv.org/abs/2512.14034v1",
+            "pdf_url": "http://arxiv.org/abs/2512.14034",
+            "publish_date": "2025-12-16",
+            "abstract": "Sequential recommendation systems aim to capture users' evolving preferences from their interaction histories. Recent reasoningenhanced methods have shown promise by introducing deliberate, chain-of-thought-like processes with intermediate reasoning steps. However, these methods rely solely on the next target item as supervision, leading to two critical issues: (1) reasoning instability--the process becomes overly sensitive to recent behaviors and spurious interactions like accidental clicks, and (2) surface-level reasoning--the model memorizes item-to-item transitions rather than understanding intrinsic behavior patterns. To address these challenges, we propose IGR-SR, an Intent-Guided Reasoning framework for Sequential Recommendation that anchors the reasoning process to explicitly extracted high-level intents. Our framework comprises three key components: (1) a Latent Intent Distiller (LID) that efficiently extracts multi-faceted intents using a frozen encoder with learnable tokens, (2) an Intent-aware Deliberative Reasoner (IDR) that decouples reasoning into intent deliberation and decision-making via a dual-attention architecture, and (3) an Intent Consistency Regularization (ICR) that ensures robustness by enforcing consistent representations across different intent views. Extensive experiments on three public datasets demonstrate that IGR-SR achieves an average 7.13% improvement over state-of-the-art baselines. Critically, under 20% behavioral noise, IGR-SR degrades only 10.4% compared to 16.2% and 18.6% for competing methods, validating the effectiveness and robustness of intent-guided reasoning.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.13848": {
+            "title": "BiCoRec: Bias-Mitigated Context-Aware Sequential Recommendation Model",
+            "authors": "Mufhumudzi Muthivhi, Terence L van Zyl, Hairong Wang",
+            "first_author": "Mufhumudzi Muthivhi",
+            "url": "http://arxiv.org/abs/2512.13848v1",
+            "pdf_url": "http://arxiv.org/abs/2512.13848",
+            "publish_date": "2025-12-15",
+            "abstract": "Sequential recommendation models aim to learn from users evolving preferences. However, current state-of-the-art models suffer from an inherent popularity bias. This study developed a novel framework, BiCoRec, that adaptively accommodates users changing preferences for popular and niche items. Our approach leverages a co-attention mechanism to obtain a popularity-weighted user sequence representation, facilitating more accurate predictions. We then present a new training scheme that learns from future preferences using a consistency loss function. BiCoRec aimed to improve the recommendation performance of users who preferred niche items. For these users, BiCoRec achieves a 26.00% average improvement in NDCG@10 over state-of-the-art baselines. When ranking the relevant item against the entire collection, BiCoRec achieves NDCG@10 scores of 0.0102, 0.0047, 0.0021, and 0.0005 for the Movies, Fashion, Games and Music datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.13734": {
+            "title": "Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation",
+            "authors": "Haochen Yuan, Yang Zhang, Xiang He, Quan Z. Sheng, Zhongjie Wang",
+            "first_author": "Haochen Yuan",
+            "url": "http://arxiv.org/abs/2512.13734v1",
+            "pdf_url": "http://arxiv.org/abs/2512.13734",
+            "publish_date": "2025-12-14",
+            "abstract": "With the rise of cloud-edge collaboration, recommendation services are increasingly trained in distributed environments. Federated Recommendation (FR) enables such multi-end collaborative training while preserving privacy by sharing model parameters instead of raw data. However, the large number of parameters, primarily due to the massive item embeddings, significantly hampers communication efficiency. While existing studies mainly focus on improving the efficiency of FR models, they largely overlook the issue of embedding parameter overhead. To address this gap, we propose a FR training framework with Parameter-Efficient Fine-Tuning (PEFT) based embedding designed to reduce the volume of embedding parameters that need to be transmitted. Our approach offers a lightweight, plugin-style solution that can be seamlessly integrated into existing FR methods. In addition to incorporating common PEFT techniques such as LoRA and Hash-based encoding, we explore the use of Residual Quantized Variational Autoencoders (RQ-VAE) as a novel PEFT strategy within our framework. Extensive experiments across various FR model backbones and datasets demonstrate that our framework significantly reduces communication overhead while improving accuracy. The source code is available at https://github.com/young1010/FedPEFT.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.13726": {
+            "title": "Time-Constrained Recommendations: Reinforcement Learning Strategies for E-Commerce",
+            "authors": "Sayak Chakrabarty, Souradip Pal",
+            "first_author": "Sayak Chakrabarty",
+            "url": "http://arxiv.org/abs/2512.13726v1",
+            "pdf_url": "http://arxiv.org/abs/2512.13726",
+            "publish_date": "2025-12-13",
+            "abstract": "Unlike traditional recommendation tasks, finite user time budgets introduce a critical resource constraint, requiring the recommender system to balance item relevance and evaluation cost. For example, in a mobile shopping interface, users interact with recommendations by scrolling, where each scroll triggers a list of items called slate. Users incur an evaluation cost - time spent assessing item features before deciding to click. Highly relevant items having higher evaluation costs may not fit within the user's time budget, affecting engagement. In this position paper, our objective is to evaluate reinforcement learning algorithms that learn patterns in user preferences and time budgets simultaneously, crafting recommendations with higher engagement potential under resource constraints. Our experiments explore the use of reinforcement learning to recommend items for users using Alibaba's Personalized Re-ranking dataset supporting slate optimization in e-commerce contexts. Our contributions include (i) a unified formulation of time-constrained slate recommendation modeled as Markov Decision Processes (MDPs) with budget-aware utilities; (ii) a simulation framework to study policy behavior on re-ranking data; and (iii) empirical evidence that on-policy and off-policy control can improve performance under tight time budgets than traditional contextual bandit-based methods.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

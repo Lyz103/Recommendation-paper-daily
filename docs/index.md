@@ -8,6 +8,12 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-16 | **AsarRec: Adaptive Sequential Augmentation for Robust Self-supervised Sequential Recommendation** | Kaike Zhang, Qi Cao, Fei Sun, Xinran Liu | [Link](http://arxiv.org/abs/2512.14047) | Not Available |
+| 2025-12-16 | **DTRec: Learning Dynamic Reasoning Trajectories for Sequential Recommendation** | Yifan Shao, Peilin Zhou, Shoujin Wang, Weizhi Zhang, Xu Cai, Sunghun Kim | [Link](http://arxiv.org/abs/2512.14036) | Not Available |
+| 2025-12-16 | **Intent-Guided Reasoning for Sequential Recommendation** | Yifan Shao, Peilin Zhou | [Link](http://arxiv.org/abs/2512.14034) | Not Available |
+| 2025-12-15 | **BiCoRec: Bias-Mitigated Context-Aware Sequential Recommendation Model** | Mufhumudzi Muthivhi, Terence L van Zyl, Hairong Wang | [Link](http://arxiv.org/abs/2512.13848) | Not Available |
+| 2025-12-14 | **Plug-and-Play Parameter-Efficient Tuning of Embeddings for Federated Recommendation** | Haochen Yuan, Yang Zhang, Xiang He, Quan Z. Sheng, Zhongjie Wang | [Link](http://arxiv.org/abs/2512.13734) | Not Available |
+| 2025-12-13 | **Time-Constrained Recommendations: Reinforcement Learning Strategies for E-Commerce** | Sayak Chakrabarty, Souradip Pal | [Link](http://arxiv.org/abs/2512.13726) | Not Available |
 | 2025-12-15 | **Automated Information Flow Selection for Multi-scenario Multi-task Recommendation** | Chaohua Yang, Dugang Liu, Shiwei Li, Yuwen Fu, Xing Tang, Weihong Luo, Xiangyu Zhao, Xiuqiang He, Zhong Ming | [Link](http://arxiv.org/abs/2512.13396) | Not Available |
 | 2025-12-15 | **BlossomRec: Block-level Fused Sparse Attention Mechanism for Sequential Recommendations** | Mengyang Ma, Xiaopeng Li, Wanyu Wang, Zhaocheng Du, Jingtong Gao, Pengyue Jia, Yuyang Ye, Yiqi Wang, Yunpeng Weng, Weihong Luo, Xiao Han, Xiangyu Zhao | [Link](http://arxiv.org/abs/2512.13368) | Not Available |
 | 2025-12-15 | **Towards Practical Large-scale Dynamical Heterogeneous Graph Embedding: Cold-start Resilient Recommendation** | Mabiao Long, Jiaxi Liu, Yufeng Li, Hao Xiong, Junchi Yan, Kefan Wang, Yi Cao, Jiandong Ding | [Link](http://arxiv.org/abs/2512.13120) | Not Available |
