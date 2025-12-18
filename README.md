@@ -11,6 +11,8 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-17 | **Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary** | Xinshun Feng, Mingzhe Liu, Yi Qiao, Tongyu Zhu, Leilei Sun, Shuai Wang | [Link](http://arxiv.org/abs/2512.15614) | Not Available |
+| 2025-12-11 | **Inference Time Feature Injection: A Lightweight Approach for Real-Time Recommendation Freshness** | Qiang Chen, Venkatesh Ganapati Hegde, Hongfei Li | [Link](http://arxiv.org/abs/2512.14734) | Not Available |
 | 2025-12-16 | **AsarRec: Adaptive Sequential Augmentation for Robust Self-supervised Sequential Recommendation** | Kaike Zhang, Qi Cao, Fei Sun, Xinran Liu | [Link](http://arxiv.org/abs/2512.14047) | Not Available |
 | 2025-12-16 | **DTRec: Learning Dynamic Reasoning Trajectories for Sequential Recommendation** | Yifan Shao, Peilin Zhou, Shoujin Wang, Weizhi Zhang, Xu Cai, Sunghun Kim | [Link](http://arxiv.org/abs/2512.14036) | Not Available |
 | 2025-12-16 | **Intent-Guided Reasoning for Sequential Recommendation** | Yifan Shao, Peilin Zhou | [Link](http://arxiv.org/abs/2512.14034) | Not Available |

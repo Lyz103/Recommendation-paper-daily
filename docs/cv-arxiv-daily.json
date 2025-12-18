@@ -8496,7 +8496,7 @@
             "title": "FAIR: Focused Attention Is All You Need for Generative Recommendation",
             "authors": "Longtao Xiao, Haolin Zhang, Guohao Cai, Jieming Zhu, Yifan Wang, Heng Chang, Zhenhua Dong, Xiu Li, Ruixuan Li",
             "first_author": "Longtao Xiao",
-            "url": "http://arxiv.org/abs/2512.11254v1",
+            "url": "http://arxiv.org/abs/2512.11254v2",
             "pdf_url": "http://arxiv.org/abs/2512.11254",
             "publish_date": "2025-12-12",
             "abstract": "Recently, transformer-based generative recommendation has garnered significant attention for user behavior modeling. However, it often requires discretizing items into multi-code representations (e.g., typically four code tokens or more), which sharply increases the length of the original item sequence. This expansion poses challenges to transformer-based models for modeling user behavior sequences with inherent noises, since they tend to overallocate attention to irrelevant or noisy context. To mitigate this issue, we propose FAIR, the first generative recommendation framework with focused attention, which enhances attention scores to relevant context while suppressing those to irrelevant ones. Specifically, we propose (1) a focused attention mechanism integrated into the standard Transformer, which learns two separate sets of Q and K attention weights and computes their difference as the final attention scores to eliminate attention noise while focusing on relevant contexts; (2) a noise-robustness objective, which encourages the model to maintain stable attention patterns under stochastic perturbations, preventing undesirable shifts toward irrelevant context due to noise; and (3) a mutual information maximization objective, which guides the model to identify contexts that are most informative for next-item prediction. We validate the effectiveness of FAIR on four public benchmarks, demonstrating its superior performance compared to existing methods.",
@@ -8606,7 +8606,7 @@
             "title": "Near-Zero-Overhead Freshness for Recommendation Systems via Inference-Side Model Updates",
             "authors": "Wenjun Yu, Sitian Chen, Cheng Chen, Amelie Chi Zhou",
             "first_author": "Wenjun Yu",
-            "url": "http://arxiv.org/abs/2512.12295v1",
+            "url": "http://arxiv.org/abs/2512.12295v2",
             "pdf_url": "http://arxiv.org/abs/2512.12295",
             "publish_date": "2025-12-13",
             "abstract": "Deep Learning Recommendation Models (DLRMs) underpin personalized services but face a critical freshness-accuracy tradeoff due to massive parameter synchronization overheads. Production DLRMs deploy decoupled training/inference clusters, where synchronizing petabyte-scale embedding tables (EMTs) causes multi-minute staleness, degrading recommendation quality and revenue. We observe that (1) inference nodes exhibit sustained CPU underutilization (peak <= 20%), and (2) EMT gradients possess intrinsic low-rank structure, enabling compact update representation. We present LiveUpdate, a system that eliminates inter-cluster synchronization by colocating Low-Rank Adaptation (LoRA) trainers within inference nodes. LiveUpdate addresses two core challenges: (1) dynamic rank adaptation via singular value monitoring to constrain memory overhead (<2% of EMTs), and (2) NUMA-aware resource scheduling with hardware-enforced QoS to eliminate update inference contention (P99 latency impact <20ms). Evaluations show LiveUpdate reduces update costs by 2x versus delta-update baselines while achieving higher accuracy within 1-hour windows. By transforming idle inference resources into freshness engines, LiveUpdate delivers online model updates while outperforming state-of-the-art delta-update methods by 0.04% to 0.24% in accuracy.",
@@ -8676,6 +8676,28 @@
             "pdf_url": "http://arxiv.org/abs/2512.13726",
             "publish_date": "2025-12-13",
             "abstract": "Unlike traditional recommendation tasks, finite user time budgets introduce a critical resource constraint, requiring the recommender system to balance item relevance and evaluation cost. For example, in a mobile shopping interface, users interact with recommendations by scrolling, where each scroll triggers a list of items called slate. Users incur an evaluation cost - time spent assessing item features before deciding to click. Highly relevant items having higher evaluation costs may not fit within the user's time budget, affecting engagement. In this position paper, our objective is to evaluate reinforcement learning algorithms that learn patterns in user preferences and time budgets simultaneously, crafting recommendations with higher engagement potential under resource constraints. Our experiments explore the use of reinforcement learning to recommend items for users using Alibaba's Personalized Re-ranking dataset supporting slate optimization in e-commerce contexts. Our contributions include (i) a unified formulation of time-constrained slate recommendation modeled as Markov Decision Processes (MDPs) with budget-aware utilities; (ii) a simulation framework to study policy behavior on re-ranking data; and (iii) empirical evidence that on-policy and off-policy control can improve performance under tight time budgets than traditional contextual bandit-based methods.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.15614": {
+            "title": "Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary",
+            "authors": "Xinshun Feng, Mingzhe Liu, Yi Qiao, Tongyu Zhu, Leilei Sun, Shuai Wang",
+            "first_author": "Xinshun Feng",
+            "url": "http://arxiv.org/abs/2512.15614v1",
+            "pdf_url": "http://arxiv.org/abs/2512.15614",
+            "publish_date": "2025-12-17",
+            "abstract": "Recent advances in explainable recommendations have explored the integration of language models to analyze natural language rationales for user-item interactions. Despite their potential, existing methods often rely on ID-based representations that obscure semantic meaning and impose structural constraints on language models, thereby limiting their applicability in open-ended scenarios. These challenges are intensified by the complex nature of real-world interactions, where diverse user intents are entangled and collaborative signals rarely align with linguistic semantics. To overcome these limitations, we propose BEAT, a unified and transferable framework that tokenizes user and item behaviors into discrete, interpretable sequences. We construct a behavior vocabulary via a vector-quantized autoencoding process that disentangles macro-level interests and micro-level intentions from graph-based representations. We then introduce multi-level semantic supervision to bridge the gap between behavioral signals and language space. A semantic alignment regularization mechanism is designed to embed behavior tokens directly into the input space of frozen language models. Experiments on three public datasets show that BEAT improves zero-shot recommendation performance while generating coherent and informative explanations. Further analysis demonstrates that our behavior tokens capture fine-grained semantics and offer a plug-and-play interface for integrating complex behavior patterns into large language models.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.14734": {
+            "title": "Inference Time Feature Injection: A Lightweight Approach for Real-Time Recommendation Freshness",
+            "authors": "Qiang Chen, Venkatesh Ganapati Hegde, Hongfei Li",
+            "first_author": "Qiang Chen",
+            "url": "http://arxiv.org/abs/2512.14734v1",
+            "pdf_url": "http://arxiv.org/abs/2512.14734",
+            "publish_date": "2025-12-11",
+            "abstract": "Many recommender systems in long-form video streaming reply on batch-trained models and batch-updated features, where user features are updated daily and served statically throughout the day. While efficient, this approach fails to incorporate a user's most recent actions, often resulting in stale recommendations. In this work, we present a lightweight, model-agnostic approach for intra-day personalization that selectively injects recent watch history at inference time without requiring model retraining. Our approach selectively overrides stale user features at inference time using the recent watch history, allowing the system to adapt instantly to evolving preferences. By reducing the personalization feedback loop from daily to intra-day, we observed a statistically significant 0.47% increase in key user engagement metrics which ranked among the most substantial engagement gains observed in recent experimentation cycles. To our knowledge, this is the first published evidence that intra-day personalization can drive meaningful impact in long-form video streaming service, providing a compelling alternative to full real-time architectures where model retraining is required.",
             "primary_category": "cs.LG",
             "code_url": "null"
         }
