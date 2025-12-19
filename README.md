@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-18 | **LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation** | Haichao Zhang, Yao Lu, Lichen Wang, Yunzhe Li, Daiwei Chen, Yunpeng Xu, Yun Fu | [Link](http://arxiv.org/abs/2512.16891) | Not Available |
+| 2025-12-18 | **Microsoft Academic Graph Information Retrieval for Research Recommendation and Assistance** | Jacob Reiss, Shikshya Shiwakoti, Samuel Goldsmith, Ujjwal Pandit | [Link](http://arxiv.org/abs/2512.16661) | Not Available |
+| 2025-12-18 | **WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledge Internalization and Agentic Boundary Learning** | Wendong Bi, Yirong Mao, Xianglong Liu, Kai Tian, Jian Zhang, Hanjie Wang, Wenhui Que | [Link](http://arxiv.org/abs/2512.16108) | Not Available |
+| 2025-12-10 | **How Do Graph Signals Affect Recommendation: Unveiling the Mystery of Low and High-Frequency Graph Signals** | Feng Liu, Hao Cang, Huanhuan Yuan, Jiaqing Fan, Yongjing Hao, Fuzhen Zhuang, Guanfeng Liu, Pengpeng Zhao | [Link](http://arxiv.org/abs/2512.15744) | Not Available |
 | 2025-12-17 | **Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary** | Xinshun Feng, Mingzhe Liu, Yi Qiao, Tongyu Zhu, Leilei Sun, Shuai Wang | [Link](http://arxiv.org/abs/2512.15614) | Not Available |
 | 2025-12-11 | **Inference Time Feature Injection: A Lightweight Approach for Real-Time Recommendation Freshness** | Qiang Chen, Venkatesh Ganapati Hegde, Hongfei Li | [Link](http://arxiv.org/abs/2512.14734) | Not Available |
 | 2025-12-16 | **AsarRec: Adaptive Sequential Augmentation for Robust Self-supervised Sequential Recommendation** | Kaike Zhang, Qi Cao, Fei Sun, Xinran Liu | [Link](http://arxiv.org/abs/2512.14047) | Not Available |
