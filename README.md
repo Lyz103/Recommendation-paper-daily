@@ -11,6 +11,12 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-19 | **Exploiting ID-Text Complementarity via Ensembling for Sequential Recommendation** | Liam Collins, Bhuvesh Kumar, Clark Mingxuan Ju, Tong Zhao, Donald Loveland, Leonardo Neves, Neil Shah | [Link](http://arxiv.org/abs/2512.17820) | Not Available |
+| 2025-12-19 | **Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure** | Jingmao Zhang, Zhiting Zhao, Yunqi Lin, Jianghong Ma, Tianjun Wei, Haijun Zhang, Xiaofeng Zhang | [Link](http://arxiv.org/abs/2512.17733) | Not Available |
+| 2025-12-19 | **A Systematic Reproducibility Study of BSARec for Sequential Recommendation** | Jan Hutter, Hua Chang Bakker, Stan Fris, Madelon Bernardy, Yuanna Liu | [Link](http://arxiv.org/abs/2512.17442) | Not Available |
+| 2025-12-19 | **The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability** | Guangneng Hu | [Link](http://arxiv.org/abs/2512.17389) | Not Available |
+| 2025-12-19 | **Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest** | Saeed Ebrahimi, Weijie Jiang, Jaewon Yang, Olafur Gudmundsson, Yucheng Tu, Huizhong Duan | [Link](http://arxiv.org/abs/2512.17277) | Not Available |
+| 2025-12-18 | **Unexpected Knowledge: Auditing Wikipedia and Grokipedia Search Recommendations** | Erica Coppolillo, Simone Mungari | [Link](http://arxiv.org/abs/2512.17027) | Not Available |
 | 2025-12-18 | **LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation** | Haichao Zhang, Yao Lu, Lichen Wang, Yunzhe Li, Daiwei Chen, Yunpeng Xu, Yun Fu | [Link](http://arxiv.org/abs/2512.16891) | Not Available |
 | 2025-12-18 | **Microsoft Academic Graph Information Retrieval for Research Recommendation and Assistance** | Jacob Reiss, Shikshya Shiwakoti, Samuel Goldsmith, Ujjwal Pandit | [Link](http://arxiv.org/abs/2512.16661) | Not Available |
 | 2025-12-18 | **WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledge Internalization and Agentic Boundary Learning** | Wendong Bi, Yirong Mao, Xianglong Liu, Kai Tian, Jian Zhang, Hanjie Wang, Wenhui Que | [Link](http://arxiv.org/abs/2512.16108) | Not Available |

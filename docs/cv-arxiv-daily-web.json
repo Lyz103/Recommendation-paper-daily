@@ -8474,7 +8474,7 @@
             "title": "xGR: Efficient Generative Recommendation Serving at Scale",
             "authors": "Qingxiao Sun, Tongxuan Liu, Shen Zhang, Siyu Wu, Peijun Yang, Haotian Liang, Menxin Li, Xiaolong Ma, Zhiwei Liang, Ziyi Ren, Minchao Zhang, Xinyu Liu, Ke Zhang, Depei Qian, Hailong Yang",
             "first_author": "Qingxiao Sun",
-            "url": "http://arxiv.org/abs/2512.11529v1",
+            "url": "http://arxiv.org/abs/2512.11529v2",
             "pdf_url": "http://arxiv.org/abs/2512.11529",
             "publish_date": "2025-12-12",
             "abstract": "Recommendation system delivers substantial economic benefits by providing personalized predictions. Generative recommendation (GR) integrates LLMs to enhance the understanding of long user-item sequences. Despite employing attention-based architectures, GR's workload differs markedly from that of LLM serving. GR typically processes long prompt while producing short, fixed-length outputs, yet the computational cost of each decode phase is especially high due to the large beam width. In addition, since the beam search involves a vast item space, the sorting overhead becomes particularly time-consuming. We propose xGR, a GR-oriented serving system that meets strict low-latency requirements under highconcurrency scenarios. First, xGR unifies the processing of prefill and decode phases through staged computation and separated KV cache. Second, xGR enables early sorting termination and mask-based item filtering with data structure reuse. Third, xGR reconstructs the overall pipeline to exploit multilevel overlap and multi-stream parallelism. Our experiments with real-world recommendation service datasets demonstrate that xGR achieves at least 3.49x throughput compared to the state-of-the-art baseline under strict latency constraints.",
@@ -8743,6 +8743,72 @@
             "publish_date": "2025-12-10",
             "abstract": "Spectral graph neural networks (GNNs) are highly effective in modeling graph signals, with their success in recommendation often attributed to low-pass filtering. However, recent studies highlight the importance of high-frequency signals. The role of low-frequency and high-frequency graph signals in recommendation remains unclear. This paper aims to bridge this gap by investigating the influence of graph signals on recommendation performance. We theoretically prove that the effects of low-frequency and high-frequency graph signals are equivalent in recommendation tasks, as both contribute by smoothing the similarities between user-item pairs. To leverage this insight, we propose a frequency signal scaler, a plug-and-play module that adjusts the graph signal filter function to fine-tune the smoothness between user-item pairs, making it compatible with any GNN model. Additionally, we identify and prove that graph embedding-based methods cannot fully capture the characteristics of graph signals. To address this limitation, a space flip method is introduced to restore the expressive power of graph embeddings. Remarkably, we demonstrate that either low-frequency or high-frequency graph signals alone are sufficient for effective recommendations. Extensive experiments on four public datasets validate the effectiveness of our proposed methods. Code is avaliable at https://github.com/mojosey/SimGCF.",
             "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.17820": {
+            "title": "Exploiting ID-Text Complementarity via Ensembling for Sequential Recommendation",
+            "authors": "Liam Collins, Bhuvesh Kumar, Clark Mingxuan Ju, Tong Zhao, Donald Loveland, Leonardo Neves, Neil Shah",
+            "first_author": "Liam Collins",
+            "url": "http://arxiv.org/abs/2512.17820v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17820",
+            "publish_date": "2025-12-19",
+            "abstract": "Modern Sequential Recommendation (SR) models commonly utilize modality features to represent items, motivated in large part by recent advancements in language and vision modeling. To do so, several works completely replace ID embeddings with modality embeddings, claiming that modality embeddings render ID embeddings unnecessary because they can match or even exceed ID embedding performance. On the other hand, many works jointly utilize ID and modality features, but posit that complex fusion strategies, such as multi-stage training and/or intricate alignment architectures, are necessary for this joint utilization. However, underlying both these lines of work is a lack of understanding of the complementarity of ID and modality features. In this work, we address this gap by studying the complementarity of ID- and text-based SR models. We show that these models do learn complementary signals, meaning that either should provide performance gain when used properly alongside the other. Motivated by this, we propose a new SR method that preserves ID-text complementarity through independent model training, then harnesses it through a simple ensembling strategy. Despite this method's simplicity, we show it outperforms several competitive SR baselines, implying that both ID and text features are necessary to achieve state-of-the-art SR performance but complex fusion architectures are not.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2512.17733": {
+            "title": "Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure",
+            "authors": "Jingmao Zhang, Zhiting Zhao, Yunqi Lin, Jianghong Ma, Tianjun Wei, Haijun Zhang, Xiaofeng Zhang",
+            "first_author": "Jingmao Zhang",
+            "url": "http://arxiv.org/abs/2512.17733v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17733",
+            "publish_date": "2025-12-19",
+            "abstract": "Beyond user-item modeling, item-to-item relationships are increasingly used to enhance recommendation. However, common methods largely rely on co-occurrence, making them prone to item popularity bias and user attributes, which degrades embedding quality and performance. Meanwhile, although diversity is acknowledged as a key aspect of recommendation quality, existing research offers limited attention to it, with a notable lack of causal perspectives and theoretical grounding. To address these challenges, we propose Cadence: Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure - a plug-and-play framework built upon LightGCN as the backbone, primarily designed to enhance recommendation diversity while preserving accuracy. First, we compute the Unbiased Asymmetric Co-purchase Relationship (UACR) between items - excluding item popularity and user attributes - to construct a deconfounded directed item graph, with an aggregation mechanism to refine embeddings. Second, we leverage UACR to identify diverse categories of items that exhibit strong causal relevance to a user's interacted items but have not yet been engaged with. We then simulate their behavior under high-exposure scenarios, thereby significantly enhancing recommendation diversity while preserving relevance. Extensive experiments on real-world datasets demonstrate that our method consistently outperforms state-of-the-art diversity models in both diversity and accuracy, and further validates its effectiveness, transferability, and efficiency over baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.17442": {
+            "title": "A Systematic Reproducibility Study of BSARec for Sequential Recommendation",
+            "authors": "Jan Hutter, Hua Chang Bakker, Stan Fris, Madelon Bernardy, Yuanna Liu",
+            "first_author": "Jan Hutter",
+            "url": "http://arxiv.org/abs/2512.17442v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17442",
+            "publish_date": "2025-12-19",
+            "abstract": "In sequential recommendation (SR), the self-attention mechanism of Transformer-based models acts as a low-pass filter, limiting their ability to capture high-frequency signals that reflect short-term user interests. To overcome this, BSARec augments the Transformer encoder with a frequency layer that rescales high-frequency components using the Fourier transform. However, the overall effectiveness of BSARec and the roles of its individual components have yet to be systematically validated. We reproduce BSARec and show that it outperforms other SR methods on some datasets. To empirically assess whether BSARec improves performance on high-frequency signals, we propose a metric to quantify user history frequency and evaluate SR methods across different user groups. We compare digital signal processing (DSP) techniques and find that the discrete wavelet transform (DWT) offer only slight improvements over Fourier transforms, and DSP methods provide no clear advantage over simple residual connections. Finally, we explore padding strategies and find that non-constant padding significantly improves recommendation performance, whereas constant padding hinders the frequency rescaler's ability to capture high-frequency signals.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.17389": {
+            "title": "The Mental World of Large Language Models in Recommendation: A Benchmark on Association, Personalization, and Knowledgeability",
+            "authors": "Guangneng Hu",
+            "first_author": "Guangneng Hu",
+            "url": "http://arxiv.org/abs/2512.17389v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17389",
+            "publish_date": "2025-12-19",
+            "abstract": "Large language models (LLMs) have shown potential in recommendation systems (RecSys) by using them as either knowledge enhancer or zero-shot ranker. A key challenge lies in the large semantic gap between LLMs and RecSys where the former internalizes language world knowledge while the latter captures personalized world of behaviors. Unfortunately, the research community lacks a comprehensive benchmark that evaluates the LLMs over their limitations and boundaries in RecSys so that we can draw a confident conclusion. To investigate this, we propose a benchmark named LRWorld containing over 38K high-quality samples and 23M tokens carefully compiled and generated from widely used public recommendation datasets. LRWorld categorizes the mental world of LLMs in RecSys as three main scales (association, personalization, and knowledgeability) spanned by ten factors with 31 measures (tasks). Based on LRWorld, comprehensive experiments on dozens of LLMs show that they are still not well capturing the deep neural personalized embeddings but can achieve good results on shallow memory-based item-item similarity. They are also good at perceiving item entity relations, entity hierarchical taxonomies, and item-item association rules when inferring user interests. Furthermore, LLMs show a promising ability in multimodal knowledge reasoning (movie poster and product image) and robustness to noisy profiles. None of them show consistently good performance over the ten factors. Model sizes, position bias, and more are ablated.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.17277": {
+            "title": "Warmer for Less: A Cost-Efficient Strategy for Cold-Start Recommendations at Pinterest",
+            "authors": "Saeed Ebrahimi, Weijie Jiang, Jaewon Yang, Olafur Gudmundsson, Yucheng Tu, Huizhong Duan",
+            "first_author": "Saeed Ebrahimi",
+            "url": "http://arxiv.org/abs/2512.17277v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17277",
+            "publish_date": "2025-12-19",
+            "abstract": "Pinterest is a leading visual discovery platform where recommender systems (RecSys) are key to delivering relevant, engaging, and fresh content to our users. In this paper, we study the problem of improving RecSys model predictions for cold-start (CS) items, which appear infrequently in the training data. Although this problem is well-studied in academia, few studies have addressed its root causes effectively at the scale of a platform like Pinterest. By investigating live traffic data, we identified several challenges of the CS problem and developed a corresponding solution for each: First, industrial-scale RecSys models must operate under tight computational constraints. Since CS items are a minority, any related improvements must be highly cost-efficient. To address this, our solutions were designed to be lightweight, collectively increasing the total parameters by only 5%. Second, CS items are represented only by non-historical (e.g., content or attribute) features, which models often treat as less important. To elevate their significance, we introduce a residual connection for the non-historical features. Third, CS items tend to receive lower prediction scores compared to non-CS items, reducing their likelihood of being surfaced. We mitigate this by incorporating a score regularization term into the model. Fourth, the labels associated with CS items are sparse, making it difficult for the model to learn from them. We apply the manifold mixup technique to address this data sparsity. Implemented together, our methods increased fresh content engagement at Pinterest by 10% without negatively impacting overall engagement and cost, and have been deployed to serve over 570 million users on Pinterest.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.17027": {
+            "title": "Unexpected Knowledge: Auditing Wikipedia and Grokipedia Search Recommendations",
+            "authors": "Erica Coppolillo, Simone Mungari",
+            "first_author": "Erica Coppolillo",
+            "url": "http://arxiv.org/abs/2512.17027v1",
+            "pdf_url": "http://arxiv.org/abs/2512.17027",
+            "publish_date": "2025-12-18",
+            "abstract": "Encyclopedic knowledge platforms are key gateways through which users explore information online. The recent release of Grokipedia, a fully AI-generated encyclopedia, introduces a new alternative to traditional, well-established platforms like Wikipedia. In this context, search engine mechanisms play an important role in guiding users exploratory paths, yet their behavior across different encyclopedic systems remains underexplored. In this work, we address this gap by providing the first comparative analysis of search engine in Wikipedia and Grokipedia.   Using nearly 10,000 neutral English words and their substrings as queries, we collect over 70,000 search engine results and examine their semantic alignment, overlap, and topical structure. We find that both platforms frequently generate results that are weakly related to the original query and, in many cases, surface unexpected content starting from innocuous queries. Despite these shared properties, the two systems often produce substantially different recommendation sets for the same query. Through topical annotation and trajectory analysis, we further identify systematic differences in how content categories are surfaced and how search engine results evolve over multiple stages of exploration.   Overall, our findings show that unexpected search engine outcomes are a common feature of both the platforms, even though they exhibit discrepancies in terms of topical distribution and query suggestions.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
