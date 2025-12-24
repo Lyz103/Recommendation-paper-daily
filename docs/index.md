@@ -8,6 +8,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-23 | **IGDMRec: Behavior Conditioned Item Graph Diffusion for Multimodal Recommendation** | Ziyuan Guo, Jie Guo, Zhenghao Chen, Bin Song, Fei Richard Yu | [Link](http://arxiv.org/abs/2512.19983) | Not Available |
 | 2025-12-22 | **FC-MIR: A Mobile Screen Awareness Framework for Intent-Aware Recommendation based on Frame-Compressed Multimodal Trajectory Reasoning** | Zhe Yang, Xiaoshuang Sheng, Zhengnan Zhang, Jidong Wu, Zexing Wang, Xin He, Shenghua Xu, Guanjing Xiong | [Link](http://arxiv.org/abs/2512.19107) | Not Available |
 | 2025-12-21 | **CIRR: Causal-Invariant Retrieval-Augmented Recommendation with Faithful Explanations under Distribution Shift** | Sebastian Sun | [Link](http://arxiv.org/abs/2512.18683) | Not Available |
 | 2025-12-20 | **Efficient Optimization of Hierarchical Identifiers for Generative Recommendation** | Federica Valeau, Odysseas Boufalis, Polytimi Gkotsi, Joshua Rosenthal, David Vos | [Link](http://arxiv.org/abs/2512.18434) | Not Available |
