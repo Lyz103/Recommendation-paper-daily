@@ -8,6 +8,9 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-24 | **MMSRARec: Summarization and Retrieval Augumented Sequential Recommendation Based on Multimodal Large Language Model** | Haoyu Wang, Yitong Wang, Jining Wang | [Link](http://arxiv.org/abs/2512.20916) | Not Available |
+| 2025-12-24 | **Accurate and Diverse Recommendations via Propensity-Weighted Linear Autoencoders** | Kazuma Onishi, Katsuhiko Hayashi, Hidetaka Kamigaito | [Link](http://arxiv.org/abs/2512.20896) | Not Available |
+| 2025-12-23 | **How to Do STEM Outreach Evaluation -- Recommendations Based on a Review of Self Evaluation Tools in Canadian STEM Outreach Programs** | Garrett Richards, Svetlana Barkanova | [Link](http://arxiv.org/abs/2512.20713) | Not Available |
 | 2025-12-23 | **IGDMRec: Behavior Conditioned Item Graph Diffusion for Multimodal Recommendation** | Ziyuan Guo, Jie Guo, Zhenghao Chen, Bin Song, Fei Richard Yu | [Link](http://arxiv.org/abs/2512.19983) | Not Available |
 | 2025-12-22 | **FC-MIR: A Mobile Screen Awareness Framework for Intent-Aware Recommendation based on Frame-Compressed Multimodal Trajectory Reasoning** | Zhe Yang, Xiaoshuang Sheng, Zhengnan Zhang, Jidong Wu, Zexing Wang, Xin He, Shenghua Xu, Guanjing Xiong | [Link](http://arxiv.org/abs/2512.19107) | Not Available |
 | 2025-12-21 | **CIRR: Causal-Invariant Retrieval-Augmented Recommendation with Faithful Explanations under Distribution Shift** | Sebastian Sun | [Link](http://arxiv.org/abs/2512.18683) | Not Available |
