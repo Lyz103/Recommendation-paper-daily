@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2025-12-26 | **Frozen LVLMs for Micro-Video Recommendation: A Systematic Study of Feature Extraction and Fusion** | Huatuan Sun, Yunshan Ma, Changguang Wu, Yanxin Zhang, Pengfei Wang, Xiaoyu Du | [Link](http://arxiv.org/abs/2512.21863) | Not Available |
+| 2025-12-25 | **Embedding Samples Dispatching for Recommendation Model Training in Edge Environments** | Guopeng Li, Haisheng Tan, Chi Zhang, Hongqiu Ni, Zilong Wang, Xinyue Zhang, Yang Xu, Han Tian | [Link](http://arxiv.org/abs/2512.21615) | Not Available |
+| 2025-12-25 | **LLM-I2I: Boost Your Small Item2Item Recommendation Model with Large Language Model** | Yinfu Feng, Yanjing Wu, Rong Xiao, Xiaoyi Zen | [Link](http://arxiv.org/abs/2512.21595) | Not Available |
+| 2025-12-25 | **CEMG: Collaborative-Enhanced Multimodal Generative Recommendation** | Yuzhen Lin, Hongyi Chen, Xuanjing Chen, Shaowen Wang, Ivonne Xu, Dongming Jiang | [Link](http://arxiv.org/abs/2512.21543) | Not Available |
+| 2025-12-25 | **Selective LLM-Guided Regularization for Enhancing Recommendation Models** | Shanglin Yang, Zhan Shi | [Link](http://arxiv.org/abs/2512.21526) | Not Available |
 | 2025-12-24 | **MMSRARec: Summarization and Retrieval Augumented Sequential Recommendation Based on Multimodal Large Language Model** | Haoyu Wang, Yitong Wang, Jining Wang | [Link](http://arxiv.org/abs/2512.20916) | Not Available |
 | 2025-12-24 | **Accurate and Diverse Recommendations via Propensity-Weighted Linear Autoencoders** | Kazuma Onishi, Katsuhiko Hayashi, Hidetaka Kamigaito | [Link](http://arxiv.org/abs/2512.20896) | Not Available |
 | 2025-12-23 | **How to Do STEM Outreach Evaluation -- Recommendations Based on a Review of Self Evaluation Tools in Canadian STEM Outreach Programs** | Garrett Richards, Svetlana Barkanova | [Link](http://arxiv.org/abs/2512.20713) | Not Available |

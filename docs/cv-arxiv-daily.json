@@ -8887,6 +8887,61 @@
             "abstract": "STEM (Science, Technology, Engineering, and Mathematics) outreach programs in Canada, especially those oriented towards youth, play a critical role in supporting the nation's future workforce, innovation capacity, and equity across social groups in STEM fields. They constitute a large, multi-layered ecosystem connecting universities, national laboratories, non profit organizations, and grassroots community groups. Despite the growing importance of these programs, and the frequency that they undergo self-evaluation, little systematic information exists on best practices or common approaches to evaluating the effectiveness of STEM outreach initiatives. To address this gap, we integrated literature review with email inquiries about self evaluation tools sent to Canadian STEM outreach programs funded by NSERC (Natural Sciences and Engineering Research Council of Canada) PromoScience grants. We contacted 200 programs and heard back from about 100 of them, for a response rate of 50%. Of those respondents, 68 shared information about a formal self-evaluation tool appropriate for general STEM outreach. The results led us to develop a toolbox of self-evaluation methods, master question banks and starting-point templates for student/participant and teacher/chaperone surveys, and a synthesized list of recommendations for evaluation process, design, and implementation. Our approach provides a broad treatment of how to do STEM outreach evaluation, supplementing the relevant literature, where large-N studies and Canadian studies are relatively rare. We acknowledge that some of the most effective practices in STEM outreach evaluation require resources or capacity (e.g. longitudinal approaches), which may be limited for many outreach practitioners, but others seem to have a high ratio of benefit to cost (e.g. adding qualitative questions to an otherwise quantitative survey).",
             "primary_category": "physics.ed-ph",
             "code_url": "null"
+        },
+        "2512.21863": {
+            "title": "Frozen LVLMs for Micro-Video Recommendation: A Systematic Study of Feature Extraction and Fusion",
+            "authors": "Huatuan Sun, Yunshan Ma, Changguang Wu, Yanxin Zhang, Pengfei Wang, Xiaoyu Du",
+            "first_author": "Huatuan Sun",
+            "url": "http://arxiv.org/abs/2512.21863v1",
+            "pdf_url": "http://arxiv.org/abs/2512.21863",
+            "publish_date": "2025-12-26",
+            "abstract": "Frozen Large Video Language Models (LVLMs) are increasingly employed in micro-video recommendation due to their strong multimodal understanding. However, their integration lacks systematic empirical evaluation: practitioners typically deploy LVLMs as fixed black-box feature extractors without systematically comparing alternative representation strategies. To address this gap, we present the first systematic empirical study along two key design dimensions: (i) integration strategies with ID embeddings, specifically replacement versus fusion, and (ii) feature extraction paradigms, comparing LVLM-generated captions with intermediate decoder hidden states. Extensive experiments on representative LVLMs reveal three key principles: (1) intermediate hidden states consistently outperform caption-based representations, as natural-language summarization inevitably discards fine-grained visual semantics crucial for recommendation; (2) ID embeddings capture irreplaceable collaborative signals, rendering fusion strictly superior to replacement; and (3) the effectiveness of intermediate decoder features varies significantly across layers. Guided by these insights, we propose the Dual Feature Fusion (DFF) Framework, a lightweight and plug-and-play approach that adaptively fuses multi-layer representations from frozen LVLMs with item ID embeddings. DFF achieves state-of-the-art performance on two real-world micro-video recommendation benchmarks, consistently outperforming strong baselines and providing a principled approach to integrating off-the-shelf large vision-language models into micro-video recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.21615": {
+            "title": "Embedding Samples Dispatching for Recommendation Model Training in Edge Environments",
+            "authors": "Guopeng Li, Haisheng Tan, Chi Zhang, Hongqiu Ni, Zilong Wang, Xinyue Zhang, Yang Xu, Han Tian",
+            "first_author": "Guopeng Li",
+            "url": "http://arxiv.org/abs/2512.21615v1",
+            "pdf_url": "http://arxiv.org/abs/2512.21615",
+            "publish_date": "2025-12-25",
+            "abstract": "Training deep learning recommendation models (DLRMs) on edge workers brings several benefits, particularly in terms of data privacy protection, low latency and personalization. However, due to the huge size of embedding tables, typical DLRM training frameworks adopt one or more parameter servers to maintain global embedding tables, while leveraging the edge workers cache part of them. This incurs significant transmission cost for embedding transmissions between workers and parameter servers, which can dominate the training cycle. In this paper, we investigate how to dispatch input embedding samples to appropriate edge workers to minimize the total embedding transmission cost when facing edge-specific challenges such as heterogeneous networks and limited resources. We develop ESD, a novel mechanism that optimizes the dispatch of input embedding samples to edge workers based on expected embedding transmission cost. We propose HybridDis as the dispatch decision method within ESD, which combines a resource-intensive optimal algorithm and a heuristic algorithm to balance decision quality and resource consumption. We implement a prototype of ESD and compare it with state-of-the-art mechanisms on real-world workloads. Extensive experimental results show that ESD reduces the embedding transmission cost by up to 36.76% and achieves up to 1.74 times speedup in end-to-end DLRM training.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2512.21595": {
+            "title": "LLM-I2I: Boost Your Small Item2Item Recommendation Model with Large Language Model",
+            "authors": "Yinfu Feng, Yanjing Wu, Rong Xiao, Xiaoyi Zen",
+            "first_author": "Yinfu Feng",
+            "url": "http://arxiv.org/abs/2512.21595v1",
+            "pdf_url": "http://arxiv.org/abs/2512.21595",
+            "publish_date": "2025-12-25",
+            "abstract": "Item-to-Item (I2I) recommendation models are widely used in real-world systems due to their scalability, real-time capabilities, and high recommendation quality. Research to enhance I2I performance focuses on two directions: 1) model-centric approaches, which adopt deeper architectures but risk increased computational costs and deployment complexity, and 2) data-centric methods, which refine training data without altering models, offering cost-effectiveness but struggling with data sparsity and noise. To address these challenges, we propose LLM-I2I, a data-centric framework leveraging Large Language Models (LLMs) to mitigate data quality issues. LLM-I2I includes (1) an LLM-based generator that synthesizes user-item interactions for long-tail items, alleviating data sparsity, and (2) an LLM-based discriminator that filters noisy interactions from real and synthetic data. The refined data is then fused to train I2I models. Evaluated on industry (AEDS) and academic (ARD) datasets, LLM-I2I consistently improves recommendation accuracy, particularly for long-tail items. Deployed on a large-scale cross-border e-commerce platform, it boosts recall number (RN) by 6.02% and gross merchandise value (GMV) by 1.22% over existing I2I models. This work highlights the potential of LLMs in enhancing data-centric recommendation systems without modifying model architectures.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.21543": {
+            "title": "CEMG: Collaborative-Enhanced Multimodal Generative Recommendation",
+            "authors": "Yuzhen Lin, Hongyi Chen, Xuanjing Chen, Shaowen Wang, Ivonne Xu, Dongming Jiang",
+            "first_author": "Yuzhen Lin",
+            "url": "http://arxiv.org/abs/2512.21543v1",
+            "pdf_url": "http://arxiv.org/abs/2512.21543",
+            "publish_date": "2025-12-25",
+            "abstract": "Generative recommendation models often struggle with two key challenges: (1) the superficial integration of collaborative signals, and (2) the decoupled fusion of multimodal features. These limitations hinder the creation of a truly holistic item representation. To overcome this, we propose CEMG, a novel Collaborative-Enhaned Multimodal Generative Recommendation framework. Our approach features a Multimodal Fusion Layer that dynamically integrates visual and textual features under the guidance of collaborative signals. Subsequently, a Unified Modality Tokenization stage employs a Residual Quantization VAE (RQ-VAE) to convert this fused representation into discrete semantic codes. Finally, in the End-to-End Generative Recommendation stage, a large language model is fine-tuned to autoregressively generate these item codes. Extensive experiments demonstrate that CEMG significantly outperforms state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2512.21526": {
+            "title": "Selective LLM-Guided Regularization for Enhancing Recommendation Models",
+            "authors": "Shanglin Yang, Zhan Shi",
+            "first_author": "Shanglin Yang",
+            "url": "http://arxiv.org/abs/2512.21526v1",
+            "pdf_url": "http://arxiv.org/abs/2512.21526",
+            "publish_date": "2025-12-25",
+            "abstract": "Large language models provide rich semantic priors and strong reasoning capabilities, making them promising auxiliary signals for recommendation. However, prevailing approaches either deploy LLMs as standalone recommender or apply global knowledge distillation, both of which suffer from inherent drawbacks. Standalone LLM recommender are costly, biased, and unreliable across large regions of the user item space, while global distillation forces the downstream model to imitate LLM predictions even when such guidance is inaccurate. Meanwhile, recent studies show that LLMs excel particularly in re-ranking and challenging scenarios, rather than uniformly across all contexts.We introduce Selective LLM Guided Regularization, a model-agnostic and computation efficient framework that activates LLM based pairwise ranking supervision only when a trainable gating mechanism informing by user history length, item popularity, and model uncertainty predicts the LLM to be reliable. All LLM scoring is performed offline, transferring knowledge without increasing inference cost. Experiments across multiple datasets show that this selective strategy consistently improves overall accuracy and yields substantial gains in cold start and long tail regimes, outperforming global distillation baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
