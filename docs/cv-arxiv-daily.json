@@ -9030,6 +9030,17 @@
             "abstract": "This research presents a cutting-edge recommendation system utilizing agentic AI for KYC (Know Your Customer in the financial domain), and its evaluation across five distinct content verticals: Advertising (Ad), News, Gossip, Sharing (User-Generated Content), and Technology (Tech). The study compares the performance of four experimental groups, grouping by the intense usage of KYC, benchmarking them against the Normalized Discounted Cumulative Gain (nDCG) metric at truncation levels of $k=1$, $k=3$, and $k=5$. By synthesizing experimental data with theoretical frameworks and industry benchmarks from platforms such as Baidu and Xiaohongshu, this research provides insight by showing experimental results for engineering a large-scale agentic recommendation system.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.00243": {
+            "title": "Context-Aware Pesticide Recommendation via Few-Shot Pest Recognition for Precision Agriculture",
+            "authors": "Anirudha Ghosh, Ritam Sarkar, Debaditya Barman",
+            "first_author": "Anirudha Ghosh",
+            "url": "http://arxiv.org/abs/2601.00243v1",
+            "pdf_url": "http://arxiv.org/abs/2601.00243",
+            "publish_date": "2026-01-01",
+            "abstract": "Effective pest management is crucial for enhancing agricultural productivity, especially for crops such as sugarcane and wheat that are highly vulnerable to pest infestations. Traditional pest management methods depend heavily on manual field inspections and the use of chemical pesticides. These approaches are often costly, time-consuming, labor-intensive, and can have a negative impact on the environment. To overcome these challenges, this study presents a lightweight framework for pest detection and pesticide recommendation, designed for low-resource devices such as smartphones and drones, making it suitable for use by small and marginal farmers.   The proposed framework includes two main components. The first is a Pest Detection Module that uses a compact, lightweight convolutional neural network (CNN) combined with prototypical meta-learning to accurately identify pests even when only a few training samples are available. The second is a Pesticide Recommendation Module that incorporates environmental factors like crop type and growth stage to suggest safe and eco-friendly pesticide recommendations. To train and evaluate our framework, a comprehensive pest image dataset was developed by combining multiple publicly available datasets. The final dataset contains samples with different viewing angles, pest sizes, and background conditions to ensure strong generalization.   Experimental results show that the proposed lightweight CNN achieves high accuracy, comparable to state-of-the-art models, while significantly reducing computational complexity. The Decision Support System additionally improves pest management by reducing dependence on traditional chemical pesticides and encouraging sustainable practices, demonstrating its potential for real-time applications in precision agriculture.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
         }
     }
 }

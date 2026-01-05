@@ -8,6 +8,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-01 | **Context-Aware Pesticide Recommendation via Few-Shot Pest Recognition for Precision Agriculture** | Anirudha Ghosh, Ritam Sarkar, Debaditya Barman | [Link](http://arxiv.org/abs/2601.00243) | Not Available |
 | 2025-12-31 | **HiGR: Efficient Generative Slate Recommendation via Hierarchical Planning and Multi-Objective Preference Alignment** | Yunsheng Pang, Zijian Liu, Yudong Li, Shaojie Zhu, Zijian Luo, Chenyun Yu, Sikai Wu, Shichen Shen, Cong Xu, Bin Wang, Kai Jiang, Hongyong Yu, Chengxiang Zhuo, Zang Li | [Link](http://arxiv.org/abs/2512.24787) | Not Available |
 | 2025-12-31 | **MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation** | Kang Fu, Honglei Zhang, Xuechao Zou, Yidong Li | [Link](http://arxiv.org/abs/2512.24715) | Not Available |
 | 2025-12-30 | **On the Factual Consistency of Text-based Explainable Recommendation Models** | Ben Kabongo, Vincent Guigue | [Link](http://arxiv.org/abs/2512.24366) | Not Available |
