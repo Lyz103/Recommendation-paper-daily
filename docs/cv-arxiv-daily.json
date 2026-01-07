@@ -9096,6 +9096,94 @@
             "abstract": "In modern digital marketing, the growing complexity of advertisement data demands intelligent systems capable of understanding semantic relationships among products, audiences, and advertising content. To address this challenge, this paper proposes a Knowledge Graph and Deep Learning-Based Semantic Recommendation Database System (KGSR-ADS) for advertisement retrieval and personalization. The proposed framework integrates a heterogeneous Ad-Knowledge Graph (Ad-KG) that captures multi-relational semantics, a Semantic Embedding Layer that leverages large language models (LLMs) such as GPT and LLaMA to generate context-aware vector representations, a GNN + Attention Model that infers cross-entity dependencies, and a Database Optimization & Retrieval Layer based on vector indexing (FAISS/Milvus) for efficient semantic search. This layered architecture enables both accurate semantic matching and scalable retrieval, allowing personalized ad recommendations under large-scale heterogeneous workloads.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.03153": {
+            "title": "Parallel Latent Reasoning for Sequential Recommendation",
+            "authors": "Jiakai Tang, Xu Chen, Wen Chen, Jian Wu, Yuning Jiang, Bo Zheng",
+            "first_author": "Jiakai Tang",
+            "url": "http://arxiv.org/abs/2601.03153v1",
+            "pdf_url": "http://arxiv.org/abs/2601.03153",
+            "publish_date": "2026-01-06",
+            "abstract": "Capturing complex user preferences from sparse behavioral sequences remains a fundamental challenge in sequential recommendation. Recent latent reasoning methods have shown promise by extending test-time computation through multi-step reasoning, yet they exclusively rely on depth-level scaling along a single trajectory, suffering from diminishing returns as reasoning depth increases. To address this limitation, we propose \\textbf{Parallel Latent Reasoning (PLR)}, a novel framework that pioneers width-level computational scaling by exploring multiple diverse reasoning trajectories simultaneously. PLR constructs parallel reasoning streams through learnable trigger tokens in continuous latent space, preserves diversity across streams via global reasoning regularization, and adaptively synthesizes multi-stream outputs through mixture-of-reasoning-streams aggregation. Extensive experiments on three real-world datasets demonstrate that PLR substantially outperforms state-of-the-art baselines while maintaining real-time inference efficiency. Theoretical analysis further validates the effectiveness of parallel reasoning in improving generalization capability. Our work opens new avenues for enhancing reasoning capacity in sequential recommendation beyond existing depth scaling.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02955": {
+            "title": "HarmonRank: Ranking-aligned Multi-objective Ensemble for Live-streaming E-commerce Recommendation",
+            "authors": "Boyang Xia, Zhou Yu, Zhiliang Zhu, Hanxiao Sun, Biyun Han, Jun Wang, Runnan Liu, Wenwu Ou",
+            "first_author": "Boyang Xia",
+            "url": "http://arxiv.org/abs/2601.02955v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02955",
+            "publish_date": "2026-01-06",
+            "abstract": "Recommendation for live-streaming e-commerce is gaining increasing attention due to the explosive growth of the live streaming economy. Different from traditional e-commerce, live-streaming e-commerce shifts the focus from products to streamers, which requires ranking mechanism to balance both purchases and user-streamer interactions for long-term ecology. To trade off multiple objectives, a popular solution is to build an ensemble model to integrate multi-objective scores into a unified score. The ensemble model is usually supervised by multiple independent binary classification losses of all objectives. However, this paradigm suffers from two inherent limitations. First, the optimization direction of the binary classification task is misaligned with the ranking task (evaluated by AUC). Second, this paradigm overlooks the alignment between objectives, e.g., comment and buy behaviors are partially dependent which can be revealed in labels correlations. The model can achieve better trade-offs if it learns the aligned parts of ranking abilities among different objectives.   To mitigate these limitations, we propose a novel multi-objective ensemble framework HarmonRank to fulfill both alignment to the ranking task and alignment among objectives. For alignment to ranking, we formulate ranking metric AUC as a rank-sum problem and utilize differentiable ranking techniques for ranking-oriented optimization. For inter-objective alignment, we change the original one-step ensemble paradigm to a two-step relation-aware ensemble scheme.   Extensive offline experiments results on two industrial datasets and online experiments demonstrate that our approach significantly outperforms existing state-of-the-art methods. The proposed method has been fully deployed in Kuaishou's live-streaming e-commerce recommendation platform with 400 million DAUs, contributing over 2% purchase gain.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02386": {
+            "title": "Tree of Preferences for Diversified Recommendation",
+            "authors": "Hanyang Yuan, Ning Tang, Tongya Zheng, Jiarong Xu, Xintong Hu, Renhong Huang, Shunyu Liu, Jiacong Hu, Jiawei Chen, Mingli Song",
+            "first_author": "Hanyang Yuan",
+            "url": "http://arxiv.org/abs/2601.02386v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02386",
+            "publish_date": "2025-12-24",
+            "abstract": "Diversified recommendation has attracted increasing attention from both researchers and practitioners, which can effectively address the homogeneity of recommended items. Existing approaches predominantly aim to infer the diversity of user preferences from observed user feedback. Nonetheless, due to inherent data biases, the observed data may not fully reflect user interests, where underexplored preferences can be overwhelmed or remain unmanifested. Failing to capture these preferences can lead to suboptimal diversity in recommendations. To fill this gap, this work aims to study diversified recommendation from a data-bias perspective. Inspired by the outstanding performance of large language models (LLMs) in zero-shot inference leveraging world knowledge, we propose a novel approach that utilizes LLMs' expertise to uncover underexplored user preferences from observed behavior, ultimately providing diverse and relevant recommendations. To achieve this, we first introduce Tree of Preferences (ToP), an innovative structure constructed to model user preferences from coarse to fine. ToP enables LLMs to systematically reason over the user's rationale behind their behavior, thereby uncovering their underexplored preferences. To guide diversified recommendations using uncovered preferences, we adopt a data-centric approach, identifying candidate items that match user preferences and generating synthetic interactions that reflect underexplored preferences. These interactions are integrated to train a general recommender for diversification. Moreover, we scale up overall efficiency by dynamically selecting influential users during optimization. Extensive evaluations of both diversity and relevance show that our approach outperforms existing methods in most cases and achieves near-optimal performance in others, with reasonable inference latency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02381": {
+            "title": "TAG-HGT: A Scalable and Cost-Effective Framework for Inductive Cold-Start Academic Recommendation",
+            "authors": "Zhexiang Li",
+            "first_author": "Zhexiang Li",
+            "url": "http://arxiv.org/abs/2601.02381v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02381",
+            "publish_date": "2025-12-18",
+            "abstract": "Inductive cold-start recommendation remains the \"Achilles' Heel\" of industrial academic platforms, where thousands of new scholars join daily without historical interaction records. While recent Generative Graph Models (e.g., HiGPT, OFA) demonstrate promising semantic capabilities, their prohibitive inference latency (often exceeding 13 minutes per 1,000 requests) and massive computational costs render them practically undeployable for real-time, million-scale applications. To bridge this gap between generative quality and industrial scalability, we propose TAG-HGT, a cost-effective neuro-symbolic framework. Adopting a decoupled \"Semantics-First, Structure-Refined\" paradigm, TAG-HGT utilizes a frozen Large Language Model (DeepSeek-V3) as an offline semantic factory and distills its knowledge into a lightweight Heterogeneous Graph Transformer (HGT) via Cross-View Contrastive Learning (CVCL). We present a key insight: while LLM semantics provide necessary global recall, structural signals offer the critical local discrimination needed to distinguish valid collaborators from semantically similar but socially unreachable strangers in dense embedding spaces. Validated under a strict Time-Machine Protocol on the massive OpenAlex dataset, TAG-HGT achieves a SOTA System Recall@10 of 91.97%, outperforming structure-only baselines by 20.7%. Most significantly, from an industrial perspective, TAG-HGT reduces inference latency by five orders of magnitude ($4.5 \\times 10^{5}\\times$) compared to generative baselines (from 780s down to 1.73 ms), and slashes inference costs from $\\sim$$1.50 to $<$$0.001 per 1k queries. This 99.9% cost reduction democratizes high-precision academic recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02374": {
+            "title": "A Lay User Explainable Food Recommendation System Based on Hybrid Feature Importance Extraction and Large Language Models",
+            "authors": "Melissa Tessa, Diderot D. Cidjeu, Rachele Carli, Sarah Abchiche, Ahmad Aldarwishd, Igor Tchappi, Amro Najjar",
+            "first_author": "Melissa Tessa",
+            "url": "http://arxiv.org/abs/2601.02374v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02374",
+            "publish_date": "2025-12-10",
+            "abstract": "Large Language Models (LLM) have experienced strong development in recent years, with varied applications. This paper uses LLMs to develop a post-hoc process that provides more elaborated explanations of the results of food recommendation systems. By combining LLM with a hybrid extraction of key variables using SHAP, we obtain dynamic, convincing and more comprehensive explanations to lay user, compared to those in the literature. This approach enhances user trust and transparency by making complex recommendation outcomes easier to understand for a lay user.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02372": {
+            "title": "Improving News Recommendations through Hybrid Sentiment Modelling and Reinforcement Learning",
+            "authors": "Eunice Kingenga, Mike Wa Nkongolo",
+            "first_author": "Eunice Kingenga",
+            "url": "http://arxiv.org/abs/2601.02372v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02372",
+            "publish_date": "2025-12-08",
+            "abstract": "News recommendation systems rely on automated sentiment analysis to personalise content and enhance user engagement. Conventional approaches often struggle with ambiguity, lexicon inconsistencies, and limited contextual understanding, particularly in multi-source news environments. Existing models typically treat sentiment as a secondary feature, reducing their ability to adapt to users' affective preferences. To address these limitations, this study develops an adaptive, sentiment-aware news recommendation framework by integrating hybrid sentiment analysis with reinforcement learning. Using the BBC News dataset, a hybrid sentiment model combines VADER, AFINN, TextBlob, and SentiWordNet scores to generate robust article-level sentiment estimates. Articles are categorised as positive, negative, or neutral, and these sentiment states are embedded within a Q-learning architecture to guide the agent in learning optimal recommendation policies. The proposed system effectively identifies and recommends articles with aligned emotional profiles while continuously improving personalisation through iterative Q-learning updates. The results demonstrate that coupling hybrid sentiment modelling with reinforcement learning provides a feasible, interpretable, and adaptive approach for user-centred news recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02368": {
+            "title": "Distillation-based Scenario-Adaptive Mixture-of-Experts for the Matching Stage of Multi-scenario Recommendation",
+            "authors": "Ruibing Wang, Shuhan Guo, Haotong Du, Quanming Yao",
+            "first_author": "Ruibing Wang",
+            "url": "http://arxiv.org/abs/2601.02368v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02368",
+            "publish_date": "2025-11-28",
+            "abstract": "Multi-scenario recommendation is pivotal for optimizing user experience across diverse contexts. While Multi-gate Mixture-of-Experts (MMOE) thrives in ranking, its transfer to the matching stage is hindered by the blind optimization inherent to independent two-tower architectures and the parameter dominance of head scenarios. To address these structural and distributional bottlenecks, we propose Distillation-based Scenario-Adaptive Mixture-of-Experts (DSMOE). Specially, we devise a Scenario-Adaptive Projection (SAP) module to generate lightweight, context-specific parameters, effectively preventing expert collapse in long-tail scenarios. Concurrently, we introduce a cross-architecture knowledge distillation framework, where an interaction-aware teacher guides the two-tower student to capture complex matching patterns. Extensive experiments on real-world datasets demonstrate DSMOE's superiority, particularly in significantly improving retrieval quality for under-represented, data-sparse scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.02366": {
+            "title": "TextBridgeGNN: Pre-training Graph Neural Network for Cross-Domain Recommendation via Text-Guided Transfer",
+            "authors": "Yiwen Chen, Yiqing Wu, Huishi Luo, Fuzhen Zhuang, Deqing Wang",
+            "first_author": "Yiwen Chen",
+            "url": "http://arxiv.org/abs/2601.02366v1",
+            "pdf_url": "http://arxiv.org/abs/2601.02366",
+            "publish_date": "2025-11-25",
+            "abstract": "Graph-based recommendation has achieved great success in recent years. The classical graph recommendation model utilizes ID embedding to store essential collaborative information. However, this ID-based paradigm faces challenges in transferring to a new domain, making it hard to build a pre-trained graph recommendation model. This phenomenon primarily stems from two inherent challenges: (1) the non-transferability of ID embeddings due to isolated domain-specific ID spaces, and (2) structural incompatibility between heterogeneous interaction graphs across domains.   To address these issues, we propose TextBridgeGNN, a pre-training and fine-tuning framework that can effectively transfer knowledge from a pre-trained GNN to downstream tasks. We believe the key lies in how to build the relationship between domains. Specifically, TextBridgeGNN uses text as a semantic bridge to connect domains through multi-level graph propagation. During the pre-training stage, textual information is utilized to break the data islands formed by multiple domains, and hierarchical GNNs are designed to learn both domain-specific and domain-global knowledge with text features, ensuring the retention of collaborative signals and the enhancement of semantics. During the fine-tuning stage, a similarity transfer mechanism is proposed. This mechanism initializes ID embeddings in the target domain by transferring from semantically related nodes, successfully transferring the ID embeddings and graph pattern.   Experiments demonstrate that TextBridgeGNN outperforms existing methods in cross-domain, multi-domain, and training-free settings, highlighting its ability to integrate Pre-trained Language Model (PLM)-driven semantics with graph-based collaborative filtering without costly language model fine-tuning or real-time inference overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
