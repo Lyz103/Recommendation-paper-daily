@@ -9184,6 +9184,39 @@
             "abstract": "Graph-based recommendation has achieved great success in recent years. The classical graph recommendation model utilizes ID embedding to store essential collaborative information. However, this ID-based paradigm faces challenges in transferring to a new domain, making it hard to build a pre-trained graph recommendation model. This phenomenon primarily stems from two inherent challenges: (1) the non-transferability of ID embeddings due to isolated domain-specific ID spaces, and (2) structural incompatibility between heterogeneous interaction graphs across domains.   To address these issues, we propose TextBridgeGNN, a pre-training and fine-tuning framework that can effectively transfer knowledge from a pre-trained GNN to downstream tasks. We believe the key lies in how to build the relationship between domains. Specifically, TextBridgeGNN uses text as a semantic bridge to connect domains through multi-level graph propagation. During the pre-training stage, textual information is utilized to break the data islands formed by multiple domains, and hierarchical GNNs are designed to learn both domain-specific and domain-global knowledge with text features, ensuring the retention of collaborative signals and the enhancement of semantics. During the fine-tuning stage, a similarity transfer mechanism is proposed. This mechanism initializes ID embeddings in the target domain by transferring from semantically related nodes, successfully transferring the ID embeddings and graph pattern.   Experiments demonstrate that TextBridgeGNN outperforms existing methods in cross-domain, multi-domain, and training-free settings, highlighting its ability to integrate Pre-trained Language Model (PLM)-driven semantics with graph-based collaborative filtering without costly language model fine-tuning or real-time inference overhead.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.04019": {
+            "title": "Modeling Behavioral Patterns in News Recommendations Using Fuzzy Neural Networks",
+            "authors": "Kevin Innerebner, Stephan Bartl, Markus Reiter-Haas, Elisabeth Lex",
+            "first_author": "Kevin Innerebner",
+            "url": "http://arxiv.org/abs/2601.04019v1",
+            "pdf_url": "http://arxiv.org/abs/2601.04019",
+            "publish_date": "2026-01-07",
+            "abstract": "News recommender systems are increasingly driven by black-box models, offering little transparency for editorial decision-making. In this work, we introduce a transparent recommender system that uses fuzzy neural networks to learn human-readable rules from behavioral data for predicting article clicks. By extracting the rules at configurable thresholds, we can control rule complexity and thus, the level of interpretability. We evaluate our approach on two publicly available news datasets (i.e., MIND and EB-NeRD) and show that we can accurately predict click behavior compared to several established baselines, while learning human-readable rules. Furthermore, we show that the learned rules reveal news consumption patterns, enabling editors to align content curation goals with target audience behavior.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2601.03903": {
+            "title": "Unleashing the Potential of Neighbors: Diffusion-based Latent Neighbor Generation for Session-based Recommendation",
+            "authors": "Yuhan Yang, Jie Zou, Guojia An, Jiwei Wei, Yang Yang, Heng Tao Shen",
+            "first_author": "Yuhan Yang",
+            "url": "http://arxiv.org/abs/2601.03903v1",
+            "pdf_url": "http://arxiv.org/abs/2601.03903",
+            "publish_date": "2026-01-07",
+            "abstract": "Session-based recommendation aims to predict the next item that anonymous users may be interested in, based on their current session interactions. Recent studies have demonstrated that retrieving neighbor sessions to augment the current session can effectively alleviate the data sparsity issue and improve recommendation performance. However, existing methods typically rely on explicitly observed session data, neglecting latent neighbors - not directly observed but potentially relevant within the interest space - thereby failing to fully exploit the potential of neighbor sessions in recommendation. To address the above limitation, we propose a novel model of diffusion-based latent neighbor generation for session-based recommendation, named DiffSBR. Specifically, DiffSBR leverages two diffusion modules, including retrieval-augmented diffusion and self-augmented diffusion, to generate high-quality latent neighbors. In the retrieval-augmented diffusion module, we leverage retrieved neighbors as guiding signals to constrain and reconstruct the distribution of latent neighbors. Meanwhile, we adopt a training strategy that enables the retriever to learn from the feedback provided by the generator. In the self-augmented diffusion module, we explicitly guide the generation of latent neighbors by injecting the current session's multi-modal signals through contrastive learning. After obtaining the generated latent neighbors, we utilize them to enhance session representations for improving session-based recommendation. Extensive experiments on four public datasets show that DiffSBR generates effective latent neighbors and improves recommendation performance against state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.03479": {
+            "title": "Efficient Sequential Recommendation for Long Term User Interest Via Personalization",
+            "authors": "Qiang Zhang, Hanchao Yu, Ivan Ji, Chen Yuan, Yi Zhang, Chihuang Liu, Xiaolong Wang, Christopher E. Lambert, Ren Chen, Chen Kovacs, Xinzhu Bei, Renqin Cai, Rui Li, Lizhu Zhang, Xiangjun Fan, Qunshu Zhang, Benyu Zhang",
+            "first_author": "Qiang Zhang",
+            "url": "http://arxiv.org/abs/2601.03479v1",
+            "pdf_url": "http://arxiv.org/abs/2601.03479",
+            "publish_date": "2026-01-07",
+            "abstract": "Recent years have witnessed success of sequential modeling, generative recommender, and large language model for recommendation. Though the scaling law has been validated for sequential models, it showed inefficiency in computational capacity when considering real-world applications like recommendation, due to the non-linear(quadratic) increasing nature of the transformer model. To improve the efficiency of the sequential model, we introduced a novel approach to sequential recommendation that leverages personalization techniques to enhance efficiency and performance. Our method compresses long user interaction histories into learnable tokens, which are then combined with recent interactions to generate recommendations. This approach significantly reduces computational costs while maintaining high recommendation accuracy. Our method could be applied to existing transformer based recommendation models, e.g., HSTU and HLLM. Extensive experiments on multiple sequential models demonstrate its versatility and effectiveness. Source code is available at \\href{https://github.com/facebookresearch/PerSRec}{https://github.com/facebookresearch/PerSRec}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

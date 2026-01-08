@@ -2,12 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026-01-07
+## Updated on 2026-01-08
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-07 | **Modeling Behavioral Patterns in News Recommendations Using Fuzzy Neural Networks** | Kevin Innerebner, Stephan Bartl, Markus Reiter-Haas, Elisabeth Lex | [Link](http://arxiv.org/abs/2601.04019) | Not Available |
+| 2026-01-07 | **Unleashing the Potential of Neighbors: Diffusion-based Latent Neighbor Generation for Session-based Recommendation** | Yuhan Yang, Jie Zou, Guojia An, Jiwei Wei, Yang Yang, Heng Tao Shen | [Link](http://arxiv.org/abs/2601.03903) | Not Available |
+| 2026-01-07 | **Efficient Sequential Recommendation for Long Term User Interest Via Personalization** | Qiang Zhang, Hanchao Yu, Ivan Ji, Chen Yuan, Yi Zhang, Chihuang Liu, Xiaolong Wang, Christopher E. Lambert, Ren Chen, Chen Kovacs, Xinzhu Bei, Renqin Cai, Rui Li, Lizhu Zhang, Xiangjun Fan, Qunshu Zhang, Benyu Zhang | [Link](http://arxiv.org/abs/2601.03479) | Not Available |
 | 2026-01-06 | **Parallel Latent Reasoning for Sequential Recommendation** | Jiakai Tang, Xu Chen, Wen Chen, Jian Wu, Yuning Jiang, Bo Zheng | [Link](http://arxiv.org/abs/2601.03153) | Not Available |
 | 2026-01-06 | **HarmonRank: Ranking-aligned Multi-objective Ensemble for Live-streaming E-commerce Recommendation** | Boyang Xia, Zhou Yu, Zhiliang Zhu, Hanxiao Sun, Biyun Han, Jun Wang, Runnan Liu, Wenwu Ou | [Link](http://arxiv.org/abs/2601.02955) | Not Available |
 | 2025-12-24 | **Tree of Preferences for Diversified Recommendation** | Hanyang Yuan, Ning Tang, Tongya Zheng, Jiarong Xu, Xintong Hu, Renhong Huang, Shunyu Liu, Jiacong Hu, Jiawei Chen, Mingli Song | [Link](http://arxiv.org/abs/2601.02386) | Not Available |
