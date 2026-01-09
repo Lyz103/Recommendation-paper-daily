@@ -8,6 +8,11 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-08 | **Do LLMs Benefit from User and Item Embeddings in Recommendation Tasks?** | Mir Rayat Imtiaz Hossain, Leo Feng, Leonid Sigal, Mohamed Osama Ahmed | [Link](http://arxiv.org/abs/2601.04690) | Not Available |
+| 2026-01-08 | **PROMISE: Process Reward Models Unlock Test-Time Scaling Laws in Generative Recommendations** | Chengcheng Guo, Kuo Cai, Yu Zhou, Qiang Luo, Ruiming Tang, Han Li, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2601.04674) | Not Available |
+| 2026-01-08 | **Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generative Next POI Recommendation** | Dongyi Lv, Qiuyu Ding, Heng-Da Xu, Zhaoxu Sun, Zhi Wang, Feng Xiong, Mu Xu | [Link](http://arxiv.org/abs/2601.04562) | Not Available |
+| 2026-01-07 | **Correct and Weight: A Simple Yet Effective Loss for Implicit Feedback Recommendation** | Minglei Yin, Chuanbo Hu, Bin Liu, Neil Zhenqiang Gong, Yanfang, Ye, Xin Li | [Link](http://arxiv.org/abs/2601.04291) | Not Available |
+| 2026-01-06 | **Paper Skygest: Personalized Academic Recommendations on Bluesky** | Sophie Greenwood, Nikhil Garg | [Link](http://arxiv.org/abs/2601.04253) | Not Available |
 | 2026-01-07 | **Modeling Behavioral Patterns in News Recommendations Using Fuzzy Neural Networks** | Kevin Innerebner, Stephan Bartl, Markus Reiter-Haas, Elisabeth Lex | [Link](http://arxiv.org/abs/2601.04019) | Not Available |
 | 2026-01-07 | **Unleashing the Potential of Neighbors: Diffusion-based Latent Neighbor Generation for Session-based Recommendation** | Yuhan Yang, Jie Zou, Guojia An, Jiwei Wei, Yang Yang, Heng Tao Shen | [Link](http://arxiv.org/abs/2601.03903) | Not Available |
 | 2026-01-07 | **Efficient Sequential Recommendation for Long Term User Interest Via Personalization** | Qiang Zhang, Hanchao Yu, Ivan Ji, Chen Yuan, Yi Zhang, Chihuang Liu, Xiaolong Wang, Christopher E. Lambert, Ren Chen, Chen Kovacs, Xinzhu Bei, Renqin Cai, Rui Li, Lizhu Zhang, Xiangjun Fan, Qunshu Zhang, Benyu Zhang | [Link](http://arxiv.org/abs/2601.03479) | Not Available |
