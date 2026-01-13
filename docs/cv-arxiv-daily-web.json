@@ -9272,6 +9272,94 @@
             "abstract": "We build, deploy, and evaluate Paper Skygest, a custom personalized social feed for scientific content posted by a user's network on Bluesky and the AT Protocol. We leverage a new capability on emerging decentralized social media platforms: the ability for anyone to build and deploy feeds for other users, to use just as they would a native platform-built feed. To our knowledge, Paper Skygest is the first and largest such continuously deployed personalized social media feed by academics, with over 50,000 weekly uses by over 1,000 daily active users, all organically acquired. First, we quantitatively and qualitatively evaluate Paper Skygest usage, showing that it has sustained usage and satisfies users; we further show adoption of Paper Skygest increases a user's interactions with posts about research, and how interaction rates change as a function of post order. Second, we share our full code and describe our system architecture, to support other academics in building and deploying such feeds sustainably. Third, we overview the potential of custom feeds such as Paper Skygest for studying algorithm designs, building for user agency, and running recommender system experiments with organic users without partnering with a centralized platform.",
             "primary_category": "cs.SI",
             "code_url": "null"
+        },
+        "2601.07605": {
+            "title": "Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility",
+            "authors": "R. S. Weigel, A. Y. Shih, R. Ringuette, I. Christopher, S. M. Petrinec, S. Turner, R. M. Candey, G. K. Stephens, B. Cecconi",
+            "first_author": "R. S. Weigel",
+            "url": "http://arxiv.org/abs/2601.07605v1",
+            "pdf_url": "http://arxiv.org/abs/2601.07605",
+            "publish_date": "2026-01-12",
+            "abstract": "In space physics, acronyms for coordinate systems (e.g., \\texttt{GEI}, \\texttt{GSM}) are commonly used; however, differences in their definitions and implementations can prevent reproducibility. In this work, we compare definitions in online resources, software packages, and frequently cited journal articles and show that implementation differences can lead to transformations between same-named coordinate systems and ephemerides values from different data providers to differ significantly. Based on these comparisons and results, and to enable reproducibility, we recommend that (a) a standard for acronyms and definitions for coordinate systems is developed; (b) a standards body develops a citable database of reference data needed for these transforms; (c) a central authority maintains the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events) kernels used by space physics spacecraft missions to generate data products in different coordinate systems; and (d) software developers provide explicit comparisons of their implementations with the results of (b) and documentation on implementation choices. Additionally, we provide recommendations for scientists and metadata developers to ensure that sufficient information is provided to enable reproducibility if these recommendations are not implemented.",
+            "primary_category": "physics.space-ph",
+            "code_url": "null"
+        },
+        "2601.07401": {
+            "title": "Recommendation-as-Experience: A framework for context-sensitive adaptation in conversational recommender systems",
+            "authors": "Raj Mahmud, Shlomo Berkovsky, Mukesh Prasad, A. Baki Kocaballi",
+            "first_author": "Raj Mahmud",
+            "url": "http://arxiv.org/abs/2601.07401v1",
+            "pdf_url": "http://arxiv.org/abs/2601.07401",
+            "publish_date": "2026-01-12",
+            "abstract": "While Conversational Recommender Systems (CRS) have matured technically, they frequently lack principled methods for encoding latent experiential aims as adaptive state variables. Consequently, contemporary architectures often prioritise ranking accuracy at the expense of nuanced, context-sensitive interaction behaviours. This paper addresses this gap through a comprehensive multi-domain study ($N = 168$) that quantifies the joint prioritisation of three critical interaction aims: educative (to inform and justify), explorative (to diversify and inspire), and affective (to align emotionally and socially). Utilising Bayesian hierarchical ordinal regression, we establish domain profiles and perceived item value as systematic modulators of these priorities. Furthermore, we identify stable user-level preferences for autonomy that persist across distinct interactional goals, suggesting that agency is a fundamental requirement of the conversational experience. Drawing on these empirical foundations, we formalise the Recommendation-as-Experience (RAE) adaptation framework. RAE systematically encodes contextual and individual signals into structured state representations, mapping them to experience-aligned dialogue policies realised through retrieval diversification, heuristic logic, or Large Language Model based controllable generation. As an architecture-agnostic blueprint, RAE facilitates the design of context-sensitive CRS that effectively balance experiential quality with predictive performance.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2601.07294": {
+            "title": "Towards Multi-Behavior Multi-Task Recommendation via Behavior-informed Graph Embedding Learning",
+            "authors": "Wenhao Lai, Weike Pan, Zhong Ming",
+            "first_author": "Wenhao Lai",
+            "url": "http://arxiv.org/abs/2601.07294v1",
+            "pdf_url": "http://arxiv.org/abs/2601.07294",
+            "publish_date": "2026-01-12",
+            "abstract": "Multi-behavior recommendation (MBR) aims to improve the performance w.r.t. the target behavior (i.e., purchase) by leveraging auxiliary behaviors (e.g., click, favourite). However, in real-world scenarios, a recommendation method often needs to process different types of behaviors and generate personalized lists for each task (i.e., each behavior type). Such a new recommendation problem is referred to as multi-behavior multi-task recommendation (MMR). So far, the most powerful MBR methods usually model multi-behavior interactions using a cascading graph paradigm. Although significant progress has been made in optimizing the performance of the target behavior, it often neglects the performance of auxiliary behaviors. To compensate for the deficiencies of the cascading paradigm, we propose a novel solution for MMR, i.e., behavior-informed graph embedding learning (BiGEL). Specifically, we first obtain a set of behavior-aware embeddings by using a cascading graph paradigm. Subsequently, we introduce three key modules to improve the performance of the model. The cascading gated feedback (CGF) module enables a feedback-driven optimization process by integrating feedback from the target behavior to refine the auxiliary behaviors preferences. The global context enhancement (GCE) module integrates the global context to maintain the user's overall preferences, preventing the loss of key preferences due to individual behavior graph modeling. Finally, the contrastive preference alignment (CPA) module addresses the potential changes in user preferences during the cascading process by aligning the preferences of the target behaviors with the global preferences through contrastive learning. Extensive experiments on two real-world datasets demonstrate the effectiveness of our BiGEL compared with ten very competitive methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.06798": {
+            "title": "Unleashing the Native Recommendation Potential: LLM-Based Generative Recommendation via Structured Term Identifiers",
+            "authors": "Zhiyang Zhang, Junda She, Kuo Cai, Bo Chen, Shiyao Wang, Xinchen Luo, Qiang Luo, Ruiming Tang, Han Li, Kun Gai, Guorui Zhou",
+            "first_author": "Zhiyang Zhang",
+            "url": "http://arxiv.org/abs/2601.06798v1",
+            "pdf_url": "http://arxiv.org/abs/2601.06798",
+            "publish_date": "2026-01-11",
+            "abstract": "Leveraging the vast open-world knowledge and understanding capabilities of Large Language Models (LLMs) to develop general-purpose, semantically-aware recommender systems has emerged as a pivotal research direction in generative recommendation. However, existing methods face bottlenecks in constructing item identifiers. Text-based methods introduce LLMs' vast output space, leading to hallucination, while methods based on Semantic IDs (SIDs) encounter a semantic gap between SIDs and LLMs' native vocabulary, requiring costly vocabulary expansion and alignment training. To address this, this paper introduces Term IDs (TIDs), defined as a set of semantically rich and standardized textual keywords, to serve as robust item identifiers. We propose GRLM, a novel framework centered on TIDs, employs Context-aware Term Generation to convert item's metadata into standardized TIDs and utilizes Integrative Instruction Fine-tuning to collaboratively optimize term internalization and sequential recommendation. Additionally, Elastic Identifier Grounding is designed for robust item mapping. Extensive experiments on real-world datasets demonstrate that GRLM significantly outperforms baselines across multiple scenarios, pointing a promising direction for generalizable and high-performance generative recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.06706": {
+            "title": "Resource-Aware Task Allocator Design: Insights and Recommendations for Distributed Satellite Constellations",
+            "authors": "Bharadwaj Veeravalli",
+            "first_author": "Bharadwaj Veeravalli",
+            "url": "http://arxiv.org/abs/2601.06706v1",
+            "pdf_url": "http://arxiv.org/abs/2601.06706",
+            "publish_date": "2026-01-10",
+            "abstract": "We present the design of a Resource-Aware Task Allocator (RATA) and an empirical analysis in handling real-time tasks for processing on Distributed Satellite Systems (DSS). We consider task processing performance across low Earth orbit (LEO) to Low-Medium Earth Orbit (Low-MEO) constellation sizes, under varying traffic loads. Using Single-Level Tree Network(SLTN)-based cooperative task allocation architecture, we attempt to evaluate some key performance metrics - blocking probabilities, response times, energy consumption, and resource utilization across several tens of thousands of tasks per experiment. Our resource-conscious RATA monitors key parameters such as arrival rate, resources (on-board compute, storage, bandwidth, battery) availability, satellite eclipses' influence in processing and communications. This study is an important step towards analyzing the performance under lighter to stress inducing levels of compute intense workloads to test the ultimate performance limits under the combined influence of the above-mentioned factors. Results show pronounced non-linear scaling: while capacity increases with constellation size, blocking and delay grow rapidly, whereas energy remains resilient under solar-aware scheduling. The analysis identifies a practical satellite-count limit for baseline SLTNs and demonstrates that CPU availability, rather than energy, is the primary cause of blocking. These findings provide quantitative guidance by identifying thresholds at which system performance shifts from graceful degradation to collapse.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2601.06703": {
+            "title": "Mapping and Comparing Climate Equity Policy Practices Using RAG LLM-Based Semantic Analysis and Recommendation Systems",
+            "authors": "Seung Jun Choi",
+            "first_author": "Seung Jun Choi",
+            "url": "http://arxiv.org/abs/2601.06703v1",
+            "pdf_url": "http://arxiv.org/abs/2601.06703",
+            "publish_date": "2026-01-10",
+            "abstract": "This study investigates the use of large language models to enhance the policymaking process. We first analyze planning-related job postings to revisit the evolving roles of planners in the era of AI. We then examine climate equity plans across the U.S. and apply ChatGPT to conduct semantic analysis, extracting policy, strategy, and action items related to transportation and energy. The methodological framework relied on a LangChain-native retrieval-augmented generation pipeline. Based on these extracted elements and their evaluated presence, we develop a content-based recommendation system to support cross-city policy comparison. The results indicate that, despite growing attention to AI, planning jobs largely retain their traditional domain emphases in transportation, environmental planning, housing, and land use. Communicative responsibilities remain central to planning practice. Climate equity plans commonly address transportation, environmental, and energy-related measures aimed at reducing greenhouse gas emissions and predominantly employ affirmative language. The demonstration of the recommendation system illustrates how planners can efficiently identify cities with similar policy practices, revealing patterns of geographic similarity in policy adoption. The study concludes by envisioning localized yet personalized AI-assisted systems that can be adapted within urban systems.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2601.06607": {
+            "title": "Pragya: An AI-Based Semantic Recommendation System for Sanskrit Subhasitas",
+            "authors": "Tanisha Raorane, Prasenjit Kole",
+            "first_author": "Tanisha Raorane",
+            "url": "http://arxiv.org/abs/2601.06607v1",
+            "pdf_url": "http://arxiv.org/abs/2601.06607",
+            "publish_date": "2026-01-10",
+            "abstract": "Sanskrit Subhasitas encapsulate centuries of cultural and philosophical wisdom, yet remain underutilized in the digital age due to linguistic and contextual barriers. In this work, we present Pragya, a retrieval-augmented generation (RAG) framework for semantic recommendation of Subhasitas. We curate a dataset of 200 verses annotated with thematic tags such as motivation, friendship, and compassion. Using sentence embeddings (IndicBERT), the system retrieves top-k verses relevant to user queries. The retrieved results are then passed to a generative model (Mistral LLM) to produce transliterations, translations, and contextual explanations. Experimental evaluation demonstrates that semantic retrieval significantly outperforms keyword matching in precision and relevance, while user studies highlight improved accessibility through generated summaries. To our knowledge, this is the first attempt at integrating retrieval and generation for Sanskrit Subhasitas, bridging cultural heritage with modern applied AI.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2601.06458": {
+            "title": "PixRec: Leveraging Visual Context for Next-Item Prediction in Sequential Recommendation",
+            "authors": "Sayak Chakrabarty, Souradip Pal",
+            "first_author": "Sayak Chakrabarty",
+            "url": "http://arxiv.org/abs/2601.06458v1",
+            "pdf_url": "http://arxiv.org/abs/2601.06458",
+            "publish_date": "2026-01-10",
+            "abstract": "Large Language Models (LLMs) have recently shown strong potential for usage in sequential recommendation tasks through text-only models, which combine advanced prompt design, contrastive alignment, and fine-tuning on downstream domain-specific data. While effective, these approaches overlook the rich visual information present in many real-world recommendation scenarios, particularly in e-commerce. This paper proposes PixRec - a vision-language framework that incorporates both textual attributes and product images into the recommendation pipeline. Our architecture leverages a vision-language model backbone capable of jointly processing image-text sequences, maintaining a dual-tower structure and mixed training objective while aligning multi-modal feature projections for both item-item and user-item interactions. Using the Amazon Reviews dataset augmented with product images, our experiments demonstrate $3\\times$ and 40% improvements in top-rank and top-10 rank accuracy over text-only recommenders respectively, indicating that visual features can help distinguish items with similar textual descriptions. Our work outlines future directions for scaling multi-modal recommenders training, enhancing visual-text feature fusion, and evaluating inference-time performance. This work takes a step toward building software systems utilizing visual information in sequential recommendation for real-world applications like e-commerce.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

@@ -8,6 +8,14 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-12 | **Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility** | R. S. Weigel, A. Y. Shih, R. Ringuette, I. Christopher, S. M. Petrinec, S. Turner, R. M. Candey, G. K. Stephens, B. Cecconi | [Link](http://arxiv.org/abs/2601.07605) | Not Available |
+| 2026-01-12 | **Recommendation-as-Experience: A framework for context-sensitive adaptation in conversational recommender systems** | Raj Mahmud, Shlomo Berkovsky, Mukesh Prasad, A. Baki Kocaballi | [Link](http://arxiv.org/abs/2601.07401) | Not Available |
+| 2026-01-12 | **Towards Multi-Behavior Multi-Task Recommendation via Behavior-informed Graph Embedding Learning** | Wenhao Lai, Weike Pan, Zhong Ming | [Link](http://arxiv.org/abs/2601.07294) | Not Available |
+| 2026-01-11 | **Unleashing the Native Recommendation Potential: LLM-Based Generative Recommendation via Structured Term Identifiers** | Zhiyang Zhang, Junda She, Kuo Cai, Bo Chen, Shiyao Wang, Xinchen Luo, Qiang Luo, Ruiming Tang, Han Li, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2601.06798) | Not Available |
+| 2026-01-10 | **Resource-Aware Task Allocator Design: Insights and Recommendations for Distributed Satellite Constellations** | Bharadwaj Veeravalli | [Link](http://arxiv.org/abs/2601.06706) | Not Available |
+| 2026-01-10 | **Mapping and Comparing Climate Equity Policy Practices Using RAG LLM-Based Semantic Analysis and Recommendation Systems** | Seung Jun Choi | [Link](http://arxiv.org/abs/2601.06703) | Not Available |
+| 2026-01-10 | **Pragya: An AI-Based Semantic Recommendation System for Sanskrit Subhasitas** | Tanisha Raorane, Prasenjit Kole | [Link](http://arxiv.org/abs/2601.06607) | Not Available |
+| 2026-01-10 | **PixRec: Leveraging Visual Context for Next-Item Prediction in Sequential Recommendation** | Sayak Chakrabarty, Souradip Pal | [Link](http://arxiv.org/abs/2601.06458) | Not Available |
 | 2026-01-08 | **Do LLMs Benefit from User and Item Embeddings in Recommendation Tasks?** | Mir Rayat Imtiaz Hossain, Leo Feng, Leonid Sigal, Mohamed Osama Ahmed | [Link](http://arxiv.org/abs/2601.04690) | Not Available |
 | 2026-01-08 | **PROMISE: Process Reward Models Unlock Test-Time Scaling Laws in Generative Recommendations** | Chengcheng Guo, Kuo Cai, Yu Zhou, Qiang Luo, Ruiming Tang, Han Li, Kun Gai, Guorui Zhou | [Link](http://arxiv.org/abs/2601.04674) | Not Available |
 | 2026-01-08 | **Reasoning Over Space: Enabling Geographic Reasoning for LLM-Based Generative Next POI Recommendation** | Dongyi Lv, Qiuyu Ding, Heng-Da Xu, Zhaoxu Sun, Zhi Wang, Feng Xiong, Mu Xu | [Link](http://arxiv.org/abs/2601.04562) | Not Available |
