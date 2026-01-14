@@ -9360,6 +9360,72 @@
             "abstract": "Large Language Models (LLMs) have recently shown strong potential for usage in sequential recommendation tasks through text-only models, which combine advanced prompt design, contrastive alignment, and fine-tuning on downstream domain-specific data. While effective, these approaches overlook the rich visual information present in many real-world recommendation scenarios, particularly in e-commerce. This paper proposes PixRec - a vision-language framework that incorporates both textual attributes and product images into the recommendation pipeline. Our architecture leverages a vision-language model backbone capable of jointly processing image-text sequences, maintaining a dual-tower structure and mixed training objective while aligning multi-modal feature projections for both item-item and user-item interactions. Using the Amazon Reviews dataset augmented with product images, our experiments demonstrate $3\\times$ and 40% improvements in top-rank and top-10 rank accuracy over text-only recommenders respectively, indicating that visual features can help distinguish items with similar textual descriptions. Our work outlines future directions for scaling multi-modal recommenders training, enhancing visual-text feature fusion, and evaluating inference-time performance. This work takes a step toward building software systems utilizing visual information in sequential recommendation for real-world applications like e-commerce.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.08764": {
+            "title": "FusID: Modality-Fused Semantic IDs for Generative Music Recommendation",
+            "authors": "Haven Kim, Yupeng Hou, Julian McAuley",
+            "first_author": "Haven Kim",
+            "url": "http://arxiv.org/abs/2601.08764v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08764",
+            "publish_date": "2026-01-13",
+            "abstract": "Generative recommendation systems have achieved significant advances by leveraging semantic IDs to represent items. However, existing approaches that tokenize each modality independently face two critical limitations: (1) redundancy across modalities that reduces efficiency, and (2) failure to capture inter-modal interactions that limits item representation. We introduce FusID, a modality-fused semantic ID framework that addresses these limitations through three key components: (i) multimodal fusion that learns unified representations by jointly encoding information across modalities, (ii) representation learning that brings frequently co-occurring item embeddings closer while maintaining distinctiveness and preventing feature redundancy, and (iii) product quantization that converts the fused continuous embeddings into multiple discrete tokens to mitigate ID conflict. Evaluated on a multimodal next-song recommendation (i.e., playlist continuation) benchmark, FusID achieves zero ID conflicts, ensuring that each token sequence maps to exactly one song, mitigates codebook underutilization, and outperforms baselines in terms of MRR and Recall@k (k = 1, 5, 10, 20).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.08705": {
+            "title": "RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors",
+            "authors": "Miaomiao Cai, Zhijie Zhang, Junfeng Fang, Zhiyong Cheng, Xiang Wang, Meng Wang",
+            "first_author": "Miaomiao Cai",
+            "url": "http://arxiv.org/abs/2601.08705v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08705",
+            "publish_date": "2026-01-13",
+            "abstract": "Multi-behavior recommendation faces a critical challenge in practice: auxiliary behaviors (e.g., clicks, carts) are often noisy, weakly correlated, or semantically misaligned with the target behavior (e.g., purchase), which leads to biased preference learning and suboptimal performance. While existing methods attempt to fuse these heterogeneous signals, they inherently lack a principled mechanism to ensure robustness against such behavioral inconsistency.   In this work, we propose Robust Multi-Behavior Recommendation towards Target Behaviors (RMBRec), a robust multi-behavior recommendation framework grounded in an information-theoretic robustness principle. We interpret robustness as a joint process of maximizing predictive information while minimizing its variance across heterogeneous behavioral environments. Under this perspective, the Representation Robustness Module (RRM) enhances local semantic consistency by maximizing the mutual information between users' auxiliary and target representations, whereas the Optimization Robustness Module (ORM) enforces global stability by minimizing the variance of predictive risks across behaviors, which is an efficient approximation to invariant risk minimization. This local-global collaboration bridges representation purification and optimization invariance in a theoretically coherent way. Extensive experiments on three real-world datasets demonstrate that RMBRec not only outperforms state-of-the-art methods in accuracy but also maintains remarkable stability under various noise perturbations. For reproducibility, our code is available at https://github.com/miaomiao-cai2/RMBRec/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.08578": {
+            "title": "Quantum Computing -- Strategic Recommendations for the Industry",
+            "authors": "Marvin Erdmann, Lukas Karch, Abhishek Awasthi, Caitlin Isobel Jones, Pallavi Bhardwaj, Florian Krellner, Jonas Stein, Claudia Linnhoff-Popien, Nico Kraus, Peter Eder, Sarah Braun, Tong Liu",
+            "first_author": "Marvin Erdmann",
+            "url": "http://arxiv.org/abs/2601.08578v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08578",
+            "publish_date": "2026-01-13",
+            "abstract": "This whitepaper surveys the current landscape and short- to mid-term prospects for quantum-enabled optimization and machine learning use cases in industrial settings. Grounded in the QCHALLenge program, it synthesizes hardware trajectories from different quantum architectures and providers, and assesses their maturity and potential for real-world use cases under a standardized traffic-light evaluation framework. We provide a concise summary of relevant hardware roadmaps, distinguishing superconducting and ion-trap technologies, their current states, modalities, and projected scaling trajectories. The core of the presented work are the use case evaluations in the domains of optimization problems and machine learning applications. For the conducted experiments, we apply a consistent set of evaluation criteria (model formulation, scalability, solution quality, runtime, and transferability) which are assessed in a shared system of three categories, ranging from optimistic (solutions produced by quantum computers are competitive with classical methods and/or a clear path to a quantum advantage is shown) to pessimistic (significant hurdles prevent practical application of quantum solutions now and potentially in the future). The resulting verdicts illuminate where quantum approaches currently offer promise, where hybrid classical-quantum strategies are most viable, and where classical methods are expected to remain superior.",
+            "primary_category": "quant-ph",
+            "code_url": "null"
+        },
+        "2601.08497": {
+            "title": "GraphFusionSBR: Denoising Multi-Channel Graphs for Session-Based Recommendation",
+            "authors": "Jia-Xin He, Hung-Hsuan Chen",
+            "first_author": "Jia-Xin He",
+            "url": "http://arxiv.org/abs/2601.08497v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08497",
+            "publish_date": "2026-01-13",
+            "abstract": "Session-based recommendation systems must capture implicit user intents from sessions. However, existing models suffer from issues such as item interaction dominance and noisy sessions. We propose a multi-channel recommendation model, including a knowledge graph channel, a session hypergraph channel, and a session line graph channel, to capture information from multiple sources. Our model adaptively removes redundant edges in the knowledge graph channel to reduce noise. Knowledge graph representations cooperate with hypergraph representations for prediction to alleviate item dominance. We also generate in-session attention for denoising. Finally, we maximize mutual information between the hypergraph and line graph channels as an auxiliary task. Experiments demonstrate that our method enhances the accuracy of various recommendations, including e-commerce and multimedia recommendations. We release the code on GitHub for reproducibility.\\footnote{https://github.com/hohehohe0509/DSR-HK}",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.08360": {
+            "title": "Scalable Sequential Recommendation under Latency and Memory Constraints",
+            "authors": "Adithya Parthasarathy, Aswathnarayan Muthukrishnan Kirubakaran, Vinoth Punniyamoorthy, Nachiappan Chockalingam, Lokesh Butra, Kabilan Kannan, Abhirup Mazumder, Sumit Saha",
+            "first_author": "Adithya Parthasarathy",
+            "url": "http://arxiv.org/abs/2601.08360v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08360",
+            "publish_date": "2026-01-13",
+            "abstract": "Sequential recommender systems must model long-range user behavior while operating under strict memory and latency constraints. Transformer-based approaches achieve strong accuracy but suffer from quadratic attention complexity, forcing aggressive truncation of user histories and limiting their practicality for long-horizon modeling. This paper presents HoloMambaRec, a lightweight sequential recommendation architecture that combines holographic reduced representations for attribute-aware embedding with a selective state space encoder for linear-time sequence processing. Item and attribute information are bound using circular convolution, preserving embedding dimensionality while encoding structured metadata. A shallow selective state space backbone, inspired by recent Mamba-style models, enables efficient training and constant-time recurrent inference. Experiments on Amazon Beauty and MovieLens-1M datasets demonstrate that HoloMambaRec consistently outperforms SASRec and achieves competitive performance with GRU4Rec under a constrained 10-epoch training budget, while maintaining substantially lower memory complexity. The design further incorporates forward-compatible mechanisms for temporal bundling and inference-time compression, positioning HoloMambaRec as a practical and extensible alternative for scalable, metadata-aware sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.08275": {
+            "title": "Markovian Pre-Trained Transformer for Next-Item Recommendation",
+            "authors": "Cong Xu, Guoliang Li, Jun Wang, Wei Zhang",
+            "first_author": "Cong Xu",
+            "url": "http://arxiv.org/abs/2601.08275v1",
+            "pdf_url": "http://arxiv.org/abs/2601.08275",
+            "publish_date": "2026-01-13",
+            "abstract": "We introduce the Markovian Pre-trained Transformer (MPT) for next-item recommendation, a transferable model fully pre-trained on synthetic Markov chains, yet capable of achieving state-of-the-art performance by fine-tuning a lightweight adaptor. This counterintuitive success stems from the observation of the `Markovian' nature: advanced sequential recommenders coincidentally rely on the latest interaction to make predictions, while the historical interactions serve mainly as auxiliary cues for inferring the user's general, non-sequential identity. This characteristic necessitates the capabilities of a universal recommendation model to effectively summarize the user sequence, with particular emphasis on the latest interaction. MPT inherently has the potential to be universal and transferable. On the one hand, when trained to predict the next state of Markov chains, it acquires the capabilities to estimate transition probabilities from the context (one adaptive manner for summarizing sequences) and attend to the last state to ensure accurate state transitions. On the other hand, unlike the heterogeneous interaction data, an unlimited amount of controllable Markov chains is available to boost the model capacity. We conduct extensive experiments on five public datasets from three distinct platforms to validate the superiority of Markovian pre-training over traditional recommendation pre-training and recent language pre-training paradigms.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

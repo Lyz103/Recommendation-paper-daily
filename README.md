@@ -11,6 +11,12 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-13 | **FusID: Modality-Fused Semantic IDs for Generative Music Recommendation** | Haven Kim, Yupeng Hou, Julian McAuley | [Link](http://arxiv.org/abs/2601.08764) | Not Available |
+| 2026-01-13 | **RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors** | Miaomiao Cai, Zhijie Zhang, Junfeng Fang, Zhiyong Cheng, Xiang Wang, Meng Wang | [Link](http://arxiv.org/abs/2601.08705) | Not Available |
+| 2026-01-13 | **Quantum Computing -- Strategic Recommendations for the Industry** | Marvin Erdmann, Lukas Karch, Abhishek Awasthi, Caitlin Isobel Jones, Pallavi Bhardwaj, Florian Krellner, Jonas Stein, Claudia Linnhoff-Popien, Nico Kraus, Peter Eder, Sarah Braun, Tong Liu | [Link](http://arxiv.org/abs/2601.08578) | Not Available |
+| 2026-01-13 | **GraphFusionSBR: Denoising Multi-Channel Graphs for Session-Based Recommendation** | Jia-Xin He, Hung-Hsuan Chen | [Link](http://arxiv.org/abs/2601.08497) | Not Available |
+| 2026-01-13 | **Scalable Sequential Recommendation under Latency and Memory Constraints** | Adithya Parthasarathy, Aswathnarayan Muthukrishnan Kirubakaran, Vinoth Punniyamoorthy, Nachiappan Chockalingam, Lokesh Butra, Kabilan Kannan, Abhirup Mazumder, Sumit Saha | [Link](http://arxiv.org/abs/2601.08360) | Not Available |
+| 2026-01-13 | **Markovian Pre-Trained Transformer for Next-Item Recommendation** | Cong Xu, Guoliang Li, Jun Wang, Wei Zhang | [Link](http://arxiv.org/abs/2601.08275) | Not Available |
 | 2026-01-12 | **Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility** | R. S. Weigel, A. Y. Shih, R. Ringuette, I. Christopher, S. M. Petrinec, S. Turner, R. M. Candey, G. K. Stephens, B. Cecconi | [Link](http://arxiv.org/abs/2601.07605) | Not Available |
 | 2026-01-12 | **Recommendation-as-Experience: A framework for context-sensitive adaptation in conversational recommender systems** | Raj Mahmud, Shlomo Berkovsky, Mukesh Prasad, A. Baki Kocaballi | [Link](http://arxiv.org/abs/2601.07401) | Not Available |
 | 2026-01-12 | **Towards Multi-Behavior Multi-Task Recommendation via Behavior-informed Graph Embedding Learning** | Wenhao Lai, Weike Pan, Zhong Ming | [Link](http://arxiv.org/abs/2601.07294) | Not Available |
