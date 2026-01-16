@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-15 | **PADER: Paillier-based Secure Decentralized Social Recommendation** | Chaochao Chen, Jiaming Qian, Fei Zheng, Yachuan Liu | [Link](http://arxiv.org/abs/2601.10212) | Not Available |
+| 2026-01-15 | **Efficient Content-based Recommendation Model Training via Noise-aware Coreset Selection** | Hung Vinh Tran, Tong Chen, Hechuan Wen, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin | [Link](http://arxiv.org/abs/2601.10067) | Not Available |
+| 2026-01-15 | **SoK: Privacy-aware LLM in Healthcare: Threat Model, Privacy Techniques, Challenges and Recommendations** | Mohoshin Ara Tahera, Karamveer Singh Sidhu, Shuvalaxmi Dass, Sajal Saha | [Link](http://arxiv.org/abs/2601.10004) | Not Available |
+| 2026-01-14 | **PCN-Rec: Agentic Proof-Carrying Negotiation for Reliable Governance-Constrained Recommendation** | Aradhya Dixit, Shreem Dixit | [Link](http://arxiv.org/abs/2601.09771) | Not Available |
 | 2026-01-14 | **Unifying Search and Recommendation in LLMs via Gradient Multi-Subspace Tuning** | Jujia Zhao, Zihan Wang, Shuaiqun Pan, Suzan Verberne, Zhaochun Ren | [Link](http://arxiv.org/abs/2601.09496) | Not Available |
 | 2026-01-14 | **On-Device Large Language Models for Sequential Recommendation** | Xin Xia, Hongzhi Yin, Shane Culpepper | [Link](http://arxiv.org/abs/2601.09306) | Not Available |
 | 2026-01-13 | **FusID: Modality-Fused Semantic IDs for Generative Music Recommendation** | Haven Kim, Yupeng Hou, Julian McAuley | [Link](http://arxiv.org/abs/2601.08764) | Not Available |
