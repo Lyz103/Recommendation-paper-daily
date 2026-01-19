@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-16 | **Isotropy-Optimized Contrastive Learning for Semantic Course Recommendation** | Ali Khreis, Anthony Nasr, Yusuf Hilal | [Link](http://arxiv.org/abs/2601.11427) | Not Available |
+| 2026-01-16 | **Cross-Modal Attention Network with Dual Graph Learning in Multimodal Recommendation** | Ji Dai, Quan Fang, Jun Hu, Desheng Cai, Yang Yang, Can Zhao | [Link](http://arxiv.org/abs/2601.11151) | Not Available |
+| 2026-01-16 | **PRISM: Personalized Recommendation via Information Synergy Module** | Xinyi Zhang, Yutong Li, Peijie Sun, Letian Sha, Zhongxuan Han | [Link](http://arxiv.org/abs/2601.10944) | Not Available |
+| 2026-01-16 | **Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation** | Yizhou Dang, Zhifu Wei, Minhan Huang, Lianbo Ma, Jianzhe Zhao, Guibing Guo, Xingwei Wang | [Link](http://arxiv.org/abs/2601.10933) | Not Available |
+| 2026-01-15 | **EncodeRec: An Embedding Backbone for Recommendation Systems** | Guy Hadad, Neomi Rabaev, Bracha Shapira | [Link](http://arxiv.org/abs/2601.10837) | Not Available |
 | 2026-01-15 | **PADER: Paillier-based Secure Decentralized Social Recommendation** | Chaochao Chen, Jiaming Qian, Fei Zheng, Yachuan Liu | [Link](http://arxiv.org/abs/2601.10212) | Not Available |
 | 2026-01-15 | **Efficient Content-based Recommendation Model Training via Noise-aware Coreset Selection** | Hung Vinh Tran, Tong Chen, Hechuan Wen, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin | [Link](http://arxiv.org/abs/2601.10067) | Not Available |
 | 2026-01-15 | **SoK: Privacy-aware LLM in Healthcare: Threat Model, Privacy Techniques, Challenges and Recommendations** | Mohoshin Ara Tahera, Karamveer Singh Sidhu, Shuvalaxmi Dass, Sajal Saha | [Link](http://arxiv.org/abs/2601.10004) | Not Available |

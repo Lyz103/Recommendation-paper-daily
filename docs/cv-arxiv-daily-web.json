@@ -9492,6 +9492,61 @@
             "abstract": "Modern LLM-based recommenders can generate compelling ranked lists, but they struggle to reliably satisfy governance constraints such as minimum long-tail exposure or diversity requirements. We present PCN-Rec, a proof-carrying negotiation pipeline that separates natural-language reasoning from deterministic enforcement. A base recommender (MF/CF) produces a candidate window of size W, which is negotiated by two agents: a User Advocate optimizing relevance and a Policy Agent enforcing constraints. A mediator LLM synthesizes a top-N slate together with a structured certificate (JSON) describing the claimed constraint satisfaction. A deterministic verifier recomputes all constraints from the slate and accepts only verifier-checked certificates; if verification fails, a deterministic constrained-greedy repair produces a compliant slate for re-verification, yielding an auditable trace. On MovieLens-100K with governance constraints, PCN-Rec achieves a 98.55% pass rate on feasible users (n = 551, W = 80) versus a one-shot single-LLM baseline without verification/repair, while preserving utility with only a 0.021 absolute drop in NDCG@10 (0.403 vs. 0.424); differences are statistically significant (p < 0.05).",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2601.11427": {
+            "title": "Isotropy-Optimized Contrastive Learning for Semantic Course Recommendation",
+            "authors": "Ali Khreis, Anthony Nasr, Yusuf Hilal",
+            "first_author": "Ali Khreis",
+            "url": "http://arxiv.org/abs/2601.11427v1",
+            "pdf_url": "http://arxiv.org/abs/2601.11427",
+            "publish_date": "2026-01-16",
+            "abstract": "This paper presents a semantic course recommendation system for students using a self-supervised contrastive learning approach built upon BERT (Bidirectional Encoder Representations from Transformers). Traditional BERT embeddings suffer from anisotropic representation spaces, where course descriptions exhibit high cosine similarities regardless of semantic relevance. To address this limitation, we propose a contrastive learning framework with data augmentation and isotropy regularization that produces more discriminative embeddings. Our system processes student text queries and recommends Top-N relevant courses from a curated dataset of over 500 engineering courses across multiple faculties. Experimental results demonstrate that our fine-tuned model achieves improved embedding separation and more accurate course recommendations compared to vanilla BERT baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.11151": {
+            "title": "Cross-Modal Attention Network with Dual Graph Learning in Multimodal Recommendation",
+            "authors": "Ji Dai, Quan Fang, Jun Hu, Desheng Cai, Yang Yang, Can Zhao",
+            "first_author": "Ji Dai",
+            "url": "http://arxiv.org/abs/2601.11151v1",
+            "pdf_url": "http://arxiv.org/abs/2601.11151",
+            "publish_date": "2026-01-16",
+            "abstract": "Multimedia recommendation systems leverage user-item interactions and multimodal information to capture user preferences, enabling more accurate and personalized recommendations. Despite notable advancements, existing approaches still face two critical limitations: first, shallow modality fusion often relies on simple concatenation, failing to exploit rich synergic intra- and inter-modal relationships; second, asymmetric feature treatment-where users are only characterized by interaction IDs while items benefit from rich multimodal content-hinders the learning of a shared semantic space. To address these issues, we propose a Cross-modal Recursive Attention Network with dual graph Embedding (CRANE). To tackle shallow fusion, we design a core Recursive Cross-Modal Attention (RCA) mechanism that iteratively refines modality features based on cross-correlations in a joint latent space, effectively capturing high-order intra- and inter-modal dependencies. For symmetric multimodal learning, we explicitly construct users' multimodal profiles by aggregating features of their interacted items. Furthermore, CRANE integrates a symmetric dual-graph framework-comprising a heterogeneous user-item interaction graph and a homogeneous item-item semantic graph-unified by a self-supervised contrastive learning objective to fuse behavioral and semantic signals. Despite these complex modeling capabilities, CRANE maintains high computational efficiency. Theoretical and empirical analyses confirm its scalability and high practical efficiency, achieving faster convergence on small datasets and superior performance ceilings on large-scale ones. Comprehensive experiments on four public real-world datasets validate an average 5% improvement in key metrics over state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.10944": {
+            "title": "PRISM: Personalized Recommendation via Information Synergy Module",
+            "authors": "Xinyi Zhang, Yutong Li, Peijie Sun, Letian Sha, Zhongxuan Han",
+            "first_author": "Xinyi Zhang",
+            "url": "http://arxiv.org/abs/2601.10944v1",
+            "pdf_url": "http://arxiv.org/abs/2601.10944",
+            "publish_date": "2026-01-16",
+            "abstract": "Multimodal sequential recommendation (MSR) leverages diverse item modalities to improve recommendation accuracy, while achieving effective and adaptive fusion remains challenging. Existing MSR models often overlook synergistic information that emerges only through modality combinations. Moreover, they typically assume a fixed importance for different modality interactions across users. To address these limitations, we propose \\textbf{P}ersonalized \\textbf{R}ecommend-ation via \\textbf{I}nformation \\textbf{S}ynergy \\textbf{M}odule (PRISM), a plug-and-play framework for sequential recommendation (SR). PRISM explicitly decomposes multimodal information into unique, redundant, and synergistic components through an Interaction Expert Layer and dynamically weights them via an Adaptive Fusion Layer guided by user preferences. This information-theoretic design enables fine-grained disentanglement and personalized fusion of multimodal signals. Extensive experiments on four datasets and three SR backbones demonstrate its effectiveness and versatility. The code is available at https://github.com/YutongLi2024/PRISM.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.10933": {
+            "title": "Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation",
+            "authors": "Yizhou Dang, Zhifu Wei, Minhan Huang, Lianbo Ma, Jianzhe Zhao, Guibing Guo, Xingwei Wang",
+            "first_author": "Yizhou Dang",
+            "url": "http://arxiv.org/abs/2601.10933v1",
+            "pdf_url": "http://arxiv.org/abs/2601.10933",
+            "publish_date": "2026-01-16",
+            "abstract": "Sequential recommendation (SR) learns user preferences based on their historical interaction sequences and provides personalized suggestions. In real-world scenarios, most users can only interact with a handful of items, while the majority of items are seldom consumed. This pervasive long-tail challenge limits the model's ability to learn user preferences. Despite previous efforts to enrich tail items/users with knowledge from head parts or improve tail learning through additional contextual information, they still face the following issues: 1) They struggle to improve the situation where interactions of tail users/items are scarce, leading to incomplete preferences learning for the tail parts. 2) Existing methods often degrade overall or head parts performance when improving accuracy for tail users/items, thereby harming the user experience. We propose Tail-Aware Data Augmentation (TADA) for long-tail sequential recommendation, which enhances the interaction frequency for tail items/users while maintaining head performance, thereby promoting the model's learning capabilities for the tail. Specifically, we first capture the co-occurrence and correlation among low-popularity items by a linear model. Building upon this, we design two tail-aware augmentation operators, T-Substitute and T-Insert. The former replaces the head item with a relevant item, while the latter utilizes co-occurrence relationships to extend the original sequence by incorporating both head and tail items. The augmented and original sequences are mixed at the representation level to preserve preference knowledge. We further extend the mix operation across different tail-user sequences and augmented sequences to generate richer augmented samples, thereby improving tail performance. Comprehensive experiments demonstrate the superiority of our method. The codes are provided at https://github.com/KingGugu/TADA.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.10837": {
+            "title": "EncodeRec: An Embedding Backbone for Recommendation Systems",
+            "authors": "Guy Hadad, Neomi Rabaev, Bracha Shapira",
+            "first_author": "Guy Hadad",
+            "url": "http://arxiv.org/abs/2601.10837v1",
+            "pdf_url": "http://arxiv.org/abs/2601.10837",
+            "publish_date": "2026-01-15",
+            "abstract": "Recent recommender systems increasingly leverage embeddings from large pre-trained language models (PLMs). However, such embeddings exhibit two key limitations: (1) PLMs are not explicitly optimized to produce structured and discriminative embedding spaces, and (2) their representations remain overly generic, often failing to capture the domain-specific semantics crucial for recommendation tasks. We present EncodeRec, an approach designed to align textual representations with recommendation objectives while learning compact, informative embeddings directly from item descriptions. EncodeRec keeps the language model parameters frozen during recommender system training, making it computationally efficient without sacrificing semantic fidelity. Experiments across core recommendation benchmarks demonstrate its effectiveness both as a backbone for sequential recommendation models and for semantic ID tokenization, showing substantial gains over PLM-based and embedding model baselines. These results underscore the pivotal role of embedding adaptation in bridging the gap between general-purpose language models and practical recommender systems.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }
