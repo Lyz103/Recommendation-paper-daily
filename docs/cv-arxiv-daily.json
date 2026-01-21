@@ -8351,12 +8351,12 @@
         },
         "2512.07000": {
             "title": "Benchmarking Deep Neural Networks for Modern Recommendation Systems",
-            "authors": "Abderaouf Bahi, Ibtissem Gasmi",
+            "authors": "Abderaouf Bahi, Inoussa Mouiche, Ibtissem Gasmi",
             "first_author": "Abderaouf Bahi",
-            "url": "http://arxiv.org/abs/2512.07000v1",
+            "url": "http://arxiv.org/abs/2512.07000v2",
             "pdf_url": "http://arxiv.org/abs/2512.07000",
             "publish_date": "2025-12-07",
-            "abstract": "This paper examines the deployment of seven different neural network architectures CNN, RNN, GNN, Autoencoder, Transformer, NCF, and Siamese Networks on three distinct datasets: Retail E-commerce, Amazon Products, and Netflix Prize. It evaluates their effectiveness through metrics such as accuracy, recall, F1-score, and diversity in recommendations. The results demonstrate that GNNs are particularly adept at managing complex item relationships in e-commerce environments, whereas RNNs are effective in capturing the temporal dynamics that are essential for platforms such as Netflix.. Siamese Networks are emphasized for their contribution to the diversification of recommendations, particularly in retail settings. Despite their benefits, issues like computational demands, reliance on extensive data, and the challenge of balancing accurate and diverse recommendations are addressed. The study seeks to inform the advancement of recommendation systems by suggesting hybrid methods that merge the strengths of various models to better satisfy user preferences and accommodate the evolving demands of contemporary digital platforms.",
+            "abstract": "This paper presents a requirement-oriented benchmark of seven deep neural architectures, CNN, RNN, GNN, Autoencoder, Transformer, Neural Collaborative Filtering, and Siamese Networks, across three real-world datasets: Retail E-commerce, Amazon Products, and Netflix Prize. To ensure a fair and comprehensive comparison aligned with the evolving demands of modern recommendation systems, we adopt a Requirement-Oriented Benchmarking (ROB) framework that structures evaluation around predictive accuracy, recommendation diversity, relational awareness, temporal dynamics, and computational efficiency. Under a unified evaluation protocol, models are assessed using standard accuracy-oriented metrics alongside diversity and efficiency indicators. Experimental results show that different architectures exhibit complementary strengths across requirements, motivating the use of hybrid and ensemble designs. The findings provide practical guidance for selecting and combining neural architectures to better satisfy multi-objective recommendation system requirements.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -8837,7 +8837,7 @@
             "title": "Efficient Optimization of Hierarchical Identifiers for Generative Recommendation",
             "authors": "Federica Valeau, Odysseas Boufalis, Polytimi Gkotsi, Joshua Rosenthal, David Vos",
             "first_author": "Federica Valeau",
-            "url": "http://arxiv.org/abs/2512.18434v1",
+            "url": "http://arxiv.org/abs/2512.18434v2",
             "pdf_url": "http://arxiv.org/abs/2512.18434",
             "publish_date": "2025-12-20",
             "abstract": "SEATER is a generative retrieval model that improves recommendation inference efficiency and retrieval quality by utilizing balanced tree-structured item identifiers and contrastive training objectives. We reproduce and validate SEATER's reported improvements in retrieval quality over strong baselines across all datasets from the original work, and extend the evaluation to Yambda, a large-scale music recommendation dataset. Our experiments verify SEATER's strong performance, but show that its tree construction step during training becomes a major bottleneck as the number of items grows. To address this, we implement and evaluate two alternative construction algorithms: a greedy method optimized for minimal build time, and a hybrid method that combines greedy clustering at high levels with more precise grouping at lower levels. The greedy method reduces tree construction time to less than 2% of the original with only a minor drop in quality on the dataset with the largest item collection. The hybrid method achieves retrieval quality on par with the original, and even improves on the largest dataset, while cutting construction time to just 5-8%. All data and code are publicly available for full reproducibility at https://github.com/joshrosie/re-seater.",
@@ -9546,6 +9546,50 @@
             "publish_date": "2026-01-15",
             "abstract": "Recent recommender systems increasingly leverage embeddings from large pre-trained language models (PLMs). However, such embeddings exhibit two key limitations: (1) PLMs are not explicitly optimized to produce structured and discriminative embedding spaces, and (2) their representations remain overly generic, often failing to capture the domain-specific semantics crucial for recommendation tasks. We present EncodeRec, an approach designed to align textual representations with recommendation objectives while learning compact, informative embeddings directly from item descriptions. EncodeRec keeps the language model parameters frozen during recommender system training, making it computationally efficient without sacrificing semantic fidelity. Experiments across core recommendation benchmarks demonstrate its effectiveness both as a backbone for sequential recommendation models and for semantic ID tokenization, showing substantial gains over PLM-based and embedding model baselines. These results underscore the pivotal role of embedding adaptation in bridging the gap between general-purpose language models and practical recommender systems.",
             "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2601.12828": {
+            "title": "The Unfairness of Multifactorial Bias in Recommendation",
+            "authors": "Masoud Mansoury, Jin Huang, Mykola Pechenizkiy, Herke van Hoof, Maarten de Rijke",
+            "first_author": "Masoud Mansoury",
+            "url": "http://arxiv.org/abs/2601.12828v1",
+            "pdf_url": "http://arxiv.org/abs/2601.12828",
+            "publish_date": "2026-01-19",
+            "abstract": "Popularity bias and positivity bias are two prominent sources of bias in recommender systems. Both arise from input data, propagate through recommendation models, and lead to unfair or suboptimal outcomes. Popularity bias occurs when a small subset of items receives most interactions, while positivity bias stems from the over-representation of high rating values. Although each bias has been studied independently, their combined effect, to which we refer to as multifactorial bias, remains underexplored. In this work, we examine how multifactorial bias influences item-side fairness, focusing on exposure bias, which reflects the unequal visibility of items in recommendation outputs. Through simulation studies, we find that positivity bias is disproportionately concentrated on popular items, further amplifying their over-exposure. Motivated by this insight, we adapt a percentile-based rating transformation as a pre-processing strategy to mitigate multifactorial bias. Experiments using six recommendation algorithms across four public datasets show that this approach improves exposure fairness with negligible accuracy loss. We also demonstrate that integrating this pre-processing step into post-processing fairness pipelines enhances their effectiveness and efficiency, enabling comparable or better fairness with reduced computational cost. These findings highlight the importance of addressing multifactorial bias and demonstrate the practical value of simple, data-driven pre-processing methods for improving fairness in recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.12338": {
+            "title": "Actionable Advice from Reviews via Mixture of LoRA Experts: A Two-LLM Pipeline for Issue Extraction and Business Recommendations",
+            "authors": "Kartikey Singh Bhandari, Manav Ganesh, Yashwant Viswanathan, Archit Agrawal, Dhruv Kumar, Pratik Narang",
+            "first_author": "Kartikey Singh Bhandari",
+            "url": "http://arxiv.org/abs/2601.12338v1",
+            "pdf_url": "http://arxiv.org/abs/2601.12338",
+            "publish_date": "2026-01-18",
+            "abstract": "Customer reviews contain detailed, domain specific signals about service failures and user expectations, but converting this unstructured feedback into actionable business decisions remains difficult. We study review-to-action generation: producing concrete, implementable recommendations grounded in review text. We propose a modular two-LLM framework in which an Issue model extracts salient issues and assigns coarse themes, and an Advice model generates targeted operational fixes conditioned on the extracted issue representation. To enable specialization without expensive full fine-tuning, we adapt the Advice model using a mixture of LoRA experts strategy: multiple low-rank adapters are trained and a lightweight gating mechanism performs token-level expert mixing at inference, combining complementary expertise across issue types. We construct synthetic review-issue-advice triples from Yelp reviews (airlines and restaurants) to supervise training, and evaluate recommendations using an eight dimension operational rubric spanning actionability, specificity, feasibility, expected impact, novelty, non-redundancy, bias, and clarity. Across both domains, our approach consistently outperforms prompting-only and single-adapter baselines, yielding higher actionability and specificity while retaining favorable efficiency-quality trade-offs.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.12301": {
+            "title": "Facet-Aware Multi-Head Mixture-of-Experts Model with Text-Enhanced Pre-training for Sequential Recommendation",
+            "authors": "Mingrui Liu, Sixiao Zhang, Cheng Long",
+            "first_author": "Mingrui Liu",
+            "url": "http://arxiv.org/abs/2601.12301v1",
+            "pdf_url": "http://arxiv.org/abs/2601.12301",
+            "publish_date": "2026-01-18",
+            "abstract": "Sequential recommendation (SR) systems excel at capturing users' dynamic preferences by leveraging their interaction histories. Most existing SR systems assign a single embedding vector to each item to represent its features, adopting various models to combine these embeddings into a sequence representation that captures user intent. However, we argue that this representation alone is insufficient to capture an item's multi-faceted nature (e.g., movie genres, starring actors). Furthermore, users often exhibit complex and varied preferences within these facets (e.g., liking both action and musical films within the genre facet), which are challenging to fully represent with static identifiers. To address these issues, we propose a novel architecture titled Facet-Aware Multi-Head Mixture-of-Experts Model for Sequential Recommendation (FAME). We leverage sub-embeddings from each head in the final multi-head attention layer to predict the next item separately, effectively capturing distinct item facets. A gating mechanism then integrates these predictions by dynamically determining their importance. Additionally, we introduce a Mixture-of-Experts (MoE) network within each attention head to disentangle varied user preferences within each facet, utilizing a learnable router network to aggregate expert outputs based on context. Complementing this architecture, we design a Text-Enhanced Facet-Aware Pre-training module to overcome the limitations of randomly initialized embeddings. By utilizing a pre-trained text encoder and employing an alternating supervised contrastive learning objective, we explicitly disentangle facet-specific features from textual metadata (e.g., descriptions) before sequential training begins. This ensures that the item embeddings are semantically robust and aligned with the downstream multi-facet framework.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.11610": {
+            "title": "Multifaceted Scenario-Aware Hypergraph Learning for Next POI Recommendation",
+            "authors": "Yuxi Lin, Yongkang Li, Jie Xing, Zipei Fan",
+            "first_author": "Yuxi Lin",
+            "url": "http://arxiv.org/abs/2601.11610v1",
+            "pdf_url": "http://arxiv.org/abs/2601.11610",
+            "publish_date": "2026-01-09",
+            "abstract": "Among the diverse services provided by Location-Based Social Networks (LBSNs), Next Point-of-Interest (POI) recommendation plays a crucial role in inferring user preferences from historical check-in trajectories. However, existing sequential and graph-based methods frequently neglect significant mobility variations across distinct contextual scenarios (e.g., tourists versus locals). This oversight results in suboptimal performance due to two fundamental limitations: the inability to capture scenario-specific features and the failure to resolve inherent inter-scenario conflicts. To overcome these limitations, we propose the Multifaceted Scenario-Aware Hypergraph Learning method (MSAHG), a framework that adopts a scenario-splitting paradigm for next POI recommendation.   Our main contributions are:   (1) Construction of scenario-specific, multi-view disentangled sub-hypergraphs to capture distinct mobility patterns;   (2) A parameter-splitting mechanism to adaptively resolve conflicting optimization directions across scenarios while preserving generalization capability.   Extensive experiments on three real-world datasets demonstrate that MSAHG consistently outperforms five state-of-the-art methods across diverse scenarios, confirming its effectiveness in multi-scenario POI recommendation.",
+            "primary_category": "cs.SI",
             "code_url": "null"
         }
     }

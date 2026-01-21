@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-19 | **The Unfairness of Multifactorial Bias in Recommendation** | Masoud Mansoury, Jin Huang, Mykola Pechenizkiy, Herke van Hoof, Maarten de Rijke | [Link](http://arxiv.org/abs/2601.12828) | Not Available |
+| 2026-01-18 | **Actionable Advice from Reviews via Mixture of LoRA Experts: A Two-LLM Pipeline for Issue Extraction and Business Recommendations** | Kartikey Singh Bhandari, Manav Ganesh, Yashwant Viswanathan, Archit Agrawal, Dhruv Kumar, Pratik Narang | [Link](http://arxiv.org/abs/2601.12338) | Not Available |
+| 2026-01-18 | **Facet-Aware Multi-Head Mixture-of-Experts Model with Text-Enhanced Pre-training for Sequential Recommendation** | Mingrui Liu, Sixiao Zhang, Cheng Long | [Link](http://arxiv.org/abs/2601.12301) | Not Available |
+| 2026-01-09 | **Multifaceted Scenario-Aware Hypergraph Learning for Next POI Recommendation** | Yuxi Lin, Yongkang Li, Jie Xing, Zipei Fan | [Link](http://arxiv.org/abs/2601.11610) | Not Available |
 | 2026-01-16 | **Isotropy-Optimized Contrastive Learning for Semantic Course Recommendation** | Ali Khreis, Anthony Nasr, Yusuf Hilal | [Link](http://arxiv.org/abs/2601.11427) | Not Available |
 | 2026-01-16 | **Cross-Modal Attention Network with Dual Graph Learning in Multimodal Recommendation** | Ji Dai, Quan Fang, Jun Hu, Desheng Cai, Yang Yang, Can Zhao | [Link](http://arxiv.org/abs/2601.11151) | Not Available |
 | 2026-01-16 | **PRISM: Personalized Recommendation via Information Synergy Module** | Xinyi Zhang, Yutong Li, Peijie Sun, Letian Sha, Zhongxuan Han | [Link](http://arxiv.org/abs/2601.10944) | Not Available |
@@ -120,7 +124,7 @@
 | 2025-12-08 | **Exploring Test-time Scaling via Prediction Merging on Large-Scale Recommendation** | Fuyuan Lyu, Zhentai Chen, Jingyan Jiang, Lingjie Li, Xing Tang, Xiuqiang He, Xue Liu | [Link](http://arxiv.org/abs/2512.07650) | Not Available |
 | 2025-12-08 | **Meta-analyses of dietary exposures must consider energy adjustment: recommendations from a meta-scientific review** | Natalia Ortega, Peter WG Tennant, Darren C Greenwood, Octavio Pano, Christina C Dahm, Russell J de Souza, Daniel B Ibsen, Conor J MacDonald, Deirdre K Tobias, Georgia D Tomova | [Link](http://arxiv.org/abs/2512.07531) | Not Available |
 | 2025-12-08 | **OnePiece: The Great Route to Generative Recommendation -- A Case Study from Tencent Algorithm Competition** | Jiangxia Cao, Shuo Yang, Zijun Wang, Qinghai Tan | [Link](http://arxiv.org/abs/2512.07424) | Not Available |
-| 2025-12-07 | **Benchmarking Deep Neural Networks for Modern Recommendation Systems** | Abderaouf Bahi, Ibtissem Gasmi | [Link](http://arxiv.org/abs/2512.07000) | Not Available |
+| 2025-12-07 | **Benchmarking Deep Neural Networks for Modern Recommendation Systems** | Abderaouf Bahi, Inoussa Mouiche, Ibtissem Gasmi | [Link](http://arxiv.org/abs/2512.07000) | Not Available |
 | 2025-12-07 | **Structural and Disentangled Adaptation of Large Vision Language Models for Multimodal Recommendation** | Zhongtao Rao, Peilin Zhou, Dading Chong, Zhiwei Chen, Shoujin Wang, Nan Tang | [Link](http://arxiv.org/abs/2512.06883) | Not Available |
 | 2025-12-07 | **Foresight Prediction Enhanced Live-Streaming Recommendation** | Jiangxia Cao, Ruochen Yang, Xiang Chen, Changxin Lao, Yueyang Liu, Yusheng Huang, Yuanhao Tian, Xiangyu Wu, Shuang Yang, Zhaojie Liu, Guorui Zhou | [Link](http://arxiv.org/abs/2512.06700) | Not Available |
 | 2025-12-04 | **Multi-LLM Collaboration for Medication Recommendation** | Huascar Sanchez, Briland Hitaj, Jules Bergmann, Linda Briesemeister | [Link](http://arxiv.org/abs/2512.05066) | Not Available |
