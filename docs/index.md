@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-21 | **Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation** | Hanqi Jin, Gaoming Yang, Zhangming Chan, Yapeng Yuan, Longbin Li, Fei Sun, Yeqiu Yang, Jian Wu, Yuning Jiang, Bo Zheng | [Link](http://arxiv.org/abs/2601.14955) | Not Available |
+| 2026-01-21 | **When Text-as-Vision Meets Semantic IDs in Generative Recommendation: An Empirical Study** | Shutong Qiao, Wei Yuan, Tong Chen, Xiangyu Zhao, Quoc Viet Hung Nguyen, Hongzhi Yin | [Link](http://arxiv.org/abs/2601.14697) | Not Available |
+| 2026-01-21 | **IB-GRPO: Aligning LLM-based Learning Path Recommendation with Educational Objectives via Indicator-Based Group Relative Policy Optimization** | Shuai Wang, Yaoming Yang, Bingdong Li, Hao Hao, Aimin Zhou | [Link](http://arxiv.org/abs/2601.14686) | Not Available |
+| 2026-01-19 | **How Recommendation Algorithms Shape Social Networks: An Adaptive Voter Model Approach** | Fabian Veider, Georg Jäger, Bao Quoc Tang | [Link](http://arxiv.org/abs/2601.14319) | Not Available |
 | 2026-01-19 | **The Unfairness of Multifactorial Bias in Recommendation** | Masoud Mansoury, Jin Huang, Mykola Pechenizkiy, Herke van Hoof, Maarten de Rijke | [Link](http://arxiv.org/abs/2601.12828) | Not Available |
 | 2026-01-18 | **Actionable Advice from Reviews via Mixture of LoRA Experts: A Two-LLM Pipeline for Issue Extraction and Business Recommendations** | Kartikey Singh Bhandari, Manav Ganesh, Yashwant Viswanathan, Archit Agrawal, Dhruv Kumar, Pratik Narang | [Link](http://arxiv.org/abs/2601.12338) | Not Available |
 | 2026-01-18 | **Facet-Aware Multi-Head Mixture-of-Experts Model with Text-Enhanced Pre-training for Sequential Recommendation** | Mingrui Liu, Sixiao Zhang, Cheng Long | [Link](http://arxiv.org/abs/2601.12301) | Not Available |

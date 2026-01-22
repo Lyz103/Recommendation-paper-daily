@@ -9376,7 +9376,7 @@
             "title": "RMBRec: Robust Multi-Behavior Recommendation towards Target Behaviors",
             "authors": "Miaomiao Cai, Zhijie Zhang, Junfeng Fang, Zhiyong Cheng, Xiang Wang, Meng Wang",
             "first_author": "Miaomiao Cai",
-            "url": "http://arxiv.org/abs/2601.08705v2",
+            "url": "http://arxiv.org/abs/2601.08705v3",
             "pdf_url": "http://arxiv.org/abs/2601.08705",
             "publish_date": "2026-01-13",
             "abstract": "Multi-behavior recommendation faces a critical challenge in practice: auxiliary behaviors (e.g., clicks, carts) are often noisy, weakly correlated, or semantically misaligned with the target behavior (e.g., purchase), which leads to biased preference learning and suboptimal performance. While existing methods attempt to fuse these heterogeneous signals, they inherently lack a principled mechanism to ensure robustness against such behavioral inconsistency.   In this work, we propose Robust Multi-Behavior Recommendation towards Target Behaviors (RMBRec), a robust multi-behavior recommendation framework grounded in an information-theoretic robustness principle. We interpret robustness as a joint process of maximizing predictive information while minimizing its variance across heterogeneous behavioral environments. Under this perspective, the Representation Robustness Module (RRM) enhances local semantic consistency by maximizing the mutual information between users' auxiliary and target representations, whereas the Optimization Robustness Module (ORM) enforces global stability by minimizing the variance of predictive risks across behaviors, which is an efficient approximation to invariant risk minimization. This local-global collaboration bridges representation purification and optimization invariance in a theoretically coherent way. Extensive experiments on three real-world datasets demonstrate that RMBRec not only outperforms state-of-the-art methods in accuracy but also maintains remarkable stability under various noise perturbations. For reproducibility, our code is available at https://github.com/miaomiao-cai2/RMBRec/.",
@@ -9590,6 +9590,50 @@
             "publish_date": "2026-01-09",
             "abstract": "Among the diverse services provided by Location-Based Social Networks (LBSNs), Next Point-of-Interest (POI) recommendation plays a crucial role in inferring user preferences from historical check-in trajectories. However, existing sequential and graph-based methods frequently neglect significant mobility variations across distinct contextual scenarios (e.g., tourists versus locals). This oversight results in suboptimal performance due to two fundamental limitations: the inability to capture scenario-specific features and the failure to resolve inherent inter-scenario conflicts. To overcome these limitations, we propose the Multifaceted Scenario-Aware Hypergraph Learning method (MSAHG), a framework that adopts a scenario-splitting paradigm for next POI recommendation.   Our main contributions are:   (1) Construction of scenario-specific, multi-view disentangled sub-hypergraphs to capture distinct mobility patterns;   (2) A parameter-splitting mechanism to adaptively resolve conflicting optimization directions across scenarios while preserving generalization capability.   Extensive experiments on three real-world datasets demonstrate that MSAHG consistently outperforms five state-of-the-art methods across diverse scenarios, confirming its effectiveness in multi-scenario POI recommendation.",
             "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2601.14955": {
+            "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
+            "authors": "Hanqi Jin, Gaoming Yang, Zhangming Chan, Yapeng Yuan, Longbin Li, Fei Sun, Yeqiu Yang, Jian Wu, Yuning Jiang, Bo Zheng",
+            "first_author": "Hanqi Jin",
+            "url": "http://arxiv.org/abs/2601.14955v1",
+            "pdf_url": "http://arxiv.org/abs/2601.14955",
+            "publish_date": "2026-01-21",
+            "abstract": "User interactions on e-commerce platforms are inherently diverse, involving behaviors such as clicking, favoriting, adding to cart, and purchasing. The transitions between these behaviors offer valuable insights into user-item interactions, serving as a key signal for understanding evolving preferences. Consequently, there is growing interest in leveraging multi-behavior data to better capture user intent. Recent studies have explored sequential modeling of multi-behavior data, many relying on transformer-based architectures with polynomial time complexity. While effective, these approaches often incur high computational costs, limiting their applicability in large-scale industrial systems with long user sequences. To address this challenge, we propose the Transition-Aware Graph Attention Network (TGA), a linear-complexity approach for modeling multi-behavior transitions. Unlike traditional transformers that treat all behavior pairs equally, TGA constructs a structured sparse graph by identifying informative transitions from three perspectives: (a) item-level transitions, (b) category-level transitions, and (c) neighbor-level transitions. Built upon the structured graph, TGA employs a transition-aware graph Attention mechanism that jointly models user-item interactions and behavior transition types, enabling more accurate capture of sequential patterns while maintaining computational efficiency. Experiments show that TGA outperforms all state-of-the-art models while significantly reducing computational cost. Notably, TGA has been deployed in a large-scale industrial production environment, where it leads to impressive improvements in key business metrics.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.14697": {
+            "title": "When Text-as-Vision Meets Semantic IDs in Generative Recommendation: An Empirical Study",
+            "authors": "Shutong Qiao, Wei Yuan, Tong Chen, Xiangyu Zhao, Quoc Viet Hung Nguyen, Hongzhi Yin",
+            "first_author": "Shutong Qiao",
+            "url": "http://arxiv.org/abs/2601.14697v1",
+            "pdf_url": "http://arxiv.org/abs/2601.14697",
+            "publish_date": "2026-01-21",
+            "abstract": "Semantic ID learning is a key interface in Generative Recommendation (GR) models, mapping items to discrete identifiers grounded in side information, most commonly via a pretrained text encoder. However, these text encoders are primarily optimized for well-formed natural language. In real-world recommendation data, item descriptions are often symbolic and attribute-centric, containing numerals, units, and abbreviations. These text encoders can break these signals into fragmented tokens, weakening semantic coherence and distorting relationships among attributes. Worse still, when moving to multimodal GR, relying on standard text encoders introduces an additional obstacle: text and image embeddings often exhibit mismatched geometric structures, making cross-modal fusion less effective and less stable.   In this paper, we revisit representation design for Semantic ID learning by treating text as a visual signal. We conduct a systematic empirical study of OCR-based text representations, obtained by rendering item descriptions into images and encoding them with vision-based OCR models. Experiments across four datasets and two generative backbones show that OCR-text consistently matches or surpasses standard text embeddings for Semantic ID learning in both unimodal and multimodal settings. Furthermore, we find that OCR-based Semantic IDs remain robust under extreme spatial-resolution compression, indicating strong robustness and efficiency in practical deployments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.14686": {
+            "title": "IB-GRPO: Aligning LLM-based Learning Path Recommendation with Educational Objectives via Indicator-Based Group Relative Policy Optimization",
+            "authors": "Shuai Wang, Yaoming Yang, Bingdong Li, Hao Hao, Aimin Zhou",
+            "first_author": "Shuai Wang",
+            "url": "http://arxiv.org/abs/2601.14686v1",
+            "pdf_url": "http://arxiv.org/abs/2601.14686",
+            "publish_date": "2026-01-21",
+            "abstract": "Learning Path Recommendation (LPR) aims to generate personalized sequences of learning items that maximize long-term learning effect while respecting pedagogical principles and operational constraints. Although large language models (LLMs) offer rich semantic understanding for free-form recommendation, applying them to long-horizon LPR is challenging due to (i) misalignment with pedagogical objectives such as the Zone of Proximal Development (ZPD) under sparse, delayed feedback, (ii) scarce and costly expert demonstrations, and (iii) multi-objective interactions among learning effect, difficulty scheduling, length controllability, and trajectory diversity. To address these issues, we propose IB-GRPO (Indicator-Based Group Relative Policy Optimization), an indicator-guided alignment approach for LLM-based LPR. To mitigate data scarcity, we construct hybrid expert demonstrations via Genetic Algorithm search and teacher RL agents and warm-start the LLM with supervised fine-tuning. Building on this warm-start, we design a within-session ZPD alignment score for difficulty scheduling. IB-GRPO then uses the $I_{\u03b5+}$ dominance indicator to compute group-relative advantages over multiple objectives, avoiding manual scalarization and improving Pareto trade-offs. Experiments on ASSIST09 and Junyi using the KES simulator with a Qwen2.5-7B backbone show consistent improvements over representative RL and LLM baselines.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.14319": {
+            "title": "How Recommendation Algorithms Shape Social Networks: An Adaptive Voter Model Approach",
+            "authors": "Fabian Veider, Georg J\u00e4ger, Bao Quoc Tang",
+            "first_author": "Fabian Veider",
+            "url": "http://arxiv.org/abs/2601.14319v1",
+            "pdf_url": "http://arxiv.org/abs/2601.14319",
+            "publish_date": "2026-01-19",
+            "abstract": "The rise of social media and recommendation algorithms has sparked concerns about their role in fostering opinion polarization and echo chambers. We study these phenomena using an adaptive voter model to compare two connection mechanisms: \"free\" global rewiring, where individuals connect with anyone sharing their opinion, and \"friend-of-a-friend\" local rewiring, which mimics algorithmic link recommendations on platforms like Facebook or LinkedIn. Simulations across different network topologies reveal that local rewiring increases final-state polarization of the system and fragments social networks into many disconnected components. The usual phase transition into two disconnected components turns into a fragmentation of smaller components, leading to an increase in echo chambers as well as many isolated nodes. This effect is most pronounced in clustered networks with high homophily in rewiring, illustrating how recommendation algorithms can intensify social fragmentation by changing the very structure of the network.",
+            "primary_category": "physics.soc-ph",
             "code_url": "null"
         }
     }
