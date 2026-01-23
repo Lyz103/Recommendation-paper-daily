@@ -9635,6 +9635,50 @@
             "abstract": "The rise of social media and recommendation algorithms has sparked concerns about their role in fostering opinion polarization and echo chambers. We study these phenomena using an adaptive voter model to compare two connection mechanisms: \"free\" global rewiring, where individuals connect with anyone sharing their opinion, and \"friend-of-a-friend\" local rewiring, which mimics algorithmic link recommendations on platforms like Facebook or LinkedIn. Simulations across different network topologies reveal that local rewiring increases final-state polarization of the system and fragments social networks into many disconnected components. The usual phase transition into two disconnected components turns into a fragmentation of smaller components, leading to an increase in echo chambers as well as many isolated nodes. This effect is most pronounced in clustered networks with high homophily in rewiring, illustrating how recommendation algorithms can intensify social fragmentation by changing the very structure of the network.",
             "primary_category": "physics.soc-ph",
             "code_url": "null"
+        },
+        "2601.15930": {
+            "title": "MMGRid: Navigating Temporal-aware and Cross-domain Generative Recommendation via Model Merging",
+            "authors": "Tianjun Wei, Enneng Yang, Yingpeng Du, Huizhong Guo, Jie Zhang, Zhu Sun",
+            "first_author": "Tianjun Wei",
+            "url": "http://arxiv.org/abs/2601.15930v1",
+            "pdf_url": "http://arxiv.org/abs/2601.15930",
+            "publish_date": "2026-01-22",
+            "abstract": "Model merging (MM) offers an efficient mechanism for integrating multiple specialized models without access to original training data or costly retraining. While MM has demonstrated success in domains like computer vision, its role in recommender systems (RSs) remains largely unexplored. Recently, Generative Recommendation (GR) has emerged as a new paradigm in RSs, characterized by rapidly growing model scales and substantial computational costs, making MM particularly appealing for cost-sensitive deployment scenarios. In this work, we present the first systematic study of MM in GR through a contextual lens. We focus on a fundamental yet underexplored challenge in real-world: how to merge generative recommenders specialized to different real-world contexts, arising from temporal evolving user behaviors and heterogeneous application domains. To this end, we propose a unified framework MMGRid, a structured contextual grid of GR checkpoints that organizes models trained under diverse contexts induced by temporal evolution and domain diversity. All checkpoints are derived from a shared base LLM but fine-tuned on context-specific data, forming a realistic and controlled model space for systematically analyzing MM across GR paradigms and merging algorithms. Our investigation reveals several key insights. First, training GR models from LLMs can introduce parameter conflicts during merging due to token distribution shifts and objective disparities; such conflicts can be alleviated by disentangling task-aware and context-specific parameter changes via base model replacement. Second, incremental training across contexts induces recency bias, which can be effectively balanced through weighted contextual merging. Notably, we observe that optimal merging weights correlate with context-dependent interaction characteristics, offering practical guidance for weight selection in real-world deployments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.15721": {
+            "title": "CoNRec: Context-Discerning Negative Recommendation with LLMs",
+            "authors": "Xinda Chen, Jiawei Wu, Yishuang Liu, Jialin Zhu, Shuwen Xiao, Junjun Zheng, Xiangheng Kong, Yuning Jiang",
+            "first_author": "Xinda Chen",
+            "url": "http://arxiv.org/abs/2601.15721v1",
+            "pdf_url": "http://arxiv.org/abs/2601.15721",
+            "publish_date": "2026-01-22",
+            "abstract": "Understanding what users like is relatively straightforward; understanding what users dislike, however, remains a challenging and underexplored problem. Research into users' negative preferences has gained increasing importance in modern recommendation systems. Numerous platforms have introduced explicit negative feedback mechanisms and leverage such signals to refine their recommendation models. Beyond traditional business metrics, user experience-driven metrics, such as negative feedback rates, have become critical indicators for evaluating system performance. However, most existing approaches primarily use negative feedback as an auxiliary signal to enhance positive recommendations, paying little attention to directly modeling negative interests, which can be highly valuable in offline applications. Moreover, due to the inherent sparsity of negative feedback data, models often suffer from context understanding biases induced by positive feedback dominance. To address these challenges, we propose the first large language model framework for negative feedback modeling with special designed context-discerning modules. We use semantic ID Representation to replace text-based item descriptions and introduce an item-level alignment task that enhances the LLM's understanding of the semantic context behind negative feedback. Furthermore, we design a Progressive GRPO training paradigm that enables the model to dynamically balance the positive and negative behavioral context utilization. Besides, our investigation further reveals a fundamental misalignment between the conventional next-negative-item prediction objective and users' true negative preferences, which is heavily influenced by the system's recommendation order. To mitigate this, we propose a novel reward function and evaluation metric grounded in multi-day future negative feedback and their collaborative signals.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.15673": {
+            "title": "Enhancing guidance for missing data in diffusion-based sequential recommendation",
+            "authors": "Qilong Yan, Yifei Xing, Dugang Liu, Jingpu Duan, Jian Yin",
+            "first_author": "Qilong Yan",
+            "url": "http://arxiv.org/abs/2601.15673v1",
+            "pdf_url": "http://arxiv.org/abs/2601.15673",
+            "publish_date": "2026-01-22",
+            "abstract": "Contemporary sequential recommendation methods are becoming more complex, shifting from classification to a diffusion-guided generative paradigm. However, the quality of guidance in the form of user information is often compromised by missing data in the observed sequences, leading to suboptimal generation quality. Existing methods address this by removing locally similar items, but overlook ``critical turning points'' in user interest, which are crucial for accurately predicting subsequent user intent. To address this, we propose a novel Counterfactual Attention Regulation Diffusion model (CARD), which focuses on amplifying the signal from key interest-turning-point items while concurrently identifying and suppressing noise within the user sequence. CARD consists of (1) a Dual-side Thompson Sampling method to identify sequences undergoing significant interest shift, and (2) a counterfactual attention mechanism for these sequences to quantify the importance of each item. In this manner, CARD provides the diffusion model with a high-quality guidance signal composed of dynamically re-weighted interaction vectors to enable effective generation. Experiments show our method works well on real-world data without being computationally expensive. Our code is available at https://github.com/yanqilong3321/CARD.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.15552": {
+            "title": "BanditLP: Large-Scale Stochastic Optimization for Personalized Recommendations",
+            "authors": "Phuc Nguyen, Benjamin Zelditch, Joyce Chen, Rohit Patra, Changshuai Wei",
+            "first_author": "Phuc Nguyen",
+            "url": "http://arxiv.org/abs/2601.15552v1",
+            "pdf_url": "http://arxiv.org/abs/2601.15552",
+            "publish_date": "2026-01-22",
+            "abstract": "We present BanditLP, a scalable multi-stakeholder contextual bandit framework that unifies neural Thompson Sampling for learning objective-specific outcomes with a large-scale linear program for constrained action selection at serving time. The methodology is application-agnostic, compatible with arbitrary neural architectures, and deployable at web scale, with an LP solver capable of handling billions of variables. Experiments on public benchmarks and synthetic data show consistent gains over strong baselines. We apply this approach in LinkedIn's email marketing system and demonstrate business win, illustrating the value of integrated exploration and constrained optimization in production.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

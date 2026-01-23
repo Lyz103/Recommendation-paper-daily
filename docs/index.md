@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-22 | **MMGRid: Navigating Temporal-aware and Cross-domain Generative Recommendation via Model Merging** | Tianjun Wei, Enneng Yang, Yingpeng Du, Huizhong Guo, Jie Zhang, Zhu Sun | [Link](http://arxiv.org/abs/2601.15930) | Not Available |
+| 2026-01-22 | **CoNRec: Context-Discerning Negative Recommendation with LLMs** | Xinda Chen, Jiawei Wu, Yishuang Liu, Jialin Zhu, Shuwen Xiao, Junjun Zheng, Xiangheng Kong, Yuning Jiang | [Link](http://arxiv.org/abs/2601.15721) | Not Available |
+| 2026-01-22 | **Enhancing guidance for missing data in diffusion-based sequential recommendation** | Qilong Yan, Yifei Xing, Dugang Liu, Jingpu Duan, Jian Yin | [Link](http://arxiv.org/abs/2601.15673) | Not Available |
+| 2026-01-22 | **BanditLP: Large-Scale Stochastic Optimization for Personalized Recommendations** | Phuc Nguyen, Benjamin Zelditch, Joyce Chen, Rohit Patra, Changshuai Wei | [Link](http://arxiv.org/abs/2601.15552) | Not Available |
 | 2026-01-21 | **Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation** | Hanqi Jin, Gaoming Yang, Zhangming Chan, Yapeng Yuan, Longbin Li, Fei Sun, Yeqiu Yang, Jian Wu, Yuning Jiang, Bo Zheng | [Link](http://arxiv.org/abs/2601.14955) | Not Available |
 | 2026-01-21 | **When Text-as-Vision Meets Semantic IDs in Generative Recommendation: An Empirical Study** | Shutong Qiao, Wei Yuan, Tong Chen, Xiangyu Zhao, Quoc Viet Hung Nguyen, Hongzhi Yin | [Link](http://arxiv.org/abs/2601.14697) | Not Available |
 | 2026-01-21 | **IB-GRPO: Aligning LLM-based Learning Path Recommendation with Educational Objectives via Indicator-Based Group Relative Policy Optimization** | Shuai Wang, Yaoming Yang, Bingdong Li, Hao Hao, Aimin Zhou | [Link](http://arxiv.org/abs/2601.14686) | Not Available |
