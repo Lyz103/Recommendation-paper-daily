@@ -9679,6 +9679,50 @@
             "abstract": "We present BanditLP, a scalable multi-stakeholder contextual bandit framework that unifies neural Thompson Sampling for learning objective-specific outcomes with a large-scale linear program for constrained action selection at serving time. The methodology is application-agnostic, compatible with arbitrary neural architectures, and deployable at web scale, with an LP solver capable of handling billions of variables. Experiments on public benchmarks and synthetic data show consistent gains over strong baselines. We apply this approach in LinkedIn's email marketing system and demonstrate business win, illustrating the value of integrated exploration and constrained optimization in production.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2601.16882": {
+            "title": "Explaining Group Recommendations via Counterfactuals",
+            "authors": "Maria Stratigi, Nikos Bikakis",
+            "first_author": "Maria Stratigi",
+            "url": "http://arxiv.org/abs/2601.16882v1",
+            "pdf_url": "http://arxiv.org/abs/2601.16882",
+            "publish_date": "2026-01-23",
+            "abstract": "Group recommender systems help users make collective choices but often lack transparency, leaving group members uncertain about why items are suggested. Existing explanation methods focus on individuals, offering limited support for groups where multiple preferences interact. In this paper, we propose a framework for group counterfactual explanations, which reveal how removing specific past interactions would change a group recommendation. We formalize this concept, introduce utility and fairness measures tailored to groups, and design heuristic algorithms, such as Pareto-based filtering and grow-and-prune strategies, for efficient explanation discovery. Experiments on MovieLens and Amazon datasets show clear trade-offs: low-cost methods produce larger, less fair explanations, while other approaches yield concise and balanced results at higher cost. Furthermore, the Pareto-filtering heuristic demonstrates significant efficiency improvements in sparse settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.16775": {
+            "title": "LLM-powered Real-time Patent Citation Recommendation for Financial Technologies",
+            "authors": "Tianang Deng, Yu Deng, Tianchen Gao, Yonghong Hu, Rui Pan",
+            "first_author": "Tianang Deng",
+            "url": "http://arxiv.org/abs/2601.16775v1",
+            "pdf_url": "http://arxiv.org/abs/2601.16775",
+            "publish_date": "2026-01-23",
+            "abstract": "Rapid financial innovation has been accompanied by a sharp increase in patenting activity, making timely and comprehensive prior-art discovery more difficult. This problem is especially evident in financial technologies, where innovations develop quickly, patent collections grow continuously, and citation recommendation systems must be updated as new applications arrive. Existing patent retrieval and citation recommendation methods typically rely on static indexes or periodic retraining, which limits their ability to operate effectively in such dynamic settings. In this study, we propose a real-time patent citation recommendation framework designed for large and fast-changing financial patent corpora. Using a dataset of 428,843 financial patents granted by the China National Intellectual Property Administration (CNIPA) between 2000 and 2024, we build a three-stage recommendation pipeline. The pipeline uses large language model (LLM) embeddings to represent the semantic content of patent abstracts, applies efficient approximate nearest-neighbor search to construct a manageable candidate set, and ranks candidates by semantic similarity to produce top-k citation recommendations. In addition to improving recommendation accuracy, the proposed framework directly addresses the dynamic nature of patent systems. By using an incremental indexing strategy based on hierarchical navigable small-world (HNSW) graphs, newly issued patents can be added without rebuilding the entire index. A rolling day-by-day update experiment shows that incremental updating improves recall while substantially reducing computational cost compared with rebuild-based indexing. The proposed method also consistently outperforms traditional text-based baselines and alternative nearest-neighbor retrieval approaches.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.16556": {
+            "title": "PRISM: Purified Representation and Integrated Semantic Modeling for Generative Sequential Recommendation",
+            "authors": "Dengzhao Fang, Jingtong Gao, Yu Li, Xiangyu Zhao, Yi Chang",
+            "first_author": "Dengzhao Fang",
+            "url": "http://arxiv.org/abs/2601.16556v1",
+            "pdf_url": "http://arxiv.org/abs/2601.16556",
+            "publish_date": "2026-01-23",
+            "abstract": "Generative Sequential Recommendation (GSR) has emerged as a promising paradigm, reframing recommendation as an autoregressive sequence generation task over discrete Semantic IDs (SIDs), typically derived via codebook-based quantization. Despite its great potential in unifying retrieval and ranking, existing GSR frameworks still face two critical limitations: (1) impure and unstable semantic tokenization, where quantization methods struggle with interaction noise and codebook collapse, resulting in SIDs with ambiguous discrimination; and (2) lossy and weakly structured generation, where reliance solely on coarse-grained discrete tokens inevitably introduces information loss and neglects items' hierarchical logic. To address these issues, we propose a novel generative recommendation framework, PRISM, with Purified Representation and Integrated Semantic Modeling. Specifically, to ensure high-quality tokenization, we design a Purified Semantic Quantizer that constructs a robust codebook via adaptive collaborative denoising and hierarchical semantic anchoring mechanisms. To compensate for information loss during quantization, we further propose an Integrated Semantic Recommender, which incorporates a dynamic semantic integration mechanism to integrate fine-grained semantics and enforces logical validity through a semantic structure alignment objective. PRISM consistently outperforms state-of-the-art baselines across four real-world datasets, demonstrating substantial performance gains, particularly in high-sparsity scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.16457": {
+            "title": "Segregation Before Polarization: How Recommendation Strategies Shape Echo Chamber Pathways",
+            "authors": "Junning Zhao, Kazutoshi Sasahara, Yu Chen",
+            "first_author": "Junning Zhao",
+            "url": "http://arxiv.org/abs/2601.16457v1",
+            "pdf_url": "http://arxiv.org/abs/2601.16457",
+            "publish_date": "2026-01-23",
+            "abstract": "Social media platforms facilitate echo chambers through feedback loops between user preferences and recommendation algorithms. While algorithmic homogeneity is well-documented, the distinct evolutionary pathways driven by content-based versus link-based recommendations remain unclear. Using an extended dynamic Bounded Confidence Model (BCM), we show that content-based algorithms--unlike their link-based counterparts--steer social networks toward a segregation-before-polarization (SbP) pathway. Along this trajectory, structural segregation precedes opinion divergence, accelerating individual isolation while delaying but ultimately intensifying collective polarization. Furthermore, we reveal a paradox in information sharing: Reposting increases the number of connections in the network, yet it simultaneously reinforces echo chambers because it amplifies small, latent opinion differences that would otherwise remain inconsequential. These findings suggest that mitigating polarization requires stage-dependent algorithmic interventions, shifting from content-centric to structure-centric strategies as networks evolve.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
         }
     }
 }

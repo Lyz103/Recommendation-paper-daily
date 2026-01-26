@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-23 | **Explaining Group Recommendations via Counterfactuals** | Maria Stratigi, Nikos Bikakis | [Link](http://arxiv.org/abs/2601.16882) | Not Available |
+| 2026-01-23 | **LLM-powered Real-time Patent Citation Recommendation for Financial Technologies** | Tianang Deng, Yu Deng, Tianchen Gao, Yonghong Hu, Rui Pan | [Link](http://arxiv.org/abs/2601.16775) | Not Available |
+| 2026-01-23 | **PRISM: Purified Representation and Integrated Semantic Modeling for Generative Sequential Recommendation** | Dengzhao Fang, Jingtong Gao, Yu Li, Xiangyu Zhao, Yi Chang | [Link](http://arxiv.org/abs/2601.16556) | Not Available |
+| 2026-01-23 | **Segregation Before Polarization: How Recommendation Strategies Shape Echo Chamber Pathways** | Junning Zhao, Kazutoshi Sasahara, Yu Chen | [Link](http://arxiv.org/abs/2601.16457) | Not Available |
 | 2026-01-22 | **MMGRid: Navigating Temporal-aware and Cross-domain Generative Recommendation via Model Merging** | Tianjun Wei, Enneng Yang, Yingpeng Du, Huizhong Guo, Jie Zhang, Zhu Sun | [Link](http://arxiv.org/abs/2601.15930) | Not Available |
 | 2026-01-22 | **CoNRec: Context-Discerning Negative Recommendation with LLMs** | Xinda Chen, Jiawei Wu, Yishuang Liu, Jialin Zhu, Shuwen Xiao, Junjun Zheng, Xiangheng Kong, Yuning Jiang | [Link](http://arxiv.org/abs/2601.15721) | Not Available |
 | 2026-01-22 | **Enhancing guidance for missing data in diffusion-based sequential recommendation** | Qilong Yan, Yifei Xing, Dugang Liu, Jingpu Duan, Jian Yin | [Link](http://arxiv.org/abs/2601.15673) | Not Available |
