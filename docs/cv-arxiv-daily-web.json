@@ -9682,9 +9682,9 @@
         },
         "2601.16882": {
             "title": "Explaining Group Recommendations via Counterfactuals",
-            "authors": "Maria Stratigi, Nikos Bikakis",
+            "authors": "Maria Stratigi, Nikos Bikakis, Kostas Stefanidis",
             "first_author": "Maria Stratigi",
-            "url": "http://arxiv.org/abs/2601.16882v1",
+            "url": "http://arxiv.org/abs/2601.16882v2",
             "pdf_url": "http://arxiv.org/abs/2601.16882",
             "publish_date": "2026-01-23",
             "abstract": "Group recommender systems help users make collective choices but often lack transparency, leaving group members uncertain about why items are suggested. Existing explanation methods focus on individuals, offering limited support for groups where multiple preferences interact. In this paper, we propose a framework for group counterfactual explanations, which reveal how removing specific past interactions would change a group recommendation. We formalize this concept, introduce utility and fairness measures tailored to groups, and design heuristic algorithms, such as Pareto-based filtering and grow-and-prune strategies, for efficient explanation discovery. Experiments on MovieLens and Amazon datasets show clear trade-offs: low-cost methods produce larger, less fair explanations, while other approaches yield concise and balanced results at higher cost. Furthermore, the Pareto-filtering heuristic demonstrates significant efficiency improvements in sparse settings.",
@@ -9722,6 +9722,105 @@
             "publish_date": "2026-01-23",
             "abstract": "Social media platforms facilitate echo chambers through feedback loops between user preferences and recommendation algorithms. While algorithmic homogeneity is well-documented, the distinct evolutionary pathways driven by content-based versus link-based recommendations remain unclear. Using an extended dynamic Bounded Confidence Model (BCM), we show that content-based algorithms--unlike their link-based counterparts--steer social networks toward a segregation-before-polarization (SbP) pathway. Along this trajectory, structural segregation precedes opinion divergence, accelerating individual isolation while delaying but ultimately intensifying collective polarization. Furthermore, we reveal a paradox in information sharing: Reposting increases the number of connections in the network, yet it simultaneously reinforces echo chambers because it amplifies small, latent opinion differences that would otherwise remain inconsequential. These findings suggest that mitigating polarization requires stage-dependent algorithmic interventions, shifting from content-centric to structure-centric strategies as networks evolve.",
             "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2601.18664": {
+            "title": "S$^2$GR: Stepwise Semantic-Guided Reasoning in Latent Space for Generative Recommendation",
+            "authors": "Zihao Guo, Jian Wang, Ruxin Zhou, Youhua Liu, Jiawei Guo, Jun Zhao, Xiaoxiao Xu, Yongqi Liu, Kaiqiao Zhan",
+            "first_author": "Zihao Guo",
+            "url": "http://arxiv.org/abs/2601.18664v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18664",
+            "publish_date": "2026-01-26",
+            "abstract": "Generative Recommendation (GR) has emerged as a transformative paradigm with its end-to-end generation advantages. However, existing GR methods primarily focus on direct Semantic ID (SID) generation from interaction sequences, failing to activate deeper reasoning capabilities analogous to those in large language models and thus limiting performance potential. We identify two critical limitations in current reasoning-enhanced GR approaches: (1) Strict sequential separation between reasoning and generation steps creates imbalanced computational focus across hierarchical SID codes, degrading quality for SID codes; (2) Generated reasoning vectors lack interpretable semantics, while reasoning paths suffer from unverifiable supervision. In this paper, we propose stepwise semantic-guided reasoning in latent space (S$^2$GR), a novel reasoning enhanced GR framework. First, we establish a robust semantic foundation via codebook optimization, integrating item co-occurrence relationship to capture behavioral patterns, and load balancing and uniformity objectives that maximize codebook utilization while reinforcing coarse-to-fine semantic hierarchies. Our core innovation introduces the stepwise reasoning mechanism inserting thinking tokens before each SID generation step, where each token explicitly represents coarse-grained semantics supervised via contrastive learning against ground-truth codebook cluster distributions ensuring physically grounded reasoning paths and balanced computational focus across all SID codes. Extensive experiments demonstrate the superiority of S$^2$GR, and online A/B test confirms efficacy on large-scale industrial short video platform.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.18570": {
+            "title": "Feature-Indexed Federated Recommendation with Residual-Quantized Codebooks",
+            "authors": "Mingzhe Han, Jiahao Liu, Dongsheng Li, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu",
+            "first_author": "Mingzhe Han",
+            "url": "http://arxiv.org/abs/2601.18570v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18570",
+            "publish_date": "2026-01-26",
+            "abstract": "Federated recommendation provides a privacy-preserving solution for training recommender systems without centralizing user interactions. However, existing methods follow an ID-indexed communication paradigm that transmit whole item embeddings between clients and the server, which has three major limitations: 1) consumes uncontrollable communication resources, 2) the uploaded item information cannot generalize to related non-interacted items, and 3) is sensitive to client noisy feedback. To solve these problems, it is necessary to fundamentally change the existing ID-indexed communication paradigm. Therefore, we propose a feature-indexed communication paradigm that transmits feature code embeddings as codebooks rather than raw item embeddings. Building on this paradigm, we present RQFedRec, which assigns each item a list of discrete code IDs via Residual Quantization (RQ)-Kmeans. Each client generates and trains code embeddings as codebooks based on discrete code IDs provided by the server, and the server collects and aggregates these codebooks rather than item embeddings. This design makes communication controllable since the codebooks could cover all items, enabling updates to propagate across related items in same code ID. In addition, since code embedding represents many items, which is more robust to a single noisy item. To jointly capture semantic and collaborative information, RQFedRec further adopts a collaborative-semantic dual-channel aggregation with a curriculum strategy that emphasizes semantic codes early and gradually increases the contribution of collaborative codes over training. Extensive experiments on real-world datasets demonstrate that RQFedRec consistently outperforms state-of-the-art federated recommendation baselines while significantly reducing communication overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.18457": {
+            "title": "Token-level Collaborative Alignment for LLM-based Generative Recommendation",
+            "authors": "Fake Lin, Binbin Hu, Zhi Zheng, Xi Zhu, Ziqi Liu, Zhiqiang Zhang, Jun Zhou, Tong Xu",
+            "first_author": "Fake Lin",
+            "url": "http://arxiv.org/abs/2601.18457v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18457",
+            "publish_date": "2026-01-26",
+            "abstract": "Large Language Models (LLMs) have demonstrated strong potential for generative recommendation by leveraging rich semantic knowledge. However, existing LLM-based recommender systems struggle to effectively incorporate collaborative filtering (CF) signals, due to a fundamental mismatch between item-level preference modeling in CF and token-level next-token prediction (NTP) optimization in LLMs. Prior approaches typically treat CF as contextual hints or representation bias, and resort to multi-stage training to reduce behavioral semantic space discrepancies, leaving CF unable to explicitly regulate LLM generation. In this work, we propose Token-level Collaborative Alignment for Recommendation (TCA4Rec), a model-agnostic and plug-and-play framework that establishes an explicit optimization-level interface between CF supervision and LLM generation. TCA4Rec consists of (i) Collaborative Tokenizer, which projects raw item-level CF logits into token-level distributions aligned with the LLM token space, and (ii) Soft Label Alignment, which integrates these CF-informed distributions with one-hot supervision to optimize a soft NTP objective. This design preserves the generative nature of LLM training while enabling collaborative alignment with essential user preference of CF models. We highlight TCA4Rec is compatible with arbitrary traditional CF models and generalizes across a wide range of decoder-based LLM recommender architectures. Moreover, it provides an explicit mechanism to balance behavioral alignment and semantic fluency, yielding generative recommendations that are both accurate and controllable. Extensive experiments demonstrate that TCA4Rec consistently improves recommendation performance across a broad spectrum of CF models and LLM-based recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.18432": {
+            "title": "TopKGAT: A Top-K Objective-Driven Architecture for Recommendation",
+            "authors": "Sirui Chen, Jiawei Chen, Canghong Jin, Sheng Zhou, Jingbang Chen, Wujie Sun, Can Wang",
+            "first_author": "Sirui Chen",
+            "url": "http://arxiv.org/abs/2601.18432v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18432",
+            "publish_date": "2026-01-26",
+            "abstract": "Recommendation systems (RS) aim to retrieve the top-K items most relevant to users, with metrics such as Precision@K and Recall@K commonly used to assess effectiveness. The architecture of an RS model acts as an inductive bias, shaping the patterns the model is inclined to learn. In recent years, numerous recommendation architectures have emerged, spanning traditional matrix factorization, deep neural networks, and graph neural networks. However, their designs are often not explicitly aligned with the top-K objective, thereby limiting their effectiveness.   To address this limitation, we propose TopKGAT, a novel recommendation architecture directly derived from a differentiable approximation of top-K metrics. The forward computation of a single TopKGAT layer is intrinsically aligned with the gradient ascent dynamics of the Precision@K metric, enabling the model to naturally improve top-K recommendation accuracy. Structurally, TopKGAT resembles a graph attention network and can be implemented efficiently. Extensive experiments on four benchmark datasets demonstrate that TopKGAT consistently outperforms state-of-the-art baselines. The code is available at https://github.com/StupidThree/TopKGAT.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.18151": {
+            "title": "Explaining Synergistic Effects in Social Recommendations",
+            "authors": "Yicong Li, Shan Jin, Qi Liu, Shuo Wang, Jiaying Liu, Shuo Yu, Qiang Zhang, Kuanjiu Zhou, Feng Xia",
+            "first_author": "Yicong Li",
+            "url": "http://arxiv.org/abs/2601.18151v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18151",
+            "publish_date": "2026-01-26",
+            "abstract": "In social recommenders, the inherent nonlinearity and opacity of synergistic effects across multiple social networks hinders users from understanding how diverse information is leveraged for recommendations, consequently diminishing explainability. However, existing explainers can only identify the topological information in social networks that significantly influences recommendations, failing to further explain the synergistic effects among this information. Inspired by existing findings that synergistic effects enhance mutual information between inputs and predictions to generate information gain, we extend this discovery to graph data. We quantify graph information gain to identify subgraphs embodying synergistic effects. Based on the theoretical insights, we propose SemExplainer, which explains synergistic effects by identifying subgraphs that embody them. SemExplainer first extracts explanatory subgraphs from multi-view social networks to generate preliminary importance explanations for recommendations. A conditional entropy optimization strategy to maximize information gain is developed, thereby further identifying subgraphs that embody synergistic effects from explanatory subgraphs. Finally, SemExplainer searches for paths from users to recommended items within the synergistic subgraphs to generate explanations for the recommendations. Extensive experiments on three datasets demonstrate the superiority of SemExplainer over baseline methods, providing superior explanations of synergistic effects.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2601.18096": {
+            "title": "Enhancing LLM-based Recommendation with Preference Hint Discovery from Knowledge Graph",
+            "authors": "Yuting Zhang, Ziliang Pei, Chao Wang, Ying Sun, Fuzhen Zhuang",
+            "first_author": "Yuting Zhang",
+            "url": "http://arxiv.org/abs/2601.18096v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18096",
+            "publish_date": "2026-01-26",
+            "abstract": "LLMs have garnered substantial attention in recommendation systems. Yet they fall short of traditional recommenders when capturing complex preference patterns. Recent works have tried integrating traditional recommendation embeddings into LLMs to resolve this issue, yet a core gap persists between their continuous embedding and discrete semantic spaces. Intuitively, textual attributes derived from interactions can serve as critical preference rationales for LLMs' recommendation logic. However, directly inputting such attribute knowledge presents two core challenges: (1) Deficiency of sparse interactions in reflecting preference hints for unseen items; (2) Substantial noise introduction from treating all attributes as hints. To this end, we propose a preference hint discovery model based on the interaction-integrated knowledge graph, enhancing LLM-based recommendation. It utilizes traditional recommendation principles to selectively extract crucial attributes as hints. Specifically, we design a collaborative preference hint extraction schema, which utilizes semantic knowledge from similar users' explicit interactions as hints for unseen items. Furthermore, we develop an instance-wise dual-attention mechanism to quantify the preference credibility of candidate attributes, identifying hints specific to each unseen item. Using these item- and user-based hints, we adopt a flattened hint organization method to shorten input length and feed the textual hint information to the LLM for commonsense reasoning. Extensive experiments on both pair-wise and list-wise recommendation tasks verify the effectiveness of our proposed framework, indicating an average relative improvement of over 3.02% against baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.18009": {
+            "title": "Post-Training Denoising of User Profiles with LLMs in Collaborative Filtering Recommendation",
+            "authors": "Ervin Dervishaj, Maria Maistro, Tuukka Ruotsalo, Christina Lioma",
+            "first_author": "Ervin Dervishaj",
+            "url": "http://arxiv.org/abs/2601.18009v1",
+            "pdf_url": "http://arxiv.org/abs/2601.18009",
+            "publish_date": "2026-01-25",
+            "abstract": "Implicit feedback -- the main data source for training Recommender Systems (RSs) -- is inherently noisy and has been shown to negatively affect recommendation effectiveness. Denoising has been proposed as a method for removing noisy implicit feedback and improving recommendations. Prior work has focused on in-training denoising, however this requires additional data, changes to the model architecture and training procedure or fine-tuning, all of which can be costly and data hungry. In this work, we focus on post-training denoising. Different from in-training denoising, post-training denoising does not involve changing the architecture of the model nor its training procedure, and does not require additional data. Specifically, we present a method for post-training denoising user profiles using Large Language Models (LLMs) for Collaborative Filtering (CF) recommendations. Our approach prompts LLMs with (i) a user profile (user interactions), (ii) a candidate item, and (iii) its rank as given by the CF recommender, and asks the LLM to remove items from the user profile to improve the rank of the candidate item. Experiments with a state-of-the-art CF recommender and 4 open and closed source LLMs in 3 datasets show that our denoising yields improvements up to 13% in effectiveness over the original user profiles. Our code is available at https://github.com/edervishaj/denoising-user-profiles-LLM.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.17438": {
+            "title": "UniGRec: Unified Generative Recommendation with Soft Identifiers for End-to-End Optimization",
+            "authors": "Jialei Li, Yang Zhang, Yimeng Bai, Shuai Zhu, Ziqi Xue, Xiaoyan Zhao, Dingxian Wang, Frank Yang, Andrew Rabinovich, Xiangnan He",
+            "first_author": "Jialei Li",
+            "url": "http://arxiv.org/abs/2601.17438v1",
+            "pdf_url": "http://arxiv.org/abs/2601.17438",
+            "publish_date": "2026-01-24",
+            "abstract": "Generative recommendation has recently emerged as a transformative paradigm that directly generates target items, surpassing traditional cascaded approaches. It typically involves two components: a tokenizer that learns item identifiers and a recommender trained on them. Existing methods often decouple tokenization from recommendation or rely on asynchronous alternating optimization, limiting full end-to-end alignment. To address this, we unify the tokenizer and recommender under the ultimate recommendation objective via differentiable soft item identifiers, enabling joint end-to-end training. However, this introduces three challenges: training-inference discrepancy due to soft-to-hard mismatch, item identifier collapse from codeword usage imbalance, and collaborative signal deficiency due to an overemphasis on fine-grained token-level semantics.   To tackle these challenges, we propose UniGRec, a unified generative recommendation framework that addresses them from three perspectives. UniGRec employs Annealed Inference Alignment during tokenization to smoothly bridge soft training and hard inference, a Codeword Uniformity Regularization to prevent identifier collapse and encourage codebook diversity, and a Dual Collaborative Distillation mechanism that distills collaborative priors from a lightweight teacher model to jointly guide both the tokenizer and the recommender. Extensive experiments on real-world datasets demonstrate that UniGRec consistently outperforms state-of-the-art baseline methods. Our codes are available at https://github.com/Jialei-03/UniGRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.17057": {
+            "title": "Frequency-aware Adaptive Contrastive Learning for Sequential Recommendation",
+            "authors": "Zhikai Wang, Weihua Zhang",
+            "first_author": "Zhikai Wang",
+            "url": "http://arxiv.org/abs/2601.17057v1",
+            "pdf_url": "http://arxiv.org/abs/2601.17057",
+            "publish_date": "2026-01-22",
+            "abstract": "In this paper, we revisited the role of data augmentation in contrastive learning for sequential recommendation, revealing its inherent bias against low-frequency items and sparse user behaviors. To address this limitation, we proposed FACL, a frequency-aware adaptive contrastive learning framework that introduces micro-level adaptive perturbation to protect the integrity of rare items, as well as macro-level reweighting to amplify the influence of sparse and rare-interaction sequences during training. Comprehensive experiments on five public benchmark datasets demonstrated that FACL consistently outperforms state-of-the-art data augmentation and model augmentation-based methods, achieving up to 3.8% improvement in recommendation accuracy. Moreover, fine-grained analyses confirm that FACL significantly alleviates the performance drop on low-frequency items and users, highlighting its robust intent-preserving ability and its superior applicability to real-world, long-tail recommendation scenarios.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }

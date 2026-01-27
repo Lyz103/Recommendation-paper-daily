@@ -11,7 +11,16 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
-| 2026-01-23 | **Explaining Group Recommendations via Counterfactuals** | Maria Stratigi, Nikos Bikakis | [Link](http://arxiv.org/abs/2601.16882) | Not Available |
+| 2026-01-26 | **S$^2$GR: Stepwise Semantic-Guided Reasoning in Latent Space for Generative Recommendation** | Zihao Guo, Jian Wang, Ruxin Zhou, Youhua Liu, Jiawei Guo, Jun Zhao, Xiaoxiao Xu, Yongqi Liu, Kaiqiao Zhan | [Link](http://arxiv.org/abs/2601.18664) | Not Available |
+| 2026-01-26 | **Feature-Indexed Federated Recommendation with Residual-Quantized Codebooks** | Mingzhe Han, Jiahao Liu, Dongsheng Li, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](http://arxiv.org/abs/2601.18570) | Not Available |
+| 2026-01-26 | **Token-level Collaborative Alignment for LLM-based Generative Recommendation** | Fake Lin, Binbin Hu, Zhi Zheng, Xi Zhu, Ziqi Liu, Zhiqiang Zhang, Jun Zhou, Tong Xu | [Link](http://arxiv.org/abs/2601.18457) | Not Available |
+| 2026-01-26 | **TopKGAT: A Top-K Objective-Driven Architecture for Recommendation** | Sirui Chen, Jiawei Chen, Canghong Jin, Sheng Zhou, Jingbang Chen, Wujie Sun, Can Wang | [Link](http://arxiv.org/abs/2601.18432) | Not Available |
+| 2026-01-26 | **Explaining Synergistic Effects in Social Recommendations** | Yicong Li, Shan Jin, Qi Liu, Shuo Wang, Jiaying Liu, Shuo Yu, Qiang Zhang, Kuanjiu Zhou, Feng Xia | [Link](http://arxiv.org/abs/2601.18151) | Not Available |
+| 2026-01-26 | **Enhancing LLM-based Recommendation with Preference Hint Discovery from Knowledge Graph** | Yuting Zhang, Ziliang Pei, Chao Wang, Ying Sun, Fuzhen Zhuang | [Link](http://arxiv.org/abs/2601.18096) | Not Available |
+| 2026-01-25 | **Post-Training Denoising of User Profiles with LLMs in Collaborative Filtering Recommendation** | Ervin Dervishaj, Maria Maistro, Tuukka Ruotsalo, Christina Lioma | [Link](http://arxiv.org/abs/2601.18009) | Not Available |
+| 2026-01-24 | **UniGRec: Unified Generative Recommendation with Soft Identifiers for End-to-End Optimization** | Jialei Li, Yang Zhang, Yimeng Bai, Shuai Zhu, Ziqi Xue, Xiaoyan Zhao, Dingxian Wang, Frank Yang, Andrew Rabinovich, Xiangnan He | [Link](http://arxiv.org/abs/2601.17438) | Not Available |
+| 2026-01-22 | **Frequency-aware Adaptive Contrastive Learning for Sequential Recommendation** | Zhikai Wang, Weihua Zhang | [Link](http://arxiv.org/abs/2601.17057) | Not Available |
+| 2026-01-23 | **Explaining Group Recommendations via Counterfactuals** | Maria Stratigi, Nikos Bikakis, Kostas Stefanidis | [Link](http://arxiv.org/abs/2601.16882) | Not Available |
 | 2026-01-23 | **LLM-powered Real-time Patent Citation Recommendation for Financial Technologies** | Tianang Deng, Yu Deng, Tianchen Gao, Yonghong Hu, Rui Pan | [Link](http://arxiv.org/abs/2601.16775) | Not Available |
 | 2026-01-23 | **PRISM: Purified Representation and Integrated Semantic Modeling for Generative Sequential Recommendation** | Dengzhao Fang, Jingtong Gao, Yu Li, Xiangyu Zhao, Yi Chang | [Link](http://arxiv.org/abs/2601.16556) | Not Available |
 | 2026-01-23 | **Segregation Before Polarization: How Recommendation Strategies Shape Echo Chamber Pathways** | Junning Zhao, Kazutoshi Sasahara, Yu Chen | [Link](http://arxiv.org/abs/2601.16457) | Not Available |
