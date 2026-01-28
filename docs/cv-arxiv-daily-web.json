@@ -9822,6 +9822,138 @@
             "abstract": "In this paper, we revisited the role of data augmentation in contrastive learning for sequential recommendation, revealing its inherent bias against low-frequency items and sparse user behaviors. To address this limitation, we proposed FACL, a frequency-aware adaptive contrastive learning framework that introduces micro-level adaptive perturbation to protect the integrity of rare items, as well as macro-level reweighting to amplify the influence of sparse and rare-interaction sequences during training. Comprehensive experiments on five public benchmark datasets demonstrated that FACL consistently outperforms state-of-the-art data augmentation and model augmentation-based methods, achieving up to 3.8% improvement in recommendation accuracy. Moreover, fine-grained analyses confirm that FACL significantly alleviates the performance drop on low-frequency items and users, highlighting its robust intent-preserving ability and its superior applicability to real-world, long-tail recommendation scenarios.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.19824": {
+            "title": "An Interpretable Recommendation Model for Psychometric Data, With an Application to Gerontological Primary Care",
+            "authors": "Andre Paulino de Lima, Paula Castro, Suzana Carvalho Vaz de Andrade, Rosa Maria Marcucci, Ruth Caldeira de Melo, Marcelo Garcia Manzato",
+            "first_author": "Andre Paulino de Lima",
+            "url": "http://arxiv.org/abs/2601.19824v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19824",
+            "publish_date": "2026-01-27",
+            "abstract": "There are challenges that must be overcome to make recommender systems useful in healthcare settings. The reasons are varied: the lack of publicly available clinical data, the difficulty that users may have in understanding the reasons why a recommendation was made, the risks that may be involved in following that recommendation, and the uncertainty about its effectiveness. In this work, we address these challenges with a recommendation model that leverages the structure of psychometric data to provide visual explanations that are faithful to the model and interpretable by care professionals. We focus on a narrow healthcare niche, gerontological primary care, to show that the proposed recommendation model can assist the attending professional in the creation of personalised care plans. We report results of a comparative offline performance evaluation of the proposed model on healthcare datasets that were collected by research partners in Brazil, as well as the results of a user study that evaluates the interpretability of the visual explanations the model generates. The results suggest that the proposed model can advance the application of recommender systems in this healthcare niche, which is expected to grow in demand , opportunities, and information technology needs as demographic changes become more pronounced.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.19711": {
+            "title": "Differentiable Semantic ID for Generative Recommendation",
+            "authors": "Junchen Fu, Xuri Ge, Alexandros Karatzoglou, Ioannis Arapakis, Suzan Verberne, Joemon M. Jose, Zhaochun Ren",
+            "first_author": "Junchen Fu",
+            "url": "http://arxiv.org/abs/2601.19711v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19711",
+            "publish_date": "2026-01-27",
+            "abstract": "Generative recommendation provides a novel paradigm in which each item is represented by a discrete semantic ID (SID) learned from rich content. Most existing methods treat SIDs as predefined and train recommenders under static indexing. In practice, SIDs are typically optimized only for content reconstruction rather than recommendation accuracy. This leads to an objective mismatch: the system optimizes an indexing loss to learn the SID and a recommendation loss for interaction prediction, but because the tokenizer is trained independently, the recommendation loss cannot update it. A natural approach is to make semantic indexing differentiable so that recommendation gradients can directly influence SID learning, but this often causes codebook collapse, where only a few codes are used. We attribute this issue to early deterministic assignments that limit codebook exploration, resulting in imbalance and unstable optimization.   In this paper, we propose DIGER (Differentiable Semantic ID for Generative Recommendation), a first step toward effective differentiable semantic IDs for generative recommendation. DIGER introduces Gumbel noise to explicitly encourage early-stage exploration over codes, mitigating codebook collapse and improving code utilization. To balance exploration and convergence, we further design two uncertainty decay strategies that gradually reduce the Gumbel noise, enabling a smooth transition from early exploration to exploitation of learned SIDs. Extensive experiments on multiple public datasets demonstrate consistent improvements from differentiable semantic IDs. These results confirm the effectiveness of aligning indexing and recommendation objectives through differentiable SIDs and highlight differentiable semantic indexing as a promising research direction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19585": {
+            "title": "LLM-Enhanced Reinforcement Learning for Long-Term User Satisfaction in Interactive Recommendation",
+            "authors": "Chongjun Xia, Yanchun Peng, Xianzhi Wang",
+            "first_author": "Chongjun Xia",
+            "url": "http://arxiv.org/abs/2601.19585v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19585",
+            "publish_date": "2026-01-27",
+            "abstract": "Interactive recommender systems can dynamically adapt to user feedback, but often suffer from content homogeneity and filter bubble effects due to overfitting short-term user preferences. While recent efforts aim to improve content diversity, they predominantly operate in static or one-shot settings, neglecting the long-term evolution of user interests. Reinforcement learning provides a principled framework for optimizing long-term user satisfaction by modeling sequential decision-making processes. However, its application in recommendation is hindered by sparse, long-tailed user-item interactions and limited semantic planning capabilities. In this work, we propose LLM-Enhanced Reinforcement Learning (LERL), a novel hierarchical recommendation framework that integrates the semantic planning power of LLM with the fine-grained adaptability of RL. LERL consists of a high-level LLM-based planner that selects semantically diverse content categories, and a low-level RL policy that recommends personalized items within the selected semantic space. This hierarchical design narrows the action space, enhances planning efficiency, and mitigates overexposure to redundant content. Extensive experiments on real-world datasets demonstrate that LERL significantly improves long-term user satisfaction when compared with state-of-the-art baselines. The implementation of LERL is available at https://anonymous.4open.science/r/code3-18D3/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19513": {
+            "title": "Enhancing Academic Paper Recommendations Using Fine-Grained Knowledge Entities and Multifaceted Document Embeddings",
+            "authors": "Haixu Xi, Heng Zhang, Chengzhi Zhang",
+            "first_author": "Haixu Xi",
+            "url": "http://arxiv.org/abs/2601.19513v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19513",
+            "publish_date": "2026-01-27",
+            "abstract": "In the era of explosive growth in academic literature, the burden of literature review on scholars are increasing. Proactively recommending academic papers that align with scholars' literature needs in the research process has become one of the crucial pathways to enhance research efficiency and stimulate innovative thinking. Current academic paper recommendation systems primarily focus on broad and coarse-grained suggestions based on general topic or field similarities. While these systems effectively identify related literature, they fall short in addressing scholars' more specific and fine-grained needs, such as locating papers that utilize particular research methods, or tackle distinct research tasks within the same topic. To meet the diverse and specific literature needs of scholars in the research process, this paper proposes a novel academic paper recommendation method. This approach embeds multidimensional information by integrating new types of fine-grained knowledge entities, title and abstract of document, and citation data. Recommendations are then generated by calculating the similarity between combined paper vectors. The proposed recommendation method was evaluated using the STM-KG dataset, a knowledge graph that incorporates scientific concepts derived from papers across ten distinct domains. The experimental results indicate that our method outperforms baseline models, achieving an average precision of 27.3% among the top 50 recommendations. This represents an improvement of 6.7% over existing approaches.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19501": {
+            "title": "Masked Diffusion Generative Recommendation",
+            "authors": "Lingyu Mu, Hao Deng, Haibo Xing, Jinxin Hu, Yu Zhang, Xiaoyi Zeng, Jing Zhang",
+            "first_author": "Lingyu Mu",
+            "url": "http://arxiv.org/abs/2601.19501v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19501",
+            "publish_date": "2026-01-27",
+            "abstract": "Generative recommendation (GR) typically first quantizes continuous item embeddings into multi-level semantic IDs (SIDs), and then generates the next item via autoregressive decoding. Although existing methods are already competitive in terms of recommendation performance, directly inheriting the autoregressive decoding paradigm from language models still suffers from three key limitations: (1) autoregressive decoding struggles to jointly capture global dependencies among the multi-dimensional features associated with different positions of SID; (2) using a unified, fixed decoding path for the same item implicitly assumes that all users attend to item attributes in the same order; (3) autoregressive decoding is inefficient at inference time and struggles to meet real-time requirements. To tackle these challenges, we propose MDGR, a Masked Diffusion Generative Recommendation framework that reshapes the GR pipeline from three perspectives: codebook, training, and inference. (1) We adopt a parallel codebook to provide a structural foundation for diffusion-based GR. (2) During training, we adaptively construct masking supervision signals along both the temporal and sample dimensions. (3) During inference, we develop a warm-up-based two-stage parallel decoding strategy for efficient generation of SIDs. Extensive experiments on multiple public and industrial-scale datasets show that MDGR outperforms ten state-of-the-art baselines by up to 10.78%. Furthermore, by deploying MDGR on a large-scale online advertising platform, we achieve a 1.20% increase in revenue, demonstrating its practical value. The code will be released upon acceptance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19423": {
+            "title": "UniRec: Unified Multimodal Encoding for LLM-Based Recommendations",
+            "authors": "Zijie Lei, Tao Feng, Zhigang Hua, Yan Xie, Guanyu Lin, Shuang Yang, Ge Liu, Jiaxuan You",
+            "first_author": "Zijie Lei",
+            "url": "http://arxiv.org/abs/2601.19423v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19423",
+            "publish_date": "2026-01-27",
+            "abstract": "Large language models have recently shown promise for multimodal recommendation, particularly with text and image inputs. Yet real-world recommendation signals extend far beyond these modalities. To reflect this, we formalize recommendation features into four modalities: text, images, categorical features, and numerical attributes, and highlight the unique challenges this heterogeneity poses for LLMs in understanding multimodal information. In particular, these challenges arise not only across modalities but also within them, as attributes such as price, rating, and time may all be numeric yet carry distinct semantic meanings. Beyond this intra-modality ambiguity, another major challenge is the nested structure of recommendation signals, where user histories are sequences of items, each associated with multiple attributes. To address these challenges, we propose UniRec, a unified multimodal encoder for LLM-based recommendation. UniRec first employs modality-specific encoders to produce consistent embeddings across heterogeneous signals. It then adopts a triplet representation, comprising attribute name, type, and value, to separate schema from raw inputs and preserve semantic distinctions. Finally, a hierarchical Q-Former models the nested structure of user interactions while maintaining their layered organization. Across multiple real-world benchmarks, UniRec outperforms state-of-the-art multimodal and LLM-based recommenders by up to 15%, and extensive ablation studies further validate the contributions of each component.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19259": {
+            "title": "Learning Collective Medication Effects via Multi-level Abstraction for Medication Recommendation",
+            "authors": "Yanda Wang, Weitong Chen, Chao Tan, Ian Nabney, Lin Yue, Genlin Ji",
+            "first_author": "Yanda Wang",
+            "url": "http://arxiv.org/abs/2601.19259v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19259",
+            "publish_date": "2026-01-27",
+            "abstract": "Historical prescriptions and selected candidate drugs relevant to the current visit serve as important references for medication recommendation. However, in the absence of explicit intrinsic principles for semantic composition, existing methods treat synergistic drugs as independent entities and fail to capture their collective therapeutic effects, resulting in a mismatch between medication-level references and longitudinal patient representations. In this paper, we propose MSAM, a novel medication recommendation model that bridges the gap via multi-level medication abstraction. The model introduces a multi-head graph reasoning mechanism to organize flat daily medication sets into clinically meaningful semantic units, serving as intermediate abstraction results to propagate features from individual drugs to higher-level representations. Building on these units, MSAM performs two-stage abstraction over historical prescriptions and selected candidates via intra- and inter-level feature propagation across heterogeneous clinical structures, capturing collective therapeutic effects aligned with patient conditions. Experiments on two real-world clinical datasets show that MSAM consistently outperforms state-of-the-art methods, validating the effectiveness of structural medication abstraction for recommendation.",
+            "primary_category": "cs.CE",
+            "code_url": "null"
+        },
+        "2601.19198": {
+            "title": "Propagating Similarity, Mitigating Uncertainty: Similarity Propagation-enhanced Uncertainty for Multimodal Recommendation",
+            "authors": "Xinzhuo Wu, Hongbo Wang, Yuan Lin, Kan Xu, Liang Yang, Hongfei Lin",
+            "first_author": "Xinzhuo Wu",
+            "url": "http://arxiv.org/abs/2601.19198v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19198",
+            "publish_date": "2026-01-27",
+            "abstract": "Multimodal Recommendation (MMR) systems are crucial for modern platforms but are often hampered by inherent noise and uncertainty in modal features, such as blurry images, diverse visual appearances, or ambiguous text. Existing methods often overlook this modality-specific uncertainty, leading to ineffective feature fusion. Furthermore, they fail to leverage rich similarity patterns among users and items to refine representations and their corresponding uncertainty estimates. To address these challenges, we propose a novel framework, Similarity Propagation-enhanced Uncertainty for Multimodal Recommendation (SPUMR). SPUMR explicitly models and mitigates uncertainty by first constructing the Modality Similarity Graph and the Collaborative Similarity Graph to refine representations from both content and behavioral perspectives. The Uncertainty-aware Preference Aggregation module then adaptively fuses the refined multimodal features, assigning greater weight to more reliable modalities. Extensive experiments on three benchmark datasets demonstrate that SPUMR achieves significant improvements over existing leading methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19178": {
+            "title": "CollectiveKV: Decoupling and Sharing Collaborative Information in Sequential Recommendation",
+            "authors": "Jingyu Li, Zhaocheng Du, Qianhui Zhu, kaiyuan Li, Zhicheng Zhang, Song-Li Wu, Chaolang Li, Pengwen Dai",
+            "first_author": "Jingyu Li",
+            "url": "http://arxiv.org/abs/2601.19178v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19178",
+            "publish_date": "2026-01-27",
+            "abstract": "Sequential recommendation models are widely used in applications, yet they face stringent latency requirements. Mainstream models leverage the Transformer attention mechanism to improve performance, but its computational complexity grows with the sequence length, leading to a latency challenge for long sequences. Consequently, KV cache technology has recently been explored in sequential recommendation systems to reduce inference latency. However, KV cache introduces substantial storage overhead in sequential recommendation systems, which often have a large user base with potentially very long user history sequences. In this work, we observe that KV sequences across different users exhibit significant similarities, indicating the existence of collaborative signals in KV. Furthermore, we analyze the KV using singular value decomposition (SVD) and find that the information in KV can be divided into two parts: the majority of the information is shareable across users, while a small portion is user-specific. Motivated by this, we propose CollectiveKV, a cross-user KV sharing mechanism. It captures the information shared across users through a learnable global KV pool. During inference, each user retrieves high-dimensional shared KV from the pool and concatenates them with low-dimensional user-specific KV to obtain the final KV. Experiments on five sequential recommendation models and three datasets show that our method can compress the KV cache to only 0.8% of its original size, while maintaining or even enhancing model performance.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2601.19158": {
+            "title": "Accelerating Generative Recommendation via Simple Categorical User Sequence Compression",
+            "authors": "Qijiong Liu, Lu Fan, Zhongzhou Liu, Xiaoyu Dong, Yuankai Luo, Guoyuan An, Nuo Chen, Wei Guo, Yong Liu, Xiao-Ming Wu",
+            "first_author": "Qijiong Liu",
+            "url": "http://arxiv.org/abs/2601.19158v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19158",
+            "publish_date": "2026-01-27",
+            "abstract": "Although generative recommenders demonstrate improved performance with longer sequences, their real-time deployment is hindered by substantial computational costs. To address this challenge, we propose a simple yet effective method for compressing long-term user histories by leveraging inherent item categorical features, thereby preserving user interests while enhancing efficiency. Experiments on two large-scale datasets demonstrate that, compared to the influential HSTU model, our approach achieves up to a 6x reduction in computational cost and up to 39% higher accuracy at comparable cost (i.e., similar sequence length).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19121": {
+            "title": "LLMs as Orchestrators: Constraint-Compliant Multi-Agent Optimization for Recommendation Systems",
+            "authors": "Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu",
+            "first_author": "Guilin Zhang",
+            "url": "http://arxiv.org/abs/2601.19121v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19121",
+            "publish_date": "2026-01-27",
+            "abstract": "Recommendation systems must optimize multiple objectives while satisfying hard business constraints such as fairness and coverage. For example, an e-commerce platform may require every recommendation list to include items from multiple sellers and at least one newly listed product; violating such constraints--even once--is unacceptable in production. Prior work on multi-objective recommendation and recent LLM-based recommender agents largely treat constraints as soft penalties or focus on item scoring and interaction, leading to frequent violations in real-world deployments. How to leverage LLMs for coordinating constrained optimization in recommendation systems remains underexplored. We propose DualAgent-Rec, an LLM-coordinated dual-agent framework for constrained multi-objective e-commerce recommendation. The framework separates optimization into an Exploitation Agent that prioritizes accuracy under hard constraints and an Exploration Agent that promotes diversity through unconstrained Pareto search. An LLM-based coordinator adaptively allocates resources between agents based on optimization progress and constraint satisfaction, while an adaptive epsilon-relaxation mechanism guarantees feasibility of final solutions. Experiments on the Amazon Reviews 2023 dataset demonstrate that DualAgent-Rec achieves 100% constraint satisfaction and improves Pareto hypervolume by 4-6% over strong baselines, while maintaining competitive accuracy-diversity trade-offs. These results indicate that LLMs can act as effective orchestration agents for deployable and constraint-compliant recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.19120": {
+            "title": "RobustExplain: Evaluating Robustness of LLM-Based Explanation Agents for Recommendation",
+            "authors": "Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu",
+            "first_author": "Guilin Zhang",
+            "url": "http://arxiv.org/abs/2601.19120v1",
+            "pdf_url": "http://arxiv.org/abs/2601.19120",
+            "publish_date": "2026-01-27",
+            "abstract": "Large Language Models (LLMs) are increasingly used to generate natural-language explanations in recommender systems, acting as explanation agents that reason over user behavior histories. While prior work has focused on explanation fluency and relevance under fixed inputs, the robustness of LLM-generated explanations to realistic user behavior noise remains largely unexplored. In real-world web platforms, interaction histories are inherently noisy due to accidental clicks, temporal inconsistencies, missing values, and evolving preferences, raising concerns about explanation stability and user trust. We present RobustExplain, the first systematic evaluation framework for measuring the robustness of LLM-generated recommendation explanations. RobustExplain introduces five realistic user behavior perturbations evaluated across multiple severity levels and a multi-dimensional robustness metric capturing semantic, keyword, structural, and length consistency. Our goal is to establish a principled, task-level evaluation framework and initial robustness baselines, rather than to provide a comprehensive leaderboard across all available LLMs. Experiments on four representative LLMs (7B--70B) show that current models exhibit only moderate robustness, with larger models achieving up to 8% higher stability. Our results establish the first robustness benchmarks for explanation agents and highlight robustness as a critical dimension for trustworthy, agent-driven recommender systems at web scale.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
