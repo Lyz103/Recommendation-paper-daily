@@ -9954,6 +9954,94 @@
             "abstract": "Large Language Models (LLMs) are increasingly used to generate natural-language explanations in recommender systems, acting as explanation agents that reason over user behavior histories. While prior work has focused on explanation fluency and relevance under fixed inputs, the robustness of LLM-generated explanations to realistic user behavior noise remains largely unexplored. In real-world web platforms, interaction histories are inherently noisy due to accidental clicks, temporal inconsistencies, missing values, and evolving preferences, raising concerns about explanation stability and user trust. We present RobustExplain, the first systematic evaluation framework for measuring the robustness of LLM-generated recommendation explanations. RobustExplain introduces five realistic user behavior perturbations evaluated across multiple severity levels and a multi-dimensional robustness metric capturing semantic, keyword, structural, and length consistency. Our goal is to establish a principled, task-level evaluation framework and initial robustness baselines, rather than to provide a comprehensive leaderboard across all available LLMs. Experiments on four representative LLMs (7B--70B) show that current models exhibit only moderate robustness, with larger models achieving up to 8% higher stability. Our results establish the first robustness benchmarks for explanation agents and highlight robustness as a critical dimension for trustworthy, agent-driven recommender systems at web scale.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2601.20848": {
+            "title": "Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation",
+            "authors": "Weixin Chen, Li Chen, Yuhan Zhao",
+            "first_author": "Weixin Chen",
+            "url": "http://arxiv.org/abs/2601.20848v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20848",
+            "publish_date": "2026-01-28",
+            "abstract": "Despite growing efforts to mitigate unfairness in recommender systems, existing fairness-aware methods typically fix the fairness requirement at training time and provide limited post-training flexibility. However, in real-world scenarios, diverse stakeholders may demand differing fairness requirements over time, so retraining for different fairness requirements becomes prohibitive. To address this limitation, we propose Cofair, a single-train framework that enables post-training fairness control in recommendation. Specifically, Cofair introduces a shared representation layer with fairness-conditioned adapter modules to produce user embeddings specialized for varied fairness levels, along with a user-level regularization term that guarantees user-wise monotonic fairness improvements across these levels. We theoretically establish that the adversarial objective of Cofair upper bounds demographic parity and the regularization term enforces progressive fairness at user level. Comprehensive experiments on multiple datasets and backbone models demonstrate that our framework provides dynamic fairness at different levels, delivering comparable or better fairness-accuracy curves than state-of-the-art baselines, without the need to retrain for each new fairness requirement. Our code is publicly available at https://github.com/weixinchen98/Cofair.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2601.20316": {
+            "title": "Less is More: Benchmarking LLM Based Recommendation Agents",
+            "authors": "Kargi Chauhan, Mahalakshmi Venkateswarlu",
+            "first_author": "Kargi Chauhan",
+            "url": "http://arxiv.org/abs/2601.20316v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20316",
+            "publish_date": "2026-01-28",
+            "abstract": "Large Language Models (LLMs) are increasingly deployed for personalized product recommendations, with practitioners commonly assuming that longer user purchase histories lead to better predictions. We challenge this assumption through a systematic benchmark of four state of the art LLMs GPT-4o-mini, DeepSeek-V3, Qwen2.5-72B, and Gemini 2.5 Flash across context lengths ranging from 5 to 50 items using the REGEN dataset.   Surprisingly, our experiments with 50 users in a within subject design reveal no significant quality improvement with increased context length. Quality scores remain flat across all conditions (0.17--0.23). Our findings have significant practical implications: practitioners can reduce inference costs by approximately 88\\% by using context (5--10 items) instead of longer histories (50 items), without sacrificing recommendation quality. We also analyze latency patterns across providers and find model specific behaviors that inform deployment decisions. This work challenges the existing ``more context is better'' paradigm and provides actionable guidelines for cost effective LLM based recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.20240": {
+            "title": "Understanding npm Developers' Practices, Challenges, and Recommendations for Secure Package Development",
+            "authors": "Anthony Peruma, Truman Choy, Gerald Lee, Italo De Oliveira Santos",
+            "first_author": "Anthony Peruma",
+            "url": "http://arxiv.org/abs/2601.20240v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20240",
+            "publish_date": "2026-01-28",
+            "abstract": "Background: The Node Package Manager (npm) ecosystem plays a vital role in modern software development by providing a vast repository of packages and tools that developers can use to implement their software systems. However, recent vulnerabilities in third-party packages have led to serious security breaches, compromising the integrity of applications that depend on them. Objective: This study investigates how npm package developers perceive and handle security in their work. We examined developers' understanding of security risks, the practices and tools they use, the barriers to stronger security measures, and their suggestions for improving the npm ecosystem's security. Method: We conducted an online survey with 75 npm package developers and undertook a mixed-methods approach to analyzing their responses. Results: While developers prioritize security, they perceive their packages as only moderately secure, with concerns about supply chain attacks, dependency vulnerabilities, and malicious code. Only 40% are satisfied with the current npm security tools due to issues such as alert fatigue. Automated methods such as two-factor authentication and npm audit are favored over code reviews. Many drop dependencies due to abandonment or vulnerabilities, and typically respond to vulnerabilities in their packages by quickly releasing patches. Key barriers include time constraints and high false-positive rates. To improve npm security, developers seek better detection tools, clearer documentation, stronger account protections, and more education initiatives. Conclusion: Our findings will benefit npm package contributors and maintainers by highlighting prevalent security challenges and promoting discussions on best practices to strengthen security and trustworthiness within the npm landscape.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2601.20234": {
+            "title": "MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation",
+            "authors": "Qihang Yu, Kairui Fu, Zhaocheng Du, Yuxuan Si, Kaiyuan Li, Weihao Zhao, Zhicheng Zhang, Jieming Zhu, Quanyu Dai, Zhenhua Dong, Shengyu Zhang, Kun Kuang, Fei Wu",
+            "first_author": "Qihang Yu",
+            "url": "http://arxiv.org/abs/2601.20234v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20234",
+            "publish_date": "2026-01-28",
+            "abstract": "The scaling law, which indicates that model performance improves with increasing dataset and model capacity, has fueled a growing trend in expanding recommendation models in both industry and academia. However, the advent of large-scale recommenders also brings significantly higher computational costs, particularly under the long-sequence dependencies inherent in the user intent of recommendation systems. Current approaches often rely on pre-storing the intermediate states of the past behavior for each user, thereby reducing the quadratic re-computation cost for the following requests. Despite their effectiveness, these methods often treat memory merely as a medium for acceleration, without adequately considering the space overhead it introduces. This presents a critical challenge in real-world recommendation systems with billions of users, each of whom might initiate thousands of interactions and require massive memory for state storage. Fortunately, there have been several memory management strategies examined for compression in LLM, while most have not been evaluated on the recommendation task. To mitigate this gap, we introduce MALLOC, a comprehensive benchmark for memory-aware long sequence compression. MALLOC presents a comprehensive investigation and systematic classification of memory management techniques applicable to large sequential recommendations. These techniques are integrated into state-of-the-art recommenders, enabling a reproducible and accessible evaluation platform. Through extensive experiments across accuracy, efficiency, and complexity, we demonstrate the holistic reliability of MALLOC in advancing large-scale recommendation. Code is available at https://anonymous.4open.science/r/MALLOC.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.20215": {
+            "title": "Towards End-to-End Alignment of User Satisfaction via Questionnaire in Video Recommendation",
+            "authors": "Na Li, Jiaqi Yu, Minzhi Xie, Tiantian He, Xiaoxiao Xu, Zixiu Wang, Lantao Hu, Yongqi Liu, Han Li, Kaiqiao Zhan, Kun Gai",
+            "first_author": "Na Li",
+            "url": "http://arxiv.org/abs/2601.20215v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20215",
+            "publish_date": "2026-01-28",
+            "abstract": "Short-video recommender systems typically optimize ranking models using dense user behavioral signals, such as clicks and watch time. However, these signals are only indirect proxies of user satisfaction and often suffer from noise and bias. Recently, explicit satisfaction feedback collected through questionnaires has emerged as a high-quality direct alignment supervision, but is extremely sparse and easily overwhelmed by abundant behavioral data, making it difficult to incorporate into online recommendation models. To address these challenges, we propose a novel framework which is towards End-to-End Alignment of user Satisfaction via Questionaire, named EASQ, to enable real-time alignment of ranking models with true user satisfaction. Specifically, we first construct an independent parameter pathway for sparse questionnaire signals by combining a multi-task architecture and a lightweight LoRA module. The multi-task design separates sparse satisfaction supervision from dense behavioral signals, preventing the former from being overwhelmed. The LoRA module pre-inject these preferences in a parameter-isolated manner, ensuring stability in the backbone while optimizing user satisfaction. Furthermore, we employ a DPO-based optimization objective tailored for online learning, which aligns the main model outputs with sparse satisfaction signals in real time. This design enables end-to-end online learning, allowing the model to continuously adapt to new questionnaire feedback while maintaining the stability and effectiveness of the backbone. Extensive offline experiments and large-scale online A/B tests demonstrate that EASQ consistently improves user satisfaction metrics across multiple scenarios. EASQ has been successfully deployed in a production short-video recommendation system, delivering significant and stable business gains.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.20199": {
+            "title": "MERGE: Next-Generation Item Indexing Paradigm for Large-Scale Streaming Recommendation",
+            "authors": "Jing Yan, Yimeng Bai, Zongyu Liu, Yahui Liu, Junwei Wang, Jingze Huang, Haoda Li, Sihao Ding, Shaohui Ruan, Yang Zhang",
+            "first_author": "Jing Yan",
+            "url": "http://arxiv.org/abs/2601.20199v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20199",
+            "publish_date": "2026-01-28",
+            "abstract": "Item indexing, which maps a large corpus of items into compact discrete representations, is critical for both discriminative and generative recommender systems, yet existing Vector Quantization (VQ)-based approaches struggle with the highly skewed and non-stationary item distributions common in streaming industry recommenders, leading to poor assignment accuracy, imbalanced cluster occupancy, and insufficient cluster separation. To address these challenges, we propose MERGE, a next-generation item indexing paradigm that adaptively constructs clusters from scratch, dynamically monitors cluster occupancy, and forms hierarchical index structures via fine-to-coarse merging. Extensive experiments demonstrate that MERGE significantly improves assignment accuracy, cluster uniformity, and cluster separation compared with existing indexing methods, while online A/B tests show substantial gains in key business metrics, highlighting its potential as a foundational indexing approach for large-scale recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2601.20161": {
+            "title": "Supporting Informed Self-Disclosure: Design Recommendations for Presenting AI-Estimates of Privacy Risks to Users",
+            "authors": "Isadora Krsek, Meryl Ye, Wei Xu, Alan Ritter, Laura Dabbish, Sauvik Das",
+            "first_author": "Isadora Krsek",
+            "url": "http://arxiv.org/abs/2601.20161v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20161",
+            "publish_date": "2026-01-28",
+            "abstract": "People candidly discuss sensitive topics online under the perceived safety of anonymity; yet, for many, this perceived safety is tenuous, as miscalibrated risk perceptions can lead to over-disclosure. Recent advances in Natural Language Processing (NLP) afford an unprecedented opportunity to present users with quantified disclosure-based re-identification risk (i.e., \"population risk estimates\", PREs). How can PREs be presented to users in a way that promotes informed decision-making, mitigating risk without encouraging unnecessary self-censorship? Using design fictions and comic-boarding, we story-boarded five design concepts for presenting PREs to users and evaluated them through an online survey with N = 44 Reddit users. We found participants had detailed conceptions of how PREs may impact risk awareness and motivation, but envisioned needing additional context and support to effectively interpret and act on risks. We distill our findings into four key design recommendations for how best to present users with quantified privacy risks to support informed disclosure decision-making.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2601.20083": {
+            "title": "LLaTTE: Scaling Laws for Multi-Stage Sequence Modeling in Large-Scale Ads Recommendation",
+            "authors": "Lee Xiong, Zhirong Chen, Rahul Mayuranath, Shangran Qiu, Arda Ozdemir, Lu Li, Yang Hu, Dave Li, Jingtao Ren, Howard Cheng, Fabian Souto Herrera, Ahmed Agiza, Baruch Epshtein, Anuj Aggarwal, Julia Ulziisaikhan, Chao Wang, Dinesh Ramasamy, Parshva Doshi, Sri Reddy, Arnold Overwijk",
+            "first_author": "Lee Xiong",
+            "url": "http://arxiv.org/abs/2601.20083v1",
+            "pdf_url": "http://arxiv.org/abs/2601.20083",
+            "publish_date": "2026-01-27",
+            "abstract": "We present LLaTTE (LLM-Style Latent Transformers for Temporal Events), a scalable transformer architecture for production ads recommendation. Through systematic experiments, we demonstrate that sequence modeling in recommendation systems follows predictable power-law scaling similar to LLMs. Crucially, we find that semantic features bend the scaling curve: they are a prerequisite for scaling, enabling the model to effectively utilize the capacity of deeper and longer architectures. To realize the benefits of continued scaling under strict latency constraints, we introduce a two-stage architecture that offloads the heavy computation of large, long-context models to an asynchronous upstream user model. We demonstrate that upstream improvements transfer predictably to downstream ranking tasks. Deployed as the largest user model at Meta, this multi-stage framework drives a 4.3\\% conversion uplift on Facebook Feed and Reels with minimal serving overhead, establishing a practical blueprint for harnessing scaling laws in industrial recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
