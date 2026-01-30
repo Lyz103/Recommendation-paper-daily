@@ -8,6 +8,12 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-29 | **SpecTran: Spectral-Aware Transformer-based Adapter for LLM-Enhanced Sequential Recommendation** | Yu Cui, Feng Liu, Zhaoxiang Wang, Changwang Zhang, Jun Wang, Can Wang, Jiawei Chen | [Link](http://arxiv.org/abs/2601.21986) | Not Available |
+| 2026-01-29 | **The Double-Edged Sword of Knowledge Transfer: Diagnosing and Curing Fairness Pathologies in Cross-Domain Recommendation** | Yuhan Zhao, Weixin Chen, Li Chen, Weike Pan | [Link](http://arxiv.org/abs/2601.21805) | Not Available |
+| 2026-01-29 | **SAGE: Sequence-level Adaptive Gradient Evolution for Generative Recommendation** | Yu Xie, Xing Kai Ren, Ying Qi, Hu Yao | [Link](http://arxiv.org/abs/2601.21452) | Not Available |
+| 2026-01-29 | **Modeling Endogenous Logic: Causal Neuro-Symbolic Reasoning Model for Explainable Multi-Behavior Recommendation** | Yuzhe Chen, Jie Cao, Youquan Wang, Haicheng Tao, Darko B. Vukovic, Jia Wu | [Link](http://arxiv.org/abs/2601.21335) | Not Available |
+| 2026-01-29 | **Zenith: Scaling up Ranking Models for Billion-scale Livestreaming Recommendation** | Ruifeng Zhang, Zexi Huang, Zikai Wang, Ke Sun, Bohang Zheng, Zhen Ouyang, Huimin Xie, Phil Shen, Junlin Zhang, Wentao Guo, Qinglei Wang | [Link](http://arxiv.org/abs/2601.21285) | Not Available |
+| 2026-01-28 | **SteerEval: A Framework for Evaluating Steerability with Natural Language Profiles for Recommendation** | Joyce Zhou, Weijie Zhou, Doug Turnbull, Thorsten Joachims | [Link](http://arxiv.org/abs/2601.21105) | Not Available |
 | 2026-01-28 | **Post-Training Fairness Control: A Single-Train Framework for Dynamic Fairness in Recommendation** | Weixin Chen, Li Chen, Yuhan Zhao | [Link](http://arxiv.org/abs/2601.20848) | Not Available |
 | 2026-01-28 | **Less is More: Benchmarking LLM Based Recommendation Agents** | Kargi Chauhan, Mahalakshmi Venkateswarlu | [Link](http://arxiv.org/abs/2601.20316) | Not Available |
 | 2026-01-28 | **Understanding npm Developers' Practices, Challenges, and Recommendations for Secure Package Development** | Anthony Peruma, Truman Choy, Gerald Lee, Italo De Oliveira Santos | [Link](http://arxiv.org/abs/2601.20240) | Not Available |
