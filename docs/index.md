@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-01-30 | **BEAR: Towards Beam-Search-Aware Optimization for Recommendation with Large Language Models** | Weiqin Yang, Bohao Wang, Zhenxiang Xu, Jiawei Chen, Shengjia Zhang, Jingbang Chen, Canghong Jin, Can Wang | [Link](http://arxiv.org/abs/2601.22925) | Not Available |
+| 2026-01-30 | **User-Adaptive Meta-Learning for Cold-Start Medication Recommendation with Uncertainty Filtering** | Arya Hadizadeh Moghaddam, Mohsen Nayebi Kerdabadi, Dongjie Wang, Mei Liu, Zijun Yao | [Link](http://arxiv.org/abs/2601.22820) | Not Available |
+| 2026-01-30 | **SCaLRec: Semantic Calibration for LLM-enabled Cloud-Device Sequential Recommendation** | Ruiqi Zheng, Jinli Cao, Jiao Yin, Hongzhi Yin | [Link](http://arxiv.org/abs/2601.22543) | Not Available |
+| 2026-01-30 | **FITMM: Adaptive Frequency-Aware Multimodal Recommendation via Information-Theoretic Representation Learning** | Wei Yang, Rui Zhong, Yiqun Chen, Shixuan Li, Heng Ping, Chi Lu, Peng Jiang | [Link](http://arxiv.org/abs/2601.22498) | Not Available |
 | 2026-01-29 | **SpecTran: Spectral-Aware Transformer-based Adapter for LLM-Enhanced Sequential Recommendation** | Yu Cui, Feng Liu, Zhaoxiang Wang, Changwang Zhang, Jun Wang, Can Wang, Jiawei Chen | [Link](http://arxiv.org/abs/2601.21986) | Not Available |
 | 2026-01-29 | **The Double-Edged Sword of Knowledge Transfer: Diagnosing and Curing Fairness Pathologies in Cross-Domain Recommendation** | Yuhan Zhao, Weixin Chen, Li Chen, Weike Pan | [Link](http://arxiv.org/abs/2601.21805) | Not Available |
 | 2026-01-29 | **SAGE: Sequence-level Adaptive Gradient Evolution for Generative Recommendation** | Yu Xie, Xing Kai Ren, Ying Qi, Hu Yao | [Link](http://arxiv.org/abs/2601.21452) | Not Available |
