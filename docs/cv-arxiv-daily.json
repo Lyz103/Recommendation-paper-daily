@@ -9937,7 +9937,7 @@
             "title": "LLMs as Orchestrators: Constraint-Compliant Multi-Agent Optimization for Recommendation Systems",
             "authors": "Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu",
             "first_author": "Guilin Zhang",
-            "url": "http://arxiv.org/abs/2601.19121v2",
+            "url": "http://arxiv.org/abs/2601.19121v3",
             "pdf_url": "http://arxiv.org/abs/2601.19121",
             "publish_date": "2026-01-27",
             "abstract": "Recommendation systems must optimize multiple objectives while satisfying hard business constraints such as fairness and coverage. For example, an e-commerce platform may require every recommendation list to include items from multiple sellers and at least one newly listed product; violating such constraints--even once--is unacceptable in production. Prior work on multi-objective recommendation and recent LLM-based recommender agents largely treat constraints as soft penalties or focus on item scoring and interaction, leading to frequent violations in real-world deployments. How to leverage LLMs for coordinating constrained optimization in recommendation systems remains underexplored. We propose DualAgent-Rec, an LLM-coordinated dual-agent framework for constrained multi-objective e-commerce recommendation. The framework separates optimization into an Exploitation Agent that prioritizes accuracy under hard constraints and an Exploration Agent that promotes diversity through unconstrained Pareto search. An LLM-based coordinator adaptively allocates resources between agents based on optimization progress and constraint satisfaction, while an adaptive epsilon-relaxation mechanism guarantees feasibility of final solutions. Experiments on the Amazon Reviews 2023 dataset demonstrate that DualAgent-Rec achieves 100% constraint satisfaction and improves Pareto hypervolume by 4-6% over strong baselines, while maintaining competitive accuracy-diversity trade-offs. These results indicate that LLMs can act as effective orchestration agents for deployable and constraint-compliant recommendation systems.",
@@ -9948,7 +9948,7 @@
             "title": "RobustExplain: Evaluating Robustness of LLM-Based Explanation Agents for Recommendation",
             "authors": "Guilin Zhang, Kai Zhao, Jeffrey Friedman, Xu Chu",
             "first_author": "Guilin Zhang",
-            "url": "http://arxiv.org/abs/2601.19120v2",
+            "url": "http://arxiv.org/abs/2601.19120v3",
             "pdf_url": "http://arxiv.org/abs/2601.19120",
             "publish_date": "2026-01-27",
             "abstract": "Large Language Models (LLMs) are increasingly used to generate natural-language explanations in recommender systems, acting as explanation agents that reason over user behavior histories. While prior work has focused on explanation fluency and relevance under fixed inputs, the robustness of LLM-generated explanations to realistic user behavior noise remains largely unexplored. In real-world web platforms, interaction histories are inherently noisy due to accidental clicks, temporal inconsistencies, missing values, and evolving preferences, raising concerns about explanation stability and user trust. We present RobustExplain, the first systematic evaluation framework for measuring the robustness of LLM-generated recommendation explanations. RobustExplain introduces five realistic user behavior perturbations evaluated across multiple severity levels and a multi-dimensional robustness metric capturing semantic, keyword, structural, and length consistency. Our goal is to establish a principled, task-level evaluation framework and initial robustness baselines, rather than to provide a comprehensive leaderboard across all available LLMs. Experiments on four representative LLMs (7B--70B) show that current models exhibit only moderate robustness, with larger models achieving up to 8% higher stability. Our results establish the first robustness benchmarks for explanation agents and highlight robustness as a critical dimension for trustworthy, agent-driven recommender systems at web scale.",
@@ -10261,6 +10261,83 @@
             "publish_date": "2026-01-30",
             "abstract": "Federated learning (FL) enables collaborative model training over privacy-sensitive, distributed data, but its environmental impact is difficult to compare across studies due to inconsistent measurement boundaries and heterogeneous reporting. We present a practical carbon-accounting methodology for FL CO2e tracking using NVIDIA NVFlare and CodeCarbon for explicit, phase-aware tasks (initialization, per-round training, evaluation, and idle/coordination). To capture non-compute effects, we additionally estimate communication emissions from transmitted model-update sizes under a network-configurable energy model. We validate the proposed approach on two representative workloads: CIFAR-10 image classification and retinal optic disk segmentation. In CIFAR-10, controlled client-efficiency scenarios show that system-level slowdowns and coordination effects can contribute meaningfully to carbon footprint under an otherwise fixed FL protocol, increasing total CO2e by 8.34x (medium) and 21.73x (low) relative to the high-efficiency baseline. In retinal segmentation, swapping GPU tiers (H100 vs.\\ V100) yields a consistent 1.7x runtime gap (290 vs. 503 minutes) while producing non-uniform changes in total energy and CO2e across sites, underscoring the need for per-site and per-round reporting. Overall, our results support a standardized carbon accounting method that acts as a prerequisite for reproducible 'green' FL evaluation. Our code is available at https://github.com/Pediatric-Accelerated-Intelligence-Lab/carbon_footprint.",
             "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2602.03713": {
+            "title": "Multimodal Generative Recommendation for Fusing Semantic and Collaborative Signals",
+            "authors": "Moritz Vandenhirtz, Kaveh Hassani, Shervin Ghasemlou, Shuai Shao, Hamid Eghbalzadeh, Fuchun Peng, Jun Liu, Michael Louis Iuzzolino",
+            "first_author": "Moritz Vandenhirtz",
+            "url": "http://arxiv.org/abs/2602.03713v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03713",
+            "publish_date": "2026-02-03",
+            "abstract": "Sequential recommender systems rank relevant items by modeling a user's interaction history and computing the inner product between the resulting user representation and stored item embeddings. To avoid the significant memory overhead of storing large item sets, the generative recommendation paradigm instead models each item as a series of discrete semantic codes. Here, the next item is predicted by an autoregressive model that generates the code sequence corresponding to the predicted item. However, despite promising ranking capabilities on small datasets, these methods have yet to surpass traditional sequential recommenders on large item sets, limiting their adoption in the very scenarios they were designed to address. To resolve this, we propose MSCGRec, a Multimodal Semantic and Collaborative Generative Recommender. MSCGRec incorporates multiple semantic modalities and introduces a novel self-supervised quantization learning approach for images based on the DINO framework. Additionally, MSCGRec fuses collaborative and semantic signals by extracting collaborative features from sequential recommenders and treating them as a separate modality. Finally, we propose constrained sequence learning that restricts the large output space during training to the set of permissible tokens. We empirically demonstrate on three large real-world datasets that MSCGRec outperforms both sequential and generative recommendation baselines and provide an extensive ablation study to validate the impact of each component.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.03692": {
+            "title": "Bringing Reasoning to Generative Recommendation Through the Lens of Cascaded Ranking",
+            "authors": "Xinyu Lin, Pengyuan Liu, Wenjie Wang, Yicheng Hu, Chen Xu, Fuli Feng, Qifan Wang, Tat-Seng Chua",
+            "first_author": "Xinyu Lin",
+            "url": "http://arxiv.org/abs/2602.03692v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03692",
+            "publish_date": "2026-02-03",
+            "abstract": "Generative Recommendation (GR) has become a promising end-to-end approach with high FLOPS utilization for resource-efficient recommendation. Despite the effectiveness, we show that current GR models suffer from a critical \\textbf{bias amplification} issue, where token-level bias escalates as token generation progresses, ultimately limiting the recommendation diversity and hurting the user experience. By comparing against the key factor behind the success of traditional multi-stage pipelines, we reveal two limitations in GR that can amplify the bias: homogeneous reliance on the encoded history, and fixed computational budgets that prevent deeper user preference understanding.   To combat the bias amplification issue, it is crucial for GR to 1) incorporate more heterogeneous information, and 2) allocate greater computational resources at each token generation step. To this end, we propose CARE, a simple yet effective cascaded reasoning framework for debiased GR. To incorporate heterogeneous information, we introduce a progressive history encoding mechanism, which progressively incorporates increasingly fine-grained history information as the generation process advances. To allocate more computations, we propose a query-anchored reasoning mechanism, which seeks to perform a deeper understanding of historical information through parallel reasoning steps. We instantiate CARE on three GR backbones. Empirical results on four datasets show the superiority of CARE in recommendation accuracy, diversity, efficiency, and promising scalability. The codes and datasets are available at https://github.com/Linxyhaha/CARE.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.03416": {
+            "title": "AesRec: A Dataset for Aesthetics-Aligned Clothing Outfit Recommendation",
+            "authors": "Wenxin Ye, Lin Li, Ming Li, Yang Shen, Kanghong Wang, Jimmy Xiangji Huang",
+            "first_author": "Wenxin Ye",
+            "url": "http://arxiv.org/abs/2602.03416v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03416",
+            "publish_date": "2026-02-03",
+            "abstract": "Clothing recommendation extends beyond merely generating personalized outfits; it serves as a crucial medium for aesthetic guidance. However, existing methods predominantly rely on user-item-outfit interaction behaviors while overlooking explicit representations of clothing aesthetics. To bridge this gap, we present the AesRec benchmark dataset featuring systematic quantitative aesthetic annotations, thereby enabling the development of aesthetics-aligned recommendation systems. Grounded in professional apparel quality standards and fashion aesthetic principles, we define a multidimensional set of indicators. At the item level, six dimensions are independently assessed: silhouette, chromaticity, materiality, craftsmanship, wearability, and item-level impression. Transitioning to the outfit level, the evaluation retains the first five core attributes while introducing stylistic synergy, visual harmony, and outfit-level impression as distinct metrics to capture the collective aesthetic impact. Given the increasing human-like proficiency of Vision-Language Models in multimodal understanding and interaction, we leverage them for large-scale aesthetic scoring. We conduct rigorous human-machine consistency validation on a fashion dataset, confirming the reliability of the generated ratings. Experimental results based on AesRec further demonstrate that integrating quantified aesthetic information into clothing recommendation models can provide aesthetic guidance for users while fulfilling their personalized requirements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.03324": {
+            "title": "SCASRec: A Self-Correcting and Auto-Stopping Model for Generative Route List Recommendation",
+            "authors": "Chao Chen, Longfei Xu, Daohan Su, Tengfei Liu, Hanyu Guo, Yihai Duan, Kaikui Liu, Xiangxiang Chu",
+            "first_author": "Chao Chen",
+            "url": "http://arxiv.org/abs/2602.03324v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03324",
+            "publish_date": "2026-02-03",
+            "abstract": "Route recommendation systems commonly adopt a multi-stage pipeline involving fine-ranking and re-ranking to produce high-quality ordered recommendations. However, this paradigm faces three critical limitations. First, there is a misalignment between offline training objectives and online metrics. Offline gains do not necessarily translate to online improvements. Actual performance must be validated through A/B testing, which may potentially compromise the user experience. Second, redundancy elimination relies on rigid, handcrafted rules that lack adaptability to the high variance in user intent and the unstructured complexity of real-world scenarios. Third, the strict separation between fine-ranking and re-ranking stages leads to sub-optimal performance. Since each module is optimized in isolation, the fine-ranking stage remains oblivious to the list-level objectives (e.g., diversity) targeted by the re-ranker, thereby preventing the system from achieving a jointly optimized global optimum. To overcome these intertwined challenges, we propose \\textbf{SCASRec} (\\textbf{S}elf-\\textbf{C}orrecting and \\textbf{A}uto-\\textbf{S}topping \\textbf{Rec}ommendation), a unified generative framework that integrates ranking and redundancy elimination into a single end-to-end process. SCASRec introduces a stepwise corrective reward (SCR) to guide list-wise refinement by focusing on hard samples, and employs a learnable End-of-Recommendation (EOR) token to terminate generation adaptively when no further improvement is expected. Experiments on two large-scale, open-sourced route recommendation datasets demonstrate that SCASRec establishes an SOTA in offline and online settings. SCASRec has been fully deployed in a real-world navigation app, demonstrating its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.03127": {
+            "title": "Cyber Insurance, Audit, and Policy: Review, Analysis and Recommendations",
+            "authors": "Danielle Jean Hanson, Jeremy Straub",
+            "first_author": "Danielle Jean Hanson",
+            "url": "http://arxiv.org/abs/2602.03127v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03127",
+            "publish_date": "2026-02-03",
+            "abstract": "Cyber insurance, which protects insured organizations against financial losses from cyberattacks and data breaches, can be difficult and expensive to obtain for many organizations. These difficulties stem from insurers difficulty in understanding and accurately assessing the risks that they are undertaking. Cybersecurity audits, which are already implemented in many organizations for compliance and other purposes, present a potential solution to this challenge. This paper provides a structured review and analysis of prior work in this area, analysis of the challenges and potential benefits that cyber audits provide and recommendations for the use of cyber audits to reduce cyber insurance costs and improve its availability.",
+            "primary_category": "cs.CR",
+            "code_url": "null"
+        },
+        "2602.03097": {
+            "title": "De-conflating Preference and Qualification: Constrained Dual-Perspective Reasoning for Job Recommendation with Large Language Models",
+            "authors": "Bryce Kan, Wei Yang, Emily Nguyen, Ganghui Yi, Bowen Yi, Chenxiao Yu, Yan Liu",
+            "first_author": "Bryce Kan",
+            "url": "http://arxiv.org/abs/2602.03097v1",
+            "pdf_url": "http://arxiv.org/abs/2602.03097",
+            "publish_date": "2026-02-03",
+            "abstract": "Professional job recommendation involves a complex bipartite matching process that must reconcile a candidate's subjective preference with an employer's objective qualification. While Large Language Models (LLMs) are well-suited for modeling the rich semantics of resumes and job descriptions, existing paradigms often collapse these two decision dimensions into a single interaction signal, yielding confounded supervision under recruitment-funnel censoring and limiting policy controllability. To address these challenges, We propose JobRec, a generative job recommendation framework for de-conflating preference and qualification via constrained dual-perspective reasoning. JobRec introduces a Unified Semantic Alignment Schema that aligns candidate and job attributes into structured semantic layers, and a Two-Stage Cooperative Training Strategy that learns decoupled experts to separately infer preference and qualification. Building on these experts, a Lagrangian-based Policy Alignment module optimizes recommendations under explicit eligibility requirements, enabling controllable trade-offs. To mitigate data scarcity, we construct a synthetic dataset refined by experts. Experiments show that JobRec consistently outperforms strong baselines and provides improved controllability for strategy-aware professional matching.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.02582": {
+            "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
+            "authors": "Chandan Kumar Sah, Xiaoli Lian, Li Zhang, Tony Xu, Syed Shazaib Shah",
+            "first_author": "Chandan Kumar Sah",
+            "url": "http://arxiv.org/abs/2602.02582v1",
+            "pdf_url": "http://arxiv.org/abs/2602.02582",
+            "publish_date": "2026-01-31",
+            "abstract": "Large language models (LLMs) enable powerful zero-shot recommendations by leveraging broad contextual knowledge, yet predictive uncertainty and embedded biases threaten reliability and fairness. This paper studies how uncertainty and fairness evaluations affect the accuracy, consistency, and trustworthiness of LLM-generated recommendations. We introduce a benchmark of curated metrics and a dataset annotated for eight demographic attributes (31 categorical values) across two domains: movies and music. Through in-depth case studies, we quantify predictive uncertainty (via entropy) and demonstrate that Google DeepMind's Gemini 1.5 Flash exhibits systematic unfairness for certain sensitive attributes; measured similarity-based gaps are SNSR at 0.1363 and SNSV at 0.0507. These disparities persist under prompt perturbations such as typographical errors and multilingual inputs. We further integrate personality-aware fairness into the RecLLM evaluation pipeline to reveal personality-linked bias patterns and expose trade-offs between personalization and group fairness. We propose a novel uncertainty-aware evaluation methodology for RecLLMs, present empirical insights from deep uncertainty case studies, and introduce a personality profile-informed fairness benchmark that advances explainability and equity in LLM recommendations. Together, these contributions establish a foundation for safer, more interpretable RecLLMs and motivate future work on multi-model benchmarks and adaptive calibration for trustworthy deployment.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }
