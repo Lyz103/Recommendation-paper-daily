@@ -11,6 +11,9 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-04 | **VK-LSVD: A Large-Scale Industrial Dataset for Short-Video Recommendation** | Aleksandr Poslavsky, Alexander D'yakonov, Yuriy Dorn, Andrey Zimovnov | [Link](http://arxiv.org/abs/2602.04567) | Not Available |
+| 2026-02-04 | **DOS: Dual-Flow Orthogonal Semantic IDs for Recommendation in Meituan** | Junwei Yin, Senjie Kou, Changhao Li, Shuli Wang, Xue Wei, Yinqiu Huang, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](http://arxiv.org/abs/2602.04460) | Not Available |
+| 2026-02-04 | **MiniRec: Data-Efficient Reinforcement Learning for LLM-based Recommendation** | Lin Wang, Yang Zhang, Jingfan Chen, Xiaoyan Zhao, Fengbin Zhu, Qing Li, Tat-Seng Chua | [Link](http://arxiv.org/abs/2602.04278) | Not Available |
 | 2026-02-03 | **Multimodal Generative Recommendation for Fusing Semantic and Collaborative Signals** | Moritz Vandenhirtz, Kaveh Hassani, Shervin Ghasemlou, Shuai Shao, Hamid Eghbalzadeh, Fuchun Peng, Jun Liu, Michael Louis Iuzzolino | [Link](http://arxiv.org/abs/2602.03713) | Not Available |
 | 2026-02-03 | **Bringing Reasoning to Generative Recommendation Through the Lens of Cascaded Ranking** | Xinyu Lin, Pengyuan Liu, Wenjie Wang, Yicheng Hu, Chen Xu, Fuli Feng, Qifan Wang, Tat-Seng Chua | [Link](http://arxiv.org/abs/2602.03692) | Not Available |
 | 2026-02-03 | **AesRec: A Dataset for Aesthetics-Aligned Clothing Outfit Recommendation** | Wenxin Ye, Lin Li, Ming Li, Yang Shen, Kanghong Wang, Jimmy Xiangji Huang | [Link](http://arxiv.org/abs/2602.03416) | Not Available |
