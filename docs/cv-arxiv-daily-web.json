@@ -9277,10 +9277,10 @@
             "title": "Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility",
             "authors": "R. S. Weigel, A. Y. Shih, R. Ringuette, I. Christopher, S. M. Petrinec, S. Turner, R. M. Candey, G. K. Stephens, B. Cecconi",
             "first_author": "R. S. Weigel",
-            "url": "http://arxiv.org/abs/2601.07605v1",
+            "url": "http://arxiv.org/abs/2601.07605v2",
             "pdf_url": "http://arxiv.org/abs/2601.07605",
             "publish_date": "2026-01-12",
-            "abstract": "In space physics, acronyms for coordinate systems (e.g., \\texttt{GEI}, \\texttt{GSM}) are commonly used; however, differences in their definitions and implementations can prevent reproducibility. In this work, we compare definitions in online resources, software packages, and frequently cited journal articles and show that implementation differences can lead to transformations between same-named coordinate systems and ephemerides values from different data providers to differ significantly. Based on these comparisons and results, and to enable reproducibility, we recommend that (a) a standard for acronyms and definitions for coordinate systems is developed; (b) a standards body develops a citable database of reference data needed for these transforms; (c) a central authority maintains the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events) kernels used by space physics spacecraft missions to generate data products in different coordinate systems; and (d) software developers provide explicit comparisons of their implementations with the results of (b) and documentation on implementation choices. Additionally, we provide recommendations for scientists and metadata developers to ensure that sufficient information is provided to enable reproducibility if these recommendations are not implemented.",
+            "abstract": "In space physics, acronyms for coordinate systems (e.g., \\texttt{GEI}, \\texttt{GSM}) are commonly used; however, differences in their definitions and implementations can prevent reproducibility. In this work, we compare definitions in online resources, software packages, and frequently cited journal articles and show that implementation differences can lead to transformations between same-named coordinate systems and position values from different data providers to differ significantly. Based on these comparisons and results, and to enable reproducibility, we recommend that (a) a standard for acronyms and definitions for coordinate systems is developed; (b) a standards body develops a citable database of reference data needed for these transforms; (c) a central authority maintains the SPICE (Spacecraft, Planet, Instrument, C-matrix, Events) kernels used by space physics spacecraft missions to generate data products in different coordinate systems; and (d) software developers provide explicit comparisons of their implementations with the results of (b) and documentation on implementation choices. Additionally, we provide recommendations for scientists and metadata developers to ensure that sufficient information is provided to enable reproducibility.",
             "primary_category": "physics.space-ph",
             "code_url": "null"
         },
@@ -10089,9 +10089,9 @@
         },
         "2601.21285": {
             "title": "Zenith: Scaling up Ranking Models for Billion-scale Livestreaming Recommendation",
-            "authors": "Ruifeng Zhang, Zexi Huang, Zikai Wang, Ke Sun, Bohang Zheng, Zhen Ouyang, Huimin Xie, Phil Shen, Junlin Zhang, Wentao Guo, Qinglei Wang",
+            "authors": "Ruifeng Zhang, Zexi Huang, Zikai Wang, Ke Sun, Bohang Zheng, Yuchen Jiang, Zhe Chen, Zhen Ouyang, Huimin Xie, Phil Shen, Junlin Zhang, Yuchao Zheng, Wentao Guo, Qinglei Wang",
             "first_author": "Ruifeng Zhang",
-            "url": "http://arxiv.org/abs/2601.21285v2",
+            "url": "http://arxiv.org/abs/2601.21285v3",
             "pdf_url": "http://arxiv.org/abs/2601.21285",
             "publish_date": "2026-01-29",
             "abstract": "Accurately capturing feature interactions is essential in recommender systems, and recent trends show that scaling up model capacity could be a key driver for next-level predictive performance. While prior work has explored various model architectures to capture multi-granularity feature interactions, relatively little attention has been paid to efficient feature handling and scaling model capacity without incurring excessive inference latency. In this paper, we address this by presenting Zenith, a scalable and efficient ranking architecture that learns complex feature interactions with minimal runtime overhead. Zenith is designed to handle a few high-dimensional Prime Tokens with Token Fusion and Token Boost modules, which exhibits superior scaling laws compared to other state-of-the-art ranking methods, thanks to its improved token heterogeneity. Its real-world effectiveness is demonstrated by deploying the architecture to TikTok Live, a leading online livestreaming platform that attracts billions of users globally. Our A/B test shows that Zenith achieves +1.05%/-1.10% in online CTR AUC and Logloss, and realizes +9.93% gains in Quality Watch Session / User and +8.11% in Quality Watch Duration / User.",
@@ -10371,6 +10371,83 @@
             "publish_date": "2026-02-04",
             "abstract": "The integration of reinforcement learning (RL) into large language models (LLMs) has opened new opportunities for recommender systems by eliciting reasoning and improving user preference modeling. However, RL-based LLM recommendation faces significant efficiency challenges, making full-data training costly. Existing data selection methods define sample value based on learnability or representativeness, yet their loss- or gradient-driven or dataset coverage-driven criteria often misalign with RL learning dynamics, resulting in suboptimal performance. To address this, we propose MiniRec, a data selection framework tailored for RL-based LLM recommendation. MiniRec evaluates sample learnability using key RL signals -- rewards -- pruning samples that are too easy (too high reward) or too difficult (consistently low reward). It assesses representativeness by aligning sample gradients with the approximated \"ideal\" global RL optimization trajectory, selecting samples that mainly drive model updates, and it also enforces diversity to reduce redundancy. Combined with a curriculum learning strategy from easy to hard samples, MiniRec significantly reduces training cost while largely preserving performance. Extensive experiments demonstrate MiniRec's effectiveness, highlighting the importance of reward-aligned, trajectory-informed data selection in RL-based LLM recommendation.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.05945": {
+            "title": "AgenticTagger: Structured Item Representation for Recommendation with LLM Agents",
+            "authors": "Zhouhang Xie, Bo Peng, Zhankui He, Ziqi Chen, Alice Han, Isabella Ye, Benjamin Coleman, Noveen Sachdeva, Fernando Pereira, Julian McAuley, Wang-Cheng Kang, Derek Zhiyuan Cheng, Beidou Wang, Randolph Brown",
+            "first_author": "Zhouhang Xie",
+            "url": "http://arxiv.org/abs/2602.05945v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05945",
+            "publish_date": "2026-02-05",
+            "abstract": "High-quality representations are a core requirement for effective recommendation. In this work, we study the problem of LLM-based descriptor generation, i.e., keyphrase-like natural language item representation generation frameworks with minimal constraints on downstream applications. We propose AgenticTagger, a framework that queries LLMs for representing items with sequences of text descriptors. However, open-ended generation provides little control over the generation space, leading to high cardinality, low-performance descriptors that renders downstream modeling challenging. To this end, AgenticTagger features two core stages: (1) a vocabulary building stage where a set of hierarchical, low-cardinality, and high-quality descriptors is identified, and (2) a vocabulary assignment stage where LLMs assign in-vocabulary descriptors to items. To effectively and efficiently ground vocabulary in the item corpus of interest, we design a multi-agent reflection mechanism where an architect LLM iteratively refines the vocabulary guided by parallelized feedback from annotator LLMs that validates the vocabulary against item data. Experiments on public and private data show AgenticTagger brings consistent improvements across diverse recommendation scenarios, including generative and term-based retrieval, ranking, and controllability-oriented, critique-based recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.05861": {
+            "title": "CFRecs: Counterfactual Recommendations on Real Estate User Listing Interaction Graphs",
+            "authors": "Seyedmasoud Mousavi, Ruomeng Xu, Xiaojing Zhu",
+            "first_author": "Seyedmasoud Mousavi",
+            "url": "http://arxiv.org/abs/2602.05861v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05861",
+            "publish_date": "2026-02-05",
+            "abstract": "Graph-structured data is ubiquitous and powerful in representing complex relationships in many online platforms. While graph neural networks (GNNs) are widely used to learn from such data, counterfactual graph learning has emerged as a promising approach to improve model interpretability. Counterfactual explanation research focuses on identifying a counterfactual graph that is similar to the original but leads to different predictions. These explanations optimize two objectives simultaneously: the sparsity of changes in the counterfactual graph and the validity of its predictions. Building on these qualitative optimization goals, this paper introduces CFRecs, a novel framework that transforms counterfactual explanations into actionable insights. CFRecs employs a two-stage architecture consisting of a graph neural network (GNN) and a graph variational auto-encoder (Graph-VAE) to strategically propose minimal yet high-impact changes in graph structure and node attributes to drive desirable outcomes in recommender systems. We apply CFRecs to Zillow's graph-structured data to deliver actionable recommendations for both home buyers and sellers with the goal of helping them navigate the competitive housing market and achieve their homeownership goals. Experimental results on Zillow's user-listing interaction data demonstrate the effectiveness of CFRecs, which also provides a fresh perspective on recommendations using counterfactual reasoning in graphs.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2602.05544": {
+            "title": "Reasoning-guided Collaborative Filtering with Language Models for Explainable Recommendation",
+            "authors": "Fahad Anwaar, Adil Mehmood Khan, Muhammad Khalid, Usman Zia, Kezhi Wang",
+            "first_author": "Fahad Anwaar",
+            "url": "http://arxiv.org/abs/2602.05544v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05544",
+            "publish_date": "2026-02-05",
+            "abstract": "Large Language Models (LLMs) exhibit potential for explainable recommendation systems but overlook collaborative signals, while prevailing methods treat recommendation and explanation as separate tasks, resulting in a memory footprint. We present RGCF-XRec, a hybrid framework that introduces reasoning-guided collaborative filtering (CF) knowledge into a language model to deliver explainable sequential recommendations in a single step. Theoretical grounding and empirical findings reveal that RGCF-XRec offers three key merits over leading CF-aware LLM-based methods: (1) reasoning-guided augmentation of CF knowledge through contextual prompting to discover latent preferences and interpretable reasoning paths; (2) an efficient scoring mechanism based on four dimensions: coherence, completeness, relevance, and consistency to mitigate noisy CF reasoning traces and retain high-quality explanations; (3) a unified representation learning network that encodes collaborative and semantic signals, enabling a structured prompt to condition the LLM for explainable sequential recommendation. RGCF-XRec demonstrates consistent improvements across Amazon datasets, Sports, Toys, and Beauty, comprising 642,503 user-item interactions. It improves HR@10 by 7.38\\% in Sports and 4.59\\% in Toys, along with ROUGE-L by 8.02\\% and 3.49\\%, respectively. It reduces the cold warm performance gap, achieving overall gains of 14.5\\% in cold-start and 11.9\\% in warm start scenarios, and enhances zero-shot HR@5 by 18.54\\% in Beauty and 23.16\\% in Toys, highlighting effective generalization and robustness. Moreover, RGCF-XRec achieves training efficiency with a lightweight LLaMA 3.2-3B backbone, ensuring scalability for real-world applications.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.05474": {
+            "title": "LMMRec: LLM-driven Motivation-aware Multimodal Recommendation",
+            "authors": "Yicheng Di, Zhanjie Zhang, Yun Wangc, Jinren Liue, Jiaqi Yanf, Jiyu Wei, Xiangyu Chend, Yuan Liu",
+            "first_author": "Yicheng Di",
+            "url": "http://arxiv.org/abs/2602.05474v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05474",
+            "publish_date": "2026-02-05",
+            "abstract": "Motivation-based recommendation systems uncover user behavior drivers. Motivation modeling, crucial for decision-making and content preference, explains recommendation generation. Existing methods often treat motivation as latent variables from interaction data, neglecting heterogeneous information like review text. In multimodal motivation fusion, two challenges arise: 1) achieving stable cross-modal alignment amid noise, and 2) identifying features reflecting the same underlying motivation across modalities. To address these, we propose LLM-driven Motivation-aware Multimodal Recommendation (LMMRec), a model-agnostic framework leveraging large language models for deep semantic priors and motivation understanding. LMMRec uses chain-of-thought prompting to extract fine-grained user and item motivations from text. A dual-encoder architecture models textual and interaction-based motivations for cross-modal alignment, while Motivation Coordination Strategy and Interaction-Text Correspondence Method mitigate noise and semantic drift through contrastive learning and momentum updates. Experiments on three datasets show LMMRec achieves up to a 4.98\\% performance improvement.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.05297": {
+            "title": "Aspect-Aware MOOC Recommendation in a Heterogeneous Network",
+            "authors": "Seongyeub Chu, Jongwoo Kim, Mun Yong Yi",
+            "first_author": "Seongyeub Chu",
+            "url": "http://arxiv.org/abs/2602.05297v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05297",
+            "publish_date": "2026-02-05",
+            "abstract": "MOOC recommendation systems have received increasing attention to help learners navigate and select preferred learning content. Traditional methods such as collaborative filtering and content-based filtering suffer from data sparsity and over-specialization. To alleviate these limitations, graph-based approaches have been proposed; however, they still rely heavily on manually predefined metapaths, which often capture only superficial structural relationships and impose substantial burdens on domain experts as well as significant engineering costs. To overcome these limitations, we propose AMR (Aspect-aware MOOC Recommendation), a novel framework that models path-specific multiple aspects by embedding the semantic content of nodes within each metapath. AMR automatically discovers metapaths through bi-directional walks, derives aspect-aware path representations using a bi-LSTM-based encoder, and incorporates these representations as edge features in the learner-learner and KC-KC subgraphs to achieve fine-grained semantically informed KC recommendations. Extensive experiments on the large-scale MOOCCube and PEEK datasets show that AMR consistently outperforms state-of-the-art graph neural network baselines across key metrics such as HR@K and nDCG@K. Further analysis confirms that AMR effectively captures rich path-specific aspect information, allowing more accurate recommendations than those methods that rely solely on predefined metapaths. The code will be available upon accepted.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.05087": {
+            "title": "Autodiscover: A reinforcement learning recommendation system for the cold-start imbalance challenge in active learning, powered by graph-aware thompson sampling",
+            "authors": "Parsa Vares",
+            "first_author": "Parsa Vares",
+            "url": "http://arxiv.org/abs/2602.05087v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05087",
+            "publish_date": "2026-02-04",
+            "abstract": "Systematic literature reviews (SLRs) are fundamental to evidence-based research, but manual screening is an increasing bottleneck as scientific output grows. Screening features low prevalence of relevant studies and scarce, costly expert decisions. Traditional active learning (AL) systems help, yet typically rely on fixed query strategies for selecting the next unlabeled documents. These static strategies do not adapt over time and ignore the relational structure of scientific literature networks. This thesis introduces AutoDiscover, a framework that reframes AL as an online decision-making problem driven by an adaptive agent. Literature is modeled as a heterogeneous graph capturing relationships among documents, authors, and metadata. A Heterogeneous Graph Attention Network (HAN) learns node representations, which a Discounted Thompson Sampling (DTS) agent uses to dynamically manage a portfolio of query strategies. With real-time human-in-the-loop labels, the agent balances exploration and exploitation under non-stationary review dynamics, where strategy utility changes over time. On the 26-dataset SYNERGY benchmark, AutoDiscover achieves higher screening efficiency than static AL baselines. Crucially, the agent mitigates cold start by bootstrapping discovery from minimal initial labels where static approaches fail. We also introduce TS-Insight, an open-source visual analytics dashboard to interpret, verify, and diagnose the agent's decisions. Together, these contributions accelerate SLR screening under scarce expert labels and low prevalence of relevant studies.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2602.05053": {
+            "title": "Quantile-Physics Hybrid Framework for Safe-Speed Recommendation under Diverse Weather Conditions Leveraging Connected Vehicle and Road Weather Information Systems Data",
+            "authors": "Wen Zhang, Adel W. Sadek, Chunming Qiao",
+            "first_author": "Wen Zhang",
+            "url": "http://arxiv.org/abs/2602.05053v1",
+            "pdf_url": "http://arxiv.org/abs/2602.05053",
+            "publish_date": "2026-02-04",
+            "abstract": "Inclement weather conditions can significantly impact driver visibility and tire-road surface friction, requiring adjusted safe driving speeds to reduce crash risk. This study proposes a hybrid predictive framework that recommends real-time safe speed intervals for freeway travel under diverse weather conditions. Leveraging high-resolution Connected Vehicle (CV) data and Road Weather Information System (RWIS) data collected in Buffalo, NY, from 2022 to 2023, we construct a spatiotemporally aligned dataset containing over 6.6 million records across 73 days. The core model employs Quantile Regression Forests (QRF) to estimate vehicle speed distributions in 10-minute windows, using 26 input features that capture meteorological, pavement, and temporal conditions. To enforce safety constraints, a physics-based upper speed limit is computed for each interval based on real-time road grip and visibility, ensuring that vehicles can safely stop within their sight distance. The final recommended interval fuses QRF-predicted quantiles with both posted speed limits and the physics-derived upper bound. Experimental results demonstrate strong predictive performance: the QRF model achieves a mean absolute error of 1.55 mph, with 96.43% of median speed predictions within 5 mph, a PICP (50%) of 48.55%, and robust generalization across weather types. The model's ability to respond to changing weather conditions and generalize across road segments shows promise for real-world deployment, thereby improving traffic safety and reducing weather-related crashes.",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }
