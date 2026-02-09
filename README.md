@@ -1,4 +1,4 @@
-## Updated on 2026-02-08
+## Updated on 2026-02-09
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -32,7 +32,7 @@
 | 2026-02-02 | **AdNanny: One Reasoning LLM for All Offline Ads Recommendation Tasks** | Nan Hu, Han Li, Jimeng Sun, Lu Wang, Fangkai Yang, Bo Qiao, Pu Zhao, David Dai, Mengyu Liu, Yuefeng Zhan, Jianjin Zhang, Weihao Han, Allen Sun, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Denvy Deng, Feng Sun, Qi Zhang | [Link](http://arxiv.org/abs/2602.01563) | Not Available |
 | 2026-01-31 | **Domain-Adaptive and Scalable Dense Retrieval for Content-Based Recommendation** | Mritunjay Pandey | [Link](http://arxiv.org/abs/2602.00899) | Not Available |
 | 2026-01-31 | **Gamma Imagers for Nuclear Security and Nuclear Forensics: Recommendations based on results from a side-by-side intercomparison** | L. E. Sinclair, P. R. B. Saull, A. McCann, A. M. L. MacLeod, N. J. Murtha, A. El-Jaby, G. Jonkmans | [Link](http://arxiv.org/abs/2602.00826) | Not Available |
-| 2026-01-31 | **Neuro-symbolic AI for Predictive Maintenance (PdM) -- review and recommendations** | Kyle Hamilton, Ali Intizar | [Link](http://arxiv.org/abs/2602.00731) | Not Available |
+| 2026-01-31 | **Neuro-symbolic AI for Predictive Maintenance (PdM) -- review and recommendations** | Kyle Hamilton, Muhammad Intizar Ali | [Link](http://arxiv.org/abs/2602.00731) | Not Available |
 | 2026-01-31 | **Towards Trustworthy Multimodal Recommendation** | Zixuan Li | [Link](http://arxiv.org/abs/2602.00730) | Not Available |
 | 2026-01-31 | **SWGCN: Synergy Weighted Graph Convolutional Network for Multi-Behavior Recommendation** | Fangda Chen, Yueyang Wang, Chaoli Lou, Min Gao, Qingyu Xiong | [Link](http://arxiv.org/abs/2602.00727) | Not Available |
 | 2026-01-31 | **RecGOAT: Graph Optimal Adaptive Transport for LLM-Enhanced Multimodal Recommendation with Dual Semantic Alignment** | Yuecheng Li, Hengwei Ju, Zeyu Song, Wei Yang, Chi Lu, Peng Jiang, Kun Gai | [Link](http://arxiv.org/abs/2602.00682) | Not Available |
