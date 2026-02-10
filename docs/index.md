@@ -2,12 +2,30 @@
 layout: default
 ---
 
-## Updated on 2026-02-09
+## Updated on 2026-02-10
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-09 | **OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation** | Yehua Huang, Penglei Sun, Zebin Chen, Zhenheng Tang, Xiaowen Chu | [Link](http://arxiv.org/abs/2602.08896) | Not Available |
+| 2026-02-09 | **Contrastive Learning for Diversity-Aware Product Recommendations in Retail** | Vasileios Karlis, Ezgi Yıldırım, David Vos, Maarten de Rijke | [Link](http://arxiv.org/abs/2602.08886) | Not Available |
+| 2026-02-09 | **Whose Name Comes Up? Benchmarking and Intervention-Based Auditing of LLM-Based Scholar Recommendation** | Lisette Espin-Noboa, Gonzalo Gabriel Mendez | [Link](http://arxiv.org/abs/2602.08873) | Not Available |
+| 2026-02-09 | **SA-CAISR: Stage-Adaptive and Conflict-Aware Incremental Sequential Recommendation** | Xiaomeng Song, Xinru Wang, Hanbing Wang, Hongyu Lu, Yu Chen, Zhaochun Ren, Zhumin Chen | [Link](http://arxiv.org/abs/2602.08678) | Not Available |
+| 2026-02-09 | **OneLive: Dynamically Unified Generative Framework for Live-Streaming Recommendation** | Shen Wang, Yusheng Huang, Ruochen Yang, Shuang Wen, Pengbo Xu, Jiangxia Cao, Yueyang Liu, Kuo Cai, Chengcheng Guo, Shiyao Wang, Xinchen Luo, Qiang Luo, Ruiming Tang, Shuang Yang, Zhaojie Liu, Guorui Zhou, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2602.08612) | Not Available |
+| 2026-02-09 | **RankGR: Rank-Enhanced Generative Retrieval with Listwise Direct Preference Optimization in Recommendation** | Kairui Fu, Changfa Wu, Kun Yuan, Binbin Cao, Dunxian Huang, Yuliang Yan, Junjun Zheng, Jianning Zhang, Silu Zhou, Jian Wu, Kun Kuang | [Link](http://arxiv.org/abs/2602.08575) | Not Available |
+| 2026-02-09 | **QARM V2: Quantitative Alignment Multi-Modal Recommendation for Reasoning User Sequence Modeling** | Tian Xia, Jiaqi Zhang, Yueyang Liu, Hongjian Dou, Tingya Yin, Jiangxia Cao, Xulei Liang, Tianlu Xie, Lihao Liu, Xiang Chen, Shen Wang, Changxin Lao, Haixiang Gan, Jinkai Yu, Keting Cen, Lu Hao, Xu Zhang, Qiqiang Zhong, Zhongbo Sun, Yiyu Wang, Shuang Yang, Mingxin Wen, Xiangyu Wu, Shaoguo Liu, Tingting Gao, Zhaojie Liu, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2602.08559) | Not Available |
+| 2026-02-09 | **PIT: A Dynamic Personalized Item Tokenizer for End-to-End Generative Recommendation** | Huanjie Wang, Xinchen Luo, Honghui Bao, Zhang Zixing, Lejian Ren, Yunfan Wu, Hongwei Zhang, Liwei Guan, Guang Chen | [Link](http://arxiv.org/abs/2602.08530) | Not Available |
+| 2026-02-08 | **Gender and Race Bias in Consumer Product Recommendations by Large Language Models** | Ke Xu, Shera Potka, Alex Thomo | [Link](http://arxiv.org/abs/2602.08124) | Not Available |
+| 2026-02-08 | **Enhancing Bandit Algorithms with LLMs for Time-varying User Preferences in Streaming Recommendations** | Chenglei Shen, Yi Zhan, Weijie Yu, Xiao Zhang, Jun Xu | [Link](http://arxiv.org/abs/2602.08067) | Not Available |
+| 2026-02-08 | **Learning to Alleviate Familiarity Bias in Video Recommendation** | Zheng Ren, Yi Wu, Jianan Lu, Acar Ary, Yiqu Liu, Li Wei, Lukasz Heldt | [Link](http://arxiv.org/abs/2602.07987) | Not Available |
+| 2026-02-08 | **SimGR: Escaping the Pitfalls of Generative Decoding in LLM-based Recommendation** | Yuanbo Zhao, Ruochen Liu, Senzhang Wang, Jun Yin, Yuxin Dong, Huan Gong, Hao Chen, Shirui Pan, Chengqi Zhang | [Link](http://arxiv.org/abs/2602.07847) | Not Available |
+| 2026-02-07 | **MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation** | Shikang Wu, Hui Lu, Jinqiu Jin, Zheng Chai, Shiyong Hong, Junjie Zhang, Shanlei Mu, Kaiyuan Ma, Tianyi Liu, Yuchao Zheng, Zhe Wang, Jingjian Lin | [Link](http://arxiv.org/abs/2602.07526) | Not Available |
+| 2026-02-07 | **MDL: A Unified Multi-Distribution Learner in Large-scale Industrial Recommendation through Tokenization** | Shanlei Mu, Yuchen Jiang, Shikang Wu, Shiyong Hong, Tianmu Sha, Junjie Zhang, Jie Zhu, Zhe Chen, Zhe Wang, Jingjian Lin | [Link](http://arxiv.org/abs/2602.07520) | Not Available |
+| 2026-02-07 | **LIT-GRAPH: Evaluating Deep vs. Shallow Graph Embeddings for High-Quality Text Recommendation in Domain-Specific Knowledge Graphs** | Nirmal Gelal, Chloe Snow, Kathleen M. Jagodnik, Ambyr Rios, Hande Küçük McGinty | [Link](http://arxiv.org/abs/2602.07307) | Not Available |
+| 2026-02-07 | **Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation** | Benyu Zhang, Qiang Zhang, Jianpeng Cheng, Hong-You Chen, Qifei Wang, Wei Sun, Shen Li, Jia Li, Jiahao Wu, Xiangjun Fan, Hong Yan | [Link](http://arxiv.org/abs/2602.07298) | Not Available |
+| 2026-02-06 | **Sequences as Nodes for Contrastive Multimodal Graph Recommendation** | Bucher Sahyouni, Matthew Vowels, Liqun Chen, Simon Hadfield | [Link](http://arxiv.org/abs/2602.07208) | Not Available |
+| 2026-02-06 | **Multimodal Enhancement of Sequential Recommendation** | Bucher Sahyouni, Matthew Vowels, Liqun Chen, Simon Hadfield | [Link](http://arxiv.org/abs/2602.07207) | Not Available |
 | 2026-02-05 | **AgenticTagger: Structured Item Representation for Recommendation with LLM Agents** | Zhouhang Xie, Bo Peng, Zhankui He, Ziqi Chen, Alice Han, Isabella Ye, Benjamin Coleman, Noveen Sachdeva, Fernando Pereira, Julian McAuley, Wang-Cheng Kang, Derek Zhiyuan Cheng, Beidou Wang, Randolph Brown | [Link](http://arxiv.org/abs/2602.05945) | Not Available |
 | 2026-02-05 | **CFRecs: Counterfactual Recommendations on Real Estate User Listing Interaction Graphs** | Seyedmasoud Mousavi, Ruomeng Xu, Xiaojing Zhu | [Link](http://arxiv.org/abs/2602.05861) | Not Available |
 | 2026-02-05 | **Reasoning-guided Collaborative Filtering with Language Models for Explainable Recommendation** | Fahad Anwaar, Adil Mehmood Khan, Muhammad Khalid, Usman Zia, Kezhi Wang | [Link](http://arxiv.org/abs/2602.05544) | Not Available |
