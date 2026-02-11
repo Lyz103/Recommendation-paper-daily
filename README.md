@@ -1,4 +1,4 @@
-## Updated on 2026-02-10
+## Updated on 2026-02-11
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,12 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-10 | **Internalizing Multi-Agent Reasoning for Accurate and Efficient LLM-based Recommendation** | Yang Wu, Haoze Wang, Qian Li, Jun Zhang, Huan Yu, Jie Jiang | [Link](http://arxiv.org/abs/2602.09829) | Not Available |
+| 2026-02-10 | **DiffuReason: Bridging Latent Reasoning and Generative Refinement for Sequential Recommendation** | Jie Jiang, Yang Wu, Qian Li, Yuling Xiong, Yihang Su, Junbang Huo, Longfei Lu, Jun Zhang, Huan Yu | [Link](http://arxiv.org/abs/2602.09744) | Not Available |
+| 2026-02-10 | **UniShare: A Unified Framework for Joint Video and Receiver Recommendation in Social Sharing** | Caimeng Wang, Li Chong, Dongxu Liu, Xu Min, Jianhui Bu | [Link](http://arxiv.org/abs/2602.09618) | Not Available |
+| 2026-02-10 | **Personalized Parameter-Efficient Fine-Tuning of Foundation Models for Multimodal Recommendation** | Sunwoo Kim, Hyunjin Hwang, Kijung Shin | [Link](http://arxiv.org/abs/2602.09445) | Not Available |
+| 2026-02-10 | **SMES: Towards Scalable Multi-Task Recommendation via Expert Sparsity** | Yukun Zhang, Si Dong, Xu Wang, Bo Chen, Qinglin Jia, Shengzhe Wang, Jinlong Jiao, Runhan Li, Jiaqing Liu, Chaoyi Ma, Ruiming Tang, Guorui Zhou, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2602.09386) | Not Available |
+| 2026-02-10 | **Empowering Contrastive Federated Sequential Recommendation with LLMs** | Thi Minh Chau Nguyen, Minh Hieu Nguyen, Duc Anh Nguyen, Xuan Huong Tran, Thanh Trung Huynh, Quoc Viet Hung Nguyen | [Link](http://arxiv.org/abs/2602.09306) | Not Available |
 | 2026-02-09 | **OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation** | Yehua Huang, Penglei Sun, Zebin Chen, Zhenheng Tang, Xiaowen Chu | [Link](http://arxiv.org/abs/2602.08896) | Not Available |
 | 2026-02-09 | **Contrastive Learning for Diversity-Aware Product Recommendations in Retail** | Vasileios Karlis, Ezgi Yıldırım, David Vos, Maarten de Rijke | [Link](http://arxiv.org/abs/2602.08886) | Not Available |
 | 2026-02-09 | **Whose Name Comes Up? Benchmarking and Intervention-Based Auditing of LLM-Based Scholar Recommendation** | Lisette Espin-Noboa, Gonzalo Gabriel Mendez | [Link](http://arxiv.org/abs/2602.08873) | Not Available |
@@ -32,7 +38,7 @@
 | 2026-02-05 | **AgenticTagger: Structured Item Representation for Recommendation with LLM Agents** | Zhouhang Xie, Bo Peng, Zhankui He, Ziqi Chen, Alice Han, Isabella Ye, Benjamin Coleman, Noveen Sachdeva, Fernando Pereira, Julian McAuley, Wang-Cheng Kang, Derek Zhiyuan Cheng, Beidou Wang, Randolph Brown | [Link](http://arxiv.org/abs/2602.05945) | Not Available |
 | 2026-02-05 | **CFRecs: Counterfactual Recommendations on Real Estate User Listing Interaction Graphs** | Seyedmasoud Mousavi, Ruomeng Xu, Xiaojing Zhu | [Link](http://arxiv.org/abs/2602.05861) | Not Available |
 | 2026-02-05 | **Reasoning-guided Collaborative Filtering with Language Models for Explainable Recommendation** | Fahad Anwaar, Adil Mehmood Khan, Muhammad Khalid, Usman Zia, Kezhi Wang | [Link](http://arxiv.org/abs/2602.05544) | Not Available |
-| 2026-02-05 | **LMMRec: LLM-driven Motivation-aware Multimodal Recommendation** | Yicheng Di, Zhanjie Zhang, Yun Wangc, Jinren Liue, Jiaqi Yanf, Jiyu Wei, Xiangyu Chend, Yuan Liu | [Link](http://arxiv.org/abs/2602.05474) | Not Available |
+| 2026-02-05 | **LMMRec: LLM-driven Motivation-aware Multimodal Recommendation** | Yicheng Di, Zhanjie Zhang, Yun Wang, Jinren Liu, Jiaqi Yan, Jiyu Wei, Xiangyu Chen, Yuan Liu | [Link](http://arxiv.org/abs/2602.05474) | Not Available |
 | 2026-02-05 | **Aspect-Aware MOOC Recommendation in a Heterogeneous Network** | Seongyeub Chu, Jongwoo Kim, Mun Yong Yi | [Link](http://arxiv.org/abs/2602.05297) | Not Available |
 | 2026-02-04 | **Autodiscover: A reinforcement learning recommendation system for the cold-start imbalance challenge in active learning, powered by graph-aware thompson sampling** | Parsa Vares | [Link](http://arxiv.org/abs/2602.05087) | Not Available |
 | 2026-02-04 | **Quantile-Physics Hybrid Framework for Safe-Speed Recommendation under Diverse Weather Conditions Leveraging Connected Vehicle and Road Weather Information Systems Data** | Wen Zhang, Adel W. Sadek, Chunming Qiao | [Link](http://arxiv.org/abs/2602.05053) | Not Available |
