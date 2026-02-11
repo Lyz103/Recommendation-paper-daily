@@ -8,6 +8,7 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-10 | **Kunlun: Establishing Scaling Laws for Massive-Scale Recommendation Systems through Unified Architecture Design** | Bojian Hou, Xiaolong Liu, Xiaoyi Liu, Jiaqi Xu, Yasmine Badr, Mengyue Hang, Sudhanshu Chanpuriya, Junqing Zhou, Yuhang Yang, Han Xu, Qiuling Suo, Laming Chen, Yuxi Hu, Jiasheng Zhang, Huaqing Xiong, Yuzhen Huang, Chao Chen, Yue Dong, Yi Yang, Shuo Chang, Xiaorui Gan, Wenlin Chen, Santanu Kolay, Darren Liu, Jade Nie, Chunzhi Yang, Jiyan Yang, Huayu Li | [Link](http://arxiv.org/abs/2602.10016) | Not Available |
 | 2026-02-10 | **Internalizing Multi-Agent Reasoning for Accurate and Efficient LLM-based Recommendation** | Yang Wu, Haoze Wang, Qian Li, Jun Zhang, Huan Yu, Jie Jiang | [Link](http://arxiv.org/abs/2602.09829) | Not Available |
 | 2026-02-10 | **DiffuReason: Bridging Latent Reasoning and Generative Refinement for Sequential Recommendation** | Jie Jiang, Yang Wu, Qian Li, Yuling Xiong, Yihang Su, Junbang Huo, Longfei Lu, Jun Zhang, Huan Yu | [Link](http://arxiv.org/abs/2602.09744) | Not Available |
 | 2026-02-10 | **UniShare: A Unified Framework for Joint Video and Receiver Recommendation in Social Sharing** | Caimeng Wang, Li Chong, Dongxu Liu, Xu Min, Jianhui Bu | [Link](http://arxiv.org/abs/2602.09618) | Not Available |
