@@ -2,15 +2,23 @@
 layout: default
 ---
 
-## Updated on 2026-02-12
+## Updated on 2026-02-14
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-12 | **Towards Personalized Bangla Book Recommendation: A Large-Scale Multi-Entity Book Graph Dataset** | Rahin Arefin Ahmed, Md. Anik Chowdhury, Sakil Ahmed Sheikh Reza, Devnil Bhattacharjee, Muhammad Abdullah Adnan, Nafis Sadeq | [Link](http://arxiv.org/abs/2602.12129) | Not Available |
+| 2026-02-12 | **ULTRA:Urdu Language Transformer-based Recommendation Architecture** | Alishbah Bashir, Fatima Qaiser, Ijaz Hussain | [Link](http://arxiv.org/abs/2602.11836) | Not Available |
+| 2026-02-12 | **Hi-SAM: A Hierarchical Structure-Aware Multi-modal Framework for Large-Scale Recommendation** | Pingjun Pan, Tingting Zhou, Peiyao Lu, Tingting Fei, Hongxiang Chen, Chuanjiang Luo | [Link](http://arxiv.org/abs/2602.11799) | Not Available |
+| 2026-02-12 | **Uncertainty-aware Generative Recommendation** | Chenxiao Fan, Chongming Gao, Yaxin Gong, Haoyan Liu, Fuli Feng, Xiangnan He | [Link](http://arxiv.org/abs/2602.11719) | Not Available |
+| 2026-02-12 | **EpicCBR: Item-Relation-Enhanced Dual-Scenario Contrastive Learning for Cold-Start Bundle Recommendation** | Yihang Li, Zhuo Liu, Wei Wei | [Link](http://arxiv.org/abs/2602.11680) | Not Available |
+| 2026-02-12 | **IntTravel: A Real-World Dataset and Generative Framework for Integrated Multi-Task Travel Recommendation** | Huimin Yan, Longfei Xu, Junjie Sun, Zheng Liu, Wei Luo, Kaikui Liu, Xiangxiang Chu | [Link](http://arxiv.org/abs/2602.11664) | Not Available |
+| 2026-02-12 | **Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation** | Yixiao Chen, Yuan Wang, Yue Liu, Qiyao Wang, Ke Cheng, Xin Xu, Juntong Yan, Shuojin Yang, Menghao Guo, Jun Zhang, Huan Yu, Jie Jiang | [Link](http://arxiv.org/abs/2602.11605) | Not Available |
+| 2026-02-11 | **MTFM: A Scalable and Alignment-free Foundation Model for Industrial Recommendation in Meituan** | Xin Song, Zhilin Guan, Ruidong Han, Binghao Tang, Tianwen Chen, Bing Li, Zihao Li, Han Zhang, Fei Jiang, Chaolin Xie, Chi Ma, Chunyang Jiang, Chunzhen Jing, Dengxuan Li, Fengyi Li, Lei Yu, Mengyao Sun, Pu Wang, Qing Wang, Rui Fan, Shangyu Chen, Shifeng Du, Siyuan Bai, Wei Lin, Wentao Zhu, Zhou Han, Zhuo Chen, Zikang Xu | [Link](http://arxiv.org/abs/2602.11235) | Not Available |
 | 2026-02-11 | **MoToRec: Sparse-Regularized Multimodal Tokenization for Cold-Start Recommendation** | Jialin Liu, Zhaorui Zhang, Ray C. C. Cheung | [Link](http://arxiv.org/abs/2602.11062) | Not Available |
 | 2026-02-11 | **Viewpoint Recommendation for Point Cloud Labeling through Interaction Cost Modeling** | Yu Zhang, Xinyi Zhao, Chongke Bi, Siming Chen | [Link](http://arxiv.org/abs/2602.10871) | Not Available |
-| 2026-02-11 | **Equity by Design: Fairness-Driven Recommendation in Heterogeneous Two-Sided Markets** | Dominykas Seputis, Rajeev Verma, Alexander Timans | [Link](http://arxiv.org/abs/2602.10739) | Not Available |
+| 2026-02-11 | **Equity by Design: Fairness-Driven Recommendation in Heterogeneous Two-Sided Markets** | Dominykas Seputis, Alexander Timans, Rajeev Verma | [Link](http://arxiv.org/abs/2602.10739) | Not Available |
 | 2026-02-11 | **Spend Search Where It Pays: Value-Guided Structured Sampling and Optimization for Generative Recommendation** | Jie Jiang, Yangru Huang, Zeyu Wang, Changping Wang, Yuling Xiong, Jun Zhang, Huan Yu | [Link](http://arxiv.org/abs/2602.10699) | Not Available |
 | 2026-02-11 | **S-GRec: Personalized Semantic-Aware Generative Recommendation with Asymmetric Advantage** | Jie Jiang, Hongbo Tang, Wenjie Wu, Yangru Huang, Zhenmao Li, Qian Li, Changping Wang, Jun Zhang, Huan Yu | [Link](http://arxiv.org/abs/2602.10606) | Not Available |
 | 2026-02-11 | **Boundary-Aware Multi-Behavior Dynamic Graph Transformer for Sequential Recommendation** | Jingsong Su, Xuetao Ma, Mingming Li, Qiannan Zhu, Yu Guo | [Link](http://arxiv.org/abs/2602.10493) | Not Available |
