@@ -10716,9 +10716,9 @@
         },
         "2602.10016": {
             "title": "Kunlun: Establishing Scaling Laws for Massive-Scale Recommendation Systems through Unified Architecture Design",
-            "authors": "Bojian Hou, Xiaolong Liu, Xiaoyi Liu, Jiaqi Xu, Yasmine Badr, Mengyue Hang, Sudhanshu Chanpuriya, Junqing Zhou, Yuhang Yang, Han Xu, Qiuling Suo, Laming Chen, Yuxi Hu, Jiasheng Zhang, Huaqing Xiong, Yuzhen Huang, Chao Chen, Yue Dong, Yi Yang, Shuo Chang, Xiaorui Gan, Wenlin Chen, Santanu Kolay, Darren Liu, Jade Nie, Chunzhi Yang, Jiyan Yang, Huayu Li",
+            "authors": "Bojian Hou, Xiaolong Liu, Xiaoyi Liu, Jiaqi Xu, Yasmine Badr, Mengyue Hang, Sudhanshu Chanpuriya, Junqing Zhou, Yuhang Yang, Han Xu, Qiuling Suo, Laming Chen, Yuxi Hu, Jiasheng Zhang, Huaqing Xiong, Yuzhen Huang, Chao Chen, Yue Dong, Yi Yang, Shuo Chang, Xiaorui Gan, Wenlin Chen, Santanu Kolay, Darren Liu, Jade Nie, Chunzhi Yang, Ellie Wen, Jiyan Yang, Huayu Li",
             "first_author": "Bojian Hou",
-            "url": "http://arxiv.org/abs/2602.10016v1",
+            "url": "http://arxiv.org/abs/2602.10016v2",
             "pdf_url": "http://arxiv.org/abs/2602.10016",
             "publish_date": "2026-02-10",
             "abstract": "Deriving predictable scaling laws that govern the relationship between model performance and computational investment is crucial for designing and allocating resources in massive-scale recommendation systems. While such laws are established for large language models, they remain challenging for recommendation systems, especially those processing both user history and context features. We identify poor scaling efficiency as the main barrier to predictable power-law scaling, stemming from inefficient modules with low Model FLOPs Utilization (MFU) and suboptimal resource allocation. We introduce Kunlun, a scalable architecture that systematically improves model efficiency and resource allocation. Our low-level optimizations include Generalized Dot-Product Attention (GDPA), Hierarchical Seed Pooling (HSP), and Sliding Window Attention. Our high-level innovations feature Computation Skip (CompSkip) and Event-level Personalization. These advances increase MFU from 17% to 37% on NVIDIA B200 GPUs and double scaling efficiency over state-of-the-art methods. Kunlun is now deployed in major Meta Ads models, delivering significant production impact.",
@@ -10986,6 +10986,94 @@
             "pdf_url": "http://arxiv.org/abs/2602.12485",
             "publish_date": "2026-02-12",
             "abstract": "The success of businesses depends on their ability to convert consumers into loyal customers. A customer's value proposition is a primary determinant in this process, requiring a balance between affordability and long-term brand equity. Broad marketing campaigns can erode perceived brand value and reduce return on investment, while existing economic algorithms often misidentify highly engaged customers as ideal targets, leading to inefficient engagement and conversion outcomes.   This work introduces a two-stage multi-model architecture employing Self-Paced Loss to improve customer categorization. The first stage uses a multi-class neural network to distinguish customers influenced by campaigns, organically engaged customers, and low-engagement customers. The second stage applies a binary label correction model to identify true campaign-driven intent using a missing-label framework, refining customer segmentation during training.   By separating prompted engagement from organic behavior, the system enables more precise campaign targeting, reduces exposure costs, and improves conversion efficiency. A/B testing demonstrates over 100 basis points improvement in key success metrics, highlighting the effectiveness of intent-aware segmentation for value-driven marketing strategies.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.15005": {
+            "title": "Learning User Interests via Reasoning and Distillation for Cross-Domain News Recommendation",
+            "authors": "Mengdan Zhu, Yufan Zhao, Tao Di, Yulan Yan, Liang Zhao",
+            "first_author": "Mengdan Zhu",
+            "url": "http://arxiv.org/abs/2602.15005v1",
+            "pdf_url": "http://arxiv.org/abs/2602.15005",
+            "publish_date": "2026-02-16",
+            "abstract": "News recommendation plays a critical role in online news platforms by helping users discover relevant content. Cross-domain news recommendation further requires inferring user's underlying information needs from heterogeneous signals that often extend beyond direct news consumption. A key challenge lies in moving beyond surface-level behaviors to capture deeper, reusable user interests while maintaining scalability in large-scale production systems. In this paper, we present a reinforcement learning framework that trains large language models to generate high-quality lists of interest-driven news search queries from cross-domain user signals. We formulate query-list generation as a policy optimization problem and employ GRPO with multiple reward signals. We systematically study two compute dimensions: inference-time sampling and model capacity, and empirically observe consistent improvements with increased compute that exhibit scaling-like behavior. Finally, we perform on-policy distillation to transfer the learned policy from a large, compute-intensive teacher to a compact student model suitable for scalable deployment. Extensive offline experiments, ablation studies and large-scale online A/B tests in a production news recommendation system demonstrate consistent gains in both interest modeling quality and downstream recommendation performance.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2602.13971": {
+            "title": "DAIAN: Deep Adaptive Intent-Aware Network for CTR Prediction in Trigger-Induced Recommendation",
+            "authors": "Zhihao Lv, Longtao Zhang, Ailong He, Shuzhi Cao, Shuguang Han, Jufeng Chen",
+            "first_author": "Zhihao Lv",
+            "url": "http://arxiv.org/abs/2602.13971v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13971",
+            "publish_date": "2026-02-15",
+            "abstract": "Recommendation systems are essential for personalizing e-commerce shopping experiences. Among these, Trigger-Induced Recommendation (TIR) has emerged as a key scenario, which utilizes a trigger item (explicitly represents a user's instantaneous interest), enabling precise, real-time recommendations. Although several trigger-based techniques have been proposed, most of them struggle to address the intent myopia issue, that is, a recommendation system overemphasizes the role of trigger items and narrowly focuses on suggesting commodities that are highly relevant to trigger items. Meanwhile, existing methods rely on collaborative behavior patterns between trigger and recommended items to identify the user's preferences, yet the sparsity of ID-based interaction restricts their effectiveness. To this end, we propose the Deep Adaptive Intent-Aware Network (DAIAN) that dynamically adapts to users' intent preferences. In general, we first extract the users' personalized intent representations by analyzing the correlation between a user's click and the trigger item, and accordingly retrieve the user's related historical behaviors to mine the user's diverse intent. Besides, sparse collaborative behaviors constrain the performance in capturing items associated with user intent. Hence, we reinforce similarity by leveraging a hybrid enhancer with ID and semantic information, followed by adaptive selection based on varying intents. Experimental results on public datasets and our industrial e-commerce datasets demonstrate the effectiveness of DAIAN.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.13852": {
+            "title": "Experimentation Accelerator: Interpretable Insights and Creative Recommendations for A/B Testing with Content-Aware ranking",
+            "authors": "Zhengmian Hu, Lei Shi, Ritwik Sinha, Justin Grover, David Arbour",
+            "first_author": "Zhengmian Hu",
+            "url": "http://arxiv.org/abs/2602.13852v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13852",
+            "publish_date": "2026-02-14",
+            "abstract": "Modern online experimentation faces two bottlenecks: scarce traffic forces tough choices on which variants to test, and post-hoc insight extraction is manual, inconsistent, and often content-agnostic. Meanwhile, organizations underuse historical A/B results and rich content embeddings that could guide prioritization and creative iteration. We present a unified framework to (i) prioritize which variants to test, (ii) explain why winners win, and (iii) surface targeted opportunities for new, higher-potential variants. Leveraging treatment embeddings and historical outcomes, we train a CTR ranking model with fixed effects for contextual shifts that scores candidates while balancing value and content diversity. For better interpretability and understanding, we project treatments onto curated semantic marketing attributes and re-express the ranker in this space via a sign-consistent, sparse constrained Lasso, yielding per-attribute coefficients and signed contributions for visual explanations, top-k drivers, and natural-language insights. We then compute an opportunity index combining attribute importance (from the ranker) with under-expression in the current experiment to flag missing, high-impact attributes. Finally, LLMs translate ranked opportunities into concrete creative suggestions and estimate both learning and conversion potential, enabling faster, more informative, and more efficient test cycles. These components have been built into a real Adobe product, called \\textit{Experimentation Accelerator}, to provide AI-based insights and opportunities to scale experimentation for customers. We provide an evaluation of the performance of the proposed framework on some real-world experiments by Adobe business customers that validate the high quality of the generation pipeline.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.13715": {
+            "title": "DMESR: Dual-view MLLM-based Enhancing Framework for Multimodal Sequential Recommendation",
+            "authors": "Mingyao Huang, Qidong Liu, Wenxuan Yang, Moranxin Wang, Yuqi Sun, Haiping Zhu, Feng Tian, Yan Chen",
+            "first_author": "Mingyao Huang",
+            "url": "http://arxiv.org/abs/2602.13715v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13715",
+            "publish_date": "2026-02-14",
+            "abstract": "Sequential Recommender Systems (SRS) aim to predict users' next interaction based on their historical behaviors, while still facing the challenge of data sparsity. With the rapid advancement of Multimodal Large Language Models (MLLMs), leveraging their multimodal understanding capabilities to enrich item semantic representation has emerged as an effective enhancement strategy for SRS. However, existing MLLM-enhanced recommendation methods still suffer from two key limitations. First, they struggle to effectively align multimodal representations, leading to suboptimal utilization of semantic information across modalities. Second, they often overly rely on MLLM-generated content while overlooking the fine-grained semantic cues contained in the original textual data of items. To address these issues, we propose a Dual-view MLLM-based Enhancing framework for multimodal Sequential Recommendation (DMESR). For the misalignment issue, we employ a contrastive learning mechanism to align the cross-modal semantic representations generated by MLLMs. For the loss of fine-grained semantics, we introduce a cross-attention fusion module that integrates the coarse-grained semantic knowledge obtained from MLLMs with the fine-grained original textual semantics. Finally, these two fused representations can be seamlessly integrated into the downstream sequential recommendation models. Extensive experiments conducted on three real-world datasets and three popular sequential recommendation architectures demonstrate the superior effectiveness and generalizability of our proposed approach.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.13631": {
+            "title": "GEMs: Breaking the Long-Sequence Barrier in Generative Recommendation with a Multi-Stream Decoder",
+            "authors": "Yu Zhou, Chengcheng Guo, Kuo Cai, Ji Liu, Qiang Luo, Ruiming Tang, Han Li, Kun Gai, Guorui Zhou",
+            "first_author": "Yu Zhou",
+            "url": "http://arxiv.org/abs/2602.13631v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13631",
+            "publish_date": "2026-02-14",
+            "abstract": "While generative recommendations (GR) possess strong sequential reasoning capabilities, they face significant challenges when processing extremely long user behavior sequences: the high computational cost forces practical sequence lengths to be limited, preventing models from capturing users' lifelong interests; meanwhile, the inherent \"recency bias\" of attention mechanisms further weakens learning from long-term history. To overcome this bottleneck, we propose GEMs (Generative rEcommendation with a Multi-stream decoder), a novel and unified framework designed to break the long-sequence barrier by capturing users' lifelong interaction sequences through a multi-stream perspective. Specifically, GEMs partitions user behaviors into three temporal streams$\\unicode{x2014}$Recent, Mid-term, and Lifecycle$\\unicode{x2014}$and employs tailored inference schemes for each: a one-stage real-time extractor for immediate dynamics, a lightweight indexer for cross attention to balance accuracy and cost for mid-term sequences, and a two-stage offline-online compression module for lifelong modeling. These streams are integrated via a parameter-free fusion strategy to enable holistic interest representation. Extensive experiments on large-scale industrial datasets demonstrate that GEMs significantly outperforms state-of-the-art methods in recommendation accuracy. Notably, GEMs is the first lifelong GR framework successfully deployed in a high-concurrency industrial environment, achieving superior inference efficiency while processing user sequences of over 100,000 interactions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.13626": {
+            "title": "Benchmark Leakage Trap: Can We Trust LLM-based Recommendation?",
+            "authors": "Mingqiao Zhang, Qiyao Peng, Yumeng Wang, Chunyuan Liu, Hongtao Liu",
+            "first_author": "Mingqiao Zhang",
+            "url": "http://arxiv.org/abs/2602.13626v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13626",
+            "publish_date": "2026-02-14",
+            "abstract": "The expanding integration of Large Language Models (LLMs) into recommender systems poses critical challenges to evaluation reliability. This paper identifies and investigates a previously overlooked issue: benchmark data leakage in LLM-based recommendation. This phenomenon occurs when LLMs are exposed to and potentially memorize benchmark datasets during pre-training or fine-tuning, leading to artificially inflated performance metrics that fail to reflect true model performance. To validate this phenomenon, we simulate diverse data leakage scenarios by conducting continued pre-training of foundation models on strategically blended corpora, which include user-item interactions from both in-domain and out-of-domain sources. Our experiments reveal a dual-effect of data leakage: when the leaked data is domain-relevant, it induces substantial but spurious performance gains, misleadingly exaggerating the model's capability. In contrast, domain-irrelevant leakage typically degrades recommendation accuracy, highlighting the complex and contingent nature of this contamination. Our findings reveal that data leakage acts as a critical, previously unaccounted-for factor in LLM-based recommendation, which could impact the true model performance. We release our code at https://github.com/yusba1/LLMRec-Data-Leakage.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2602.13581": {
+            "title": "Climber-Pilot: A Non-Myopic Generative Recommendation Model Towards Better Instruction-Following",
+            "authors": "Da Guo, Shijia Wang, Qiang Xiao, Yintao Ren, Weisheng Li, Songpei Xu, Ming Yue, Bin Huang, Guanlin Wu, Chuanjiang Luo",
+            "first_author": "Da Guo",
+            "url": "http://arxiv.org/abs/2602.13581v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13581",
+            "publish_date": "2026-02-14",
+            "abstract": "Generative retrieval has emerged as a promising paradigm in recommender systems, offering superior sequence modeling capabilities over traditional dual-tower architectures. However, in large-scale industrial scenarios, such models often suffer from inherent myopia: due to single-step inference and strict latency constraints, they tend to collapse diverse user intents into locally optimal predictions, failing to capture long-horizon and multi-item consumption patterns. Moreover, real-world retrieval systems must follow explicit retrieval instructions, such as category-level control and policy constraints. Incorporating such instruction-following behavior into generative retrieval remains challenging, as existing conditioning or post-hoc filtering approaches often compromise relevance or efficiency. In this work, we present Climber-Pilot, a unified generative retrieval framework to address both limitations. First, we introduce Time-Aware Multi-Item Prediction (TAMIP), a novel training paradigm designed to mitigate inherent myopia in generative retrieval. By distilling long-horizon, multi-item foresight into model parameters through time-aware masking, TAMIP alleviates locally optimal predictions while preserving efficient single-step inference. Second, to support flexible instruction-following retrieval, we propose Condition-Guided Sparse Attention (CGSA), which incorporates business constraints directly into the generative process via sparse attention, without introducing additional inference steps. Extensive offline experiments and online A/B testing at NetEase Cloud Music, one of the largest music streaming platforms, demonstrate that Climber-Pilot significantly outperforms state-of-the-art baselines, achieving a 4.24\\% lift of the core business metric.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.13573": {
+            "title": "Unleash the Potential of Long Semantic IDs for Generative Recommendation",
+            "authors": "Ming Xia, Zhiqin Zhou, Guoxin Ma, Dongmin Huang",
+            "first_author": "Ming Xia",
+            "url": "http://arxiv.org/abs/2602.13573v1",
+            "pdf_url": "http://arxiv.org/abs/2602.13573",
+            "publish_date": "2026-02-14",
+            "abstract": "Semantic ID-based generative recommendation represents items as sequences of discrete tokens, but it inherently faces a trade-off between representational expressiveness and computational efficiency. Residual Quantization (RQ)-based approaches restrict semantic IDs to be short to enable tractable sequential modeling, while Optimized Product Quantization (OPQ)-based methods compress long semantic IDs through naive rigid aggregation, inevitably discarding fine-grained semantic information. To resolve this dilemma, we propose ACERec, a novel framework that decouples the granularity gap between fine-grained tokenization and efficient sequential modeling. It employs an Attentive Token Merger to distill long expressive semantic tokens into compact latents and introduces a dedicated Intent Token serving as a dynamic prediction anchor. To capture cohesive user intents, we guide the learning process via a dual-granularity objective, harmonizing fine-grained token prediction with global item-level semantic alignment. Extensive experiments on six real-world benchmarks demonstrate that ACERec consistently outperforms state-of-the-art baselines, achieving an average improvement of 14.40\\% in NDCG@10, effectively reconciling semantic expressiveness and computational efficiency.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
