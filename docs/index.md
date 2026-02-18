@@ -8,6 +8,9 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-17 | **Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for Sustainable Recommendations** | Giuseppe Spillo, Allegra De Filippo, Cataldo Musto, Michela Milano, Giovanni Semeraro | [Link](http://arxiv.org/abs/2602.15508) | Not Available |
+| 2026-02-17 | **Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Movie Recommendation on MovieLens-10M and 20M** | Giuseppe Spillo, Alessandro Petruzzelli, Cataldo Musto, Marco de Gemmis, Pasquale Lops, Giovanni Semeraro | [Link](http://arxiv.org/abs/2602.15505) | Not Available |
+| 2026-02-17 | **Semantics-Aware Denoising: A PLM-Guided Sample Reweighting Strategy for Robust Recommendation** | Xikai Yang, Yang Wang, Yilin Li, Sebastian Sun | [Link](http://arxiv.org/abs/2602.15359) | Not Available |
 | 2026-02-16 | **Learning User Interests via Reasoning and Distillation for Cross-Domain News Recommendation** | Mengdan Zhu, Yufan Zhao, Tao Di, Yulan Yan, Liang Zhao | [Link](http://arxiv.org/abs/2602.15005) | Not Available |
 | 2026-02-15 | **DAIAN: Deep Adaptive Intent-Aware Network for CTR Prediction in Trigger-Induced Recommendation** | Zhihao Lv, Longtao Zhang, Ailong He, Shuzhi Cao, Shuguang Han, Jufeng Chen | [Link](http://arxiv.org/abs/2602.13971) | Not Available |
 | 2026-02-14 | **Experimentation Accelerator: Interpretable Insights and Creative Recommendations for A/B Testing with Content-Aware ranking** | Zhengmian Hu, Lei Shi, Ritwik Sinha, Justin Grover, David Arbour | [Link](http://arxiv.org/abs/2602.13852) | Not Available |

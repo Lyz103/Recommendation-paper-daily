@@ -11076,6 +11076,39 @@
             "abstract": "Semantic ID-based generative recommendation represents items as sequences of discrete tokens, but it inherently faces a trade-off between representational expressiveness and computational efficiency. Residual Quantization (RQ)-based approaches restrict semantic IDs to be short to enable tractable sequential modeling, while Optimized Product Quantization (OPQ)-based methods compress long semantic IDs through naive rigid aggregation, inevitably discarding fine-grained semantic information. To resolve this dilemma, we propose ACERec, a novel framework that decouples the granularity gap between fine-grained tokenization and efficient sequential modeling. It employs an Attentive Token Merger to distill long expressive semantic tokens into compact latents and introduces a dedicated Intent Token serving as a dynamic prediction anchor. To capture cohesive user intents, we guide the learning process via a dual-granularity objective, harmonizing fine-grained token prediction with global item-level semantic alignment. Extensive experiments on six real-world benchmarks demonstrate that ACERec consistently outperforms state-of-the-art baselines, achieving an average improvement of 14.40\\% in NDCG@10, effectively reconciling semantic expressiveness and computational efficiency.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2602.15508": {
+            "title": "Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for Sustainable Recommendations",
+            "authors": "Giuseppe Spillo, Allegra De Filippo, Cataldo Musto, Michela Milano, Giovanni Semeraro",
+            "first_author": "Giuseppe Spillo",
+            "url": "http://arxiv.org/abs/2602.15508v1",
+            "pdf_url": "http://arxiv.org/abs/2602.15508",
+            "publish_date": "2026-02-17",
+            "abstract": "In the era of responsible and sustainable AI, information retrieval and recommender systems must expand their scope beyond traditional accuracy metrics to incorporate environmental sustainability. However, this research line is severely limited by the lack of item-level environmental impact data in standard benchmarks. This paper introduces Eco-Amazon, a novel resource designed to bridge this gap. Our resource consists of an enriched version of three widely used Amazon datasets (i.e., Home, Clothing, and Electronics) augmented with Product Carbon Footprint (PCF) metadata. CO2e emission scores were generated using a zero-shot framework that leverages Large Language Models (LLMs) to estimate item-level PCF based on product attributes. Our contribution is three-fold: (i) the release of the Eco-Amazon datasets, enriching item metadata with PCF signals; (ii) the LLM-based PCF estimation script, which allows researchers to enrich any product catalogue and reproduce our results; (iii) a use case demonstrating how PCF estimates can be exploited to promote more sustainable products. By providing these environmental signals, Eco-Amazon enables the community to develop, benchmark, and evaluate the next generation of sustainable retrieval and recommendation models. Our resource is available at https://doi.org/10.5281/zenodo.18549130, while our source code is available at: http://github.com/giuspillo/EcoAmazon/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.15505": {
+            "title": "Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Movie Recommendation on MovieLens-10M and 20M",
+            "authors": "Giuseppe Spillo, Alessandro Petruzzelli, Cataldo Musto, Marco de Gemmis, Pasquale Lops, Giovanni Semeraro",
+            "first_author": "Giuseppe Spillo",
+            "url": "http://arxiv.org/abs/2602.15505v1",
+            "pdf_url": "http://arxiv.org/abs/2602.15505",
+            "publish_date": "2026-02-17",
+            "abstract": "With the growing interest in Multimodal Recommender Systems (MRSs), collecting high-quality datasets provided with multimedia side information (text, images, audio, video) has become a fundamental step. However, most of the current literature in the field relies on small- or medium-scale datasets that are either not publicly released or built using undocumented processes.   In this paper, we aim to fill this gap by releasing M3L-10M and M3L-20M, two large-scale, reproducible, multimodal datasets for the movie domain, obtained by enriching with multimodal features the popular MovieLens-10M and MovieLens-20M, respectively. By following a fully documented pipeline, we collect movie plots, posters, and trailers, from which textual, visual, acoustic, and video features are extracted using several state-of-the-art encoders. We publicly release mappings to download the original raw data, the extracted features, and the complete datasets in multiple formats, fostering reproducibility and advancing the field of MRSs. In addition, we conduct qualitative and quantitative analyses that showcase our datasets across several perspectives.   This work represents a foundational step to ensure reproducibility and replicability in the large-scale, multimodal movie recommendation domain. Our resource can be fully accessed at the following link: https://zenodo.org/records/18499145, while the source code is accessible at https://github.com/giuspillo/M3L_10M_20M.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.15359": {
+            "title": "Semantics-Aware Denoising: A PLM-Guided Sample Reweighting Strategy for Robust Recommendation",
+            "authors": "Xikai Yang, Yang Wang, Yilin Li, Sebastian Sun",
+            "first_author": "Xikai Yang",
+            "url": "http://arxiv.org/abs/2602.15359v1",
+            "pdf_url": "http://arxiv.org/abs/2602.15359",
+            "publish_date": "2026-02-17",
+            "abstract": "Implicit feedback, such as user clicks, serves as the primary data source for modern recommender systems. However, click interactions inherently contain substantial noise, including accidental clicks, clickbait-induced interactions, and exploratory browsing behaviors that do not reflect genuine user preferences. Training recommendation models with such noisy positive samples leads to degraded prediction accuracy and unreliable recommendations. In this paper, we propose SAID (Semantics-Aware Implicit Denoising), a simple yet effective framework that leverages semantic consistency between user interests and item content to identify and downweight potentially noisy interactions. Our approach constructs textual user interest profiles from historical behaviors and computes semantic similarity with target item descriptions using pre-trained language model (PLM) based text encoders. The similarity scores are then transformed into sample weights that modulate the training loss, effectively reducing the impact of semantically inconsistent clicks. Unlike existing denoising methods that require complex auxiliary networks or multi-stage training procedures, SAID only modifies the loss function while keeping the backbone recommendation model unchanged. Extensive experiments on two real-world datasets demonstrate that SAID consistently improves recommendation performance, achieving up to 2.2% relative improvement in AUC over strong baselines, with particularly notable robustness under high noise conditions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
