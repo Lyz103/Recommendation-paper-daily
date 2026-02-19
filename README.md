@@ -11,6 +11,9 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-18 | **Rethinking ANN-based Retrieval: Multifaceted Learnable Index for Large-scale Recommendation System** | Jiang Zhang, Yubo Wang, Wei Chang, Lu Han, Xingying Cheng, Feng Zhang, Min Li, Songhao Jiang, Wei Zheng, Harry Tran, Zhen Wang, Lei Chen, Yueming Wang, Benyu Zhang, Xiangjun Fan, Bi Xue, Qifan Wang | [Link](http://arxiv.org/abs/2602.16124) | Not Available |
+| 2026-02-17 | **FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation** | Xinrui He, Ting-Wei Li, Tianxin Wei, Xuying Ning, Xinyu He, Wenxuan Bao, Hanghang Tong, Jingrui He | [Link](http://arxiv.org/abs/2602.16034) | Not Available |
+| 2026-02-03 | **BamaER: A Behavior-Aware Memory-Augmented Model for Exercise Recommendation** | Qing Yang, Yuhao Jiang, Rui Wang, Jipeng Guo, Yejiang Wang, Xinghe Cheng, Zezheng Wu, Jiapu Wang, Jingwei Zhang | [Link](http://arxiv.org/abs/2602.15879) | Not Available |
 | 2026-02-17 | **Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for Sustainable Recommendations** | Giuseppe Spillo, Allegra De Filippo, Cataldo Musto, Michela Milano, Giovanni Semeraro | [Link](http://arxiv.org/abs/2602.15508) | Not Available |
 | 2026-02-17 | **Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Movie Recommendation on MovieLens-10M and 20M** | Giuseppe Spillo, Alessandro Petruzzelli, Cataldo Musto, Marco de Gemmis, Pasquale Lops, Giovanni Semeraro | [Link](http://arxiv.org/abs/2602.15505) | Not Available |
 | 2026-02-17 | **Semantics-Aware Denoising: A PLM-Guided Sample Reweighting Strategy for Robust Recommendation** | Xikai Yang, Yang Wang, Yilin Li, Sebastian Sun | [Link](http://arxiv.org/abs/2602.15359) | Not Available |
