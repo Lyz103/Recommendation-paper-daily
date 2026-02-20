@@ -11142,6 +11142,72 @@
             "abstract": "Exercise recommendation focuses on personalized exercise selection conditioned on students' learning history, personal interests, and other individualized characteristics. Despite notable progress, most existing methods represent student learning solely as exercise sequences, overlooking rich behavioral interaction information. This limited representation often leads to biased and unreliable estimates of learning progress. Moreover, fixed-length sequence segmentation limits the incorporation of early learning experiences, thereby hindering the modeling of long-term dependencies and the accurate estimation of knowledge mastery. To address these limitations, we propose BamaER, a Behavior-aware memory-augmented Exercise Recommendation framework that comprises three core modules: (i) the learning progress prediction module that captures heterogeneous student interaction behaviors via a tri-directional hybrid encoding scheme; (ii) the memory-augmented knowledge tracing module that maintains a dynamic memory matrix to jointly model historical and current knowledge states for robust mastery estimation; and (iii) the exercise filtering module that formulates candidate selection as a diversity-aware optimization problem, solved via the Hippopotamus Optimization Algorithm to reduce redundancy and improve recommendation coverage. Experiments on five real-world educational datasets show that BamaER consistently outperforms state-of-the-art baselines across a range of evaluation metrics.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2602.17442": {
+            "title": "WarpRec: Unifying Academic Rigor and Industrial Scale for Responsible, Reproducible, and Efficient Recommendation",
+            "authors": "Marco Avolio, Potito Aghilar, Sabino Roccotelli, Vito Walter Anelli, Chiara Mallamaci, Vincenzo Paparella, Marco Valentini, Alejandro Bellog\u00edn, Michelantonio Trizio, Joseph Trotta, Antonio Ferrara, Tommaso Di Noia",
+            "first_author": "Marco Avolio",
+            "url": "http://arxiv.org/abs/2602.17442v1",
+            "pdf_url": "http://arxiv.org/abs/2602.17442",
+            "publish_date": "2026-02-19",
+            "abstract": "Innovation in Recommender Systems is currently impeded by a fractured ecosystem, where researchers must choose between the ease of in-memory experimentation and the costly, complex rewriting required for distributed industrial engines. To bridge this gap, we present WarpRec, a high-performance framework that eliminates this trade-off through a novel, backend-agnostic architecture. It includes 50+ state-of-the-art algorithms, 40 metrics, and 19 filtering and splitting strategies that seamlessly transition from local execution to distributed training and optimization. The framework enforces ecological responsibility by integrating CodeCarbon for real-time energy tracking, showing that scalability need not come at the cost of scientific integrity or sustainability. Furthermore, WarpRec anticipates the shift toward Agentic AI, leading Recommender Systems to evolve from static ranking engines into interactive tools within the Generative AI ecosystem. In summary, WarpRec not only bridges the gap between academia and industry but also can serve as the architectural backbone for the next generation of sustainable, agent-ready Recommender Systems. Code is available at https://github.com/sisinflab/warprec/",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.17410": {
+            "title": "Improving LLM-based Recommendation with Self-Hard Negatives from Intermediate Layers",
+            "authors": "Bingqian Li, Bowen Zheng, Xiaolei Wang, Long Zhang, Jinpeng Wang, Sheng Chen, Wayne Xin Zhao, Ji-rong Wen",
+            "first_author": "Bingqian Li",
+            "url": "http://arxiv.org/abs/2602.17410v1",
+            "pdf_url": "http://arxiv.org/abs/2602.17410",
+            "publish_date": "2026-02-19",
+            "abstract": "Large language models (LLMs) have shown great promise in recommender systems, where supervised fine-tuning (SFT) is commonly used for adaptation. Subsequent studies further introduce preference learning to incorporate negative samples into the training process. However, existing methods rely on sequence-level, offline-generated negatives, making them less discriminative and informative when adapting LLMs to recommendation tasks with large negative item spaces. To address these challenges, we propose ILRec, a novel preference fine-tuning framework for LLM-based recommendation, leveraging self-hard negative signals extracted from intermediate layers to improve preference learning. Specifically, we identify self-hard negative tokens from intermediate layers as fine-grained negative supervision that dynamically reflects the model's preference learning process. To effectively integrate these signals into training, we design a two-stage framework comprising cross-layer preference optimization and cross-layer preference distillation, enabling the model to jointly discriminate informative negatives and enhance the quality of negative signals from intermediate layers. In addition, we introduce a lightweight collaborative filtering model to assign token-level rewards for negative signals, mitigating the risk of over-penalizing false negatives. Extensive experiments on three datasets demonstrate ILRec's effectiveness in enhancing the performance of LLM-based recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.17354": {
+            "title": "Training-free Graph-based Imputation of Missing Modalities in Multimodal Recommendation",
+            "authors": "Daniele Malitesta, Emanuele Rossi, Claudio Pomo, Tommaso Di Noia, Fragkiskos D. Malliaros",
+            "first_author": "Daniele Malitesta",
+            "url": "http://arxiv.org/abs/2602.17354v1",
+            "pdf_url": "http://arxiv.org/abs/2602.17354",
+            "publish_date": "2026-02-19",
+            "abstract": "Multimodal recommender systems (RSs) represent items in the catalog through multimodal data (e.g., product images and descriptions) that, in some cases, might be noisy or (even worse) missing. In those scenarios, the common practice is to drop items with missing modalities and train the multimodal RSs on a subsample of the original dataset. To date, the problem of missing modalities in multimodal recommendation has still received limited attention in the literature, lacking a precise formalisation as done with missing information in traditional machine learning. In this work, we first provide a problem formalisation for missing modalities in multimodal recommendation. Second, by leveraging the user-item graph structure, we re-cast the problem of missing multimodal information as a problem of graph features interpolation on the item-item co-purchase graph. On this basis, we propose four training-free approaches that propagate the available multimodal features throughout the item-item graph to impute the missing features. Extensive experiments on popular multimodal recommendation datasets demonstrate that our solutions can be seamlessly plugged into any existing multimodal RS and benchmarking framework while still preserving (or even widen) the performance gap between multimodal and traditional RSs. Moreover, we show that our graph-based techniques can perform better than traditional imputations in machine learning under different missing modalities settings. Finally, we analyse (for the first time in multimodal RSs) how feature homophily calculated on the item-item graph can influence our graph-based imputations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.17036": {
+            "title": "LiveGraph: Active-Structure Neural Re-ranking for Exercise Recommendation",
+            "authors": "Rong Fu, Zijian Zhang, Haiyun Wei, Jiekai Wu, Kun Liu, Xianda Li, Haoyu Zhao, Yang Li, Yongtai Liu, Ziming Wang, Rui Lu, Simon Fong",
+            "first_author": "Rong Fu",
+            "url": "http://arxiv.org/abs/2602.17036v1",
+            "pdf_url": "http://arxiv.org/abs/2602.17036",
+            "publish_date": "2026-02-19",
+            "abstract": "The continuous expansion of digital learning environments has catalyzed the demand for intelligent systems capable of providing personalized educational content. While current exercise recommendation frameworks have made significant strides, they frequently encounter obstacles regarding the long-tailed distribution of student engagement and the failure to adapt to idiosyncratic learning trajectories. We present LiveGraph, a novel active-structure neural re-ranking framework designed to overcome these limitations. Our approach utilizes a graph-based representation enhancement strategy to bridge the information gap between active and inactive students while integrating a dynamic re-ranking mechanism to foster content diversity. By prioritizing the structural relationships within learning histories, the proposed model effectively balances recommendation precision with pedagogical variety. Comprehensive experimental evaluations conducted on multiple real-world datasets demonstrate that LiveGraph surpasses contemporary baselines in both predictive accuracy and the breadth of exercise diversity.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.16990": {
+            "title": "Conv-FinRe: A Conversational and Longitudinal Benchmark for Utility-Grounded Financial Recommendation",
+            "authors": "Yan Wang, Yi Han, Lingfei Qian, Yueru He, Xueqing Peng, Dongji Feng, Zhuohan Xie, Vincent Jim Zhang, Rosie Guo, Fengran Mo, Jimin Huang, Yankai Chen, Xue Liu, Jian-Yun Nie",
+            "first_author": "Yan Wang",
+            "url": "http://arxiv.org/abs/2602.16990v1",
+            "pdf_url": "http://arxiv.org/abs/2602.16990",
+            "publish_date": "2026-02-19",
+            "abstract": "Most recommendation benchmarks evaluate how well a model imitates user behavior. In financial advisory, however, observed actions can be noisy or short-sighted under market volatility and may conflict with a user's long-term goals. Treating what users chose as the sole ground truth, therefore, conflates behavioral imitation with decision quality. We introduce Conv-FinRe, a conversational and longitudinal benchmark for stock recommendation that evaluates LLMs beyond behavior matching. Given an onboarding interview, step-wise market context, and advisory dialogues, models must generate rankings over a fixed investment horizon. Crucially, Conv-FinRe provides multi-view references that distinguish descriptive behavior from normative utility grounded in investor-specific risk preferences, enabling diagnosis of whether an LLM follows rational analysis, mimics user noise, or is driven by market momentum. We build the benchmark from real market data and human decision trajectories, instantiate controlled advisory conversations, and evaluate a suite of state-of-the-art LLMs. Results reveal a persistent tension between rational decision quality and behavioral alignment: models that perform well on utility-based ranking often fail to match user choices, whereas behaviorally aligned models can overfit short-term noise. The dataset is publicly released on Hugging Face, and the codebase is available on GitHub.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.16986": {
+            "title": "Bending the Scaling Law Curve in Large-Scale Recommendation Systems",
+            "authors": "Qin Ding, Kevin Course, Linjian Ma, Jianhui Sun, Rouchen Liu, Zhao Zhu, Chunxing Yin, Wei Li, Dai Li, Yu Shi, Xuan Cao, Ze Yang, Han Li, Xing Liu, Bi Xue, Hongwei Li, Rui Jian, Daisy Shi He, Jing Qian, Matt Ma, Qunshu Zhang, Rui Li",
+            "first_author": "Qin Ding",
+            "url": "http://arxiv.org/abs/2602.16986v1",
+            "pdf_url": "http://arxiv.org/abs/2602.16986",
+            "publish_date": "2026-02-19",
+            "abstract": "Learning from user interaction history through sequential models has become a cornerstone of large-scale recommender systems. Recent advances in large language models have revealed promising scaling laws, sparking a surge of research into long-sequence modeling and deeper architectures for recommendation tasks. However, many recent approaches rely heavily on cross-attention mechanisms to address the quadratic computational bottleneck in sequential modeling, which can limit the representational power gained from self-attention. We present ULTRA-HSTU, a novel sequential recommendation model developed through end-to-end model and system co-design. By innovating in the design of input sequences, sparse attention mechanisms, and model topology, ULTRA-HSTU achieves substantial improvements in both model quality and efficiency. Comprehensive benchmarking demonstrates that ULTRA-HSTU achieves remarkable scaling efficiency gains -- over 5x faster training scaling and 21x faster inference scaling compared to conventional models -- while delivering superior recommendation quality. Our solution is fully deployed at scale, serving billions of users daily and driving significant 4% to 8% consumption and engagement improvements in real-world production environments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
