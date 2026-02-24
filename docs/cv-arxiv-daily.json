@@ -11230,6 +11230,105 @@
             "abstract": "Modeling long sequences of user behaviors has emerged as a critical frontier in generative recommendation. However, existing solutions face a dilemma: linear attention mechanisms achieve efficiency at the cost of retrieval precision due to limited state capacity, while softmax attention suffers from prohibitive computational overhead. To address this challenge, we propose HyTRec, a model featuring a Hybrid Attention architecture that explicitly decouples long-term stable preferences from short-term intent spikes. By assigning massive historical sequences to a linear attention branch and reserving a specialized softmax attention branch for recent interactions, our approach restores precise retrieval capabilities within industrial-scale contexts involving ten thousand interactions. To mitigate the lag in capturing rapid interest drifts within the linear layers, we furthermore design Temporal-Aware Delta Network (TADN) to dynamically upweight fresh behavioral signals while effectively suppressing historical noise. Empirical results on industrial-scale datasets confirm the superiority that our model maintains linear inference speed and outperforms strong baselines, notably delivering over 8% improvement in Hit Rate for users with ultra-long sequences with great efficiency.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2602.20093": {
+            "title": "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation",
+            "authors": "Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li",
+            "first_author": "Kun Yang",
+            "url": "http://arxiv.org/abs/2602.20093v1",
+            "pdf_url": "http://arxiv.org/abs/2602.20093",
+            "publish_date": "2026-02-23",
+            "abstract": "Sequential recommendation increasingly employs latent multi-step reasoning to enhance test-time computation. Despite empirical gains, existing approaches largely drive intermediate reasoning states via target-dominant objectives without imposing explicit feasibility constraints. This results in latent drift, where reasoning trajectories deviate into implausible regions. We argue that effective recommendation reasoning should instead be viewed as navigation on a collaborative manifold rather than free-form latent refinement. To this end, we propose ManCAR (Manifold-Constrained Adaptive Reasoning), a principled framework that grounds reasoning within the topology of a global interaction graph. ManCAR constructs a local intent prior from the collaborative neighborhood of a user's recent actions, represented as a distribution over the item simplex. During training, the model progressively aligns its latent predictive distribution with this prior, forcing the reasoning trajectory to remain within the valid manifold. At test time, reasoning proceeds adaptively until the predictive distribution stabilizes, avoiding over-refinement. We provide a variational interpretation of ManCAR to theoretically validate its drift-prevention and adaptive test-time stopping mechanisms. Experiments on seven benchmarks demonstrate that ManCAR consistently outperforms state-of-the-art baselines, achieving up to a 46.88% relative improvement w.r.t. NDCG@10. Our code is available at https://github.com/FuCongResearchSquad/ManCAR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.19728": {
+            "title": "GrIT: Group Informed Transformer for Sequential Recommendation",
+            "authors": "Adamya Shyam, Venkateswara Rao Kagita, Bharti Rana, Vikas Kumar",
+            "first_author": "Adamya Shyam",
+            "url": "http://arxiv.org/abs/2602.19728v1",
+            "pdf_url": "http://arxiv.org/abs/2602.19728",
+            "publish_date": "2026-02-23",
+            "abstract": "Sequential recommender systems aim to predict a user's future interests by extracting temporal patterns from their behavioral history. Existing approaches typically employ transformer-based architectures to process long sequences of user interactions, capturing preference shifts by modeling temporal relationships between items. However, these methods often overlook the influence of group-level features that capture the collective behavior of similar users. We hypothesize that explicitly modeling temporally evolving group features alongside individual user histories can significantly enhance next-item recommendation. Our approach introduces latent group representations, where each user's affiliation to these groups is modeled through learnable, time-varying membership weights. The membership weights at each timestep are computed by modeling shifts in user preferences through their interaction history, where we incorporate both short-term and long-term user preferences. We extract a set of statistical features that capture the dynamics of user behavior and further refine them through a series of transformations to produce the final drift-aware membership weights. A group-based representation is derived by weighting latent group embeddings with the learned membership scores. This representation is integrated with the user's sequential representation within the transformer block to jointly capture personal and group-level temporal dynamics, producing richer embeddings that lead to more accurate, context-aware recommendations. We validate the effectiveness of our approach through extensive experiments on five benchmark datasets, where it consistently outperforms state-of-the-art sequential recommendation methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.19711": {
+            "title": "A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage Knowledge Graphs",
+            "authors": "Krzysztof Kutt, El\u017cbieta Sroka, Oleksandra Ishchuk, Luiz do Valle Miranda",
+            "first_author": "Krzysztof Kutt",
+            "url": "http://arxiv.org/abs/2602.19711v1",
+            "pdf_url": "http://arxiv.org/abs/2602.19711",
+            "publish_date": "2026-02-23",
+            "abstract": "The growing volume of digital cultural heritage resources highlights the need for advanced recommendation methods capable of interpreting semantic relationships between heterogeneous data entities. This paper presents a complete methodology for implementing a hybrid recommendation pipeline integrating knowledge-graph embeddings, approximate nearest-neighbour search, and SPARQL-driven semantic filtering. The work is evaluated on the JUHMP (Jagiellonian University Heritage Metadata Portal) knowledge graph developed within the CHExRISH project, which at the time of experimentation contained ${\\approx}3.2$M RDF triples describing people, events, objects, and historical relations affiliated with the Jagiellonian University (Krak\u00f3w, PL). We evaluate four embedding families (TransE, ComplEx, ConvE, CompGCN) and perform hyperparameter selection for ComplEx and HNSW. Then, we present and evaluate the final three-stage neuro-symbolic recommender. Despite sparse and heterogeneous metadata, the approach produces useful and explainable recommendations, which were also proven with expert evaluation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.19702": {
+            "title": "DReX: An Explainable Deep Learning-based Multimodal Recommendation Framework",
+            "authors": "Adamya Shyam, Venkateswara Rao Kagita, Bharti Rana, Vikas Kumar",
+            "first_author": "Adamya Shyam",
+            "url": "http://arxiv.org/abs/2602.19702v1",
+            "pdf_url": "http://arxiv.org/abs/2602.19702",
+            "publish_date": "2026-02-23",
+            "abstract": "Multimodal recommender systems leverage diverse data sources, such as user interactions, content features, and contextual information, to address challenges like cold-start and data sparsity. However, existing methods often suffer from one or more key limitations: processing different modalities in isolation, requiring complete multimodal data for each interaction during training, or independent learning of user and item representations. These factors contribute to increased complexity and potential misalignment between user and item embeddings. To address these challenges, we propose DReX, a unified multimodal recommendation framework that incrementally refines user and item representations by leveraging interaction-level features from multimodal feedback. Our model employs gated recurrent units to selectively integrate these fine-grained features into global representations. This incremental update mechanism provides three key advantages: (1) simultaneous modeling of both nuanced interaction details and broader preference patterns, (2) eliminates the need for separate user and item feature extraction processes, leading to enhanced alignment in their learned representation, and (3) inherent robustness to varying or missing modalities. We evaluate the performance of the proposed approach on three real-world datasets containing reviews and ratings as interaction modalities. By considering review text as a modality, our approach automatically generates interpretable keyword profiles for both users and items, which supplement the recommendation process with interpretable preference indicators. Experiment results demonstrate that our approach outperforms state-of-the-art methods across all evaluated datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.19698": {
+            "title": "Iconographic Classification and Content-Based Recommendation for Digitized Artworks",
+            "authors": "Krzysztof Kutt, Maciej Baczy\u0144ski",
+            "first_author": "Krzysztof Kutt",
+            "url": "http://arxiv.org/abs/2602.19698v1",
+            "pdf_url": "http://arxiv.org/abs/2602.19698",
+            "publish_date": "2026-02-23",
+            "abstract": "We present a proof-of-concept system that automates iconographic classification and content-based recommendation of digitized artworks using the Iconclass vocabulary and selected artificial intelligence methods. The prototype implements a four-stage workflow for classification and recommendation, which integrates YOLOv8 object detection with algorithmic mappings to Iconclass codes, rule-based inference for abstract meanings, and three complementary recommenders (hierarchical proximity, IDF-weighted overlap, and Jaccard similarity). Although more engineering is still needed, the evaluation demonstrates the potential of this solution: Iconclass-aware computer vision and recommendation methods can accelerate cataloging and enhance navigation in large heritage repositories. The key insight is to let computer vision propose visible elements and to use symbolic structures (Iconclass hierarchy) to reach meaning.",
+            "primary_category": "cs.DL",
+            "code_url": "null"
+        },
+        "2602.19689": {
+            "title": "Integrating Predictive Models into Two-Sided Recommendations: A Matching-Theoretic Approach",
+            "authors": "Kazuki Sekiya, Suguru Otani, Yuki Komatsu, Sachio Ohkawa, Shunya Noda",
+            "first_author": "Kazuki Sekiya",
+            "url": "http://arxiv.org/abs/2602.19689v1",
+            "pdf_url": "http://arxiv.org/abs/2602.19689",
+            "publish_date": "2026-02-23",
+            "abstract": "Two-sided platforms must recommend users to users, where matches (termed \\emph{dates} in this paper) require mutual interest and activity on both sides. Naive ranking by predicted dating probabilities concentrates exposure on a small subset of highly responsive users, generating congestion and overstating efficiency. We model recommendation as a many-to-many matching problem and design integrators that map predicted login, like, and reciprocation probabilities into recommendations under attention constraints. We introduce \\emph{effective dates}, a congestion-adjusted metric that discounts matches involving overloaded receivers. We then propose \\emph{exposure-constrained deferred acceptance} (ECDA), which limits receiver exposure in terms of expected likes or dates rather than headcount. Using production-grade predictions from a large Japanese dating platform, we show in calibrated simulations that ECDA increases effective dates and receiver-side dating probability despite reducing total dates. A large-scale regional field experiment confirms these effects in practice, indicating that exposure control improves equity and early-stage matching efficiency without harming downstream engagement.",
+            "primary_category": "econ.GN",
+            "code_url": "null"
+        },
+        "2602.18929": {
+            "title": "Give Users the Wheel: Towards Promptable Recommendation Paradigm",
+            "authors": "Fuyuan Lyu, Chenglin Luo, Qiyuan Zhang, Yupeng Hou, Haolun Wu, Xing Tang, Xue Liu, Jin L. C. Guo, Xiuqiang He",
+            "first_author": "Fuyuan Lyu",
+            "url": "http://arxiv.org/abs/2602.18929v1",
+            "pdf_url": "http://arxiv.org/abs/2602.18929",
+            "publish_date": "2026-02-21",
+            "abstract": "Conventional sequential recommendation models have achieved remarkable success in mining implicit behavioral patterns. However, these architectures remain structurally blind to explicit user intent: they struggle to adapt when a user's immediate goal (e.g., expressed via a natural language prompt) deviates from their historical habits. While Large Language Models (LLMs) offer the semantic reasoning to interpret such intent, existing integration paradigms force a dilemma: LLM-as-a-recommender paradigm sacrifices the efficiency and collaborative precision of ID-based retrieval, while Reranking methods are inherently bottlenecked by the recall capabilities of the underlying model. In this paper, we propose Decoupled Promptable Sequential Recommendation (DPR), a model-agnostic framework that empowers conventional sequential backbones to natively support Promptable Recommendation, the ability to dynamically steer the retrieval process using natural language without abandoning collaborative signals. DPR modulates the latent user representation directly within the retrieval space. To achieve this, we introduce a Fusion module to align the collaborative and semantic signals, a Mixture-of-Experts (MoE) architecture that disentangles the conflicting gradients from positive and negative steering, and a three-stage training strategy that progressively aligns the semantic space of prompts with the collaborative space. Extensive experiments on real-world datasets demonstrate that DPR significantly outperforms state-of-the-art baselines in prompt-guided tasks while maintaining competitive performance in standard sequential recommendation scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.18907": {
+            "title": "DeepInterestGR: Mining Deep Multi-Interest Using Multi-Modal LLMs for Generative Recommendation",
+            "authors": "Yangchen Zeng",
+            "first_author": "Yangchen Zeng",
+            "url": "http://arxiv.org/abs/2602.18907v1",
+            "pdf_url": "http://arxiv.org/abs/2602.18907",
+            "publish_date": "2026-02-21",
+            "abstract": "Recent generative recommendation frameworks have demonstrated remarkable scaling potential by reformulating item prediction as autoregressive Semantic ID (SID) generation. However, existing methods primarily rely on shallow behavioral signals, encoding items solely through surface-level textual features such as titles and descriptions. This reliance results in a critical Shallow Interest problem: the model fails to capture the latent, semantically rich interests underlying user interactions, limiting both personalization depth and recommendation interpretability. DeepInterestGR introduces three key innovations: (1) Multi-LLM Interest Mining (MLIM): We leverage multiple frontier LLMs along with their multi-modal variants to extract deep textual and visual interest representations through Chain-of-Thought prompting. (2) Reward-Labeled Deep Interest (RLDI): We employ a lightweight binary classifier to assign reward labels to mined interests, enabling effective supervision signals for reinforcement learning. (3) Interest-Enhanced Item Discretization (IEID): The curated deep interests are encoded into semantic embeddings and quantized into SID tokens via RQ-VAE. We adopt a two-stage training pipeline: supervised fine-tuning aligns the generative model with deep interest signals and collaborative filtering patterns, followed by reinforcement learning with GRPO optimized by our Interest-Aware Reward. Experiments on three Amazon Review benchmarks demonstrate that DeepInterestGR consistently outperforms state-of-the-art baselines across HR@K and NDCG@K metrics.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2602.18759": {
+            "title": "Towards Reliable Negative Sampling for Recommendation with Implicit Feedback via In-Community Popularity",
+            "authors": "Chen Chen, Haobo Lin, Yuanbo Xu",
+            "first_author": "Chen Chen",
+            "url": "http://arxiv.org/abs/2602.18759v1",
+            "pdf_url": "http://arxiv.org/abs/2602.18759",
+            "publish_date": "2026-02-21",
+            "abstract": "Learning from implicit feedback is a fundamental problem in modern recommender systems, where only positive interactions are observed and explicit negative signals are unavailable. In such settings, negative sampling plays a critical role in model training by constructing negative items that enable effective preference learning and ranking optimization. However, designing reliable negative sampling strategies remains challenging, as they must simultaneously ensure realness, hardness, and interpretability. To this end, we propose \\textbf{ICPNS (In-Community Popularity Negative Sampling)}, a novel framework that leverages user community structure to identify reliable and informative negative samples. Our approach is grounded in the insight that item exposure is driven by latent user communities. By identifying these communities and utilizing in-community popularity, ICPNS effectively approximates the probability of item exposure. Consequently, items that are popular within a user's community but remain unclicked are identified as more reliable true negatives. Extensive experiments on four benchmark datasets demonstrate that ICPNS yields consistent improvements on graph-based recommenders and competitive performance on MF-based models, outperforming representative negative sampling strategies under a unified evaluation protocol.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
