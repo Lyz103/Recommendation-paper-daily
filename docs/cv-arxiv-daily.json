@@ -11200,12 +11200,34 @@
         },
         "2602.16986": {
             "title": "Bending the Scaling Law Curve in Large-Scale Recommendation Systems",
-            "authors": "Qin Ding, Kevin Course, Linjian Ma, Jianhui Sun, Rouchen Liu, Zhao Zhu, Chunxing Yin, Wei Li, Dai Li, Yu Shi, Xuan Cao, Ze Yang, Han Li, Xing Liu, Bi Xue, Hongwei Li, Rui Jian, Daisy Shi He, Jing Qian, Matt Ma, Qunshu Zhang, Rui Li",
+            "authors": "Qin Ding, Kevin Course, Linjian Ma, Jianhui Sun, Ruochen Liu, Zhao Zhu, Chunxing Yin, Wei Li, Dai Li, Yu Shi, Xuan Cao, Ze Yang, Han Li, Xing Liu, Bi Xue, Hongwei Li, Rui Jian, Daisy Shi He, Jing Qian, Matt Ma, Qunshu Zhang, Rui Li",
             "first_author": "Qin Ding",
-            "url": "http://arxiv.org/abs/2602.16986v1",
+            "url": "http://arxiv.org/abs/2602.16986v2",
             "pdf_url": "http://arxiv.org/abs/2602.16986",
             "publish_date": "2026-02-19",
             "abstract": "Learning from user interaction history through sequential models has become a cornerstone of large-scale recommender systems. Recent advances in large language models have revealed promising scaling laws, sparking a surge of research into long-sequence modeling and deeper architectures for recommendation tasks. However, many recent approaches rely heavily on cross-attention mechanisms to address the quadratic computational bottleneck in sequential modeling, which can limit the representational power gained from self-attention. We present ULTRA-HSTU, a novel sequential recommendation model developed through end-to-end model and system co-design. By innovating in the design of input sequences, sparse attention mechanisms, and model topology, ULTRA-HSTU achieves substantial improvements in both model quality and efficiency. Comprehensive benchmarking demonstrates that ULTRA-HSTU achieves remarkable scaling efficiency gains -- over 5x faster training scaling and 21x faster inference scaling compared to conventional models -- while delivering superior recommendation quality. Our solution is fully deployed at scale, serving billions of users daily and driving significant 4% to 8% consumption and engagement improvements in real-world production environments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.18352": {
+            "title": "Qualitative Coding Analysis through Open-Source Large Language Models: A User Study and Design Recommendations",
+            "authors": "Tung T. Ngo, Dai Nguyen Van, Anh-Minh Nguyen, Phuong-Anh Do, Anh Nguyen-Quoc",
+            "first_author": "Tung T. Ngo",
+            "url": "http://arxiv.org/abs/2602.18352v1",
+            "pdf_url": "http://arxiv.org/abs/2602.18352",
+            "publish_date": "2026-02-20",
+            "abstract": "Qualitative data analysis is labor-intensive, yet the privacy risks associated with commercial Large Language Models (LLMs) often preclude their use in sensitive research. To address this, we introduce ChatQDA, an on-device framework powered by open-source LLMs designed for privacy-preserving open coding. Our mixed-methods user study reveals that while participants rated the system highly for usability and perceived efficiency, they exhibited \"conditional trust\", valuing the tool for surface-level extraction while questioning its interpretive nuance and consistency. Furthermore, despite the technical security of local deployment, participants reported epistemic uncertainty regarding data protection, suggesting that invisible security measures are insufficient to foster trust. We conclude with design recommendations for local-first analysis tools that prioritize verifiable privacy and methodological rigor.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2602.18283": {
+            "title": "HyTRec: A Hybrid Temporal-Aware Attention Architecture for Long Behavior Sequential Recommendation",
+            "authors": "Lei Xin, Yuhao Zheng, Ke Cheng, Changjiang Jiang, Zifan Zhang, Fanhu Zeng",
+            "first_author": "Lei Xin",
+            "url": "http://arxiv.org/abs/2602.18283v1",
+            "pdf_url": "http://arxiv.org/abs/2602.18283",
+            "publish_date": "2026-02-20",
+            "abstract": "Modeling long sequences of user behaviors has emerged as a critical frontier in generative recommendation. However, existing solutions face a dilemma: linear attention mechanisms achieve efficiency at the cost of retrieval precision due to limited state capacity, while softmax attention suffers from prohibitive computational overhead. To address this challenge, we propose HyTRec, a model featuring a Hybrid Attention architecture that explicitly decouples long-term stable preferences from short-term intent spikes. By assigning massive historical sequences to a linear attention branch and reserving a specialized softmax attention branch for recent interactions, our approach restores precise retrieval capabilities within industrial-scale contexts involving ten thousand interactions. To mitigate the lag in capturing rapid interest drifts within the linear layers, we furthermore design Temporal-Aware Delta Network (TADN) to dynamically upweight fresh behavioral signals while effectively suppressing historical noise. Empirical results on industrial-scale datasets confirm the superiority that our model maintains linear inference speed and outperforms strong baselines, notably delivering over 8% improvement in Hit Rate for users with ultra-long sequences with great efficiency.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
