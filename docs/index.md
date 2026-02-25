@@ -8,6 +8,9 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-24 | **Position-Aware Sequential Attention for Accurate Next Item Recommendations** | Timur Nabiev, Evgeny Frolov | [Link](http://arxiv.org/abs/2602.21052) | Not Available |
+| 2026-02-24 | **Modality-Guided Mixture of Graph Experts with Entropy-Triggered Routing for Multimodal Recommendation** | Ji Dai, Quan Fang, Dengsheng Cai | [Link](http://arxiv.org/abs/2602.20723) | Not Available |
+| 2026-02-24 | **From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production** | Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas | [Link](http://arxiv.org/abs/2602.20558) | Not Available |
 | 2026-02-23 | **ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation** | Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li | [Link](http://arxiv.org/abs/2602.20093) | Not Available |
 | 2026-02-23 | **GrIT: Group Informed Transformer for Sequential Recommendation** | Adamya Shyam, Venkateswara Rao Kagita, Bharti Rana, Vikas Kumar | [Link](http://arxiv.org/abs/2602.19728) | Not Available |
 | 2026-02-23 | **A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage Knowledge Graphs** | Krzysztof Kutt, Elżbieta Sroka, Oleksandra Ishchuk, Luiz do Valle Miranda | [Link](http://arxiv.org/abs/2602.19711) | Not Available |

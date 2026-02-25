@@ -11329,6 +11329,39 @@
             "abstract": "Learning from implicit feedback is a fundamental problem in modern recommender systems, where only positive interactions are observed and explicit negative signals are unavailable. In such settings, negative sampling plays a critical role in model training by constructing negative items that enable effective preference learning and ranking optimization. However, designing reliable negative sampling strategies remains challenging, as they must simultaneously ensure realness, hardness, and interpretability. To this end, we propose \\textbf{ICPNS (In-Community Popularity Negative Sampling)}, a novel framework that leverages user community structure to identify reliable and informative negative samples. Our approach is grounded in the insight that item exposure is driven by latent user communities. By identifying these communities and utilizing in-community popularity, ICPNS effectively approximates the probability of item exposure. Consequently, items that are popular within a user's community but remain unclicked are identified as more reliable true negatives. Extensive experiments on four benchmark datasets demonstrate that ICPNS yields consistent improvements on graph-based recommenders and competitive performance on MF-based models, outperforming representative negative sampling strategies under a unified evaluation protocol.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2602.21052": {
+            "title": "Position-Aware Sequential Attention for Accurate Next Item Recommendations",
+            "authors": "Timur Nabiev, Evgeny Frolov",
+            "first_author": "Timur Nabiev",
+            "url": "http://arxiv.org/abs/2602.21052v1",
+            "pdf_url": "http://arxiv.org/abs/2602.21052",
+            "publish_date": "2026-02-24",
+            "abstract": "Sequential self-attention models usually rely on additive positional embeddings, which inject positional information into item representations at the input. In the absence of positional signals, the attention block is permutation-equivariant over sequence positions and thus has no intrinsic notion of temporal order beyond causal masking. We argue that additive positional embeddings make the attention mechanism only superficially sensitive to sequence order: positional information is entangled with item embedding semantics, propagates weakly in deep architectures, and limits the ability to capture rich sequential patterns. To address these limitations, we introduce a kernelized self-attention mechanism, where a learnable positional kernel operates purely in the position space, disentangled from semantic similarity, and directly modulates attention weights. When applied per attention block, this kernel enables adaptive multi-scale sequential modeling. Experiments on standard next-item prediction benchmarks show that our positional kernel attention consistently improves over strong competing baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.20723": {
+            "title": "Modality-Guided Mixture of Graph Experts with Entropy-Triggered Routing for Multimodal Recommendation",
+            "authors": "Ji Dai, Quan Fang, Dengsheng Cai",
+            "first_author": "Ji Dai",
+            "url": "http://arxiv.org/abs/2602.20723v1",
+            "pdf_url": "http://arxiv.org/abs/2602.20723",
+            "publish_date": "2026-02-24",
+            "abstract": "Multimodal recommendation enhances ranking by integrating user-item interactions with item content, which is particularly effective under sparse feedback and long-tail distributions. However, multimodal signals are inherently heterogeneous and can conflict in specific contexts, making effective fusion both crucial and challenging. Existing approaches often rely on shared fusion pathways, leading to entangled representations and modality imbalance. To address these issues, we propose \\textbf{MAGNET}, a \\textbf{M}odality-Guided Mixture of \\textbf{A}daptive \\textbf{G}raph Experts \\textbf{N}etwork with Progressive \\textbf{E}ntropy-\\textbf{T}riggered Routing for Multimodal Recommendation, designed to enhance controllability, stability, and interpretability in multimodal fusion. MAGNET couples interaction-conditioned expert routing with structure-aware graph augmentation, so that both \\emph{what} to fuse and \\emph{how} to fuse are explicitly controlled and interpretable. At the representation level, a dual-view graph learning module augments the interaction graph with content-induced edges, improving coverage for sparse and long-tail items while preserving collaborative structure via parallel encoding and lightweight fusion. At the fusion level, MAGNET employs structured experts with explicit modality roles -- dominant, balanced, and complementary -- enabling a more interpretable and adaptive combination of behavioral, visual, and textual cues. To further stabilize sparse routing and prevent expert collapse, we introduce a two-stage entropy-weighting mechanism that monitors routing entropy. This mechanism automatically transitions training from an early coverage-oriented regime to a later specialization-oriented regime, progressively balancing expert utilization and routing confidence. Extensive experiments on public benchmarks demonstrate consistent improvements over strong baselines.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.20558": {
+            "title": "From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production",
+            "authors": "Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas",
+            "first_author": "Yucheng Shi",
+            "url": "http://arxiv.org/abs/2602.20558v1",
+            "pdf_url": "http://arxiv.org/abs/2602.20558",
+            "publish_date": "2026-02-24",
+            "abstract": "Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language inputs. Existing methods rely on rigid templates that simply concatenate fields, yielding suboptimal representations for recommendation. We propose a data-centric framework that learns verbalization for LLM-based recommendation. Using reinforcement learning, a verbalization agent transforms raw interaction histories into optimized textual contexts, with recommendation accuracy as the training signal. This agent learns to filter noise, incorporate relevant metadata, and reorganize information to improve downstream predictions. Experiments on a large-scale industrial streaming dataset show that learned verbalization delivers up to 93% relative improvement in discovery item recommendation accuracy over template-based baselines. Further analysis reveals emergent strategies such as user interest summarization, noise removal, and syntax normalization, offering insights into effective context construction for LLM-based recommender systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
