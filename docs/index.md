@@ -8,6 +8,10 @@ layout: default
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-25 | **Learning to Collaborate via Structures: Cluster-Guided Item Alignment for Federated Recommendation** | Yuchun Tu, Zhiwei Li, Bingli Sun, Yixuan Li, Xiao Song | [Link](http://arxiv.org/abs/2602.21957) | Not Available |
+| 2026-02-25 | **Offline Reasoning for Efficient Recommendation: LLM-Empowered Persona-Profiled Item Indexing** | Deogyong Kim, Junseong Lee, Jeongeun Lee, Changhoe Kim, Junguel Lee, Jungseok Lee, Dongha Lee | [Link](http://arxiv.org/abs/2602.21756) | Not Available |
+| 2026-02-25 | **EditFlow: Benchmarking and Optimizing Code Edit Recommendation Systems via Reconstruction of Developer Flows** | Chenyan Liu, Yun Lin, Jiaxin Chang, Jiawei Liu, Binhang Qi, Bo Jiang, Zhiyong Huang, Jin Song Dong | [Link](http://arxiv.org/abs/2602.21697) | Not Available |
+| 2026-02-25 | **Trie-Aware Transformers for Generative Recommendation** | Zhenxiang Xu, Jiawei Chen, Sirui Chen, Yong He, Jieyu Yang, Chuan Yuan, Ke Ding, Can Wang | [Link](http://arxiv.org/abs/2602.21677) | Not Available |
 | 2026-02-24 | **Position-Aware Sequential Attention for Accurate Next Item Recommendations** | Timur Nabiev, Evgeny Frolov | [Link](http://arxiv.org/abs/2602.21052) | Not Available |
 | 2026-02-24 | **Modality-Guided Mixture of Graph Experts with Entropy-Triggered Routing for Multimodal Recommendation** | Ji Dai, Quan Fang, Dengsheng Cai | [Link](http://arxiv.org/abs/2602.20723) | Not Available |
 | 2026-02-24 | **From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production** | Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas | [Link](http://arxiv.org/abs/2602.20558) | Not Available |

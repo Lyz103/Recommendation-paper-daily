@@ -10773,7 +10773,7 @@
             "title": "S-GRec: Personalized Semantic-Aware Generative Recommendation with Asymmetric Advantage",
             "authors": "Jie Jiang, Hongbo Tang, Wenjie Wu, Yangru Huang, Zhenmao Li, Qian Li, Changping Wang, Jun Zhang, Huan Yu",
             "first_author": "Jie Jiang",
-            "url": "http://arxiv.org/abs/2602.10606v2",
+            "url": "http://arxiv.org/abs/2602.10606v3",
             "pdf_url": "http://arxiv.org/abs/2602.10606",
             "publish_date": "2026-02-11",
             "abstract": "Generative recommendation models sequence generation to produce items end-to-end, but training from behavioral logs often provides weak supervision on underlying user intent. Although Large Language Models (LLMs) offer rich semantic priors that could supply such supervision, direct adoption in industrial recommendation is hindered by two obstacles: semantic signals can conflict with platform business objectives, and LLM inference is prohibitively expensive at scale. This paper presents S-GRec, a semantic-aware framework that decouples an online lightweight generator from an offline LLM-based semantic judge for train-time supervision. S-GRec introduces a two-stage Personalized Semantic Judge (PSJ) that produces interpretable aspect evidence and learns user-conditional aggregation from pairwise feedback, yielding stable semantic rewards. To prevent semantic supervision from deviating from business goals, Asymmetric Advantage Policy Optimization (A2PO) anchors optimization on business rewards (e.g., eCPM) and injects semantic advantages only when they are consistent. Extensive experiments on public benchmarks and a large-scale production system validate both effectiveness and scalability, including statistically significant gains in CTR and a 1.19\\% lift in GMV in online A/B tests, without requiring real-time LLM inference.",
@@ -11361,6 +11361,50 @@
             "publish_date": "2026-02-24",
             "abstract": "Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language inputs. Existing methods rely on rigid templates that simply concatenate fields, yielding suboptimal representations for recommendation. We propose a data-centric framework that learns verbalization for LLM-based recommendation. Using reinforcement learning, a verbalization agent transforms raw interaction histories into optimized textual contexts, with recommendation accuracy as the training signal. This agent learns to filter noise, incorporate relevant metadata, and reorganize information to improve downstream predictions. Experiments on a large-scale industrial streaming dataset show that learned verbalization delivers up to 93% relative improvement in discovery item recommendation accuracy over template-based baselines. Further analysis reveals emergent strategies such as user interest summarization, noise removal, and syntax normalization, offering insights into effective context construction for LLM-based recommender systems.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2602.21957": {
+            "title": "Learning to Collaborate via Structures: Cluster-Guided Item Alignment for Federated Recommendation",
+            "authors": "Yuchun Tu, Zhiwei Li, Bingli Sun, Yixuan Li, Xiao Song",
+            "first_author": "Yuchun Tu",
+            "url": "http://arxiv.org/abs/2602.21957v1",
+            "pdf_url": "http://arxiv.org/abs/2602.21957",
+            "publish_date": "2026-02-25",
+            "abstract": "Federated recommendation facilitates collaborative model training across distributed clients while keeping sensitive user interaction data local. Conventional approaches typically rely on synchronizing high-dimensional item representations between the server and clients. This paradigm implicitly assumes that precise geometric alignment of embedding coordinates is necessary for collaboration across clients. We posit that establishing relative semantic relationships among items is more effective than enforcing shared representations. Specifically, global semantic relations serve as structural constraints for items. Within these constraints, the framework allows item representations to vary locally on each client, which flexibility enables the model to capture fine-grained user personalization while maintaining global consistency. To this end, we propose Cluster-Guided FedRec framework (CGFedRec), a framework that transforms uploaded embeddings into compact cluster labels. In this framework, the server functions as a global structure discoverer to learn item clusters and distributes only the resulting labels. This mechanism explicitly cuts off the downstream transmission of item embeddings, relieving clients from maintaining global shared item embeddings. Consequently, CGFedRec achieves the effective injection of global collaborative signals into local item representations without transmitting full embeddings. Extensive experiments demonstrate that our approach significantly improves communication efficiency while maintaining superior recommendation accuracy across multiple datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.21756": {
+            "title": "Offline Reasoning for Efficient Recommendation: LLM-Empowered Persona-Profiled Item Indexing",
+            "authors": "Deogyong Kim, Junseong Lee, Jeongeun Lee, Changhoe Kim, Junguel Lee, Jungseok Lee, Dongha Lee",
+            "first_author": "Deogyong Kim",
+            "url": "http://arxiv.org/abs/2602.21756v1",
+            "pdf_url": "http://arxiv.org/abs/2602.21756",
+            "publish_date": "2026-02-25",
+            "abstract": "Recent advances in large language models (LLMs) offer new opportunities for recommender systems by capturing the nuanced semantics of user interests and item characteristics through rich semantic understanding and contextual reasoning. In particular, LLMs have been employed as rerankers that reorder candidate items based on inferred user-item relevance. However, these approaches often require expensive online inference-time reasoning, leading to high latency that hampers real-world deployment. In this work, we introduce Persona4Rec, a recommendation framework that performs offline reasoning to construct interpretable persona representations of items, enabling lightweight and scalable real-time inference. In the offline stage, Persona4Rec leverages LLMs to reason over item reviews, inferring diverse user motivations that explain why different types of users may engage with an item; these inferred motivations are materialized as persona representations, providing multiple, human-interpretable views of each item. Unlike conventional approaches that rely on a single item representation, Persona4Rec learns to align user profiles with the most plausible item-side persona through a dedicated encoder, effectively transforming user-item relevance into user-persona relevance. At the online stage, this persona-profiled item index allows fast relevance computation without invoking expensive LLM reasoning. Extensive experiments show that Persona4Rec achieves performance comparable to recent LLM-based rerankers while substantially reducing inference time. Moreover, qualitative analysis confirms that persona representations not only drive efficient scoring but also provide intuitive, review-grounded explanations. These results demonstrate that Persona4Rec offers a practical and interpretable solution for next-generation recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.21697": {
+            "title": "EditFlow: Benchmarking and Optimizing Code Edit Recommendation Systems via Reconstruction of Developer Flows",
+            "authors": "Chenyan Liu, Yun Lin, Jiaxin Chang, Jiawei Liu, Binhang Qi, Bo Jiang, Zhiyong Huang, Jin Song Dong",
+            "first_author": "Chenyan Liu",
+            "url": "http://arxiv.org/abs/2602.21697v1",
+            "pdf_url": "http://arxiv.org/abs/2602.21697",
+            "publish_date": "2026-02-25",
+            "abstract": "Large language models (LLMs) for code editing have achieved remarkable progress, yet recent empirical studies reveal a fundamental disconnect between technical accuracy and developer productivity. Despite their strong benchmark performance, developers complete tasks 19% slower when using AI assistance, with over 68.81% of recommendations disrupting their mental flow. This misalignment stems from the use of static commit snapshots that lack temporal information, causing models to optimize for end results rather than the incremental, context-sensitive steps that align with developers' natural reasoning process.   To bridge this gap, we present EditFlow, which benchmarks and optimizes subsequent code edit recommendation systems through the reconstruction of developer editing flows. EditFlow addresses three key challenges. First, collecting edit-order data that reflects developers' flow is inherently difficult: manual annotation introduces prohibitive overhead, while development logs capture only single trajectories instead of all plausible editing flows. Second, benchmarking recommendation performance against developers' ongoing editing flow requires a digital-twin-like simulation that can faithfully simulate the editing process. Third, existing heterogeneous systems vary drastically in scale and architecture, posing challenges for developing a unified optimization strategy that endows all models with mental-flow awareness regardless of design or capability.   ......",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2602.21677": {
+            "title": "Trie-Aware Transformers for Generative Recommendation",
+            "authors": "Zhenxiang Xu, Jiawei Chen, Sirui Chen, Yong He, Jieyu Yang, Chuan Yuan, Ke Ding, Can Wang",
+            "first_author": "Zhenxiang Xu",
+            "url": "http://arxiv.org/abs/2602.21677v1",
+            "pdf_url": "http://arxiv.org/abs/2602.21677",
+            "publish_date": "2026-02-25",
+            "abstract": "Generative recommendation (GR) aligns with advances in generative AI by casting next-item prediction as token-level generation rather than score-based ranking. Most GR methods adopt a two-stage pipeline: (i) \\textit{item tokenization}, which maps each item to a sequence of discrete, hierarchically organized tokens; and (ii) \\textit{autoregressive generation}, which predicts the next item's tokens conditioned on the tokens of user's interaction history. Although hierarchical tokenization induces a prefix tree (trie) over items, standard autoregressive modeling with conventional Transformers often flattens item tokens into a linear stream and overlooks the underlying topology.   To address this, we propose TrieRec, a trie-aware generative recommendation method that augments Transformers with structural inductive biases via two positional encodings. First, a \\textit{trie-aware absolute positional encoding} aggregates a token's (node's) local structural context (\\eg depth, ancestors, and descendants) into the token representation. Second, a \\textit{topology-aware relative positional encoding} injects pairwise structural relations into self-attention to capture topology-induced semantic relatedness. TrieRec is also model-agnostic, efficient, and hyperparameter-free. In our experiments, we implement TrieRec within three representative GR backbones, achieving notably improvements of 8.83\\% on average across four real-world datasets.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
