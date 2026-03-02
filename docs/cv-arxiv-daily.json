@@ -11461,6 +11461,72 @@
             "abstract": "Despite frequent double-blind review, systemic biases related to author demographics still disadvantage underrepresented groups. We start from a simple hypothesis: if a post-review recommender is trained with an explicit fairness regularizer, it should increase inclusion without degrading quality. To test this, we introduce Fair-PaperRec, a Multi-Layer Perceptron (MLP) with a differentiable fairness loss over intersectional attributes (e.g., race, country) that re-ranks papers after double-blind review. We first probe the hypothesis on synthetic datasets spanning high, moderate, and near-fair biases. Across multiple randomized runs, these controlled studies map where increasing the fairness weight strengthens macro/micro diversity while keeping utility approximately stable, demonstrating robustness and adaptability under varying disparity levels. We then carry the hypothesis into the original setting, conference data from ACM Special Interest Group on Computer-Human Interaction (SIGCHI), Designing Interactive Systems (DIS), and Intelligent User Interfaces (IUI). In this real-world scenario, an appropriately tuned configuration of Fair-PaperRec achieves up to a 42.03% increase in underrepresented-group participation with at most a 3.16% change in overall utility relative to the historical selection. Taken together, the synthetic-to-original progression shows that fairness regularization can act as both an equity mechanism and a mild quality regularizer, especially in highly biased regimes. By first analyzing the behavior of the fairness parameters under controlled conditions and then validating them on real submissions, Fair-PaperRec offers a practical, equity-focused framework for post-review paper selection that preserves, and in some settings can even enhance, measured scholarly quality.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2602.24125": {
+            "title": "Recommendation Algorithms: A Comparative Study in Movie Domain",
+            "authors": "Rohit Chivukula, T. Jaya Lakshmi, Hemlata Sharma, C. H. S. N. P. Sairam Rallabandi",
+            "first_author": "Rohit Chivukula",
+            "url": "http://arxiv.org/abs/2602.24125v1",
+            "pdf_url": "http://arxiv.org/abs/2602.24125",
+            "publish_date": "2026-02-27",
+            "abstract": "Intelligent recommendation systems have clearly increased the revenue of well-known e-commerce firms. Users receive product recommendations from recommendation systems. Cinematic recommendations are made to users by a movie recommendation system. There have been numerous approaches to the problem of recommendation in the literature. It is viewed as a regression task in this research. A regression model was built using novel properties extracted from the dataset and used as features in the model. For experimentation, the Netflix challenge dataset has been used. Video streaming service Netflix is a popular choice for many. Customers' prior viewing habits are taken into account when Netflix makes movie recommendations to them. An exploratory data analysis on the Netflix dataset was conducted to gain insights into user rating behaviour and movie characteristics. Various kinds of features, including aggregating, Matrix Factorization (MF) based, and user and movie similarity based, have been extracted in the subsequent stages. In addition to a feature in the XGBoost regression algorithm, the K-Nearest Neighbors and MF algorithms from Python's Surprise library are used for recommendations. Based on Root Mean Square Error (RMSE), MF-based algorithms have provided the best recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.23982": {
+            "title": "Robust Aggregation for Federated Sequential Recommendation with Sparse and Poisoned Data",
+            "authors": "Minh Hieu Nguyen",
+            "first_author": "Minh Hieu Nguyen",
+            "url": "http://arxiv.org/abs/2602.23982v1",
+            "pdf_url": "http://arxiv.org/abs/2602.23982",
+            "publish_date": "2026-02-27",
+            "abstract": "Federated sequential recommendation distributes model training across user devices so that behavioural data remains local, reducing privacy risks. Yet, this setting introduces two intertwined difficulties. On the one hand, individual clients typically contribute only short and highly sparse interaction sequences, limiting the reliability of learned user representations. On the other hand, the federated optimisation process is vulnerable to malicious or corrupted client updates, where poisoned gradients can significantly distort the global model. These challenges are particularly severe in sequential recommendation, where temporal dynamics further complicate signal aggregation. To address this problem, we propose a robust aggregation framework tailored for federated sequential recommendation under sparse and adversarial conditions. Instead of relying on standard averaging, our method introduces a defence-aware aggregation mechanism that identifies and down-weights unreliable client updates while preserving informative signals from sparse but benign participants. The framework incorporates representation-level constraints to stabilise user and item embeddings, preventing poisoned or anomalous contributions from dominating the global parameter space. In addition, we integrate sequence-aware regularisation to maintain temporal coherence in user modelling despite limited local observations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.23671": {
+            "title": "FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation",
+            "authors": "Yufei Ye, Wei Guo, Hao Wang, Luankang Zhang, Heng Chang, Hong Zhu, Yuyang Ye, Yong Liu, Defu Lian, Enhong Chen",
+            "first_author": "Yufei Ye",
+            "url": "http://arxiv.org/abs/2602.23671v1",
+            "pdf_url": "http://arxiv.org/abs/2602.23671",
+            "publish_date": "2026-02-27",
+            "abstract": "Modern recommendation systems primarily rely on attention mechanisms with quadratic complexity, which limits their ability to handle long user sequences and slows down inference. While linear attention is a promising alternative, existing research faces three critical challenges: (1) temporal signals are often overlooked or integrated via naive coupling that causes mutual interference between temporal and semantic signals while neglecting behavioral periodicity; (2) insufficient positional information provided by existing linear frameworks; and (3) a primary focus on short sequences and shallow architectures. To address these issues, we propose FuXi-Linear, a linear-complexity model designed for efficient long-sequence recommendation. Our approach introduces two key components: (1) a Temporal Retention Channel that independently computes periodic attention weights using temporal data, preventing crosstalk between temporal and semantic signals; (2) a Linear Positional Channel that integrates positional information through learnable kernels within linear complexity. Moreover, we demonstrate that FuXi-Linear exhibits a robust power-law scaling property at a thousand-length scale, a characteristic largely unexplored in prior linear recommendation studies. Extensive experiments on sequences of several thousand tokens demonstrate that FuXi-Linear outperforms state-of-the-art models in recommendation quality, while achieving up to 10$\\times$ speedup in the prefill stage and up to 21$\\times$ speedup in the decode stage compared to competitive baselines. Our code has been released in a public repository https://github.com/USTC-StarTeam/fuxi-linear.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.23639": {
+            "title": "Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation",
+            "authors": "Haibo Xing, Hao Deng, Lingyu Mu, Jinxin Hu, Yu Zhang, Xiaoyi Zeng, Jing Zhang",
+            "first_author": "Haibo Xing",
+            "url": "http://arxiv.org/abs/2602.23639v1",
+            "pdf_url": "http://arxiv.org/abs/2602.23639",
+            "publish_date": "2026-02-27",
+            "abstract": "Generative Recommendation (GR) has become a promising paradigm for large-scale recommendation systems. However, existing GR models typically perform single-pass decoding without explicit refinement, causing early deviations to accumulate and ultimately degrade recommendation quality. To tackle this problem, we propose GRC, which is, to our knowledge, the first structured reflection-correction framework for GR that extends standard decoding into a Generation-Reflection-Correction (GRC) process. Concretely, GRC introduces a supervised reflection-correction template that decomposes the decoding process into initial draft generation, multi-granular reflection, and reflection-guided correction, thereby enabling structured reflection and correction in the semantic token space. To further explore the enlarged refinement space introduced by the GRC process, we optimize the entire GRC trajectory with GRPO-based reinforcement learning, under a carefully designed reward function with token-level and trajectory-level signals. For efficient online serving, we propose an Entropy-Guided Reflection Scheduling (EGRS) strategy that dynamically allocates more correction budget to high-uncertainty decoding trajectories during beam search. Extensive experiments on real-world datasets show that GRC consistently outperforms six state-of-the-art baselines by up to 15.74%, and online A/B tests demonstrate its substantial practical value in large-scale industrial recommendation, delivering a 1.79% lift in advertising revenue with only modest latency overhead.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.23471": {
+            "title": "Cross-Representation Knowledge Transfer for Improved Sequential Recommendations",
+            "authors": "Artur Gimranov, Viacheslav Yusupov, Elfat Sabitov, Tatyana Matveeva, Anton Lysenko, Ruslan Israfilov, Evgeny Frolov",
+            "first_author": "Artur Gimranov",
+            "url": "http://arxiv.org/abs/2602.23471v1",
+            "pdf_url": "http://arxiv.org/abs/2602.23471",
+            "publish_date": "2026-02-26",
+            "abstract": "Transformer architectures, capable of capturing sequential dependencies in the history of user interactions, have become the dominant approach in sequential recommender systems. Despite their success, such models consider sequence elements in isolation, implicitly accounting for the complex relationships between them. Graph neural networks, in contrast, explicitly model these relationships through higher order interactions but are often unable to adequately capture their evolution over time, limiting their use for predicting the next interaction. To fill this gap, we present a new framework that combines transformers and graph neural networks and aligns different representations for solving next-item prediction task. Our solution simultaneously encodes structural dependencies in the interaction graph and tracks their dynamic change. Experimental results on a number of open datasets demonstrate that the proposed framework consistently outperforms both pure sequential and graph approaches in terms of recommendation quality, as well as recent methods that combine both types of signals.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2602.23400": {
+            "title": "U-CAN: Utility-Aware Contrastive Attenuation for Efficient Unlearning in Generative Recommendation",
+            "authors": "Zezheng Wu, Rui Wang, Xinghe Cheng, Yang Shao, Qing Yang, Jiapu Wang, Jingwei Zhang",
+            "first_author": "Zezheng Wu",
+            "url": "http://arxiv.org/abs/2602.23400v1",
+            "pdf_url": "http://arxiv.org/abs/2602.23400",
+            "publish_date": "2026-02-26",
+            "abstract": "Generative Recommendation (GenRec) typically leverages Large Language Models (LLMs) to redefine personalization as an instruction-driven sequence generation task. However, fine-tuning on user logs inadvertently encodes sensitive attributes into model parameters, raising critical privacy concerns. Existing Machine Unlearning (MU) techniques struggle to navigate this tension due to the Polysemy Dilemma, where neurons superimpose sensitive data with general reasoning patterns, leading to catastrophic utility loss under traditional gradient or pruning methods. To address this, we propose Utility-aware Contrastive AttenuatioN (U-CAN), a precision unlearning framework that operates on low-rank adapters. U-CAN quantifies risk by contrasting activations and focuses on neurons with asymmetric responses that are highly sensitive to the forgetting set but suppressed on the retention set. To safeguard performance, we introduce a utility-aware calibration mechanism that combines weight magnitudes with retention-set activation norms, assigning higher utility scores to dimensions that contribute strongly to retention performance. Unlike binary pruning, which often fragments network structure, U-CAN develop adaptive soft attenuation with a differentiable decay function to selectively down-scale high-risk parameters on LoRA adapters, suppressing sensitive retrieval pathways and preserving the topological connectivity of reasoning circuits. Experiments on two public datasets across seven metrics demonstrate that U-CAN achieves strong privacy forgetting, utility retention, and computational efficiency.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }
