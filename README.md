@@ -11,6 +11,14 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-03 | **Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation** | Chongjun Xia, Xiaoyu Shi, Hong Xie, Xianzhi Wang, yun lu, Mingsheng Shang | [Link](http://arxiv.org/abs/2603.03094) | Not Available |
+| 2026-03-03 | **Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation** | Chengkai Wang, Baisong Liu | [Link](http://arxiv.org/abs/2603.03080) | Not Available |
+| 2026-03-03 | **OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation** | Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Huan Yu, Jun Zhang | [Link](http://arxiv.org/abs/2603.02999) | Not Available |
+| 2026-03-03 | **APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation** | Yuanqing Yu, Yifan Wang, Weizhi Ma, Zhiqiang Guo, Min Zhang | [Link](http://arxiv.org/abs/2603.02730) | Not Available |
+| 2026-03-03 | **S2CDR: Smoothing-Sharpening Process Model for Cross-Domain Recommendation** | Xiaodong Li, Juwei Yue, Xinghua Zhang, Jiawei Sheng, Wenyuan Zhang, Taoyu Su, Zefeng Zhang, Tingwen Liu | [Link](http://arxiv.org/abs/2603.02725) | Not Available |
+| 2026-03-03 | **Sensory-Aware Sequential Recommendation via Review-Distilled Representations** | Yeo Chan Yoon | [Link](http://arxiv.org/abs/2603.02709) | Not Available |
+| 2026-03-03 | **AlphaFree: Recommendation Free from Users, IDs, and GNNs** | Minseo Jeon, Junwoo Jung, Daewon Gwak, Jinhong Jung | [Link](http://arxiv.org/abs/2603.02653) | Not Available |
+| 2026-03-03 | **SOLAR: SVD-Optimized Lifelong Attention for Recommendation** | Chenghao Zhang, Chao Feng, Yuanhao Pu, Xunyong Yang, Wenhui Yu, Xiang Li, Yongqi Liu, Lantao Hu, Kaiqiao Zhan, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2603.02561) | Not Available |
 | 2026-03-02 | **MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation** | Xinxin Dong, Haokai Ma, Yuze Zheng, Yongfu Zha, Yonghui Yang, Xiaodong Wang | [Link](http://arxiv.org/abs/2603.01926) | Not Available |
 | 2026-03-02 | **IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs** | Yubin Zhang, Haiming Xu, Guillaume Salha-Galvan, Ruiyan Han, Feiyang Xiao, Yanhua Huang, Li Lin, Yang Luo, Yao Hu | [Link](http://arxiv.org/abs/2603.01590) | Not Available |
 | 2026-03-02 | **CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation** | Hao Zhan, Yihui Wang, Yonghui Yang, Danyang Yue, Yu Wang, Pengyang Shao, Fei Shen, Fei Liu, Le Wu | [Link](http://arxiv.org/abs/2603.01536) | Not Available |
