@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-04 | **CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Yijie Li, Jianheng Tang, Yunhuai Liu, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2603.04320) | Not Available |
+| 2026-03-04 | **Fairness Begins with State: Purifying Latent Preferences for Hierarchical Reinforcement Learning in Interactive Recommendation** | Yun Lu, Xiaoyu Shi, Hong Xie, Xiangyu Zhao, Mingsheng Shang | [Link](http://arxiv.org/abs/2603.03820) | Not Available |
+| 2026-03-04 | **DisenReason: Behavior Disentanglement and Latent Reasoning for Shared-Account Sequential Recommendation** | Jiawei Cheng, Min Gao, Zongwei Wang, Xiaofei Zhu, Zhiyi Liu, Wentao Li, Wei Li, Huan Wu | [Link](http://arxiv.org/abs/2603.03782) | Not Available |
+| 2026-03-04 | **AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation** | Yunxiao Shi, Wujiang Xu, Tingwei Chen, Haoning Shang, Ling Yang, Yunfeng Wan, Zhuo Cao, Xing Zi, Dimitris N. Metaxas, Min Xu | [Link](http://arxiv.org/abs/2603.03761) | Not Available |
+| 2026-02-08 | **Combating data scarcity in recommendation services: Integrating cognitive types of VARK and neural network technologies (LLM)** | Nikita Zmanovskii | [Link](http://arxiv.org/abs/2603.03309) | Not Available |
 | 2026-03-03 | **Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation** | Chongjun Xia, Xiaoyu Shi, Hong Xie, Xianzhi Wang, yun lu, Mingsheng Shang | [Link](http://arxiv.org/abs/2603.03094) | Not Available |
 | 2026-03-03 | **Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation** | Chengkai Wang, Baisong Liu | [Link](http://arxiv.org/abs/2603.03080) | Not Available |
 | 2026-03-03 | **OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation** | Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Huan Yu, Jun Zhang | [Link](http://arxiv.org/abs/2603.02999) | Not Available |
