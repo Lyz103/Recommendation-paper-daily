@@ -11802,6 +11802,28 @@
             "abstract": "Sequential Recommendation (SR) predicts users next interactions by modeling the temporal order of their historical behaviors. Existing approaches, including traditional sequential models and generative recommenders, achieve strong performance but primarily rely on explicit interactions such as clicks or purchases while overlooking item exposures. This ignorance introduces selection bias, where exposed but unclicked items are misinterpreted as disinterest, and exposure bias, where unexposed items are treated as irrelevant. Effectively addressing these biases requires distinguishing between items that were \"not exposed\" and those that were \"not of interest\", which cannot be reliably inferred from correlations in historical data. Counterfactual reasoning provides a natural solution by estimating user preferences under hypothetical exposure, and Inverse Propensity Scoring (IPS) is a common tool for such estimation. However, conventional IPS methods are static and fail to capture the sequential dependencies and temporal dynamics of user behavior. To overcome these limitations, we propose Time aware Inverse Propensity Scoring (TIPS). Unlike traditional static IPS, TIPS effectively accounts for sequential dependencies and temporal dynamics, thereby capturing user preferences more accurately. Extensive experiments show that TIPS consistently enhances recommendation performance as a plug-in for various sequential recommenders. Our code will be publicly available upon acceptance.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2603.06243": {
+            "title": "MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation",
+            "authors": "Yu Wang, Yonghui Yang, Le Wu, Jiancan Wu, Hefei Xu, Hui Lin",
+            "first_author": "Yu Wang",
+            "url": "http://arxiv.org/abs/2603.06243v1",
+            "pdf_url": "http://arxiv.org/abs/2603.06243",
+            "publish_date": "2026-03-06",
+            "abstract": "Group relative policy optimization (GRPO) has become a standard post-training paradigm for improving reasoning and preference alignment in large language models (LLMs), and has recently shown strong effectiveness in LLM-based recommender systems. However, extending GRPO-based reasoning pipelines to multimodal sequential recommendation (MSR) with multimodal large language models (MLLMs) faces fundamental obstacles. First, MSR requires jointly encoding visual content for both historical interactions and multiple candidate items, causing visual tokens to dominate the input and making the cost of group-based rollout scale with history length and candidate set size, which renders GRPO-based training prohibitively expensive. Second, existing Chain-of-Thought (CoT) supervision suffers from reward inflation in recommendation scenarios, where higher training rewards do not reliably translate into improved ranking performance and may induce shortcut learning. To address these challenges, we propose MLLMRec-R1, an efficient and stable GRPO-based reasoning framework for multimodal sequential recommendation. MLLMRec-R1 textualizes visual signals offline to eliminate expensive visual tokens while preserving multimodal semantics, and constructs high-quality multimodal CoT supervision through refinement and confidence-aware assessment. Furthermore, a mixed-grained data augmentation strategy selectively injects reliable CoT samples while retaining standard training data, mitigating reward inflation and improving generalization stability. Extensive experiments on three benchmark datasets demonstrate that MLLMRec-R1 consistently outperforms state-of-the-art methods, establishing a practical and effective GRPO-based reasoning pipeline for multimodal sequential recommendation. The code is available at https://github.com/wangyu0627/MLLMRec-R1.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.05780": {
+            "title": "Balancing Domestic and Global Perspectives: Evaluating Dual-Calibration and LLM-Generated Nudges for Diverse News Recommendation",
+            "authors": "Ruixuan Sun, Matthew Zent, Minzhu Zhao, Thanmayee Boyapati, Xinyi Li, Joseph A. Konstan",
+            "first_author": "Ruixuan Sun",
+            "url": "http://arxiv.org/abs/2603.05780v1",
+            "pdf_url": "http://arxiv.org/abs/2603.05780",
+            "publish_date": "2026-03-06",
+            "abstract": "In this study, we applied the ``personalized diversity nudge framework'' with the goal of expanding user reading coverage in terms of news locality (i.e., domestic and world news). We designed a novel topic-locality dual calibration algorithmic nudge and a large language model-based news personalization presentation nudge, then launched a 5-week real-user study with 120 U.S. news readers on the news recommendation experiment platform POPROX. With user interaction logs and survey responses, we found that algorithmic nudges can successfully increase exposure and consumption diversity, while the impact of LLM-based presentation nudges varied. User-level topic interest is a strong predictor of user clicks, while highlighting the relevance of news articles to prior read articles outperforms generic topic-based and no personalization. We also demonstrate that longitudinal exposure to calibrated news may shift readers' reading habits to value a balanced news digest from both domestic and world articles. Our results provide direction for future work on nudging for diverse consumption in news recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

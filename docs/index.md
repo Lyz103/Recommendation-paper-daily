@@ -2,12 +2,14 @@
 layout: default
 ---
 
-## Updated on 2026-03-08
+## Updated on 2026-03-09
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-06 | **MLLMRec-R1: Incentivizing Reasoning Capability in Large Language Models for Multimodal Sequential Recommendation** | Yu Wang, Yonghui Yang, Le Wu, Jiancan Wu, Hefei Xu, Hui Lin | [Link](http://arxiv.org/abs/2603.06243) | Not Available |
+| 2026-03-06 | **Balancing Domestic and Global Perspectives: Evaluating Dual-Calibration and LLM-Generated Nudges for Diverse News Recommendation** | Ruixuan Sun, Matthew Zent, Minzhu Zhao, Thanmayee Boyapati, Xinyi Li, Joseph A. Konstan | [Link](http://arxiv.org/abs/2603.05780) | Not Available |
 | 2026-03-05 | **Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring** | Sirui Huang, Jing Long, Qian Li, Guandong Xu, Qing Li | [Link](http://arxiv.org/abs/2603.04986) | Not Available |
 | 2026-03-04 | **CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Yijie Li, Jianheng Tang, Yunhuai Liu, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2603.04320) | Not Available |
 | 2026-03-04 | **Fairness Begins with State: Purifying Latent Preferences for Hierarchical Reinforcement Learning in Interactive Recommendation** | Yun Lu, Xiaoyu Shi, Hong Xie, Xiangyu Zhao, Mingsheng Shang | [Link](http://arxiv.org/abs/2603.03820) | Not Available |
