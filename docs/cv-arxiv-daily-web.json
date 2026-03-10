@@ -11048,7 +11048,7 @@
             "title": "Benchmark Leakage Trap: Can We Trust LLM-based Recommendation?",
             "authors": "Mingqiao Zhang, Qiyao Peng, Yumeng Wang, Chunyuan Liu, Hongtao Liu",
             "first_author": "Mingqiao Zhang",
-            "url": "http://arxiv.org/abs/2602.13626v1",
+            "url": "http://arxiv.org/abs/2602.13626v2",
             "pdf_url": "http://arxiv.org/abs/2602.13626",
             "publish_date": "2026-02-14",
             "abstract": "The expanding integration of Large Language Models (LLMs) into recommender systems poses critical challenges to evaluation reliability. This paper identifies and investigates a previously overlooked issue: benchmark data leakage in LLM-based recommendation. This phenomenon occurs when LLMs are exposed to and potentially memorize benchmark datasets during pre-training or fine-tuning, leading to artificially inflated performance metrics that fail to reflect true model performance. To validate this phenomenon, we simulate diverse data leakage scenarios by conducting continued pre-training of foundation models on strategically blended corpora, which include user-item interactions from both in-domain and out-of-domain sources. Our experiments reveal a dual-effect of data leakage: when the leaked data is domain-relevant, it induces substantial but spurious performance gains, misleadingly exaggerating the model's capability. In contrast, domain-irrelevant leakage typically degrades recommendation accuracy, highlighting the complex and contingent nature of this contamination. Our findings reveal that data leakage acts as a critical, previously unaccounted-for factor in LLM-based recommendation, which could impact the true model performance. We release our code at https://github.com/yusba1/LLMRec-Data-Leakage.",
@@ -11822,6 +11822,50 @@
             "pdf_url": "http://arxiv.org/abs/2603.05780",
             "publish_date": "2026-03-06",
             "abstract": "In this study, we applied the ``personalized diversity nudge framework'' with the goal of expanding user reading coverage in terms of news locality (i.e., domestic and world news). We designed a novel topic-locality dual calibration algorithmic nudge and a large language model-based news personalization presentation nudge, then launched a 5-week real-user study with 120 U.S. news readers on the news recommendation experiment platform POPROX. With user interaction logs and survey responses, we found that algorithmic nudges can successfully increase exposure and consumption diversity, while the impact of LLM-based presentation nudges varied. User-level topic interest is a strong predictor of user clicks, while highlighting the relevance of news articles to prior read articles outperforms generic topic-based and no personalization. We also demonstrate that longitudinal exposure to calibrated news may shift readers' reading habits to value a balanced news digest from both domestic and world articles. Our results provide direction for future work on nudging for diverse consumption in news recommendation systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.07086": {
+            "title": "Multi-TAP: Multi-criteria Target Adaptive Persona Modeling for Cross-Domain Recommendation",
+            "authors": "Daehee Kang, Yeon-Chang Lee",
+            "first_author": "Daehee Kang",
+            "url": "http://arxiv.org/abs/2603.07086v1",
+            "pdf_url": "http://arxiv.org/abs/2603.07086",
+            "publish_date": "2026-03-07",
+            "abstract": "Cross-domain recommendation (CDR) aims to alleviate data sparsity by transferring knowledge across domains, yet existing methods primarily rely on coarse-grained behavioral signals and often overlook intra-domain heterogeneity in user preferences. We propose Multi-TAP, a multi-criteria target-adaptive persona framework that explicitly captures such heterogeneity through semantic persona modeling. To enable effective transfer, Multi-TAP selectively incorporates source-domain signals conditioned on the target domain, preserving relevance during knowledge transfer. Experiments on real-world datasets demonstrate that Multi-TAP consistently outperforms state-of-the-art CDR methods, highlighting the importance of modeling intra-domain heterogeneity for robust cross-domain recommendation. The codebase of Multi-TAP is currently available at https://github.com/archivehee/Multi-TAP.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2603.06631": {
+            "title": "T-REX: Transformer-Based Category Sequence Generation for Grocery Basket Recommendation",
+            "authors": "Soroush Mokhtari, Muhammad Tayyab Asif, Sergiy Zubatiy",
+            "first_author": "Soroush Mokhtari",
+            "url": "http://arxiv.org/abs/2603.06631v1",
+            "pdf_url": "http://arxiv.org/abs/2603.06631",
+            "publish_date": "2026-02-23",
+            "abstract": "Online grocery shopping presents unique challenges for sequential recommendations due to repetitive purchase patterns and complex item relationships within the baskets. Unlike traditional e-commerce, grocery recommendations must capture both complementary item associations and temporal dependencies across shopping sessions. To address these challenges in Amazon's online grocery business, we propose T-REX, a novel transformer architecture that generates personalized category-level suggestions by learning both short-term basket dependencies and long-term user preferences. Our approach introduces three key innovations: (1) an efficient sampling strategy utilizing dynamic sequence splitting for sparse shopping patterns, (2) an adaptive positional encoding scheme for temporal patterns, and (3) a category-level modeling approach that reduces dimensionality while maintaining recommendation quality. Although masked language modeling techniques like BERT4Rec excel at capturing item relations, they prove less suitable for next basket generation due to information leakage issues. In contrast, T-REX's causal masking approach better aligns with the sequential nature of basket generation, enabling more accurate next-basket predictions. Experiments on large-scale grocery offline data and online A/B tests show significant improvement over existing systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.06624": {
+            "title": "Exploration Space Theory: Formal Foundations for Prerequisite-Aware Location-Based Recommendation",
+            "authors": "Madjid Sadallah",
+            "first_author": "Madjid Sadallah",
+            "url": "http://arxiv.org/abs/2603.06624v1",
+            "pdf_url": "http://arxiv.org/abs/2603.06624",
+            "publish_date": "2026-02-21",
+            "abstract": "Location-based recommender systems have achieved considerable sophistication, yet none provides a formal, lattice-theoretic representation of prerequisite dependencies among points of interest -- the semantic reality that meaningfully experiencing certain locations presupposes contextual knowledge gained from others -- nor the structural guarantees that such a representation entails. We introduce Exploration Space Theory (EST), a formal framework that transposes Knowledge Space Theory into location-based recommendation. We prove that the valid user exploration states -- the order ideals of a surmise partial order on points of interest -- form a finite distributive lattice and a well-graded learning space; Birkhoff's representation theorem, combined with the structural isomorphism between lattices of order ideals and concept lattices, connects the exploration space canonically to Formal Concept Analysis. These structural results yield four direct consequences: linear-time fringe computation, a validity certificate guaranteeing that every fringe-guided recommendation is a structurally sound next step, sub-path optimality for dynamic-programming path generation, and provably existing structural explanations for every recommendation. Building on these foundations, we specify the Exploration Space Recommender System (ESRS) -- a memoized dynamic program over the exploration lattice, a Bayesian state estimator with beam approximation and EM parameter learning, an online feedback loop enforcing the downward-closure invariant, an incremental surmise-relation inference pipeline, and three cold-start strategies, the structural one being the only approach in the literature to provide a formal validity guarantee conditional on the correctness of the inferred surmise relation. All results are established through proof and illustrated on a fully traced five-POI numerical example.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.06589": {
+            "title": "Isotonic Layer: A Universal Framework for Generic Recommendation Debiasing",
+            "authors": "Hailing Cheng, Yafang Yang, Hemeng Tao, Fengyu Zhang",
+            "first_author": "Hailing Cheng",
+            "url": "http://arxiv.org/abs/2603.06589v1",
+            "pdf_url": "http://arxiv.org/abs/2603.06589",
+            "publish_date": "2026-02-02",
+            "abstract": "Model calibration and debiasing are fundamental to the reliability and fairness of large scale recommendation systems. We introduce the Isotonic Layer, a novel, differentiable framework that integrates piecewise linear fitting directly into neural architectures. By partitioning the feature space into discrete segments and optimizing non negative slopes via a constrained dot product mechanism, we enforce a global monotonic inductive bias. This ensures model outputs remain logically consistent with critical features such as latent relevance, recency, or quality scores. We further generalize this architecture by parameterizing segment wise slopes as learnable embeddings. This enables the model to adaptively capture context specific distortions, such as position based CTR bias through specialized isotonic profiles. Our approach utilizes a dual task formulation that decouples the recommendation objective into latent relevance estimation and bias aware calibration. A major contribution of this work is the ability to perform highly granular, customized calibration for arbitrary combinations of context features, a level of control difficult to achieve with traditional non parametric methods. We also extend this to Multi Task Learning environments with dedicated embeddings for distinct objectives. Extensive empirical evaluations on real world datasets and production AB tests demonstrate that the Isotonic Layer effectively mitigates systematic bias and enhances calibration fidelity, significantly outperforming production baselines in both predictive accuracy and ranking consistency.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
