@@ -11,6 +11,8 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-10 | **A Bayesian adaptive enrichment design using aggregate historical data to inform individualized treatment recommendations** | Lara Maleyeff, Shirin Golchi, Erica E. M. Moodie | [Link](http://arxiv.org/abs/2603.09919) | Not Available |
+| 2026-03-10 | **RecThinker: An Agentic Framework for Tool-Augmented Reasoning in Recommendation** | Haobo Zhang, Yutao Zhu, Kelong Mao, Tianhao Li, Zhicheng Dou | [Link](http://arxiv.org/abs/2603.09843) | Not Available |
 | 2026-03-10 | **What Do We Care About in Bandits with Noncompliance? BRACE: Bandits with Recommendations, Abstention, and Certified Effects** | Nicolás Della Penna | [Link](http://arxiv.org/abs/2603.09532) | Not Available |
 | 2026-03-09 | **PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents** | Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li | [Link](http://arxiv.org/abs/2603.08013) | Not Available |
 | 2026-03-08 | **Verifiable Reasoning for LLM-based Generative Recommendation** | Xinyu Lin, Hanqing Zeng, Hanchao Yu, Yinglong Xia, Jiang Zhang, Aashu Singh, Fei Liu, Wenjie Wang, Fuli Feng, Tat-Seng Chua, Qifan Wang | [Link](http://arxiv.org/abs/2603.07725) | Not Available |
