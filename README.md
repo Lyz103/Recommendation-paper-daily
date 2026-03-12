@@ -1,4 +1,4 @@
-## Updated on 2026-03-11
+## Updated on 2026-03-12
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,9 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-11 | **Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation** | Yaxin Gong, Chongming Gao, Chenxiao Fan, Wenjie Wang, Fuli Feng, Xiangnan He | [Link](http://arxiv.org/abs/2603.10673) | Not Available |
+| 2026-03-11 | **Modeling Stage-wise Evolution of User Interests for News Recommendation** | Zhiyong Cheng, Yike Jin, Zhijie Zhang, Huilin Chen, Zhangling Duan, Meng Wang | [Link](http://arxiv.org/abs/2603.10471) | Not Available |
+| 2026-03-10 | **Optimal Control Synthesis of Closed-Loop Recommendation Systems over Social Networks** | Simone Mariano, Paolo Frasca | [Link](http://arxiv.org/abs/2603.10275) | Not Available |
 | 2026-03-10 | **A Bayesian adaptive enrichment design using aggregate historical data to inform individualized treatment recommendations** | Lara Maleyeff, Shirin Golchi, Erica E. M. Moodie | [Link](http://arxiv.org/abs/2603.09919) | Not Available |
 | 2026-03-10 | **RecThinker: An Agentic Framework for Tool-Augmented Reasoning in Recommendation** | Haobo Zhang, Yutao Zhu, Kelong Mao, Tianhao Li, Zhicheng Dou | [Link](http://arxiv.org/abs/2603.09843) | Not Available |
 | 2026-03-10 | **What Do We Care About in Bandits with Noncompliance? BRACE: Bandits with Recommendations, Abstention, and Certified Effects** | Nicolás Della Penna | [Link](http://arxiv.org/abs/2603.09532) | Not Available |

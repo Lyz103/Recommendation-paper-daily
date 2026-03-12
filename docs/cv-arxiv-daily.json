@@ -11923,6 +11923,39 @@
             "abstract": "Large Language Models (LLMs) have revolutionized recommendation agents by providing superior reasoning and flexible decision-making capabilities. However, existing methods mainly follow a passive information acquisition paradigm, where agents either rely on static pre-defined workflows or perform reasoning with constrained information. It limits the agent's ability to identify information sufficiency, often leading to suboptimal recommendations when faced with fragmented user profiles or sparse item metadata. To address these limitations, we propose RecThinker, an agentic framework for tool-augmented reasoning in recommendation, which shifts recommendation from passive processing to autonomous investigation by dynamically planning reasoning paths and proactively acquiring essential information via autonomous tool-use. Specifically, RecThinker adopts an Analyze-Plan-Act paradigm, which first analyzes the sufficiency of user-item information and autonomously invokes tool-calling sequences to bridge information gaps between available knowledge and reasoning requirements. We develop a suite of specialized tools for RecThinker, enabling the model to acquire user-side, item-side, and collaborative information for better reasoning and user-item matching. Furthermore, we introduce a self-augmented training pipeline, comprising a Supervised Fine-Tuning (SFT) stage to internalize high-quality reasoning trajectories and a Reinforcement Learning (RL) stage to optimize for decision accuracy and tool-use efficiency. Extensive experiments on multiple benchmark datasets demonstrate that RecThinker consistently outperforms strong baselines in the recommendation scenario.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2603.10673": {
+            "title": "Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation",
+            "authors": "Yaxin Gong, Chongming Gao, Chenxiao Fan, Wenjie Wang, Fuli Feng, Xiangnan He",
+            "first_author": "Yaxin Gong",
+            "url": "http://arxiv.org/abs/2603.10673v1",
+            "pdf_url": "http://arxiv.org/abs/2603.10673",
+            "publish_date": "2026-03-11",
+            "abstract": "Recent advances in large language models (LLMs) have stimulated growing interest in agent-based recommender systems, enabling language-driven interaction and reasoning for more expressive preference modeling. However, most existing agentic approaches remain predominantly user-centric, treating items as passive entities and neglecting the interests of other critical stakeholders. This limitation exacerbates exposure concentration and long-tail under-representation, threatening long-term system sustainability. In this work, we identify this fundamental limitation and propose the first Tri-party LLM-agent Recommendation framework (TriRec) that explicitly coordinates user utility, item exposure, and platform-level fairness. The framework employs a two-stage architecture: Stage~1 empowers item agents with personalized self-promotion to improve matching quality and alleviate cold-start barriers, while Stage~2 uses a platform agent for sequential multi-objective re-ranking, balancing user relevance, item utility, and exposure fairness. Experiments on multiple benchmarks show consistent gains in accuracy, fairness, and item-level utility. Moreover, we find that item self-promotion can simultaneously enhance fairness and effectiveness, challenging the conventional trade-off assumption between relevance and fairness. Our code is available at https://github.com/Marfekey/TriRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.10471": {
+            "title": "Modeling Stage-wise Evolution of User Interests for News Recommendation",
+            "authors": "Zhiyong Cheng, Yike Jin, Zhijie Zhang, Huilin Chen, Zhangling Duan, Meng Wang",
+            "first_author": "Zhiyong Cheng",
+            "url": "http://arxiv.org/abs/2603.10471v1",
+            "pdf_url": "http://arxiv.org/abs/2603.10471",
+            "publish_date": "2026-03-11",
+            "abstract": "Personalized news recommendation is highly time-sensitive, as user interests are often driven by emerging events, trending topics, and shifting real-world contexts. These dynamics make it essential to model not only users' long-term preferences, which reflect stable reading habits and high-order collaborative patterns, but also their short-term, context-dependent interests that change rapidly over time. However, most existing approaches rely on a single static interaction graph, which struggles to capture both long-term preference patterns and short-term interest changes as user behavior evolves. To address this challenge, we propose a unified framework that learns user preferences from both global and local temporal perspectives. A global preference modeling component captures long-term collaborative signals from the overall interaction graph, while a local preference modeling component partitions historical interactions into stage-wise temporal subgraphs to represent short-term dynamics. Within this module, an LSTM branch models the progressive evolution of recent interests, and a self-attention branch captures long-range temporal dependencies. Extensive experiments on two large-scale real-world datasets show that our approach consistently outperforms strong baselines and delivers fresher and more relevant recommendations across diverse user behaviors and temporal settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.10275": {
+            "title": "Optimal Control Synthesis of Closed-Loop Recommendation Systems over Social Networks",
+            "authors": "Simone Mariano, Paolo Frasca",
+            "first_author": "Simone Mariano",
+            "url": "http://arxiv.org/abs/2603.10275v1",
+            "pdf_url": "http://arxiv.org/abs/2603.10275",
+            "publish_date": "2026-03-10",
+            "abstract": "This paper addresses the problem of designing recommendation systems for social networks and e-commerce platforms from a control-theoretic perspective. We treat the design of recommendation systems as a state-feedback infinite-horizon optimal control problem with a performance index that (i) rewards alignment and engagement, (ii) penalizes polarization and large deviations from an uncontrolled baseline, and (iii) regularizes exposure across neighboring users. The recommendation entries are fed to the platform users, who are assumed to follow a networked, multi-topic, continuous-time opinion dynamics. We show that the designed control yields a stabilizing recommendation system under simple algebraic spectral conditions on the weights that encode the platform's preference for engagement, stability of preferences, polarization, and cross-user diversity. Conversely, we show that when ill-posed weights are selected in the optimal control problem (namely, when engagement is excessively rewarded), the closed-loop system can exhibit destabilizing, pathological behaviors that conflict with the design objectives.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
         }
     }
 }
