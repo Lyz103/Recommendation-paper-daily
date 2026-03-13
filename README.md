@@ -1,4 +1,4 @@
-## Updated on 2026-03-12
+## Updated on 2026-03-13
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-12 | **Fair Learning for Bias Mitigation and Quality Optimization in Paper Recommendation** | Uttamasha Anjally Oyshi, Susan Gauch | [Link](http://arxiv.org/abs/2603.11936) | Not Available |
+| 2026-03-12 | **Enhancing Music Recommendation with User Mood Input** | Terence Zeng | [Link](http://arxiv.org/abs/2603.11796) | Not Available |
+| 2026-03-12 | **Federated Learning and Unlearning for Recommendation with Personalized Data Sharing** | Liang Qu, Jianxin Li, Wei Yuan, Shangfei Zheng, Lu Chen, Chengfei Liu, Hongzhi Yin | [Link](http://arxiv.org/abs/2603.11610) | Not Available |
+| 2026-03-12 | **Sharpness-Aware Minimization for Generalized Embedding Learning in Federated Recommendation** | Fengyuan Yu, Xiaohua Feng, Yuyuan Li, Changwang Zhang, Jun Wang, Chaochao Chen | [Link](http://arxiv.org/abs/2603.11503) | Not Available |
+| 2026-03-12 | **Entropy Guided Diversification and Preference Elicitation in Agentic Recommendation Systems** | Dat Tran, Yongce Li, Hannah Clay, Negin Golrezaei, Sajjad Beygi, Amin Saberi | [Link](http://arxiv.org/abs/2603.11399) | Not Available |
 | 2026-03-11 | **Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation** | Yaxin Gong, Chongming Gao, Chenxiao Fan, Wenjie Wang, Fuli Feng, Xiangnan He | [Link](http://arxiv.org/abs/2603.10673) | Not Available |
 | 2026-03-11 | **Modeling Stage-wise Evolution of User Interests for News Recommendation** | Zhiyong Cheng, Yike Jin, Zhijie Zhang, Huilin Chen, Zhangling Duan, Meng Wang | [Link](http://arxiv.org/abs/2603.10471) | Not Available |
 | 2026-03-10 | **Optimal Control Synthesis of Closed-Loop Recommendation Systems over Social Networks** | Simone Mariano, Paolo Frasca | [Link](http://arxiv.org/abs/2603.10275) | Not Available |
@@ -33,7 +38,7 @@
 | 2026-02-08 | **Combating data scarcity in recommendation services: Integrating cognitive types of VARK and neural network technologies (LLM)** | Nikita Zmanovskii | [Link](http://arxiv.org/abs/2603.03309) | Not Available |
 | 2026-03-03 | **Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation** | Chongjun Xia, Xiaoyu Shi, Hong Xie, Xianzhi Wang, yun lu, Mingsheng Shang | [Link](http://arxiv.org/abs/2603.03094) | Not Available |
 | 2026-03-03 | **Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation** | Chengkai Wang, Baisong Liu | [Link](http://arxiv.org/abs/2603.03080) | Not Available |
-| 2026-03-03 | **OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation** | Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Huan Yu, Jun Zhang | [Link](http://arxiv.org/abs/2603.02999) | Not Available |
+| 2026-03-03 | **OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation** | Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Jun Zhang, Huan Yu, Jie Jiang | [Link](http://arxiv.org/abs/2603.02999) | Not Available |
 | 2026-03-03 | **APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation** | Yuanqing Yu, Yifan Wang, Weizhi Ma, Zhiqiang Guo, Min Zhang | [Link](http://arxiv.org/abs/2603.02730) | Not Available |
 | 2026-03-03 | **S2CDR: Smoothing-Sharpening Process Model for Cross-Domain Recommendation** | Xiaodong Li, Juwei Yue, Xinghua Zhang, Jiawei Sheng, Wenyuan Zhang, Taoyu Su, Zefeng Zhang, Tingwen Liu | [Link](http://arxiv.org/abs/2603.02725) | Not Available |
 | 2026-03-03 | **Sensory-Aware Sequential Recommendation via Review-Distilled Representations** | Yeo Chan Yoon | [Link](http://arxiv.org/abs/2603.02709) | Not Available |
@@ -151,7 +156,7 @@
 | 2026-02-05 | **AgenticTagger: Structured Item Representation for Recommendation with LLM Agents** | Zhouhang Xie, Bo Peng, Zhankui He, Ziqi Chen, Alice Han, Isabella Ye, Benjamin Coleman, Noveen Sachdeva, Fernando Pereira, Julian McAuley, Wang-Cheng Kang, Derek Zhiyuan Cheng, Beidou Wang, Randolph Brown | [Link](http://arxiv.org/abs/2602.05945) | Not Available |
 | 2026-02-05 | **CFRecs: Counterfactual Recommendations on Real Estate User Listing Interaction Graphs** | Seyedmasoud Mousavi, Ruomeng Xu, Xiaojing Zhu | [Link](http://arxiv.org/abs/2602.05861) | Not Available |
 | 2026-02-05 | **Reasoning-guided Collaborative Filtering with Language Models for Explainable Recommendation** | Fahad Anwaar, Adil Mehmood Khan, Muhammad Khalid, Usman Zia, Kezhi Wang | [Link](http://arxiv.org/abs/2602.05544) | Not Available |
-| 2026-02-05 | **LMMRec: LLM-driven Motivation-aware Multimodal Recommendation** | Yicheng Di, Zhanjie Zhang, Yun Wang, Jinren Liu, Jiaqi Yan, Jiyu Wei, Xiangyu Chen, Yuan Liu | [Link](http://arxiv.org/abs/2602.05474) | Not Available |
+| 2026-02-05 | **LLM-driven Multimodal Recommendation** | Yicheng Di | [Link](http://arxiv.org/abs/2602.05474) | Not Available |
 | 2026-02-05 | **Aspect-Aware MOOC Recommendation in a Heterogeneous Network** | Seongyeub Chu, Jongwoo Kim, Mun Yong Yi | [Link](http://arxiv.org/abs/2602.05297) | Not Available |
 | 2026-02-04 | **Autodiscover: A reinforcement learning recommendation system for the cold-start imbalance challenge in active learning, powered by graph-aware thompson sampling** | Parsa Vares | [Link](http://arxiv.org/abs/2602.05087) | Not Available |
 | 2026-02-04 | **Quantile-Physics Hybrid Framework for Safe-Speed Recommendation under Diverse Weather Conditions Leveraging Connected Vehicle and Road Weather Information Systems Data** | Wen Zhang, Adel W. Sadek, Chunming Qiao | [Link](http://arxiv.org/abs/2602.05053) | Not Available |

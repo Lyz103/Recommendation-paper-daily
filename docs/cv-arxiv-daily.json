@@ -10407,13 +10407,13 @@
             "code_url": "null"
         },
         "2602.05474": {
-            "title": "LMMRec: LLM-driven Motivation-aware Multimodal Recommendation",
-            "authors": "Yicheng Di, Zhanjie Zhang, Yun Wang, Jinren Liu, Jiaqi Yan, Jiyu Wei, Xiangyu Chen, Yuan Liu",
+            "title": "LLM-driven Multimodal Recommendation",
+            "authors": "Yicheng Di",
             "first_author": "Yicheng Di",
-            "url": "http://arxiv.org/abs/2602.05474v3",
+            "url": "http://arxiv.org/abs/2602.05474v4",
             "pdf_url": "http://arxiv.org/abs/2602.05474",
             "publish_date": "2026-02-05",
-            "abstract": "Motivation-based recommendation systems uncover user behavior drivers. Motivation modeling, crucial for decision-making and content preference, explains recommendation generation. Existing methods often treat motivation as latent variables from interaction data, neglecting heterogeneous information like review text. In multimodal motivation fusion, two challenges arise: 1) achieving stable cross-modal alignment amid noise, and 2) identifying features reflecting the same underlying motivation across modalities. To address these, we propose LLM-driven Motivation-aware Multimodal Recommendation (LMMRec), a model-agnostic framework leveraging large language models for deep semantic priors and motivation understanding. LMMRec uses chain-of-thought prompting to extract fine-grained user and item motivations from text. A dual-encoder architecture models textual and interaction-based motivations for cross-modal alignment, while Motivation Coordination Strategy and Interaction-Text Correspondence Method mitigate noise and semantic drift through contrastive learning and momentum updates. Experiments on three datasets show LMMRec achieves up to a 4.98\\% performance improvement.",
+            "abstract": "Motivation-based recommendation systems uncover user behavior drivers. Motivation modeling, crucial for decision-making and content preference, explains recommendation generation. Existing methods often treat motivation as latent variables from interaction data, neglecting heterogeneous information like review text. To address these, we propose LLM-driven Motivation-aware Multimodal Recommendation (LMMRec), a model-agnostic framework leveraging large language models for deep semantic priors and motivation understanding. LMMRec uses chain-of-thought prompting to extract fine-grained user and item motivations from text. A dual-encoder architecture models textual and interaction-based motivations for cross-modal alignment, while Motivation Coordination Strategy and Interaction-Text Correspondence Method mitigate noise and semantic drift through contrastive learning and momentum updates. Experiments on three datasets show LMMRec achieves up to a 4.98\\% performance improvement.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -11673,9 +11673,9 @@
         },
         "2603.02999": {
             "title": "OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation",
-            "authors": "Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Huan Yu, Jun Zhang",
+            "authors": "Dekai Sun, Yiming Liu, Jiafan Zhou, Xun Liu, Chenchen Yu, Yi Li, Jun Zhang, Huan Yu, Jie Jiang",
             "first_author": "Dekai Sun",
-            "url": "http://arxiv.org/abs/2603.02999v2",
+            "url": "http://arxiv.org/abs/2603.02999v3",
             "pdf_url": "http://arxiv.org/abs/2603.02999",
             "publish_date": "2026-03-03",
             "abstract": "The end-to-end generative paradigm is revolutionizing advertising recommendation systems, driving a shift from traditional cascaded architectures towards unified modeling. However, practical deployment faces three core challenges: the misalignment between interest objectives and business value, the target-agnostic limitation of generative processes, and the disconnection between generation and ranking stages. Existing solutions often fall into a dilemma where single-stage fusion induces optimization tension, while stage decoupling causes irreversible information loss. To address this, we propose OneRanker, achieving architectural-level deep integration of generation and ranking. First, we design a value-aware multi-task decoupling architecture. By leveraging task token sequences and causal mask, we separate interest coverage and value optimization spaces within shared representations, effectively alleviating target conflicts. Second, we construct a coarse-to-fine collaborative target awareness mechanism, utilizing Fake Item Tokens for implicit awareness during generation and a ranking decoder for explicit value alignment at the candidate level. Finally, we propose input-output dual-side consistency guarantees. Through Key/Value pass-through mechanisms and Distribution Consistency (DC) Constraint Loss, we achieve end-to-end collaborative optimization between generation and ranking. The full deployment on Tencent's WeiXin channels advertising system has shown a significant improvement in key business metrics (GMV - Normal +1.34\\%), providing a new paradigm with industrial feasibility for generative advertising recommendations.",
@@ -11955,6 +11955,61 @@
             "publish_date": "2026-03-10",
             "abstract": "This paper addresses the problem of designing recommendation systems for social networks and e-commerce platforms from a control-theoretic perspective. We treat the design of recommendation systems as a state-feedback infinite-horizon optimal control problem with a performance index that (i) rewards alignment and engagement, (ii) penalizes polarization and large deviations from an uncontrolled baseline, and (iii) regularizes exposure across neighboring users. The recommendation entries are fed to the platform users, who are assumed to follow a networked, multi-topic, continuous-time opinion dynamics. We show that the designed control yields a stabilizing recommendation system under simple algebraic spectral conditions on the weights that encode the platform's preference for engagement, stability of preferences, polarization, and cross-user diversity. Conversely, we show that when ill-posed weights are selected in the optimal control problem (namely, when engagement is excessively rewarded), the closed-loop system can exhibit destabilizing, pathological behaviors that conflict with the design objectives.",
             "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2603.11936": {
+            "title": "Fair Learning for Bias Mitigation and Quality Optimization in Paper Recommendation",
+            "authors": "Uttamasha Anjally Oyshi, Susan Gauch",
+            "first_author": "Uttamasha Anjally Oyshi",
+            "url": "http://arxiv.org/abs/2603.11936v1",
+            "pdf_url": "http://arxiv.org/abs/2603.11936",
+            "publish_date": "2026-03-12",
+            "abstract": "Despite frequent double-blind review, demographic biases of authors still disadvantage the underrepresented groups. We present Fair-PaperRec, a MultiLayer Perceptron (MLP)-based model that addresses demographic disparities in post-review paper acceptance decisions while maintaining high-quality requirements. Our methodology penalizes demographic disparities while preserving quality through intersectional criteria (e.g., race, country) and a customized fairness loss, in contrast to heuristic approaches. Evaluations using conference data from ACM Special Interest Group on Computer-Human Interaction (SIGCHI), Designing Interactive Systems (DIS), and Intelligent User Interfaces (IUI) indicate a 42.03% increase in underrepresented group participation and a 3.16% improvement in overall utility, indicating that diversity promotion does not compromise academic rigor and supports equity-focused peer review solutions.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2603.11796": {
+            "title": "Enhancing Music Recommendation with User Mood Input",
+            "authors": "Terence Zeng",
+            "first_author": "Terence Zeng",
+            "url": "http://arxiv.org/abs/2603.11796v1",
+            "pdf_url": "http://arxiv.org/abs/2603.11796",
+            "publish_date": "2026-03-12",
+            "abstract": "Recommendation systems have become essential in modern music streaming platforms, due to the vast amount of content available. A common approach in recommendation systems is collaborative filtering, which suggests content to users based on the preferences of others with similar patterns. However, this method performs poorly in domains where interactions are sparse, such as music. Content-based filtering is an alternative approach that examines the qualities of the items themselves. Prior work has explored a range of content-filtering techniques for music, including genre classification, instrument detection, and lyrics analysis. In the literature review component of this work, we examine these methods in detail. Music emotion recognition is a type of content-based filtering that is less explored but has significant potential. Since a user's emotional state influences their musical choices, incorporating user mood into recommendation systems is an alternative way to personalize the listening experience. In this study, we explore a mood-assisted recommendation system that suggests songs based on the desired mood using the energy-valence spectrum. Single-blind experiments are conducted, in which participants are presented with two recommendations (one generated from a mood-assisted recommendation system and one from a baseline system) and are asked to rate them. Results show that integrating user mood leads to a statistically significant improvement in recommendation quality, highlighting the potential of such approaches.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.11610": {
+            "title": "Federated Learning and Unlearning for Recommendation with Personalized Data Sharing",
+            "authors": "Liang Qu, Jianxin Li, Wei Yuan, Shangfei Zheng, Lu Chen, Chengfei Liu, Hongzhi Yin",
+            "first_author": "Liang Qu",
+            "url": "http://arxiv.org/abs/2603.11610v1",
+            "pdf_url": "http://arxiv.org/abs/2603.11610",
+            "publish_date": "2026-03-12",
+            "abstract": "Federated recommender systems (FedRS) have emerged as a paradigm for protecting user privacy by keeping interaction data on local devices while coordinating model training through a central server. However, most existing federated recommender systems adopt a one-size-fits-all assumption on user privacy, where all users are required to keep their data strictly local. This setting overlooks users who are willing to share their data with the server in exchange for better recommendation performance. Although several recent studies have explored personalized user data sharing in FedRS, they assume static user privacy preferences and cannot handle user requests to remove previously shared data and its corresponding influence on the trained model. To address this limitation, we propose FedShare, a federated learn-unlearn framework for recommender systems with personalized user data sharing. FedShare not only allows users to control how much interaction data is shared with the server, but also supports data unsharing requests by removing the influence of the unshared data from the trained model. Specifically, FedShare leverages shared data to construct a server-side high-order user-item graph and uses contrastive learning to jointly align local and global representations. In the unlearning phase, we design a contrastive unlearning mechanism that selectively removes representations induced by the unshared data using a small number of historical embedding snapshots, avoiding the need to store large amounts of historical gradient information as required by existing federated recommendation unlearning methods. Extensive experiments on three public datasets demonstrate that FedShare achieves strong recommendation performance in both the learning and unlearning phases, while significantly reducing storage overhead in the unlearning phase compared with state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.11503": {
+            "title": "Sharpness-Aware Minimization for Generalized Embedding Learning in Federated Recommendation",
+            "authors": "Fengyuan Yu, Xiaohua Feng, Yuyuan Li, Changwang Zhang, Jun Wang, Chaochao Chen",
+            "first_author": "Fengyuan Yu",
+            "url": "http://arxiv.org/abs/2603.11503v1",
+            "pdf_url": "http://arxiv.org/abs/2603.11503",
+            "publish_date": "2026-03-12",
+            "abstract": "Federated recommender systems enable collaborative model training while keeping user interaction data local and sharing only essential model parameters, thereby mitigating privacy risks. However, existing methods overlook a critical issue, i.e., the stable learning of a generalized item embedding throughout the federated recommender system training process. Item embedding plays a central role in facilitating knowledge sharing across clients. Yet, under the cross-device setting, local data distributions exhibit significant heterogeneity and sparsity, exacerbating the difficulty of learning generalized embeddings. These factors make the stable learning of generalized item embeddings both indispensable for effective federated recommendation and inherently difficult to achieve. To fill this gap, we propose a new federated recommendation framework, named Federated Recommendation with Generalized Embedding Learning (FedRecGEL). We reformulate the federated recommendation problem from an item-centered perspective and cast it as a multi-task learning problem, aiming to learn generalized embeddings throughout the training procedure. Based on theoretical analysis, we employ sharpness-aware minimization to address the generalization problem, thereby stabilizing the training process and enhancing recommendation performance. Extensive experiments on four datasets demonstrate the effectiveness of FedRecGEL in significantly improving federated recommendation performance. Our code is available at https://github.com/anonymifish/FedRecGEL.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2603.11399": {
+            "title": "Entropy Guided Diversification and Preference Elicitation in Agentic Recommendation Systems",
+            "authors": "Dat Tran, Yongce Li, Hannah Clay, Negin Golrezaei, Sajjad Beygi, Amin Saberi",
+            "first_author": "Dat Tran",
+            "url": "http://arxiv.org/abs/2603.11399v1",
+            "pdf_url": "http://arxiv.org/abs/2603.11399",
+            "publish_date": "2026-03-12",
+            "abstract": "Users on e-commerce platforms can be uncertain about their preferences early in their search. Queries to recommendation systems are frequently ambiguous, incomplete, or weakly specified. Agentic systems are expected to proactively reason, ask clarifying questions, and act on the user's behalf, which makes handling such ambiguity increasingly important. In existing platforms, ambiguity led to excessive interactions and question fatigue or overconfident recommendations prematurely collapsing the search space. We present an Interactive Decision Support System (IDSS) that addresses ambiguous user queries using entropy as a unifying signal. IDSS maintains a dynamically filtered candidate product set and quantifies uncertainty over item attributes using entropy. This uncertainty guides adaptive preference elicitation by selecting follow-up questions that maximize expected information gain. When preferences remain incomplete, IDSS explicitly incorporates residual uncertainty into downstream recommendations through uncertainty-aware ranking and entropy-based diversification, rather than forcing premature resolution. We evaluate IDSS using review-driven simulated users grounded in real user reviews, enabling a controlled study of diverse shopping behaviors. Our evaluation measures both interaction efficiency and recommendation quality. Results show that entropy-guided elicitation reduces unnecessary follow-up questions, while uncertainty-aware ranking and presentation yield more informative, diverse, and transparent recommendation sets under ambiguous intent. These findings demonstrate that entropy-guided reasoning provides an effective foundation for agentic recommendation systems operating under uncertainty.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }
