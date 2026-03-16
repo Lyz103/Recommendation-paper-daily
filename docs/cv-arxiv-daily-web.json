@@ -10410,10 +10410,10 @@
             "title": "LLM-driven Multimodal Recommendation",
             "authors": "Yicheng Di",
             "first_author": "Yicheng Di",
-            "url": "http://arxiv.org/abs/2602.05474v4",
+            "url": "http://arxiv.org/abs/2602.05474v5",
             "pdf_url": "http://arxiv.org/abs/2602.05474",
             "publish_date": "2026-02-05",
-            "abstract": "Motivation-based recommendation systems uncover user behavior drivers. Motivation modeling, crucial for decision-making and content preference, explains recommendation generation. Existing methods often treat motivation as latent variables from interaction data, neglecting heterogeneous information like review text. To address these, we propose LLM-driven Motivation-aware Multimodal Recommendation (LMMRec), a model-agnostic framework leveraging large language models for deep semantic priors and motivation understanding. LMMRec uses chain-of-thought prompting to extract fine-grained user and item motivations from text. A dual-encoder architecture models textual and interaction-based motivations for cross-modal alignment, while Motivation Coordination Strategy and Interaction-Text Correspondence Method mitigate noise and semantic drift through contrastive learning and momentum updates. Experiments on three datasets show LMMRec achieves up to a 4.98\\% performance improvement.",
+            "abstract": "As a paradigm that delves into the deep seated drivers of user behavior, motivation-based recommendation systems have emerged as a prominent research direction in the field of personalized information retrieval. Unlike traditional approaches that primarily rely on surface level interaction signals, these systems aim to uncover the intrinsic psychological factors that shape users' decision-making processes and content preferences. By modeling motivation, recommender systems can better interpret not only what users choose, but why they make such choices, thereby enhancing both the interpretability and the persuasive power of recommendations. However, existing studies often simplify motivation as a latent variable learned implicitly from behavioral data, which limits their ability to capture the semantic richness inherent in user motivations. In particular, heterogeneous information such as review texts which often carry explicit motivational cues remains underexplored in current motivation modeling frameworks. Extensive experiments conducted on three real world datasets demonstrate the effectiveness of the proposed LMMRec framework.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -12010,6 +12010,61 @@
             "publish_date": "2026-03-12",
             "abstract": "Users on e-commerce platforms can be uncertain about their preferences early in their search. Queries to recommendation systems are frequently ambiguous, incomplete, or weakly specified. Agentic systems are expected to proactively reason, ask clarifying questions, and act on the user's behalf, which makes handling such ambiguity increasingly important. In existing platforms, ambiguity led to excessive interactions and question fatigue or overconfident recommendations prematurely collapsing the search space. We present an Interactive Decision Support System (IDSS) that addresses ambiguous user queries using entropy as a unifying signal. IDSS maintains a dynamically filtered candidate product set and quantifies uncertainty over item attributes using entropy. This uncertainty guides adaptive preference elicitation by selecting follow-up questions that maximize expected information gain. When preferences remain incomplete, IDSS explicitly incorporates residual uncertainty into downstream recommendations through uncertainty-aware ranking and entropy-based diversification, rather than forcing premature resolution. We evaluate IDSS using review-driven simulated users grounded in real user reviews, enabling a controlled study of diverse shopping behaviors. Our evaluation measures both interaction efficiency and recommendation quality. Results show that entropy-guided elicitation reduces unnecessary follow-up questions, while uncertainty-aware ranking and presentation yield more informative, diverse, and transparent recommendation sets under ambiguous intent. These findings demonstrate that entropy-guided reasoning provides an effective foundation for agentic recommendation systems operating under uncertainty.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2603.12935": {
+            "title": "Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations",
+            "authors": "Mihaela Rotar, Theresia Veronika Rampisela, Maria Maistro",
+            "first_author": "Mihaela Rotar",
+            "url": "http://arxiv.org/abs/2603.12935v1",
+            "pdf_url": "http://arxiv.org/abs/2603.12935",
+            "publish_date": "2026-03-13",
+            "abstract": "Large Language Models (LLMs) can infer sensitive attributes such as gender or age from indirect cues like names and pronouns, potentially biasing recommendations. While several debiasing methods exist, they require access to the LLMs' weights, are computationally costly, and cannot be used by lay users. To address this gap, we investigate implicit biases in LLM Recommenders (LLMRecs) and explore whether prompt-based strategies can serve as a lightweight and easy-to-use debiasing approach. We contribute three bias-aware prompting strategies for LLMRecs. To our knowledge, this is the first study on prompt-based debiasing approaches in LLMRecs that focuses on group fairness for users. Our experiments with 3 LLMs, 4 prompt templates, 9 sensitive attribute values, and 2 datasets show that our proposed debiasing approach, which instructs an LLM to be fair, can improve fairness by up to 74% while retaining comparable effectiveness, but might overpromote specific demographic groups in some cases.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.12625": {
+            "title": "VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vision-Language Models",
+            "authors": "Ty Valencia, Burak Barlas, Varun Singhal, Ruchir Bhatia, Wei Yang",
+            "first_author": "Ty Valencia",
+            "url": "http://arxiv.org/abs/2603.12625v1",
+            "pdf_url": "http://arxiv.org/abs/2603.12625",
+            "publish_date": "2026-03-13",
+            "abstract": "Multimodal recommendation is commonly framed as a feature fusion problem, where textual and visual signals are combined to better model user preference. However, the effectiveness of multimodal recommendation may depend not only on how modalities are fused, but also on whether item content is represented in a semantic space aligned with preference matching. This issue is particularly important because raw visual features often preserve appearance similarity, while user decisions are typically driven by higher-level semantic factors such as style, material, and usage context. Motivated by this observation, we propose LVLM-grounded Multimodal Semantic Representation for Recommendation (VLM4Rec), a lightweight framework that organizes multimodal item content through semantic alignment rather than direct feature fusion. VLM4Rec first uses a large vision-language model to ground each item image into an explicit natural-language description, and then encodes the grounded semantics into dense item representations for preference-oriented retrieval. Recommendation is subsequently performed through a simple profile-based semantic matching mechanism over historical item embeddings, yielding a practical offline-online decomposition. Extensive experiments on multiple multimodal recommendation datasets show that VLM4Rec consistently improves performance over raw visual features and several fusion-based alternatives, suggesting that representation quality may matter more than fusion complexity in this setting. The code is released at https://github.com/tyvalencia/enhancing-mm-rec-sys.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.12564": {
+            "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
+            "authors": "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz",
+            "first_author": "Zekun Wu",
+            "url": "http://arxiv.org/abs/2603.12564v1",
+            "pdf_url": "http://arxiv.org/abs/2603.12564",
+            "publish_date": "2026-03-13",
+            "abstract": "Tool-augmented LLM agents increasingly serve as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking-quality metrics that measure what is recommended but not whether it is safe for the user. We introduce a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across seven LLMs (7B to frontier) and decomposes divergence into information-channel and memory-channel mechanisms. Across the seven models tested, we consistently observe the evaluation-blindness pattern: recommendation quality is largely preserved under contamination (utility preservation ratio approximately 1.0) while risk-inappropriate products appear in 65-93% of turns, a systematic safety failure poorly reflected by standard NDCG. Safety violations are predominantly information-channel-driven, emerge at the first contaminated turn, and persist without self-correction over 23-step trajectories; no agent across 1,563 contaminated turns explicitly questions tool-data reliability. Even narrative-only corruption (biased headlines, no numerical manipulation) induces significant drift while completely evading consistency monitors. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74, indicating that much of the evaluation gap becomes visible once safety is explicitly measured. These results motivate considering trajectory-level safety monitoring, beyond single-turn quality, for deployed multi-turn agents in high-stakes settings.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2603.12528": {
+            "title": "Weighted Set Multi-Cover on Bounded Universe and Applications in Package Recommendation",
+            "authors": "Nima Shahbazi, Aryan Esmailpour, Stavros Sintos",
+            "first_author": "Nima Shahbazi",
+            "url": "http://arxiv.org/abs/2603.12528v1",
+            "pdf_url": "http://arxiv.org/abs/2603.12528",
+            "publish_date": "2026-03-13",
+            "abstract": "The weighted set multi-cover problem is a fundamental generalization of set cover that arises in data-driven applications where one must select a small, low-cost subset from a large collection of candidates under coverage constraints. In data management settings, such problems arise naturally either as expressive database queries or as post-processing steps over query results, for example, when selecting representative or diverse subsets from large relations returned by database queries for decision support, recommendation, fairness-aware data selection, or crowd-sourcing. While the general weighted set multi-cover problem is NP-complete, many practical workloads involve a \\emph{bounded universe} of items that must be covered, leading to the Weighted Set Multi-Cover with Bounded Universe (WSMC-BU) problem, where the universe size is constant. In this paper, we develop exact and approximation algorithms for WSMC-BU. We first discuss a dynamic programming algorithm that solves WSMC-BU exactly in $O(n^{\\ell+1})$ time, where $n$ is the number of input sets and $\\ell=O(1)$ is the universe size. We then present a $2$-approximation algorithm based on linear programming and rounding, running in $O(\\mathcal{L}(n))$ time, where $\\mathcal{L}(n)$ denotes the complexity of solving a linear program with $O(n)$ variables. To further improve efficiency for large datasets, we propose a faster $(2+\\varepsilon)$-approximation algorithm with running time $O(n \\log n + \\mathcal{L}(\\log W))$, where $W$ is the ratio of the total weight to the minimum weight, and $\\varepsilon$ is an arbitrary constant specified by the user. Extensive experiments on real and synthetic datasets demonstrate that our methods consistently outperform greedy and standard LP-rounding baselines in both solution quality and runtime, making them suitable for data-intensive selection tasks over large query outputs.",
+            "primary_category": "cs.DB",
+            "code_url": "null"
+        },
+        "2603.12268": {
+            "title": "A Holistic Framework for Automated Configuration Recommendation for Cloud Service Monitoring",
+            "authors": "Anson Bastos, Shreeya Venneti, Anjaly Parayil, Ayush Choure, Chetan Bansal, Rujia Wang",
+            "first_author": "Anson Bastos",
+            "url": "http://arxiv.org/abs/2603.12268v1",
+            "pdf_url": "http://arxiv.org/abs/2603.12268",
+            "publish_date": "2026-02-07",
+            "abstract": "Reliability of large-scale cloud services is critical for user satisfaction and business continuity. Despite significant investments in reliability engineering, production incidents remain inevitable, often leading to customer impact and operational overhead. In large cloud companies, multiple services are deployed across regions necessitating robust health monitoring systems. However, the current monitor configuration process is manual, largely reactive and ad hoc, resulting in gaps in coverage and redundant alerts. In this paper, we present a comprehensive study of monitor creation in Microsoft, identifying key components in the existing process. We further design a modular recommendation framework that processes the graph structured service entities to suggest optimal monitor configurations. Through extensive experimentation on historical data and user study of recommendations for production services at Microsoft, we demonstrate the efficacy of our approach in providing relevant recommendations for monitor configurations.",
+            "primary_category": "cs.DC",
             "code_url": "null"
         }
     }

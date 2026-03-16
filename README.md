@@ -1,4 +1,4 @@
-## Updated on 2026-03-15
+## Updated on 2026-03-16
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-13 | **Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations** | Mihaela Rotar, Theresia Veronika Rampisela, Maria Maistro | [Link](http://arxiv.org/abs/2603.12935) | Not Available |
+| 2026-03-13 | **VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vision-Language Models** | Ty Valencia, Burak Barlas, Varun Singhal, Ruchir Bhatia, Wei Yang | [Link](http://arxiv.org/abs/2603.12625) | Not Available |
+| 2026-03-13 | **AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents** | Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz | [Link](http://arxiv.org/abs/2603.12564) | Not Available |
+| 2026-03-13 | **Weighted Set Multi-Cover on Bounded Universe and Applications in Package Recommendation** | Nima Shahbazi, Aryan Esmailpour, Stavros Sintos | [Link](http://arxiv.org/abs/2603.12528) | Not Available |
+| 2026-02-07 | **A Holistic Framework for Automated Configuration Recommendation for Cloud Service Monitoring** | Anson Bastos, Shreeya Venneti, Anjaly Parayil, Ayush Choure, Chetan Bansal, Rujia Wang | [Link](http://arxiv.org/abs/2603.12268) | Not Available |
 | 2026-03-12 | **Fair Learning for Bias Mitigation and Quality Optimization in Paper Recommendation** | Uttamasha Anjally Oyshi, Susan Gauch | [Link](http://arxiv.org/abs/2603.11936) | Not Available |
 | 2026-03-12 | **Enhancing Music Recommendation with User Mood Input** | Terence Zeng | [Link](http://arxiv.org/abs/2603.11796) | Not Available |
 | 2026-03-12 | **Federated Learning and Unlearning for Recommendation with Personalized Data Sharing** | Liang Qu, Jianxin Li, Wei Yuan, Shangfei Zheng, Lu Chen, Chengfei Liu, Hongzhi Yin | [Link](http://arxiv.org/abs/2603.11610) | Not Available |
