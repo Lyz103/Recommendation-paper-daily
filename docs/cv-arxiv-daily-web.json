@@ -12066,6 +12066,72 @@
             "abstract": "Reliability of large-scale cloud services is critical for user satisfaction and business continuity. Despite significant investments in reliability engineering, production incidents remain inevitable, often leading to customer impact and operational overhead. In large cloud companies, multiple services are deployed across regions necessitating robust health monitoring systems. However, the current monitor configuration process is manual, largely reactive and ad hoc, resulting in gaps in coverage and redundant alerts. In this paper, we present a comprehensive study of monitor creation in Microsoft, identifying key components in the existing process. We further design a modular recommendation framework that processes the graph structured service entities to suggest optimal monitor configurations. Through extensive experimentation on historical data and user study of recommendations for production services at Microsoft, we demonstrate the efficacy of our approach in providing relevant recommendations for monitor configurations.",
             "primary_category": "cs.DC",
             "code_url": "null"
+        },
+        "2603.15357": {
+            "title": "Multi-Scenario User Profile Construction via Recommendation Lists",
+            "authors": "Hui Zhang, Jiayu Liu",
+            "first_author": "Hui Zhang",
+            "url": "http://arxiv.org/abs/2603.15357v1",
+            "pdf_url": "http://arxiv.org/abs/2603.15357",
+            "publish_date": "2026-03-16",
+            "abstract": "Recommender systems (RS) play a core role in various domains, including business analytics, helping users and companies make appropriate decisions. To optimize service quality, related technologies focus on constructing user profiles by analyzing users' historical behavior information. This paper considers four analytical scenarios to evaluate user profiling capabilities under different information conditions. A generic user attribute analysis framework named RAPI is proposed, which infers users' personal characteristics by exploiting easily accessible recommendation lists. Specifically, a surrogate recommendation model is established to simulate the original model, leveraging content embedding from a pre-trained BERT model to obtain item embeddings. A sample augmentation module generates extended recommendation lists by considering similarity between model outputs and item embeddings. Finally, an adaptive weight classification model assigns dynamic weights to facilitate user characteristic inference. Experiments on four collections show that RAPI achieves inference accuracy of 0.764 and 0.6477, respectively.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.14259": {
+            "title": "Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios",
+            "authors": "Chenglei Shen, Teng Shi, Weijie Yu, Xiao Zhang, Jun Xu",
+            "first_author": "Chenglei Shen",
+            "url": "http://arxiv.org/abs/2603.14259v1",
+            "pdf_url": "http://arxiv.org/abs/2603.14259",
+            "publish_date": "2026-03-15",
+            "abstract": "Generative recommendation (GR) has shown strong potential for sequential recommendation in an end-to-end generation paradigm. However, existing GR models suffer from severe cold-start collapse: their recommendation accuracy on cold-start items can drop to near zero. Current solutions typically rely on retraining with cold-start interactions, which is hindered by sparse feedback, high computational cost, and delayed updates, limiting practical utility in rapidly evolving recommendation catalogs. Inspired by model editing in NLP, which enables training-free knowledge injection into large language models, we explore how to bring this paradigm to generative recommendation. This, however, faces two key challenges: GR lacks the explicit subject-object binding common in natural language, making targeted edits difficult; and GR does not exhibit stable token co-occurrence patterns, making the injection of multi-token item representations unreliable. To address these challenges, we propose GenRecEdit, a model editing framework tailored for generative recommendation. GenRecEdit explicitly models the relationship between the full sequence context and next-token generation, adopts iterative token-level editing to inject multi-token item representations, and introduces a one-to-one trigger mechanism to reduce interference among multiple edits during inference. Extensive experiments on multiple datasets show that GenRecEdit substantially improves recommendation performance on cold-start items while preserving the model's original recommendation quality. Moreover, it achieves these gains using only about 9.5% of the training time required for retraining, enabling more efficient and frequent model updates.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.13934": {
+            "title": "Iterative Semantic Reasoning from Individual to Group Interests for Generative Recommendation with LLMs",
+            "authors": "Xiaofei Zhu, Jinfei Chen, Feiyang Yuan, Zhou Yang",
+            "first_author": "Xiaofei Zhu",
+            "url": "http://arxiv.org/abs/2603.13934v1",
+            "pdf_url": "http://arxiv.org/abs/2603.13934",
+            "publish_date": "2026-03-14",
+            "abstract": "Recommendation systems aim to learn user interests from historical behaviors and deliver relevant items. Recent methods leverage large language models (LLMs) to construct and integrate semantic representations of users and items for capturing user interests. However, user behavior theories suggest that truly understanding user interests requires not only semantic integration but also semantic reasoning from explicit individual interests to implicit group interests. To this end, we propose an Iterative Semantic Reasoning Framework (ISRF) for generative recommendation. ISRF leverages LLMs to bridge explicit individual interests and implicit group interests in three steps. First, we perform multi-step bidirectional reasoning over item attributes to infer semantic item features and build a semantic interaction graph capturing users' explicit interests. Second, we generate semantic user features based on the semantic item features and construct a similarity-based user graph to infer the implicit interests of similar user groups. Third, we adopt an iterative batch optimization strategy, where individual explicit interests directly guide the refinement of group implicit interests, while group implicit interests indirectly enhance individual modeling. This iterative process ensures consistent and progressive interest reasoning, enabling more accurate and comprehensive user interest learning. Extensive experiments on the Sports, Beauty, and Toys datasets demonstrate that ISRF outperforms state-of-the-art baselines. The code is available at https://github.com/htired/ISRF.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.13730": {
+            "title": "R3-REC: Reasoning-Driven Recommendation via Retrieval-Augmented LLMs over Multi-Granular Interest Signals",
+            "authors": "Yuchen Miao, Mingxuan Cui, Yitong Zhu, Yu Wang, Siyang Xu",
+            "first_author": "Yuchen Miao",
+            "url": "http://arxiv.org/abs/2603.13730v1",
+            "pdf_url": "http://arxiv.org/abs/2603.13730",
+            "publish_date": "2026-03-14",
+            "abstract": "This paper addresses two persistent challenges in sequential recommendation: (i) evidence insufficiency-cold-start sparsity together with noisy, length-varying item texts; and (ii) opaque modeling of dynamic, multi-faceted intents across long/short horizons. We propose R3-REC (Reasoning-Retrieval-Recommendation), a prompt-centric, retrieval-augmented framework that unifies Multi-level User Intent Reasoning, Item Semantic Extraction, Long-Short Interest Polarity Mining, Similar User Collaborative Enhancement, and Reasoning-based Interest Matching and Scoring. Across ML-1M, Games, and Bundle, R3-REC consistently surpasses strong neural and LLM baselines, yielding improvements up to +10.2% (HR@1) and +6.4% (HR@5) with manageable end-to-end latency. Ablations corroborate complementary gains of all modules.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.13310": {
+            "title": "Multi-view Attention Fusion of Heterogeneous Hypergraph with Dynamic Behavioral Profiling for Personalized Learning Resource Recommendation",
+            "authors": "Tao Xie, Yan Li, Yongpan Sheng, Jian Liao",
+            "first_author": "Tao Xie",
+            "url": "http://arxiv.org/abs/2603.13310v1",
+            "pdf_url": "http://arxiv.org/abs/2603.13310",
+            "publish_date": "2026-03-04",
+            "abstract": "Hypergraph can capture complex and higher-order dependencies among learners and learning resources in personalized educational recommender systems. Many existing hypergraph-based recommendation approaches underexplored the dynamic behavioral processes inherent to learning and often oversimplified the complementary information embedded across multiple dimensions (i.e. views) within hypergraphs. These limitations compromise both the distinctiveness of learned representations and the model's generalization capabilities, especially under data-sparse conditions typical in educational settings. In this study, we propose a unified model comprising a dynamic behavioral profiling module and a multi-view attention fusion module based on heterogeneous hypergraph construction. The dynamic behavioral profiling module is designed to capture evolving behavioral processes and infer latent higher-order relations crucial for hypergraph completion; The multi-view fusion module cohesively integrates information from distinct relational views, enriching the overall data representation. The proposed model was systematically evaluated on five public benchmark datasets and one real-world, self-constructed dataset. Experimental results demonstrate that the model outperforms baseline methods across most datasets in key metrics; Furthermore, hypergraph completion based on dynamic behavioral profiling contributes significantly to performance gains, though its efficacy is modulated by dataset characteristics. Beyond offline experiments, we implemented a functional prototype system tailored for postgraduate student literature recommendation. A mixed-methods user study was conducted to assess its practical utility. Quantitative analysis revealed significantly higher perceived recommendation quality; Qualitative feedback highlighted enhanced user engagement and satisfaction with the prototype system.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.13264": {
+            "title": "Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations",
+            "authors": "Fernando Spadea, Oshani Seneviratne",
+            "first_author": "Fernando Spadea",
+            "url": "http://arxiv.org/abs/2603.13264v1",
+            "pdf_url": "http://arxiv.org/abs/2603.13264",
+            "publish_date": "2026-02-25",
+            "abstract": "Personalized recommendation increasingly relies on private user data, motivating approaches that can adapt to individuals without centralizing their information. We present Federated Targeted Recommendations with Evolving Knowledge graphs and Language Models (FedTREK-LM), a framework that unifies lightweight large language models (LLMs), evolving personal knowledge graphs (PKGs), federated learning (FL), and Kahneman-Tversky Optimization to enable scalable, decentralized personalization. By prompting LLMs with structured PKGs, FedTREK-LM performs context-aware reasoning for personalized recommendation tasks such as movie and recipe suggestions. Across three lightweight Qwen3 models (0.6B, 1.7B, 4B), FedTREK-LM consistently and substantially outperforms state-of-the-art KG completion and federated recommendation baselines (HAKE, KBGAT, and FedKGRec), achieving more than a 4x improvement in F1-score on the movie and food benchmarks. Our results further show that real user data is critical for effective personalization, as synthetic data degrades performance by up to 46%. Overall, FedTREK-LM offers a practical paradigm for adaptive, LLM-powered personalization that generalizes across decentralized, evolving user PKGs.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

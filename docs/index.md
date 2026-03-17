@@ -2,12 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026-03-16
+## Updated on 2026-03-17
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-16 | **Multi-Scenario User Profile Construction via Recommendation Lists** | Hui Zhang, Jiayu Liu | [Link](http://arxiv.org/abs/2603.15357) | Not Available |
+| 2026-03-15 | **Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios** | Chenglei Shen, Teng Shi, Weijie Yu, Xiao Zhang, Jun Xu | [Link](http://arxiv.org/abs/2603.14259) | Not Available |
+| 2026-03-14 | **Iterative Semantic Reasoning from Individual to Group Interests for Generative Recommendation with LLMs** | Xiaofei Zhu, Jinfei Chen, Feiyang Yuan, Zhou Yang | [Link](http://arxiv.org/abs/2603.13934) | Not Available |
+| 2026-03-14 | **R3-REC: Reasoning-Driven Recommendation via Retrieval-Augmented LLMs over Multi-Granular Interest Signals** | Yuchen Miao, Mingxuan Cui, Yitong Zhu, Yu Wang, Siyang Xu | [Link](http://arxiv.org/abs/2603.13730) | Not Available |
+| 2026-03-04 | **Multi-view Attention Fusion of Heterogeneous Hypergraph with Dynamic Behavioral Profiling for Personalized Learning Resource Recommendation** | Tao Xie, Yan Li, Yongpan Sheng, Jian Liao | [Link](http://arxiv.org/abs/2603.13310) | Not Available |
+| 2026-02-25 | **Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations** | Fernando Spadea, Oshani Seneviratne | [Link](http://arxiv.org/abs/2603.13264) | Not Available |
 | 2026-03-13 | **Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations** | Mihaela Rotar, Theresia Veronika Rampisela, Maria Maistro | [Link](http://arxiv.org/abs/2603.12935) | Not Available |
 | 2026-03-13 | **VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vision-Language Models** | Ty Valencia, Burak Barlas, Varun Singhal, Ruchir Bhatia, Wei Yang | [Link](http://arxiv.org/abs/2603.12625) | Not Available |
 | 2026-03-13 | **AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents** | Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz | [Link](http://arxiv.org/abs/2603.12564) | Not Available |
