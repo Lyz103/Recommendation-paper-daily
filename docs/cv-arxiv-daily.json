@@ -12132,6 +12132,28 @@
             "abstract": "Personalized recommendation increasingly relies on private user data, motivating approaches that can adapt to individuals without centralizing their information. We present Federated Targeted Recommendations with Evolving Knowledge graphs and Language Models (FedTREK-LM), a framework that unifies lightweight large language models (LLMs), evolving personal knowledge graphs (PKGs), federated learning (FL), and Kahneman-Tversky Optimization to enable scalable, decentralized personalization. By prompting LLMs with structured PKGs, FedTREK-LM performs context-aware reasoning for personalized recommendation tasks such as movie and recipe suggestions. Across three lightweight Qwen3 models (0.6B, 1.7B, 4B), FedTREK-LM consistently and substantially outperforms state-of-the-art KG completion and federated recommendation baselines (HAKE, KBGAT, and FedKGRec), achieving more than a 4x improvement in F1-score on the movie and food benchmarks. Our results further show that real user data is critical for effective personalization, as synthetic data degrades performance by up to 46%. Overall, FedTREK-LM offers a practical paradigm for adaptive, LLM-powered personalization that generalizes across decentralized, evolving user PKGs.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2603.16236": {
+            "title": "ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation",
+            "authors": "Moonsoo Park, Seulbeen Je, Donghyeon Park",
+            "first_author": "Moonsoo Park",
+            "url": "http://arxiv.org/abs/2603.16236v1",
+            "pdf_url": "http://arxiv.org/abs/2603.16236",
+            "publish_date": "2026-03-17",
+            "abstract": "In recommender systems, large language models (LLMs) have gained popularity for generating descriptive summarization to improve recommendation robustness, along with Graph Convolution Networks. However, existing LLM-enhanced recommendation studies mainly rely on the internal knowledge of LLMs about item titles while neglecting the importance of various factors influencing users' decisions. Although information reflecting various decision factors of each user is abundant in reviews, few studies have actively exploited such insights for recommendation. To address these limitations, we propose a ReFORM: Review-aggregated Profile Generation via LLM with Multi-FactOr Attentive RecoMmendation framework. Specifically, we first generate factor-specific user and item profiles from reviews using LLM to capture a user's preference by items and an item's evaluation by users. Then, we propose a Multi-Factor Attention to highlight the most influential factors in each user's decision-making process. In this paper, we conduct experiments on two restaurant datasets of varying scales, demonstrating its robustness and superior performance over state-of-the-art baselines. Furthermore, in-depth analyses validate the effectiveness of the proposed modules and provide insights into the sources of personalization. Our source code and datasets are available at https://github.com/m0onsoo/ReFORM.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.15824": {
+            "title": "Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Driven AI",
+            "authors": "Michaela Benk, Tim Miller",
+            "first_author": "Michaela Benk",
+            "url": "http://arxiv.org/abs/2603.15824v1",
+            "pdf_url": "http://arxiv.org/abs/2603.15824",
+            "publish_date": "2026-03-16",
+            "abstract": "The HCI community commonly evaluates decision support systems based on whether they improve task performance or promote appropriate user reliance. In this work, we look beyond decision outcomes to examine the process through which users develop decision-making strategies. Through a web-based experiment (N = 290) comparing recommendation-driven and hypothesis-driven interaction designs, and using Signal Detection Theory as a theoretical framework, we show that even when performance remains identical, recommendation-driven designs lower participants' thresholds for sufficient evidence and introduce a \"hidden bias\" in their judgments, resulting in a shifted distribution of errors. Furthermore, we find that experts are just as susceptible to these systemic shifts as novices. We conclude by advocating for a shift in focus: prioritizing decision processes and the preservation of stable evidence standards over performance and reliance alone.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
         }
     }
 }

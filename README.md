@@ -1,4 +1,4 @@
-## Updated on 2026-03-17
+## Updated on 2026-03-18
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,8 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-17 | **ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation** | Moonsoo Park, Seulbeen Je, Donghyeon Park | [Link](http://arxiv.org/abs/2603.16236) | Not Available |
+| 2026-03-16 | **Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Driven AI** | Michaela Benk, Tim Miller | [Link](http://arxiv.org/abs/2603.15824) | Not Available |
 | 2026-03-16 | **Multi-Scenario User Profile Construction via Recommendation Lists** | Hui Zhang, Jiayu Liu | [Link](http://arxiv.org/abs/2603.15357) | Not Available |
 | 2026-03-15 | **Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios** | Chenglei Shen, Teng Shi, Weijie Yu, Xiao Zhang, Jun Xu | [Link](http://arxiv.org/abs/2603.14259) | Not Available |
 | 2026-03-14 | **Iterative Semantic Reasoning from Individual to Group Interests for Generative Recommendation with LLMs** | Xiaofei Zhu, Jinfei Chen, Feiyang Yuan, Zhou Yang | [Link](http://arxiv.org/abs/2603.13934) | Not Available |
