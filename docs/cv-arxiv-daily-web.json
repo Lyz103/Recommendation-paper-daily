@@ -12154,6 +12154,61 @@
             "abstract": "The HCI community commonly evaluates decision support systems based on whether they improve task performance or promote appropriate user reliance. In this work, we look beyond decision outcomes to examine the process through which users develop decision-making strategies. Through a web-based experiment (N = 290) comparing recommendation-driven and hypothesis-driven interaction designs, and using Signal Detection Theory as a theoretical framework, we show that even when performance remains identical, recommendation-driven designs lower participants' thresholds for sufficient evidence and introduce a \"hidden bias\" in their judgments, resulting in a shifted distribution of errors. Furthermore, we find that experts are just as susceptible to these systemic shifts as novices. We conclude by advocating for a shift in focus: prioritizing decision processes and the preservation of stable evidence standards over performance and reliance alone.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2603.17450": {
+            "title": "VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation",
+            "authors": "Junyoung Kim, Woojoo Kim, Jaehyung Lim, Dongha Kim, Hwanjo Yu",
+            "first_author": "Junyoung Kim",
+            "url": "http://arxiv.org/abs/2603.17450v1",
+            "pdf_url": "http://arxiv.org/abs/2603.17450",
+            "publish_date": "2026-03-18",
+            "abstract": "Sequential Recommendation (SR) in multimodal settings typically relies on small frozen pretrained encoders, which limits semantic capacity and prevents Collaborative Filtering (CF) signals from being fully integrated into item representations. Inspired by the recent success of Large Language Models (LLMs) as high-capacity embedders, we investigate the use of Vision-Language Models (VLMs) as CF-aware multimodal encoders for SR. However, we find that standard contrastive supervised fine-tuning (SFT), which adapts VLMs for embedding generation and injects CF signals, can amplify its inherent modality collapse. In this state, optimization is dominated by a single modality while the other degrades, ultimately undermining recommendation accuracy. To address this, we propose VLM2Rec, a VLM embedder-based framework for multimodal sequential recommendation designed to ensure balanced modality utilization. Specifically, we introduce Weak-modality Penalized Contrastive Learning to rectify gradient imbalance during optimization and Cross-Modal Relational Topology Regularization to preserve geometric consistency between modalities. Extensive experiments demonstrate that VLM2Rec consistently outperforms state-of-the-art baselines in both accuracy and robustness across diverse scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.17417": {
+            "title": "Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)",
+            "authors": "Zichen Tang, Zirui Zhang, Qian Wang, Zhenheng Tang, Bo Li, Xiaowen Chu",
+            "first_author": "Zichen Tang",
+            "url": "http://arxiv.org/abs/2603.17417v1",
+            "pdf_url": "http://arxiv.org/abs/2603.17417",
+            "publish_date": "2026-03-18",
+            "abstract": "Current Large Language Models (LLMs) are gradually exploited in practically valuable agentic workflows such as Deep Research, E-commerce recommendation, and job recruitment. In these applications, LLMs need to select some optimal solutions from massive candidates, which we term as \\textit{LLM-as-a-Recommender} paradigm. However, the reliability of using LLM agents for recommendations is underexplored. In this work, we introduce a \\textbf{Bias} \\textbf{Rec}ommendation \\textbf{Bench}mark (\\textbf{BiasRecBench}) to highlight the critical vulnerability of such agents to biases in high-value real-world tasks. The benchmark includes three practical domains: paper review, e-commerce, and job recruitment. We construct a \\textsc{Bias Synthesis Pipeline with Calibrated Quality Margins} that 1) synthesizes evaluation data by controlling the quality gap between optimal and sub-optimal options to provide a calibrated testbed to elicit the vulnerability to biases; 2) injects contextual biases that are logical and suitable for option contexts. Extensive experiments on both SOTA (Gemini-{2.5,3}-pro, GPT-4o, DeepSeek-R1) and small-scale LLMs reveal that agents frequently succumb to injected biases despite having sufficient reasoning capabilities to identify the ground truth. These findings expose a significant reliability bottleneck in current agentic workflows, calling for specialized alignment strategies for LLM-as-a-Recommender. The complete code and evaluation datasets will be made publicly available shortly.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2603.17356": {
+            "title": "PACE-RAG: Patient-Aware Contextual and Evidence-based Policy RAG for Clinical Drug Recommendation",
+            "authors": "Chaeyoung Huh, Hyunmin Hwang, Jung Hwan Shin, Jinse Park, Jong Chul Ye",
+            "first_author": "Chaeyoung Huh",
+            "url": "http://arxiv.org/abs/2603.17356v1",
+            "pdf_url": "http://arxiv.org/abs/2603.17356",
+            "publish_date": "2026-03-18",
+            "abstract": "Drug recommendation requires a deep understanding of individual patient context, especially for complex conditions like Parkinson's disease. While LLMs possess broad medical knowledge, they fail to capture the subtle nuances of actual prescribing patterns. Existing RAG methods also struggle with these complexities because guideline-based retrieval remains too generic and similar-patient retrieval often replicates majority patterns without accounting for the unique clinical nuances of individual patients. To bridge this gap, we propose PACE-RAG (Patient-Aware Contextual and Evidence-based Policy RAG), a novel framework designed to synthesize individual patient context with the prescribing tendencies of similar cases. By analyzing treatment patterns tailored to specific clinical signals, PACE-RAG identifies optimal prescriptions and generates an explainable clinical summary. Evaluated on a Parkinson's cohort and the MIMIC-IV benchmark using Llama-3.1-8B and Qwen3-8B, PACE-RAG achieved state-of-the-art performance, reaching F1 scores of 80.84% and 47.22%, respectively. These results validate PACE-RAG as a robust, clinically grounded solution for personalized decision support. Our code is available at: https://github.com/ChaeYoungHuh/PACE-RAG.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2603.17315": {
+            "title": "Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation",
+            "authors": "Chunxu Zhang, Zhiheng Xue, Guodong Long, Weipeng Zhang, Bo Yang",
+            "first_author": "Chunxu Zhang",
+            "url": "http://arxiv.org/abs/2603.17315v1",
+            "pdf_url": "http://arxiv.org/abs/2603.17315",
+            "publish_date": "2026-03-18",
+            "abstract": "User-centric recommendation has become essential for delivering personalized services, as it enables systems to adapt to users' evolving behaviors while respecting their long-term preferences and privacy constraints. Although federated learning offers a promising alternative to centralized training, existing approaches largely overlook user behavior dynamics, leading to temporal forgetting and weakened collaborative personalization. In this work, we propose FCUCR, a federated continual recommendation framework designed to support long-term personalization in a privacy-preserving manner. To address temporal forgetting, we introduce a time-aware self-distillation strategy that implicitly retains historical preferences during local model updates. To tackle collaborative personalization under heterogeneous user data, we design an inter-user prototype transfer mechanism that enriches each client's representation using knowledge from similar users while preserving individual decision logic. Extensive experiments on four public benchmarks demonstrate the superior effectiveness of our approach, along with strong compatibility and practical applicability. Code is available.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.16800": {
+            "title": "RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Recommendation",
+            "authors": "Yixuan Huang, Jiawei Chen, Shengfan Zhang, Zongsheng Cao",
+            "first_author": "Yixuan Huang",
+            "url": "http://arxiv.org/abs/2603.16800v1",
+            "pdf_url": "http://arxiv.org/abs/2603.16800",
+            "publish_date": "2026-03-17",
+            "abstract": "Collaborative filtering (CF) recommendation has been significantly advanced by integrating Graph Neural Networks (GNNs) and Graph Contrastive Learning (GCL). However, (i) random edge perturbations often distort critical structural signals and degrade semantic consistency across augmented views, and (ii) data sparsity hampers the propagation of collaborative signals, limiting generalization.   To tackle these challenges, we propose RaDAR (Relation-aware Diffusion-Asymmetric Graph Contrastive Learning Framework for Recommendation Systems), a novel framework that combines two complementary view generation mechanisms: a graph generative model to capture global structure and a relation-aware denoising model to refine noisy edges.   RaDAR introduces three key innovations: (1) asymmetric contrastive learning with global negative sampling to maintain semantic alignment while suppressing noise; (2) diffusion-guided augmentation, which employs progressive noise injection and denoising for enhanced robustness; and (3) relation-aware edge refinement, dynamically adjusting edge weights based on latent node semantics.   Extensive experiments on three public benchmarks demonstrate that RaDAR consistently outperforms state-of-the-art methods, particularly under noisy and sparse conditions.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

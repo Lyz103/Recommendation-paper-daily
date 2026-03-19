@@ -2,12 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026-03-18
+## Updated on 2026-03-19
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-18 | **VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation** | Junyoung Kim, Woojoo Kim, Jaehyung Lim, Dongha Kim, Hwanjo Yu | [Link](http://arxiv.org/abs/2603.17450) | Not Available |
+| 2026-03-18 | **Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)** | Zichen Tang, Zirui Zhang, Qian Wang, Zhenheng Tang, Bo Li, Xiaowen Chu | [Link](http://arxiv.org/abs/2603.17417) | Not Available |
+| 2026-03-18 | **PACE-RAG: Patient-Aware Contextual and Evidence-based Policy RAG for Clinical Drug Recommendation** | Chaeyoung Huh, Hyunmin Hwang, Jung Hwan Shin, Jinse Park, Jong Chul Ye | [Link](http://arxiv.org/abs/2603.17356) | Not Available |
+| 2026-03-18 | **Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation** | Chunxu Zhang, Zhiheng Xue, Guodong Long, Weipeng Zhang, Bo Yang | [Link](http://arxiv.org/abs/2603.17315) | Not Available |
+| 2026-03-17 | **RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Recommendation** | Yixuan Huang, Jiawei Chen, Shengfan Zhang, Zongsheng Cao | [Link](http://arxiv.org/abs/2603.16800) | Not Available |
 | 2026-03-17 | **ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation** | Moonsoo Park, Seulbeen Je, Donghyeon Park | [Link](http://arxiv.org/abs/2603.16236) | Not Available |
 | 2026-03-16 | **Same Performance, Hidden Bias: Evaluating Hypothesis- and Recommendation-Driven AI** | Michaela Benk, Tim Miller | [Link](http://arxiv.org/abs/2603.15824) | Not Available |
 | 2026-03-16 | **Multi-Scenario User Profile Construction via Recommendation Lists** | Hui Zhang, Jiayu Liu | [Link](http://arxiv.org/abs/2603.15357) | Not Available |
