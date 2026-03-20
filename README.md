@@ -11,6 +11,7 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-19 | **Synthetic Control Misconceptions: Recommendations for Practice** | Robert Pickett, Jennifer Hill, Sarah Cowan | [Link](http://arxiv.org/abs/2603.19211) | Not Available |
 | 2026-03-19 | **OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation** | Chen Sun, Beilin Xu, Boheng Tan, Jiacheng Wang, Yuefeng Sun, Rite Bo, Ying He, Yaqiang Zang, Pinghua Gong | [Link](http://arxiv.org/abs/2603.18697) | Not Available |
 | 2026-03-19 | **Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation** | Jerome Ramos, Feng Xia, Xi Wang, Shubham Chatterjee, Xiao Fu, Hossein A. Rahmani, Aldo Lipani | [Link](http://arxiv.org/abs/2603.18573) | Not Available |
 | 2026-03-19 | **Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation** | Mingshi Yan, Zhiyong Cheng, Yahong Han, Meng Wang | [Link](http://arxiv.org/abs/2603.18556) | Not Available |
