@@ -2,12 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-03-19
+## Updated on 2026-03-20
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-19 | **OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation** | Chen Sun, Beilin Xu, Boheng Tan, Jiacheng Wang, Yuefeng Sun, Rite Bo, Ying He, Yaqiang Zang, Pinghua Gong | [Link](http://arxiv.org/abs/2603.18697) | Not Available |
+| 2026-03-19 | **Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation** | Jerome Ramos, Feng Xia, Xi Wang, Shubham Chatterjee, Xiao Fu, Hossein A. Rahmani, Aldo Lipani | [Link](http://arxiv.org/abs/2603.18573) | Not Available |
+| 2026-03-19 | **Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation** | Mingshi Yan, Zhiyong Cheng, Yahong Han, Meng Wang | [Link](http://arxiv.org/abs/2603.18556) | Not Available |
+| 2026-03-19 | **HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships** | Xiangxu Zhang, Xiao Zhou, Hongteng Xu, Jianxun Lian | [Link](http://arxiv.org/abs/2603.18459) | Not Available |
 | 2026-03-18 | **A Unified Language Model for Large Scale Search, Recommendation, and Reasoning** | Marco De Nadai, Edoardo D'Amico, Max Lefarov, Alexandre Tamborrino, Divita Vohra, Mark VanMiddlesworth, Shawn Lin, Jacqueline Wood, Jan Stypka, Eliza Klyce, Keshi Dai, Timothy Christopher Heath, Martin D. Gould, Yves Raimond, Sandeep Ghael, Tony Jebara, Andreas Damianou, Vladan Radosavljevic, Paul N. Bennett, Mounia Lalmas, Praveen Chandar | [Link](http://arxiv.org/abs/2603.17533) | Not Available |
 | 2026-03-18 | **VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation** | Junyoung Kim, Woojoo Kim, Jaehyung Lim, Dongha Kim, Hwanjo Yu | [Link](http://arxiv.org/abs/2603.17450) | Not Available |
 | 2026-03-18 | **Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)** | Zichen Tang, Zirui Zhang, Qian Wang, Zhenheng Tang, Bo Li, Xiaowen Chu | [Link](http://arxiv.org/abs/2603.17417) | Not Available |
@@ -88,7 +92,7 @@ layout: default
 | 2026-02-25 | **Trie-Aware Transformers for Generative Recommendation** | Zhenxiang Xu, Jiawei Chen, Sirui Chen, Yong He, Jieyu Yang, Chuan Yuan, Ke Ding, Can Wang | [Link](http://arxiv.org/abs/2602.21677) | Not Available |
 | 2026-02-24 | **Position-Aware Sequential Attention for Accurate Next Item Recommendations** | Timur Nabiev, Evgeny Frolov | [Link](http://arxiv.org/abs/2602.21052) | Not Available |
 | 2026-02-24 | **Modality-Guided Mixture of Graph Experts with Entropy-Triggered Routing for Multimodal Recommendation** | Ji Dai, Quan Fang, Dengsheng Cai | [Link](http://arxiv.org/abs/2602.20723) | Not Available |
-| 2026-02-24 | **From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production** | Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas | [Link](http://arxiv.org/abs/2602.20558) | Not Available |
+| 2026-02-24 | **From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale** | Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas | [Link](http://arxiv.org/abs/2602.20558) | Not Available |
 | 2026-02-23 | **ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation** | Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li | [Link](http://arxiv.org/abs/2602.20093) | Not Available |
 | 2026-02-23 | **GrIT: Group Informed Transformer for Sequential Recommendation** | Adamya Shyam, Venkateswara Rao Kagita, Bharti Rana, Vikas Kumar | [Link](http://arxiv.org/abs/2602.19728) | Not Available |
 | 2026-02-23 | **A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage Knowledge Graphs** | Krzysztof Kutt, Elżbieta Sroka, Oleksandra Ishchuk, Luiz do Valle Miranda | [Link](http://arxiv.org/abs/2602.19711) | Not Available |

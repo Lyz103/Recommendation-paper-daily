@@ -11353,13 +11353,13 @@
             "code_url": "null"
         },
         "2602.20558": {
-            "title": "From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production",
+            "title": "From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale",
             "authors": "Yucheng Shi, Ying Li, Yu Wang, Yesu Feng, Arjun Rao, Rein Houthooft, Shradha Sehgal, Jin Wang, Hao Zhen, Ninghao Liu, Linas Baltrunas",
             "first_author": "Yucheng Shi",
-            "url": "http://arxiv.org/abs/2602.20558v1",
+            "url": "http://arxiv.org/abs/2602.20558v2",
             "pdf_url": "http://arxiv.org/abs/2602.20558",
             "publish_date": "2026-02-24",
-            "abstract": "Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language inputs. Existing methods rely on rigid templates that simply concatenate fields, yielding suboptimal representations for recommendation. We propose a data-centric framework that learns verbalization for LLM-based recommendation. Using reinforcement learning, a verbalization agent transforms raw interaction histories into optimized textual contexts, with recommendation accuracy as the training signal. This agent learns to filter noise, incorporate relevant metadata, and reorganize information to improve downstream predictions. Experiments on a large-scale industrial streaming dataset show that learned verbalization delivers up to 93% relative improvement in discovery item recommendation accuracy over template-based baselines. Further analysis reveals emergent strategies such as user interest summarization, noise removal, and syntax normalization, offering insights into effective context construction for LLM-based recommender systems.",
+            "abstract": "Large language models (LLMs) are promising backbones for generative recommender systems, yet a key challenge remains underexplored: verbalization, i.e., converting structured user interaction logs into effective natural language inputs. Existing methods rely on rigid templates that simply concatenate fields, yielding suboptimal representations for recommendation. We propose a data-centric framework that learns verbalization for LLM-based recommendation. Using reinforcement learning, a verbalization agent transforms raw interaction histories into optimized textual contexts, with recommendation accuracy as the training signal. This agent learns to filter noise, incorporate relevant metadata, and reorganize information to improve downstream predictions. Experiments on a large-scale industrial streaming dataset from Netflix show that learned verbalization delivers up to 93% relative improvement in discovery item recommendation accuracy over template-based baselines. Further analysis reveals emergent strategies such as user interest summarization, noise removal, and syntax normalization, offering insights into effective context construction for LLM-based recommender systems.",
             "primary_category": "cs.AI",
             "code_url": "null"
         },
@@ -12038,7 +12038,7 @@
             "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
             "authors": "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz",
             "first_author": "Zekun Wu",
-            "url": "http://arxiv.org/abs/2603.12564v1",
+            "url": "http://arxiv.org/abs/2603.12564v2",
             "pdf_url": "http://arxiv.org/abs/2603.12564",
             "publish_date": "2026-03-13",
             "abstract": "Tool-augmented LLM agents increasingly serve as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking-quality metrics that measure what is recommended but not whether it is safe for the user. We introduce a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across seven LLMs (7B to frontier) and decomposes divergence into information-channel and memory-channel mechanisms. Across the seven models tested, we consistently observe the evaluation-blindness pattern: recommendation quality is largely preserved under contamination (utility preservation ratio approximately 1.0) while risk-inappropriate products appear in 65-93% of turns, a systematic safety failure poorly reflected by standard NDCG. Safety violations are predominantly information-channel-driven, emerge at the first contaminated turn, and persist without self-correction over 23-step trajectories; no agent across 1,563 contaminated turns explicitly questions tool-data reliability. Even narrative-only corruption (biased headlines, no numerical manipulation) induces significant drift while completely evading consistency monitors. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74, indicating that much of the evaluation gap becomes visible once safety is explicitly measured. These results motivate considering trajectory-level safety monitoring, beyond single-turn quality, for deployed multi-turn agents in high-stakes settings.",
@@ -12218,6 +12218,50 @@
             "pdf_url": "http://arxiv.org/abs/2603.17533",
             "publish_date": "2026-03-18",
             "abstract": "LLMs are increasingly applied to recommendation, retrieval, and reasoning, yet deploying a single end-to-end model that can jointly support these behaviors over large, heterogeneous catalogs remains challenging. Such systems must generate unambiguous references to real items, handle multiple entity types, and operate under strict latency and reliability constraints requirements that are difficult to satisfy with text-only generation. While tool-augmented recommender systems address parts of this problem, they introduce orchestration complexity and limit end-to-end optimization. We view this setting as an instance of a broader research problem: how to adapt LLMs to reason jointly over multiple-domain entities, users, and language in a fully self-contained manner. To this end, we introduce NEO, a framework that adapts a pre-trained decoder-only LLM into a tool-free, catalog-grounded generator. NEO represents items as SIDs and trains a single model to interleave natural language and typed item identifiers within a shared sequence. Text prompts control the task, target entity type, and output format (IDs, text, or mixed), while constrained decoding guarantees catalog-valid item generation without restricting free-form text. We refer to this instruction-conditioned controllability as language-steerability. We treat SIDs as a distinct modality and study design choices for integrating discrete entity representations into LLMs via staged alignment and instruction tuning. We evaluate NEO at scale on a real-world catalog of over 10M items across multiple media types and discovery tasks, including recommendation, search, and user understanding. In offline experiments, NEO consistently outperforms strong task-specific baselines and exhibits cross-task transfer, demonstrating a practical path toward consolidating large-scale discovery capabilities into a single language-steerable generative model.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.18697": {
+            "title": "OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation",
+            "authors": "Chen Sun, Beilin Xu, Boheng Tan, Jiacheng Wang, Yuefeng Sun, Rite Bo, Ying He, Yaqiang Zang, Pinghua Gong",
+            "first_author": "Chen Sun",
+            "url": "http://arxiv.org/abs/2603.18697v1",
+            "pdf_url": "http://arxiv.org/abs/2603.18697",
+            "publish_date": "2026-03-19",
+            "abstract": "In industrial commodity recommendation systems, the representation quality of Item-Id vocabularies directly impacts the scalability and generalization ability of recommendation models. A key challenge is that traditional Item-Id vocabularies, when subjected to sparse scaling, suffer from low-frequency information interference, which restricts their expressive power for massive item sets and leads to representation collapse. To address this issue, we propose an Orthogonal Constrained Projection method to optimize embedding representation. By enforcing orthogonality, the projection constrains the backpropagation manifold, aligning the singular value spectrum of the learned embeddings with the orthogonal basis. This alignment ensures high singular entropy, thereby preserving isotropic generalized features while suppressing spurious correlations and overfitting to rare items. Empirical results demonstrate that OCP accelerates loss convergence and enhances the model's scalability; notably, it enables consistent performance gains when scaling up dense layers. Large-scale industrial deployment on JD.com further confirms its efficacy, yielding a 12.97% increase in UCXR and an 8.9% uplift in GMV, highlighting its robust utility for scaling up both sparse vocabularies and dense architectures.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2603.18573": {
+            "title": "Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation",
+            "authors": "Jerome Ramos, Feng Xia, Xi Wang, Shubham Chatterjee, Xiao Fu, Hossein A. Rahmani, Aldo Lipani",
+            "first_author": "Jerome Ramos",
+            "url": "http://arxiv.org/abs/2603.18573v1",
+            "pdf_url": "http://arxiv.org/abs/2603.18573",
+            "publish_date": "2026-03-19",
+            "abstract": "Training conversational recommender systems (CRS) requires extensive dialogue data, which is challenging to collect at scale. To address this, researchers have used simulated user-recommender conversations. Traditional simulation approaches often utilize a single large language model (LLM) that generates entire conversations with prior knowledge of the target items, leading to scripted and artificial dialogues. We propose a reference-free simulation framework that trains two independent LLMs, one as the user and one as the conversational recommender. These models interact in real-time without access to predetermined target items, but preference summaries and target attributes, enabling the recommender to genuinely infer user preferences through dialogue. This approach produces more realistic and diverse conversations that closely mirror authentic human-AI interactions. Our reference-free simulators match or exceed existing methods in quality, while offering a scalable solution for generating high-quality conversational recommendation data without constraining conversations to pre-defined target items. We conduct both quantitative and human evaluations to confirm the effectiveness of our reference-free approach.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2603.18556": {
+            "title": "Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation",
+            "authors": "Mingshi Yan, Zhiyong Cheng, Yahong Han, Meng Wang",
+            "first_author": "Mingshi Yan",
+            "url": "http://arxiv.org/abs/2603.18556v1",
+            "pdf_url": "http://arxiv.org/abs/2603.18556",
+            "publish_date": "2026-03-19",
+            "abstract": "Traditional recommendation methods, which typically focus on modeling a single user behavior (e.g., purchase), often face severe data sparsity issues. Multi-behavior recommendation methods offer a promising solution by leveraging user data from diverse behaviors. However, most existing approaches entangle multiple behavioral factors, learning holistic but imprecise representations that fail to capture specific user intents. To address this issue, we propose a multi-behavior method by modeling latent factors with an expert network (MBLFE). In our approach, we design a gating expert network, where the expert network models all latent factors within the entire recommendation scenario, with each expert specializing in a specific latent factor. The gating network dynamically selects the optimal combination of experts for each user, enabling a more accurate representation of user preferences. To ensure independence among experts and factor consistency of a particular expert, we incorporate self-supervised learning during the training process. Furthermore, we enrich embeddings with multi-behavior data to provide the expert network with more comprehensive collaborative information for factor extraction. Extensive experiments on three real-world datasets demonstrate that our method significantly outperforms state-of-the-art baselines, validating its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.18459": {
+            "title": "HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships",
+            "authors": "Xiangxu Zhang, Xiao Zhou, Hongteng Xu, Jianxun Lian",
+            "first_author": "Xiangxu Zhang",
+            "url": "http://arxiv.org/abs/2603.18459v1",
+            "pdf_url": "http://arxiv.org/abs/2603.18459",
+            "publish_date": "2026-03-19",
+            "abstract": "Medication recommendations aim to generate safe and effective medication sets from health records. However, accurately recommending medications hinges on inferring a patient's latent clinical condition from sparse and noisy observations, which requires both (i) preserving the visit-level combinatorial semantics of co-occurring entities and (ii) leveraging informative historical references through effective, visit-conditioned retrieval. Most existing methods fall short in one of both aspects: graph-based modeling often fragments higher-order intra-visit patterns into pairwise relations, while inter-visit augmentation methods commonly exhibit an imbalance between learning a globally stable representation space and performing dynamic retrieval within it. To address these limitations, this paper proposes HypeMed, a two-stage hypergraph-based framework unifying intra-visit coherence modeling and inter-visit augmentation. HypeMed consists of two core modules: MedRep for representation pre-training, and SimMR for similarity-enhanced recommendation. In the first stage, MedRep encodes clinical visits as hyperedges via knowledge-aware contrastive pre-training, creating a globally consistent, retrieval-friendly embedding space. In the second stage, SimMR performs dynamic retrieval within this space, fusing retrieved references with the patient's longitudinal data to refine medication prediction. Evaluation on real-world benchmarks shows that HypeMed outperforms state-of-the-art baselines in both recommendation precision and DDI reduction, simultaneously enhancing the effectiveness and safety of clinical decision support.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
