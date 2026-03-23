@@ -2,12 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-03-22
+## Updated on 2026-03-23
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-20 | **DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations** | Boxun Song, Min Gao, Jiawei Cheng | [Link](http://arxiv.org/abs/2603.19909) | Not Available |
+| 2026-03-20 | **How Well Does Generative Recommendation Generalize?** | Yijie Ding, Zitian Guo, Jiacheng Li, Letian Peng, Shuai Shao, Wei Shao, Xiaoqiang Luo, Luke Simon, Jingbo Shang, Julian McAuley, Yupeng Hou | [Link](http://arxiv.org/abs/2603.19809) | Not Available |
+| 2026-03-20 | **AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation** | Jingcao Xu, Jianyun Zou, Renkai Yang, Zili Geng, Qiang Liu, Haihong Tang | [Link](http://arxiv.org/abs/2603.19710) | Not Available |
+| 2026-03-20 | **From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism** | Xiaokun Zhang, Bowei He, Jiamin Chen, Ziqiang Cui, Chen Ma | [Link](http://arxiv.org/abs/2603.19693) | Not Available |
 | 2026-03-19 | **Synthetic Control Misconceptions: Recommendations for Practice** | Robert Pickett, Jennifer Hill, Sarah Cowan | [Link](http://arxiv.org/abs/2603.19211) | Not Available |
 | 2026-03-19 | **OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation** | Chen Sun, Beilin Xu, Boheng Tan, Jiacheng Wang, Yuefeng Sun, Rite Bo, Ying He, Yaqiang Zang, Pinghua Gong | [Link](http://arxiv.org/abs/2603.18697) | Not Available |
 | 2026-03-19 | **Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation** | Jerome Ramos, Feng Xia, Xi Wang, Shubham Chatterjee, Xiao Fu, Hossein A. Rahmani, Aldo Lipani | [Link](http://arxiv.org/abs/2603.18573) | Not Available |
