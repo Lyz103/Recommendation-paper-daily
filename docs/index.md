@@ -2,12 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-03-23
+## Updated on 2026-03-24
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-21 | **Simple Projection-Free Algorithm for Contextual Recommendation with Logarithmic Regret and Robustness** | Shinsaku Sakaue | [Link](http://arxiv.org/abs/2603.20826) | Not Available |
+| 2026-03-20 | **Low-pass Personalized Subgraph Federated Recommendation** | Wooseok Sim, Hogun Park | [Link](http://arxiv.org/abs/2603.20338) | Not Available |
+| 2026-03-18 | **Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation** | Aleksandra Edwards, Thomas Edwards, Jose Camacho-Collados, Alun Preece | [Link](http://arxiv.org/abs/2603.20287) | Not Available |
+| 2026-03-18 | **FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing** | Zhenxing Yan, Jidong Yuan, Yongqi Sun, Haiyang Liu, Zhihui Gao | [Link](http://arxiv.org/abs/2603.20283) | Not Available |
 | 2026-03-20 | **DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations** | Boxun Song, Min Gao, Jiawei Cheng | [Link](http://arxiv.org/abs/2603.19909) | Not Available |
 | 2026-03-20 | **How Well Does Generative Recommendation Generalize?** | Yijie Ding, Zitian Guo, Jiacheng Li, Letian Peng, Shuai Shao, Wei Shao, Xiaoqiang Luo, Luke Simon, Jingbo Shang, Julian McAuley, Yupeng Hou | [Link](http://arxiv.org/abs/2603.19809) | Not Available |
 | 2026-03-20 | **AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation** | Jingcao Xu, Jianyun Zou, Renkai Yang, Zili Geng, Qiang Liu, Haihong Tang | [Link](http://arxiv.org/abs/2603.19710) | Not Available |

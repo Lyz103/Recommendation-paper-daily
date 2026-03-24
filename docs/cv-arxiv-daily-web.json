@@ -11598,7 +11598,7 @@
             "title": "RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation",
             "authors": "Jin Zeng, Yupeng Qi, Hui Li, Chengming Li, Ziyu Lyu, Lixin Cui, Lu Bai",
             "first_author": "Jin Zeng",
-            "url": "http://arxiv.org/abs/2603.00638v1",
+            "url": "http://arxiv.org/abs/2603.00638v2",
             "pdf_url": "http://arxiv.org/abs/2603.00638",
             "publish_date": "2026-02-28",
             "abstract": "Large language models (LLMs) are increasingly adopted as the backbone of recommender systems. However, user-item interactions in real-world scenarios are non-stationary, making preference drift over time inevitable. Existing model update strategies mainly rely on global fine-tuning or pointwise editing, but they face two fundamental challenges: (i) imbalanced update granularity, where global updates perturb behaviors unrelated to the target while pointwise edits fail to capture broader preference shifts; (ii) unstable incremental updates, where repeated edits interfere with prior adaptations, leading to catastrophic forgetting and inconsistent recommendations. To address these issues, we propose Region-Aware Incremental Editing (RAIE), a plug-in framework that freezes the backbone model and performs region-level updates. RAIE first constructs semantically coherent preference regions via spherical k-means in the representation space. It then assigns incoming sequences to regions via confidence-aware gating and performs three localized edit operations - Update, Expand, and Add - to dynamically revise the affected region. Each region is equipped with a dedicated Low-Rank Adaptation (LoRA) module, which is trained only on the region's updated data. During inference, RAIE routes each user sequence to its corresponding region and activates the region-specific adapter for prediction. Experiments on two benchmark datasets under a time-sliced protocol that segments data into Set-up (S), Finetune (F), and Test (T) show that RAIE significantly outperforms state-of-the-art baselines while effectively mitigating forgetting. These results demonstrate that region-aware editing offers an accurate and scalable mechanism for continual adaptation in dynamic recommendation scenarios. Our code is available at https://github.com/fengaogao/RAIE.",
@@ -12317,6 +12317,50 @@
             "pdf_url": "http://arxiv.org/abs/2603.19693",
             "publish_date": "2026-03-20",
             "abstract": "Large Language Models (LLMs) have recently gained increasing attention in the field of recommendation. Existing LLM-based methods typically represent items as token sequences, and apply attention layers on these tokens to generate recommendations. However, by inheriting the standard attention mechanism, these methods focus on modeling token-level relations. This token-centric focus overlooks the item as the fundamental unit of recommendation, preventing existing methods from effectively capturing collaborative relations at the item level. In this work, we revisit the role of tokens in LLM-driven recommendation and categorize their relations into two types: (1) intra-item token relations, which present the content semantics of an item, e.g., name, color, and size; and (2) inter-item token relations, which encode collaborative relations across items. Building on these insights, we propose a novel framework with an item-aware attention mechanism (IAM) to enhance LLMs for recommendation. Specifically, IAM devises two complementary attention layers: (1) an intra-item attention layer, which restricts attention to tokens within the same item, modeling item content semantics; and (2) an inter-item attention layer, which attends exclusively to token relations across items, capturing item collaborative relations. Through this stacked design, IAM explicitly emphasizes items as the fundamental units in recommendation, enabling LLMs to effectively exploit item-level collaborative relations. Extensive experiments on several public datasets demonstrate the effectiveness of IAM in enhancing LLMs for personalized recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.20826": {
+            "title": "Simple Projection-Free Algorithm for Contextual Recommendation with Logarithmic Regret and Robustness",
+            "authors": "Shinsaku Sakaue",
+            "first_author": "Shinsaku Sakaue",
+            "url": "http://arxiv.org/abs/2603.20826v1",
+            "pdf_url": "http://arxiv.org/abs/2603.20826",
+            "publish_date": "2026-03-21",
+            "abstract": "Contextual recommendation is a variant of contextual linear bandits in which the learner observes an (optimal) action rather than a reward scalar. Recently, Sakaue et al. (2025) developed an efficient Online Newton Step (ONS) approach with an $O(d\\log T)$ regret bound, where $d$ is the dimension of the action space and $T$ is the time horizon. In this paper, we present a simple algorithm that is more efficient than the ONS-based method while achieving the same regret guarantee. Our core idea is to exploit the improperness inherent in contextual recommendation, leading to an update rule akin to the second-order perceptron from online classification. This removes the Mahalanobis projection step required by ONS, which is often a major computational bottleneck. More importantly, the same algorithm remains robust to possibly suboptimal action feedback, whereas the prior ONS-based method required running multiple ONS learners with different learning rates for this extension. We describe how our method works in general Hilbert spaces (e.g., via kernelization), where eliminating Mahalanobis projections becomes even more beneficial.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2603.20338": {
+            "title": "Low-pass Personalized Subgraph Federated Recommendation",
+            "authors": "Wooseok Sim, Hogun Park",
+            "first_author": "Wooseok Sim",
+            "url": "http://arxiv.org/abs/2603.20338v1",
+            "pdf_url": "http://arxiv.org/abs/2603.20338",
+            "publish_date": "2026-03-20",
+            "abstract": "Federated Recommender Systems (FRS) preserve privacy by training decentralized models on client-specific user-item subgraphs without sharing raw data. However, FRS faces a unique challenge: subgraph structural imbalance, where drastic variations in subgraph scale (user/item counts) and connectivity (item degree) misalign client representations, making it challenging to train a robust model that respects each client's unique structural characteristics. To address this, we propose a Low-pass Personalized Subgraph Federated recommender system (LPSFed). LPSFed leverages graph Fourier transforms and low-pass spectral filtering to extract low-frequency structural signals that remain stable across subgraphs of varying size and degree, allowing robust personalized parameter updates guided by similarity to a neutral structural anchor. Additionally, we leverage a localized popularity bias-aware margin that captures item-degree imbalance within each subgraph and incorporates it into a personalized bias correction term to mitigate recommendation bias. Supported by theoretical analysis and validated on five real-world datasets, LPSFed achieves superior recommendation accuracy and enhances model robustness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.20287": {
+            "title": "Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation",
+            "authors": "Aleksandra Edwards, Thomas Edwards, Jose Camacho-Collados, Alun Preece",
+            "first_author": "Aleksandra Edwards",
+            "url": "http://arxiv.org/abs/2603.20287v1",
+            "pdf_url": "http://arxiv.org/abs/2603.20287",
+            "publish_date": "2026-03-18",
+            "abstract": "Large Language Models (LLMs) are extensively used in text generation tasks. These generative capabilities bring us to a point where LLMs could potentially provide useful insights in policy making or agency operations. In this paper, we introduce a new task consisting of generating recommendations which can be used to inform future actions and improvements of agencies work within private and public organisations. In particular, we present the first benchmark and coherent evaluation for developing recommendation systems to inform organisation policies. This task is clearly different from usual product or user recommendation systems, but rather aims at providing a basis to suggest policy improvements based on the conclusions drawn from reports. Our results demonstrate that state-of-the-art LLMs have the potential to emphasize and reflect on key issues and learning points within generated recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.20283": {
+            "title": "FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing",
+            "authors": "Zhenxing Yan, Jidong Yuan, Yongqi Sun, Haiyang Liu, Zhihui Gao",
+            "first_author": "Zhenxing Yan",
+            "url": "http://arxiv.org/abs/2603.20283v1",
+            "pdf_url": "http://arxiv.org/abs/2603.20283",
+            "publish_date": "2026-03-18",
+            "abstract": "Graph neural network (GNN)-based federated recommendation systems effectively capture user-item relationships while preserving data privacy. However, existing methods often face slow convergence on graph data and privacy leakage risks during collaboration. To address these challenges, we propose FastPFRec (Fast Personalized Federated Recommendation with Secure Sharing), a novel framework that enhances both training efficiency and data security. FastPFRec accelerates model convergence through an efficient local update strategy and introduces a privacy-aware parameter sharing mechanism to mitigate leakage risks. Experiments on four real-world datasets (Yelp, Kindle, Gowalla-100k, and Gowalla-1m) show that FastPFRec achieves 32.0% fewer training rounds, 34.1% shorter training time, and 8.1% higher accuracy compared with existing baselines. These results demonstrate that FastPFRec provides an efficient and privacy-preserving solution for scalable federated recommendation.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
