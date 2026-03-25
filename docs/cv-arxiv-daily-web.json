@@ -12363,6 +12363,83 @@
             "abstract": "Graph neural network (GNN)-based federated recommendation systems effectively capture user-item relationships while preserving data privacy. However, existing methods often face slow convergence on graph data and privacy leakage risks during collaboration. To address these challenges, we propose FastPFRec (Fast Personalized Federated Recommendation with Secure Sharing), a novel framework that enhances both training efficiency and data security. FastPFRec accelerates model convergence through an efficient local update strategy and introduces a privacy-aware parameter sharing mechanism to mitigate leakage risks. Experiments on four real-world datasets (Yelp, Kindle, Gowalla-100k, and Gowalla-1m) show that FastPFRec achieves 32.0% fewer training rounds, 34.1% shorter training time, and 8.1% higher accuracy compared with existing baselines. These results demonstrate that FastPFRec provides an efficient and privacy-preserving solution for scalable federated recommendation.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2603.22916": {
+            "title": "GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation",
+            "authors": "Hai Zhu, Yantao Yu, Lei Shen, Bing Wang, Xiaoyi Zeng",
+            "first_author": "Hai Zhu",
+            "url": "http://arxiv.org/abs/2603.22916v1",
+            "pdf_url": "http://arxiv.org/abs/2603.22916",
+            "publish_date": "2026-03-24",
+            "abstract": "In cold-start scenarios, the scarcity of collaborative signals for new items exacerbates the Matthew effect, which undermines platform diversity and remains a persistent challenge in real-world recommender systems. Existing methods typically enhance collaborative signals with semantic information, but they often suffer from a collaborative-semantic tradeoff: collaborative signals are effective for popular items but unreliable for cold-start items, whereas over-reliance on semantic information may obscure meaningful collaborative differences. To address this issue, we propose GateSID, a framework that uses an adaptive gating network to dynamically balance semantic and collaborative signals according to item maturity. Specifically, we first discretize multimodal features into hierarchical Semantic IDs using Residual Quantized VAE. Building on this representation, we design two key components: (1) Gating-Fused Shared Attention, which fuses intra-modal attention distributions with item-level gating weights derived from embeddings and statistical features; and (2) Gate-Regulated Contrastive Alignment, which adaptively calibrates cross-modal alignment, enforcing stronger semantic-behavior consistency for cold-start items while relaxing the constraint for popular items to preserve reliable collaborative signals. Extensive offline experiments on large-scale industrial datasets demonstrate that GateSID consistently outperforms strong baselines. Online A/B tests further confirm its practical value, yielding +2.6% GMV, +1.1% CTR, and +1.6% orders with less than 5 ms additional latency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.22231": {
+            "title": "One Model, Two Markets: Bid-Aware Generative Recommendation",
+            "authors": "Yanchen Jiang, Zhe Feng, Christopher P. Mah, Aranyak Mehta, Di Wang",
+            "first_author": "Yanchen Jiang",
+            "url": "http://arxiv.org/abs/2603.22231v1",
+            "pdf_url": "http://arxiv.org/abs/2603.22231",
+            "publish_date": "2026-03-23",
+            "abstract": "Generative Recommender Systems using semantic ids, such as TIGER (Rajput et al., 2023), have emerged as a widely adopted competitive paradigm in sequential recommendation. However, existing architectures are designed solely for semantic retrieval and do not address concerns such as monetization via ad revenue and incorporation of bids for commercial retrieval. We propose GEM-Rec, a unified framework that integrates commercial relevance and monetization objectives directly into the generative sequence. We introduce control tokens to decouple the decision of whether to show an ad from which item to show. This allows the model to learn valid placement patterns directly from interaction logs, which inherently reflect past successful ad placements. Complementing this, we devise a Bid-Aware Decoding mechanism that handles real-time pricing, injecting bids directly into the inference process to steer the generation toward high-value items. We prove that this approach guarantees allocation monotonicity, ensuring that higher bids weakly increase an ad's likelihood of being shown without requiring model retraining. Experiments demonstrate that GEM-Rec allows platforms to dynamically optimize for semantic relevance and platform revenue.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.22090": {
+            "title": "Distributionally robust optimization for recommendation selection",
+            "authors": "Tomoya Yanagi, Shunnosuke Ikeda, Ken Kobayashi, Yuichi Takano",
+            "first_author": "Tomoya Yanagi",
+            "url": "http://arxiv.org/abs/2603.22090v1",
+            "pdf_url": "http://arxiv.org/abs/2603.22090",
+            "publish_date": "2026-03-23",
+            "abstract": "Recommender systems play an essential role in online services by providing personalized item lists to support users' decision-making processes. While collaborative filtering methods can achieve high accuracy, it is crucial to consider not only accuracy but also the diversity of recommended items to improve user satisfaction. Although financial portfolio theory has been applied to balance these factors, existing models are often sensitive to estimation errors in rating statistics. To overcome these challenges, we establish a computational framework of distributionally robust optimization (DRO) for recommendation selection. We first formulate a cardinality-constrained DRO model based on moment-based ambiguity sets to select a specified number of items for each user. We then design a penalty alternating direction method (PADM) to efficiently compute high-quality solutions and prove its convergence properties. Computational experiments using three publicly available rating datasets demonstrate that our DRO model generates more diverse recommendations than existing models while maintaining the same level of accuracy. Additionally, our solution method computes these recommendations for each user in just a few seconds, proving its practical effectiveness. This study establishes a DRO framework that has the potential to enhance the recommendation quality of various collaborative filtering methods.",
+            "primary_category": "math.OC",
+            "code_url": "null"
+        },
+        "2603.21481": {
+            "title": "TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation",
+            "authors": "Zhijian Chen, Likai Wang, Lei Chen, Yaguang Dou, Jialiang Shi, Tian Qi, Dongdong Hao, Mengying Lu, Cheng Ye, Chao Wei",
+            "first_author": "Zhijian Chen",
+            "url": "http://arxiv.org/abs/2603.21481v1",
+            "pdf_url": "http://arxiv.org/abs/2603.21481",
+            "publish_date": "2026-03-23",
+            "abstract": "Large Language Models (LLMs) have shown promising potential in E-commerce community recommendation. While LLMs and Multimodal LLMs (MLLMs) are widely used to encode notes into implicit embeddings, leveraging their generative capabilities to represent notes with interpretable tags remains unexplored. In the field of tag generation, traditional close-ended methods heavily rely on the design of tag pools, while existing open-ended methods applied directly to note recommendations face two limitations: (1) MLLMs lack guidance during generation, resulting in redundant tags that fail to capture user interests; (2) The generated tags are often coarse and lack fine-grained representation of notes, interfering with downstream recommendations. To address these limitations, we propose TagLLM, a fine-grained tag generation method for note recommendation. TagLLM captures user interests across note categories through a User Interest Handbook and constructs fine-grained tag data using multimodal CoT Extraction. A Tag Knowledge Distillation method is developed to equip small models with competitive generation capabilities, enhancing inference efficiency. In online A/B test, TagLLM increases average view duration per user by 0.31%, average interactions per user by 0.96%, and page view click-through rate in cold-start scenario by 32.37%, demonstrating its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.21243": {
+            "title": "LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation",
+            "authors": "Le Liu, Junrui Liu, Yunhan Gao, Ziheng Wang, Tong Li",
+            "first_author": "Le Liu",
+            "url": "http://arxiv.org/abs/2603.21243v1",
+            "pdf_url": "http://arxiv.org/abs/2603.21243",
+            "publish_date": "2026-03-22",
+            "abstract": "Aspect-based recommendation methods extract aspect terms from reviews, such as price, to model fine-grained user preferences on items, making them a critical approach in personalized recommender systems. Existing methods utilize graphs to represent the relationships among users, items, and aspect terms, modeling user preferences based on graph neural networks. However, they overlook the dynamic nature of user interests - users may temporarily focus on aspects they previously paid little attention to - making it difficult to assign accurate weights to aspect terms for each user-item interaction. In this paper, we propose a long-short-term aspect interest Transformer (LSA) for aspect-based recommendation, which effectively captures the dynamic nature of user preferences by integrating both long-term and short-term aspect interests. Specifically, the short-term interests model the temporal changes in the importance of recently interacted aspect terms, while the long-term interests consider global behavioral patterns, including aspects that users have not interacted with recently. Finally, LSA combines long- and short-term interests to evaluate the importance of aspects within the union of user and item aspect neighbors, therefore accurately assigns aspect weights for each user-item interaction. Experiments conducted on four real-world datasets demonstrate that LSA improves MSE by 2.55% on average over the best baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.21209": {
+            "title": "MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation",
+            "authors": "Wenzhuo Cheng, Ke Ding, Xin Dong, Yong He, Liang Zhang, Linjian Mo",
+            "first_author": "Wenzhuo Cheng",
+            "url": "http://arxiv.org/abs/2603.21209v1",
+            "pdf_url": "http://arxiv.org/abs/2603.21209",
+            "publish_date": "2026-03-22",
+            "abstract": "Conversion rate (CVR) prediction models play a vital role in recommendation and advertising systems. Recent research on multi-scenario recommendation shows that learning a unified model to serve multiple scenarios is effective for improving overall performance. However, it remains challenging to improve model prediction performance across scenarios at low model parameter cost, and current solutions are hard to robustly model multi-scenario diversity. In this paper, we propose MI-DPG for the multi-scenario CVR prediction, which learns scenario-conditioned dynamic model parameters for each scenario in a more efficient and effective manner. Specifically, we introduce an auxiliary network to generate scenario-conditioned dynamic weighting matrices, which are obtained by combining decomposed scenario-specific and scenario-shared low-rank matrices with parameter efficiency. For each scene, weighting the backbone model parameters by the weighting matrix helps to specialize the model parameters for different scenarios. It can not only modulate the complete parameter space of the backbone model but also improve the model effectiveness. Furthermore, we design a mutual information regularization to enhance the diversity of model parameters across different scenarios by maximizing the mutual information between the scenario-aware input and the scene-conditioned dynamic weighting matrix. Experiments from three real-world datasets show that MI-DPG significantly outperforms previous multi-scenario recommendation models.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.22335": {
+            "title": "Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation",
+            "authors": "Chu Zhao, Enneng Yang, Jianzhe Zhao, Guibing Guo",
+            "first_author": "Chu Zhao",
+            "url": "http://arxiv.org/abs/2603.22335v1",
+            "pdf_url": "http://arxiv.org/abs/2603.22335",
+            "publish_date": "2026-03-21",
+            "abstract": "Direct Preference Optimization (DPO) guides large language models (LLMs) to generate recommendations aligned with user historical behavior distributions by minimizing preference alignment loss. However, our systematic empirical research and theoretical analysis reveal that DPO tends to amplify spurious correlations caused by environmental confounders during the alignment process, significantly undermining the generalization capability of LLM-based generative recommendation methods in out of distribution (OOD) scenarios. To mitigate this issue, we propose CausalDPO, an extension of DPO that incorporates a causal invariance learning mechanism. This method introduces a backdoor adjustment strategy during the preference alignment phase to eliminate interference from environmental confounders, explicitly models the latent environmental distribution using a soft clustering approach, and enhances robust consistency across diverse environments through invariance constraints. Theoretical analysis demonstrates that CausalDPO can effectively capture users stable preference structures across multiple environments, thereby improving the OOD generalization performance of LLM-based recommendation models. We conduct extensive experiments under four representative distribution shift settings to validate the effectiveness of CausalDPO, achieving an average performance improvement of 17.17% across four evaluation metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

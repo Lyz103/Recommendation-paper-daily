@@ -2,12 +2,19 @@
 layout: default
 ---
 
-## Updated on 2026-03-24
+## Updated on 2026-03-25
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-24 | **GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation** | Hai Zhu, Yantao Yu, Lei Shen, Bing Wang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2603.22916) | Not Available |
+| 2026-03-21 | **Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation** | Chu Zhao, Enneng Yang, Jianzhe Zhao, Guibing Guo | [Link](http://arxiv.org/abs/2603.22335) | Not Available |
+| 2026-03-23 | **One Model, Two Markets: Bid-Aware Generative Recommendation** | Yanchen Jiang, Zhe Feng, Christopher P. Mah, Aranyak Mehta, Di Wang | [Link](http://arxiv.org/abs/2603.22231) | Not Available |
+| 2026-03-23 | **Distributionally robust optimization for recommendation selection** | Tomoya Yanagi, Shunnosuke Ikeda, Ken Kobayashi, Yuichi Takano | [Link](http://arxiv.org/abs/2603.22090) | Not Available |
+| 2026-03-23 | **TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation** | Zhijian Chen, Likai Wang, Lei Chen, Yaguang Dou, Jialiang Shi, Tian Qi, Dongdong Hao, Mengying Lu, Cheng Ye, Chao Wei | [Link](http://arxiv.org/abs/2603.21481) | Not Available |
+| 2026-03-22 | **LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation** | Le Liu, Junrui Liu, Yunhan Gao, Ziheng Wang, Tong Li | [Link](http://arxiv.org/abs/2603.21243) | Not Available |
+| 2026-03-22 | **MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation** | Wenzhuo Cheng, Ke Ding, Xin Dong, Yong He, Liang Zhang, Linjian Mo | [Link](http://arxiv.org/abs/2603.21209) | Not Available |
 | 2026-03-21 | **Simple Projection-Free Algorithm for Contextual Recommendation with Logarithmic Regret and Robustness** | Shinsaku Sakaue | [Link](http://arxiv.org/abs/2603.20826) | Not Available |
 | 2026-03-20 | **Low-pass Personalized Subgraph Federated Recommendation** | Wooseok Sim, Hogun Park | [Link](http://arxiv.org/abs/2603.20338) | Not Available |
 | 2026-03-18 | **Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation** | Aleksandra Edwards, Thomas Edwards, Jose Camacho-Collados, Alun Preece | [Link](http://arxiv.org/abs/2603.20287) | Not Available |
