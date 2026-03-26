@@ -1,4 +1,4 @@
-## Updated on 2026-03-25
+## Updated on 2026-03-26
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-25 | **Exploring How Fair Model Representations Relate to Fair Recommendations** | Bjørnar Vassøy, Benjamin Kille, Helge Langseth | [Link](http://arxiv.org/abs/2603.24396) | Not Available |
+| 2026-03-25 | **Sequence-aware Large Language Models for Explainable Recommendation** | Gangyi Zhang, Runzhe Teng, Chongming Gao | [Link](http://arxiv.org/abs/2603.24136) | Not Available |
+| 2026-03-24 | **Lightweight Fairness for LLM-Based Recommendations via Kernelized Projection and Gated Adapters** | Nan Cui, Wendy Hui Wang, Yue Ning | [Link](http://arxiv.org/abs/2603.23780) | Not Available |
+| 2026-03-24 | **Reasoning over Semantic IDs Enhances Generative Recommendation** | Yingzhi He, Yan Sun, Junfei Tan, Yuxin Chen, Xiaoyu Kong, Chunxu Shen, Xiang Wang, An Zhang, Tat-Seng Chua | [Link](http://arxiv.org/abs/2603.23183) | Not Available |
 | 2026-03-24 | **GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation** | Hai Zhu, Yantao Yu, Lei Shen, Bing Wang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2603.22916) | Not Available |
 | 2026-03-21 | **Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation** | Chu Zhao, Enneng Yang, Jianzhe Zhao, Guibing Guo | [Link](http://arxiv.org/abs/2603.22335) | Not Available |
 | 2026-03-23 | **One Model, Two Markets: Bid-Aware Generative Recommendation** | Yanchen Jiang, Zhe Feng, Christopher P. Mah, Aranyak Mehta, Di Wang | [Link](http://arxiv.org/abs/2603.22231) | Not Available |

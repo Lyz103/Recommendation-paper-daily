@@ -12038,7 +12038,7 @@
             "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
             "authors": "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz",
             "first_author": "Zekun Wu",
-            "url": "http://arxiv.org/abs/2603.12564v2",
+            "url": "http://arxiv.org/abs/2603.12564v3",
             "pdf_url": "http://arxiv.org/abs/2603.12564",
             "publish_date": "2026-03-13",
             "abstract": "Tool-augmented LLM agents increasingly serve as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking-quality metrics that measure what is recommended but not whether it is safe for the user. We introduce a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across seven LLMs (7B to frontier) and decomposes divergence into information-channel and memory-channel mechanisms. Across the seven models tested, we consistently observe the evaluation-blindness pattern: recommendation quality is largely preserved under contamination (utility preservation ratio approximately 1.0) while risk-inappropriate products appear in 65-93% of turns, a systematic safety failure poorly reflected by standard NDCG. Safety violations are predominantly information-channel-driven, emerge at the first contaminated turn, and persist without self-correction over 23-step trajectories; no agent across 1,563 contaminated turns explicitly questions tool-data reliability. Even narrative-only corruption (biased headlines, no numerical manipulation) induces significant drift while completely evading consistency monitors. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74, indicating that much of the evaluation gap becomes visible once safety is explicitly measured. These results motivate considering trajectory-level safety monitoring, beyond single-turn quality, for deployed multi-turn agents in high-stakes settings.",
@@ -12438,6 +12438,50 @@
             "pdf_url": "http://arxiv.org/abs/2603.22335",
             "publish_date": "2026-03-21",
             "abstract": "Direct Preference Optimization (DPO) guides large language models (LLMs) to generate recommendations aligned with user historical behavior distributions by minimizing preference alignment loss. However, our systematic empirical research and theoretical analysis reveal that DPO tends to amplify spurious correlations caused by environmental confounders during the alignment process, significantly undermining the generalization capability of LLM-based generative recommendation methods in out of distribution (OOD) scenarios. To mitigate this issue, we propose CausalDPO, an extension of DPO that incorporates a causal invariance learning mechanism. This method introduces a backdoor adjustment strategy during the preference alignment phase to eliminate interference from environmental confounders, explicitly models the latent environmental distribution using a soft clustering approach, and enhances robust consistency across diverse environments through invariance constraints. Theoretical analysis demonstrates that CausalDPO can effectively capture users stable preference structures across multiple environments, thereby improving the OOD generalization performance of LLM-based recommendation models. We conduct extensive experiments under four representative distribution shift settings to validate the effectiveness of CausalDPO, achieving an average performance improvement of 17.17% across four evaluation metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.24396": {
+            "title": "Exploring How Fair Model Representations Relate to Fair Recommendations",
+            "authors": "Bj\u00f8rnar Vass\u00f8y, Benjamin Kille, Helge Langseth",
+            "first_author": "Bj\u00f8rnar Vass\u00f8y",
+            "url": "http://arxiv.org/abs/2603.24396v1",
+            "pdf_url": "http://arxiv.org/abs/2603.24396",
+            "publish_date": "2026-03-25",
+            "abstract": "One of the many fairness definitions pursued in recent recommender system research targets mitigating demographic information encoded in model representations. Models optimized for this definition are typically evaluated on how well demographic attributes can be classified given model representations, with the (implicit) assumption that this measure accurately reflects \\textit{recommendation parity}, i.e., how similar recommendations given to different users are. We challenge this assumption by comparing the amount of demographic information encoded in representations with various measures of how the recommendations differ. We propose two new approaches for measuring how well demographic information can be classified given ranked recommendations. Our results from extensive testing of multiple models on one real and multiple synthetically generated datasets indicate that optimizing for fair representations positively affects recommendation parity, but also that evaluation at the representation level is not a good proxy for measuring this effect when comparing models. We also provide extensive insight into how recommendation-level fairness metrics behave for various models by evaluating their performances on numerous generated datasets with different properties.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.24136": {
+            "title": "Sequence-aware Large Language Models for Explainable Recommendation",
+            "authors": "Gangyi Zhang, Runzhe Teng, Chongming Gao",
+            "first_author": "Gangyi Zhang",
+            "url": "http://arxiv.org/abs/2603.24136v1",
+            "pdf_url": "http://arxiv.org/abs/2603.24136",
+            "publish_date": "2026-03-25",
+            "abstract": "Large Language Models (LLMs) have shown strong potential in generating natural language explanations for recommender systems. However, existing methods often overlook the sequential dynamics of user behavior and rely on evaluation metrics misaligned with practical utility. We propose SELLER (SEquence-aware LLM-based framework for Explainable Recommendation), which integrates explanation generation with utility-aware evaluation. SELLER combines a dual-path encoder-capturing both user behavior and item semantics with a Mixture-of-Experts adapter to align these signals with LLMs. A unified evaluation framework assesses explanations via both textual quality and their effect on recommendation outcomes. Experiments on public benchmarks show that SELLER consistently outperforms prior methods in explanation quality and real-world utility.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.23780": {
+            "title": "Lightweight Fairness for LLM-Based Recommendations via Kernelized Projection and Gated Adapters",
+            "authors": "Nan Cui, Wendy Hui Wang, Yue Ning",
+            "first_author": "Nan Cui",
+            "url": "http://arxiv.org/abs/2603.23780v1",
+            "pdf_url": "http://arxiv.org/abs/2603.23780",
+            "publish_date": "2026-03-24",
+            "abstract": "Large Language Models (LLMs) have introduced new capabilities to recommender systems, enabling dynamic, context-aware, and conversational recommendations. However, LLM-based recommender systems inherit and may amplify social biases embedded in their pre-training data, especially when demographic cues are present. Existing fairness solutions either require extra parameters fine-tuning, or suffer from optimization instability. We propose a lightweight and scalable bias mitigation method that combines a kernelized Iterative Null-space Projection (INLP) with a gated Mixture-of-Experts (MoE) adapter. Our approach estimates a closed-form projection that removes single or multiple sensitive attributes from LLM representations with no additional trainable parameters. To preserve task utility, we introduce a two-level MoE adapter that selectively restores useful signals without reintroducing bias. Experiments on two public datasets show that our method reduces attribute leakage across multiple protected variables while maintaining competitive recommendation accuracy.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2603.23183": {
+            "title": "Reasoning over Semantic IDs Enhances Generative Recommendation",
+            "authors": "Yingzhi He, Yan Sun, Junfei Tan, Yuxin Chen, Xiaoyu Kong, Chunxu Shen, Xiang Wang, An Zhang, Tat-Seng Chua",
+            "first_author": "Yingzhi He",
+            "url": "http://arxiv.org/abs/2603.23183v1",
+            "pdf_url": "http://arxiv.org/abs/2603.23183",
+            "publish_date": "2026-03-24",
+            "abstract": "Recent advances in generative recommendation have leveraged pretrained LLMs by formulating sequential recommendation as autoregressive generation over a unified token space comprising language tokens and itemic identifiers, where each item is represented by a compact sequence of discrete tokens, namely Semantic IDs (SIDs). This SID-based formulation enables efficient decoding over large-scale item corpora and provides a natural interface for LLM-based recommenders to leverage rich world knowledge. Meanwhile, breakthroughs in LLM reasoning motivate reasoning-enhanced recommendation, yet effective reasoning over SIDs remains underexplored and challenging. Itemic tokens are not natively meaningful to LLMs; moreover, recommendation-oriented SID reasoning is hard to evaluate, making high-quality supervision scarce.   To address these challenges, we propose SIDReasoner, a two-stage framework that elicits reasoning over SIDs by strengthening SID--language alignment to unlock transferable LLM reasoning, rather than relying on large amounts of recommendation-specific reasoning traces. Concretely, SIDReasoner first enhances SID-language alignment via multi-task training on an enriched SID-centered corpus synthesized by a stronger teacher model, grounding itemic tokens in diverse semantic and behavioral contexts. Building on this enhanced alignment, SIDReasoner further improves recommendation reasoning through outcome-driven reinforced optimization, which guides the model toward effective reasoning trajectories without requiring explicit reasoning annotations. Extensive experiments on three real-world datasets demonstrate the effectiveness of our reasoning-augmented SID-based generative recommendation. Beyond accuracy, the results highlight the broader potential of large reasoning models for generative recommendation, including improved interpretability and cross-domain generalization.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
