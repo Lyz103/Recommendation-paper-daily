@@ -2,12 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026-03-26
+## Updated on 2026-03-27
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-26 | **Auditing the Impact of Cross-Site Web Tracking on YouTube Political and Misinformation Recommendations** | Salim Chouaki, Savaiz Nazir, Sandra Siby | [Link](http://arxiv.org/abs/2603.25302) | Not Available |
+| 2026-03-26 | **MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation** | Ranxu Zhang, Junjie Meng, Ying Sun, Ziqi Xu, Bing Yin, Hao Li, Yanyong Zhang, Chao Wang | [Link](http://arxiv.org/abs/2603.25126) | Not Available |
+| 2026-03-26 | **Hyena Operator for Fast Sequential Recommendation** | Jiahao Liu, Lin Li, Zhiyuan Li, Kaixi Hu, Kaize Shi, Jingling Yuan | [Link](http://arxiv.org/abs/2603.25027) | Not Available |
+| 2026-03-26 | **Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system** | Lalita Na Nongkhai, Jingyun Wang, Adam Wynn, Takahiko Mendori | [Link](http://arxiv.org/abs/2603.24940) | Not Available |
+| 2026-03-25 | **Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off** | Pronob Kumar Barman, Tera L. Reynolds. James Foulds | [Link](http://arxiv.org/abs/2603.24750) | Not Available |
 | 2026-03-25 | **Exploring How Fair Model Representations Relate to Fair Recommendations** | Bjørnar Vassøy, Benjamin Kille, Helge Langseth | [Link](http://arxiv.org/abs/2603.24396) | Not Available |
 | 2026-03-25 | **Sequence-aware Large Language Models for Explainable Recommendation** | Gangyi Zhang, Runzhe Teng, Chongming Gao | [Link](http://arxiv.org/abs/2603.24136) | Not Available |
 | 2026-03-24 | **Lightweight Fairness for LLM-Based Recommendations via Kernelized Projection and Gated Adapters** | Nan Cui, Wendy Hui Wang, Yue Ning | [Link](http://arxiv.org/abs/2603.23780) | Not Available |

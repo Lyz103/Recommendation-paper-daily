@@ -12412,7 +12412,7 @@
             "title": "LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation",
             "authors": "Le Liu, Junrui Liu, Yunhan Gao, Ziheng Wang, Tong Li",
             "first_author": "Le Liu",
-            "url": "http://arxiv.org/abs/2603.21243v1",
+            "url": "http://arxiv.org/abs/2603.21243v2",
             "pdf_url": "http://arxiv.org/abs/2603.21243",
             "publish_date": "2026-03-22",
             "abstract": "Aspect-based recommendation methods extract aspect terms from reviews, such as price, to model fine-grained user preferences on items, making them a critical approach in personalized recommender systems. Existing methods utilize graphs to represent the relationships among users, items, and aspect terms, modeling user preferences based on graph neural networks. However, they overlook the dynamic nature of user interests - users may temporarily focus on aspects they previously paid little attention to - making it difficult to assign accurate weights to aspect terms for each user-item interaction. In this paper, we propose a long-short-term aspect interest Transformer (LSA) for aspect-based recommendation, which effectively captures the dynamic nature of user preferences by integrating both long-term and short-term aspect interests. Specifically, the short-term interests model the temporal changes in the importance of recently interacted aspect terms, while the long-term interests consider global behavioral patterns, including aspects that users have not interacted with recently. Finally, LSA combines long- and short-term interests to evaluate the importance of aspects within the union of user and item aspect neighbors, therefore accurately assigns aspect weights for each user-item interaction. Experiments conducted on four real-world datasets demonstrate that LSA improves MSE by 2.55% on average over the best baseline.",
@@ -12482,6 +12482,61 @@
             "pdf_url": "http://arxiv.org/abs/2603.23183",
             "publish_date": "2026-03-24",
             "abstract": "Recent advances in generative recommendation have leveraged pretrained LLMs by formulating sequential recommendation as autoregressive generation over a unified token space comprising language tokens and itemic identifiers, where each item is represented by a compact sequence of discrete tokens, namely Semantic IDs (SIDs). This SID-based formulation enables efficient decoding over large-scale item corpora and provides a natural interface for LLM-based recommenders to leverage rich world knowledge. Meanwhile, breakthroughs in LLM reasoning motivate reasoning-enhanced recommendation, yet effective reasoning over SIDs remains underexplored and challenging. Itemic tokens are not natively meaningful to LLMs; moreover, recommendation-oriented SID reasoning is hard to evaluate, making high-quality supervision scarce.   To address these challenges, we propose SIDReasoner, a two-stage framework that elicits reasoning over SIDs by strengthening SID--language alignment to unlock transferable LLM reasoning, rather than relying on large amounts of recommendation-specific reasoning traces. Concretely, SIDReasoner first enhances SID-language alignment via multi-task training on an enriched SID-centered corpus synthesized by a stronger teacher model, grounding itemic tokens in diverse semantic and behavioral contexts. Building on this enhanced alignment, SIDReasoner further improves recommendation reasoning through outcome-driven reinforced optimization, which guides the model toward effective reasoning trajectories without requiring explicit reasoning annotations. Extensive experiments on three real-world datasets demonstrate the effectiveness of our reasoning-augmented SID-based generative recommendation. Beyond accuracy, the results highlight the broader potential of large reasoning models for generative recommendation, including improved interpretability and cross-domain generalization.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.25302": {
+            "title": "Auditing the Impact of Cross-Site Web Tracking on YouTube Political and Misinformation Recommendations",
+            "authors": "Salim Chouaki, Savaiz Nazir, Sandra Siby",
+            "first_author": "Salim Chouaki",
+            "url": "http://arxiv.org/abs/2603.25302v1",
+            "pdf_url": "http://arxiv.org/abs/2603.25302",
+            "publish_date": "2026-03-26",
+            "abstract": "YouTube has today become the primary news source for many users, which raises concerns about the role its recommendation algorithm can play in the spread of misinformation and political polarization. Prior work in this area has mainly analyzed how recommendations evolve based on users' watch history within the platform. Nevertheless, recommendations can also depend on off-platform browsing activity that Google collects via trackers on news websites, a factor that has not been considered so far. To fill this gap, we propose a sock-puppet-based experimental framework that automatically interacts with news media articles and then collects YouTube recommendations to measure how cross-site tracking affects the political and misinformation content users see. Moreover, by running our audits in both tracking-permissive and tracking-restrictive browser environments, we assess whether common privacy-focused browsers can protect users from tracking-driven political and misinformation bubbles on YouTube.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2603.25126": {
+            "title": "MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation",
+            "authors": "Ranxu Zhang, Junjie Meng, Ying Sun, Ziqi Xu, Bing Yin, Hao Li, Yanyong Zhang, Chao Wang",
+            "first_author": "Ranxu Zhang",
+            "url": "http://arxiv.org/abs/2603.25126v1",
+            "pdf_url": "http://arxiv.org/abs/2603.25126",
+            "publish_date": "2026-03-26",
+            "abstract": "Multi-Behavior Recommendation (MBR) leverages multiple user interaction types (e.g., views, clicks, purchases) to enrich preference modeling and alleviate data sparsity issues in traditional single-behavior approaches. However, existing MBR methods face fundamental challenges: they lack principled frameworks to model complex confounding effects from user behavioral habits and item multi-behavior distributions, struggle with effective aggregation of heterogeneous auxiliary behaviors, and fail to align behavioral representations across semantic gaps while accounting for bias distortions. To address these limitations, we propose MCLMR, a novel model-agnostic causal learning framework that can be seamlessly integrated into various MBR architectures. MCLMR first constructs a causal graph to model confounding effects and performs interventions for unbiased preference estimation. Under this causal framework, it employs an Adaptive Aggregation module based on Mixture-of-Experts to dynamically fuse auxiliary behavior information and a Bias-aware Contrastive Learning module to align cross-behavior representations in a bias-aware manner. Extensive experiments on three real-world datasets demonstrate that MCLMR achieves significant performance improvements across various baseline models, validating its effectiveness and generality. All data and code will be made publicly available. For anonymous review, our code is available at the following the link: https://github.com/gitrxh/MCLMR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.25027": {
+            "title": "Hyena Operator for Fast Sequential Recommendation",
+            "authors": "Jiahao Liu, Lin Li, Zhiyuan Li, Kaixi Hu, Kaize Shi, Jingling Yuan",
+            "first_author": "Jiahao Liu",
+            "url": "http://arxiv.org/abs/2603.25027v1",
+            "pdf_url": "http://arxiv.org/abs/2603.25027",
+            "publish_date": "2026-03-26",
+            "abstract": "Sequential recommendation models, particularly those based on attention, achieve strong accuracy but incur quadratic complexity, making long user histories prohibitively expensive. Sub-quadratic operators such as Hyena provide efficient alternatives in language modeling, but their potential in recommendation remains underexplored. We argue that Hyena faces challenges in recommendation due to limited representation capacity on sparse, long user sequences. To address these challenges, we propose HyenaRec, a novel sequential recommender that integrates polynomial-based kernel parameterization with gated convolutions. Specifically, we design convolutional kernels using Legendre orthogonal polynomials, which provides a smooth and compact basis for modeling long-term temporal dependencies. A complementary gating mechanism captures fine-grained short-term behavioral bursts, yielding a hybrid architecture that balances global temporal evolution with localized user interests under sparse feedback. This construction enhances expressiveness while scaling linearly with sequence length. Extensive experiments on multiple real-world datasets demonstrate that HyenaRec consistently outperforms Attention-, Recurrent-, and other baselines in ranking accuracy. Moreover, it trains significantly faster (up to 6x speedup), with particularly pronounced advantages on long-sequence scenarios where efficiency is maintained without sacrificing accuracy. These results highlight polynomial-based kernel parameterization as a principled and scalable alternative to attention for sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.24940": {
+            "title": "Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system",
+            "authors": "Lalita Na Nongkhai, Jingyun Wang, Adam Wynn, Takahiko Mendori",
+            "first_author": "Lalita Na Nongkhai",
+            "url": "http://arxiv.org/abs/2603.24940v1",
+            "pdf_url": "http://arxiv.org/abs/2603.24940",
+            "publish_date": "2026-03-26",
+            "abstract": "This paper introduces the design and development of a framework that integrates a large language model (LLM) with a retrieval-augmented generation (RAG) approach leveraging both a knowledge graph and user interaction history. The framework is incorporated into a previously developed adaptive learning support system to assess learners' code, generate formative feedback, and recommend exercises. Moerover, this study examines learner preferences across three instructional modes; adaptive, Generative AI (GenAI), and hybrid GenAI-adaptive. An experimental study was conducted to compare the learning performance and perception of the learners, and the effectiveness of these three modes using four key log features derived from 4956 code submissions across all experimental groups. The analysis results show that learners receiving feedback from GenAI modes had significantly more correct code and fewer code submissions missing essential programming logic than those receiving feedback from adaptive mode. In particular, the hybrid GenAI-adaptive mode achieved the highest number of correct submissions and the fewest incorrect or incomplete attempts, outperforming both the adaptive-only and GenAI-only modes. Questionnaire responses further indicated that GenAI-generated feedback was widely perceived as helpful, while all modes were rated positively for ease of use and usefulness. These results suggest that the hybrid GenAI-adaptive mode outperforms the other two modes across all measured log features.",
+            "primary_category": "cs.PL",
+            "code_url": "null"
+        },
+        "2603.24750": {
+            "title": "Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off",
+            "authors": "Pronob Kumar Barman, Tera L. Reynolds. James Foulds",
+            "first_author": "Pronob Kumar Barman",
+            "url": "http://arxiv.org/abs/2603.24750v1",
+            "pdf_url": "http://arxiv.org/abs/2603.24750",
+            "publish_date": "2026-03-25",
+            "abstract": "Online Health Communities connect patients for peer support, but users face a discovery challenge when they have minimal prior interactions to guide personalization. We study recommendation under extreme interaction sparsity in a survey driven setting where each user provides a 16 dimensional intake vector and each support group has a structured feature profile. We extend Neural Collaborative Filtering architectures, including Matrix Factorization, Multi Layer Perceptron, and NeuMF, with an auxiliary pseudo label objective derived from survey group feature alignment using cosine similarity mapped to [0, 1]. The resulting Pseudo Label NCF learns dual embedding spaces: main embeddings for ranking and pseudo label embeddings for semantic alignment.   We evaluate on a dataset of 165 users and 498 support groups using a leave one out protocol that reflects cold start conditions. All pseudo label variants improve ranking performance: MLP improves HR@5 from 2.65% to 5.30%, NeuMF from 4.46% to 5.18%, and MF from 4.58% to 5.42%. Pseudo label embedding spaces also show higher cosine silhouette scores than baseline embeddings, with MF improving from 0.0394 to 0.0684 and NeuMF from 0.0263 to 0.0653. We further observe a negative correlation between embedding separability and ranking accuracy, indicating a trade off between interpretability and performance.   These results show that survey derived pseudo labels improve recommendation under extreme sparsity while producing interpretable task specific embedding spaces.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
