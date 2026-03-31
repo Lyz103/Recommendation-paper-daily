@@ -1,4 +1,4 @@
-## Updated on 2026-03-28
+## Updated on 2026-03-31
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-03-30 | **RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation** | Yulei Huang, Hao Deng, Haibo Xing, Jinxin Hu, Chuanfei Xu, Zulong Chen, Yu Zhang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2603.28124) | Not Available |
+| 2026-03-28 | **TrendGen: An Outfit Recommendation and Display System** | Theodoros Koukopoulos, Dimos Klimenof, Ioannis Xarchakos | [Link](http://arxiv.org/abs/2603.27264) | Not Available |
+| 2026-03-14 | **EVNextTrade: Learning-to-Rank-Based Recommendation of Next Charging Nodes for EV-EV Energy Trading** | Md Mahfujur Rahmana, Alistair Barros, Raja Jurdak, Darshika Koggalahewa | [Link](http://arxiv.org/abs/2603.26688) | Not Available |
+| 2026-03-27 | **Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems** | Jinxin Hu, Hao Deng, Lingyu Mu, Hao Zhang, Shizhun Wang, Yu Zhang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2603.26100) | Not Available |
 | 2026-03-26 | **Auditing the Impact of Cross-Site Web Tracking on YouTube Political and Misinformation Recommendations** | Salim Chouaki, Savaiz Nazir, Sandra Siby | [Link](http://arxiv.org/abs/2603.25302) | Not Available |
 | 2026-03-26 | **MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation** | Ranxu Zhang, Junjie Meng, Ying Sun, Ziqi Xu, Bing Yin, Hao Li, Yanyong Zhang, Chao Wang | [Link](http://arxiv.org/abs/2603.25126) | Not Available |
 | 2026-03-26 | **Hyena Operator for Fast Sequential Recommendation** | Jiahao Liu, Lin Li, Zhiyuan Li, Kaixi Hu, Kaize Shi, Jingling Yuan | [Link](http://arxiv.org/abs/2603.25027) | Not Available |
