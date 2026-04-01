@@ -12038,7 +12038,7 @@
             "title": "AgentDrift: Unsafe Recommendation Drift Under Tool Corruption Hidden by Ranking Metrics in LLM Agents",
             "authors": "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz",
             "first_author": "Zekun Wu",
-            "url": "http://arxiv.org/abs/2603.12564v4",
+            "url": "http://arxiv.org/abs/2603.12564v5",
             "pdf_url": "http://arxiv.org/abs/2603.12564",
             "publish_date": "2026-03-13",
             "abstract": "Tool-augmented LLM agents increasingly operate as multi-turn advisors in high-stakes domains, yet their evaluation relies on ranking metrics that measure what is recommended but not whether it is safe for the user. We present a paired-trajectory protocol that replays real financial dialogues under clean and contaminated tool-output conditions across eight LLMs (7B to frontier), decomposing divergence into information-channel and memory-channel mechanisms. We observe evaluation blindness: recommendation quality is preserved under contamination (UPR~1.0) while risk-inappropriate products appear in 65-93% of turns, invisible to standard NDCG. Violations are information-channel-driven, emerge at turn 1, and persist without self-correction over 23-step trajectories. Even non-extreme perturbations (within-band corruption, narrative-only attacks) evade threshold monitors while producing significant drift. Susceptibility scales with instruction-following fidelity across all eight models. Sparse autoencoder probing reveals models internally distinguish adversarial perturbations but fail to propagate this signal to output; causal interventions (activation patching, feature clamping, direct steering) confirm this representation-to-action gap is structural and resists linear repair. A safety-penalized NDCG variant (sNDCG) reduces preservation ratios to 0.51-0.74. These results motivate trajectory-level safety monitoring for deployed multi-turn agents.",
@@ -12531,9 +12531,9 @@
         },
         "2603.24750": {
             "title": "Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off",
-            "authors": "Pronob Kumar Barman, Tera L. Reynolds. James Foulds",
+            "authors": "Pronob Kumar Barman, Tera L. Reynolds, James Foulds",
             "first_author": "Pronob Kumar Barman",
-            "url": "http://arxiv.org/abs/2603.24750v1",
+            "url": "http://arxiv.org/abs/2603.24750v2",
             "pdf_url": "http://arxiv.org/abs/2603.24750",
             "publish_date": "2026-03-25",
             "abstract": "Online Health Communities connect patients for peer support, but users face a discovery challenge when they have minimal prior interactions to guide personalization. We study recommendation under extreme interaction sparsity in a survey driven setting where each user provides a 16 dimensional intake vector and each support group has a structured feature profile. We extend Neural Collaborative Filtering architectures, including Matrix Factorization, Multi Layer Perceptron, and NeuMF, with an auxiliary pseudo label objective derived from survey group feature alignment using cosine similarity mapped to [0, 1]. The resulting Pseudo Label NCF learns dual embedding spaces: main embeddings for ranking and pseudo label embeddings for semantic alignment.   We evaluate on a dataset of 165 users and 498 support groups using a leave one out protocol that reflects cold start conditions. All pseudo label variants improve ranking performance: MLP improves HR@5 from 2.65% to 5.30%, NeuMF from 4.46% to 5.18%, and MF from 4.58% to 5.42%. Pseudo label embedding spaces also show higher cosine silhouette scores than baseline embeddings, with MF improving from 0.0394 to 0.0684 and NeuMF from 0.0263 to 0.0653. We further observe a negative correlation between embedding separability and ranking accuracy, indicating a trade off between interpretability and performance.   These results show that survey derived pseudo labels improve recommendation under extreme sparsity while producing interpretable task specific embedding spaces.",
@@ -12582,6 +12582,50 @@
             "publish_date": "2026-03-14",
             "abstract": "Peer-to-peer energy trading among electric vehicles (EVs) has been increasingly studied as a promising solution for improving supply-side resilience under growing charging demand and constrained charging infrastructure. While prior studies on EV-EV energy trading and related EV research have largely focused on transaction management or isolated mobility prediction tasks, the problem of identifying which charging nodes are more suitable for EV-EV trading in journey contexts remains open. We address this gap by formulating next charging nodes recommendation as a learning-to-rank problem, where each EV decision event is associated with a set of candidate charging locations. We propose a supervised ranking framework applied to a large-scale urban EV mobility dataset comprising millions of journey records and multidimensional EV trading-related features, including EV energy level, trading role, distance to charging locations, charging speed, and temporal station popularity. To account for uncertainty arising from the mobility of both energy providers and consumers, as well as the presence of multiple viable charging nodes at a decision point, we employ probabilistic relevance refinement to generate graded labels for ranking. We evaluate gradient-boosted learning-to-rank models, including LightGBM, XGBoost, and CatBoost, on EV journey records enriched with candidate charging nodes. Experimental results show that LightGBM consistently achieves the strongest ranking performance across standard metrics, including NDCG@k, Recall@k, and MRR, with particularly strong early-ranking quality, reflected in the highest NDCG@1 (0.9795) and MRR (0.9990). These results highlight the effectiveness of uncertainty-aware learning-to-rank for charging node recommendation and support improved coordination and matching in decentralized EV-EV energy trading systems.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.29845": {
+            "title": "Cold-Starts in Generative Recommendation: A Reproducibility Study",
+            "authors": "Zhen Zhang, Jujia Zhao, Xinyu Ma, Xin Xin, Maarten de Rijke, Zhaochun Ren",
+            "first_author": "Zhen Zhang",
+            "url": "http://arxiv.org/abs/2603.29845v1",
+            "pdf_url": "http://arxiv.org/abs/2603.29845",
+            "publish_date": "2026-03-31",
+            "abstract": "Cold-start recommendation remains a central challenge in dynamic, open-world platforms, requiring models to recommend for newly registered users (user cold-start) and to recommend newly introduced items to existing users (item cold-start) under sparse or missing interaction signals. Recent generative recommenders built on pre-trained language models (PLMs) are often expected to mitigate cold-start by using item semantic information (e.g., titles and descriptions) and test-time conditioning on limited user context. However, cold-start is rarely treated as a primary evaluation setting in existing studies, and reported gains are difficult to interpret because key design choices, such as model scale, identifier design, and training strategy, are frequently changed together. In this work, we present a systematic reproducibility study of generative recommendation under a unified suite of cold-start protocols.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.29705": {
+            "title": "Drift-Aware Continual Tokenization for Generative Recommendation",
+            "authors": "Yuebo Feng, Jiahao Liu, Mingzhe Han, Dongsheng Li, Hansu Gu, Peng Zhang, Tun Lu, Ning Gu",
+            "first_author": "Yuebo Feng",
+            "url": "http://arxiv.org/abs/2603.29705v1",
+            "pdf_url": "http://arxiv.org/abs/2603.29705",
+            "publish_date": "2026-03-31",
+            "abstract": "Generative recommendation commonly adopts a two-stage pipeline in which a learnable tokenizer maps items to discrete token sequences (i.e. identifiers) and an autoregressive generative recommender model (GRM) performs prediction based on these identifiers. Recent tokenizers further incorporate collaborative signals so that items with similar user-behavior patterns receive similar codes, substantially improving recommendation quality. However, real-world environments evolve continuously: new items cause identifier collision and shifts, while new interactions induce collaborative drift in existing items (e.g., changing co-occurrence patterns and popularity). Fully retraining both tokenizer and GRM is often prohibitively expensive, yet naively fine-tuning the tokenizer can alter token sequences for the majority of existing items, undermining the GRM's learned token-embedding alignment. To balance plasticity and stability for collaborative tokenizers, we propose DACT, a Drift-Aware Continual Tokenization framework with two stages: (i) tokenizer fine-tuning, augmented with a jointly trained Collaborative Drift Identification Module (CDIM) that outputs item-level drift confidence and enables differentiated optimization for drifting and stationary items; and (ii) hierarchical code reassignment using a relaxed-to-strict strategy to update token sequences while limiting unnecessary changes. Experiments on three real-world datasets with two representative GRMs show that DACT consistently achieves better performance than baselines, demonstrating effective adaptation to collaborative evolution with reduced disruption to prior knowledge. Our implementation is publicly available at https://github.com/HomesAmaranta/DACT for reproducibility.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.29259": {
+            "title": "Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE",
+            "authors": "Hejin Huang, Jusheng Zhang, Kaitong Cai, Jian Wang, Rong Pan",
+            "first_author": "Hejin Huang",
+            "url": "http://arxiv.org/abs/2603.29259v1",
+            "pdf_url": "http://arxiv.org/abs/2603.29259",
+            "publish_date": "2026-03-31",
+            "abstract": "Preference-based alignment objectives have been widely adopted, from RLHF-style pairwise learning in large language models to emerging applications in recommender systems. Yet, existing work rarely examines how Direct Preference Optimization (DPO) behaves under implicit feedback, where unobserved items are not reliable negatives. We conduct systematic experiments on multimodal sequential recommendation to compare common negative-selection strategies and their interaction with DPO training. Our central finding is that a simple modification, replacing deterministic hard negatives with stochastic sampling from a dynamic top-K candidate pool, consistently improves ranking performance. We attribute its effectiveness to two factors: (1) reducing erroneous suppressive gradients caused by false negatives, and (2) retaining informative hard signals while smoothing optimization via controlled stochasticity. With an optional sparse Mixture-of-Experts encoder for efficient capacity scaling, RoDPO achieves up to 5.25% NDCG@5 on three Amazon benchmarks, with nearly unchanged inference cost.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2603.29848": {
+            "title": "AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems",
+            "authors": "Hadar Mulian, Sergey Zeltyn, Ido Levy, Liane Galanti, Avi Yaeli, Segev Shlomov",
+            "first_author": "Hadar Mulian",
+            "url": "http://arxiv.org/abs/2603.29848v1",
+            "pdf_url": "http://arxiv.org/abs/2603.29848",
+            "publish_date": "2026-02-18",
+            "abstract": "We introduce a comprehensive validation framework for LLM-based agentic systems that provides systematic diagnosis and improvement of reliability failures. The framework includes fifteen failure-detection tools and two root-cause analysis modules that jointly uncover weaknesses across input handling, prompt design, and output generation. It integrates lightweight rule-based checks with LLM-as-a-judge assessments to support structured incident detection, classification, and repair. We applied the framework to IBM CUGA, evaluating its performance on the AppWorld and WebArena benchmarks. The analysis revealed recurrent planner misalignments, schema violations, brittle prompt dependencies, and more. Based on these insights, we refined both prompting and coding strategies, maintaining CUGA's benchmark results while enabling mid-sized models such as Llama 4 and Mistral Medium to achieve notable accuracy gains, substantially narrowing the gap with frontier models. Beyond quantitative validation, we conducted an exploratory study that fed the framework's diagnostic outputs and agent description into an LLM for self-reflection and prioritization. This interactive analysis produced actionable insights on recurring failure patterns and focus areas for improvement, demonstrating how validation itself can evolve into an agentic, dialogue-driven process. These results show a path toward scalable, quality assurance, and adaptive validation in production agentic systems, offering a foundation for more robust, interpretable, and self-improving agentic architectures.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }

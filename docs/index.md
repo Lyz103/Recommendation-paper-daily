@@ -2,12 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026-03-31
+## Updated on 2026-04-01
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-02-18 | **AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems** | Hadar Mulian, Sergey Zeltyn, Ido Levy, Liane Galanti, Avi Yaeli, Segev Shlomov | [Link](http://arxiv.org/abs/2603.29848) | Not Available |
+| 2026-03-31 | **Cold-Starts in Generative Recommendation: A Reproducibility Study** | Zhen Zhang, Jujia Zhao, Xinyu Ma, Xin Xin, Maarten de Rijke, Zhaochun Ren | [Link](http://arxiv.org/abs/2603.29845) | Not Available |
+| 2026-03-31 | **Drift-Aware Continual Tokenization for Generative Recommendation** | Yuebo Feng, Jiahao Liu, Mingzhe Han, Dongsheng Li, Hansu Gu, Peng Zhang, Tun Lu, Ning Gu | [Link](http://arxiv.org/abs/2603.29705) | Not Available |
+| 2026-03-31 | **Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE** | Hejin Huang, Jusheng Zhang, Kaitong Cai, Jian Wang, Rong Pan | [Link](http://arxiv.org/abs/2603.29259) | Not Available |
 | 2026-03-30 | **RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation** | Yulei Huang, Hao Deng, Haibo Xing, Jinxin Hu, Chuanfei Xu, Zulong Chen, Yu Zhang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2603.28124) | Not Available |
 | 2026-03-28 | **TrendGen: An Outfit Recommendation and Display System** | Theodoros Koukopoulos, Dimos Klimenof, Ioannis Xarchakos | [Link](http://arxiv.org/abs/2603.27264) | Not Available |
 | 2026-03-14 | **EVNextTrade: Learning-to-Rank-Based Recommendation of Next Charging Nodes for EV-EV Energy Trading** | Md Mahfujur Rahmana, Alistair Barros, Raja Jurdak, Darshika Koggalahewa | [Link](http://arxiv.org/abs/2603.26688) | Not Available |
@@ -16,7 +20,7 @@ layout: default
 | 2026-03-26 | **MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation** | Ranxu Zhang, Junjie Meng, Ying Sun, Ziqi Xu, Bing Yin, Hao Li, Yanyong Zhang, Chao Wang | [Link](http://arxiv.org/abs/2603.25126) | Not Available |
 | 2026-03-26 | **Hyena Operator for Fast Sequential Recommendation** | Jiahao Liu, Lin Li, Zhiyuan Li, Kaixi Hu, Kaize Shi, Jingling Yuan | [Link](http://arxiv.org/abs/2603.25027) | Not Available |
 | 2026-03-26 | **Evaluating adaptive and generative AI-based feedback and recommendations in a knowledge-graph-integrated programming learning system** | Lalita Na Nongkhai, Jingyun Wang, Adam Wynn, Takahiko Mendori | [Link](http://arxiv.org/abs/2603.24940) | Not Available |
-| 2026-03-25 | **Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off** | Pronob Kumar Barman, Tera L. Reynolds. James Foulds | [Link](http://arxiv.org/abs/2603.24750) | Not Available |
+| 2026-03-25 | **Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off** | Pronob Kumar Barman, Tera L. Reynolds, James Foulds | [Link](http://arxiv.org/abs/2603.24750) | Not Available |
 | 2026-03-25 | **Exploring How Fair Model Representations Relate to Fair Recommendations** | Bjørnar Vassøy, Benjamin Kille, Helge Langseth | [Link](http://arxiv.org/abs/2603.24396) | Not Available |
 | 2026-03-25 | **Sequence-aware Large Language Models for Explainable Recommendation** | Gangyi Zhang, Runzhe Teng, Chongming Gao | [Link](http://arxiv.org/abs/2603.24136) | Not Available |
 | 2026-03-24 | **Lightweight Fairness for LLM-Based Recommendations via Kernelized Projection and Gated Adapters** | Nan Cui, Wendy Hui Wang, Yue Ning | [Link](http://arxiv.org/abs/2603.23780) | Not Available |
