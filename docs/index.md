@@ -2,12 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026-04-01
+## Updated on 2026-04-03
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-02 | **Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation** | Daiwei Chen, Zhoutong Fu, Chengming Jiang, Haichao Zhang, Ran Zhou, Tan Wang, Chunnan Yao, Guoyao Li, Rui Cai, Yihan Cao, Ruijie Jiang, Fedor Borisyuk, Jianqiang Shen, Jingwei Wu, Ramya Korlakai Vinayak | [Link](http://arxiv.org/abs/2604.02324) | Not Available |
+| 2026-04-02 | **Towards Position-Robust Talent Recommendation via Large Language Models** | Silin Du, Hongyan Liu | [Link](http://arxiv.org/abs/2604.02200) | Not Available |
+| 2026-04-02 | **TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning** | Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou | [Link](http://arxiv.org/abs/2604.02183) | Not Available |
+| 2026-04-01 | **Aligning Recommendations with User Popularity Preferences** | Mona Schirmer, Anton Thielmann, Pola Schwöbel, Thomas Martynec, Giuseppe Di Benedetto, Ben London, Yannik Stein | [Link](http://arxiv.org/abs/2604.01036) | Not Available |
+| 2026-04-01 | **UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems** | Mingming Ha, Guanchen Wang, Linxun Chen, Xuan Rao, Yuexin Shi, Tianbao Ma, Zhaojie Liu, Yunqian Fan, Zilong Lu, Yanan Niu, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2604.00590) | Not Available |
 | 2026-02-18 | **AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems** | Hadar Mulian, Sergey Zeltyn, Ido Levy, Liane Galanti, Avi Yaeli, Segev Shlomov | [Link](http://arxiv.org/abs/2603.29848) | Not Available |
 | 2026-03-31 | **Cold-Starts in Generative Recommendation: A Reproducibility Study** | Zhen Zhang, Jujia Zhao, Xinyu Ma, Xin Xin, Maarten de Rijke, Zhaochun Ren | [Link](http://arxiv.org/abs/2603.29845) | Not Available |
 | 2026-03-31 | **Drift-Aware Continual Tokenization for Generative Recommendation** | Yuebo Feng, Jiahao Liu, Mingzhe Han, Dongsheng Li, Hansu Gu, Peng Zhang, Tun Lu, Ning Gu | [Link](http://arxiv.org/abs/2603.29705) | Not Available |
@@ -116,7 +121,7 @@ layout: default
 | 2026-02-26 | **U-CAN: Utility-Aware Contrastive Attenuation for Efficient Unlearning in Generative Recommendation** | Zezheng Wu, Rui Wang, Xinghe Cheng, Yang Shao, Qing Yang, Jiapu Wang, Jingwei Zhang | [Link](http://arxiv.org/abs/2602.23400) | Not Available |
 | 2026-02-26 | **From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation** | Ruochen Yang, Xiaodong Li, Jiawei Sheng, Jiangxia Cao, Xinkui Lin, Shen Wang, Shuang Yang, Zhaojie Liu, Tingwen Liu | [Link](http://arxiv.org/abs/2602.23132) | Not Available |
 | 2026-02-26 | **MaRI: Accelerating Ranking Model Inference via Structural Re-parameterization in Large Scale Recommendation System** | Yusheng Huang, Pengbo Xu, Shen Wang, Changxin Lao, Jiangxia Cao, Shuang Wen, Shuang Yang, Zhaojie Liu, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2602.23105) | Not Available |
-| 2026-02-26 | **Generative Recommendation for Large-Scale Advertising** | Ben Xue, Dan Liu, Lixiang Wang, Mingjie Sun, Peng Wang, Pengfei Zhang, Shaoyun Shi, Tianyu Xu, Yunhao Sha, Zhiqiang Liu, Bo Kong, Bo Wang, Hang Yang, Jieting Xue, Junhao Wang, Shengyu Wang, Shuping Hui, Wencai Ye, Xiao Lin, Yongzhi Li, Yuhang Chen, Zhihui Yin, Quan Chen, Shiyang Wen, Wenjin Wu, Han Li, Guorui Zhou, Changcheng Li, Peng Jiang | [Link](http://arxiv.org/abs/2602.22732) | Not Available |
+| 2026-02-26 | **Generative Recommendation for Large-Scale Advertising** | Ben Xue, Dan Liu, Lixiang Wang, Mingjie Sun, Peng Wang, Pengfei Zhang, Shaoyun Shi, Tianyu Xu, Yunhao Sha, Zhiqiang Liu, Bo Kong, Bo Wang, Hang Yang, Jieting Xue, Junhao Wang, Shengyu Wang, Shuping Hui, Wencai Ye, Xiao Lin, Yongzhi Li, Yuhang Chen, Zhihui Yin, Quan Chen, Shiyang Wen, Wenjin Wu, Han Li, Guorui Zhou, Changcheng Li, Peng Jiang, Kun Gai | [Link](http://arxiv.org/abs/2602.22732) | Not Available |
 | 2026-02-26 | **Fine-grained Semantics Integration for Large Language Model-based Recommendation** | Jiawei Feng, Xiaoyu Kong, Leheng Sheng, Bin Wu, Chao Yi, Feifang Yang, Xiang-Rong Sheng, Han Zhu, Xiang Wang, Jiancan Wu, Xiangnan He | [Link](http://arxiv.org/abs/2602.22632) | Not Available |
 | 2026-02-25 | **From Bias to Balance: Fairness-Aware Paper Recommendation for Equitable Peer Review** | Uttamasha Anjally Oyshi, Susan Gauch | [Link](http://arxiv.org/abs/2602.22438) | Not Available |
 | 2026-02-25 | **Learning to Collaborate via Structures: Cluster-Guided Item Alignment for Federated Recommendation** | Yuchun Tu, Zhiwei Li, Bingli Sun, Yixuan Li, Xiao Song | [Link](http://arxiv.org/abs/2602.21957) | Not Available |
