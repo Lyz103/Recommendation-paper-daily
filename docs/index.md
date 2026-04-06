@@ -2,12 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026-04-05
+## Updated on 2026-04-06
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-03 | **User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation** | Jing Du, Zesheng Ye, Congbo Ma, Feng Liu, Flora. D. Salim | [Link](http://arxiv.org/abs/2604.03014) | Not Available |
+| 2026-04-03 | **Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning** | Shanfan Zhang, Yongyi Lin, Yuan Rao | [Link](http://arxiv.org/abs/2604.02833) | Not Available |
+| 2026-04-03 | **MBGR: Multi-Business Prediction for Generative Recommendation at Meituan** | Changhao Li, Junwei Yin, Zhilin Zeng, Senjie Kou, Shuli Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](http://arxiv.org/abs/2604.02684) | Not Available |
 | 2026-04-02 | **Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation** | Daiwei Chen, Zhoutong Fu, Chengming Jiang, Haichao Zhang, Ran Zhou, Tan Wang, Chunnan Yao, Guoyao Li, Rui Cai, Yihan Cao, Ruijie Jiang, Fedor Borisyuk, Jianqiang Shen, Jingwei Wu, Ramya Korlakai Vinayak | [Link](http://arxiv.org/abs/2604.02324) | Not Available |
 | 2026-04-02 | **Towards Position-Robust Talent Recommendation via Large Language Models** | Silin Du, Hongyan Liu | [Link](http://arxiv.org/abs/2604.02200) | Not Available |
 | 2026-04-02 | **TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning** | Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou | [Link](http://arxiv.org/abs/2604.02183) | Not Available |
