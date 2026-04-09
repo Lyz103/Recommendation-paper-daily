@@ -12902,6 +12902,61 @@
             "abstract": "In recent years, multimodal recommendation has received significant attention and achieved remarkable success in GCN-based recommendation methods. However, there are two key challenges here: (1) There is a significant amount of redundant information in multimodal features that is unrelated to user preferences. Directly injecting multimodal features into the interaction graph can affect the collaborative feature learning between users and items. (2) There are false negative and false positive behaviors caused by system errors such as accidental clicks and non-exposure. This feedback bias can affect the ranking accuracy of training sample pairs, thereby reducing the recommendation accuracy of the model.   To address these challenges, this work proposes a Joint Behavior-guided and Modal-consistent Conditional Graph Diffusion Model (JBM-Diff) for joint denoising of multimodal features and user feedback. We design a diffusion model conditioned on collaborative features for each modal feature to remove preference-irrelevant information, and enhance the alignment between collaborative features and modal semantic information through multi-view message propagation and feature fusion. Finally, we detect the partial order consistency of sample pairs from a behavioral perspective based on learned modal preferences, set the credibility for sample pairs, and achieve data augmentation. Extensive experiments on three public datasets demonstrate the effectiveness of this work. Codes are available at https://github.com/pxcstart/JBMDiff.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2604.07090": {
+            "title": "Leveraging Artist Catalogs for Cold-Start Music Recommendation",
+            "authors": "Yan-Martin Tamm, Gregor Meehan, Vojt\u011bch Nekl, Vojt\u011bch Van\u010dura, Rodrigo Alves, Johan Pauwels, Anna Aljanaki",
+            "first_author": "Yan-Martin Tamm",
+            "url": "http://arxiv.org/abs/2604.07090v1",
+            "pdf_url": "http://arxiv.org/abs/2604.07090",
+            "publish_date": "2026-04-08",
+            "abstract": "The item cold-start problem poses a fundamental challenge for music recommendation: newly added tracks lack the interaction history that collaborative filtering (CF) requires. Existing approaches often address this problem by learning mappings from content features such as audio, text, and metadata to the CF latent space. However, previous works either omit artist information or treat it as just another input modality, missing the fundamental hierarchy of artists and items. Since most new tracks come from artists with previous history available, we frame cold-start track recommendation as 'semi-cold' by leveraging the rich collaborative signal that exists at the artist level. We show that artist-aware methods can more than double Recall and NDCG compared to content-only baselines, and propose ACARec, an attention-based architecture that generates CF embeddings for new tracks by attending over the artist's existing catalog. We show that our approach has notable advantages in predicting user preferences for new tracks, especially for new artist discovery and more accurate estimation of cold item popularity.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.06956": {
+            "title": "NestPipe: Large-Scale Recommendation Training on 1,500+ Accelerators via Nested Pipelining",
+            "authors": "Zhida Jiang, Zhaolong Xing, Huichao Chai, Tianxing Sun, Qiang Peng, Baopeng Yuan, Jiaxing Wang, Hua Du, Zhixin Wu, Xuemiao Li, Yikui Cao, Xinyu Liu, Yongxiang Feng, Zhen Chen, Ke Zhang",
+            "first_author": "Zhida Jiang",
+            "url": "http://arxiv.org/abs/2604.06956v1",
+            "pdf_url": "http://arxiv.org/abs/2604.06956",
+            "publish_date": "2026-04-08",
+            "abstract": "Modern recommendation models have increased to trillions of parameters. As cluster scales expand to O(1k), distributed training bottlenecks shift from computation and memory to data movement, especially lookup and communication latency associated with embeddings. Existing solutions either optimize only one bottleneck or improve throughput by sacrificing training consistency. This paper presents NestPipe, a large-scale decentralized embedding training framework that tackles both bottlenecks while preserving synchronous training semantics. NestPipe exploits two hierarchical sparse parallelism opportunities through nested pipelining. At the inter-batch level, Dual-Buffer Pipelining (DBP) constructs a staleness-free five-stage pipeline through dual-buffer synchronization, mitigating lookup bottlenecks without embedding staleness. At the intra-batch level, we identify the embedding freezing phenomenon, which inspires Frozen-Window Pipelining (FWP) to overlap All2All communication with dense computation via coordinated stream scheduling and key-centric sample clustering. Experiments on production GPU and NPU clusters with 1,536 workers demonstrate that NestPipe achieves up to 3.06x speedup and 94.07% scaling efficiency.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2604.06928": {
+            "title": "Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation",
+            "authors": "Muskan Gupta, Suraj Thapa, Jyotsana Khatri",
+            "first_author": "Muskan Gupta",
+            "url": "http://arxiv.org/abs/2604.06928v1",
+            "pdf_url": "http://arxiv.org/abs/2604.06928",
+            "publish_date": "2026-04-08",
+            "abstract": "Session-based recommendation systems (SBRS) aim to capture user's short-term intent from interaction sequences. However, the common assumption of anonymous sessions limits personalization, particularly under sparse or cold-start conditions. Recent advances in LLM-augmented recommendation have shown that LLMs can generate rich item representations, but modeling user personas with LLMs remains challenging due to anonymous sessions. In this work, we propose a persona-driven SBRS framework that explicitly models latent user personas inferred from a heterogeneous knowledge graph (KG) and integrates them into a data-driven recommendation pipeline.Our framework adopts a two-stage architecture consisting of personalized information extraction and personalized information utilization, inspired by recent chain-of-thought recommendation approaches. In the personalized information extraction stage, we construct a heterogeneous KG that integrates time-independent user-item, item-item, item-feature association, and metadata from DBpedia. We then learn latent user personas in an unsupervised manner using a Heterogeneous Deep Graph Infomax (HDGI) objective over a KG initialized with LLM-derived item embeddings. In the personalized information utilization stage, the learned persona representations together with LLM-derived item embeddings are incorporated into a modified architecture of data-driven SBRS to generate a candidate set of relevant items, followed by reranking using the base sequential model to emphasize short-term session intent. Unlike prior approaches that rely solely on sequence modeling or text-based user representations, our method grounds user persona modeling in structured relational signals derived from a KG. Experiments on Amazon Books and Amazon Movies & TV demonstrate that our approach consistently improves over sequential models with user embeddings derived using session history.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.06718": {
+            "title": "CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation",
+            "authors": "Yanan Cao, Ashish Ranjan, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan",
+            "first_author": "Yanan Cao",
+            "url": "http://arxiv.org/abs/2604.06718v1",
+            "pdf_url": "http://arxiv.org/abs/2604.06718",
+            "publish_date": "2026-04-08",
+            "abstract": "Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user's next basket were previously purchased and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We present CASE (Cadence-Aware Set Encoding for next basket repurchase recommendation), which decouples item-level cadence learning from cross-item interaction, enabling explicit calendar-time modeling while remaining production-scalable. CASE represents each item's purchase history as a calendar-time signal over a fixed horizon, applies shared multi-scale temporal convolutions to capture recurring rhythms, and uses induced set attention to model cross-item dependencies with sub-quadratic complexity, allowing efficient batch inference at scale. Across three public benchmarks and a proprietary dataset, CASE consistently improves Precision, Recall, and NDCG at multiple cutoffs compared to strong next basket prediction baselines. In a production-scale evaluation with tens of millions of users and a large item catalog, CASE achieves up to 8.6% relative Precision and 9.9% Recall lift at top-5, demonstrating that scalable cadence-aware modeling yields measurable gains in both benchmark and industrial settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.06232": {
+            "title": "What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives",
+            "authors": "Florian Atzenhofer-Baumgartner, Dominik Kowald",
+            "first_author": "Florian Atzenhofer-Baumgartner",
+            "url": "http://arxiv.org/abs/2604.06232v1",
+            "pdf_url": "http://arxiv.org/abs/2604.06232",
+            "publish_date": "2026-04-02",
+            "abstract": "User models for recommender systems (RecSys) typically assume stable preferences, similarity-based relevance, and session-bounded interactions -- assumptions derived from high-volume consumer contexts. This paper investigates these assumptions for humanities scholars working with digital archives. Following a human-centered design approach, we conducted focus groups and analyzed interview data from 18 researchers. Our analysis identifies four dimensions where scholarly information-seeking diverges from common RecSys user modeling: (1) context volatility -- preferences shift with research tasks and domain expertise; (2) epistemic trust -- relevance depends on verifiable provenance; (3) contrastive seeking -- researchers seek items that challenge their current direction; and (4) strand continuity -- research spans long-term threads rather than discrete sessions. We discuss implications for user modeling and outline how these dimensions relate to collaborative filtering, content-based, and session-based recommendation. We propose these dimensions as a diagnostic framework applicable beyond archives to similar application domains where typical user modeling assumptions may not hold.",
+            "primary_category": "cs.DL",
+            "code_url": "null"
         }
     }
 }

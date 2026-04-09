@@ -1,4 +1,4 @@
-## Updated on 2026-04-08
+## Updated on 2026-04-09
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-08 | **Leveraging Artist Catalogs for Cold-Start Music Recommendation** | Yan-Martin Tamm, Gregor Meehan, Vojtěch Nekl, Vojtěch Vančura, Rodrigo Alves, Johan Pauwels, Anna Aljanaki | [Link](http://arxiv.org/abs/2604.07090) | Not Available |
+| 2026-04-08 | **NestPipe: Large-Scale Recommendation Training on 1,500+ Accelerators via Nested Pipelining** | Zhida Jiang, Zhaolong Xing, Huichao Chai, Tianxing Sun, Qiang Peng, Baopeng Yuan, Jiaxing Wang, Hua Du, Zhixin Wu, Xuemiao Li, Yikui Cao, Xinyu Liu, Yongxiang Feng, Zhen Chen, Ke Zhang | [Link](http://arxiv.org/abs/2604.06956) | Not Available |
+| 2026-04-08 | **Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation** | Muskan Gupta, Suraj Thapa, Jyotsana Khatri | [Link](http://arxiv.org/abs/2604.06928) | Not Available |
+| 2026-04-08 | **CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation** | Yanan Cao, Ashish Ranjan, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan | [Link](http://arxiv.org/abs/2604.06718) | Not Available |
+| 2026-04-02 | **What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives** | Florian Atzenhofer-Baumgartner, Dominik Kowald | [Link](http://arxiv.org/abs/2604.06232) | Not Available |
 | 2026-04-07 | **Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation** | Xing Tang, Jingyang Bin, Ziqiang Cui, Xiaokun Zhang, Fuyuan Lyu, Jingyan Jiang, Dugang Liu, Chen Ma, Xiuqiang He | [Link](http://arxiv.org/abs/2604.05379) | Not Available |
 | 2026-04-07 | **From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation** | Ziang Lu, Lei Sang, Lin Mu, Yiwen Zhang | [Link](http://arxiv.org/abs/2604.05365) | Not Available |
 | 2026-04-07 | **Curr-RLCER:Curriculum Reinforcement Learning For Coherence Explainable Recommendation** | Xiangchen Pan, Wei Wei | [Link](http://arxiv.org/abs/2604.05341) | Not Available |
