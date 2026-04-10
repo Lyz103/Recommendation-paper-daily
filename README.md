@@ -1,4 +1,4 @@
-## Updated on 2026-04-09
+## Updated on 2026-04-10
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,10 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-09 | **Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation** | Yantao Yu, Sen Qiao, Lei Shen, Bing Wang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2604.08011) | Not Available |
+| 2026-04-09 | **Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View** | Xingzi Wang, Qingtian Bian, Hui Fang | [Link](http://arxiv.org/abs/2604.07992) | Not Available |
+| 2026-04-09 | **DialBGM: A Benchmark for Background Music Recommendation from Everyday Multi-Turn Dialogues** | Joonhyeok Shin, Jaehoon Kang, Yujun Lee, Hannah Lee, Yejin Lee, Yoonji Park, Kyuhong Shim | [Link](http://arxiv.org/abs/2604.07895) | Not Available |
+| 2026-04-09 | **ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning** | Jiani Huang, Shijie Wang, Liangbo Ning, Wenqi Fan, Qing Li | [Link](http://arxiv.org/abs/2604.07851) | Not Available |
 | 2026-04-08 | **Leveraging Artist Catalogs for Cold-Start Music Recommendation** | Yan-Martin Tamm, Gregor Meehan, Vojtěch Nekl, Vojtěch Vančura, Rodrigo Alves, Johan Pauwels, Anna Aljanaki | [Link](http://arxiv.org/abs/2604.07090) | Not Available |
 | 2026-04-08 | **NestPipe: Large-Scale Recommendation Training on 1,500+ Accelerators via Nested Pipelining** | Zhida Jiang, Zhaolong Xing, Huichao Chai, Tianxing Sun, Qiang Peng, Baopeng Yuan, Jiaxing Wang, Hua Du, Zhixin Wu, Xuemiao Li, Yikui Cao, Xinyu Liu, Yongxiang Feng, Zhen Chen, Ke Zhang | [Link](http://arxiv.org/abs/2604.06956) | Not Available |
 | 2026-04-08 | **Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation** | Muskan Gupta, Suraj Thapa, Jyotsana Khatri | [Link](http://arxiv.org/abs/2604.06928) | Not Available |

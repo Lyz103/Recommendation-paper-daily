@@ -12566,7 +12566,7 @@
             "title": "Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems",
             "authors": "Jinxin Hu, Hao Deng, Lingyu Mu, Hao Zhang, Shizhun Wang, Yu Zhang, Xiaoyi Zeng",
             "first_author": "Jinxin Hu",
-            "url": "http://arxiv.org/abs/2603.26100v1",
+            "url": "http://arxiv.org/abs/2603.26100v2",
             "pdf_url": "http://arxiv.org/abs/2603.26100",
             "publish_date": "2026-03-27",
             "abstract": "Large-scale industrial recommenders typically use a fixed multi-stage pipeline (recall, ranking, re-ranking) and have progressed from collaborative filtering to deep and large pre-trained models. However, both multi-stage and so-called One Model designs remain essentially static: models are black boxes, and system improvement relies on manual hypotheses and engineering, which is hard to scale under heterogeneous data and multi-objective business constraints. We propose an Agentic Recommender System (AgenticRS) that reorganizes key modules as agents. Modules are promoted to agents only when they form a functionally closed loop, can be independently evaluated, and possess an evolvable decision space. For model agents, we outline two self-evolution mechanisms: reinforcement learning style optimization in well-defined action spaces, and large language model based generation and selection of new architectures and training schemes in open-ended design spaces. We further distinguish individual evolution of single agents from compositional evolution over how multiple agents are selected and connected, and use a layered inner and outer reward design to couple local optimization with global objectives. This provides a concise blueprint for turning static pipelines into self-evolving agentic recommender systems.",
@@ -12940,7 +12940,7 @@
             "title": "CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation",
             "authors": "Yanan Cao, Ashish Ranjan, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan",
             "first_author": "Yanan Cao",
-            "url": "http://arxiv.org/abs/2604.06718v1",
+            "url": "http://arxiv.org/abs/2604.06718v2",
             "pdf_url": "http://arxiv.org/abs/2604.06718",
             "publish_date": "2026-04-08",
             "abstract": "Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user's next basket were previously purchased and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We present CASE (Cadence-Aware Set Encoding for next basket repurchase recommendation), which decouples item-level cadence learning from cross-item interaction, enabling explicit calendar-time modeling while remaining production-scalable. CASE represents each item's purchase history as a calendar-time signal over a fixed horizon, applies shared multi-scale temporal convolutions to capture recurring rhythms, and uses induced set attention to model cross-item dependencies with sub-quadratic complexity, allowing efficient batch inference at scale. Across three public benchmarks and a proprietary dataset, CASE consistently improves Precision, Recall, and NDCG at multiple cutoffs compared to strong next basket prediction baselines. In a production-scale evaluation with tens of millions of users and a large item catalog, CASE achieves up to 8.6% relative Precision and 9.9% Recall lift at top-5, demonstrating that scalable cadence-aware modeling yields measurable gains in both benchmark and industrial settings.",
@@ -12956,6 +12956,50 @@
             "publish_date": "2026-04-02",
             "abstract": "User models for recommender systems (RecSys) typically assume stable preferences, similarity-based relevance, and session-bounded interactions -- assumptions derived from high-volume consumer contexts. This paper investigates these assumptions for humanities scholars working with digital archives. Following a human-centered design approach, we conducted focus groups and analyzed interview data from 18 researchers. Our analysis identifies four dimensions where scholarly information-seeking diverges from common RecSys user modeling: (1) context volatility -- preferences shift with research tasks and domain expertise; (2) epistemic trust -- relevance depends on verifiable provenance; (3) contrastive seeking -- researchers seek items that challenge their current direction; and (4) strand continuity -- research spans long-term threads rather than discrete sessions. We discuss implications for user modeling and outline how these dimensions relate to collaborative filtering, content-based, and session-based recommendation. We propose these dimensions as a diagnostic framework applicable beyond archives to similar application domains where typical user modeling assumptions may not hold.",
             "primary_category": "cs.DL",
+            "code_url": "null"
+        },
+        "2604.08011": {
+            "title": "Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation",
+            "authors": "Yantao Yu, Sen Qiao, Lei Shen, Bing Wang, Xiaoyi Zeng",
+            "first_author": "Yantao Yu",
+            "url": "http://arxiv.org/abs/2604.08011v1",
+            "pdf_url": "http://arxiv.org/abs/2604.08011",
+            "publish_date": "2026-04-09",
+            "abstract": "Recent progress in scaling large models has motivated recommender systems to increase model depth and capacity to better leverage massive behavioral data. However, recommendation inputs are high-dimensional and extremely sparse, and simply scaling dense backbones (e.g., deep MLPs) often yields diminishing returns or even performance degradation. Our analysis of industrial CTR models reveals a phenomenon of implicit connection sparsity: most learned connection weights tend towards zero, while only a small fraction remain prominent. This indicates a structural mismatch between dense connectivity and sparse recommendation data; by compelling the model to process vast low-utility connections instead of valid signals, the dense architecture itself becomes the primary bottleneck to effective pattern modeling. We propose \\textbf{SSR} (Explicit \\textbf{S}parsity for \\textbf{S}calable \\textbf{R}ecommendation), a framework that incorporates sparsity explicitly into the architecture. SSR employs a multi-view \"filter-then-fuse\" mechanism, decomposing inputs into parallel views for dimension-level sparse filtering followed by dense fusion. Specifically, we realize the sparsity via two strategies: a Static Random Filter that achieves efficient structural sparsity via fixed dimension subsets, and Iterative Competitive Sparse (ICS), a differentiable dynamic mechanism that employs bio-inspired competition to adaptively retain high-response dimensions. Experiments on three public datasets and a billion-scale industrial dataset from AliExpress (a global e-commerce platform) show that SSR outperforms state-of-the-art baselines under similar budgets. Crucially, SSR exhibits superior scalability, delivering continuous performance gains where dense models saturate.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.07992": {
+            "title": "Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View",
+            "authors": "Xingzi Wang, Qingtian Bian, Hui Fang",
+            "first_author": "Xingzi Wang",
+            "url": "http://arxiv.org/abs/2604.07992v1",
+            "pdf_url": "http://arxiv.org/abs/2604.07992",
+            "publish_date": "2026-04-09",
+            "abstract": "Cross-Domain Sequential Recommendation (CDSR) aims to en-hance recommendation quality by transferring knowledge across domains, offering effective solutions to data sparsity and cold-start issues. However, existing methods face three major limitations: (1) they overlook varying contexts in user interaction sequences, resulting in spurious correlations that obscure the true causal relationships driving user preferences; (2) the learning of domain- shared and domain-specific preferences is hindered by gradient conflicts between domains, leading to a seesaw effect where performance in one domain improves at the expense of the other; (3) most methods rely on the unrealistic assumption of substantial user overlap across domains. To address these issues, we propose CoDiS, a context-aware disentanglement framework grounded in a causal view to accurately disentangle domain-shared and domain-specific preferences. Specifically, Our approach includes a variational context adjustment method to reduce confounding effects of contexts, expert isolation and selection strategies to resolve gradient conflict, and a variational adversarial disentangling module for the thorough disentanglement of domain-shared and domain-specific representations. Extensive experiments on three real-world datasets demonstrate that CoDiS consistently outperforms state-of-the-art CDSR baselines with statistical significance. Code is available at:https://anonymous.4open.science/r/CoDiS-6FA0.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.07895": {
+            "title": "DialBGM: A Benchmark for Background Music Recommendation from Everyday Multi-Turn Dialogues",
+            "authors": "Joonhyeok Shin, Jaehoon Kang, Yujun Lee, Hannah Lee, Yejin Lee, Yoonji Park, Kyuhong Shim",
+            "first_author": "Joonhyeok Shin",
+            "url": "http://arxiv.org/abs/2604.07895v1",
+            "pdf_url": "http://arxiv.org/abs/2604.07895",
+            "publish_date": "2026-04-09",
+            "abstract": "Selecting an appropriate background music (BGM) that supports natural human conversation is a common production step in media and interactive systems. In this paper, we introduce dialogue-conditioned BGM recommendation, where a model should select non-intrusive, fitting music for a multi-turn conversation that often contains no music descriptors. To study this novel problem, we present DialBGM, a benchmark of 1,200 open-domain daily dialogues, each paired with four candidate music clips and annotated with human preference rankings. Rankings are determined by background suitability criteria, including contextual relevance, non-intrusiveness, and consistency. We evaluate a wide range of open-source and proprietary models, including audio-language models and multimodal LLMs, and show that current models fall far short of human judgments; no model exceeds 35% Hit@1 when selecting the top-ranked clip. DialBGM provides a standardized benchmark for developing discourse-aware methods for BGM selection and for evaluating both retrieval-based and generative models.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2604.07851": {
+            "title": "ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning",
+            "authors": "Jiani Huang, Shijie Wang, Liangbo Ning, Wenqi Fan, Qing Li",
+            "first_author": "Jiani Huang",
+            "url": "http://arxiv.org/abs/2604.07851v1",
+            "pdf_url": "http://arxiv.org/abs/2604.07851",
+            "publish_date": "2026-04-09",
+            "abstract": "With the rise of LLMs, there is an increasing need for intelligent recommendation assistants that can handle complex queries and provide personalized, reasoning-driven recommendations. LLM-based recommenders show potential but face challenges in multi-step reasoning, underscoring the need for reasoning-augmented systems. To address this gap, we propose ReRec, a novel reinforcement fine-tuning (RFT) framework designed to improve LLM reasoning in complex recommendation tasks. Our framework introduces three key components: (1) Dual-Graph Enhanced Reward Shaping, integrating recommendation metrics like NDCG@K with Query Alignment and Preference Alignment Scores to provide fine-grained reward signals for LLM optimization; (2) Reasoning-aware Advantage Estimation, which decomposes LLM outputs into reasoning segments and penalizes incorrect steps to enhance reasoning of recommendation; and (3) Online Curriculum Scheduler, dynamically assess query difficulty and organize training curriculum to ensure stable learning during RFT. Experiments demonstrate that ReRec outperforms state-of-the-art baselines and preserves core abilities like instruction-following and general knowledge. Our codes are available at https://github.com/jiani-huang/ReRec.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }
