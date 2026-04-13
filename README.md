@@ -1,4 +1,4 @@
-## Updated on 2026-04-12
+## Updated on 2026-04-13
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,8 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-10 | **TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation** | Qingzhuo Wang, Leilei Wen, Juntao Chen, Kunyu Peng, Ruiyang Qin, Zhihua Wei, Wen Shen | [Link](http://arxiv.org/abs/2604.09439) | Not Available |
+| 2026-04-10 | **DIAURec: Dual-Intent Space Representation Optimization for Recommendation** | Yu Zhang, Yiwen Zhang, Yi Zhang, Lei Sang | [Link](http://arxiv.org/abs/2604.09087) | Not Available |
 | 2026-04-09 | **Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation** | Yantao Yu, Sen Qiao, Lei Shen, Bing Wang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2604.08011) | Not Available |
 | 2026-04-09 | **Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View** | Xingzi Wang, Qingtian Bian, Hui Fang | [Link](http://arxiv.org/abs/2604.07992) | Not Available |
 | 2026-04-09 | **DialBGM: A Benchmark for Background Music Recommendation from Everyday Multi-Turn Dialogues** | Joonhyeok Shin, Jaehoon Kang, Yujun Lee, Hannah Lee, Yejin Lee, Yoonji Park, Kyuhong Shim | [Link](http://arxiv.org/abs/2604.07895) | Not Available |
@@ -42,7 +44,7 @@
 | 2026-04-03 | **MBGR: Multi-Business Prediction for Generative Recommendation at Meituan** | Changhao Li, Junwei Yin, Zhilin Zeng, Senjie Kou, Shuli Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang | [Link](http://arxiv.org/abs/2604.02684) | Not Available |
 | 2026-04-02 | **Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation** | Daiwei Chen, Zhoutong Fu, Chengming Jiang, Haichao Zhang, Ran Zhou, Tan Wang, Chunnan Yao, Guoyao Li, Rui Cai, Yihan Cao, Ruijie Jiang, Fedor Borisyuk, Jianqiang Shen, Jingwei Wu, Ramya Korlakai Vinayak | [Link](http://arxiv.org/abs/2604.02324) | Not Available |
 | 2026-04-02 | **Towards Position-Robust Talent Recommendation via Large Language Models** | Silin Du, Hongyan Liu | [Link](http://arxiv.org/abs/2604.02200) | Not Available |
-| 2026-04-02 | **TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning** | Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou | [Link](http://arxiv.org/abs/2604.02183) | Not Available |
+| 2026-04-02 | **TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning** | Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Yang Yang | [Link](http://arxiv.org/abs/2604.02183) | Not Available |
 | 2026-04-01 | **Aligning Recommendations with User Popularity Preferences** | Mona Schirmer, Anton Thielmann, Pola Schwöbel, Thomas Martynec, Giuseppe Di Benedetto, Ben London, Yannik Stein | [Link](http://arxiv.org/abs/2604.01036) | Not Available |
 | 2026-04-01 | **UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems** | Mingming Ha, Guanchen Wang, Linxun Chen, Xuan Rao, Yuexin Shi, Tianbao Ma, Zhaojie Liu, Yunqian Fan, Zilong Lu, Yanan Niu, Han Li, Kun Gai | [Link](http://arxiv.org/abs/2604.00590) | Not Available |
 | 2026-02-18 | **AgentFixer: From Failure Detection to Fix Recommendations in LLM Agentic Systems** | Hadar Mulian, Sergey Zeltyn, Ido Levy, Liane Galanti, Avi Yaeli, Segev Shlomov | [Link](http://arxiv.org/abs/2603.29848) | Not Available |

@@ -12652,9 +12652,9 @@
         },
         "2604.02183": {
             "title": "TRU: Targeted Reverse Update for Efficient Multimodal Recommendation Unlearning",
-            "authors": "Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Zhanting Zhou",
+            "authors": "Zhanting Zhou, KaHou Tam, Ziqiang Zheng, Zeyu Ma, Yang Yang",
             "first_author": "Zhanting Zhou",
-            "url": "http://arxiv.org/abs/2604.02183v1",
+            "url": "http://arxiv.org/abs/2604.02183v2",
             "pdf_url": "http://arxiv.org/abs/2604.02183",
             "publish_date": "2026-04-02",
             "abstract": "Multimodal recommendation systems (MRS) jointly model user-item interaction graphs and rich item content, but this tight coupling makes user data difficult to remove once learned. Approximate machine unlearning offers an efficient alternative to full retraining, yet existing methods for MRS mainly rely on a largely uniform reverse update across the model. We show that this assumption is fundamentally mismatched to modern MRS: deleted-data influence is not uniformly distributed, but concentrated unevenly across \\textit{ranking behavior}, \\textit{modality branches}, and \\textit{network layers}. This non-uniformity gives rise to three bottlenecks in MRS unlearning: target-item persistence in the collaborative graph, modality imbalance across feature branches, and layer-wise sensitivity in the parameter space. To address this mismatch, we propose \\textbf{targeted reverse update} (TRU), a plug-and-play unlearning framework for MRS. Instead of applying a blind global reversal, TRU performs three coordinated interventions across the model hierarchy: a ranking fusion gate to suppress residual target-item influence in ranking, branch-wise modality scaling to preserve retained multimodal representations, and capacity-aware layer isolation to localize reverse updates to deletion-sensitive modules. Experiments across two representative backbones, three datasets, and three unlearning regimes show that TRU consistently achieves a better retain-forget trade-off than prior approximate baselines, while security audits further confirm deeper forgetting and behavior closer to a full retraining on the retained data.",
@@ -12999,6 +12999,28 @@
             "pdf_url": "http://arxiv.org/abs/2604.07851",
             "publish_date": "2026-04-09",
             "abstract": "With the rise of LLMs, there is an increasing need for intelligent recommendation assistants that can handle complex queries and provide personalized, reasoning-driven recommendations. LLM-based recommenders show potential but face challenges in multi-step reasoning, underscoring the need for reasoning-augmented systems. To address this gap, we propose ReRec, a novel reinforcement fine-tuning (RFT) framework designed to improve LLM reasoning in complex recommendation tasks. Our framework introduces three key components: (1) Dual-Graph Enhanced Reward Shaping, integrating recommendation metrics like NDCG@K with Query Alignment and Preference Alignment Scores to provide fine-grained reward signals for LLM optimization; (2) Reasoning-aware Advantage Estimation, which decomposes LLM outputs into reasoning segments and penalizes incorrect steps to enhance reasoning of recommendation; and (3) Online Curriculum Scheduler, dynamically assess query difficulty and organize training curriculum to ensure stable learning during RFT. Experiments demonstrate that ReRec outperforms state-of-the-art baselines and preserves core abilities like instruction-following and general knowledge. Our codes are available at https://github.com/jiani-huang/ReRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.09439": {
+            "title": "TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation",
+            "authors": "Qingzhuo Wang, Leilei Wen, Juntao Chen, Kunyu Peng, Ruiyang Qin, Zhihua Wei, Wen Shen",
+            "first_author": "Qingzhuo Wang",
+            "url": "http://arxiv.org/abs/2604.09439v1",
+            "pdf_url": "http://arxiv.org/abs/2604.09439",
+            "publish_date": "2026-04-10",
+            "abstract": "In this paper, we propose a sequential recommendation model that integrates Time-aware personalization, Multi-interest personalization, and Explanation personalization for Personalized Sequential Recommendation (TME-PSR). That is, we consider the differences across different users in temporal rhythm preference, multiple fine-grained latent interests, and the personalized semantic alignment between recommendations and explanations. Specifically, the proposed TME-PSR model employs a dual-view gated time encoder to capture personalized temporal rhythms, a lightweight multihead Linear Recurrent Unit architecture that enables fine-grained sub-interest modeling with improved efficiency, and a dynamic dual-branch mutual information weighting mechanism to achieve personalized alignment between recommendations and explanations. Extensive experiments on real-world datasets demonstrate that our method consistently improves recommendation accuracy and explanation quality, at a lower computational cost.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.09087": {
+            "title": "DIAURec: Dual-Intent Space Representation Optimization for Recommendation",
+            "authors": "Yu Zhang, Yiwen Zhang, Yi Zhang, Lei Sang",
+            "first_author": "Yu Zhang",
+            "url": "http://arxiv.org/abs/2604.09087v1",
+            "pdf_url": "http://arxiv.org/abs/2604.09087",
+            "publish_date": "2026-04-10",
+            "abstract": "General recommender systems deliver personalized services by learning user and item representations, with the central challenge being how to capture latent user preferences. However, representations derived from sparse interactions often fail to comprehensively characterize user behaviors, thereby limiting recommendation effectiveness. Recent studies attempt to enhance user representations through sophisticated modeling strategies ($e.g.,$ intent or language modeling). Nevertheless, most works primarily concentrate on model interpretability instead of representation optimization. This imbalance has led to limited progress, as representation optimization is crucial for recommendation quality by promoting the affinity between users and their interacted items in the feature space, yet remains largely overlooked. To overcome these limitations, we propose DIAURec, a novel representation learning framework that unifies intent and language modeling for recommendation. DIAURec reconstructs representations based on the prototype and distribution intent spaces formed by collaborative and language signals. Furthermore, we design a comprehensive representation optimization strategy. Specifically, we adopts alignment and uniformity as the primary optimization objectives, and incorporates both coarse- and fine-grained matching to achieve effective alignment across different spaces, thereby enhancing representational consistency. Additionally, we further introduce intra-space and interaction regularization to enhance model robustness and prevent representation collapse in reconstructed space representation. Experiments on three public datasets against fifteen baseline methods show that DIAURec consistently outperforms state-of-the-art baselines, fully validating its effectiveness and superiority.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
