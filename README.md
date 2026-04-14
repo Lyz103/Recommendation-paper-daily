@@ -1,4 +1,4 @@
-## Updated on 2026-04-13
+## Updated on 2026-04-14
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,11 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-13 | **R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation** | Qiang Wan, Ze Yang, Dawei Yang, Ying Fan, Xin Yan, Siyang Liu | [Link](http://arxiv.org/abs/2604.11440) | Not Available |
+| 2026-04-12 | **Participatory, not Punitive: Student-Driven AI Policy Recommendations in a Design Classroom** | Kaoru Seki, Manisha Vijay, Yasmine Kotturi | [Link](http://arxiv.org/abs/2604.10851) | Not Available |
+| 2026-04-11 | **MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations** | Abderaouf Bahi, Mourad Boughaba, Ibtissem Gasmi, Warda Deghmane, Amel Ourici | [Link](http://arxiv.org/abs/2604.10147) | Not Available |
+| 2026-04-11 | **HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation** | Subham Raj, Aman Vaibhav Jha, Mayank Anand, Sriparna Saha | [Link](http://arxiv.org/abs/2604.10048) | Not Available |
+| 2026-04-06 | **Evaluating Scene-based In-Situ Item Labeling for Immersive Conversational Recommendation** | Jiazhou Liang, Yifan Simon Liu, David Guo, Minqi Sun, Yilun Jiang, Scott Sanner | [Link](http://arxiv.org/abs/2604.09698) | Not Available |
 | 2026-04-10 | **TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation** | Qingzhuo Wang, Leilei Wen, Juntao Chen, Kunyu Peng, Ruiyang Qin, Zhihua Wei, Wen Shen | [Link](http://arxiv.org/abs/2604.09439) | Not Available |
 | 2026-04-10 | **DIAURec: Dual-Intent Space Representation Optimization for Recommendation** | Yu Zhang, Yiwen Zhang, Yi Zhang, Lei Sang | [Link](http://arxiv.org/abs/2604.09087) | Not Available |
 | 2026-04-09 | **Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation** | Yantao Yu, Sen Qiao, Lei Shen, Bing Wang, Xiaoyi Zeng | [Link](http://arxiv.org/abs/2604.08011) | Not Available |
