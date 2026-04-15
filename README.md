@@ -1,4 +1,4 @@
-## Updated on 2026-04-14
+## Updated on 2026-04-15
 <details>
  <summary>Table of Contents</summary>
  <ol>
@@ -11,6 +11,12 @@
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-14 | **Sparse Contrastive Learning for Content-Based Cold Item Recommendation** | Gregor Meehan, Johan Pauwels | [Link](http://arxiv.org/abs/2604.12990) | Not Available |
+| 2026-04-14 | **Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation** | Dongqi Fu, Kaushik Rangadurai, Haiyu Lu, Yunchen Pu, Siyang Yuan, Minhui Huang, Yiqun Liu, Golnaz Ghasemiesfeh, Xingfeng He, Fangzhou Xu, Andrew Cui, Vidhoon Viswanathan, Lin Yang, Liang Wang, Jiyan Yang, Chonglin Sun | [Link](http://arxiv.org/abs/2604.12965) | Not Available |
+| 2026-04-14 | **Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation** | Sayak Chakrabarty, Souradip Pal | [Link](http://arxiv.org/abs/2604.12372) | Not Available |
+| 2026-04-14 | **Identifying and Mitigating Gender Cues in Academic Recommendation Letters: An Interpretability Case Study** | Charlotte S. Alexander, Shane Storks, Souradip Pal, Sayak Chakrabarty, Arushi Sharma, Mlen-Too Wesley, Bailey Russo | [Link](http://arxiv.org/abs/2604.12337) | Not Available |
+| 2026-04-14 | **UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute** | Ziliang Wang, Gaoyun Lin, Xuesi Wang, Shaoqiang Liang, Yili Huang, Weijie Bian | [Link](http://arxiv.org/abs/2604.12234) | Not Available |
+| 2026-04-13 | **WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semantic Correctness for Ontology Reuse and Ontology Recommendations** | Aryan Singh Dalal, Maria Baloch, Asiyah Yu Lin, Anna Maria Masci, Kathleen M. Jagodnik, Hande Kucuk McGinty | [Link](http://arxiv.org/abs/2604.12025) | Not Available |
 | 2026-04-13 | **R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation** | Qiang Wan, Ze Yang, Dawei Yang, Ying Fan, Xin Yan, Siyang Liu | [Link](http://arxiv.org/abs/2604.11440) | Not Available |
 | 2026-04-12 | **Participatory, not Punitive: Student-Driven AI Policy Recommendations in a Design Classroom** | Kaoru Seki, Manisha Vijay, Yasmine Kotturi | [Link](http://arxiv.org/abs/2604.10851) | Not Available |
 | 2026-04-11 | **MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations** | Abderaouf Bahi, Mourad Boughaba, Ibtissem Gasmi, Warda Deghmane, Amel Ourici | [Link](http://arxiv.org/abs/2604.10147) | Not Available |
@@ -83,7 +89,7 @@
 | 2026-03-20 | **DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations** | Boxun Song, Min Gao, Jiawei Cheng | [Link](http://arxiv.org/abs/2603.19909) | Not Available |
 | 2026-03-20 | **How Well Does Generative Recommendation Generalize?** | Yijie Ding, Zitian Guo, Jiacheng Li, Letian Peng, Shuai Shao, Wei Shao, Xiaoqiang Luo, Luke Simon, Jingbo Shang, Julian McAuley, Yupeng Hou | [Link](http://arxiv.org/abs/2603.19809) | Not Available |
 | 2026-03-20 | **AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation** | Jingcao Xu, Jianyun Zou, Renkai Yang, Zili Geng, Qiang Liu, Haihong Tang | [Link](http://arxiv.org/abs/2603.19710) | Not Available |
-| 2026-03-20 | **From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism** | Xiaokun Zhang, Bowei He, Jiamin Chen, Ziqiang Cui, Chen Ma | [Link](http://arxiv.org/abs/2603.19693) | Not Available |
+| 2026-03-20 | **Beyong Tokens: Item-aware Attention for LLM-based Recommendation** | Xiaokun Zhang, Bowei He, Jiamin Chen, Ziqiang Cui, Chen Ma | [Link](http://arxiv.org/abs/2603.19693) | Not Available |
 | 2026-03-19 | **Synthetic Control Misconceptions: Recommendations for Practice** | Robert Pickett, Jennifer Hill, Sarah Cowan | [Link](http://arxiv.org/abs/2603.19211) | Not Available |
 | 2026-03-19 | **OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation** | Chen Sun, Beilin Xu, Boheng Tan, Jiacheng Wang, Yuefeng Sun, Rite Bo, Ying He, Yaqiang Zang, Pinghua Gong | [Link](http://arxiv.org/abs/2603.18697) | Not Available |
 | 2026-03-19 | **Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation** | Jerome Ramos, Feng Xia, Xi Wang, Shubham Chatterjee, Xiao Fu, Hossein A. Rahmani, Aldo Lipani | [Link](http://arxiv.org/abs/2603.18573) | Not Available |
