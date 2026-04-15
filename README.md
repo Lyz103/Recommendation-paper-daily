@@ -5,7 +5,7 @@
 Check out our exciting new papers:
 
 - [SIGIR26-MDCNS](https://github.com/Lyz103/SIGIR26-MDCNS)
-- [R2NS](https://github.com/Lyz103/R2NS)
+- [WWW26-R2NS](https://github.com/Lyz103/R2NS)
 
 <details>
  <summary>Table of Contents</summary>
