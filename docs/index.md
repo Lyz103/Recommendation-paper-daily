@@ -3,6 +3,14 @@ layout: default
 ---
 
 ## Updated on 2026-04-15
+
+## 🎉 Our Latest Papers
+
+Check out our exciting new papers:
+
+- [SIGIR26-MDCNS](https://github.com/Lyz103/SIGIR26-MDCNS)
+- [WWW26-R2NS](https://github.com/Lyz103/WWW26-R2NS)
+
 ## Recommendation
 
 | Publish Date | Title | Authors | PDF | Code |
