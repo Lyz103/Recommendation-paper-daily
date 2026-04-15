@@ -1,4 +1,12 @@
 ## Updated on 2026-04-15
+
+## 🎉 Our Latest Projects
+
+Check out our exciting new papers:
+
+- [SIGIR26-MDCNS](https://github.com/Lyz103/SIGIR26-MDCNS)
+- [R2NS](https://github.com/Lyz103/R2NS)
+
 <details>
  <summary>Table of Contents</summary>
  <ol>

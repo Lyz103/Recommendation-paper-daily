@@ -140,7 +140,12 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
         # ... (Badge writing logic) ...
 
         if use_title:
-            f.write(f"## Updated on {date_now}\n")
+            f.write(f"## Updated on {date_now}\n\n")
+            # Add permanent promotion section
+            f.write("## 🎉 Our Latest Papers\n\n")
+            f.write("Check out our exciting new papers:\n\n")
+            f.write("- [SIGIR26-MDCNS](https://github.com/Lyz103/SIGIR26-MDCNS)\n")
+            f.write("- [R2NS](https://github.com/Lyz103/WWW26-R2NS)\n\n")
         else:
             f.write(f"> Updated on {date_now}\n")
         
