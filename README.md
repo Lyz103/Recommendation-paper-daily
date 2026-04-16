@@ -1,4 +1,4 @@
-## Updated on 2026-04-15
+## Updated on 2026-04-16
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,14 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-15 | **ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation** | Xiaofan Zhou, Kyumin Lee | [Link](http://arxiv.org/abs/2604.14114) | Not Available |
+| 2026-04-15 | **Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model** | Shiteng Cao, Xiaochong Lan, Yuwei Du, Jie Feng, Yinxing Liu, Xinlei Shi, Yong Li | [Link](http://arxiv.org/abs/2604.14051) | Not Available |
+| 2026-04-15 | **DUET: Joint Exploration of User Item Profiles in Recommendation System** | Yue Chen, Yifei Sun, Lu Wang, Fangkai Yang, Pu Zhao, Minjie Hong, Yifei Dong, Minghua He, Nan Hu, Jianjin Zhang, Zhiwei Dai, Yuefeng Zhan, Weihao Han, Hao Sun, Qingwei Lin, Weiwei Deng, Feng Sun, Qi Zhang, Saravan Rajmohan, Dongmei Zhang | [Link](http://arxiv.org/abs/2604.13801) | Not Available |
+| 2026-04-15 | **TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds** | Yifeng Zhou, Yuehong Hu, Zhixiang Feng, Junwei Pan, Kaihui Wu, Hanyong Li, Shangyu Zhang, Shudong Huang, Zhangbin Zhu, Chengguo Yin, Haijie Gu, Jie Jiang | [Link](http://arxiv.org/abs/2604.13737) | Not Available |
+| 2026-04-15 | **RecNextEval: A Reference Implementation for Temporal Next-Batch Recommendation Evaluation** | Tze-Kean Ng, Joshua Teng-Khing Khoo, Aixin Sun | [Link](http://arxiv.org/abs/2604.13665) | Not Available |
+| 2026-04-15 | **From Transfer to Collaboration: A Federated Framework for Cross-Market Sequential Recommendation** | Jundong Chen, Honglei Zhang, Xiangmou Qu, Haoxuan Li, Han Yu, Yidong Li | [Link](http://arxiv.org/abs/2604.13573) | Not Available |
+| 2026-04-15 | **RoTE: Coarse-to-Fine Multi-Level Rotary Time Embedding for Sequential Recommendation** | Haolin Zhang, Longtao Xiao, Guohao Cai, Ruixuan Li, Xiu Li | [Link](http://arxiv.org/abs/2604.13389) | Not Available |
+| 2026-04-15 | **Young people's perceptions and recommendations for conversational generative artificial intelligence in youth mental health** | Adam Poulsen, Ian B. Hickie, Carla Gorban, Zsofi de Haan, William Capon, Ebenezer Eyeson-Annan, Jalal Radwan, Elizabeth M. Scott, Frank Iorfino, Haley M. LaMonica | [Link](http://arxiv.org/abs/2604.13381) | Not Available |
 | 2026-04-14 | **Sparse Contrastive Learning for Content-Based Cold Item Recommendation** | Gregor Meehan, Johan Pauwels | [Link](http://arxiv.org/abs/2604.12990) | Not Available |
 | 2026-04-14 | **Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation** | Dongqi Fu, Kaushik Rangadurai, Haiyu Lu, Yunchen Pu, Siyang Yuan, Minhui Huang, Yiqun Liu, Golnaz Ghasemiesfeh, Xingfeng He, Fangzhou Xu, Andrew Cui, Vidhoon Viswanathan, Lin Yang, Liang Wang, Jiyan Yang, Chonglin Sun | [Link](http://arxiv.org/abs/2604.12965) | Not Available |
 | 2026-04-14 | **Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation** | Sayak Chakrabarty, Souradip Pal | [Link](http://arxiv.org/abs/2604.12372) | Not Available |

@@ -12038,10 +12038,10 @@
             "title": "Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents",
             "authors": "Zekun Wu, Adriano Koshiyama, Sahan Bulathwela, Maria Perez-Ortiz",
             "first_author": "Zekun Wu",
-            "url": "http://arxiv.org/abs/2603.12564v6",
+            "url": "http://arxiv.org/abs/2603.12564v7",
             "pdf_url": "http://arxiv.org/abs/2603.12564",
             "publish_date": "2026-03-13",
-            "abstract": "People are increasingly relying on LLM agents for multi-turn financial recommendations, where the agent retrieves market data through tools and tracks user preferences across turns. The consequences of failure can be severe, like recommending highly volatile stocks to a conservative client. When tool data is manipulated, agents are easily misled into giving unsafe advice; however, the critical issue is that standard evaluation metrics completely miss this. Because metrics like NDCG measure general relevance, a high-risk stock and a safe stock score similarly, creating a blind spot we call evaluation blindness. To study this, we replay 23-turn financial advisory conversations across eight language models, comparing clean tool outputs with manipulated ones. Across all models, quality metrics stay practically flat while agents recommend products outside the user's risk profile in 67--99\\% of turns. By isolating the pathways of corruption, we find this unsafe drift is driven almost entirely by the agent reasoning over bad data in the current turn, rather than corrupted information slowly accumulating in memory. Even subtle manipulations, like biased headlines without altered numbers, induce significant drift. Prompting the agent to self-verify its recommendations fails because it circularly checks against the corrupted data. Mechanistic analysis reveals that while the model internally distinguishes adversarial from random perturbations, it cannot translate this signal into safer outputs. We show that a safety-penalized metric (sNDCG) makes this gap visible, suggesting that safe deployment of multi-turn recommendation agents requires independent, user-specific safety checks rather than relying solely on standard ranking quality.",
+            "abstract": "When a multi-turn LLM recommendation agent consumes incorrect tool data, it recommends unsuitable products while standard quality metrics stay near-perfect, a pattern we call evaluation blindness. We replay 23-turn financial advisory conversations across eight language models and find three counterintuitive failure modes. First, stronger models are not safer: the best-performing model has the highest quality score yet the worst suitability violations (99.1% of turns). This points to an alignment-grounding tension: the same property that makes it an effective agent, faithfully grounding its reasoning in tool data, makes it the most reliable executor of bad data. Across all models, 80% of risk-score citations repeat the manipulated value verbatim, and not a single turn out of 1,840 questions the tool outputs. Second, the failures are not cumulative: 95% of violations stem from the current turn's data rather than contamination building up in memory, meaning a single bad turn is enough to compromise safety. Third, while the model internally detects the manipulation (sparse autoencoder probing distinguishes adversarial from random perturbations), this awareness does not translate into safer output. Both representation-level interventions (recovering less than 6% of the gap) and prompt-level self-verification fail, as the agent ultimately relies on the same manipulated data. While incorporating suitability constraints into ranking metrics makes the gap visible, our findings suggest that safe deployment requires independent monitoring against a data source the agent cannot influence.",
             "primary_category": "cs.CL",
             "code_url": "null"
         },
@@ -13143,6 +13143,94 @@
             "publish_date": "2026-04-13",
             "abstract": "The Semantic Web standardizes concept meaning for humans and machines, enabling machine-operable content and consistent interpretation that improves advanced analytics. Reusing ontologies speeds development and enforces consistency, yet selecting the optimal choice is challenging because authors lack systematic selection criteria and often rely on intuition that is difficult to justify, limiting reuse. To solve this, WiseOWL is proposed, a methodology with scoring and guidance to select ontologies for reuse. It scores four metrics: (i) Well-Described, measuring documentation coverage; (ii) Well-Defined, using state-of-the-art embeddings to assess label-definition alignment; (iii) Connection, capturing structural interconnectedness; and (iv) Hierarchical Breadth, reflecting hierarchical balance. WiseOWL outputs normalized 0-10 scores with actionable feedback. Implemented as a Streamlit app, it ingests OWL format, converts to RDF Turtle, and provides interactive visualizations. Evaluation across six ontologies, including the Plant Ontology (PO), Gene Ontology (GO), Semanticscience Integrated Ontology (SIO), Food Ontology (FoodON), Dublin Core (DC), and GoodRelations, demonstrates promising effectiveness.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2604.14114": {
+            "title": "ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation",
+            "authors": "Xiaofan Zhou, Kyumin Lee",
+            "first_author": "Xiaofan Zhou",
+            "url": "http://arxiv.org/abs/2604.14114v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14114",
+            "publish_date": "2026-04-15",
+            "abstract": "Sequential recommendation has become increasingly prominent in both academia and industry, particularly in e-commerce. The primary goal is to extract user preferences from historical interaction sequences and predict items a user is likely to engage with next. Recent advances have leveraged contrastive learning and graph neural networks to learn more expressive representations from interaction histories -- graphs capture relational structure between nodes, while ID-based representations encode item-specific information. However, few studies have explored multi-view contrastive learning between ID and graph perspectives to jointly improve user and item representations, especially in settings where only interaction data is available without auxiliary information.   To address this gap, we propose Multi-View Contrastive learning for sequential recommendation (MVCrec), a framework that integrates complementary signals from both sequential (ID-based) and graph-based views. MVCrec incorporates three contrastive objectives: within the sequential view, within the graph view, and across views. To effectively fuse the learned representations, we introduce a multi-view attention fusion module that combines global and local attention mechanisms to estimate the likelihood of a target user purchasing a target item. Comprehensive experiments on five real-world benchmark datasets demonstrate that MVCrec consistently outperforms 11 state-of-the-art baselines, achieving improvements of up to 14.44\\% in NDCG@10 and 9.22\\% in HitRatio@10 over the strongest baseline. Our code and datasets are available at https://github.com/sword-Lz/MMCrec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14051": {
+            "title": "Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model",
+            "authors": "Shiteng Cao, Xiaochong Lan, Yuwei Du, Jie Feng, Yinxing Liu, Xinlei Shi, Yong Li",
+            "first_author": "Shiteng Cao",
+            "url": "http://arxiv.org/abs/2604.14051v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14051",
+            "publish_date": "2026-04-15",
+            "abstract": "Local life service recommendation is distinct from general recommendation scenarios due to its strong living need-driven nature. Fundamentally, accurately identifying a user's immediate living need and recommending the corresponding service are inextricably linked tasks. However, prior works typically treat them in isolation, failing to achieve a unified modeling of need prediction and service recommendation. In this paper, we propose a novel large language model based framework that jointly performs living need prediction and service recommendation. To address the challenge of noise in raw consumption data, we introduce a behavioral clustering approach that filters out accidental factors and selectively preserves typical patterns. This enables the model to learn a robust logical basis for need generation and spontaneously generalize to long-tail scenarios. To navigate the vast search space stemming from diverse needs, merchants, and complex mapping paths, we employ a curriculum learning strategy combined with reinforcement learning with verifiable rewards. This approach guides the model to sequentially learn the logic from need generation to category mapping and specific service selection. Extensive experiments demonstrate that our unified framework significantly enhances both living need prediction performance and recommendation accuracy, validating the effectiveness of jointly modeling living needs and user behaviors.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13801": {
+            "title": "DUET: Joint Exploration of User Item Profiles in Recommendation System",
+            "authors": "Yue Chen, Yifei Sun, Lu Wang, Fangkai Yang, Pu Zhao, Minjie Hong, Yifei Dong, Minghua He, Nan Hu, Jianjin Zhang, Zhiwei Dai, Yuefeng Zhan, Weihao Han, Hao Sun, Qingwei Lin, Weiwei Deng, Feng Sun, Qi Zhang, Saravan Rajmohan, Dongmei Zhang",
+            "first_author": "Yue Chen",
+            "url": "http://arxiv.org/abs/2604.13801v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13801",
+            "publish_date": "2026-04-15",
+            "abstract": "Traditional recommendation systems represent users and items as dense vectors and learn to align them in a shared latent space for relevance estimation. Recent LLM-based recommenders instead leverage natural-language representations that are easier to interpret and integrate with downstream reasoning modules. This paper studies how to construct effective textual profiles for users and items, and how to align them for recommendation. A central difficulty is that the best profile format is not known a priori: manually designed templates can be brittle and misaligned with task objectives. Moreover, generating user and item profiles independently may produce descriptions that are individually plausible yet semantically inconsistent for a specific user--item pair. We propose Duet, an interaction-aware profile generator that jointly produces user and item profiles conditioned on both user history and item evidence. Duet follows a three-stage procedure: it first turns raw histories and metadata into compact cues, then expands these cues into paired profile prompts and then generate profiles, and finally optimizes the generation policy with reinforcement learning using downstream recommendation performance as feedback. Experiments on three real-world datasets show that Duet consistently outperforms strong baselines, demonstrating the benefits of template-free profile exploration and joint user-item textual alignment.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13737": {
+            "title": "TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds",
+            "authors": "Yifeng Zhou, Yuehong Hu, Zhixiang Feng, Junwei Pan, Kaihui Wu, Hanyong Li, Shangyu Zhang, Shudong Huang, Zhangbin Zhu, Chengguo Yin, Haijie Gu, Jie Jiang",
+            "first_author": "Yifeng Zhou",
+            "url": "http://arxiv.org/abs/2604.13737v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13737",
+            "publish_date": "2026-04-15",
+            "abstract": "Recommender systems have historically developed along two largely independent paradigms: feature interaction models for modeling correlations among multi-field categorical features, and sequential models for capturing user behavior dynamics from historical interaction sequences. Although recent trends attempt to bridge these paradigms within shared backbones, we empirically reveal that naive unifying these two branches may lead to a failure mode of Sequential Collapse Propagation (SCP). That is, the interaction with those dimensionally ill non-sequence fields leads to the dimensional collapse of the sequence features. To overcome this challenge, we propose TokenFormer, a unified recommendation architecture with the following innovations. First, we introduce a Bottom-Full-Top-Sliding (BFTS) attention scheme, which applies full self-attention in the lower layers and shrinking-window sliding attention in the upper layers. Second, we introduce a Non-Linear Interaction Representation (NLIR) that applies one-sided non-linear multiplicative transformations to the hidden states. Extensive experiments on public benchmarks and Tencent's advertising platform demonstrate state-of-the-art performance, while detailed analysis confirm that TokenFormer significantly improves dimensional robustness and representation discriminability under unified modeling.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13665": {
+            "title": "RecNextEval: A Reference Implementation for Temporal Next-Batch Recommendation Evaluation",
+            "authors": "Tze-Kean Ng, Joshua Teng-Khing Khoo, Aixin Sun",
+            "first_author": "Tze-Kean Ng",
+            "url": "http://arxiv.org/abs/2604.13665v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13665",
+            "publish_date": "2026-04-15",
+            "abstract": "A good number of toolkits have been developed in Recommender Systems (RecSys) research to promote fair evaluation and reproducibility. However, recent critical examinations of RecSys evaluation protocols have raised concerns regarding the validity of existing evaluation pipelines. In this demonstration, we present RecNextEval, a reference implementation of an evaluation framework specifically designed for next-batch recommendation. RecNextEval utilizes a time-window data split to ensure models are evaluated along a global timeline, effectively minimizing data leakage. Our implementation highlights the inherent complexities of RecSys evaluation and encourages a shift toward model development that more accurately simulates production environments. The RecNextEval library and its accompanying GUI interface are open-source and publicly accessible.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13573": {
+            "title": "From Transfer to Collaboration: A Federated Framework for Cross-Market Sequential Recommendation",
+            "authors": "Jundong Chen, Honglei Zhang, Xiangmou Qu, Haoxuan Li, Han Yu, Yidong Li",
+            "first_author": "Jundong Chen",
+            "url": "http://arxiv.org/abs/2604.13573v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13573",
+            "publish_date": "2026-04-15",
+            "abstract": "Cross-market recommendation (CMR) aims to enhance recommendation performance across multiple markets. Due to its inherent characteristics, i.e., data isolation, non-overlapping users, and market heterogeneity, CMR introduces unique challenges and fundamentally differs from cross-domain recommendation (CDR). Existing CMR approaches largely inherit CDR by adopting the one-to-one transfer paradigm, where a model is pretrained on a source market and then fine-tuned on a target market. However, such a paradigm suffers from CH1. source degradation, where the source market sacrifices its own performance for the target markets, and CH2. negative transfer, where market heterogeneity leads to suboptimal performance in target markets. To address these challenges, we propose FeCoSR, a novel federated collaboration framework for cross-market sequential recommendation. Specifically, to tackle CH1, we introduce a many-to-many collaboration paradigm that enables all markets to jointly participate in and benefit from training. It consists of a federated pretraining stage for capturing shared behavior-level patterns, followed by local fine-tuning for market-specific item-level preferences. For CH2, we theoretically and empirically show that vanilla Cross-Entropy (CE) exacerbates market heterogeneity, undermining federated optimization. To address this, we propose a Semantic Soft Cross-Entropy (S^2CE) that leverages shared semantic information to facilitate collaborative behavioral learning across markets. Then, we design a market-specific adaptation module during fine-tuning to capture local item preferences. Extensive experiments on the real-world datasets demonstrate the advantages of FeCoSR over other methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13389": {
+            "title": "RoTE: Coarse-to-Fine Multi-Level Rotary Time Embedding for Sequential Recommendation",
+            "authors": "Haolin Zhang, Longtao Xiao, Guohao Cai, Ruixuan Li, Xiu Li",
+            "first_author": "Haolin Zhang",
+            "url": "http://arxiv.org/abs/2604.13389v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13389",
+            "publish_date": "2026-04-15",
+            "abstract": "Sequential recommendation models have been widely adopted for modeling user behavior. Existing approaches typically construct user interaction sequences by sorting items according to timestamps and then model user preferences from historical behaviors. While effective, such a process only considers the order of temporal information but overlooks the actual time spans between interactions, resulting in a coarse representation of users' temporal dynamics and limiting the model's ability to capture long-term and short-term interest evolution. To address this limitation, we propose RoTE, a novel multi-level temporal embedding module that explicitly models time span information in sequential recommendation. RoTE decomposes each interaction timestamp into multiple temporal granularities, ranging from coarse to fine, and incorporates the resulting temporal representations into item embeddings. This design enables models to capture heterogeneous temporal patterns and better perceive temporal distances among user interactions during sequence modeling. RoTE is a lightweight, plug-and-play module that can be seamlessly integrated into existing Transformer-based sequential recommendation models without modifying their backbone architectures. We apply RoTE to several representative models and conduct extensive experiments on three public benchmarks. Experimental results demonstrate that RoTE consistently enhances the corresponding backbone models, achieving up to a 20.11% improvement in NDCG@5, which confirms the effectiveness and generality of the proposed approach. Our code is available at https://github.com/XiaoLongtaoo/RoTE.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.13381": {
+            "title": "Young people's perceptions and recommendations for conversational generative artificial intelligence in youth mental health",
+            "authors": "Adam Poulsen, Ian B. Hickie, Carla Gorban, Zsofi de Haan, William Capon, Ebenezer Eyeson-Annan, Jalal Radwan, Elizabeth M. Scott, Frank Iorfino, Haley M. LaMonica",
+            "first_author": "Adam Poulsen",
+            "url": "http://arxiv.org/abs/2604.13381v1",
+            "pdf_url": "http://arxiv.org/abs/2604.13381",
+            "publish_date": "2026-04-15",
+            "abstract": "Conversational generative artificial intelligence agents (or genAI chatbots) could benefit youth mental health, yet young people's perspectives remain underexplored. We examined the Mental health Intelligence Agent (Mia), a genAI chatbot originally designed for professionals in Australian youth services. Following co-design, 32 young people participated in online workshops exploring their perceptions of genAI chatbots in youth mental health and to develop recommendations for reconceptualising Mia for consumers and integrating it into services. Four themes were developed: (1) Humanising AI without dehumanising care, (2) I need to know what's under the hood, (3) Right tool, right place, right time?, and (4) Making it mine on safe ground. This study offers insights into young people's attitudes, needs, and requirements regarding genAI chatbots in youth mental health, with key implications for service integration. Additionally, by co-designing system requirements, this work informs the ethics, design, development, implementation, and governance of genAI chatbots in youth mental health contexts.",
+            "primary_category": "cs.HC",
             "code_url": "null"
         }
     }
