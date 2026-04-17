@@ -13232,6 +13232,127 @@
             "abstract": "Conversational generative artificial intelligence agents (or genAI chatbots) could benefit youth mental health, yet young people's perspectives remain underexplored. We examined the Mental health Intelligence Agent (Mia), a genAI chatbot originally designed for professionals in Australian youth services. Following co-design, 32 young people participated in online workshops exploring their perceptions of genAI chatbots in youth mental health and to develop recommendations for reconceptualising Mia for consumers and integrating it into services. Four themes were developed: (1) Humanising AI without dehumanising care, (2) I need to know what's under the hood, (3) Right tool, right place, right time?, and (4) Making it mine on safe ground. This study offers insights into young people's attitudes, needs, and requirements regarding genAI chatbots in youth mental health, with key implications for service integration. Additionally, by co-designing system requirements, this work informs the ethics, design, development, implementation, and governance of genAI chatbots in youth mental health contexts.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2604.14972": {
+            "title": "SAGER: Self-Evolving User Policy Skills for Recommendation Agent",
+            "authors": "Zhen Tao, Riwei Lai, Chenyun Yu, Weixin Chen, Li Chen, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Qingqiang Sun",
+            "first_author": "Zhen Tao",
+            "url": "http://arxiv.org/abs/2604.14972v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14972",
+            "publish_date": "2026-04-16",
+            "abstract": "Large language model (LLM) based recommendation agents personalize what they know through evolving per-user semantic memory, yet how they reason remains a universal, static system prompt shared identically across all users. This asymmetry is a fundamental bottleneck: when a recommendation fails, the agent updates its memory of user preferences but never interrogates the decision logic that produced the failure, leaving its reasoning process structurally unchanged regardless of how many mistakes it accumulates. To address this bottleneck, we propose SAGER (Self-Evolving Agent for Personalized Recommendation), the first recommendation agent framework in which each user is equipped with a dedicated policy skill, a structured natural-language document encoding personalized decision principles that evolves continuously through interaction. SAGER introduces a two-representation skill architecture that decouples a rich evolution substrate from a minimal inference-time injection, an incremental contrastive chain-of-thought engine that diagnoses reasoning flaws by contrasting accepted against unchosen items while preserving accumulated priors, and skill-augmented listwise reasoning that creates fine-grained decision boundaries where the evolved skill provides genuine discriminative value. Experiments on four public benchmarks demonstrate that SAGER achieves state-of-the-art performance, with gains orthogonal to memory accumulation, confirming that personalizing the reasoning process itself is a qualitatively distinct source of recommendation improvement.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14878": {
+            "title": "GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation",
+            "authors": "Yanyan Zou, Junbo Qi, Lunsong Huang, Yu Li, Kewei Xu, Jiabao Gao, Binglei Zhao, Xuanhua Yang, Sulong Xu, Shengjie Li",
+            "first_author": "Yanyan Zou",
+            "url": "http://arxiv.org/abs/2604.14878v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14878",
+            "publish_date": "2026-04-16",
+            "abstract": "Generative Retrieval (GR) offers a promising paradigm for recommendation through next-token prediction (NTP). However, scaling it to large-scale industrial systems introduces three challenges: (i) within a single request, the identical model inputs may produce inconsistent outputs due to the pagination request mechanism; (ii) the prohibitive cost of encoding long user behavior sequences with multi-token item representations based on semantic IDs, and (iii) aligning the generative policy with nuanced user preference signals. We present GenRec, a preference-oriented generative framework deployed on the JD App that addresses above challenges within a single decoder-only architecture. For training objective, we propose Page-wise NTP task, which supervises over an entire interaction page rather than each interacted item individually, providing denser gradient signal and resolving the one-to-many ambiguity of point-wise training. On the prefilling side, an asymmetric linear Token Merger compresses multi-token Semantic IDs in the prompt while preserving full-resolution decoding, reducing input length by ~2X with negligible accuracy loss. To further align outputs with user satisfaction, we introduce GRPO-SR, a reinforcement learning method that pairs Group Relative Policy Optimization with NLL regularization for training stability, and employs Hybrid Rewards combining a dense reward model with a relevance gate to mitigate reward hacking. In month-long online A/B tests serving production traffic, GenRec achieves 9.5% improvement in click count and 8.7% in transaction count over the existing pipeline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14839": {
+            "title": "Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation",
+            "authors": "Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Jianheng Tang, Wei Wang, Xiping Hu, Edith C. H. Ngai",
+            "first_author": "Jinfeng Xu",
+            "url": "http://arxiv.org/abs/2604.14839v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14839",
+            "publish_date": "2026-04-16",
+            "abstract": "Recent advancements in multimodal recommendations, which leverage diverse modality information to mitigate data sparsity and improve recommendation accuracy, have gained significant attention. However, existing multimodal recommendations overlook the critical role of user representation initialization. Unlike items, which are naturally associated with rich modality information, users lack such inherent information. Consequently, item representations initialized based on meaningful modality information and user representations initialized randomly exhibit a significant semantic gap.   To this end, we propose a Semantically Guaranteed User Representation Initialization (SG-URInit). SG-URInit constructs the initial representation for each user by integrating both the modality features of the items they have interacted with and the global features of their corresponding clusters. SG-URInit enables the initialization of semantically enriched user representations that effectively capture both local (item-level) and global (cluster-level) semantics.   Our SG-URInit is training-free and model-agnostic, meaning it can be seamlessly integrated into existing multimodal recommendation models without incurring any additional computational overhead during training. Extensive experiments on multiple real-world datasets demonstrate that incorporating SG-URInit into advanced multimodal recommendation models significantly enhances recommendation performance. Furthermore, the results show that SG-URInit can further alleviate the item cold-start problem and also accelerate model convergence, making it an efficient and practical solution for multimodal recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14833": {
+            "title": "Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation",
+            "authors": "Lei Guo, Hongyun Yang, Pengjie Ren, Tong Chen, Hui Liu, Zhumin Chen",
+            "first_author": "Lei Guo",
+            "url": "http://arxiv.org/abs/2604.14833v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14833",
+            "publish_date": "2026-04-16",
+            "abstract": "Large Language Models have shown great success in recommender systems. However, the limited and sparse nature of user data often restricts the LLM's ability to effectively model behavior patterns. To address this, existing studies have explored cross-domain solutions by conducting Cross-Domain Recommendation tasks. But previous methods typically assume domains are overlapped and can be accessed readily. None of the LLM methods address the privacy-preserving issues in the CDR settings, that is, Privacy-Preserving Cross-Domain Recommendation. Conducting non-overlapping PPCDR with LLM is challenging since: 1)The inability to share user identity or behavioral data across domains impedes effective cross-domain alignment. 2)The heterogeneity of data modalities across domains complicates knowledge integration. 3)Fusing collaborative filtering signals from traditional recommendation models with LLMs is difficult, as they operate within distinct feature spaces. To address the above issues, we propose SF-UBM, a Semantic-enhanced Federated User Behavior Modeling method. Specifically, to deal with Challenge 1, we leverage natural language as a universal bridge to connect disjoint domains via a semantic-enhanced federated architecture. Here, text-based item representations are encrypted and shared, while user-specific data remains local. To handle Challenge 2, we design a Fact-counter Knowledge Distillation module to integrate domain-agnostic knowledge with domain-specific knowledge, across different data modalities. To tackle Challenge 3, we project pre-learned user preferences and cross-domain item representations into the soft prompt space, aligning behavioral and semantic spaces for effective LLM learning. We conduct extensive experiments on three pairs of real-world domains, and the experimental results demonstrate the effectiveness of SF-UBM compared to the recent SOTA methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14832": {
+            "title": "Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations",
+            "authors": "Pooriya Jamie, Amir Ghasemian, Homa Hosseinmardi",
+            "first_author": "Pooriya Jamie",
+            "url": "http://arxiv.org/abs/2604.14832v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14832",
+            "publish_date": "2026-04-16",
+            "abstract": "Recommender systems on social media increasingly mediate how users encounter mental health content, yet it remains unclear whether they distinguish help-seeking from distress expression. We conduct a controlled 7-day audit of TikTok's \"For You\" page using 30 fresh accounts and LLM-guided agents that vary initial search framing (distress- vs. help-initiated) and interaction strategy (engaged, avoidant, passive). Across 8,727 recommended videos, interaction behavior dominates exposure outcomes: engagement rapidly saturates feeds with mental health content (~45% of daily recommendations), while avoidance and passive viewing reduce but do not eliminate exposure (~11-20%). Search framing mainly shifts composition rather than volume--help-initiated searches yield more potentially supportive material, yet potentially harmful content persists at low but non-zero levels, including content in the Suicide/Self-Harm category. These findings suggest limited sensitivity to user intent signals in TikTok's recommendations and motivate context-aware safeguards for sensitive topics.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2604.14613": {
+            "title": "Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion",
+            "authors": "Xiangrui Xiong, Hang Liang, Baiyang Chen, Zifei Pan, Yanli Lee",
+            "first_author": "Xiangrui Xiong",
+            "url": "http://arxiv.org/abs/2604.14613v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14613",
+            "publish_date": "2026-04-16",
+            "abstract": "Learning Path Recommendation (LPR) is critical for personalized education, yet current methods often fail to account for historical interaction uncertainty (e.g., lucky guesses or accidental slips) and lack adaptability to diverse learning goals. We propose U-GLAD (Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion). To address representation bias, the framework models cognitive states as probability distributions, capturing the learner's underlying true state via a Gaussian LSTM. To ensure highly personalized recommendation, a goal-oriented concept encoder utilizes multi-head attention and objective-specific transformations to dynamically align concept semantics with individual learning goals, generating uniquely tailored embeddings. Unlike traditional discriminative ranking approaches, our model employs a generative diffusion model to predict the latent representation of the next optimal concept. Extensive evaluations on three public datasets demonstrate that U-GLAD significantly outperforms representative baselines. Further analyses confirm its superior capability in perceiving interaction uncertainty and providing stable, goal-driven recommendation paths.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14598": {
+            "title": "Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework",
+            "authors": "Xiping Li, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yutong Wang",
+            "first_author": "Xiping Li",
+            "url": "http://arxiv.org/abs/2604.14598v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14598",
+            "publish_date": "2026-04-16",
+            "abstract": "In recent years, the video game industry has experienced substantial growth, presenting players with a vast array of game choices. This surge in options has spurred the need for a specialized recommender system tailored for video games. However, current video game recommendation approaches tend to prioritize accuracy over diversity, potentially leading to unvaried game suggestions. In addition, the existing game recommendation methods commonly lack the ability to establish strict connections between games to enhance accuracy. Furthermore, many existing diversity-focused methods fail to leverage crucial item information, such as item category and popularity during neighbor modeling and message propagation. To address these challenges, we introduce a novel framework, called CPGRec, comprising three modules, namely accuracy-driven, diversity-driven, and comprehensive modules. The first module extends the state-of-the-art accuracy-focused game recommendation method by connecting games in a more stringent manner to enhance recommendation accuracy. The second module connects neighbors with diverse categories within the proposed game graph and harnesses the advantages of popular game nodes to amplify the influence of long-tail games within the player-game bipartite graph, thereby enriching recommendation diversity. The third module combines the above two modules and employs a new negative-sample rating score reweighting method to balance accuracy and diversity. Experimental results on the Steam dataset demonstrate the effectiveness of our proposed method in improving game recommendations. The dataset and source codes are anonymously released at: https://github.com/CPGRec2024/CPGRec.git.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14586": {
+            "title": "CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations",
+            "authors": "Xiping Li, Aier Yang, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yi Zhao",
+            "first_author": "Xiping Li",
+            "url": "http://arxiv.org/abs/2604.14586v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14586",
+            "publish_date": "2026-04-16",
+            "abstract": "The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape. Existing Graph Neural Network (GNN)-based methods primarily prioritize accuracy over diversity, overlooking their inherent trade-off. To address this, we previously proposed CPGRec, a balance-oriented gaming recommender system. However, CPGRec fails to account for critical disparities in player-game interactions, which carry varying significance in reflecting players' personal preferences and may exacerbate over-smoothness issues inherent in GNN-based models. Moreover, existing approaches underutilize the reasoning capabilities and extensive knowledge of large language models (LLMs) in addressing these limitations. To bridge this gap, we propose two new modules. First, Preference-informed Edge Reweighting (PER) module assigns signed edge weights to qualitatively distinguish significant player interests and disinterests while then quantitatively measuring preference strength to mitigate over-smoothing in graph convolutions. Second, Preference-informed Representation Generation (PRG) module leverages LLMs to generate contextualized descriptions of games and players by reasoning personal preferences from comparing global and personal interests, thereby refining representations of players and games. Experiments on \\textcolor{black}{two Steam datasets} demonstrate CPGRec+'s superior accuracy and diversity over state-of-the-art models. The code is accessible at https://github.com/HsipingLi/CPGRec-Plus.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14581": {
+            "title": "Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation",
+            "authors": "Jing Xiao, Dongqi Wu, Liwei Pan, Yawen Luo, Weike Pan, Zhong Ming",
+            "first_author": "Jing Xiao",
+            "url": "http://arxiv.org/abs/2604.14581v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14581",
+            "publish_date": "2026-04-16",
+            "abstract": "Heterogeneous sequential recommendation (HSR) aims to learn dynamic behavior dependencies from the diverse behaviors of user-item interactions to facilitate precise sequential recommendation. Despite many efforts yielding promising achievements, there are still challenges in modeling heterogeneous behavior data. One significant issue is the inherent sparsity of a real-world data, which can weaken the recommendation performance. Although auxiliary behaviors (e.g., clicks) partially address this problem, they inevitably introduce some noise, and the sparsity of the target behavior (e.g., purchases) remains unresolved. Additionally, contrastive learning-based augmentation in existing methods often focuses on a single behavior type, overlooking fine-grained user preferences and losing valuable information. To address these challenges, we have meticulously designed a behavior-aware dual-channel preference learning framework (BDPL). This framework begins with the construction of customized behavior-aware subgraphs to capture personalized behavior transition relationships, followed by a novel cascade-structured graph neural network to aggregate node context information. We then model and enhance user representations through a preference-level contrastive learning paradigm, considering both long-term and short-term preferences. Finally, we fuse the overall preference information using an adaptive gating mechanism to predict the next item the user will interact with under the target behavior. Extensive experiments on three real-world datasets demonstrate the superiority of our BDPL over the state-of-the-art models.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14510": {
+            "title": "NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation",
+            "authors": "Rongyao Wang, Veronica Liesaputra, Zhiyi Huang",
+            "first_author": "Rongyao Wang",
+            "url": "http://arxiv.org/abs/2604.14510v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14510",
+            "publish_date": "2026-04-16",
+            "abstract": "News recommender systems are devised to alleviate the information overload, attracting more and more researchers' attention in recent years. The lack of a dedicated learner-oriented news recommendation toolkit hinders the advancement of research in news recommendation. We propose a PyTorch-based news recommendation toolkit called NewsTorch, developed to support learners in acquiring both conceptual understanding and practical experience. This toolkit provides a modular, decoupled, and extensible framework with a learner-friendly GUI platform that supports dataset downloading and preprocessing. It also enables training, validation, and testing of state-of-the-art neural news recommendation models with standardized evaluation metrics, ensuring fair comparison and reproducible experiments. Our open-source toolkit is released on Github: https://github.com/whonor/NewsTorch.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.14223": {
+            "title": "TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations",
+            "authors": "Ashmi Banerjee, Adithi Satish, Wolfgang W\u00f6rndl, Yashar Deldjoo",
+            "first_author": "Ashmi Banerjee",
+            "url": "http://arxiv.org/abs/2604.14223v1",
+            "pdf_url": "http://arxiv.org/abs/2604.14223",
+            "publish_date": "2026-04-14",
+            "abstract": "Traditional conversational travel recommender systems primarily optimize for user relevance and convenience, often reinforcing popular, overcrowded destinations and carbon-intensive travel choices. To address this, we present TRACE (Tourism Recommendation with Agentic Counterfactual Explanations), a multi-agent, LLM-based framework that promotes sustainable tourism through interactive nudging. TRACE uses a modular orchestrator-worker architecture where specialized agents elicit latent sustainability preferences, construct structured user personas, and generate recommendations that balance relevance with environmental impact.   A key innovation lies in its use of agentic counterfactual explanations and LLM-driven clarifying questions, which together surface greener alternatives and refine understanding of intent, fostering user reflection without coercion. User studies and semantic alignment analyses demonstrate that TRACE effectively supports sustainable decision-making while preserving recommendation quality and interactive responsiveness. TRACE is implemented on Google's Agent Development Kit, with full code, Docker setup, prompts, and a publicly available demo video to ensure reproducibility.   A project summary, including all resources, prompts, and demo access, is available at https://ashmibanerjee.github.io/trace-chatbot.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

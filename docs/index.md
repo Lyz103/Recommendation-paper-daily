@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-04-16
+## Updated on 2026-04-17
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,17 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-16 | **SAGER: Self-Evolving User Policy Skills for Recommendation Agent** | Zhen Tao, Riwei Lai, Chenyun Yu, Weixin Chen, Li Chen, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Qingqiang Sun | [Link](http://arxiv.org/abs/2604.14972) | Not Available |
+| 2026-04-16 | **GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation** | Yanyan Zou, Junbo Qi, Lunsong Huang, Yu Li, Kewei Xu, Jiabao Gao, Binglei Zhao, Xuanhua Yang, Sulong Xu, Shengjie Li | [Link](http://arxiv.org/abs/2604.14878) | Not Available |
+| 2026-04-16 | **Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Jianheng Tang, Wei Wang, Xiping Hu, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2604.14839) | Not Available |
+| 2026-04-16 | **Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation** | Lei Guo, Hongyun Yang, Pengjie Ren, Tong Chen, Hui Liu, Zhumin Chen | [Link](http://arxiv.org/abs/2604.14833) | Not Available |
+| 2026-04-16 | **Seeking Help, Facing Harm: Auditing TikTok's Mental Health Recommendations** | Pooriya Jamie, Amir Ghasemian, Homa Hosseinmardi | [Link](http://arxiv.org/abs/2604.14832) | Not Available |
+| 2026-04-16 | **Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion** | Xiangrui Xiong, Hang Liang, Baiyang Chen, Zifei Pan, Yanli Lee | [Link](http://arxiv.org/abs/2604.14613) | Not Available |
+| 2026-04-16 | **Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework** | Xiping Li, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yutong Wang | [Link](http://arxiv.org/abs/2604.14598) | Not Available |
+| 2026-04-16 | **CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations** | Xiping Li, Aier Yang, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yi Zhao | [Link](http://arxiv.org/abs/2604.14586) | Not Available |
+| 2026-04-16 | **Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation** | Jing Xiao, Dongqi Wu, Liwei Pan, Yawen Luo, Weike Pan, Zhong Ming | [Link](http://arxiv.org/abs/2604.14581) | Not Available |
+| 2026-04-16 | **NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation** | Rongyao Wang, Veronica Liesaputra, Zhiyi Huang | [Link](http://arxiv.org/abs/2604.14510) | Not Available |
+| 2026-04-14 | **TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations** | Ashmi Banerjee, Adithi Satish, Wolfgang Wörndl, Yashar Deldjoo | [Link](http://arxiv.org/abs/2604.14223) | Not Available |
 | 2026-04-15 | **ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation** | Xiaofan Zhou, Kyumin Lee | [Link](http://arxiv.org/abs/2604.14114) | Not Available |
 | 2026-04-15 | **Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model** | Shiteng Cao, Xiaochong Lan, Yuwei Du, Jie Feng, Yinxing Liu, Xinlei Shi, Yong Li | [Link](http://arxiv.org/abs/2604.14051) | Not Available |
 | 2026-04-15 | **DUET: Joint Exploration of User Item Profiles in Recommendation System** | Yue Chen, Yifei Sun, Lu Wang, Fangkai Yang, Pu Zhao, Minjie Hong, Yifei Dong, Minghua He, Nan Hu, Jianjin Zhang, Zhiwei Dai, Yuefeng Zhan, Weihao Han, Hao Sun, Qingwei Lin, Weiwei Deng, Feng Sun, Qi Zhang, Saravan Rajmohan, Dongmei Zhang | [Link](http://arxiv.org/abs/2604.13801) | Not Available |
