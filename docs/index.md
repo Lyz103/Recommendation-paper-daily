@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-04-19
+## Updated on 2026-04-20
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,9 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-17 | **Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation** | Xibo Li, Liang Zhang | [Link](http://arxiv.org/abs/2604.16121) | Not Available |
+| 2026-04-17 | **Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation** | Nicolò Pagan, Christopher Barrie, Chris Andrew Bail, Petter Törnberg | [Link](http://arxiv.org/abs/2604.15937) | Not Available |
+| 2026-04-17 | **On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note** | Yusheng Huang, Shuang Yang, Zhaojie Liu, Han Li | [Link](http://arxiv.org/abs/2604.15739) | Not Available |
 | 2026-04-16 | **SAGER: Self-Evolving User Policy Skills for Recommendation Agent** | Zhen Tao, Riwei Lai, Chenyun Yu, Weixin Chen, Li Chen, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Qingqiang Sun | [Link](http://arxiv.org/abs/2604.14972) | Not Available |
 | 2026-04-16 | **GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation** | Yanyan Zou, Junbo Qi, Lunsong Huang, Yu Li, Kewei Xu, Jiabao Gao, Binglei Zhao, Xuanhua Yang, Sulong Xu, Shengjie Li | [Link](http://arxiv.org/abs/2604.14878) | Not Available |
 | 2026-04-16 | **Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Hewei Wang, Jianheng Tang, Wei Wang, Xiping Hu, Edith C. H. Ngai | [Link](http://arxiv.org/abs/2604.14839) | Not Available |

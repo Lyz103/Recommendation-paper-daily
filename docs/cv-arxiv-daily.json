@@ -12962,7 +12962,7 @@
             "title": "Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation",
             "authors": "Yantao Yu, Sen Qiao, Lei Shen, Bing Wang, Xiaoyi Zeng",
             "first_author": "Yantao Yu",
-            "url": "http://arxiv.org/abs/2604.08011v1",
+            "url": "http://arxiv.org/abs/2604.08011v2",
             "pdf_url": "http://arxiv.org/abs/2604.08011",
             "publish_date": "2026-04-09",
             "abstract": "Recent progress in scaling large models has motivated recommender systems to increase model depth and capacity to better leverage massive behavioral data. However, recommendation inputs are high-dimensional and extremely sparse, and simply scaling dense backbones (e.g., deep MLPs) often yields diminishing returns or even performance degradation. Our analysis of industrial CTR models reveals a phenomenon of implicit connection sparsity: most learned connection weights tend towards zero, while only a small fraction remain prominent. This indicates a structural mismatch between dense connectivity and sparse recommendation data; by compelling the model to process vast low-utility connections instead of valid signals, the dense architecture itself becomes the primary bottleneck to effective pattern modeling. We propose \\textbf{SSR} (Explicit \\textbf{S}parsity for \\textbf{S}calable \\textbf{R}ecommendation), a framework that incorporates sparsity explicitly into the architecture. SSR employs a multi-view \"filter-then-fuse\" mechanism, decomposing inputs into parallel views for dimension-level sparse filtering followed by dense fusion. Specifically, we realize the sparsity via two strategies: a Static Random Filter that achieves efficient structural sparsity via fixed dimension subsets, and Iterative Competitive Sparse (ICS), a differentiable dynamic mechanism that employs bio-inspired competition to adaptively retain high-response dimensions. Experiments on three public datasets and a billion-scale industrial dataset from AliExpress (a global e-commerce platform) show that SSR outperforms state-of-the-art baselines under similar budgets. Crucially, SSR exhibits superior scalability, delivering continuous performance gains where dense models saturate.",
@@ -13351,6 +13351,39 @@
             "pdf_url": "http://arxiv.org/abs/2604.14223",
             "publish_date": "2026-04-14",
             "abstract": "Traditional conversational travel recommender systems primarily optimize for user relevance and convenience, often reinforcing popular, overcrowded destinations and carbon-intensive travel choices. To address this, we present TRACE (Tourism Recommendation with Agentic Counterfactual Explanations), a multi-agent, LLM-based framework that promotes sustainable tourism through interactive nudging. TRACE uses a modular orchestrator-worker architecture where specialized agents elicit latent sustainability preferences, construct structured user personas, and generate recommendations that balance relevance with environmental impact.   A key innovation lies in its use of agentic counterfactual explanations and LLM-driven clarifying questions, which together surface greener alternatives and refine understanding of intent, fostering user reflection without coercion. User studies and semantic alignment analyses demonstrate that TRACE effectively supports sustainable decision-making while preserving recommendation quality and interactive responsiveness. TRACE is implemented on Google's Agent Development Kit, with full code, Docker setup, prompts, and a publicly available demo video to ensure reproducibility.   A project summary, including all resources, prompts, and demo access, is available at https://ashmibanerjee.github.io/trace-chatbot.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.16121": {
+            "title": "Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation",
+            "authors": "Xibo Li, Liang Zhang",
+            "first_author": "Xibo Li",
+            "url": "http://arxiv.org/abs/2604.16121v1",
+            "pdf_url": "http://arxiv.org/abs/2604.16121",
+            "publish_date": "2026-04-17",
+            "abstract": "Test-time augmentation (TTA) has become a promising approach for mitigating data sparsity in sequential recommendation by improving inference accuracy without requiring costly model retraining. However, existing TTA methods typically rely on uniform, user-agnostic augmentation strategies. We show that this \"one-size-fits-all\" design is inherently suboptimal, as it neglects substantial behavioral heterogeneity across users, and empirically demonstrate that the optimal augmentation operators vary significantly across user sequences with different characteristics for the first time. To address this limitation, we propose AdaTTA, a plug-and-play reinforcement learning-based adaptive inference framework that learns to select sequence-specific augmentation operators on a per-sequence basis. We formulate augmentation selection as a Markov Decision Process and introduce an Actor-Critic policy network with hybrid state representations and a joint macro-rank reward design to dynamically determine the optimal operator for each input user sequence. Extensive experiments on four real-world datasets and two recommendation backbones demonstrate that AdaTTA consistently outperforms the best fixed-strategy baselines, achieving up to 26.31% relative improvement on the Home dataset while incurring only moderate computational overhead",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.15937": {
+            "title": "Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation",
+            "authors": "Nicol\u00f2 Pagan, Christopher Barrie, Chris Andrew Bail, Petter T\u00f6rnberg",
+            "first_author": "Nicol\u00f2 Pagan",
+            "url": "http://arxiv.org/abs/2604.15937v1",
+            "pdf_url": "http://arxiv.org/abs/2604.15937",
+            "publish_date": "2026-04-17",
+            "abstract": "Large Language Models (LLMs) are increasingly deployed to curate and rank human-created content, yet the nature and structure of their biases in these tasks remains poorly understood: which biases are robust across providers and platforms, and which can be mitigated through prompt design. We present a controlled simulation study mapping content selection biases across three major LLM providers (OpenAI, Anthropic, Google) on real social media datasets from Twitter/X, Bluesky, and Reddit, using six prompting strategies (\\textit{general}, \\textit{popular}, \\textit{engaging}, \\textit{informative}, \\textit{controversial}, \\textit{neutral}). Through 540,000 simulated top-10 selections from pools of 100 posts across 54 experimental conditions, we find that biases differ substantially in how structural and how prompt-sensitive they are. Polarization is amplified across all configurations, toxicity handling shows a strong inversion between engagement- and information-focused prompts, and sentiment biases are predominantly negative. Provider comparisons reveal distinct trade-offs: GPT-4o Mini shows the most consistent behavior across prompts; Claude and Gemini exhibit high adaptivity in toxicity handling; Gemini shows the strongest negative sentiment preference. On Twitter/X, where author demographics can be inferred from profile bios, political leaning bias is the clearest demographic signal: left-leaning authors are systematically over-represented despite right-leaning authors forming the pool plurality in the dataset, and this pattern largely persists across prompts.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2604.15739": {
+            "title": "On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note",
+            "authors": "Yusheng Huang, Shuang Yang, Zhaojie Liu, Han Li",
+            "first_author": "Yusheng Huang",
+            "url": "http://arxiv.org/abs/2604.15739v1",
+            "pdf_url": "http://arxiv.org/abs/2604.15739",
+            "publish_date": "2026-04-17",
+            "abstract": "Generative recommendation (GR) has emerged as a widely adopted paradigm in industrial sequential recommendation. Current GR systems follow a similar pipeline: tokenization for item indexing, next-token prediction as the training objective and auto-regressive decoding for next-item generation. However, existing GR research mainly focuses on architecture design and empirical performance optimization, with few rigorous theoretical explanations for the working mechanism of auto-regressive next-token prediction in recommendation scenarios.   In this work, we formally prove that \\textbf{the k-token auto-regressive next-token prediction (AR-NTP) paradigm is strictly mathematically equivalent to full-item-vocabulary maximum likelihood estimation (FV-MLE)}, under the core premise of a bijective mapping between items and their corresponding k-token sequences. We further show that this equivalence holds for both cascaded and parallel tokenizations, the two most widely used schemes in industrial GR systems. Our result provides the first formal theoretical foundation for the dominant industrial GR paradigm, and offers principled guidance for future GR system optimization.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
