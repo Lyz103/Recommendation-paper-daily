@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-04-21
+## Updated on 2026-04-22
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,11 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-21 | **CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation** | Qian Zhang, Lech Szymanski, Haibo Zhang, Jeremiah D. Deng | [Link](http://arxiv.org/abs/2604.19414) | Not Available |
+| 2026-04-21 | **CS3: Efficient Online Capability Synergy for Two-Tower Recommendation** | Lixiang Wang, Shaoyun Shi, Peng Wang, Wenjin Wu, Peng Jiang | [Link](http://arxiv.org/abs/2604.19269) | Not Available |
+| 2026-04-21 | **GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking** | Siqi Liang, Xiawei Wang, Yudi Zhang, Jiaying Zhou | [Link](http://arxiv.org/abs/2604.19128) | Not Available |
+| 2026-04-20 | **Multi-LLM Token Filtering and Routing for Sequential Recommendation** | Wuhan Chen, Min Gao, Xin Xia, Zongwei Wang, Wentao Li, Shane Culpepper | [Link](http://arxiv.org/abs/2604.18200) | Not Available |
+| 2026-04-20 | **Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations** | Yunjia Xi, Menghui Zhu, Jianghao Lin, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang | [Link](http://arxiv.org/abs/2604.18146) | Not Available |
 | 2026-04-20 | **FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion** | Lei Guo, Ting Yang, Hui Liu, Xu Yu, Xiaohui Han, Xinhua Wang | [Link](http://arxiv.org/abs/2604.17681) | Not Available |
 | 2026-04-20 | **MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature** | Md Toyaha Rahman Ratul, Zhiqian Chen, Kaiqun Fu, Taoran Ji, Lei Zhang | [Link](http://arxiv.org/abs/2604.17680) | Not Available |
 | 2026-04-19 | **Transparent and Controllable Recommendation Filtering via Multimodal Multi-Agent Collaboration** | Chi Zhang, Zhipeng Xu, Jiahao Liu, Dongsheng Li, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](http://arxiv.org/abs/2604.17459) | Not Available |
@@ -52,7 +57,7 @@ Check out our exciting new papers:
 | 2026-04-14 | **Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation** | Dongqi Fu, Kaushik Rangadurai, Haiyu Lu, Yunchen Pu, Siyang Yuan, Minhui Huang, Yiqun Liu, Golnaz Ghasemiesfeh, Xingfeng He, Fangzhou Xu, Andrew Cui, Vidhoon Viswanathan, Lin Yang, Liang Wang, Jiyan Yang, Chonglin Sun | [Link](http://arxiv.org/abs/2604.12965) | Not Available |
 | 2026-04-14 | **Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation** | Sayak Chakrabarty, Souradip Pal | [Link](http://arxiv.org/abs/2604.12372) | Not Available |
 | 2026-04-14 | **Identifying and Mitigating Gender Cues in Academic Recommendation Letters: An Interpretability Case Study** | Charlotte S. Alexander, Shane Storks, Souradip Pal, Sayak Chakrabarty, Arushi Sharma, Mlen-Too Wesley, Bailey Russo | [Link](http://arxiv.org/abs/2604.12337) | Not Available |
-| 2026-04-14 | **UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute** | Ziliang Wang, Gaoyun Lin, Xuesi Wang, Shaoqiang Liang, Yili Huang, Weijie Bian | [Link](http://arxiv.org/abs/2604.12234) | Not Available |
+| 2026-04-14 | **UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute** | Ziliang Wang, Gaoyun Lin, Xuesi Wang, Shaoqiang Liang, Yili Huang, Weijie Bian, Li Zhang, Mingchen Cai, Jian Dong, Guanxing Zhang | [Link](http://arxiv.org/abs/2604.12234) | Not Available |
 | 2026-04-13 | **WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semantic Correctness for Ontology Reuse and Ontology Recommendations** | Aryan Singh Dalal, Maria Baloch, Asiyah Yu Lin, Anna Maria Masci, Kathleen M. Jagodnik, Hande Kucuk McGinty | [Link](http://arxiv.org/abs/2604.12025) | Not Available |
 | 2026-04-13 | **R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation** | Qiang Wan, Ze Yang, Dawei Yang, Ying Fan, Xin Yan, Siyang Liu | [Link](http://arxiv.org/abs/2604.11440) | Not Available |
 | 2026-04-12 | **Participatory, not Punitive: Student-Driven AI Policy Recommendations in a Design Classroom** | Kaoru Seki, Manisha Vijay, Yasmine Kotturi | [Link](http://arxiv.org/abs/2604.10851) | Not Available |
