@@ -1,4 +1,4 @@
-## Updated on 2026-04-22
+## Updated on 2026-04-23
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,10 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-22 | **Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation** | Dongding Lin, Jian Wang, Yongqi Li, Wenjie Li | [Link](http://arxiv.org/abs/2604.20749) | Not Available |
+| 2026-04-22 | **Combining opinion and structural similarity in link recommendations to counter extreme polarization** | Gabriella D. Franco, Marta C. Couto, Vítor V. Vasconcelos, Fernando P. Santos | [Link](http://arxiv.org/abs/2604.20641) | Not Available |
+| 2026-04-21 | **Weighted Holm Procedures: Theory, Properties, and Recommendations** | Beibei Li, Wenge Guo | [Link](http://arxiv.org/abs/2604.20016) | Not Available |
+| 2026-04-07 | **SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation** | Hao Liu, Dongyu Li | [Link](http://arxiv.org/abs/2604.19793) | Not Available |
 | 2026-04-21 | **CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation** | Qian Zhang, Lech Szymanski, Haibo Zhang, Jeremiah D. Deng | [Link](http://arxiv.org/abs/2604.19414) | Not Available |
 | 2026-04-21 | **CS3: Efficient Online Capability Synergy for Two-Tower Recommendation** | Lixiang Wang, Shaoyun Shi, Peng Wang, Wenjin Wu, Peng Jiang | [Link](http://arxiv.org/abs/2604.19269) | Not Available |
 | 2026-04-21 | **GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking** | Siqi Liang, Xiawei Wang, Yudi Zhang, Jiaying Zhou | [Link](http://arxiv.org/abs/2604.19128) | Not Available |
