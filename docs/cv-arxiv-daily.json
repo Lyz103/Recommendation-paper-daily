@@ -13595,6 +13595,28 @@
             "abstract": "LLM agents must select tools from large API libraries and order them correctly. Existing methods use semantic similarity for both retrieval and ordering, but ordering depends on inter-tool data dependencies that are absent from tool descriptions. As a result, semantic-only methods can produce negative Kendall-$\u03c4$ in structured workflow domains. We introduce SkillGraph, a directed weighted execution-transition graph mined from 49,831 successful LLM agent trajectories, which encodes workflow-precedence regularities as a reusable graph foundation prior. Building on this graph foundation prior, we propose a two-stage decoupled framework: GS-Hybrid retrieval for candidate selection and a learned pairwise reranker for ordering. On ToolBench (9,965 test instances; ~16,000 tools), the method reaches Set-F1 = 0.271 and Kendall-$\u03c4$ = 0.096; on API-Bank, Kendall-$\u03c4$ improves from -0.433 to +0.613. Under identical Stage-1 inputs, the learned reranker also outperforms LLaMA-3.1-8B Stage-2 rerankers.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2604.21305": {
+            "title": "WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation",
+            "authors": "Peilin Liu, Zhiquan Ji, Gang Yan",
+            "first_author": "Peilin Liu",
+            "url": "http://arxiv.org/abs/2604.21305v1",
+            "pdf_url": "http://arxiv.org/abs/2604.21305",
+            "publish_date": "2026-04-23",
+            "abstract": "Sequential recommendation aims to model users' evolving interests from noisy and non-stationary interaction streams, where long-term preferences, short-term intents, and localized behavioral fluctuations may coexist across temporal scales. Existing frequency-domain methods mainly rely on either global spectral operations or filter-based wavelet processing. However, global spectral operations tend to entangle local transients with long-range dependencies, while filter-based wavelet pipelines may suffer from temporal misalignment and boundary artifacts during multi-scale decomposition and reconstruction. Moreover, collaborative signals from the user-item interaction graph are often injected through scale-inconsistent auxiliary modules, limiting the benefit of jointly modeling temporal dynamics and structural dependencies. To address these issues, we propose Wavelet Packet Guided Graph Enhanced Sequential Recommendation (WPGRec), a unified time-frequency and graph-enhanced framework that aligns multi-resolution temporal modeling with graph propagation at matching scales. WPGRec first applies a full-tree undecimated stationary wavelet packet transform to generate equal-length, shift-invariant subband sequences. It then performs subband-wise interaction-graph propagation to inject high-order collaborative information while preserving temporal alignment across resolutions. Finally, an energy- and spectral-flatness-aware gated fusion module adaptively aggregates informative subbands and suppresses noise-like components. Extensive experiments on four public benchmarks show that WPGRec consistently outperforms sequential and graph-based baselines, with particularly clear gains on sparse and behaviorally complex datasets, highlighting the effectiveness of band-consistent structure injection and adaptive subband fusion for sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.21204": {
+            "title": "On Reasoning Behind Next Occupation Recommendation",
+            "authors": "Shan Dong, Palakorn Achananuparp, Hieu Hien Mai, Lei Wang, Yao Lu, Ee-Peng Lim",
+            "first_author": "Shan Dong",
+            "url": "http://arxiv.org/abs/2604.21204v1",
+            "pdf_url": "http://arxiv.org/abs/2604.21204",
+            "publish_date": "2026-04-23",
+            "abstract": "In this work, we develop a novel reasoning approach to enhance the performance of large language models (LLMs) in future occupation prediction. In this approach, a reason generator first derives a ``reason'' for a user using his/her past education and career history. The reason summarizes the user's preference and is used as the input of an occupation predictor to recommend the user's next occupation. This two-step occupation prediction approach is, however, non-trivial as LLMs are not aligned with career paths or the unobserved reasons behind each occupation decision. We therefore propose to fine-tune LLMs improving their reasoning and occupation prediction performance. We first derive high-quality oracle reasons, as measured by factuality, coherence and utility criteria, using a LLM-as-a-Judge. These oracle reasons are then used to fine-tune small LLMs to perform reason generation and next occupation prediction. Our extensive experiments show that: (a) our approach effectively enhances LLM's accuracy in next occupation prediction making them comparable to fully supervised methods and outperforming unsupervised methods; (b) a single LLM fine-tuned to perform reason generation and occupation prediction outperforms two LLMs fine-tuned to perform the tasks separately; and (c) the next occupation prediction accuracy depends on the quality of generated reasons. Our code is available at https://github.com/Sarasarahhhhh/job_prediction.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }
