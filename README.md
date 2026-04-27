@@ -1,4 +1,4 @@
-## Updated on 2026-04-26
+## Updated on 2026-04-27
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,7 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-24 | **ReCast: Recasting Learning Signals for Reinforcement Learning in Generative Recommendation** | Peiyan Zhang, Hanmo Liu, Chengxuan Tong, Yuxia Wu, Wei Guo, Yong Liu | [Link](http://arxiv.org/abs/2604.22169) | Not Available |
 | 2026-04-23 | **WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation** | Peilin Liu, Zhiquan Ji, Gang Yan | [Link](http://arxiv.org/abs/2604.21305) | Not Available |
 | 2026-04-23 | **On Reasoning Behind Next Occupation Recommendation** | Shan Dong, Palakorn Achananuparp, Hieu Hien Mai, Lei Wang, Yao Lu, Ee-Peng Lim | [Link](http://arxiv.org/abs/2604.21204) | Not Available |
 | 2026-04-22 | **Where and What: Reasoning Dynamic and Implicit Preferences in Situated Conversational Recommendation** | Dongding Lin, Jian Wang, Yongqi Li, Wenjie Li | [Link](http://arxiv.org/abs/2604.20749) | Not Available |
