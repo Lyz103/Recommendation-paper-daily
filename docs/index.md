@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-04-27
+## Updated on 2026-04-28
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,14 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-27 | **SpotVista: Availability-Aware Recommendation System for Reliable and Cost-Efficient Multi-Node Spot Instances** | Taeyoon Kim, Kyumin Kim, Kyunghwan Kim, Hayoung Kim, Seungwoo Jeong, Moohyun Song, Kyungyong Lee | [Link](http://arxiv.org/abs/2604.24548) | Not Available |
+| 2026-04-27 | **Modeling Behavioral Intensity and Transitions for Generative Recommendation** | Wenxuan Yang, Xiaoyang Xu, Hanyu Zhang, Zhexuan Xu, Wanqiang Xiong, Zhaoqun Chen | [Link](http://arxiv.org/abs/2604.24472) | Not Available |
+| 2026-04-27 | **How Personal Characteristics Shape User Exploration of Diverse Movie Recommendations with a LLM-Based Multi-Agent System** | Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin | [Link](http://arxiv.org/abs/2604.24405) | Not Available |
+| 2026-04-27 | **FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost** | Chenhao Feng, Haoli Zhang, Shakhzod Ali-Zade, Yanli Zhao, Liang Luo, Jennifer Cao, Lisen Deng, Siqiao Chen, Chenyu Zhao, Tristan Rice, Daniel Johnson, Min Si, Tiantu Xu, Yi Zhang, Siqi Yan, Chuanhao Zhuge, Min Ni, Bi Xue, Qunshu Zhang, Shen Li | [Link](http://arxiv.org/abs/2604.24073) | Not Available |
+| 2026-04-27 | **Disagreement as Signals: Dual-view Calibration for Sequential Recommendation Denoising** | Sijia Li, Min Gao, Zongwei Wang, Zhiyi Liu, Xin Xia, Yi Zhang | [Link](http://arxiv.org/abs/2604.24048) | Not Available |
+| 2026-04-26 | **Beyond Static Collision Handling: Adaptive Semantic ID Learning for Multimodal Recommendation at Industrial Scale** | Yongsen Pan, Yuxin Chen, Zheng Hu, Xu Yuan, Daoyuan Wang, Yuting Yin, Songhao Ni, Hongyang Wang, Jun Wang, Fuji Ren, Wenwu Ou | [Link](http://arxiv.org/abs/2604.23522) | Not Available |
+| 2026-04-25 | **Birds of a Feather Cluster Nearby: a Proximity-Aware Geo-Codebook for Local Service Recommendation** | Tian He, Chen Yang, Jiawei Zhang, Lin Guo, Wei Lin, Zhuqing Jiang | [Link](http://arxiv.org/abs/2604.23156) | Not Available |
+| 2026-04-24 | **MTServe: Efficient Serving for Generative Recommendation Models with Hierarchical Caches** | Xin Wang, Chi Ma, Shaobin Chen, Pu Wang, Menglei Zhou, Junyi Qiu, Qiaorui Chen, Jiayu Sun, Shijie Liu, Zehuan Wang, Lei Yu, Chuan Liu, Fei Jiang, Wei Lin, Hao Wang, Jiawei Jiang, Xiao Yan | [Link](http://arxiv.org/abs/2604.22881) | Not Available |
 | 2026-04-24 | **ReCast: Recasting Learning Signals for Reinforcement Learning in Generative Recommendation** | Peiyan Zhang, Hanmo Liu, Chengxuan Tong, Yuxia Wu, Wei Guo, Yong Liu | [Link](http://arxiv.org/abs/2604.22169) | Not Available |
 | 2026-04-23 | **WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation** | Peilin Liu, Zhiquan Ji, Gang Yan | [Link](http://arxiv.org/abs/2604.21305) | Not Available |
 | 2026-04-23 | **On Reasoning Behind Next Occupation Recommendation** | Shan Dong, Palakorn Achananuparp, Hieu Hien Mai, Lei Wang, Yao Lu, Ee-Peng Lim | [Link](http://arxiv.org/abs/2604.21204) | Not Available |

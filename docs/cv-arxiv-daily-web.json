@@ -12940,10 +12940,10 @@
             "title": "CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation",
             "authors": "Yanan Cao, Ashish Ranjan, Sinduja Subramaniam, Evren Korpeoglu, Kaushiki Nag, Kannan Achan",
             "first_author": "Yanan Cao",
-            "url": "http://arxiv.org/abs/2604.06718v2",
+            "url": "http://arxiv.org/abs/2604.06718v3",
             "pdf_url": "http://arxiv.org/abs/2604.06718",
             "publish_date": "2026-04-08",
-            "abstract": "Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user's next basket were previously purchased and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We present CASE (Cadence-Aware Set Encoding for next basket repurchase recommendation), which decouples item-level cadence learning from cross-item interaction, enabling explicit calendar-time modeling while remaining production-scalable. CASE represents each item's purchase history as a calendar-time signal over a fixed horizon, applies shared multi-scale temporal convolutions to capture recurring rhythms, and uses induced set attention to model cross-item dependencies with sub-quadratic complexity, allowing efficient batch inference at scale. Across three public benchmarks and a proprietary dataset, CASE consistently improves Precision, Recall, and NDCG at multiple cutoffs compared to strong next basket prediction baselines. In a production-scale evaluation with tens of millions of users and a large item catalog, CASE achieves up to 8.6% relative Precision and 9.9% Recall lift at top-5, demonstrating that scalable cadence-aware modeling yields measurable gains in both benchmark and industrial settings.",
+            "abstract": "Repurchase behavior is a primary signal in large-scale retail recommendation, particularly in categories with frequent replenishment: many items in a user's next basket were previously purchased, and their timing follows stable, item-specific cadences. Yet most next basket repurchase recommendation models represent history as a sequence of discrete basket events indexed by visit order, which cannot explicitly model elapsed calendar time or update item rankings as days pass between purchases. We present CASE (Cadence-Aware Set Encoding) for next basket repurchase recommendation, which decouples item-level cadence learning from cross-item interaction, enabling explicit calendar-time modeling while remaining production-scalable. CASE represents each item's purchase history as a calendar-time signal over a fixed horizon, applies shared multi-scale temporal convolutions to capture recurring rhythms, and uses induced set attention to model cross-item dependencies with sub-quadratic complexity, allowing efficient batch inference at scale. Across three public benchmarks and a proprietary dataset, CASE consistently improves precision, recall, and NDCG at multiple cutoffs compared to strong next basket recommendation baselines. In a production-scale evaluation with tens of millions of users and a large item catalog, CASE achieves up to 8.6% relative precision lift and 9.9% relative recall lift at top-5, showing that scalable cadence-aware modeling yields measurable gains in both benchmark and industrial settings.",
             "primary_category": "cs.IR",
             "code_url": "null"
         },
@@ -13626,6 +13626,94 @@
             "pdf_url": "http://arxiv.org/abs/2604.22169",
             "publish_date": "2026-04-24",
             "abstract": "Generic group-based RL assumes that sampled rollout groups are already usable learning signals. We show that this assumption breaks down in sparse-hit generative recommendation, where many sampled groups never become learnable at all. We propose ReCast, a repair-then-contrast learning-signal framework that first restores minimal learnability for all-zero groups and then replaces full-group reward normalization with a boundary-focused contrastive update on the strongest positive and the hardest negative. ReCast leaves the outer RL framework unchanged, modifies only within-group signal construction, and partially decouples rollout search width from actor-side update width. Across multiple generative recommendation tasks, ReCast consistently outperforms OpenOneRec-RL, achieving up to 36.6% relative improvement in Pass@1. Its matched-budget advantage is substantially larger: ReCast reaches the baseline's target performance with only 4.1% of the rollout budget, and this advantage widens with model scale. The same design also yields direct system-level gains, reducing actor-side update time by 16.60x, lowering peak allocated memory by 16.5%, and improving actor MFU by 14.2%. Mechanism analysis shows that ReCast mitigates the persistent all-zero / single-hit regime, restores learnability when natural positives are scarce, and converts otherwise wasted rollout budget into more stable policy updates. These results suggest that, for generative recommendation, the decisive RL problem is not only how to assign rewards, but how to construct learnable optimization events from sparse, structured supervision.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2604.24548": {
+            "title": "SpotVista: Availability-Aware Recommendation System for Reliable and Cost-Efficient Multi-Node Spot Instances",
+            "authors": "Taeyoon Kim, Kyumin Kim, Kyunghwan Kim, Hayoung Kim, Seungwoo Jeong, Moohyun Song, Kyungyong Lee",
+            "first_author": "Taeyoon Kim",
+            "url": "http://arxiv.org/abs/2604.24548v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24548",
+            "publish_date": "2026-04-27",
+            "abstract": "Cloud vendors offer discounted spot instances to maximize surplus resource utilization, but these instances are subject to the risk of sudden interruption. Traditional pricing datasets have been employed to predict this risk, yet recent policy changes by cloud vendors have diminished their effectiveness. To promote spot instance usage, public cloud vendors provide instant availability datasets to help users mitigate interruption risks. While existing research utilizing this data has proposed methods to reduce interruptions, these studies have primarily focused on single-node instances, overlooking the stability of multi-node environments widely adopted for modern cloud workloads.   This paper proposes SpotVista, a system that recommends a resource pool of reliable and cost-efficient multi-node spot instances by leveraging various publicly available datasets. To achieve this, SpotVista collects a large-scale multi-node availability dataset while overcoming significant query limitations. Through a thorough analysis of multi-node spot instance availability behavior, SpotVista establishes a methodology for recommending cost-efficient and reliable multi-node configurations.   To evaluate how effectively the proposed methodology reflects multi-node availability and cost efficiency, extensive real-world interruption experiments were conducted. The results demonstrate that SpotVista outperforms the state-of-the-art work, SpotVerse, achieving 81.28% greater availability and 2.84\\% more cost savings in a multi-region setup. When compared to a publicly available service, AWS SpotFleet, SpotVista provides 21.6\\% higher stability and 26.3% greater cost savings.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2604.24472": {
+            "title": "Modeling Behavioral Intensity and Transitions for Generative Recommendation",
+            "authors": "Wenxuan Yang, Xiaoyang Xu, Hanyu Zhang, Zhexuan Xu, Wanqiang Xiong, Zhaoqun Chen",
+            "first_author": "Wenxuan Yang",
+            "url": "http://arxiv.org/abs/2604.24472v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24472",
+            "publish_date": "2026-04-27",
+            "abstract": "Multi-behavior recommendation aims to predict user conversions by modeling various interaction types that carry distinct intent signals. Recently, generative sequence modeling methods have emerged as an important paradigm for multi-behavior recommendation by achieving flexible sequence generation. However, existing generative methods typically treat behaviors as auxiliary token features and feed them into unified attention mechanisms. These models implicitly assume uniform activation of dependencies among historical behaviors, thereby failing to discern differences in intensity or capture transition patterns. To address these limitations, we propose BITRec, a novel generative multi-behavior recommendation framework that introduces structured behavioral modeling through selective dependency activation. BITRec incorporates (i) Hierarchical Behavior Aggregation (HBA), which explicitly models behavioral intensity differences through separated exploration and commitment pathways, and (ii) Transition Relation Encoding (TRE), which encodes transition structures through explicit learnable relation matrices. Experiments on four large-scale datasets (RetailRocket, Taobao, Tmall, Insurance Dataset) with millions of interactions achieve consistent improvements of 15-23% across multiple metrics, with peak gains of 22.79% MRR on Tmall and 17.83% HR@10, 17.55% NDCG@10 on Taobao.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.24405": {
+            "title": "How Personal Characteristics Shape User Exploration of Diverse Movie Recommendations with a LLM-Based Multi-Agent System",
+            "authors": "Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin",
+            "first_author": "Yufan Zhou",
+            "url": "http://arxiv.org/abs/2604.24405v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24405",
+            "publish_date": "2026-04-27",
+            "abstract": "Diversity is an important evaluation criterion for recommender systems beyond accuracy, yet users differ in their willingness to engage with novel and diverse content. In this work, we investigate how a Large Language Model (LLM)-based multi-agent system supports users' exploration of diverse recommendations, and how individual characteristics shape user experiences. We conducted a between-subjects user study (N = 100) comparing a single-agent system (baseline) with a multi-agent system for movie recommendations. We measured Perceived Accuracy, diversity, novelty, and overall rating, and examined the influence of personal characteristics, including personality traits, demographics, GenAI recommendation experience, and GenAI skepticism. Results show that the multi-agent system significantly increases Perceived Novelty and Shannon Diversity. Conscientiousness is positively associated with Perceived Accuracy and diversity, whereas extraversion is negatively associated with Perceived Diversity. Prior experience with GenAI-based recommendations is positively associated with Shannon Diversity, while skepticism toward GenAI is negatively associated with it. We also observe significant interaction effects between system design and user characteristics. These findings highlight the importance of personality-aware conversational recommender systems and caution against one-size-fits-all multi-agent designs.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2604.24073": {
+            "title": "FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost",
+            "authors": "Chenhao Feng, Haoli Zhang, Shakhzod Ali-Zade, Yanli Zhao, Liang Luo, Jennifer Cao, Lisen Deng, Siqiao Chen, Chenyu Zhao, Tristan Rice, Daniel Johnson, Min Si, Tiantu Xu, Yi Zhang, Siqi Yan, Chuanhao Zhuge, Min Ni, Bi Xue, Qunshu Zhang, Shen Li",
+            "first_author": "Chenhao Feng",
+            "url": "http://arxiv.org/abs/2604.24073v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24073",
+            "publish_date": "2026-04-27",
+            "abstract": "Modern industrial Deep Learning Recommendation Models typically extract user preferences through the analysis of sequential interaction histories, subsequently generating predictions based on these derived interests. The inherent heterogeneity in data characteristics frequently result in substantial under-utilization of computational resources during large-scale training, primarily due to computational bubbles caused by severe stragglers and slow blocking communications. This paper introduces FreeScale, a solution designed to (1) mitigate the straggler problem through meticulously load balanced input samples (2) minimize the blocking communication by overlapping prioritized embedding communications with computations (3) resolve the GPU resource competition during computation and communication overlapping by communicating through SM-Free techniques. Empirical evaluation demonstrates that FreeScale achieves up to 90.3% reduction in computational bubbles when applied to real-world workloads running on 256 H100 GPUs.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2604.24048": {
+            "title": "Disagreement as Signals: Dual-view Calibration for Sequential Recommendation Denoising",
+            "authors": "Sijia Li, Min Gao, Zongwei Wang, Zhiyi Liu, Xin Xia, Yi Zhang",
+            "first_author": "Sijia Li",
+            "url": "http://arxiv.org/abs/2604.24048v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24048",
+            "publish_date": "2026-04-27",
+            "abstract": "Sequential recommendation seeks to model the evolution of user interests by capturing temporal user intent and item-level transition patterns. Transformer-based recommenders demonstrate a strong capacity for learning long-range and interpretable dependencies, yet remain vulnerable to behavioral noise that is misaligned with users' true preferences. Recent large language model (LLM)-based approaches attempt to denoise interaction histories through static semantic editing. Such methods neglect the learning dynamics of recommendation models and fail to account for the evolving nature of user interests. To address this limitation, we propose a Dual-view Calibration framework for Sequential Recommendation denoising (DC4SR). Specifically, we introduce a semantic prior, derived from an LLM fine-tuned via labeled historical interactions, to estimate the noise distribution from a semantic perspective. From the learning perspective, we further employ a model-side posterior that infers the noise distribution based on the model's learning dynamics. The disagreement between the two distributions is then leveraged to jointly refine semantic understanding and learning-aware model-side representations. Through iterative updates, dynamic dual-view calibration is achieved for both the global semantic prior and the model-side posterior, enabling consistent alignment with evolving user interests. Extensive experiments demonstrate that DC4SR consistently outperforms strong Transformer-based recommenders and LLM-based denoising methods, exhibiting enhanced robustness across training stages and noise conditions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.23522": {
+            "title": "Beyond Static Collision Handling: Adaptive Semantic ID Learning for Multimodal Recommendation at Industrial Scale",
+            "authors": "Yongsen Pan, Yuxin Chen, Zheng Hu, Xu Yuan, Daoyuan Wang, Yuting Yin, Songhao Ni, Hongyang Wang, Jun Wang, Fuji Ren, Wenwu Ou",
+            "first_author": "Yongsen Pan",
+            "url": "http://arxiv.org/abs/2604.23522v1",
+            "pdf_url": "http://arxiv.org/abs/2604.23522",
+            "publish_date": "2026-04-26",
+            "abstract": "Modern recommendation systems involve massive catalogs of multimodal items, where scalable item identification must balance compactness, semantic fidelity, and downstream effectiveness. Semantic IDs (SIDs) address this need by representing items as short discrete token sequences derived from multimodal signals, providing a compact interface for retrieval, ranking, and generative recommendation. However, effective SID learning is hindered by collisions, where different items are assigned identical or highly confusable codes. Existing methods mainly rely on improved quantization or fixed overlap regularization, but they do not adaptively distinguish whether an overlap should be suppressed or preserved. We propose AdaSID, an adaptive semantic ID learning framework for recommendation. AdaSID regulates SID overlaps through a two-stage process. First, it relaxes repulsion for observed overlaps when the involved items are semantically compatible, preserving admissible sharing rather than uniformly separating all collisions. Second, it allocates the remaining regulation pressure according to local collision load and training progress, strengthening control in congested regions while gradually rebalancing optimization toward recommendation alignment. This design adaptively decides which overlaps to penalize, how strongly to regulate them, and when to shift the learning focus. Extensive offline and online experiments validate AdaSID. On two public benchmarks, AdaSID improves Recall and NDCG by about 4.5% on average over strong baselines, while improving codebook utilization and SID diversity. In Kuaishou e-commerce, an online A/B test on short-video retrieval covering tens of millions of users achieves statistically significant gains, including a 0.98% GMV improvement, and industrial ranking evaluation shows consistent AUC improvements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.23156": {
+            "title": "Birds of a Feather Cluster Nearby: a Proximity-Aware Geo-Codebook for Local Service Recommendation",
+            "authors": "Tian He, Chen Yang, Jiawei Zhang, Lin Guo, Wei Lin, Zhuqing Jiang",
+            "first_author": "Tian He",
+            "url": "http://arxiv.org/abs/2604.23156v1",
+            "pdf_url": "http://arxiv.org/abs/2604.23156",
+            "publish_date": "2026-04-25",
+            "abstract": "Generative recommendation systems are increasingly adopted in local service platforms, where semantic relevance alone is insufficient without strict geographic feasibility. A key technical challenge lies in semantic ID (SID) tokenization, which directly impacts the recommendation performance. However, existing semantic codebooks neglect geographic constraints, often resulting in recommendations that are semantically relevant yet geographically unreachable. To address this limitation, we propose Pro-GEO, a Proximity-aware GEO-codebook. Pro-GEO establishes a geo-centroid local coordinate system to capture intra-cluster spatial relationships and a geo-rotary position encoding mechanism that models geographic proximity as orthogonal rotational transformations in the high-dimensional embedding. This design enables semantic and spatial signals to be jointly modeled in a balanced manner, without reducing geographic information to a weak auxiliary feature. Extensive experiments conducted on a large-scale industrial dataset reveal that Pro-GEO significantly outperforms state-of-the-art methods. In particular, Pro-GEO reduces the average geographic clustering distance by 45.60% and achieves a 1.87% improvement in Hit@50, highlighting its effectiveness for real-world local service recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.22881": {
+            "title": "MTServe: Efficient Serving for Generative Recommendation Models with Hierarchical Caches",
+            "authors": "Xin Wang, Chi Ma, Shaobin Chen, Pu Wang, Menglei Zhou, Junyi Qiu, Qiaorui Chen, Jiayu Sun, Shijie Liu, Zehuan Wang, Lei Yu, Chuan Liu, Fei Jiang, Wei Lin, Hao Wang, Jiawei Jiang, Xiao Yan",
+            "first_author": "Xin Wang",
+            "url": "http://arxiv.org/abs/2604.22881v1",
+            "pdf_url": "http://arxiv.org/abs/2604.22881",
+            "publish_date": "2026-04-24",
+            "abstract": "Generative recommendation (GR) offers superior modeling capabilities but suffers from prohibitive inference costs due to the repeated encoding of long user histories. While cross-request Key-Value (KV) cache reuse presents a significant optimization opportunity, the massive scale of individual user states creates a storage explosion that far exceeds physical GPU limits. We propose MTServe, a hierarchical cache management system that virtualizes GPU memory by leveraging host RAM as a scalable backup store. To bridge the I/O gap between tiers, MTServe introduces a suite of system-level optimizations, including a hybrid storage layout, an asynchronous data transfer pipeline, and a locality-driven replacement policy. On both public and production datasets, MTServe delivers up to 3.1* speedup while maintaining near-perfect hit ratios (>98.5%).",
             "primary_category": "cs.LG",
             "code_url": "null"
         }
