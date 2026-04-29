@@ -13716,6 +13716,72 @@
             "abstract": "Generative recommendation (GR) offers superior modeling capabilities but suffers from prohibitive inference costs due to the repeated encoding of long user histories. While cross-request Key-Value (KV) cache reuse presents a significant optimization opportunity, the massive scale of individual user states creates a storage explosion that far exceeds physical GPU limits. We propose MTServe, a hierarchical cache management system that virtualizes GPU memory by leveraging host RAM as a scalable backup store. To bridge the I/O gap between tiers, MTServe introduces a suite of system-level optimizations, including a hybrid storage layout, an asynchronous data transfer pipeline, and a locality-driven replacement policy. On both public and production datasets, MTServe delivers up to 3.1* speedup while maintaining near-perfect hit ratios (>98.5%).",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2604.25834": {
+            "title": "Action-Aware Generative Sequence Modeling for Short Video Recommendation",
+            "authors": "Wenhao Li, Zihan Lin, Zhengxiao Guo, Jie Zhou, Shukai Liu, Yongqi Liu, Chuan Luo, Chaoyi Ma, Ruiming Tang, Han Li",
+            "first_author": "Wenhao Li",
+            "url": "http://arxiv.org/abs/2604.25834v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25834",
+            "publish_date": "2026-04-28",
+            "abstract": "With the rapid development of the Internet, users have increasingly higher expectations for the recommendation accuracy of online content consumption platforms. However, short videos often contain diverse segments, and users may not hold the same attitude toward all of them. Traditional binary-classification recommendation models, which treat a video as a single holistic entity, face limitations in accurately capturing such nuanced preferences. Considering that user consumption is a temporal process, this paper demonstrates that the timing of user actions can represent diverse intentions through statistical analysis and examination of action patterns. Based on this insight, we propose a novel modeling paradigm: Action-Aware Generative Sequence Network (A2Gen), which refines user actions along the temporal dimension and chains them into sequences for unified processing and prediction. First, we introduce the Context-aware Attention Module (CAM) to model action sequences enriched with item-specific contextual features. Building upon this, we develop the Hierarchical Sequence Encoder (HSE) to learn temporal action patterns from users' historical actions. Finally, through leveraging CAM, we design a module for action sequence generation: the Action-seq Autoregressive Generator (AAG). Extensive offline experiments on the Kuaishou's dataset and the Tmall public dataset demonstrate the superiority of our proposed model. Furthermore, through large-scale online A/B testing deployed on Kuaishou's platform, our model achieves significant improvements over baseline methods in multi-task prediction by leveraging sequential information. Specifically, it yields increases of 0.34% in user watch time, 8.1% in interaction rate, and 0.162% in overall user retention (LifeTime-7), leading to successful deployment across all traffic, serving over 400 million users every day.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2604.25787": {
+            "title": "Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation",
+            "authors": "Yu Liu, Jiangxia Cao",
+            "first_author": "Yu Liu",
+            "url": "http://arxiv.org/abs/2604.25787v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25787",
+            "publish_date": "2026-04-28",
+            "abstract": "Generative recommender systems have recently emerged as a promising paradigm by formulating next-item prediction as an auto-regressive semantic IDs generation, such as OneRec series works. However, with the next-item-agnostic prediction paradigm, its could beam out some next potential items via Semantic IDs but hard to estimate which items are better from them, e.g., select the top-10 from beam-256 items, leading to a gap between generation and ranking performance. To fulfill this gap, we propose RecoChain, a unified generative retrieval and ranking framework that integrates candidate generation and ranking within a single Transformer backbone. Specifically, in inference, the model first generates candidate items via hierarchical semantic ID prediction, then performs the SIM-based ranking process to estimate the click possibility of corresponding item candidate continuously. Extensive experiments on large-scale real-world datasets demonstrate that our approach effectively bridges the gap between generative retrieval and ranking, achieving improved Top-K recommendation performance while maintaining strong generative capability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.25732": {
+            "title": "Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users",
+            "authors": "Xiaodong Li, Jiawei Sheng, Jiangxia Cao, Xinghua Zhang, Wenyuan Zhang, Yong Sun, Shirui Pan, Zhihong Tian, Tingwen Liu",
+            "first_author": "Xiaodong Li",
+            "url": "http://arxiv.org/abs/2604.25732v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25732",
+            "publish_date": "2026-04-28",
+            "abstract": "Cross-domain recommendation (CDR) has demonstrated to be an effective solution for alleviating the user cold-start issue. By leveraging rich user-item interactions available in a richly informative source domain, CDR could improve the recommendation performance for cold-start users in the target domain. Previous CDR approaches mostly adhere the Embedding and Mapping (EMCDR) paradigm, which learns a user-shared mapping function to transfer users' preference from the source domain to the target domain, neglecting users' personalized preference. Recent CDR approaches further leverage the meta-learning paradigm, considering the CDR task for each user independently and learning user-specific mapping functions for each user. However, they mostly learn representations for each user individually, which ignores the common preference between different users, neglecting valuable information for CDR. In addition, all these approaches usually summarize the user's preference into an overall representation, which can hardly capture the user's multi-interest preference. To this end, we propose a personalized multi-interest modeling framework for CDR to cold-start users, termed as NF-NPCDR. Specifically, we propose a personalized preference encoder that enhances the neural process (NP) with the normalizing flow (NF) to convert the Gaussian (unimodal) distribution to a multimodal distribution, providing a novel way to capture the user's personalized multi-interest preference. Then, we propose a common preference encoder with a preference pool to capture the common preference between different users. Furthermore, we introduce a stochastic adaptive decoder to incorporate both the personalized and common preference for cold-start users, adaptively modulating both preference for better recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2604.25456": {
+            "title": "An Investigation of Linguistic Biases in LLM-Based Recommendations",
+            "authors": "Nitin Venkateswaran, Jason Ang, Deep Adhikari, Tarun Krishna Dasari",
+            "first_author": "Nitin Venkateswaran",
+            "url": "http://arxiv.org/abs/2604.25456v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25456",
+            "publish_date": "2026-04-28",
+            "abstract": "We investigate linguistic biases in LLM-based restaurant and product recommendations given prompts varying across Southern American English (AE), Indian English (IE), and Code-Switched Hindi-English dialects, using the Yelp Open dataset (Yelp Inc., 2023) and Walmart product reviews dataset (PromptCloud,2020). We add lists of restaurant and product names balanced by cuisine type and product category to the prompts given to the LLM, and we zero-shot prompt the LLMs in a cold-start setting to select the top-20 restaurant and product recommendations from these lists for each of the dialect-varied prompts. We prompt LLMs using different list samples across 20 seeds for better generalization, and aggregate per cuisine-type and per category response counts for each seed, question/prompt, and LLM model. We run mixed-effects regression models for each model family and topic (restaurant/product) with the aggregate response counts as the dependent, and conduct likelihood ratio tests for the fixed effects with post-hoc pairwise testing of estimated marginal means differences, to investigate group-level differences in recommendation counts by model size and dialect type. Results show that dialect plays a role in the type of restaurant selected across the models tested with the mistral-small-3.1 model and both the llama-3.1 family models tested showing more sensitivity to Indian English and Code-Switched prompts. In terms of product recommendations, the llama-3.1-70B-model is particularly sensitive to Code-Switched prompts in four out of seven categories, and more beauty and home category recommendations are seen when using the Indian English and Code-Switched prompts for larger and smaller models, respectively. No broad trends are seen in the model-size based differences, with differing recommendations based on model sizes conditioned by the type of dialect.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2604.25338": {
+            "title": "RecFlash: Fast Recommendation System on In-Storage Computing with Frequency-Based Data Mapping",
+            "authors": "Jangho Baik, Sunghyun Kim, Gisan Ji, Wonbo Shim, Sungju Ryu",
+            "first_author": "Jangho Baik",
+            "url": "http://arxiv.org/abs/2604.25338v1",
+            "pdf_url": "http://arxiv.org/abs/2604.25338",
+            "publish_date": "2026-04-28",
+            "abstract": "Recommendation system has gained a large popularity for a variety of personalized suggestion tasks, but the ever-increasing number of user data makes real-time processing of recommendation systems difficult. NAND flash memory-based in-storage computing scheme can be one of favorable candidates among the various acceleration approaches because the flash memory typically has a larger memory capacity than the other memory types, so it can efficiently handle a large amount of user data for the recommendation inference services. However, different from other neural network applications where data is sequentially fetched from memory, the recommendation system shows the irregular random memory access pattern. Hence, most of the data loaded from the NAND flash array to the page buffer are not used, so a large portion of the internal bandwidth is underutilized, which degrades the performance on the inference acceleration of the recommendation tasks. In this paper, we propose RecFlash, a fast recommendation inference accelerator utilizing a data remapping algorithm with NAND flash-based in-storage computing (ISC). The experimental results show that our proposed method improves the latency and energy consumption by up to 81% and 91.9%, respectively, over the existing NAND flash-based ISC architecture.",
+            "primary_category": "cs.AR",
+            "code_url": "null"
+        },
+        "2604.24806": {
+            "title": "Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale",
+            "authors": "Liang Guo, Ge Song, Litao Deng, Jianhui Sun, Chufeng Hu, Lu Zhang, Zhen Ma, Shouwei Chen, Weiran Liu, Sarang Masti Sreeshylan, Xiaoxuan Meng",
+            "first_author": "Liang Guo",
+            "url": "http://arxiv.org/abs/2604.24806v1",
+            "pdf_url": "http://arxiv.org/abs/2604.24806",
+            "publish_date": "2026-04-27",
+            "abstract": "Modern Deep Learning Recommendation Models (DLRMs) follow scaling laws with sequence length, driving the frontier toward ultra-long User Interaction History (UIH). However, the industry-standard \"Fat Row\" paradigm, which pre-materializes these sequences into every training example, creates a storage and I/O wall where data infrastructure usage exceeds GPU training capacity due to data redundancy that is amplified in multi-tenant environments where models with vastly different sequence length requirements share a union dataset. We present a \\emph{versioned late materialization} paradigm that eliminates this redundancy by storing UIH once in a normalized, immutable tier and reconstructing sequences just-in-time during training via lightweight versioned pointers. The system ensures Online-to-Offline (O2O) consistency through a bifurcated protocol that prevents future leakage across both streaming and batch training, while a read-optimized immutable storage layer provides multi-dimensional projection pushdown for heterogeneous model tenants. Disaggregated data preprocessing with pipelined I/O prefetching and data-affinity optimizations masks the latency of training-time sequence reconstruction, keeping training throughput compute-bound by GPUs. Deployed on production DLRMs, the system reduces training data infrastructure resource usage while enabling aggressive sequence length scaling that delivers significant model quality gains, serving as the foundational data infrastructure for modern recommendation model architectures, including HSTU and ULTRA-HSTU.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
