@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-04-29
+## Updated on 2026-04-30
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,12 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-29 | **Factorized Latent Reasoning for LLM-based Recommendation** | Tianqi Gao, Chengkai Huang, Zihan Wang, Cao Liu, Ke Zeng, Lina Yao | [Link](http://arxiv.org/abs/2604.26760) | Not Available |
+| 2026-04-29 | **When Model Editing Meets Service Evolution: A Knowledge-Update Perspective for Service Recommendation** | Guodong Fan, Cuiyun Gao, Chun Yong Chong, Lu Zhang, Jing Li, Jinglin Zhang, Shizhan Chen | [Link](http://arxiv.org/abs/2604.26686) | Not Available |
+| 2026-04-29 | **Recommendations for Efficient and Responsible LLM Adoption within Industrial Software Development** | Krishna Ronanki, Beatriz Cabrero-Daniel, Tomas Herda, Stefan Sitkovich, Jennifer Horkoff, Christian Berger | [Link](http://arxiv.org/abs/2604.26590) | Not Available |
+| 2026-04-29 | **CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation** | Yibiao Wei, Jie Zou, Pengfei Zhang, Xiao Ao, Weikang Guo, Zeyu Ma, Yang Yang | [Link](http://arxiv.org/abs/2604.26427) | Not Available |
+| 2026-04-29 | **Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations** | Peter Müllner, Dominik Kowald, Markus Schedl, Elisabeth Lex | [Link](http://arxiv.org/abs/2604.26390) | Not Available |
+| 2026-04-29 | **TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation** | Wei Yang, Rui Zhong, Zihan Lin, Xiaodan Wang, Cheng Chen, Huan Ren, Yao Hu | [Link](http://arxiv.org/abs/2604.26247) | Not Available |
 | 2026-04-28 | **Action-Aware Generative Sequence Modeling for Short Video Recommendation** | Wenhao Li, Zihan Lin, Zhengxiao Guo, Jie Zhou, Shukai Liu, Yongqi Liu, Chuan Luo, Chaoyi Ma, Ruiming Tang, Han Li | [Link](http://arxiv.org/abs/2604.25834) | Not Available |
 | 2026-04-28 | **Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation** | Yu Liu, Jiangxia Cao | [Link](http://arxiv.org/abs/2604.25787) | Not Available |
 | 2026-04-28 | **Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users** | Xiaodong Li, Jiawei Sheng, Jiangxia Cao, Xinghua Zhang, Wenyuan Zhang, Yong Sun, Shirui Pan, Zhihong Tian, Tingwen Liu | [Link](http://arxiv.org/abs/2604.25732) | Not Available |
