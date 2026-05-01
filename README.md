@@ -1,4 +1,4 @@
-## Updated on 2026-04-30
+## Updated on 2026-05-01
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,12 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-04-30 | **Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation** | Jiaju Chen, Chongming Gao, Chenxiao Fan, Haoyan Liu, Qingpeng Cai, Peng Jiang, Xiangnan He | [Link](http://arxiv.org/abs/2604.27747) | Not Available |
+| 2026-04-30 | **Tail-aware N-version Machine Learning Models for Reliable API Recommendation** | Aoi Matsuda, Fumio Machida, David Lo | [Link](http://arxiv.org/abs/2604.27647) | Not Available |
+| 2026-04-30 | **One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation** | Ethan Bito, Yongli Ren, Estrid He | [Link](http://arxiv.org/abs/2604.27599) | Not Available |
+| 2026-04-29 | **A Gated Hybrid Contrastive Collaborative Filtering Recommendation** | Eduardo Ferreira da Silva, Mayki dos Santos Oliveira, Joel Machado Pires, Denis Dantas Boaventura, Maycon Maciel Peixoto, Cassio Serafim Prazeres, Gustavo Bittencourt Figueiredo, Miriam Capretz, Frederico Araujo Durão | [Link](http://arxiv.org/abs/2604.27117) | Not Available |
+| 2026-04-28 | **Value-Aware Product Recommendation by Customer Segmentation using a suitable High-Dimensional Similarity Measure** | María Florencia Acosta, Rodrigo García Arancibia, Pamela Llop, Mariel Lovatto, Lucas Mansilla | [Link](http://arxiv.org/abs/2604.26983) | Not Available |
+| 2026-04-21 | **AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization** | Xidong Wu, Yue Zhuan, Ruoqiao Wei, Hangxin Chen, Di Bai, Jintao Liu, Xinyi Wang, Xue Wang, Luoshu Wang, Xinwu Cheng | [Link](http://arxiv.org/abs/2604.26969) | Not Available |
 | 2026-04-29 | **Factorized Latent Reasoning for LLM-based Recommendation** | Tianqi Gao, Chengkai Huang, Zihan Wang, Cao Liu, Ke Zeng, Lina Yao | [Link](http://arxiv.org/abs/2604.26760) | Not Available |
 | 2026-04-29 | **When Model Editing Meets Service Evolution: A Knowledge-Update Perspective for Service Recommendation** | Guodong Fan, Cuiyun Gao, Chun Yong Chong, Lu Zhang, Jing Li, Jinglin Zhang, Shizhan Chen | [Link](http://arxiv.org/abs/2604.26686) | Not Available |
 | 2026-04-29 | **Recommendations for Efficient and Responsible LLM Adoption within Industrial Software Development** | Krishna Ronanki, Beatriz Cabrero-Daniel, Tomas Herda, Stefan Sitkovich, Jennifer Horkoff, Christian Berger | [Link](http://arxiv.org/abs/2604.26590) | Not Available |
