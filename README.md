@@ -1,4 +1,4 @@
-## Updated on 2026-05-03
+## Updated on 2026-05-04
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,12 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-01 | **CustomDancer: Customized Dance Recommendation by Text-Dance Retrieval** | Yawen Qin, Ke Qiu, Qin Zhang | [Link](http://arxiv.org/abs/2605.00824) | Not Available |
+| 2026-05-01 | **Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion** | Yuan Li, Jun Hu, Jiaxin Jiang, Bryan Hooi, Bingsheng He | [Link](http://arxiv.org/abs/2605.00670) | Not Available |
+| 2026-05-01 | **DySRec: Dynamic Context-Aware Psychometric Scale Recommendation via Multi-Agent Collaboration** | Yanzeng Li, Xiaoning Cao, Jialun Zhong, Jianpeng Hu, Jiangshan Tan, Ningning Liu, Feng Xiang, Shasha Han | [Link](http://arxiv.org/abs/2605.00574) | Not Available |
+| 2026-05-01 | **Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation** | Zhiying Deng, Yuan Fu, Usman Farooq, Ziwei Tian, Wei Liu, Jianjun Li | [Link](http://arxiv.org/abs/2605.00499) | Not Available |
+| 2026-05-01 | **Q-ARE: An Evaluation Dataset for Query Based API Recommendation** | Shenglong Wu, Xunhui Zhang, Tao Wang | [Link](http://arxiv.org/abs/2605.00472) | Not Available |
+| 2026-05-01 | **DynamicPO: Dynamic Preference Optimization for Recommendation** | Xingyu Hu, Kai Zhang, Jiancan Wu, Shuli Wang, Chi Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang, Xiang Wang | [Link](http://arxiv.org/abs/2605.00327) | Not Available |
 | 2026-04-30 | **Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation** | Jiaju Chen, Chongming Gao, Chenxiao Fan, Haoyan Liu, Qingpeng Cai, Peng Jiang, Xiangnan He | [Link](http://arxiv.org/abs/2604.27747) | Not Available |
 | 2026-04-30 | **Tail-aware N-version Machine Learning Models for Reliable API Recommendation** | Aoi Matsuda, Fumio Machida, David Lo | [Link](http://arxiv.org/abs/2604.27647) | Not Available |
 | 2026-04-30 | **One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation** | Ethan Bito, Yongli Ren, Estrid He | [Link](http://arxiv.org/abs/2604.27599) | Not Available |

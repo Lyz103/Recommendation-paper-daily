@@ -13914,6 +13914,72 @@
             "abstract": "Modern large-scale recommendation systems are typically constructed as multi-stage pipelines, encompassing pre-ranking, ranking, and re-ranking phases. While traditional recommendation research typically focuses on optimizing a specific model, such as improving the pre-ranking model structure or ranking models training algorithm, system-level configurations optimization play a crucial role, which integrates the output from each model head to get the final score in each stage. Due to the complexity of the system, the configuration optimization is highly important and challenging. Any model modification requires new optimal system-level configurations. But each experimental iteration requires significant tuning effort. Furthermore, models in different stage operates within a distinct context and optimizes for different targets, requiring specialized domain expertise. In addition, optimization success depends on balancing competing multiple online metrics and alignment with shifting production development objectives. To address these challenges, we propose AgenticRecTune, an agentic framework comprising five specialized agents, Actor, Critic, Insight, Skill, and Online, designed to manage the end-to-end configuration optimization workflow. By leveraging the advanced reasoning of Large Language Models (LLMs), specifically Gemini, AgenticRecTune explore the optimal configuration spaces. The Actor Agent proposes multiple candidates and Critic Agent filters out suboptimal proposals.Then Online Agent autonomously prepares A/B tests based on the proposed configurations set from the Critic Agent and captures the subsequencet experimental results. We also introduce a self-evolving Skillhub, which utilizes a collaboration between the Insight Agent and Skill Agent to summarize the history results, extract underlying mechanics of each task in recommendation system and update skills.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2605.00824": {
+            "title": "CustomDancer: Customized Dance Recommendation by Text-Dance Retrieval",
+            "authors": "Yawen Qin, Ke Qiu, Qin Zhang",
+            "first_author": "Yawen Qin",
+            "url": "http://arxiv.org/abs/2605.00824v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00824",
+            "publish_date": "2026-05-01",
+            "abstract": "Dance serves as both a cultural cornerstone and a medium for personal expression, yet the rapid growth of online dance content has made personalized discovery increasingly difficult. Text-based dance retrieval offers a natural interface for users to search with choreographic intent, but it remains underexplored because dance requires simultaneous reasoning over linguistic semantics, musical rhythm, and full-body motion dynamics. We introduce TD-Data, a large-scale open dataset for text-dance retrieval, containing about 4,000 12-second dance clips, 14.6 hours of motion, 22 genres, and annotations from professional dance experts. On top of this dataset, we propose CustomDancer, a multimodal retrieval framework that aligns text with dance through a CLIP-based text encoder, music and motion encoders, and a music-motion blending module. CustomDancer achieves state-of-the-art performance on TD-Data, reaching 10.23% Recall@1 and improving retrieval quality in both quantitative benchmarks and user preference studies.",
+            "primary_category": "cs.MM",
+            "code_url": "null"
+        },
+        "2605.00670": {
+            "title": "Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion",
+            "authors": "Yuan Li, Jun Hu, Jiaxin Jiang, Bryan Hooi, Bingsheng He",
+            "first_author": "Yuan Li",
+            "url": "http://arxiv.org/abs/2605.00670v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00670",
+            "publish_date": "2026-05-01",
+            "abstract": "Multimodal data plays a critical role in web-based recommendation systems, where information from diverse modalities such as vision and text enhances representation learning. However, real-world multimodal datasets often suffer from modality incompleteness due to sensor failures, annotation scarcity, or privacy constraints, which substantially degrade model performance and reliability. One effective solution to address this issue is modality completion, which reconstructs missing features to provide modality-complete graphs for downstream tasks. Given a query node with missing multimodal features, existing modality completion methods typically infer information from the node itself or its neighbors to reconstruct the missing modality. However, these methods may overlook semantically relevant context in the graph, which contains valuable cues that are non-trivial to capture through simple methods like neighborhood aggregation. In this work, we propose GRE-MC, a Graph Retrieval-Enhanced Modality Completion framework, to overcome these limitations. By introducing a modality-aware subgraph retrieval mechanism, GRE-MC selects semantically relevant subgraphs from the entire graph, providing richer contextual information for completing missing modalities. Subsequently, a graph transformer jointly encodes the query node and the retrieved subgraph via global attention to complete the missing features, while a learnable sparse-routing codebook regularizes latent embeddings into compact bases for improved robustness. Extensive experiments on multimodal recommendation benchmarks demonstrate that GRE-MC consistently outperforms state-of-the-art methods, validating the effectiveness of subgraph retrieval and joint-encoding graph transformer for robust modality completion.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.00574": {
+            "title": "DySRec: Dynamic Context-Aware Psychometric Scale Recommendation via Multi-Agent Collaboration",
+            "authors": "Yanzeng Li, Xiaoning Cao, Jialun Zhong, Jianpeng Hu, Jiangshan Tan, Ningning Liu, Feng Xiang, Shasha Han",
+            "first_author": "Yanzeng Li",
+            "url": "http://arxiv.org/abs/2605.00574v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00574",
+            "publish_date": "2026-05-01",
+            "abstract": "Choosing suitable psychometric scales is an essential and difficult step in psychological consultation, which requires clinicians to integrate patient information, behaviors, and dynamic contextual information. Existing systems mainly use static pipelines to choose scale, or directly predict symptoms according to user inputs, limiting their ability to support dynamic assessment, risk management, and transparent decision-making. To address these limitations, we propose DySRec, a multi-agent conversational system for dynamic psychometric scale recommendation. DySRec operates as an interactive chatbot that engages users in multi-turn dialogue, models scale selection as a continuous conversational decision process, and coordinates specialized agents to maintain user context, recommend assessment scales, monitor psychological risk, and log decision trajectories. In this way, DySRec can integrate and capture heterogeneous signals, including semantic, interaction behaviors, assessment history, and content state, to dynamically update user representations and calculate scale-context compatibility score for recommending most matched scales. Moreover, DySRec incorporates a closed-loop refinement mechanism. Recommendation agent will feedback the missing or uncertain attributes and guide the conversation to elicit the targeted information. In this paper, we showcase the prototype design and architecture of DySRec, and this system has been verified in a real-world application.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2605.00499": {
+            "title": "Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation",
+            "authors": "Zhiying Deng, Yuan Fu, Usman Farooq, Ziwei Tian, Wei Liu, Jianjun Li",
+            "first_author": "Zhiying Deng",
+            "url": "http://arxiv.org/abs/2605.00499v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00499",
+            "publish_date": "2026-05-01",
+            "abstract": "Next-basket recommendation (NBR) is a type of recommendation that aims to predict a set of items a user will purchase based on their historical transaction basket sequences. It is governed by a dynamic interplay between two distinct user intents: habitual repurchase, which involves repeating past behaviors, and exploratory interest, which involves discovering new items. However, existing NBR methods generally suffer from two limitations: (1) they often entangle these conflicting motives within a single representation, causing habits to overshadow discovery, and (2) they rely on discrete sequential modeling that ignores continuous-time intervals and item-specific periodicities. In this paper, we propose a novel solution named Time-Interval Disentangled Experts (TIDE) to address these challenges. TIDE incorporates a Hawkes-enhanced Fourier Time Encoding to capture item-specific temporal periodicities and dynamic decay. To decouple user intentions, TIDE utilizes a dual-expert architecture that integrates a Habit Expert for recurring needs and a Pattern-Guided Exploration Expert for discovery. Combined with an item-aware gating mechanism, TIDE adaptively balances repurchase and exploration. Extensive experiments on four diverse real-world datasets demonstrate that TIDE consistently outperforms representative state-of-the-art NBR methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.00472": {
+            "title": "Q-ARE: An Evaluation Dataset for Query Based API Recommendation",
+            "authors": "Shenglong Wu, Xunhui Zhang, Tao Wang",
+            "first_author": "Shenglong Wu",
+            "url": "http://arxiv.org/abs/2605.00472v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00472",
+            "publish_date": "2026-05-01",
+            "abstract": "As software systems grow in scale, developers face increasing difficulty in selecting appropriate Application Programming Interfaces (APIs) from numerous options. Efficiently identifying APIs that satisfy functional requirements has become a key challenge. To evaluate the semantic understanding of existing query-based API recommendation methods, this paper constructs Q-ARE (Query-based API Recommendation Evaluation), a dataset based on open-source Java projects from GitHub. Methods and their invocation chains are analyzed to identify third-party APIs directly or indirectly invoked by target methods, recursively expanding multi-level invocations to unify hierarchical call structures into API recommendation target sets. Furthermore, we introduce two metrics: API Call Depth, measuring the invocation distance between a query method and a target API, and Invocation Density, quantifying the proportion of code lines associated with the target API in the invocation chain. Based on Q-ARE, we systematically evaluate several query-based API recommendation methods and general Large Language Models (LLMs). Results show that performance drops significantly as API Call Depth increases and invocation density decreases, indicating that existing methods still struggle with multi-level method invocation structures. Q-ARE and its metrics provide a new benchmark for assessing semantic understanding in API recommendation and offer insights for improving future algorithms.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2605.00327": {
+            "title": "DynamicPO: Dynamic Preference Optimization for Recommendation",
+            "authors": "Xingyu Hu, Kai Zhang, Jiancan Wu, Shuli Wang, Chi Wang, Wenshuai Chen, Yinhua Zhu, Haitao Wang, Xingxing Wang, Xiang Wang",
+            "first_author": "Xingyu Hu",
+            "url": "http://arxiv.org/abs/2605.00327v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00327",
+            "publish_date": "2026-05-01",
+            "abstract": "In large language model (LLM)-based recommendation systems, direct preference optimization (DPO) effectively aligns recommendations with user preferences, requiring multi-negative objective functions to leverage abundant implicit-feedback negatives and sharpen preference boundaries. However, our empirical analyses reveal a counterintuitive phenomenon, preference optimization collapse, where increasing the number of negative samples can lead to performance degradation despite a continuously decreasing training loss. We further theoretically demonstrate that this collapse arises from gradient suppression, caused by the dominance of easily discriminable negatives over boundary-critical negatives that truly define user preference boundaries. As a result, boundary-relevant signals are under-optimized, weakening the model's decision boundary. Motivated by these observations, we propose DynamicPO (Dynamic Preference Optimization), a lightweight and plug-and-play framework comprising two adaptive mechanisms: Dynamic Boundary Negative Selection, which identifies and prioritizes informative negatives near the model's decision boundary, and Dual-Margin Dynamic beta Adjustment, which calibrates optimization strength per sample according to boundary ambiguity. Extensive experiments on three public datasets show that DynamicPO effectively prevents optimization collapse and improves recommendation accuracy on multi-negative preference optimization methods, with negligible computational overhead. Our code and datasets are available at https://github.com/xingyuHuxingyu/DynamicPO.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
