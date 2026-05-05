@@ -13980,6 +13980,28 @@
             "abstract": "In large language model (LLM)-based recommendation systems, direct preference optimization (DPO) effectively aligns recommendations with user preferences, requiring multi-negative objective functions to leverage abundant implicit-feedback negatives and sharpen preference boundaries. However, our empirical analyses reveal a counterintuitive phenomenon, preference optimization collapse, where increasing the number of negative samples can lead to performance degradation despite a continuously decreasing training loss. We further theoretically demonstrate that this collapse arises from gradient suppression, caused by the dominance of easily discriminable negatives over boundary-critical negatives that truly define user preference boundaries. As a result, boundary-relevant signals are under-optimized, weakening the model's decision boundary. Motivated by these observations, we propose DynamicPO (Dynamic Preference Optimization), a lightweight and plug-and-play framework comprising two adaptive mechanisms: Dynamic Boundary Negative Selection, which identifies and prioritizes informative negatives near the model's decision boundary, and Dual-Margin Dynamic beta Adjustment, which calibrates optimization strength per sample according to boundary ambiguity. Extensive experiments on three public datasets show that DynamicPO effectively prevents optimization collapse and improves recommendation accuracy on multi-negative preference optimization methods, with negligible computational overhead. Our code and datasets are available at https://github.com/xingyuHuxingyu/DynamicPO.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2605.02369": {
+            "title": "Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation",
+            "authors": "Zhida Qin, Zemu Liu, Haoyan Fu, Chong Zhang, Tianyu Huang, Yidong Li, Gangyi Ding",
+            "first_author": "Zhida Qin",
+            "url": "http://arxiv.org/abs/2605.02369v1",
+            "pdf_url": "http://arxiv.org/abs/2605.02369",
+            "publish_date": "2026-05-04",
+            "abstract": "Cross-domain sequential recommendation (CDSR) alleviates interaction sparsity by jointly modeling user behaviors across multiple domains. While current studies have made some progresses, they still neglect two issues that severely impact recommendation performance: (i) ignoring domain-specific interaction frequencies and interest decay rates at identical time intervals; (ii) treating semantic preferences as time-invariant during cross-domain transfer. To address these, we propose a novel framework that bridges Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation (BST-CDSR). Specifically, we design a behavioral preference evolution module that decouples long-term interests and short-term intentions, and models continuous-time preference via a neural ordinary differential equation (ODE) with event-driven updates. Additionally, to capture time-aware semantic preferences, we introduce a temporal counterfactual-enhanced semantic generator that discretizes temporal interval tokens and leverages large language models (LLMs) to extract robust temporal semantics, where counterfactual perturbations enhance the time sensitivity of semantic preferences. Furthermore, we propose a time-preference guided domain transfer module to adaptively control transfer weights and mitigate negative transfer. Extensive experiments on real-world datasets demonstrate that BST-CDSR consistently outperforms baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.00992": {
+            "title": "Recommendations for the Astronomy Graduate Admissions Process",
+            "authors": "Emily M. Levesque, Courtney D. Dressing, Rachel Ivie, Grace Krahm, Meredith A. MacGregor, Daniel R. Piacitelli, Tom Rice",
+            "first_author": "Emily M. Levesque",
+            "url": "http://arxiv.org/abs/2605.00992v1",
+            "pdf_url": "http://arxiv.org/abs/2605.00992",
+            "publish_date": "2026-05-01",
+            "abstract": "As the AAS Working Group on Graduate Admissions (WGGA) we are sharing brief recommendations for improving and standardizing key elements of the graduate admissions process in astronomy. Most astronomy graduate programs have large areas of overlap in their admissions processes; however, the existing small variations in requirements and mismatches in communication and transparency make admissions more challenging for students and programs alike. To improve this situation, and building on the work presented in the AAS Graduate Admissions Task Force (GATF) report we recommend a few simple and straightforward changes for application content, communication, and timelines. These include an application format that consists of 1) two 500-word recommendation letters, 2) one 1500-word application essay, 3) an applicant CV, and 4) unofficial transcripts; and an admissions timeline that includes effective and transparent communication from programs and encouraging an April 1st \"down-select date\" for applicants.",
+            "primary_category": "astro-ph.IM",
+            "code_url": "null"
         }
     }
 }

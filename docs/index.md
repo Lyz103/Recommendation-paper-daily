@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-05-04
+## Updated on 2026-05-05
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,8 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-04 | **Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation** | Zhida Qin, Zemu Liu, Haoyan Fu, Chong Zhang, Tianyu Huang, Yidong Li, Gangyi Ding | [Link](http://arxiv.org/abs/2605.02369) | Not Available |
+| 2026-05-01 | **Recommendations for the Astronomy Graduate Admissions Process** | Emily M. Levesque, Courtney D. Dressing, Rachel Ivie, Grace Krahm, Meredith A. MacGregor, Daniel R. Piacitelli, Tom Rice | [Link](http://arxiv.org/abs/2605.00992) | Not Available |
 | 2026-05-01 | **CustomDancer: Customized Dance Recommendation by Text-Dance Retrieval** | Yawen Qin, Ke Qiu, Qin Zhang | [Link](http://arxiv.org/abs/2605.00824) | Not Available |
 | 2026-05-01 | **Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion** | Yuan Li, Jun Hu, Jiaxin Jiang, Bryan Hooi, Bingsheng He | [Link](http://arxiv.org/abs/2605.00670) | Not Available |
 | 2026-05-01 | **DySRec: Dynamic Context-Aware Psychometric Scale Recommendation via Multi-Agent Collaboration** | Yanzeng Li, Xiaoning Cao, Jialun Zhong, Jianpeng Hu, Jiangshan Tan, Ningning Liu, Feng Xiang, Shasha Han | [Link](http://arxiv.org/abs/2605.00574) | Not Available |
