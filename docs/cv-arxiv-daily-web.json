@@ -14002,6 +14002,39 @@
             "abstract": "As the AAS Working Group on Graduate Admissions (WGGA) we are sharing brief recommendations for improving and standardizing key elements of the graduate admissions process in astronomy. Most astronomy graduate programs have large areas of overlap in their admissions processes; however, the existing small variations in requirements and mismatches in communication and transparency make admissions more challenging for students and programs alike. To improve this situation, and building on the work presented in the AAS Graduate Admissions Task Force (GATF) report we recommend a few simple and straightforward changes for application content, communication, and timelines. These include an application format that consists of 1) two 500-word recommendation letters, 2) one 1500-word application essay, 3) an applicant CV, and 4) unofficial transcripts; and an admissions timeline that includes effective and transparent communication from programs and encouraging an April 1st \"down-select date\" for applicants.",
             "primary_category": "astro-ph.IM",
             "code_url": "null"
+        },
+        "2605.03986": {
+            "title": "From Intent to Execution: Composing Agentic Workflows with Agent Recommendation",
+            "authors": "Kishan Athrey, Ramin Pishehvar, Brian Riordan, Mahesh Viswanathan",
+            "first_author": "Kishan Athrey",
+            "url": "http://arxiv.org/abs/2605.03986v1",
+            "pdf_url": "http://arxiv.org/abs/2605.03986",
+            "publish_date": "2026-05-05",
+            "abstract": "Multi-Agent Systems (MAS) built using AI agents fulfill a variety of user intents that may be used to design and build a family of related applications. However, the creation of such MAS currently involves manual composition of the plan, manual selection of appropriate agents, and manual creation of execution graphs. This paper introduces a framework for the automated creation of multi-agent systems which replaces multiple manual steps with an automated framework. The proposed framework consists of software modules and a workflow to orchestrate the requisite task- specific application. The modules include: an LLM-derived planner, a set of tasks described in natural language, a dynamic call graph, an orchestrator for map agents to tasks, and an agent recommender that finds the most suitable agent(s) from local and global agent registries. The agent recommender uses a two-stage information retrieval (IR) system comprising a fast retriever and an LLM-based re-ranker. We implemented a series of experiments exploring the choice of embedders, re- rankers, agent description enrichment, and supervising critique agent. We benchmarked this system end-to-end, evaluating the combination of planning, agent selection, and task completion, with our proposed approach. Our experimental results show that our approach outperforms the state-of-the- art in terms of the recall rate and is more robust and scalable compared to previous approaches. The critique agent holistically reevaluates both agent and tool recommendations against the overall plan. We show that the inclusion of the critique agent further enhances the recall score, proving that the comprehensive review and revision of task-based agent selection is an essential step in building end-to-end multi-agent systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2605.03916": {
+            "title": "Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recommendations for Oncology Decision Support: A Randomized Controlled Trial",
+            "authors": "Lisa C. Adams, Linus Marx, Erik Thiele Orberg, Keno Bressem, Sebastian Ziegelmayer, Denise Bernhardt, Markus Graf, Marcus R. Makowski, Stephanie E. Combs, Florian Matthes, Jan C. Peeken",
+            "first_author": "Lisa C. Adams",
+            "url": "http://arxiv.org/abs/2605.03916v1",
+            "pdf_url": "http://arxiv.org/abs/2605.03916",
+            "publish_date": "2026-05-05",
+            "abstract": "Question: Does atomic fact-checking, which decomposes AI treatment recommendations into individually verifiable claims linked to source guideline documents, increase clinician trust compared to traditional explainability approaches?   Findings: In this randomized trial of 356 clinicians generating 7,476 trust ratings, atomic fact-checking produced a large effect on trust (Cohen's d = 0.94), increasing the proportion of clinicians expressing trust from 26.9% to 66.5%. Traditional transparency mechanisms showed a dose-response gradient of improvement over baseline (d = 0.25 to 0.50).   Meaning: Decomposing AI recommendations into individually verifiable claims linked to source guidelines produces substantially higher clinician trust than traditional explainability approaches in high-stakes clinical decisions.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2605.03861": {
+            "title": "Aspect-Aware Content-Based Recommendations for Mathematical Research Papers",
+            "authors": "Ankit Satpute, Andr\u00e9 Greiner-Petter, Noah Gie\u00dfing, Olaf Teschke, Moritz Schubotz, Akiko Aizawa, Bela Gipp",
+            "first_author": "Ankit Satpute",
+            "url": "http://arxiv.org/abs/2605.03861v1",
+            "pdf_url": "http://arxiv.org/abs/2605.03861",
+            "publish_date": "2026-05-05",
+            "abstract": "Content-based research paper recommendation (CbRPR) has seen advances in computer science and biomedicine, but remains unexplored for mathematics, where paper relatedness is more conceptual than explicit textual or citation-based similarity. Mathematics papers may be connected through shared proof techniques, logical implications, or natural generalizations, yet exhibit minimal textual or citation overlap, rendering existing CbRPR ineffective. To address this gap, we first conduct an expert-driven study characterizing mathematical recommendations, revealing that relevance is inherently \\textit{aspect}-driven. Grounded in this insight, we introduce GoldRiM (small, expert-annotated) and SilverRiM (large, automatically derived), the first datasets for \\textit{aspect}-aware CbRPR in mathematics. Recognizing that LLM embeddings of mathematical content alone yield suboptimal representation, we propose AchGNN, an \\textit{aspect}-conditioned heterogeneous GNN that jointly models textual semantics, citation structure, and author lineage. Across GoldRiM and SilverRiM, AchGNN consistently outperforms prior \\textit{aspect}-based CbRPR methods, achieving substantial gains across all evaluated \\textit{aspects}. We conduct ablation studies to analyze the contributions of individual \\textit{aspect} supervision, authorship lineage, and graph-structural signals to AchGNN's performance. To assess domain generality, we further evaluate AchGNN on the \\textit{Papers with Code} dataset of machine learning publications, demonstrating that our \\textit{aspect}-aware approach effectively transfers beyond mathematics. We deploy our system on the MaRDI platform to help mathematicians with recommendations and release datasets and code publicly for reproducibility.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

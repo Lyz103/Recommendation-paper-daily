@@ -1,4 +1,4 @@
-## Updated on 2026-05-05
+## Updated on 2026-05-06
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,9 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-05 | **From Intent to Execution: Composing Agentic Workflows with Agent Recommendation** | Kishan Athrey, Ramin Pishehvar, Brian Riordan, Mahesh Viswanathan | [Link](http://arxiv.org/abs/2605.03986) | Not Available |
+| 2026-05-05 | **Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recommendations for Oncology Decision Support: A Randomized Controlled Trial** | Lisa C. Adams, Linus Marx, Erik Thiele Orberg, Keno Bressem, Sebastian Ziegelmayer, Denise Bernhardt, Markus Graf, Marcus R. Makowski, Stephanie E. Combs, Florian Matthes, Jan C. Peeken | [Link](http://arxiv.org/abs/2605.03916) | Not Available |
+| 2026-05-05 | **Aspect-Aware Content-Based Recommendations for Mathematical Research Papers** | Ankit Satpute, André Greiner-Petter, Noah Gießing, Olaf Teschke, Moritz Schubotz, Akiko Aizawa, Bela Gipp | [Link](http://arxiv.org/abs/2605.03861) | Not Available |
 | 2026-05-04 | **Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation** | Zhida Qin, Zemu Liu, Haoyan Fu, Chong Zhang, Tianyu Huang, Yidong Li, Gangyi Ding | [Link](http://arxiv.org/abs/2605.02369) | Not Available |
 | 2026-05-01 | **Recommendations for the Astronomy Graduate Admissions Process** | Emily M. Levesque, Courtney D. Dressing, Rachel Ivie, Grace Krahm, Meredith A. MacGregor, Daniel R. Piacitelli, Tom Rice | [Link](http://arxiv.org/abs/2605.00992) | Not Available |
 | 2026-05-01 | **CustomDancer: Customized Dance Recommendation by Text-Dance Retrieval** | Yawen Qin, Ke Qiu, Qin Zhang | [Link](http://arxiv.org/abs/2605.00824) | Not Available |
