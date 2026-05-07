@@ -1,4 +1,4 @@
-## Updated on 2026-05-06
+## Updated on 2026-05-07
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,10 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-06 | **CapsID: Soft-Routed Variable-Length Semantic IDs for Generative Recommendation** | Wenzhuo Cheng, Menghang Gong, Qixin Guo, Hang Zheng, Zhaobin Yang, Jianguo Lou, Zhengwei Zheng | [Link](http://arxiv.org/abs/2605.05096) | Not Available |
+| 2026-05-06 | **RecGPT-Mobile: On-Device Large Language Models for User Intent Understanding in Taobao Feed Recommendation** | Bin Zhang, Weipeng Huang, Dimin Wang, Jialin Zhu, Yuning Jiang, Zhaode Wang, Chengfei Lv, Jian Wang, Qichao Ma, Li Chen, Junqing Wu, Yipeng Yu | [Link](http://arxiv.org/abs/2605.04726) | Not Available |
+| 2026-05-06 | **Rethinking Convolutional Networks for Attribute-Aware Sequential Recommendation** | Shereen Elsayed, Ngoc Son Le, Ahmed Rashed, Lars Schmidt-Thieme | [Link](http://arxiv.org/abs/2605.04723) | Not Available |
+| 2026-05-06 | **Beyond Static Best-of-N: Bayesian List-wise Alignment for LLM-based Recommendation** | Ruijun Chen, Chongming Gao, Jiawei Chen, Weiqin Yang, Xiangnan He | [Link](http://arxiv.org/abs/2605.04559) | Not Available |
 | 2026-05-05 | **From Intent to Execution: Composing Agentic Workflows with Agent Recommendation** | Kishan Athrey, Ramin Pishehvar, Brian Riordan, Mahesh Viswanathan | [Link](http://arxiv.org/abs/2605.03986) | Not Available |
 | 2026-05-05 | **Atomic Fact-Checking Increases Clinician Trust in Large Language Model Recommendations for Oncology Decision Support: A Randomized Controlled Trial** | Lisa C. Adams, Linus Marx, Erik Thiele Orberg, Keno Bressem, Sebastian Ziegelmayer, Denise Bernhardt, Markus Graf, Marcus R. Makowski, Stephanie E. Combs, Florian Matthes, Jan C. Peeken | [Link](http://arxiv.org/abs/2605.03916) | Not Available |
 | 2026-05-05 | **Aspect-Aware Content-Based Recommendations for Mathematical Research Papers** | Ankit Satpute, André Greiner-Petter, Noah Gießing, Olaf Teschke, Moritz Schubotz, Akiko Aizawa, Bela Gipp | [Link](http://arxiv.org/abs/2605.03861) | Not Available |
@@ -68,7 +72,7 @@ Check out our exciting new papers:
 | 2026-04-21 | **GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking** | Siqi Liang, Xiawei Wang, Yudi Zhang, Jiaying Zhou | [Link](http://arxiv.org/abs/2604.19128) | Not Available |
 | 2026-04-20 | **Multi-LLM Token Filtering and Routing for Sequential Recommendation** | Wuhan Chen, Min Gao, Xin Xia, Zongwei Wang, Wentao Li, Shane Culpepper | [Link](http://arxiv.org/abs/2604.18200) | Not Available |
 | 2026-04-20 | **Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations** | Yunjia Xi, Menghui Zhu, Jianghao Lin, Bo Chen, Ruiming Tang, Yong Yu, Weinan Zhang | [Link](http://arxiv.org/abs/2604.18146) | Not Available |
-| 2026-04-20 | **FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion** | Lei Guo, Ting Yang, Hui Liu, Xu Yu, Xiaohui Han, Xinhua Wang | [Link](http://arxiv.org/abs/2604.17681) | Not Available |
+| 2026-04-20 | **FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion** | Lei Guo, Ting Yang, Xu Yu, Xiaohui Han, Guiyuan Jiang, Hui Liu | [Link](http://arxiv.org/abs/2604.17681) | Not Available |
 | 2026-04-20 | **MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature** | Md Toyaha Rahman Ratul, Zhiqian Chen, Kaiqun Fu, Taoran Ji, Lei Zhang | [Link](http://arxiv.org/abs/2604.17680) | Not Available |
 | 2026-04-19 | **Transparent and Controllable Recommendation Filtering via Multimodal Multi-Agent Collaboration** | Chi Zhang, Zhipeng Xu, Jiahao Liu, Dongsheng Li, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu | [Link](http://arxiv.org/abs/2604.17459) | Not Available |
 | 2026-04-19 | **Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines** | Shiyao Xie, Jian Du | [Link](http://arxiv.org/abs/2604.17340) | Not Available |
@@ -106,7 +110,7 @@ Check out our exciting new papers:
 | 2026-04-14 | **Identifying and Mitigating Gender Cues in Academic Recommendation Letters: An Interpretability Case Study** | Charlotte S. Alexander, Shane Storks, Souradip Pal, Sayak Chakrabarty, Arushi Sharma, Mlen-Too Wesley, Bailey Russo | [Link](http://arxiv.org/abs/2604.12337) | Not Available |
 | 2026-04-14 | **UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute** | Ziliang Wang, Gaoyun Lin, Xuesi Wang, Shaoqiang Liang, Yili Huang, Weijie Bian, Li Zhang, Mingchen Cai, Jian Dong, Guanxing Zhang | [Link](http://arxiv.org/abs/2604.12234) | Not Available |
 | 2026-04-13 | **WiseOWL: A Methodology for Evaluating Ontological Descriptiveness and Semantic Correctness for Ontology Reuse and Ontology Recommendations** | Aryan Singh Dalal, Maria Baloch, Asiyah Yu Lin, Anna Maria Masci, Kathleen M. Jagodnik, Hande Kucuk McGinty | [Link](http://arxiv.org/abs/2604.12025) | Not Available |
-| 2026-04-13 | **R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation** | Qiang Wan, Ze Yang, Dawei Yang, Ying Fan, Xin Yan, Siyang Liu | [Link](http://arxiv.org/abs/2604.11440) | Not Available |
+| 2026-04-13 | **R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation** | Qiang Wan, Ze Yang, Dawei Yang, Ying Fan, Xin Yan, Siyang Liu, Yicong Liu, Chenwei Zhang, Wei Xu, Jiahao Qin, Ke Wang | [Link](http://arxiv.org/abs/2604.11440) | Not Available |
 | 2026-04-12 | **Participatory, not Punitive: Student-Driven AI Policy Recommendations in a Design Classroom** | Kaoru Seki, Manisha Vijay, Yasmine Kotturi | [Link](http://arxiv.org/abs/2604.10851) | Not Available |
 | 2026-04-11 | **MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations** | Abderaouf Bahi, Mourad Boughaba, Ibtissem Gasmi, Warda Deghmane, Amel Ourici | [Link](http://arxiv.org/abs/2604.10147) | Not Available |
 | 2026-04-11 | **HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation** | Subham Raj, Aman Vaibhav Jha, Mayank Anand, Sriparna Saha | [Link](http://arxiv.org/abs/2604.10048) | Not Available |
