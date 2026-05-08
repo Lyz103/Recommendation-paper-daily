@@ -1,4 +1,4 @@
-## Updated on 2026-05-07
+## Updated on 2026-05-08
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,11 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-07 | **Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation** | Yupeng Hou, Haven Kim, Clark Mingxuan Ju, Eduardo Escoto, Neil Shah, Julian McAuley | [Link](http://arxiv.org/abs/2605.06331) | Not Available |
+| 2026-05-07 | **Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling** | Yiqing Wu, Haoming Li, Guanyu Jiang, Jiahao Liang, Yongchun Zhu, Jingwu Chen, Feng Zhang | [Link](http://arxiv.org/abs/2605.05855) | Not Available |
+| 2026-05-07 | **Unified Value Alignment for Generative Recommendation in Industrial Advertising** | Xinxun Zhang, Yuling Xiong, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang | [Link](http://arxiv.org/abs/2605.05803) | Not Available |
+| 2026-05-07 | **Effective Knowledge Transfer for Multi-Task Recommendation Models** | Guohao Cai, Jun Yuan, Zhenhua Dong | [Link](http://arxiv.org/abs/2605.05730) | Not Available |
+| 2026-05-05 | **TriAlignGR: Triangular Multitask Alignment with Multimodal Deep Interest Mining for Generative Recommendation** | Yangchen Zeng, Hao Peng, Rongfeng Guo, Zhenyu Yu, Zhiyuan Hu, Jinze Wang | [Link](http://arxiv.org/abs/2605.05249) | Not Available |
 | 2026-05-06 | **CapsID: Soft-Routed Variable-Length Semantic IDs for Generative Recommendation** | Wenzhuo Cheng, Menghang Gong, Qixin Guo, Hang Zheng, Zhaobin Yang, Jianguo Lou, Zhengwei Zheng | [Link](http://arxiv.org/abs/2605.05096) | Not Available |
 | 2026-05-06 | **RecGPT-Mobile: On-Device Large Language Models for User Intent Understanding in Taobao Feed Recommendation** | Bin Zhang, Weipeng Huang, Dimin Wang, Jialin Zhu, Yuning Jiang, Zhaode Wang, Chengfei Lv, Jian Wang, Qichao Ma, Li Chen, Junqing Wu, Yipeng Yu | [Link](http://arxiv.org/abs/2605.04726) | Not Available |
 | 2026-05-06 | **Rethinking Convolutional Networks for Attribute-Aware Sequential Recommendation** | Shereen Elsayed, Ngoc Son Le, Ahmed Rashed, Lars Schmidt-Thieme | [Link](http://arxiv.org/abs/2605.04723) | Not Available |
