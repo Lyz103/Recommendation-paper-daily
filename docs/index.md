@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-05-10
+## Updated on 2026-05-11
 
 ## 🎉 Our Latest Papers
 
@@ -16,6 +16,12 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-08 | **TRACE: Tourism Recommendation with Accountable Citation Evidence** | Zixu Zhao, Sijin Wang, Yu Hou, Yuanyuan Xu, Yufan Sheng, Xike Xie, Wenjie Zhang, Won-Yong Shin, Xin Cao | [Link](http://arxiv.org/abs/2605.07677) | Not Available |
+| 2026-05-08 | **Intent-Driven Semantic ID Generation for Grounded Conversational News Recommendation** | Hongyang Su, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Chenyun Yu | [Link](http://arxiv.org/abs/2605.07613) | Not Available |
+| 2026-05-08 | **RcLLM: Accelerating Generative Recommendation via Beyond-Prefix KV Caching** | Zhan Zhao, Yuxin Wang, Amelie Chi Zhou | [Link](http://arxiv.org/abs/2605.07443) | Not Available |
+| 2026-05-08 | **DCGL: Dual-Channel Graph Learning with Large Language Models for Knowledge-Aware Recommendation** | Xinchi Zou, Tongzhenzhi Su, Jianjun Li, Yuan Fu, Chang Liu, Zhiying Deng, Zhiwei Shen | [Link](http://arxiv.org/abs/2605.07314) | Not Available |
+| 2026-05-08 | **RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation** | Shijun Li, Wooseong Yang, Yu Wang, Tianxin Wei, Joydeep Ghosh | [Link](http://arxiv.org/abs/2605.07129) | Not Available |
+| 2026-05-08 | **An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation** | Haoyu Han, Li Ma, Hanbing Wang, Bingheng Li, Daochen Zha, Chun How Tan, Huiji Gao, Xin Liu, Stephanie Moyerman, Sanjeev Katariya, Hui Liu, Jiliang Tang | [Link](http://arxiv.org/abs/2605.07125) | Not Available |
 | 2026-05-07 | **Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation** | Yupeng Hou, Haven Kim, Clark Mingxuan Ju, Eduardo Escoto, Neil Shah, Julian McAuley | [Link](http://arxiv.org/abs/2605.06331) | Not Available |
 | 2026-05-07 | **Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling** | Yiqing Wu, Haoming Li, Guanyu Jiang, Jiahao Liang, Yongchun Zhu, Jingwu Chen, Feng Zhang | [Link](http://arxiv.org/abs/2605.05855) | Not Available |
 | 2026-05-07 | **Unified Value Alignment for Generative Recommendation in Industrial Advertising** | Xinxun Zhang, Yuling Xiong, Jiale Zhou, Zhengkai Guo, Zhennan Pang, Junbang Huo, Jingwen Wang, Xuyang Sun, Enming Zhang, Jiaguang Jin, Changping Wang, Yi Li, Jun Zhang, Xiao Yan, Jiawei Jiang, Jie Jiang | [Link](http://arxiv.org/abs/2605.05803) | Not Available |
