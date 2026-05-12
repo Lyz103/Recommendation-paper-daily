@@ -16,6 +16,8 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-11 | **LoKA: Low-precision Kernel Applications for Recommendation Models At Scale** | Liang Luo, Yinbin Ma, Quanyu Zhu, Vasiliy Kuznetsov, Yuxin Chen, Jian Jiao, Jiecao Yu, Buyun Zhang, Tongyi Tang, Xiaohan Wei, Yanli Zhao, Zeliang Chen, Yuchen Hao, Venkatesh Ranganathan, Sandeep Parab, Yantao Yao, Maxim Naumov, Chunzhi Yang, Shen Li, Ellie Wen, Wenlin Chen, Santanu Kolay, Chunqiang Tang | [Link](http://arxiv.org/abs/2605.10886) | Not Available |
+| 2026-05-11 | **AgentGR: Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendation** | Yangtao Zhou, Wenhao You, Hua Chu, Shihao Guo, Jianan Li, Zhifu Zhao, Qingshan Li | [Link](http://arxiv.org/abs/2605.10367) | Not Available |
 | 2026-05-11 | **LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation** | Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang | [Link](http://arxiv.org/abs/2605.10207) | Not Available |
 | 2026-05-11 | **Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors** | Anushree Berlia | [Link](http://arxiv.org/abs/2605.09830) | Not Available |
 | 2026-05-10 | **Action Recommendations for Sequentially Rational Strategic Agents** | Renyan Sun, Ashutosh Nayyar | [Link](http://arxiv.org/abs/2605.09785) | Not Available |
