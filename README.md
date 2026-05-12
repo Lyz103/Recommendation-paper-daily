@@ -1,4 +1,4 @@
-## Updated on 2026-05-11
+## Updated on 2026-05-12
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,14 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-11 | **LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation** | Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang | [Link](http://arxiv.org/abs/2605.10207) | Not Available |
+| 2026-05-11 | **Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors** | Anushree Berlia | [Link](http://arxiv.org/abs/2605.09830) | Not Available |
+| 2026-05-10 | **Action Recommendations for Sequentially Rational Strategic Agents** | Renyan Sun, Ashutosh Nayyar | [Link](http://arxiv.org/abs/2605.09785) | Not Available |
+| 2026-05-10 | **A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems** | Yiming Zhu, Xu Liu, Ziyun Xu, Zheng Wu, Joena Zhang, Sirius Chen, Chenheli Hua, Silvester Yao, Qichao Que, Wentao Shi, Junfeng Pan, Linhong Zhu | [Link](http://arxiv.org/abs/2605.09338) | Not Available |
+| 2026-05-09 | **Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation** | Haven Kim, Julian McAuley | [Link](http://arxiv.org/abs/2605.09120) | Not Available |
+| 2026-05-09 | **Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation** | Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui | [Link](http://arxiv.org/abs/2605.08810) | Not Available |
+| 2026-05-09 | **DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules** | Devin Yasith De Silva, Dhaval Patel, Christodoulos Constantinides, Shuxin Lin, Nianjun Zhou, Paul J Adams, Sal Rosato, Nicolas Constantinides, Deborah L. McGuinness, Jayant Kalagnanam | [Link](http://arxiv.org/abs/2605.08614) | Not Available |
+| 2026-05-08 | **Multi-Level Graph Attention Network Contrastive Learning for Knowledge-Aware Recommendation** | Zhifei Hu, Feng Xia | [Link](http://arxiv.org/abs/2605.08499) | Not Available |
 | 2026-05-08 | **TRACE: Tourism Recommendation with Accountable Citation Evidence** | Zixu Zhao, Sijin Wang, Yu Hou, Yuanyuan Xu, Yufan Sheng, Xike Xie, Wenjie Zhang, Won-Yong Shin, Xin Cao | [Link](http://arxiv.org/abs/2605.07677) | Not Available |
 | 2026-05-08 | **Intent-Driven Semantic ID Generation for Grounded Conversational News Recommendation** | Hongyang Su, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Chenyun Yu | [Link](http://arxiv.org/abs/2605.07613) | Not Available |
 | 2026-05-08 | **RcLLM: Accelerating Generative Recommendation via Beyond-Prefix KV Caching** | Zhan Zhao, Yuxin Wang, Amelie Chi Zhou | [Link](http://arxiv.org/abs/2605.07443) | Not Available |

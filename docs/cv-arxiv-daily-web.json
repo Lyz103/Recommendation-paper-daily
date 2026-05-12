@@ -14200,6 +14200,94 @@
             "abstract": "Sequential recommendation has increasingly shifted toward generative recommenders that combine sequential patterns with semantic item information. Yet these methods are often evaluated on a small set of widely used benchmarks, raising a key question: do these benchmarks actually require the advanced modeling capabilities that modern generative recommenders claim to provide? We conduct a benchmark audit with an intentionally simple graph heuristic. Starting from only the last one or two interacted items, it retrieves candidates from a few-hop item-transition graph and ranks them by item-feature similarity. Despite using no sequence encoder, generative objective, or training, this heuristic matches or outperforms many modern baselines, with relative NDCG@10 improvements of 38.10% and 44.18% over the best competing baseline on Amazon Review Sports and CDs.   We show that this behavior reflects shortcut solvability rather than an artifact of one heuristic. We identify three shortcut structures that can make next-item prediction easier than expected: low-branching local transitions, feature-smooth transitions, and limited dependence on long user histories. These shortcuts need not appear together; even one or two strong signals can make simple local retrieval highly competitive, while weakening them makes the benefits of more sophisticated models clearer. Across 14 datasets, model rankings vary substantially with dataset properties, yet the heuristic remains competitive on 10 of them. Our findings suggest that strong performance on standard benchmarks does not always demonstrate advanced sequential, semantic, or generative modeling ability. We call for more careful dataset selection and dataset-level diagnostic analysis when using benchmarks to support claims about new recommendation models.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2605.10207": {
+            "title": "LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation",
+            "authors": "Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang",
+            "first_author": "Yiwen Chen",
+            "url": "http://arxiv.org/abs/2605.10207v1",
+            "pdf_url": "http://arxiv.org/abs/2605.10207",
+            "publish_date": "2026-05-11",
+            "abstract": "Large Language Models (LLMs) have demonstrated powerful reasoning capabilities through Chain-of-Thought (CoT) in various tasks, yet the inefficiency of token-by-token generation hinders real-world deployment in latency-sensitive recommender systems. Latent reasoning has emerged as an effective paradigm in LLMs, performing multi-step inference in a continuous hidden-state space to achieve stronger reasoning at lower cost. However, this paradigm remains underexplored in mainstream generative recommendation. Adapting it reveals three unique challenges: (1) the gap between prior-less Semantic ID (SID) symbols and continuous latent reasoning - SIDs lack pre-trained semantics, hindering joint optimization; (2) representation drift due to a lack of reasoning chain supervision; and (3) the suboptimality of applying a globally fixed reasoning depth. To address these, we propose LASAR (Latent Adaptive Semantic Aligned Reasoning), an SFT-then-RL framework. First, we bridge this gap via two-stage training: Stage 1 grounds SID semantics before Stage 2 introduces latent reasoning, ensuring efficient convergence. Second, we mitigate representation drift through explicit CoT semantic alignment. Step-wise bidirectional KL divergence constrains the latent reasoning trajectory using hidden-state anchors extracted from CoT text, while a Policy Head predicts per-sample reasoning depth. Third, during the GRPO-based RL phase, terminal-only KL alignment accommodates variable-length reasoning, and REINFORCE optimizes the Policy Head to dynamically allocate steps. This nearly halves the average latent step count while simultaneously improving recommendation quality. Experiments on three real-world datasets demonstrate that LASAR outperforms all baselines. It adds marginal inference latency and is roughly 20 times faster than generating explicit CoT text.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.09830": {
+            "title": "Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors",
+            "authors": "Anushree Berlia",
+            "first_author": "Anushree Berlia",
+            "url": "http://arxiv.org/abs/2605.09830v1",
+            "pdf_url": "http://arxiv.org/abs/2605.09830",
+            "publish_date": "2026-05-11",
+            "abstract": "We present Loom, an outfit recommendation system that combines neural embedding retrieval with structured domain scoring to generate complete, coherent outfits from fashion catalogs. Given an anchor clothing item, Loom retrieves complementary pieces via slot-constrained approximate nearest neighbor search over FashionCLIP embeddings, then scores candidate outfits using a multi-objective function that integrates six signals: embedding similarity, color harmony, formality consistency, occasion coherence, style direction, and within-outfit diversity.   We introduce two techniques that address limitations of purely learned or purely rule-based approaches: (1) semantic material weight, which uses CLIP embedding geometry to infer garment heaviness for layer compatibility without hand-coded material taxonomies; and (2) vibe/anti-vibe occasion priors, which embed prose descriptions of occasion contexts as anchor vectors in CLIP space and score items by differential affinity.   Ablation experiments on a catalog of 620 items show that each component contributes measurably to outfit quality: the full system achieves a mean outfit score of 0.179 with a 9.3% hard violation rate, compared to 0.054 score and 16.0% violations for a category-constrained random baseline, a 3.3x improvement in score and 42% reduction in violations. Direction reranking is the single indispensable component: removing it drops score to 0.052, essentially equal to random. The system generates three stylistically distinct outfits in under 5 seconds on commodity hardware.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.09785": {
+            "title": "Action Recommendations for Sequentially Rational Strategic Agents",
+            "authors": "Renyan Sun, Ashutosh Nayyar",
+            "first_author": "Renyan Sun",
+            "url": "http://arxiv.org/abs/2605.09785v1",
+            "pdf_url": "http://arxiv.org/abs/2605.09785",
+            "publish_date": "2026-05-10",
+            "abstract": "We consider a finite-horizon discrete-time dynamic system that is jointly controlled by two strategic agents. There is a system designer that has its own reward function but does not have direct control over the agents' actions. We consider an information structure where the current state and all past history are equally accessible by the designer and the agents. The designer sends action recommendations to the agents at each time step. Each agent can use the received recommendation and the available information to choose its action. We are interested in the setting where the designer would like to send recommendations in a way that incentivizes the agents to adopt obedient strategies, i.e., to take the action recommended by the designer. Our goal is to find an optimal action recommendation strategy for the designer that maximizes the designer's objective while ensuring that obedient strategies are \\emph{sequentially rational} for the agents. We provide an algorithm for the designer's problem that involves solving a family of linear programs in a backward inductive manner.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2605.09338": {
+            "title": "A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems",
+            "authors": "Yiming Zhu, Xu Liu, Ziyun Xu, Zheng Wu, Joena Zhang, Sirius Chen, Chenheli Hua, Silvester Yao, Qichao Que, Wentao Shi, Junfeng Pan, Linhong Zhu",
+            "first_author": "Yiming Zhu",
+            "url": "http://arxiv.org/abs/2605.09338v1",
+            "pdf_url": "http://arxiv.org/abs/2605.09338",
+            "publish_date": "2026-05-10",
+            "abstract": "Conventional recommendation systems frequently fail to fully exploit the high-dimensional semantic signals inherent in multimedia content, thereby limiting the fidelity of user preference modeling. While Multimodal Large Language Models (MM-LLMs) offer robust mechanisms for interpreting such complex data, their integration into latency-constrained, industrial-scale architectures remains a significant challenge. To address this, we propose a generalized framework for MM-LLM-driven multimedia understanding. Our methodology employs a tripartite architecture encompassing content interpretation, representation extraction, and systematic pipeline integration, instantiated via a LLaMA2-based model that generates descriptive captions subsequently ingested as tokenized categorical features. Empirical evaluation demonstrates the efficacy of this approach, yielding a $0.35\\%$ increase in offline AUC and a $0.02\\%$ improvement in online metrics at scale, substantiating the practical viability of leveraging MM-LLMs to enhance large-scale recommendation performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.09120": {
+            "title": "Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation",
+            "authors": "Haven Kim, Julian McAuley",
+            "first_author": "Haven Kim",
+            "url": "http://arxiv.org/abs/2605.09120v1",
+            "pdf_url": "http://arxiv.org/abs/2605.09120",
+            "publish_date": "2026-05-09",
+            "abstract": "Conversational music recommendation (CMR) research currently faces a tradeoff between authentic dialogue corpora that are limited in scale and synthesized corpora that scale up but whose conversations are artificially constructed rather than naturally observed. In this paper, we introduce Reddit2Deezer, a reality-grounded CMR resource derived from 190k unique {thread, leaf-comment} pairs. We release the resource in two versions: a raw version that preserves authenticity, and a paraphrased version that maximizes long-term reproducibility. Each musical entity is linked to a Deezer identifier, which provides straightforward access to audio previews and rich metadata (e.g., genre tags, popularity, BPM), opening the door to future research on content-grounded conversational recommendation. A human validation confirms the quality of the dialogues, item grounding, and paraphrases. The dataset is available at https://huggingface.co/datasets/McAuley-Lab/Reddit2Deezer.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.08810": {
+            "title": "Compressed Video Aggregator: Content-driven Module for Efficient Micro-Video Recommendation",
+            "authors": "Yang Xiao, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui",
+            "first_author": "Yang Xiao",
+            "url": "http://arxiv.org/abs/2605.08810v1",
+            "pdf_url": "http://arxiv.org/abs/2605.08810",
+            "publish_date": "2026-05-09",
+            "abstract": "We propose Compressed Video Aggregator (CVA), a lightweight micro-video recommendation module that decouples video information from preference learning. It aggregates frozen VFM embeddings, and uses latent reasoning without cross-attention projection, producing compact video embeddings for recommenders. Due to the redundancy in the frame count of the original benchmark and its overly coarse sampling, we used titles to re-select key frames based on CLIP. Experiments on MicroLens and Short-Video show consistent gains with orders-of-magnitude reductions in training time and GPU memory, and re-selected frames can further enhance the performance of all methods, including CVA. Furthermore, we also discussed the impact of several scenarios involving erroneous titles on our method. Code will be released soon.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2605.08614": {
+            "title": "DiagnosticIQ: A Benchmark for LLM-Based Industrial Maintenance Action Recommendation from Symbolic Rules",
+            "authors": "Devin Yasith De Silva, Dhaval Patel, Christodoulos Constantinides, Shuxin Lin, Nianjun Zhou, Paul J Adams, Sal Rosato, Nicolas Constantinides, Deborah L. McGuinness, Jayant Kalagnanam",
+            "first_author": "Devin Yasith De Silva",
+            "url": "http://arxiv.org/abs/2605.08614v1",
+            "pdf_url": "http://arxiv.org/abs/2605.08614",
+            "publish_date": "2026-05-09",
+            "abstract": "Monitoring complex industrial assets relies on engineer-authored symbolic rules that trigger based on sensor conditions and prompt technicians to perform corrective actions. The bottleneck is not detection but response: translating rules into maintenance steps requires asset-specific knowledge gained through years of practice. We investigate whether LLMs can serve as decision support for this rule-to-action step and introduce \\ours{}, a benchmark of 6{,}690 expert-validated multiple-choice questions from 118 rule-action pairs across 16 asset types. We contribute (i) a symbolic-to-MCQA pipeline normalizing rules to Disjunctive Normal Form with embedding-based distractor sampling, (ii) five variants probing distinct failure modes (Pro, Pert, Verbose, Aug, Rationale), and (iii) a benchmark of 29 LLMs and 4 embedding baselines. A human evaluation (9 practitioners, mean 45.0\\%) confirms \\ours{} requires specialist knowledge beyond operational experience. Three findings stand out. The frontier has closed: the top three LLMs lie within one Macro point, with Bradley-Terry Elo placing claude-opus-4-6 30 points above the next model. Yet \\ours{}\\,Pro exposes brittleness, with every model losing 13--60\\% relative accuracy under distractor expansion. \\ours{}\\,Aug exposes pattern-matching: under condition inversion, frontier models still select the original answer 49--63\\% of the time. The deployment bottleneck is not capability but calibration: frontier models handle template-style fault detection but break under structural perturbation.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2605.08499": {
+            "title": "Multi-Level Graph Attention Network Contrastive Learning for Knowledge-Aware Recommendation",
+            "authors": "Zhifei Hu, Feng Xia",
+            "first_author": "Zhifei Hu",
+            "url": "http://arxiv.org/abs/2605.08499v1",
+            "pdf_url": "http://arxiv.org/abs/2605.08499",
+            "publish_date": "2026-05-08",
+            "abstract": "In recent years, the use of edge information provided by knowledge graphs together with the advantages of higher-order connectivity in graph neural networks for recommendation systems has become an important research direction. However, existing approaches are often limited by sparse labels, insufficient graph structure learning, and noisy entities in the knowledge graph, which reduce recommendation accuracy. To address these limitations, we propose a multi-view graph contrastive learning framework. The proposed method enhances user representations through multi-view knowledge graph distillation, enabling more accurate modeling of user preferences over entities and relations. The network aggregates neighborhood entity information to construct informative item representations. Furthermore, we design a multi-level self-supervised contrastive learning module that performs comparisons across three perspectives: Inter-Level, Intra-Level, and Interaction-Level. This design improves the model's ability to generalize across intra-class samples while increasing discrimination between inter-class samples, thereby enabling more effective multi-dimensional feature modeling. We conduct extensive experiments on three public datasets using both baseline and ablation settings. Experimental results demonstrate that the proposed framework consistently outperforms existing state-of-the-art methods. Ablation studies further verify the effectiveness of each module in the proposed model.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
