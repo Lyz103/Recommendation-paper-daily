@@ -1,4 +1,4 @@
-## Updated on 2026-05-12
+## Updated on 2026-05-13
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,13 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-12 | **Why Users Go There: World Knowledge-Augmented Generative Next POI Recommendation** | Qiuyu Ding, Heng-Da Xu, Wei Zhang, Dongyi Lv, Changda Xia, Feng Xiong, Mu Xu | [Link](http://arxiv.org/abs/2605.11807) | Not Available |
+| 2026-05-12 | **Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation** | Wei Wang | [Link](http://arxiv.org/abs/2605.11707) | Not Available |
+| 2026-05-12 | **HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment** | Guorui Li, Dugang Liu, Lei Li, Xing Tang, Zhong Ming | [Link](http://arxiv.org/abs/2605.11662) | Not Available |
+| 2026-05-12 | **TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning** | Shiteng Cao, Kaian Jiang, Yunlong Gong, Zhiheng Li | [Link](http://arxiv.org/abs/2605.11553) | Not Available |
+| 2026-05-12 | **Conditional Memory Enhanced Item Representation for Generative Recommendation** | Ziwei Liu, Yejing Wang, Shengyu Zhou, Xinhang Li, Xiangyu Zhao | [Link](http://arxiv.org/abs/2605.11447) | Not Available |
+| 2026-05-11 | **A Cascaded Generative Approach for e-Commerce Recommendations** | Moein Hasani, Hamidreza Shahidi, Trace Levinson, Yuan Zhong, Guanghua Shu, Vinesh Gudla, Tejaswi Tenneti | [Link](http://arxiv.org/abs/2605.11118) | Not Available |
+| 2026-05-09 | **Statin Recommendations among US Adults with the 2026 Dyslipidemia Guidelines** | James A. Diao, Thomas A. Buckley, Andrew Z. Zhou, Smaraki Dash, Rishi K. Wadhera, Arjun K. Manrai | [Link](http://arxiv.org/abs/2605.10979) | Not Available |
 | 2026-05-11 | **LoKA: Low-precision Kernel Applications for Recommendation Models At Scale** | Liang Luo, Yinbin Ma, Quanyu Zhu, Vasiliy Kuznetsov, Yuxin Chen, Jian Jiao, Jiecao Yu, Buyun Zhang, Tongyi Tang, Xiaohan Wei, Yanli Zhao, Zeliang Chen, Yuchen Hao, Venkatesh Ranganathan, Sandeep Parab, Yantao Yao, Maxim Naumov, Chunzhi Yang, Shen Li, Ellie Wen, Wenlin Chen, Santanu Kolay, Chunqiang Tang | [Link](http://arxiv.org/abs/2605.10886) | Not Available |
 | 2026-05-11 | **AgentGR: Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendation** | Yangtao Zhou, Wenhao You, Hua Chu, Shihao Guo, Jianan Li, Zhifu Zhao, Qingshan Li | [Link](http://arxiv.org/abs/2605.10367) | Not Available |
 | 2026-05-11 | **LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation** | Yiwen Chen, Fuwei Zhang, Zehao Chen, Deqing Wang, Hehan Li, Peizhi Xu, Hanmeng Liu, Shuanglong Li, Xin Pei, Fuzhen Zhuang, Zhao Zhang | [Link](http://arxiv.org/abs/2605.10207) | Not Available |

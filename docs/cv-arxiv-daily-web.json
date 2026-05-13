@@ -13831,7 +13831,7 @@
             "title": "Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations",
             "authors": "Peter M\u00fcllner, Dominik Kowald, Markus Schedl, Elisabeth Lex",
             "first_author": "Peter M\u00fcllner",
-            "url": "http://arxiv.org/abs/2604.26390v1",
+            "url": "http://arxiv.org/abs/2604.26390v2",
             "pdf_url": "http://arxiv.org/abs/2604.26390",
             "publish_date": "2026-04-29",
             "abstract": "Balancing differential privacy (DP) with recommendation accuracy is a key challenge in privacy-preserving recommender systems, since DP-noise degrades accuracy. We address this trade-off at both the data and model levels. At the data level, we apply DP only to the most stereotypical user data likely to reveal sensitive attributes, such as gender or age, to reduce unnecessary perturbation; we refer to this as targeted DP. At the model level, we use meta-learning to improve robustness to remaining DP-noise. This achieves a better trade-off between accuracy and privacy than standard approaches: Meta-learning improves accuracy and targeted DP leads to lower empirical privacy risk compared to uniformly applied DP and full DP baselines. Overall, our findings show that selectively applying DP at the data level together with meta-learning at the model level can effectively balance recommendation accuracy and user privacy.",
@@ -14309,6 +14309,83 @@
             "publish_date": "2026-05-11",
             "abstract": "Group Recommendation (GR) aims to suggest items to a group of users, which has become a critical component of modern social platforms. Existing GR methods focus on aggregating individual user preferences with advanced neural networks to infer group preferences. Despite effectiveness, they essentially treat group preference learning as a simple preference aggregation process, failing to capture the complex dynamics of real-world group decision-making. To address these limitations, we propose AgentGR, a novel Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendations, inspired by the semantic reasoning and human behavior simulation capabilities of LLM-driven agents. It aims to jointly capture collaborative-semantic user preferences for member-role-playing and simulate dynamic group interactions to reflect real-world group decision-making processes, thereby boosting recommendation performance. Specifically, to capture collaborative-semantic user preferences, we introduce a semantic meta-path guided chain-of-preference reasoning mechanism that integrates high-order collaborative filtering signals and textual semantics to improve user preference profiles. To model the complex dynamics of group decision-making, we first recognize group topic and leadership to explicitly model the influencing factors within the group decision processes. Building on these, we simulate group-level decision dynamics via two multi-agent simulation strategies for recommendations: a static workflow-based strategy for efficiency and a dynamic dialogue-based strategy for precision. Extensive experiments on two real-world datasets show that AgentGR significantly outperforms state-of-the-art baselines in both recommendation accuracy and group decision simulation, highlighting its potential for real-world GR applications.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.11807": {
+            "title": "Why Users Go There: World Knowledge-Augmented Generative Next POI Recommendation",
+            "authors": "Qiuyu Ding, Heng-Da Xu, Wei Zhang, Dongyi Lv, Changda Xia, Feng Xiong, Mu Xu",
+            "first_author": "Qiuyu Ding",
+            "url": "http://arxiv.org/abs/2605.11807v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11807",
+            "publish_date": "2026-05-12",
+            "abstract": "Generative point-of-interest (POI) recommendation models based on large language models (LLMs) have shown promising results by formulating next POI prediction as a sequence generation task. However, the knowledge encoded in these models remains fixed after training, making them unable to perceive evolving real-world conditions that shape user mobility decisions, such as local events and cultural trends. To bridge this gap, we propose AWARE (Agent-based World knowledge Augmented REcommendation), which employs an LLM agent to generate location- and time-aware contextual narratives that capture regional cultural characteristics, seasonal trends, and ongoing events relevant to each user. Rather than introducing generic or noisy information, AWARE further anchors these narratives in each user's behavioral context, grounding external world knowledge in personalized spatial-temporal patterns. Extensive experiments on three real-world datasets demonstrate that AWARE consistently outperforms competitive baselines, achieving up to 12.4% relative improvement.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2605.11707": {
+            "title": "Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation",
+            "authors": "Wei Wang",
+            "first_author": "Wei Wang",
+            "url": "http://arxiv.org/abs/2605.11707v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11707",
+            "publish_date": "2026-05-12",
+            "abstract": "The effectiveness of contrastive learning in sequential recommendation hinges on the construction of contrastive views, which ideally should be both semantically consistent and diverse. However, most existing CL-based methods rely on heuristic augmentations that are prone to removing crucial items or disrupting transition patterns, leading to semantic drift. While a few studies have explored learnable augmentations to improve view quality, they often suffer from limited diversity and still necessitate heuristic aids. Furthermore, the quality differences across views are rarely modeled explicitly and adaptively, aggravating the false-positive issue. To address these issues, we propose Quality-aware Collaborative Multi-Positive Contrastive Learning for sequential recommendation. First, we introduce a learnable collaborative sequence augmentation module that generates two augmented views under two complementary collaborative contexts, one based on same-target sequences and the other on similar sequences, thereby enhancing view diversity while preserving intent consistency.Second, we design a quality-aware mechanism, tightly integrated into the model representations, which estimates each view' s quality from the confidence of its augmentation operations and assigns adaptive weights to ensure that high-confidence views contribute more supervision while low-confidence ones contribute less.Extensive experiments on three real-world datasets demonstrate that QCMP-CL outperforms state-of-the-art CL-based sequential recommendation baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.11662": {
+            "title": "HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment",
+            "authors": "Guorui Li, Dugang Liu, Lei Li, Xing Tang, Zhong Ming",
+            "first_author": "Guorui Li",
+            "url": "http://arxiv.org/abs/2605.11662v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11662",
+            "publish_date": "2026-05-12",
+            "abstract": "Large language model (LLM)-enhanced sequential recommendation typically aims to improve two core components: user semantic embedding extraction and utilization. Despite promising results, existing methods still have two limitations: 1) In the extraction stage, most methods directly input long interaction sequence fragments into LLM for preference summarization. However, excessively long sequences increase inference difficulty, making it challenging to reliably infer accurate user embeddings. 2) In the utilization stage, most methods employ the same semantic embedding utilization strategy for all users, neglecting the differences caused by user activity levels, leading to suboptimal performance. To address these issues, we propose HSUGA, which introduces a simple yet effective plugin for each of the two core components: Hierarchical Semantic Understanding (HSU) and Group-Aware Alignment (GAA). HSU performs a staged two-phase preference mining and models preference evolution through constrained editing operations, thereby improving the reliability of user semantic extraction. GAA adjusts the intensity of semantic utilization based on user activity levels, providing weaker alignment for active users and stronger guidance for users with sparse historical data. Finally, extensive experiments on three benchmark datasets demonstrate the effectiveness and compatibility of HSUGA.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.11553": {
+            "title": "TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning",
+            "authors": "Shiteng Cao, Kaian Jiang, Yunlong Gong, Zhiheng Li",
+            "first_author": "Shiteng Cao",
+            "url": "http://arxiv.org/abs/2605.11553v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11553",
+            "publish_date": "2026-05-12",
+            "abstract": "Generative recommendation with Semantic IDs (SIDs) has emerged as a promising paradigm, yet existing methods apply a fixed inference strategy, either fast direct generation or slow chain-of-thought reasoning, uniformly across all user histories. This approach creates a trade-off: fast recommendation model produces suboptimal accuracy on hard samples, while always invoking slow reasoning incurs prohibitive latency and wastes computation on easy cases. To address this, we propose Think Fast, Think Slow, Then Act, a framework that learns to adaptively allocate reasoning effort per user sequence. Our system equips an LLM with three complementary tools: a fast SID-based retriever, a lightweight candidate ranker, and a slow reasoning model that generates explicit rationales before recommending. Crucially, we inject collaborative commonsense into the slow model by transforming item-to-item knowledge into natural language explanations. A planner, trained through supervised warm-up followed by agentic reinforcement learning, dynamically decides which tool to invoke. Experiments on three datasets demonstrate that our method outperforms strong baselines, achieving consistent accuracy gains while reducing inference latency compared to uniform slow reasoning.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.11447": {
+            "title": "Conditional Memory Enhanced Item Representation for Generative Recommendation",
+            "authors": "Ziwei Liu, Yejing Wang, Shengyu Zhou, Xinhang Li, Xiangyu Zhao",
+            "first_author": "Ziwei Liu",
+            "url": "http://arxiv.org/abs/2605.11447v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11447",
+            "publish_date": "2026-05-12",
+            "abstract": "Generative recommendation (GR) has emerged as a promising paradigm that predicts target items by autoregressively generating their semantic identifiers (SID). Most GR methods follow a quantization-representation-generation pipeline, first assigning each item a SID, then constructing input representations from SID-token embeddings, and finally predicting the target SID through autoregressive generation. Existing item-level representation constructions mainly take two forms: directly merging SID-token embeddings into a compact vector, or enriching item-level representations with external inputs through additional networks. However, these item-level constructors still expose two practical challenges: direct merging may amplify the information loss caused by quantization and ID collision while obscuring SID code relations, whereas external-input-based methods can strengthen item semantics but cannot reliably preserve the SID-structured evidence required for token-level generation. These limitations make representation construction an underexplored bottleneck, leading to two severe problems, \\ie{} the Identity-Structure Preservation Conflict and Input-Output Granularity Mismatch. To this end, we propose ComeIR, a Conditional Memory enhanced Item Representation framework that reconstructs SID-token embeddings into item-aware inputs and restores the token granularity during SID decoding. Specifically, MM-guided token scoring adaptively estimates the contribution of each code within the SID, dual-level Engram memory captures intra-item code composition and inter-item transition patterns, and a memory-restoring prediction head reuses the memories during SID decoding. Extensive experiments demonstrate the effectiveness and flexibility of ComeIR, and further reveal scalable gains from enlarging conditional memory.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.11118": {
+            "title": "A Cascaded Generative Approach for e-Commerce Recommendations",
+            "authors": "Moein Hasani, Hamidreza Shahidi, Trace Levinson, Yuan Zhong, Guanghua Shu, Vinesh Gudla, Tejaswi Tenneti",
+            "first_author": "Moein Hasani",
+            "url": "http://arxiv.org/abs/2605.11118v1",
+            "pdf_url": "http://arxiv.org/abs/2605.11118",
+            "publish_date": "2026-05-11",
+            "abstract": "Personalized storefronts in large e-commerce marketplaces are often assembled from many independent components: static themes per page section (\"placement\"), retrieval systems to fetch eligible products per placement, and pointwise rankers to order content. While effective in optimizing for aggregate preferences, this paradigm is rigid and can limit personalization and semantic cohesion across the page. This makes it poorly suited to support dynamic objectives and merchandising requirements over time. To address this, we introduce a cascaded merchandising framework that decomposes storefront construction into two generative tasks: (i) placement-level theme generation and (ii) constrained keyword generation per placement to power product retrieval. Teacher-student fine-tuning is leveraged to improve scalability of this framework under production latency and cost constraints. Fine-tuned model ablations are shown to approach closed-weight LLM performance. We further contribute frameworks for AI-driven content evaluation and quality filtering, enabling safe and automated deployment of dynamic content at scale. Generative output is fused with traditional ranking models to preserve hybrid infrastructure. In online experiments, this framework yields an estimated +2.7% lift in cart adds per page view over a strong baseline.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2605.10979": {
+            "title": "Statin Recommendations among US Adults with the 2026 Dyslipidemia Guidelines",
+            "authors": "James A. Diao, Thomas A. Buckley, Andrew Z. Zhou, Smaraki Dash, Rishi K. Wadhera, Arjun K. Manrai",
+            "first_author": "James A. Diao",
+            "url": "http://arxiv.org/abs/2605.10979v1",
+            "pdf_url": "http://arxiv.org/abs/2605.10979",
+            "publish_date": "2026-05-09",
+            "abstract": "Importance: The 2026 multisociety dyslipidemia guideline recommended the PREVENT equations in place of the PCE equations, introduced 30-year risk assessment as a new treatment pathway, and lowered risk-based treatment thresholds. The net population impact of these concurrent changes on statin recommendations is unknown.   Objective: To estimate changes in statin recommendations under 2026 PREVENT-based dyslipidemia guidelines compared with 2018 PCE-based guidelines.   Design and Participants: Cross-sectional analysis of pooled data from NHANES, spanning 2011-2023 and comprising 24,199 participants aged 30-79 years.   Main Outcomes and Measures: Number and proportion of US adults receiving or recommended for statin therapy.   Results: At the class 1 threshold, the number of US adults receiving or recommended for statin therapy decreased by an estimated 3.0 million (95% CI, 2.3 million to 3.6 million), with larger reductions among Black adults (-4.2 percentage points [pp]), men (-4.0pp), and adults aged 50-69 years (-5.6pp). At the class 2 threshold--which additionally recommends statins for adults aged 30-59 years based on 30-year risk--the number of adults recommended increased by an estimated 20.8 million (95% CI, 19.6 million to 22.0 million), or +11.6pp. The increase was largest among adults aged 50-59 years (+19.7pp) and 40-49 years (+14.8pp).   Conclusions: The net population impact of the 2026 dyslipidemia guidelines depends critically on which recommendation class is applied. At the class 1 threshold, statin recommendations decreased modestly; at the class 2 threshold, inclusion of 30-year risk assessment substantially expanded recommendations, particularly among younger adults. These divergent effects underscore the importance of the 30-year risk criterion as a major driver of new eligibility and the need for outcomes and equity monitoring during guideline implementation.",
+            "primary_category": "q-bio.OT",
             "code_url": "null"
         }
     }
