@@ -1,4 +1,4 @@
-## Updated on 2026-05-13
+## Updated on 2026-05-14
 
 ## 🎉 Our Latest Papers
 
@@ -19,6 +19,10 @@ Check out our exciting new papers:
 | Publish Date | Title | Authors | PDF | Code |
 |:---|:---|:---|:---|:---|
 | 2005-12-29 | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, Markus Koppenberger, Javier M. Buldú | [Link](http://arxiv.org/abs/physics/0512266) | Not Available |
+| 2026-05-13 | **Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models** | Xinye Wanyan, Chenglong Ma, Danula Hettiachchi, Ziqi Xu, Jeffrey Chan | [Link](http://arxiv.org/abs/2605.13497) | Not Available |
+| 2026-05-13 | **TurboGR: An Accelerated Training System for Large-Scale Generative Recommendation** | Huichao Chai, Zhixin Wu, Xuemiao Li, Shiqing Fan, Hengfeng Wang, Maojun Peng, Lu Xu, Yaoyuan Wang, Yibo Jin, Wei Guo, Yongxiang Feng | [Link](http://arxiv.org/abs/2605.13433) | Not Available |
+| 2026-05-12 | **Just Ask for a Table: A Thirty-Token User Prompt Defeats Sponsored Recommendations in Twelve LLMs** | Andreas Maier, Jeta Sopa, Gozde Gul Sahin, Paula Perez-Toro, Siming Bayer | [Link](http://arxiv.org/abs/2605.12772) | Not Available |
+| 2026-04-10 | **Beyond Centralization: User-Controlled Federated Recommendations in Practice** | Manel Slokom, Alejandro Bellogin | [Link](http://arxiv.org/abs/2605.12527) | Not Available |
 | 2026-05-12 | **Why Users Go There: World Knowledge-Augmented Generative Next POI Recommendation** | Qiuyu Ding, Heng-Da Xu, Wei Zhang, Dongyi Lv, Changda Xia, Feng Xiong, Mu Xu | [Link](http://arxiv.org/abs/2605.11807) | Not Available |
 | 2026-05-12 | **Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation** | Wei Wang | [Link](http://arxiv.org/abs/2605.11707) | Not Available |
 | 2026-05-12 | **HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment** | Guorui Li, Dugang Liu, Lei Li, Xing Tang, Zhong Ming | [Link](http://arxiv.org/abs/2605.11662) | Not Available |
