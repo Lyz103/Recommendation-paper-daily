@@ -14293,7 +14293,7 @@
             "title": "LoKA: Low-precision Kernel Applications for Recommendation Models At Scale",
             "authors": "Liang Luo, Yinbin Ma, Quanyu Zhu, Vasiliy Kuznetsov, Yuxin Chen, Jian Jiao, Jiecao Yu, Buyun Zhang, Tongyi Tang, Xiaohan Wei, Yanli Zhao, Zeliang Chen, Yuchen Hao, Venkatesh Ranganathan, Sandeep Parab, Yantao Yao, Maxim Naumov, Chunzhi Yang, Shen Li, Ellie Wen, Wenlin Chen, Santanu Kolay, Chunqiang Tang",
             "first_author": "Liang Luo",
-            "url": "http://arxiv.org/abs/2605.10886v1",
+            "url": "http://arxiv.org/abs/2605.10886v2",
             "pdf_url": "http://arxiv.org/abs/2605.10886",
             "publish_date": "2026-05-11",
             "abstract": "Recent GPU generations deliver significantly higher FLOPs using lower-precision arithmetic, such as FP8. While successfully applied to large language models (LLMs), its adoption in large recommendation models (LRMs) has been limited. This is because LRMs are numerically sensitive, dominated by small matrix multiplications (GEMMs) followed by normalization, and trained in communication-intensive environments. Applying FP8 directly to LRMs often degrades model quality and prolongs training time. These challenges are inherent to LRM workloads and cannot be resolved merely by introducing better FP8 kernels. Instead, a system-model co-design approach is needed to successfully integrate FP8. We present LoKA (Low-precision Kernel Applications), a framework that makes FP8 practical for LRMs through three principles: profile under realistic distributions to know where low precision is safe, co-design model components with hardware to expand where it is safe, and orchestrate across kernel libraries to maximize the gains. Concretely, LoKA Probe is a statistically grounded, online benchmarking method that learns activation and weight statistics, and quantifies per-layer errors. This process pinpoints safe and unsafe, fast and slow sites for FP8 adoption. LoKA Mods is a set of reusable model adaptations that improve both numerical stability and execution efficiency with FP8. LoKA Dispatch is a runtime that leverages the statistical insights from LoKA Probe to select the fastest FP8 kernel that satisfies the accuracy requirements.",
@@ -14429,6 +14429,28 @@
             "pdf_url": "http://arxiv.org/abs/2605.12527",
             "publish_date": "2026-04-10",
             "abstract": "Recommendation systems typically require centralized user data, limiting user control and raising privacy concerns. Federated learning offers an alternative by keeping data on-device, but its impact on real user behavior remains largely unexplored. We present a live federated recommender system that allows users to control the recommendation objective while keeping their data local. In a 53-day deployment with 22 participants and a catalog of 8807 titles, users interacted with recommendations and switched between personalization and diversity-enhanced ranking. We find that users prefer personalization when given explicit choice (65.37\\% vs.\\ 62.07\\% CTR), actively engage with control mechanisms (3.93/5 satisfaction; 248 settings changes), and develop an understanding of how their interactions affect recommendations through immediate feedback. Our results show that user control, privacy, and effective personalization can be combined in a working system. We demonstrate a practical approach to interactive, privacy-preserving recommendation. Code and demo materials are available at: https://github.com/SlokomManel/federated-recommendations-participants",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2605.14543": {
+            "title": "RxEval: A Prescription-Level Benchmark for Evaluating LLM Medication Recommendation",
+            "authors": "Shuhao Chen, Weisen Jiang, Changmiao Wang, Xiaoqing Wu, Xuanren Shi, Yu Zhang, James T. Kwok",
+            "first_author": "Shuhao Chen",
+            "url": "http://arxiv.org/abs/2605.14543v1",
+            "pdf_url": "http://arxiv.org/abs/2605.14543",
+            "publish_date": "2026-05-14",
+            "abstract": "Inpatient medication recommendation requires clinicians to repeatedly select specific medications, doses, and routes as a patient's condition evolves. Existing benchmarks formulate this task as admission-level prediction over coarse drug codes with multi-hot diagnostic and procedure code inputs, failing to capture the per-timepoint, information-rich nature of real prescribing. We propose RxEval, a prescription-level benchmark that evaluates LLM prescribing capability by multiple-choice questions: each question presents a detailed patient profile and time-ordered clinical trajectory, requiring selection of specific medication-dose-route triples from real prescriptions and patient-specific distractors generated via reasoning-chain perturbation. RxEval comprises 1,547 questions spanning 584 patients, 18 diagnostic categories, and 969 unique medications. Evaluation of 16 LLMs shows that RxEval is both challenging and discriminative: F1 ranges from 45.18 to 77.10 across models, and the best Exact Match is only 46.10%. Error analysis reveals that even frontier models may overlook stated patient information and fail to derive clinical conclusions.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2605.14512": {
+            "title": "Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization",
+            "authors": "Bin Huang, Xin Wang, Junwei Pan, Yongqi Zhou, Yifeng Zhou, Zhixiang Feng, Shudong Huang, Haijie Gu, Wenwu Zhu",
+            "first_author": "Bin Huang",
+            "url": "http://arxiv.org/abs/2605.14512v1",
+            "pdf_url": "http://arxiv.org/abs/2605.14512",
+            "publish_date": "2026-05-14",
+            "abstract": "Generative Recommendation (GenRec) models reformulate recommendation as a sequence generation task, representing items as discrete Semantic IDs used symmetrically as both inputs and prediction targets. We identify a critical dual-stage information bottleneck in this design: (1) the Input Bottleneck, where lossy quantization degrades fine-grained semantics, while popularity bias skews the learned representations toward frequent items, and (2) the Output Bottleneck, where imprecise discrete targets limit supervision quality. To address these issues, we propose AsymRec, an asymmetric continuous-discrete framework that decouples input and output representations. Specifically, Multi-expert Semantic Projection (MSP) maps continuous embeddings into the Transformer's hidden space via expert-specialized projections, preserving semantic richness and improving generalization to infrequent items. Multi-faceted Hierarchical Quantization (MHQ) constructs high-capacity, structured discrete targets through multi-view and multi-level quantization with semantic regularization, preventing dimensional collapse while retaining fine-grained distinctions. Extensive experiments demonstrate that AsymRec consistently outperforms state-of-the-art generative recommenders by an average of 15.8 %. The code will be released.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
