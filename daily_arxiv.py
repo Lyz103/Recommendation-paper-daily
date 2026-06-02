@@ -68,7 +68,8 @@ def get_daily_papers(topic: str, query: str, max_results: int) -> dict:
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
 
-    for result in search.results():
+    client = arxiv.Client(page_size=100, delay_seconds=5, num_retries=5)
+    for result in client.results(search):
         # REFACTORED: More efficient and case-insensitive filtering
         title_lower = result.title.lower()
         if "recommendation" not in title_lower:
@@ -141,11 +142,17 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
 
         if use_title:
             f.write(f"## Updated on {date_now}\n\n")
-            # Add permanent promotion section
-            f.write("## 🎉 Our Latest Papers\n\n")
-            f.write("Check out our exciting new papers:\n\n")
-            f.write("- [SIGIR26-MDCNS](https://github.com/Lyz103/SIGIR26-MDCNS)\n")
-            f.write("- [WWW26-R2NS](https://github.com/Lyz103/WWW26-R2NS)\n\n")
+
+            # ── Our Papers highlight block ────────────────────────────────
+            f.write("---\n\n")
+            f.write("## 🔥 Our Work\n\n")
+            f.write("> Papers from our group — feel free to cite or collaborate!\n\n")
+            f.write("| | Paper | Venue | Links |\n")
+            f.write("|:---:|:---|:---:|:---:|\n")
+            f.write("| 🆕 | **R²NS: Recall and Re-ranking of Negative Samples for Sequential Recommendation** | WWW 2026 | [![GitHub](https://img.shields.io/badge/Code-black?logo=github)](https://github.com/Lyz103/WWW26-R2NS) |\n")
+            f.write("| 🆕 | **Divergence Meets Consensus: A Multi-Source Negative Sampling Framework for Sequential Recommendation** | SIGIR 2026 | [![GitHub](https://img.shields.io/badge/Code-black?logo=github)](https://github.com/Lyz103/SIGIR26-MDCNS) |\n")
+            f.write("| 🆕 | **Benchmarking LLMs for Community Governance Simulation with Life-history Narratives** | arXiv 2026 | [![arXiv](https://img.shields.io/badge/arXiv-2605.23783-b31b1b)](https://arxiv.org/pdf/2605.23783) |\n")
+            f.write("\n---\n\n")
         else:
             f.write(f"> Updated on {date_now}\n")
         
@@ -161,33 +168,44 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
         for topic, papers in data.items():
             if not papers:
                 continue
-            
+
             f.write(f"## {topic}\n\n")
-            
-            header = "| Publish Date | Title | Authors | PDF | Code |\n"
-            separator = "|:---|:---|:---|:---|:---|\n"
+
+            header    = "| # | Date | Title | Authors | Links |\n"
+            separator = "|:---:|:---:|:---|:---|:---:|\n"
             f.write(header + separator)
 
             sorted_papers = sort_papers_by_id(papers)
-            
-            for paper_id, details in sorted_papers.items():
-                
-                # FIX: Check if the 'details' object is a dictionary before processing.
-                # This handles old, string-formatted data gracefully.
+
+            for idx, (paper_id, details) in enumerate(sorted_papers.items(), 1):
                 if not isinstance(details, dict):
-                    logging.warning(f"Skipping malformed (old format) entry for paper_id: {paper_id}")
+                    logging.warning(f"Skipping malformed entry: {paper_id}")
                     continue
 
-                pub_date = details.get('publish_date', 'N/A')
-                title = details.get('title', 'N/A').replace("|", "\\|")
-                authors = details.get('authors', 'N/A')
-                pdf_url = details.get('pdf_url', '#')
-                code_url = details.get('code_url', 'null')
-                
-                code_link = f"[{paper_id}]({code_url})" if code_url != "null" else "Not Available"
-                pdf_link = f"[Link]({pdf_url})"
-                
-                f.write(f"| {pub_date} | **{title}** | {authors} | {pdf_link} | {code_link} |\n")
+                pub_date  = details.get('publish_date', 'N/A')
+                title     = details.get('title', 'N/A').replace("|", "\\|")
+                authors   = details.get('authors', 'N/A')
+                pdf_url   = details.get('pdf_url', '#')
+                code_url  = details.get('code_url', 'null')
+
+                # Shorten date to MM-DD
+                date_short = pub_date[5:] if len(pub_date) == 10 else pub_date
+
+                # Truncate authors to first two + et al.
+                author_list = [a.strip() for a in authors.split(',')]
+                if len(author_list) > 2:
+                    authors_short = f"{author_list[0]}, {author_list[1]}, et al."
+                else:
+                    authors_short = authors
+
+                pdf_badge  = f"[![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)]({pdf_url})"
+                if code_url != "null":
+                    code_badge = f"[![GitHub](https://img.shields.io/badge/Code-black?logo=github)]({code_url})"
+                    links = f"{pdf_badge} {code_badge}"
+                else:
+                    links = pdf_badge
+
+                f.write(f"| {idx} | `{date_short}` | **{title}** | {authors_short} | {links} |\n")
 
             f.write("\n")
             
