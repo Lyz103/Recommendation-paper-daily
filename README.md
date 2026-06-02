@@ -25,6 +25,7 @@
 
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
+| `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
 | `2026-06-01` | **Dynamic Spectral Denoising with Global-Context Attention for Multi-Behavior Recommendation** | Miaomiao Cai, Yunshan Ma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.02417) |
 | `2026-06-01` | **Rank-Constrained Deep Matrix Completion for Group Recommendation** | Mubaraka Sani Ibrahim, Lehel Csató, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.01948) |
 | `2026-06-01` | **Decoupled Residual Quantization for Robust Semantic IDs in Recommendation** | Xuesi Wang, Junjie Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.01844) |
