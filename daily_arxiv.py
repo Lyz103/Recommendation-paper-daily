@@ -171,13 +171,13 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
 
             f.write(f"## {topic}\n\n")
 
-            header    = "| # | Date | Title | Authors | Links |\n"
-            separator = "|:---:|:---:|:---|:---|:---:|\n"
+            header    = "| Date | Title | Authors | Links |\n"
+            separator = "|:----------:|:---|:---|:---:|\n"
             f.write(header + separator)
 
             sorted_papers = sort_papers_by_id(papers)
 
-            for idx, (paper_id, details) in enumerate(sorted_papers.items(), 1):
+            for paper_id, details in sorted_papers.items():
                 if not isinstance(details, dict):
                     logging.warning(f"Skipping malformed entry: {paper_id}")
                     continue
@@ -188,8 +188,8 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
                 pdf_url   = details.get('pdf_url', '#')
                 code_url  = details.get('code_url', 'null')
 
-                # Shorten date to MM-DD
-                date_short = pub_date[5:] if len(pub_date) == 10 else pub_date
+                # Keep full date YYYY-MM-DD to prevent wrapping
+                date_display = f"`{pub_date}`" if len(pub_date) == 10 else pub_date
 
                 # Truncate authors to first two + et al.
                 author_list = [a.strip() for a in authors.split(',')]
@@ -205,7 +205,7 @@ def json_to_md(json_file: Path, md_file: Path, **kwargs):
                 else:
                     links = pdf_badge
 
-                f.write(f"| {idx} | `{date_short}` | **{title}** | {authors_short} | {links} |\n")
+                f.write(f"| {date_display} | **{title}** | {authors_short} | {links} |\n")
 
             f.write("\n")
             
