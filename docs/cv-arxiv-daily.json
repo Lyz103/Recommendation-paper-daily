@@ -15146,6 +15146,105 @@
             "abstract": "We model the interaction between a user and an AI driven recommendation system. The user initiates the process by conveying preference information through a costly and noisy message. The AI assistant, acting as a Bayesian agent, interprets the user's message to form a posterior belief about their true preferences and make product recommendations. In particular, it determines how many recommendations to present so as to maximize the user's expected utility from their final choice, while accounting for the search cost induced by the size of the recommendation set. We use mutual information based cost functions to model the two distinct costs incurred by the user during the interaction: (i) a communication cost, which increases with the precision of their preference message, and (ii) a search cost, which increases with the size of the recommendation set provided by the AI assistant.   We study products and preferences which live in d dimensional space, and ask how the user's expected payoff can be maximized. For large d, we characterize how optimal message precision and recommendation set size depend on the cost parameters, under two distinct distributions from which recommendations can be sampled from the product universe: (i) Bayes' posterior belief, and (ii) an optimized tilted distribution. Under the posterior sampling scheme (i), we identify a hybrid regime, in which an efficient interaction policy requires jointly optimizing the amount of information (in bits) conveyed by the user and the number of recommendations provided by the AI assistant. In the tilted sampling scheme (ii), our results show that the optimal interaction policy uses only one of communication and search, favoring whichever of them is less costly.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2606.06225": {
+            "title": "Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation",
+            "authors": "Anh Truong, John Trenkle, Yuanbo Chen, Honghong Zhao, Abdullah Alchihabi, Effy Fang, Michael Tamir",
+            "first_author": "Anh Truong",
+            "url": "http://arxiv.org/abs/2606.06225v1",
+            "pdf_url": "http://arxiv.org/abs/2606.06225",
+            "publish_date": "2026-06-04",
+            "abstract": "Collaborative filtering and graph-based recommendation models are highly effective because they leverage observed user interactions, but this dependence creates a fundamental cold-start challenge when newly added content has no interaction history. In Tubi's production retrieval system, this challenge is further constrained by the serving interface: new content must be assigned a standalone embedding immediately, and the model must also produce device embeddings suitable for approximate nearest-neighbor retrieval. We address this setting by formulating cold-start recommendation as an inductive graph-completion problem on a temporal bipartite device-content graph. We propose Shallow-RHS, an asymmetric link-prediction architecture in which the left-hand side (LHS) device tower leverages temporally valid watch-history message passing to capture collaborative signals, while the right-hand side (RHS) content tower is intentionally shallow with respect to the graph and encodes content solely from intrinsic features. The RHS tower does not use ID-based embeddings, content-side subgraphs, neighbor aggregation, or interaction-derived representations, forcing the content encoder to map intrinsic features into a collaborative-filtering-aware embedding space. After training, the learned content encoder generates embeddings for both warm and newly ingested content, enabling implicit graph completion through retrieval of warm surrogate neighbors. We further extend the same representation-completion principle to device cold-start by constructing cohort-based embeddings from demographic features. Large-scale online experiments demonstrate consistent relative improvements in content cold-start engagement, promotion speed, impression acquisition, and device cold-start engagement.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.05671": {
+            "title": "QueryAgent-R1: Bridging Query Generation and Product Retrieval for E-Commerce Query Recommendation",
+            "authors": "Dike Sun, Zheng Zou, Jingtong Zang, Qi Sun, Huaipeng Zhaoand Tao Luo, Xiaoyi Zeng",
+            "first_author": "Dike Sun",
+            "url": "http://arxiv.org/abs/2606.05671v1",
+            "pdf_url": "http://arxiv.org/abs/2606.05671",
+            "publish_date": "2026-06-04",
+            "abstract": "Query recommendation in e-commerce search aims to proactively suggest queries that match users' potential interests. However, existing methods mainly optimize query-level relevance, while neglecting whether the retrieved products align with users' downstream preferences. This mismatch often leads to high query click through rates (CTR) but low product conversion rates (CVR). To bridge this gap, we propose QueryAgent-R1, a memory-augmented agentic framework that improves end-to-end alignment via chain-of-retrieval optimization. Our QueryAgent-R1 grounds query generation in real inventory retrieval, allowing the agent to validate and refine queries based on retrieved products. We also design a consistency reward in the agentic reinforcement learning (RL) process to jointly optimize query relevance and downstream engagement. In addition, we construct a memory abstraction module for efficient user profiling. To support offline evaluation, we construct two datasets based on both proprietary industrial data and public datasets, on which QueryAgent-R1 consistently outperforms strong baselines. Moreover, on a large scale production platform, QueryAgent-R1 improves Query CTR by 2.9% and guided CVR by 3.1% in online A/B tests.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2606.05621": {
+            "title": "ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation",
+            "authors": "Xiangming Li, Hua Chu, Chengyu Feng, Jianan Li, Yangtao Zhou",
+            "first_author": "Xiangming Li",
+            "url": "http://arxiv.org/abs/2606.05621v1",
+            "pdf_url": "http://arxiv.org/abs/2606.05621",
+            "publish_date": "2026-06-04",
+            "abstract": "Distilling accurate user preferences from noisy implicit feedback remains a fundamental bottleneck in recommendation systems, highlighting the need for recommendation denoising. However, real-world data lack explicit noise annotations, forcing existing methods to rely on unsupervised side information or handcrafted heuristics. These approaches often incur high external costs, generalize poorly, or depend on unreliable priors, causing noise misidentification and corrupting true user preference representations. To address these limitations, we propose a paradigm-level reformulation of recommendation denoising. Instead of indirectly inferring noisy interactions through heuristics, our Creation-Recognition paradigm proactively creates labeled noisy interactions and trains a dedicated recognizer to identify them, transforming denoising from heuristic filtering into supervised learning. Based on this paradigm, we present ANCHOR, an agent-based framework inspired by recent LLM-as-User research. ANCHOR simulates user behaviors to generate realistic noise labels and enables supervised denoising through two stages: noise creation and noise recognition. In the noise creation stage, ANCHOR adopts a recommender-in-the-loop agentic architecture to synthesize both diverse out-of-preference noise and informative boundary-adjacent noise. For out-of-preference noise, it implements five extensible simulation mechanisms to approximate major sources of noisy implicit feedback. For boundary-adjacent noise, an adversarial boundary refinement mechanism generates ambiguous interactions that challenge the recognizer and target the decision boundary. In the noise recognition stage, ANCHOR leverages the generated labels to train a reusable parametric recognizer that integrates collaborative signals and semantic representations to detect noise patterns in real interaction data.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.05537": {
+            "title": "PHKT:Personalized Dynamic Hypergraph-enhanced KAN-Transformer for Multi-behavior Sequential Recommendation",
+            "authors": "Ruijie Du, Hao Chen, Xin Zhang, Dongjing Wang, Ze Zhang, Xudong Shen, Runze Wu, Dongjin Yu",
+            "first_author": "Ruijie Du",
+            "url": "http://arxiv.org/abs/2606.05537v1",
+            "pdf_url": "http://arxiv.org/abs/2606.05537",
+            "publish_date": "2026-06-04",
+            "abstract": "In multi-behavior recommendation, auxiliary behaviors such as clicks, add-to-cart, and purchases can provide richer supervisory information for predicting target behaviors. Although existing graph and hypergraph methods are capable of modeling high-order relationships among users, items, and behaviors, they still have limitations in heterogeneous semantics, user-specific weighting, and sequence dependency modeling. While standard Transformers excel at sequence modeling, their shared feedforward mapping struggles to accommodate the differentiated requirements of heterogeneous latent patterns in multi-behavior scenarios. To address this, this paper proposes the Personalized Hypergraph-enhanced Kolmogorov-Arnold Network Transformer (PHKT). Specifically, we design a personalized dynamic hypergraph module that performs behavior-aware weighting of item similarities based on users' historical behavior sequences to capture user-specific heterogeneous high-order relationships. Meanwhile, a Transformer is used as the temporal backbone to model the evolution of short- and long-term preferences, and KAN is introduced to replace the traditional MLP in the feedforward network to enhance fine-grained modeling capability for nonlinear responses to different latent patterns. Experiments on three real datasets, Tmall, RetailRocket, and IJCAI, show that PHKT consistently outperforms nine strong baseline models across multiple evaluation metrics, demonstrating its effectiveness in multi-behavior preference modeling and target behavior prediction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.04550": {
+            "title": "Trading Engagement for Sustainability: Carbon-Aware Re-ranking for E-commerce Recommendations",
+            "authors": "Noah Lund Syrdal, Anders Vestrum, Jorgen Bergh",
+            "first_author": "Noah Lund Syrdal",
+            "url": "http://arxiv.org/abs/2606.04550v1",
+            "pdf_url": "http://arxiv.org/abs/2606.04550",
+            "publish_date": "2026-06-03",
+            "abstract": "E-commerce recommender systems strongly influence which products users consider and purchase, yet sustainability signals such as Product Carbon Footprint (PCF) are almost never available at catalog scale. We study carbon-aware product recommendation in the realistic setting where PCF labels are missing for most items and must be inferred. We first estimate product-level carbon footprints via a retrieval-augmented PCF estimation pipeline that transfers supervision from the Carbon Catalogue, a small set of life-cycle-assessed products, to a large unlabeled e-commerce catalog using semantic similarity search, few-shot LLM prompting, and a nearest-neighbour fallback. We then apply a carbon-aware post-hoc re-ranking strategy on top of relevance scores produced by three established recommendation models: BPR, NeuMF, and LightGCN. The method trades off predicted user-item engagement against estimated carbon footprint through a single tunable parameter, lambda. In this offline study, engagement is operationalized through Amazon review interactions, which serve as implicit feedback and as a proxy for user interest or purchase behavior. We evaluate the framework on the Amazon Reviews dataset across three product categories: Home and Kitchen, Sports and Outdoors, and Electronics. By sweeping lambda, we construct Pareto frontiers that characterize the achievable engagement and carbon trade-off for each model and category. Substantial carbon reductions are achievable at minimal engagement cost across all models and categories. However, the available carbon headroom varies by model and category, underscoring the importance of model choice and domain context.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.04514": {
+            "title": "SAILRec: Steering LLM Attention to Dual-Side Semantically Aligned Collaborative Embeddings for Recommendation",
+            "authors": "Xi Wu, Jiale Wang, Zihan Wang, Yichen Gao, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang",
+            "first_author": "Xi Wu",
+            "url": "http://arxiv.org/abs/2606.04514v1",
+            "pdf_url": "http://arxiv.org/abs/2606.04514",
+            "publish_date": "2026-06-03",
+            "abstract": "Recent LLM-based recommenders enhance language models with collaborative embeddings from user-item interactions, but making such embeddings available does not ensure their proper use during inference. Through a diagnostic attention analysis, we find that the utilization of collaborative embeddings is depth-dependent and alignment-sensitive, suggesting that LLMs need to balance their internal semantic knowledge with external collaborative knowledge. To address this issue, we propose SAILRec, an LLM-based recommender that improves this balance through dual-side semantic alignment and hierarchical attention steering. The former aligns item-side embeddings with item-text semantics and user-side embeddings with codebook-based semantic profiles, while the latter suppresses premature shallow-layer collaborative interference and strengthens collaborative evidence in deeper decision layers. Experiments on MovieLens-1M and Amazon-Book show that SAILRec consistently outperforms representative baselines, with ablation and masking analyses validating its key designs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.03866": {
+            "title": "Taiji: Pareto Optimal Policy Optimization with Semantics-IDs Trade-off for Industrial LLM-Enhanced Recommendation",
+            "authors": "Yuecheng Li, Zeyu Song, Jing Yao, Chi Lu, Peng Jiang, Kun Gai",
+            "first_author": "Yuecheng Li",
+            "url": "http://arxiv.org/abs/2606.03866v1",
+            "pdf_url": "http://arxiv.org/abs/2606.03866",
+            "publish_date": "2026-06-02",
+            "abstract": "Scaling recommender systems via large language models (LLMs) has become a prominent trend in the industry. However, aligning the LLM's semantic space with the recommender's ID space via post-training (e.g., SFT and RL) remains challenging. Existing LLM4Rec paradigms are bottlenecked by two main issues: (1) the difficulty of measuring and improving chain-of-thought (CoT) quality in open-domain recommendation during SFT, and (2) the neglect of the trade-off between LLM semantic rewards and recommendation preference rewards during RL alignment. Inspired by these challenges, we present Taiji, a novel LLM-as-Enhancer framework designed for industrial recommender systems. To overcome the SFT bottleneck, we utilize reverse-engineered reasoning and open-ended rejection sampling to generate high-quality, domain-specific CoT data. To resolve the RL alignment issue, we propose Pareto Optimal Policy Optimization (POPO), which adaptively adjusts cross-domain reward weights. Theoretically, it achieves an optimal trade-off between the semantic world knowledge of LLMs and the collaborative ID features representing online user preferences. Extensive offline evaluations and online A/B tests validate the effectiveness of Taiji. Deployed on Kuaishou's advertising platform since May 2026, Taiji currently serves over 400 million users daily, yielding significant commercial revenue and demonstrating its robust scalability in web-scale environments.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.03718": {
+            "title": "MARS: Multi-rate Aggregation of Recency Signals for Sequential Recommendation across Sparse and Dense Regimes",
+            "authors": "Zhenyu Yu, Shuigeng Zhou",
+            "first_author": "Zhenyu Yu",
+            "url": "http://arxiv.org/abs/2606.03718v1",
+            "pdf_url": "http://arxiv.org/abs/2606.03718",
+            "publish_date": "2026-06-02",
+            "abstract": "Sequential recommenders weight historical interactions either through positional self-attention as in Transformers or through a single implicit decay schedule as in State-Space Models. Neither makes the multi-scale temporal structure of real user behaviour explicit. We propose MARS, an encoder-agnostic aggregation operator that consumes real timestamps and produces K summaries emphasising distinct recency scales, fused by a context-adaptive gate. MARS adds at most 6% parameters and runs in $\\mathcal{O}(LdK)$ time. MARS adapts to data density by automatically selecting between two encoder instantiations: MARS-T (Transformer) for sparse data and MARS-M (Mamba) for dense data, based on the average sequence length of the training set. On five public benchmarks against ten Transformer- and Mamba-based baselines under a unified RecBole protocol, MARS attains the best HR@10 on every benchmark, with mean relative gain +19.7% over the strongest content-only Transformer baseline on sparse data (reaching +36.2% on Games) and +3.2% HR@10 / +0.9% NDCG over SIGMA on dense ML-1M at 42% fewer MFLOPs, occupying the accuracy-efficiency Pareto frontier across the data-density spectrum. A backbone-only ablation isolates the marginal contribution of MARS at +4% to +19% HR@10 on sparse data and motivates the dual-instantiation design. The code is included in the supplementary material.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.03091": {
+            "title": "BAHSD: Bridging the Long-tail Gap via Adaptive Distillation in Black-box Sequential Recommendation",
+            "authors": "Xi Zhou, Famin Wu, Mingming Li, Hongyue Zhang, Jiao Dai, Jizhong Han, Tao Guo",
+            "first_author": "Xi Zhou",
+            "url": "http://arxiv.org/abs/2606.03091v2",
+            "pdf_url": "http://arxiv.org/abs/2606.03091",
+            "publish_date": "2026-06-02",
+            "abstract": "Sequential recommendation systems are widely adopted but often deployed as black-box APIs, which has driven recent interest in model extraction to replicate their capabilities locally. However, the long-tail distribution induces severe signal heterogeneity: dense head sequences trigger the solidification of teacher preference, biasing extraction toward local patterns, while sparse tail sequences yield flat, noisy predictions. Existing one-size-fits-all extraction overlooks this disparity, resulting in noise overfitting and suboptimal knowledge transfer. We propose BAHSD, a black-box adaptive distillation framework that handles signal heterogeneity via a multi-scale consistency probing mechanism to implicitly quantify signal reliability. Based on this, an adaptive hierarchical objective is designed: dynamic-temperature KL divergence mitigates preference solidification for high-confidence signals, while ranking consistency and InfoNCE contrastive learning provide noise-robust enhancement for low-confidence signals. BAHSD consistently outperforms baselines, achieving up to 4.98\\% gain over the teacher and 80\\%+ improvement on tail users, offering a plug-and-play solution for high-fidelity black-box recommendation extraction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
