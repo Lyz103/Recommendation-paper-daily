@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-07
+## Updated on 2026-06-08
 
 ---
 
@@ -23,6 +23,8 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-05` | **SSRLive: Live Streaming Recommendation with Dynamic Semantic ID** | Teng Shi, Zhaoheng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06970) |
+| `2026-06-04` | **Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations** | Nimesh Sinha, Raghav Saboo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06779) |
 | `2026-06-04` | **Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation** | Anh Truong, John Trenkle, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06225) |
 | `2026-06-04` | **QueryAgent-R1: Bridging Query Generation and Product Retrieval for E-Commerce Query Recommendation** | Dike Sun, Zheng Zou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.05671) |
 | `2026-06-04` | **ANCHOR: Agentic Noise Creation Framework for Human Simulation and Denoising Recommendation** | Xiangming Li, Hua Chu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.05621) |

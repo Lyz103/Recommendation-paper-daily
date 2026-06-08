@@ -15245,6 +15245,28 @@
             "abstract": "Sequential recommendation systems are widely adopted but often deployed as black-box APIs, which has driven recent interest in model extraction to replicate their capabilities locally. However, the long-tail distribution induces severe signal heterogeneity: dense head sequences trigger the solidification of teacher preference, biasing extraction toward local patterns, while sparse tail sequences yield flat, noisy predictions. Existing one-size-fits-all extraction overlooks this disparity, resulting in noise overfitting and suboptimal knowledge transfer. We propose BAHSD, a black-box adaptive distillation framework that handles signal heterogeneity via a multi-scale consistency probing mechanism to implicitly quantify signal reliability. Based on this, an adaptive hierarchical objective is designed: dynamic-temperature KL divergence mitigates preference solidification for high-confidence signals, while ranking consistency and InfoNCE contrastive learning provide noise-robust enhancement for low-confidence signals. BAHSD consistently outperforms baselines, achieving up to 4.98\\% gain over the teacher and 80\\%+ improvement on tail users, offering a plug-and-play solution for high-fidelity black-box recommendation extraction.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2606.06970": {
+            "title": "SSRLive: Live Streaming Recommendation with Dynamic Semantic ID",
+            "authors": "Teng Shi, Zhaoheng Li, Yuanhang Qu, Yi Liu, Lixiang Lai, Yuning Jiang",
+            "first_author": "Teng Shi",
+            "url": "http://arxiv.org/abs/2606.06970v1",
+            "pdf_url": "http://arxiv.org/abs/2606.06970",
+            "publish_date": "2026-06-05",
+            "abstract": "Live streaming has emerged as one of the fastest-growing forms of online media, enabling instant content broadcasting and real-time engagement between users and streamers. Despite the effectiveness of existing recommendation algorithms in this domain, they often suffer from limited utilization of computational resources, with low FLOPs that hinder further performance enhancement. Generative recommendation techniques, which have gained traction in various industrial tasks, offer a promising avenue for improving live streaming recommendations. However, directly applying generative methods to live streaming is non-trivial due to two major challenges: (1) static semantic IDs (SIDs) cannot reflect the rapidly changing nature of live room content; and (2) generative pipelines generally do not incorporate user--streamer interaction signals (e.g., likes, orders), which are critical for modeling user intent toward both the streamer and showcased products. To address these challenges, we introduce SSRLive: Dynamic Semantic ID-guided Streaming Recommendation for Live platforms. The proposed framework integrates a generative module and a discriminative module in a unified architecture. The generative component employs an encoder-decoder design to produce both static and dynamic SIDs, enabling timely representation of live room content while leveraging multimodal information. The discriminative component refines task-specific representations by combining SIDs with user features, augments them with user-streamer interaction data, and performs multi-task predictions. Online A/B tests in real-world deployment demonstrate tangible benefits: watch time (+3.38%), GMV (+0.72%), follower growth (+3.12%), and interaction volume (+2.92%). These improvements highlight the effectiveness and business value of SSRLive, which is now fully deployed, serving hundreds of millions of active users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.06779": {
+            "title": "Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations",
+            "authors": "Nimesh Sinha, Raghav Saboo, Martin Wang, Sudeep Das",
+            "first_author": "Nimesh Sinha",
+            "url": "http://arxiv.org/abs/2606.06779v1",
+            "pdf_url": "http://arxiv.org/abs/2606.06779",
+            "publish_date": "2026-06-04",
+            "abstract": "In multi-vertical e-commerce platforms like DoorDash, relatively newer product verticals such as grocery and retail present a significant opportunity for personalization innovation. A key challenge lies in solving the \"cold start\" problem for users. This paper introduces a novel framework for enhancing recommendation quality by transferring knowledge from data-rich verticals (e.g., restaurants at DoorDash) to data-sparse ones. We leverage Large Language Models (LLMs) to perform generative inference, synthesizing sparse, high-dimensional features that encapsulate latent user affinities. Specifically, we employ a hierarchical Retrieval-Augmented Generation (RAG) pipeline to derive multi-level taxonomic features from user restaurant order histories and search queries. These generated features, encoding both long-term cross-vertical preferences and short-term intent, are integrated into a production Multi-Task Learning (MTL) ranking model. We demonstrate through extensive offline and online evaluation that this approach significantly improves personalization and engagement in emerging business verticals, effectively bridging the behavioral data gap.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
