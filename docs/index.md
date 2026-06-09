@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-08
+## Updated on 2026-06-09
 
 ---
 
@@ -23,6 +23,14 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-08` | **Popcorn: A Configurable Benchmark for Visual Evidence in Multimodal Movie Recommendation** | Ali Tourani, Fatemeh Nazary, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09595) |
+| `2026-06-08` | **The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection** | Hyunseok Paeng | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09204) |
+| `2026-06-08` | **Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation** | Prajwal Thapa, Yagya Raj Pandeya | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09160) |
+| `2026-06-08` | **Teach Multimodal Recommendation Model to See via Personalized Visual Extraction and Adaptive Learning** | Yutong Li, Xinyi Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09082) |
+| `2026-06-07` | **Gryphon: A Unified Architecture for Semantic-ID Generation and Item-Level Scoring in Industrial Recommendations** | Daria Tikhonovich, Oleg Sorokin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.08604) |
+| `2026-06-07` | **Adaptive Loss Balancing for Noise-Robust GRPO in Generative Recommendation** | Kewei Xu, Junbo Qi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.08480) |
+| `2026-06-07` | **ToolRec: Calibrated Preference Alignment for Query Recommendation in On-Device Assistants** | Zihan Luo, Lingkui Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.08466) |
+| `2026-06-05` | **TRACER: Token ReAssignment for Concept ERasure in Generative Recommendation** | Ziheng Chen, Jiali Cheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.07688) |
 | `2026-06-05` | **SSRLive: Live Streaming Recommendation with Dynamic Semantic ID** | Teng Shi, Zhaoheng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06970) |
 | `2026-06-04` | **Mind the Gap: Bridging Behavioral Silos with LLMs in Multi-Vertical Recommendations** | Nimesh Sinha, Raghav Saboo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06779) |
 | `2026-06-04` | **Bridging the Semantic-Collaborative Gap: An Asymmetric Graph Architecture for Cold-Start Item Recommendation** | Anh Truong, John Trenkle, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.06225) |
