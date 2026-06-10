@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-09
+## Updated on 2026-06-10
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-09` | **Generative Archetype-Grounded Item Representations for Sequential Recommendation** | Yifan Li, Jiahong Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.11023) |
+| `2026-06-09` | **From Prompt to Purchase: How AI Brand Recommendations Move Consumers on the Open Web** | Michael Iannelli, Alan Ai | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.10907) |
+| `2026-06-09` | **Atomic Intent Reasoning: Bringing LLM Semantics to Industrial Cross-Domain Recommendations** | Zhuohang Jiang, Yuxin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.10357) |
+| `2026-06-08` | **MetaPlate: Counterfactual-Guided RAG-LLM Tool for Personalized Food Recommendation and Hyperglycemia Prevention** | Asiful Arefeen, Carol Johnston, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.10120) |
+| `2026-06-03` | **SinkRec: Mitigating Semantic State Sink in Long Sequence Recommendation with Memory-Conditioned Gated Delta Networks** | Zhuang Zhuang, Zhipeng Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09888) |
 | `2026-06-08` | **Popcorn: A Configurable Benchmark for Visual Evidence in Multimodal Movie Recommendation** | Ali Tourani, Fatemeh Nazary, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09595) |
 | `2026-06-08` | **The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context Injection** | Hyunseok Paeng | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09204) |
 | `2026-06-08` | **Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation** | Prajwal Thapa, Yagya Raj Pandeya | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.09160) |
