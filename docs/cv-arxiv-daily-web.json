@@ -15432,6 +15432,17 @@
             "abstract": "Large Language Models (LLMs) offer unprecedented potential for enhancing recommendation systems through their world knowledge and reasoning capabilities. However, existing approaches often rely on structured IDs or offline processing, limiting semantic richness, real-time adaptability, and user-facing interpretability. In this paper, we introduce a novel framework that enables real-time generation of LLM-based user interest personas for a large-scale commercial video recommendation platform. Our method generates natural-language user interest personas that address the exploitation-exploration trade-off by combining the summarization of existing interests with novel topics, directly during serving. To overcome the computational challenges of online LLM inference at a billion-user scale, we design a cost-efficient architecture leveraging knowledge distillation, asynchronous inference, and input optimization via semantically clustered video representations. Extensive offline evaluations, user studies, and live A/B tests demonstrate significant improvements in viewer value. This work bridges the gap between high-level semantic understanding and industrial-scale recommendation, paving the way for more dynamic, explainable, and satisfying personalized experiences.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2606.13001": {
+            "title": "CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation",
+            "authors": "Yujuan Ding, Junrong Liao, Yunshan Ma, Yi Bin, Wenqi Fan, Tat-Seng Chua, Qing Li",
+            "first_author": "Yujuan Ding",
+            "url": "http://arxiv.org/abs/2606.13001v1",
+            "pdf_url": "http://arxiv.org/abs/2606.13001",
+            "publish_date": "2026-06-11",
+            "abstract": "Personalized outfit recommendation poses a significant challenge in e-commerce and social media platforms, requiring systems that balance user preferences with aesthetic compatibility. Collaborative filtering (CF) provides a traditional solution for this, but it struggles with data-sparse scenarios and complex user-item-outfit relationships. Meanwhile, existing template-based approaches are constrained by rigid pre-designed structures. To bridge these research gaps, we introduce CFALR (Collaborative Filtering-Augmented Large Language Model for Recommendation), a novel framework that synergizes collaborative filtering with large language models for personalized outfit recommendation. Specifically, CFALR describes user-outfit interactions in natural language and leverages LLMs to capture fashion semantics while employing CF-enhanced embeddings to bridge the semantic space and the collaborative interaction spaces. Our technical contributions include: (1) the first LLM-based architecture specifically designed for personalized outfit recommendation, (2) a CF-augmented generative mechanism that efficiently navigates the extensive combination space of outfit items, and (3) trainable projection layers that optimally integrate relational and content features. Experiments on Polyvore and IQON benchmarks demonstrate CFALR's superior performance over both traditional CF-based and LLM-based methods in personalized fill-in-the-blank and personalized outfit generation tasks.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

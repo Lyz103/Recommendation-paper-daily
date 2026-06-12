@@ -1,4 +1,4 @@
-## Updated on 2026-06-11
+## Updated on 2026-06-12
 
 ---
 
@@ -26,6 +26,7 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-11` | **CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation** | Yujuan Ding, Junrong Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.13001) |
 | `2026-06-10` | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.12245) |
 | `2026-06-10` | **LLM-Based User Personas for Recommendations at Scale** | Haoting Wang, Haokai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.12198) |
 | `2026-06-09` | **Generative Archetype-Grounded Item Representations for Sequential Recommendation** | Yifan Li, Jiahong Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.11023) |
