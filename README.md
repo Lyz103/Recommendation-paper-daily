@@ -1,4 +1,4 @@
-## Updated on 2026-06-14
+## Updated on 2026-06-15
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-12` | **Verifiable User Simulation for Search and Recommendation Systems** | Chenglong Ma, Xinye Wanyan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14474) |
+| `2026-06-12` | **ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation** | Dongdong Nian, Dongqi Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14260) |
+| `2026-06-12` | **Implicit Reasoning for Large Language Model-based Generative Recommendation** | Yinhan He, Liam Collins, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14142) |
+| `2026-06-12` | **When Recommendation Denoising Meets Popularity Bias: Understanding and Mitigating Their Interaction** | Guohang Zeng, Jie Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14046) |
+| `2026-06-11` | **Mood-Aware Music Recommendation: Integrating User Affective Signals into Ranking Systems** | Terence Zeng, Abhishek K. Umrawal | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.13858) |
 | `2026-06-11` | **CFALR: Collaborative Filtering-Augmented Large Language Model for Personalized Fashion Outfit Recommendation** | Yujuan Ding, Junrong Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.13001) |
 | `2026-06-10` | **DiffCold: A Diffusion-based Generative Model for Cold-Start Item Recommendation** | Kangning Zhang, Yingjie Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.12245) |
 | `2026-06-10` | **LLM-Based User Personas for Recommendations at Scale** | Haoting Wang, Haokai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.12198) |
