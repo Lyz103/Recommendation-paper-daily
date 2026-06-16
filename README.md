@@ -1,4 +1,4 @@
-## Updated on 2026-06-15
+## Updated on 2026-06-16
 
 ---
 
@@ -26,6 +26,15 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-15` | **How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations** | Eduardo Ferreira da Silva, Mayki dos Santos Oliveira, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16973) |
+| `2026-06-15` | **OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation** | Jiakai Tang, Sunhao Dai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16838) |
+| `2026-06-15` | **Harmonizing Semantic and Collaborative in LLMs: Reasoning-based Embedding Generator for Sequential Recommendation** | Qidong Liu, Mingyao Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16703) |
+| `2026-06-15` | **Leveraging Code-Mixed Product Metadata and User Feedback for Personalized Recommendation on Daraz Bangladesh** | KM Fahim A Bari, Muhammad Abdullah Adnan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16387) |
+| `2026-06-14` | **One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets** | Woosung Kang, Jiwon Jeong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.15752) |
+| `2026-06-13` | **HoloRec: Holistic Encoding and Interleaved Reasoning for Generative Recommendation** | Shuqi Zhao, Jingsong Su, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.15331) |
+| `2026-06-13` | **OneBar: An End-to-End Content-Grounded Generative Query Recommendation Framework for E-Commerce Video Feeds** | Yao Tang, Ying Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.15330) |
+| `2026-06-13` | **Guiding Federated Graph Recommendation with LLM-encoded knowledge** | Thi Minh Chau Nguyen, Hien Trang Nguyen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.15277) |
+| `2026-06-12` | **Combining Retrieval-Augmented Text Generation with LLMs for Reading Content Recommendations** | Sooyeon Kim, Piotr S. Maciąg | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14817) |
 | `2026-06-12` | **Verifiable User Simulation for Search and Recommendation Systems** | Chenglong Ma, Xinye Wanyan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14474) |
 | `2026-06-12` | **ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation** | Dongdong Nian, Dongqi Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14260) |
 | `2026-06-12` | **Implicit Reasoning for Large Language Model-based Generative Recommendation** | Yinhan He, Liam Collins, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.14142) |
