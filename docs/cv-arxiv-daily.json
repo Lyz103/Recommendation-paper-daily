@@ -15597,6 +15597,61 @@
             "abstract": "This work presents the design, implementation, and evaluation of a system for generating personalized reading content using Large Language Models (LLMs) combined with Retrieval-Augmented Generation (RAG). The proposed architecture consists of four modules: Input, RAG, Generation, and Judging and enables users to specify both a question and a target reading content complexity. RAG is employed to retrieve relevant information from the Internet, enriching and grounding the content produced by three modern LLMs: Meta LLaMA 4 Scout, LLaMA 3.1 8B Instant, and Google Gemma2 9B. Reading materials are generated using three prompting strategies (Chain-of-Thought, zero-shot, and few-shot), and the LLM-as-a-Judge module automatically evaluates answer quality and alignment with the desired readability level. Experimental results show that RAG consistently improves system performance across all models and prompting techniques, increasing relevance and particularly groundedness by up to 26-35 percentage points. Overall, the findings demonstrate that the RAG-augmented architecture effectively produces reading content tailored to user queries and desired textual complexity.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2606.17703": {
+            "title": "Minimizing Total Biharmonic Distance in Large Graphs via Link Recommendation",
+            "authors": "Xinna Zhou, Zhongzhi Zhang",
+            "first_author": "Xinna Zhou",
+            "url": "http://arxiv.org/abs/2606.17703v1",
+            "pdf_url": "http://arxiv.org/abs/2606.17703",
+            "publish_date": "2026-06-16",
+            "abstract": "The total biharmonic distance, which is the sum of the biharmonic distance between every pair of nodes in a network, is a key metric for evaluating network connectivity and robustness. In this paper, we study the problem of minimizing the total biharmonic distance by adding $k$ nonexistent edges for a given graph $G$ and budget $k$. The problem is computationally challenging. We show that the objective function of the problem is monotone but not supermodular. To solve this problem, we propose simple greedy algorithms with cubic time complexity. To mitigate the high time complexity of these greedy algorithms, we apply several techniques, including the projection method, the Laplacian solver, and convex hull approximation. These techniques reduce the time complexity of our proposed algorithms from cubic to nearly linear while providing error guarantees. Finally, extensive experiments on real datasets demonstrate both the efficiency and effectiveness of our proposed algorithms.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2606.17588": {
+            "title": "Understanding LLMs in Title-Abstract Screening: From Disagreements to Recommendations",
+            "authors": "Mika M\u00e4ntyl\u00e4, Patricia Matsubara, Katia Romero Felizardo, Miikka Kuutila, Marco Gerosa, Savio de Sousa Sampaio, Tayana Conte, Igor Steinmacher",
+            "first_author": "Mika M\u00e4ntyl\u00e4",
+            "url": "http://arxiv.org/abs/2606.17588v1",
+            "pdf_url": "http://arxiv.org/abs/2606.17588",
+            "publish_date": "2026-06-16",
+            "abstract": "Several studies have examined the use of large language models (LLMs) for title-abstract screening in systematic reviews (SRs), reporting mixed accuracy. However, questions of reliability remain largely unaddressed. In this study, we go beyond quantitative LLM-human agreement metrics and qualitatively investigate how and why LLMs fail. We also propose actionable recommendations. We analyzed disagreements between LLMs and researchers across six software engineering SRs and over 1,000 primary study papers. For each SR, papers were screened independently by human experts and LLMs in zero-shot mode, resulting in Kappa values ranging from 0.52 to 0.77. Qualitative analysis suggests that human-LLM disagreement results from recurring, identifiable causes, such as boundary ambiguity in key terms, keyword overemphasization, and incorrect topic inference. Based on these findings, we propose recommendations such as validating semantic understanding before deployment, running multiple LLMs, and focusing validation efforts on borderline cases. Future studies are needed to validate the impact of our recommendations, and community efforts are needed to develop normative guidelines on LLM usage in SRs.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2606.17443": {
+            "title": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
+            "authors": "Xi Chu, Yupeng Hou",
+            "first_author": "Xi Chu",
+            "url": "http://arxiv.org/abs/2606.17443v1",
+            "pdf_url": "http://arxiv.org/abs/2606.17443",
+            "publish_date": "2026-06-16",
+            "abstract": "Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM recommendations using skincare products -- a category where consumers cannot easily judge quality before buying and must rely on brand reputation -- across three commercial LLMs (GPT-4o-mini, Claude Sonnet, Gemini 3 Flash), with a robustness check on search goods. In three experiments, we find: (1) a Conditional Monopoly where well-known brands get recommended 100% of the time (IAI = 10.0) when all products have the same specifications, but this dominance disappears with less than a +0.1-star rating advantage for a competitor; (2) authority-style marketing language, including fabricated clinical-evidence claims, breaks this monopoly at a Bias Surplus Value equal to +0.17 rating points, with each model responding differently; and (3) a social dilemma in multi-brand GEO competition: when all brands adopt the same optimization strategy, individual payoff falls from +0.802 to +0.007 in our payoff proxy, and non-participating brands receive zero recommendations in our tests. Our results suggest that generative engine optimization (GEO) should be studied not only as a security risk, but also as an emerging marketing practice that shapes market competition.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2606.17397": {
+            "title": "Designing Recommendation Exposure and Favorite Lists: A Field Experiment in a Spot-Work Platform",
+            "authors": "Kazuki Sekiya, Suguru Otani, Yuki Komatsu, Shunsuke Ozeki, Shunya Noda",
+            "first_author": "Kazuki Sekiya",
+            "url": "http://arxiv.org/abs/2606.17397v1",
+            "pdf_url": "http://arxiv.org/abs/2606.17397",
+            "publish_date": "2026-06-16",
+            "abstract": "How should recommender systems be designed when recommendations shape access to scarce, short-lived opportunities? We study this question in a production setting: Timee, Japan's largest platform for spot work, where workers favorite job templates and receive notifications when firms post shifts from those templates. Maximizing predicted favoriting can generate misdirected concentration: recommendations accumulate on popular templates that create few viable job openings, while templates with unmet labor demand receive too little exposure. We design exposure-control mechanisms for favorite-list management, reallocating template exposure based on posting activity and unfilled capacity. The proposed recommender, thresholded eligibility control (TEC), is fully parallelizable and suitable for large-scale digital platforms. In simulations calibrated to Timee data, TEC raises the per-round job-finding rate from 57.6\\% to 70.0\\%. A prefecture-level randomized field experiment increases realized matches and exposure per active template, reduces the share of low-exposure templates, and improves impression-level favoriting and downstream matching.",
+            "primary_category": "econ.GN",
+            "code_url": "null"
+        },
+        "2606.17276": {
+            "title": "On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies",
+            "authors": "Sunwoo Kim, Sunkyung Lee, Clark Mingxuan Ju, Donald Loveland, Bhuvesh Kumar, Kijung Shin, Neil Shah, Liam Collins",
+            "first_author": "Sunwoo Kim",
+            "url": "http://arxiv.org/abs/2606.17276v1",
+            "pdf_url": "http://arxiv.org/abs/2606.17276",
+            "publish_date": "2026-06-15",
+            "abstract": "Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected to help them generalize beyond common user behavior patterns that traditional memorization-oriented baselines can capture. However, existing LLM-based GR works largely ignore LLMs' well-known tendency to memorize, which, if present in LLMs fine-tuned for GR, would restrict their utilization of pretrained knowledge. In this work, we investigate this concern by examining one-hop memorization, where a model recommends items that are direct successors of items in the training data. We show that LLMs do this more than non-LLM-based GR models-in fact, the vast majority of their gains over GR baselines are actually on users whose target items can be predicted through one-hop memorization. We intuit that improving performance on the remaining users requires LLMs to learn richer item-item relations beyond one-hop transitions. To achieve this, we propose IIRG, a novel training strategy that teaches LLMs to capture: (1) collaborative relations derived from item co-occurrences across multiple hops in user sequences, and (2) semantic relations among items with similar themes, both of which can serve as useful recommendation signals. We show that IIRG significantly improves over LLMs trained solely with standard next-item prediction, with especially large gains for users whose test items are not covered by train-time one-hop transitions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

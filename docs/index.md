@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-16
+## Updated on 2026-06-17
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-16` | **Minimizing Total Biharmonic Distance in Large Graphs via Link Recommendation** | Xinna Zhou, Zhongzhi Zhang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.17703) |
+| `2026-06-16` | **Understanding LLMs in Title-Abstract Screening: From Disagreements to Recommendations** | Mika Mäntylä, Patricia Matsubara, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.17588) |
+| `2026-06-16` | **Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems** | Xi Chu, Yupeng Hou | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.17443) |
+| `2026-06-16` | **Designing Recommendation Exposure and Favorite Lists: A Field Experiment in a Spot-Work Platform** | Kazuki Sekiya, Suguru Otani, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.17397) |
+| `2026-06-15` | **On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies** | Sunwoo Kim, Sunkyung Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.17276) |
 | `2026-06-15` | **How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations** | Eduardo Ferreira da Silva, Mayki dos Santos Oliveira, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16973) |
 | `2026-06-15` | **OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation** | Jiakai Tang, Sunhao Dai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16838) |
 | `2026-06-15` | **Harmonizing Semantic and Collaborative in LLMs: Reasoning-based Embedding Generator for Sequential Recommendation** | Qidong Liu, Mingyao Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.16703) |
