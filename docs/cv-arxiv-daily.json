@@ -15635,10 +15635,10 @@
             "title": "Designing Recommendation Exposure and Favorite Lists: A Field Experiment in a Spot-Work Platform",
             "authors": "Kazuki Sekiya, Suguru Otani, Yuki Komatsu, Shunsuke Ozeki, Shunya Noda",
             "first_author": "Kazuki Sekiya",
-            "url": "http://arxiv.org/abs/2606.17397v1",
+            "url": "http://arxiv.org/abs/2606.17397v2",
             "pdf_url": "http://arxiv.org/abs/2606.17397",
             "publish_date": "2026-06-16",
-            "abstract": "How should recommender systems be designed when recommendations shape access to scarce, short-lived opportunities? We study this question in a production setting: Timee, Japan's largest platform for spot work, where workers favorite job templates and receive notifications when firms post shifts from those templates. Maximizing predicted favoriting can generate misdirected concentration: recommendations accumulate on popular templates that create few viable job openings, while templates with unmet labor demand receive too little exposure. We design exposure-control mechanisms for favorite-list management, reallocating template exposure based on posting activity and unfilled capacity. The proposed recommender, thresholded eligibility control (TEC), is fully parallelizable and suitable for large-scale digital platforms. In simulations calibrated to Timee data, TEC raises the per-round job-finding rate from 57.6\\% to 70.0\\%. A prefecture-level randomized field experiment increases realized matches and exposure per active template, reduces the share of low-exposure templates, and improves impression-level favoriting and downstream matching.",
+            "abstract": "How should recommender systems be designed when recommendations shape access to scarce, short-lived opportunities? We study this question in a production setting: Timee, Japan's largest platform for spot work, where workers favorite job templates and receive notifications when firms post shifts from those templates. Maximizing predicted favoriting can generate misdirected concentration: recommendations accumulate on popular templates that create few viable job openings, while templates with unmet labor demand receive too little exposure. We design exposure-control mechanisms for favorite-list management, reallocating template exposure based on posting activity and unfilled capacity. The proposed recommender, thresholded eligibility control (TEC), is fully parallelizable and suitable for large-scale digital platforms. In simulations calibrated to Timee data, TEC raises the per-round job-finding rate from 57.6% to 70.0%. A prefecture-level randomized field experiment increases realized matches and exposure per active template, reduces the share of low-exposure templates, and improves impression-level favoriting and downstream matching.",
             "primary_category": "econ.GN",
             "code_url": "null"
         },
@@ -15646,10 +15646,43 @@
             "title": "On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies",
             "authors": "Sunwoo Kim, Sunkyung Lee, Clark Mingxuan Ju, Donald Loveland, Bhuvesh Kumar, Kijung Shin, Neil Shah, Liam Collins",
             "first_author": "Sunwoo Kim",
-            "url": "http://arxiv.org/abs/2606.17276v1",
+            "url": "http://arxiv.org/abs/2606.17276v2",
             "pdf_url": "http://arxiv.org/abs/2606.17276",
             "publish_date": "2026-06-15",
             "abstract": "Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected to help them generalize beyond common user behavior patterns that traditional memorization-oriented baselines can capture. However, existing LLM-based GR works largely ignore LLMs' well-known tendency to memorize, which, if present in LLMs fine-tuned for GR, would restrict their utilization of pretrained knowledge. In this work, we investigate this concern by examining one-hop memorization, where a model recommends items that are direct successors of items in the training data. We show that LLMs do this more than non-LLM-based GR models-in fact, the vast majority of their gains over GR baselines are actually on users whose target items can be predicted through one-hop memorization. We intuit that improving performance on the remaining users requires LLMs to learn richer item-item relations beyond one-hop transitions. To achieve this, we propose IIRG, a novel training strategy that teaches LLMs to capture: (1) collaborative relations derived from item co-occurrences across multiple hops in user sequences, and (2) semantic relations among items with similar themes, both of which can serve as useful recommendation signals. We show that IIRG significantly improves over LLMs trained solely with standard next-item prediction, with especially large gains for users whose test items are not covered by train-time one-hop transitions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.18897": {
+            "title": "SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation",
+            "authors": "Jiangnan Xia, Xuansheng Wu, Yu Yang, Xin Wang, Ninghao Liu",
+            "first_author": "Jiangnan Xia",
+            "url": "http://arxiv.org/abs/2606.18897v1",
+            "pdf_url": "http://arxiv.org/abs/2606.18897",
+            "publish_date": "2026-06-17",
+            "abstract": "Intent-based recommender systems have gained significant attention for improving accuracy and interpretability by modeling the underlying motivations behind user behaviors. Most existing models derive intents directly from user sequences via clustering or prototype learning. However, they are sensitive to sequence quality, require presetting the number of intents, and lack explicit semantic grounding. These issues lead to an incomplete and coarse intent set and limit the effectiveness of recommendation. In this paper, we propose the Sparse Autoencoder for intent-based recommendation (SAERec), a novel recommender that automatically constructs a fine-grained and interpretable intent space from a textual corpus to guide recommendation. Rather than treating texts as side signals, SAERec leverages them as high information density evidence for intent construction. Specifically, we first extract a comprehensive set of fine-grained interpretable intents from the latent space of large language models (LLMs) by using a sparse autoencoder (SAE) to disentangle and interpret text embeddings, which isolates intent-related semantics from textual noise. Then, for each user, we retrieve relevant intents from this set as priors to guide recommendation. It contains personal intents matching a user's current interests and public intents capturing general item patterns shared across users (e.g., quality, price). Finally, to integrate retrieved intents into sequence modeling, we propose a multi-branch attention mechanism that captures temporal dependencies and injects both personal and public intent signals, followed by an adaptive fusion layer to construct the final user representation for recommendation. Extensive experiments on public datasets demonstrate the superiority of SAERec, consistently outperforming state-of-the-art baselines while providing human-understandable explanations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.18889": {
+            "title": "Improving Medical Communication using Rubric-Guided Counterfactual Recommendations",
+            "authors": "Adrian Cosma, Nicoleta-Nina Basoc, Andrei Niculae, Cosmin Dumitrache, Emilian Radoi",
+            "first_author": "Adrian Cosma",
+            "url": "http://arxiv.org/abs/2606.18889v1",
+            "pdf_url": "http://arxiv.org/abs/2606.18889",
+            "publish_date": "2026-06-17",
+            "abstract": "Text-based telemedicine increasingly relies on lightweight patient feedback, however, such feedback primarily reflects perceived communication quality rather than medical accuracy. We introduce an LM-guided counterfactual recommendation pipeline that discovers and refines interpretable communication features such as tone, personalization, actionability and completeness in addressing patient concerns, without interfering with the medical content. These features are used together with patient-doctor interaction metadata to estimate positive feedback. At inference time, the system searches over low-cost ordinal feature changes and recommends minimal communication changes predicted to increase the probability of positive feedback, while independent auditor models test whether these gains generalize beyond the selection model. Across interactions, recommendations yield a mean +6.41% gain in predicted positive feedback probability under independent auditors, and are non-negative for 93.31% of recommendations. These results suggest that small, interpretable communication changes can capture most predicted gains while preserving the doctor's control over medical reasoning and final wording.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2606.18379": {
+            "title": "RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation",
+            "authors": "Renzhi Wu, Zikun Cui, Junjie Yang, Tai Guo, Hong Li, Xian Chen, Li Yu, Ke Pan, Sri Reddy, Mahesh Srinivasan, Nipun Mathur, Haomin Yu, Hong Yan",
+            "first_author": "Renzhi Wu",
+            "url": "http://arxiv.org/abs/2606.18379v1",
+            "pdf_url": "http://arxiv.org/abs/2606.18379",
+            "publish_date": "2026-06-16",
+            "abstract": "Graph-based retrieval at billion-node scale requires jointly solving three tightly coupled problems -- graph construction, representation learning, and real-time serving -- yet existing work addresses each in isolation. We present RankGraph-2, a framework deployed at Meta that co-designs all three lifecycle stages for similarity-based retrieval (U2U2I and U2I2I), where each stage's requirements shape the others. Serving requires a co-learned cluster index to avoid expensive online KNN -- this pushes index co-training into the training objective. Training benefits from the observation that similarity-based retrieval tolerates pre-computed neighborhoods, eliminating online graph infrastructure -- this requires construction to produce self-contained data. Construction must also support hour-level refresh for item coverage. Acting on these cascading requirements, RankGraph-2 reduces hundreds of trillions of edges to hundreds of billions via subsampling with popularity bias correction, pre-computes multi-hop neighborhoods via personalized PageRank, and co-learns a residual-quantization cluster index that reduces serving computational cost by 83%. This lifecycle co-design enables a simple architecture to achieve 3.8 x higher recall than a GAT + Deep Graph Infomax model on a bipartite graph and 2.1 x higher than PyTorch-BigGraph on item retrieval. RankGraph-2 delivers up to +0.96% CTR and +2.75% CVR, and has powered 20+ retrieval launches across major surfaces.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
