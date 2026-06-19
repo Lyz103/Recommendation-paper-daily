@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-18
+## Updated on 2026-06-19
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-18` | **Structuring and Tokenizing Distributed User Interest Context for Generative Recommendation** | Ruizhong Qiu, Yinglong Xia, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.20554) |
+| `2026-06-17` | **Denoising Implicit Feedback for Cold-start Recommendation** | Gaode Chen, Shicheng Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.19658) |
+| `2026-06-17` | **Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models** | Xilun Chen, Shao-Chuan Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.19635) |
 | `2026-06-17` | **SAERec: Constructing Fine-grained Interpretable Intents Priors via Sparse Autoencoders for Recommendation** | Jiangnan Xia, Xuansheng Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.18897) |
 | `2026-06-17` | **Improving Medical Communication using Rubric-Guided Counterfactual Recommendations** | Adrian Cosma, Nicoleta-Nina Basoc, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.18889) |
 | `2026-06-16` | **RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation** | Renzhi Wu, Zikun Cui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.18379) |
