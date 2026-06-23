@@ -15646,7 +15646,7 @@
             "title": "On the Memorization Behavior of LLMs in Generative Recommendation: Observations, Implications, and Training Strategies",
             "authors": "Sunwoo Kim, Sunkyung Lee, Clark Mingxuan Ju, Donald Loveland, Bhuvesh Kumar, Kijung Shin, Neil Shah, Liam Collins",
             "first_author": "Sunwoo Kim",
-            "url": "http://arxiv.org/abs/2606.17276v2",
+            "url": "http://arxiv.org/abs/2606.17276v3",
             "pdf_url": "http://arxiv.org/abs/2606.17276",
             "publish_date": "2026-06-15",
             "abstract": "Generative recommendation (GR) has emerged as a promising direction for recommender systems. Recently, large language models (LLMs) have been increasingly adopted for GR, as their rich pretrained knowledge is expected to help them generalize beyond common user behavior patterns that traditional memorization-oriented baselines can capture. However, existing LLM-based GR works largely ignore LLMs' well-known tendency to memorize, which, if present in LLMs fine-tuned for GR, would restrict their utilization of pretrained knowledge. In this work, we investigate this concern by examining one-hop memorization, where a model recommends items that are direct successors of items in the training data. We show that LLMs do this more than non-LLM-based GR models-in fact, the vast majority of their gains over GR baselines are actually on users whose target items can be predicted through one-hop memorization. We intuit that improving performance on the remaining users requires LLMs to learn richer item-item relations beyond one-hop transitions. To achieve this, we propose IIRG, a novel training strategy that teaches LLMs to capture: (1) collaborative relations derived from item co-occurrences across multiple hops in user sequences, and (2) semantic relations among items with similar themes, both of which can serve as useful recommendation signals. We show that IIRG significantly improves over LLMs trained solely with standard next-item prediction, with especially large gains for users whose test items are not covered by train-time one-hop transitions.",
@@ -15710,13 +15710,57 @@
         },
         "2606.19635": {
             "title": "Token Factory: Efficiently Integrating Diverse Signals into Large Recommendation Models",
-            "authors": "Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Xi",
+            "authors": "Xilun Chen, Shao-Chuan Wang, Baykal Cakici, Lukasz Heldt, Lichan Hong, Raghu Keshavan, Aniruddh Nath, Li Wei, Xinyang Yi",
             "first_author": "Xilun Chen",
-            "url": "http://arxiv.org/abs/2606.19635v1",
+            "url": "http://arxiv.org/abs/2606.19635v2",
             "pdf_url": "http://arxiv.org/abs/2606.19635",
             "publish_date": "2026-06-17",
             "abstract": "Large Recommendation Models (LRMs) have demonstrated promising capabilities in industry-scale recommendation tasks. However, holistically integrating traditional signals into these transformer-based architectures effectively and efficiently remains a major challenge. Conventional approaches that \"textualize\" these signals directly or create discrete item representations often lead to excessively long prompts, substantial memory footprints, and high computational overhead. To overcome these limitations, we propose \"Token Factory\", a framework designed to transform traditional signals into \"soft tokens\" that can be directly processed by LRMs. This approach enables efficient integration and compression of heterogeneous input features, preventing prompt length explosion while enhancing model performance. We detail the architecture of Token Factory and present experimental results validating its effectiveness in a production-scale recommendation environment.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.22213": {
+            "title": "Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on Human Decision Making",
+            "authors": "Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, Soham Chatterjee, Aylin Caliskan",
+            "first_author": "Kyra Wilson",
+            "url": "http://arxiv.org/abs/2606.22213v1",
+            "pdf_url": "http://arxiv.org/abs/2606.22213",
+            "publish_date": "2026-06-20",
+            "abstract": "AI is increasingly being used collaboratively with people to make decisions in high-stakes domains, but this new paradigm is still not well-understood in many respects -- particularly regarding how AI that replicates human social biases influences people's decision making processes and how that can influence outcomes. In this study, we analyzed the time people spend viewing candidate resumes from an experiment investigating biased AI resume screening to evaluate decision-making fairness and cognitive processes underlying human-AI collaboration. We found that spending more time viewing resumes corresponds to candidates' selection chance increasing by 3-4% if they are not recommended, and people may spend up to 55.6% longer viewing resumes when no AI recommendations are given. Furthermore, people who completed an implicit association test (IAT) before resume screening were significantly more likely to evaluate candidates of different races for the same amount of time, and their IAT scores were also predictive of the time spent in human-AI collaboration. These results demonstrate how people's decision-making processes can be insufficient for overseeing AI in high-stakes domains.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2606.21892": {
+            "title": "AgroSense 2.0: Cross-Modal Transformer Fusion with Geospatial Raster Integration and Interpretable Multi-Task Learning for Precision Crop Recommendation",
+            "authors": "Vishal Pandey, Rishav Tewari, Ruzina Haque Laskar",
+            "first_author": "Vishal Pandey",
+            "url": "http://arxiv.org/abs/2606.21892v1",
+            "pdf_url": "http://arxiv.org/abs/2606.21892",
+            "publish_date": "2026-06-20",
+            "abstract": "Crop recommendation systems in precision agriculture have long suffered from a fundamental modality gap: visual soil characterization and chemical nutrient profiling are typically treated as independent inference problems, with fusion often reduced to late-stage feature concatenation. AgroSense~2.0 addresses this limitation through three architectural advances. First, we introduce continental-scale geospatial integration via a seven-band soil raster (\\texttt{india\\_soil\\_7bands.tif}) spanning India, encoding Nitrogen, pH, SOC, Clay, Sand, Silt, and Bulk Density as $32\\times32$ spatial patches, a modality entirely absent from prior work. Second, we replace naive feature concatenation with a cross-modal Transformer fusion module, where tabular nutrient features attend over image representations via multi-head attention, enabling richer inter-modal dependency modeling than shallow fusion. Third, we adopt a multi-task objective jointly optimizing soil classification and crop recommendation through a shared backbone, improving generalization via complementary cross-task signal. To enhance interpretability, we apply TreeSHAP to the tabular branch, revealing crop-conditioned nutrient sensitivity: humidity and rainfall emerge as the most influential features globally, while crop-specific profiles diverge meaningfully rainfall dominates rice, nitrogen and potassium dominate maize, and humidity and nitrogen dominate coffee. These explanations provide transparency into model decisions and surface both agronomically consistent patterns and dataset-specific divergences worth further study. Together, these contributions establish AgroSense~2.0 as a more principled, interpretable, and geospatially grounded framework for precision agriculture.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2606.21187": {
+            "title": "Change Impact Recommendation for JavaScript: Lessons from History and Runtime Analysis",
+            "authors": "Sadjad Tavakoli, Saba Alimadadi",
+            "first_author": "Sadjad Tavakoli",
+            "url": "http://arxiv.org/abs/2606.21187v1",
+            "pdf_url": "http://arxiv.org/abs/2606.21187",
+            "publish_date": "2026-06-19",
+            "abstract": "Understanding the downstream effects of code changes is essential for software maintenance, debugging, and regression testing. This task is particularly challenging for JavaScript applications, where dynamic language features such as callbacks, events, asynchronous execution, and shared mutable state make dependencies difficult to infer precisely.   Existing change impact recommendation approaches rely primarily on either dependency-based analysis or repository mining. Dependency-based techniques, particularly dynamic analysis, capture runtime interactions from observed execution but may miss relationships not exercised during analysis. In contrast, history-based techniques uncover evolutionary coupling from past changes but often introduce imprecise recommendations due to noisy co-change patterns.   To investigate the strengths and limitations of these approaches in JavaScript, we engineer and evaluate three recommendation techniques: a history-based approach using co-change pattern mining, a dynamic dependency-based approach, and a hybrid approach combining both signals. We implement these techniques in a unified framework, Caprese, and evaluate them on 10 open-source Node.js applications using expert-curated reference inspection sets.   Our results reveal low overlap between candidates identified by history-based and dynamic analyses, with only 22% overlap at broader inspection budgets, indicating that the two approaches capture complementary impact signals. Dynamic analysis generally yields higher precision, while history-based analysis identifies additional relevant candidates missed by dependency analysis. These findings suggest that practical change impact recommendation in JavaScript benefits from combining runtime and evolutionary signals, as no single technique sufficiently captures all relevant inspection candidates.",
+            "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2606.21120": {
+            "title": "Coordinating Treatment Allocation and Recommendation",
+            "authors": "Li Guo, Penghuan Yan",
+            "first_author": "Li Guo",
+            "url": "http://arxiv.org/abs/2606.21120v1",
+            "pdf_url": "http://arxiv.org/abs/2606.21120",
+            "publish_date": "2026-06-19",
+            "abstract": "We study a model in which a sender allocates limited treatment to agents with heterogeneous quality and later recommends selected agents to a receiver, seeking to maximize the number of agents accepted by the receiver. All agents value treatment, which improves agents' quality, but treatment must be allocated before the sender observes agents' initial quality; recommendation occurs only after quality is learned. A natural benchmark is to design the two instruments separately: allocate treatment randomly first, and then recommend agents from the top down afterward. Our main result shows that the sender can do strictly better by coordinating treatment allocation with recommendations. In the optimal joint mechanism, treatment is non-monotone in quality: an intermediate group has a lower treatment probability than both higher- and lower-quality agents, but is compensated with a guaranteed recommendation when treatment is realized. We provide an implementation through contracts that induce self-selection and discuss applications to education, industrial policy, and startup incubation. The takeaway is simple: coordinate treatment allocation and recommendation.",
+            "primary_category": "econ.TH",
             "code_url": "null"
         }
     }
