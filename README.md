@@ -26,6 +26,9 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-22` | **URecJPQ: Memory-efficient Multimodal Recommendation Models through RecJPQ in Large-Scale Scenarios** | Giuseppe Spillo, Zixuan Yi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.23291) |
+| `2026-06-22` | **Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.23057) |
+| `2026-06-22` | **LLM-as-a-Judge for Reliable and Explainable Offline Evaluation in Top-K Recommendation** | Yue Que, Junyi Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.22961) |
 | `2026-06-20` | **Resume Screening, Fast and Slow: (Biased) AI Recommendations' Influence on Human Decision Making** | Kyra Wilson, Mattea Sim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.22213) |
 | `2026-06-20` | **AgroSense 2.0: Cross-Modal Transformer Fusion with Geospatial Raster Integration and Interpretable Multi-Task Learning for Precision Crop Recommendation** | Vishal Pandey, Rishav Tewari, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.21892) |
 | `2026-06-19` | **Change Impact Recommendation for JavaScript: Lessons from History and Runtime Analysis** | Sadjad Tavakoli, Saba Alimadadi | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.21187) |
