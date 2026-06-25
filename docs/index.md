@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-24
+## Updated on 2026-06-25
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-24` | **Designing Trustworthy LLM-based Wellbeing Recommendation through Controllable Interaction** | Alan Said, Alexandra Weilenmann | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.25809) |
+| `2026-06-24` | **Recommendation as Generation: Unifying Personalized Video Generation and Recommendation at Industrial Scale** | Yanhua Cheng, Bo Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.25496) |
+| `2026-06-24` | **S2-CAR: Segmentation-Supervised Complexity-Adaptive Recommendation** | Linjiang Guo, Nitin Bisht, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.25415) |
 | `2026-06-23` | **Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation** | Cláudio Lúcio Do Val Lopes, Lucca Machado da Silva, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.24042) |
 | `2026-06-22` | **URecJPQ: Memory-efficient Multimodal Recommendation Models through RecJPQ in Large-Scale Scenarios** | Giuseppe Spillo, Zixuan Yi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.23291) |
 | `2026-06-22` | **Who Owns the AI Recommendation? A Multi-Industry Empirical Map of Brand Category Ownership Across Large Language Models** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.23057) |
