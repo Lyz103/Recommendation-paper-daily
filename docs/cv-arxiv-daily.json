@@ -15872,6 +15872,39 @@
             "abstract": "Sequential user behavior modeling is widely adopted in industrial recommender systems; however, significant gaps remain in financial services, where pre-login web interactions and authenticated in-app experiences differ drastically. Specifically, pre-login web users typically explore new products, whereas logged-in app users focus on account servicing. Due to the challenge of cross-channel entity resolution (e.g., matching anonymous web sessions to authenticated mobile accounts), web-based intent signals remain underutilized for post-authentication personalization. Existing methods for capturing web-based intent are often ad-hoc and narrow, lacking the flexibility to support both quantitative downstream recommendations and qualitative understanding at scale. In this work, we propose a scalable and dual-purpose intent prediction framework for web-based interactions and demonstrate its applicability for personalization. Our approach transforms raw web clickstreams into two outputs: a self-supervised Transformer encodes multi-modal clickstreams into a compact session embedding, while an LLM-based taxonomy generation and distillation pipeline produces interpretable intent labels. Our system demonstrates that self-supervised clickstream representations combined with LLM-distilled taxonomies can jointly serve quantitative tasks and qualitative understanding in production: on the mobile homepage tile ranking task, the session embedding improves macro Recall@1 by 1.88% and reduces Log Loss by 13.38% over production baselines. On the user conversion prediction task, the embedding outperforms the LLM labels by 4.3% on micro F1, while the distillation layer delivers interpretable labels at ultra-low latency with only a 7% performance drop.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2606.27930": {
+            "title": "An LLM-Powered Semantic Alignment Framework for Journal Recommendation",
+            "authors": "Yanglin Yan, Zicheng Xie, Tianchen Gao, Rui Pan, Hansheng Wang",
+            "first_author": "Yanglin Yan",
+            "url": "http://arxiv.org/abs/2606.27930v1",
+            "pdf_url": "http://arxiv.org/abs/2606.27930",
+            "publish_date": "2026-06-26",
+            "abstract": "Journal recommendation is an important task in scholarly information systems. Existing approaches typically rely on supervised learning models, manually engineered features, or historical interaction data, which may limit their generalizability and interpretability. We propose an LLM-powered semantic alignment framework that formulates journal recommendation as a semantic matching problem between manuscript content and journal scope descriptions. The framework enables large language models (LLMs) to infer journal suitability directly from article titles, abstracts, keywords, and candidate journal information without task-specific training. Experiments are conducted using DeepSeek-V3 on a dataset of 23,609 articles from 49 journals in statistics and related fields. The proposed framework achieves Top-3, Top-5, and Top-10 accuracies of 40.23\\%, 53.67\\%, and 70.05\\%, respectively. Additional analyses show that incorporating reference information generally improves recommendation performance and that recommendations remain highly stable across repeated runs, with an average Top-5 Jaccard similarity of 84\\%. The framework also generates interpretable reasoning outputs that provide insights into the recommendation process. These findings demonstrate the potential of LLMs as a training-free and scalable paradigm for journal recommendation and scholarly decision support.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.27684": {
+            "title": "Intuition-Guided Latent Reasoning for LLM-Based Recommendation",
+            "authors": "Chang Liu, Yimeng Bai, Xiaoyan Zhao, Yang Zhang, Qifan Wang, Fuli Feng, Wenge Rong",
+            "first_author": "Chang Liu",
+            "url": "http://arxiv.org/abs/2606.27684v1",
+            "pdf_url": "http://arxiv.org/abs/2606.27684",
+            "publish_date": "2026-06-26",
+            "abstract": "Large Language Models (LLMs) have demonstrated impressive reasoning capabilities in complex problem-solving tasks, motivating their use for preference reasoning in recommender systems. Latent reasoning, which operates in continuous hidden spaces rather than discrete tokens, has recently emerged as a promising paradigm for LLM-based recommendation. However, existing methods often start from unconstrained reasoning points, where hidden representations are misaligned with target item embeddings, leading to suboptimal reasoning trajectories.   Inspired by cognitive neuroscience, which suggests that human multi-step reasoning is guided by intuition as a latent prior, we propose \\emph{IntuRec}, a two-stage framework that anchors latent reasoning with \\emph{recommendation intuition}. In the extraction stage, the LLM-based recommender generates a top-$K$ candidate set based on users' histories as the source of intuition. In the injection stage, the candidate set is transformed into a preference-aligned intuition embedding using self- and cross-attention mechanisms, which initializes the reasoning start point and guides subsequent latent reasoning. By providing a semantically grounded starting point, IntuRec efficiently explores the preference space along more accurate reasoning trajectories. Extensive experiments on multiple real-world datasets demonstrate that IntuRec consistently outperforms state-of-the-art baselines. We release our code at https://github.com/Ten-Mao/IntuRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2606.27570": {
+            "title": "Auditing AI Investment Recommendations as Executable Actions",
+            "authors": "Sidnei Barbieri, Wellington Vargas, \u00c1gney Lopes Roth Ferraz",
+            "first_author": "Sidnei Barbieri",
+            "url": "http://arxiv.org/abs/2606.27570v1",
+            "pdf_url": "http://arxiv.org/abs/2606.27570",
+            "publish_date": "2026-06-25",
+            "abstract": "AI systems increasingly produce investment recommendations, yet the usual evaluations ask the wrong question. Realized return is noisy and easy to overfit, and agreement with a reference portfolio can reward advice that cannot be executed. We argue that an AI-generated recommendation should first be audited as an executable financial action, and only then judged on return. We make this concrete with a deterministic, replayable baseline and a protocol that scores any advisor on three properties a single number conflates: validity under portfolio and fee constraints, stability across repeated runs, and agreement with the baseline. These properties separate cleanly, and agreement is the most misleading in isolation: across a 120-scenario bank, the control that agrees most with the baseline (0.94) is admissible in only 0.58 of its runs, so agreement certifies an invalid action in 42% of them. On an adversarial set, two frontier models are admissible in barely half of their bare-prompt runs and fail on order arithmetic, not judgment; supplying the fee arithmetic deterministically lifts both to near-perfect validity. We make no alpha claim: the baseline is a transparent verifier whose guardrails follow from the fee schedule and whose decisions replay from frozen inputs, and every figure and table regenerates offline from the artifact.",
+            "primary_category": "cs.LO",
+            "code_url": "null"
         }
     }
 }

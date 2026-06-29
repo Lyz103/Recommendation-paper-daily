@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-28
+## Updated on 2026-06-29
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-26` | **An LLM-Powered Semantic Alignment Framework for Journal Recommendation** | Yanglin Yan, Zicheng Xie, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27930) |
+| `2026-06-26` | **Intuition-Guided Latent Reasoning for LLM-Based Recommendation** | Chang Liu, Yimeng Bai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27684) |
+| `2026-06-25` | **Auditing AI Investment Recommendations as Executable Actions** | Sidnei Barbieri, Wellington Vargas, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27570) |
 | `2026-06-25` | **TRUST: Item-Calibrated Interval Evidence for Temporal Session-Based Recommendation** | Linjiang Guo, Nitin Bisht, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27214) |
 | `2026-06-25` | **UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recommendation** | Bo Chen, Jinlong Jiao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27058) |
 | `2026-06-24` | **From Clicks to Intent: Cross-Platform Session Embeddings with LLM-Distilled Taxonomy for Financial Services Recommendations** | Dianjing Fan, Yao Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.26277) |
