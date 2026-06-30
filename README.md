@@ -1,4 +1,4 @@
-## Updated on 2026-06-29
+## Updated on 2026-06-30
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-29` | **Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation** | Zhe Dong, Fang Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29947) |
+| `2026-06-29` | **POEM: Partial-Order Enhanced Real-Time Sequential Modeling for Recommendation** | Linxiao Che, Yijia Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29946) |
+| `2026-06-29` | **Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook** | Daming Li, Simeng Han, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29762) |
+| `2026-06-26` | **CMSL: Constructive Multi-Sequence Learning for Recommendation Systems** | Zikun Cui, Renzhi Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.28533) |
+| `2026-06-26` | **An Agentic AI Pipeline for Appliance-Level Energy Anomaly Detection and LLM-Driven Recommendations** | Dihia Falouz, Aida Douaibia, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.28467) |
 | `2026-06-26` | **An LLM-Powered Semantic Alignment Framework for Journal Recommendation** | Yanglin Yan, Zicheng Xie, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27930) |
 | `2026-06-26` | **Intuition-Guided Latent Reasoning for LLM-Based Recommendation** | Chang Liu, Yimeng Bai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27684) |
 | `2026-06-25` | **Auditing AI Investment Recommendations as Executable Actions** | Sidnei Barbieri, Wellington Vargas, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.27570) |
