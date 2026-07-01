@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-06-30
+## Updated on 2026-07-01
 
 ---
 
@@ -23,6 +23,7 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-06-30` | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.31661) |
 | `2026-06-29` | **Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation** | Zhe Dong, Fang Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29947) |
 | `2026-06-29` | **POEM: Partial-Order Enhanced Real-Time Sequential Modeling for Recommendation** | Linxiao Che, Yijia Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29946) |
 | `2026-06-29` | **Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook** | Daming Li, Simeng Han, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29762) |
