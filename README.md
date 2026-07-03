@@ -1,4 +1,4 @@
-## Updated on 2026-07-02
+## Updated on 2026-07-03
 
 ---
 
@@ -26,6 +26,7 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-02` | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.02235) |
 | `2026-06-30` | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.31661) |
 | `2026-06-29` | **Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation** | Zhe Dong, Fang Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29947) |
 | `2026-06-29` | **POEM: Partial-Order Enhanced Real-Time Sequential Modeling for Recommendation** | Linxiao Che, Yijia Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29946) |

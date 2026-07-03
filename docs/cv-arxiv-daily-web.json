@@ -15971,6 +15971,17 @@
             "abstract": "Nitrogen fertilizer management plays a central role in balancing agricultural productivity and environmental sustainability, yet identifying optimal application strategies remains difficult because treatment responses vary substantially across locations and many fertilizer choices are statistically indistinguishable near the optimum. This paper develops a hierarchical refinement procedure, built on sequential screening, for fertilizer recommendation in multi-site experiments that explicitly accounts for spatial heterogeneity while prioritizing parsimonious, decision-oriented selection. Rather than targeting a single estimated best treatment, the proposed method first conducts sequential screening at a higher aggregation level to eliminate clearly inferior fertilizer choices and then refines recommendations locally among the surviving candidates. We study the asymptotic properties of the proposed estimators and show that it provides screening-safety guaranteed recommendations. The efficacy of the new approach is investigated through a multi-state, multi-year corn nitrogen trial. The results show that no single fertilizer regime is uniformly optimal within a state; instead, each state is associated with multiple recommended choices, and the most common recommendation typically covers only about one-third to one-half of decision units, underscoring substantial within-state heterogeneity. Representative site-level comparisons further demonstrate that the proposed method often yields lower total nitrogen recommendations than state-level or hindsight benchmarks while maintaining competitive agronomic performance.",
             "primary_category": "stat.ME",
             "code_url": "null"
+        },
+        "2607.02235": {
+            "title": "Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages",
+            "authors": "A. Seza Do\u011fru\u00f6z, Xixian Liao, Verena Blaschke, Jakob Prange, Senyu Li, David Ifeoluwa Adelani",
+            "first_author": "A. Seza Do\u011fru\u00f6z",
+            "url": "http://arxiv.org/abs/2607.02235v1",
+            "pdf_url": "http://arxiv.org/abs/2607.02235",
+            "publish_date": "2026-07-02",
+            "abstract": "LLM-as-a-Judge has become the dominant evaluation paradigm for many natural language generation tasks, due to shortcomings of conventional metrics and high correlations with human judgment, albeit mostly in English. There are now attempts to extend LLM-as-a-Judge to multilingual settings including low-resource languages. However, LLMs have limited proficiency in low-resource languages, and there is often no adequate human validation in these settings. To highlight the scope of the problem and current practices, we explore the use of LLM-as-a-Judge evaluators in ACL Anthology papers focusing on multilingual settings and low-resource languages across a diverse set of tasks. Out of 650 papers mentioning LLM-as-a-judge, only 33 of them focus on low-resource or multilingual settings. Our in-depth analysis of these papers indicates inconsistent evaluation outcomes, a tendency to overtrust LLM judgments in multilingual settings, and the widespread reliance on a single judge model per study. To help the NLP community further, we conclude with recommendations about how to use LLM-as-a-Judge in multilingual and low-resource settings.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }
