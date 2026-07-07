@@ -15982,6 +15982,72 @@
             "abstract": "LLM-as-a-Judge has become the dominant evaluation paradigm for many natural language generation tasks, due to shortcomings of conventional metrics and high correlations with human judgment, albeit mostly in English. There are now attempts to extend LLM-as-a-Judge to multilingual settings including low-resource languages. However, LLMs have limited proficiency in low-resource languages, and there is often no adequate human validation in these settings. To highlight the scope of the problem and current practices, we explore the use of LLM-as-a-Judge evaluators in ACL Anthology papers focusing on multilingual settings and low-resource languages across a diverse set of tasks. Out of 650 papers mentioning LLM-as-a-judge, only 33 of them focus on low-resource or multilingual settings. Our in-depth analysis of these papers indicates inconsistent evaluation outcomes, a tendency to overtrust LLM judgments in multilingual settings, and the widespread reliance on a single judge model per study. To help the NLP community further, we conclude with recommendations about how to use LLM-as-a-Judge in multilingual and low-resource settings.",
             "primary_category": "cs.CL",
             "code_url": "null"
+        },
+        "2607.05010": {
+            "title": "Pathological Regimes of Closed-Loop Recommendation Systems over Social Networks",
+            "authors": "Mariano Simone, Frasca Paolo",
+            "first_author": "Mariano Simone",
+            "url": "http://arxiv.org/abs/2607.05010v1",
+            "pdf_url": "http://arxiv.org/abs/2607.05010",
+            "publish_date": "2026-07-06",
+            "abstract": "This paper addresses the problem of designing recommendation systems for social networks and e-commerce platforms from a control-theoretic perspective. We formulate recommendation design as an infinite-horizon state-feedback optimal control problem whose performance index rewards alignment/engagement while penalizing polarization, large deviations from an uncontrolled baseline, recommendation mismatch, control effort, and exposure disagreement across neighboring users. We derive explicit spectral conditions under which the reduced quadratic stage cost is strictly positive-definite, and we show that the failure of these conditions makes the resulting recommendation design exhibit pathological behaviors, such as unstable free modes, non-attainment of the infimum, or failure of the stationary affine synthesis.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2607.04529": {
+            "title": "Evaluation and Explainability of Unsupervised Scholarly Collaboration Recommendations",
+            "authors": "Md Asaduzzaman Noor, John W. Sheppard, Jason A. Clark",
+            "first_author": "Md Asaduzzaman Noor",
+            "url": "http://arxiv.org/abs/2607.04529v1",
+            "pdf_url": "http://arxiv.org/abs/2607.04529",
+            "publish_date": "2026-07-05",
+            "abstract": "In this paper, we examine unsupervised, content-based collaboration recommendations using publication text in scholarly settings. We compare three families of methods: a TF-IDF baseline, topic-based models (LDA and BERTopic, including clone variants), and embedding-based retrieval using SciBERT with Faiss. To evaluate model behavior beyond simple lexical matching, we introduce a constrained setting where publication overlap between researchers is partially removed while still using historical co-authorship as proxy ground truth for post-hoc evaluation. Results show clear differences across methods. TF-IDF performs best under full information but drops significantly as overlap is reduced. In contrast, topic-based and embedding-based approaches show more stable performance, suggesting they capture broader distributional similarities, rather than relying only on direct lexical overlap. We also examine explainability through two perspectives: intrinsic topic-based explanations and post-hoc, retrieval-based explanations generated using language models. These provide complementary trade-offs between transparency and human readability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.04270": {
+            "title": "LBR: Towards Mitigating Length Bias in Large Language Models for Recommendation",
+            "authors": "Hongchen Li, Bohao Wang, Jingbang Chen, Weiqin Yang, Hang Pan, Bingde Hu, Can Wang, Jiawei Chen",
+            "first_author": "Hongchen Li",
+            "url": "http://arxiv.org/abs/2607.04270v1",
+            "pdf_url": "http://arxiv.org/abs/2607.04270",
+            "publish_date": "2026-07-05",
+            "abstract": "Large language models (LLMs) have recently emerged as powerful backbones for recommender systems by reformulating recommendation as a token-level generation task. Despite their promise, we identify a pervasive yet underexplored issue: $\\textit{Length Bias}$. Because items are represented by textual descriptions of varying lengths, LLM-based recommenders can be systematically biased in two ways. On the input side, longer item descriptions occupy more tokens in the context and thus receive disproportionately large aggregate attention mass during user preference modeling. On the output side, decoding based on summed autoregressive log-likelihood score inherently disfavors long items. Worse still, conventional length normalization can introduce an additional bias and even degrade recommendation performance.   To address this problem, we propose $\\textbf{LBR}$ ($\\textbf{L}$ength $\\textbf{B}$ias $\\textbf{R}$eduction), a lightweight and model-agnostic framework for mitigating length bias in LLM-based recommendation. LBR mitigates input-side bias via Length-Aware Attention Calibration, which incorporates a length-dependent offset into attention logits to neutralize attention skew. For the output side, LBR introduces Effective Information Length Normalization, replacing naive token count with an information-theoretic length surrogate derived from the branching structure of the prefix tree. Extensive experiments on three real-world Amazon datasets and two representative LLM-based recommenders demonstrate that LBR substantially alleviates length bias while consistently improving recommendation accuracy and fairness, with negligible additional training and inference overhead (with an average NDCG@5 gain of 16.82%). The code is available at https://github.com/Void-JackLee/LBR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.03918": {
+            "title": "Beyond Item Order: Temporal Gap Tokenization for Generative Recommendation with Semantic IDs",
+            "authors": "Chengkai Huang, Tianqi Gao, Hongtao Huang, Quan Z. Sheng, Lina Yao",
+            "first_author": "Chengkai Huang",
+            "url": "http://arxiv.org/abs/2607.03918v1",
+            "pdf_url": "http://arxiv.org/abs/2607.03918",
+            "publish_date": "2026-07-04",
+            "abstract": "Semantic-ID-based generative recommendation has recently emerged as a scalable paradigm for sequential recommendation, where each item is represented by a compact sequence of discrete codes and next-item prediction is formulated as code generation. Existing methods, however, typically construct user histories as sequences of static item identifiers, leaving the elapsed time between consecutive interactions outside the generative input. This temporal blindness is problematic because inter-interaction gaps provide useful cues about interest continuity and preference drift. In this paper, we propose ChronoSID, a lightweight temporal augmentation framework for semantic-ID-based generative recommendation. ChronoSID injects temporal signals into the standard three-stage semantic-ID pipeline from two complementary perspectives. First, we introduce Time-Aware Field-Aware Masked Auto-Encoding (TA-FAMAE), which regularizes item representation learning with an auxiliary time-gap prediction objective. Second, we discretize historical interaction intervals into fixed log-scale gap tokens and interleave them with semantic ID tuples as the encoder input of the sequence-to sequence generator. This design preserves the compact SID generation paradigm while enabling the model to capture time-aware transition patterns. Experiments on Amazon review benchmarks show that ChronoSID consistently improves over ReSID and other competitive generative recommendation baselines. Ablation studies further verify the contribution of both temporal components, and diagnostic analyses show clearer gains under long-gap scenarios where user interests are more likely to drift.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.03427": {
+            "title": "AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment",
+            "authors": "Serge Stinckwich, Natalie Wong, Ally S. Nyamawe, Jia'An Liu, Farhan Latif, Jaimee Stuart",
+            "first_author": "Serge Stinckwich",
+            "url": "http://arxiv.org/abs/2607.03427v1",
+            "pdf_url": "http://arxiv.org/abs/2607.03427",
+            "publish_date": "2026-07-03",
+            "abstract": "AI systems are increasingly being positioned as potential Digital Public Goods (DPGs) to accelerate progress towards the Sustainable Development Goals (SDGs). Yet, despite major global commitments, most notably the Global Digital Compact's call to \"develop, disseminate and maintain safe and secure open-source software, open data, open artificial intelligence models and open standards that benefit society as a whole\", very few AI systems currently meet the DPG Standard in practice. This report explains why, and what must change for \"AI as Digital Public Goods\" (AIDPGs) to become a credible, implementable pathway rather than an aspirational label.   Commissioned by the Asian Development Bank (ADB) and produced by United Nations University (UNU) in partnership with UN Office of Digital and Emergent Technologies (UN ODET), this assessment combines: (i) a structured desk review of policy, legal, and technical frameworks on DPGs, openness, and AI governance; (ii) key informant interviews with cross sector experts spanning the UN system, governments, civil society, academia, and the private sector; and (iii) a global survey to test whether interview themes hold across a broader sample and to surface where perspectives diverge by region, sector, and AI readiness.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2607.03362": {
+            "title": "HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems",
+            "authors": "Xiao Liang, Jiali Feng, Xin Feng, Yiqing Wang, Baolin Ye, Siyao Feng, Zhihui Deng, Cunyi Zhang, Huajin Sun, Xuanping Li, Kaiqiao Zhan, Yanan Niu, Kun Gai",
+            "first_author": "Xiao Liang",
+            "url": "http://arxiv.org/abs/2607.03362v1",
+            "pdf_url": "http://arxiv.org/abs/2607.03362",
+            "publish_date": "2026-07-03",
+            "abstract": "With the explosive growth of content platforms, recommendation systems need to better satisfy user demands to enhance user satisfaction and retention. Taking short-video platforms as an example, users not only seek high-quality content but also trusted authors. Although generative recommendation systems have achieved breakthroughs in recent years, existing methods primarily generate single-type recommendation content and typically employ the inefficient autoregressive paradigm to generate semantic IDs. In this paper, we propose an end-to-end heterogeneous generative recommendation architecture called HGenPush. First, we design a hybrid user behavior understanding module that integrates multi-scenario and multi-perspective behaviors to capture precise user interest. Then, we design a dual-branch heterogeneous generative recommendation module that integrates video recommendation and author recommendation within a unified framework. In addition, to improve generation efficiency, we design a lightweight multi-token prediction method that discards the autoregressive paradigm. Finally, we design a user consumption preference alignment module, which leverages user feedback as reward signals to guide the model toward generating higher-quality content, thereby enhancing user experience and engagement. Through these designs, HGenPush simultaneously fulfills users' demands for high-quality content and trusted authors. We have deployed HGenPush on the push notification system of Kuaishou, a large-scale short-video platform, achieving a significant 0.181% increase in daily active users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

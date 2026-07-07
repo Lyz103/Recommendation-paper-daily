@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-06
+## Updated on 2026-07-07
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-06` | **Pathological Regimes of Closed-Loop Recommendation Systems over Social Networks** | Mariano Simone, Frasca Paolo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05010) |
+| `2026-07-05` | **Evaluation and Explainability of Unsupervised Scholarly Collaboration Recommendations** | Md Asaduzzaman Noor, John W. Sheppard, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.04529) |
+| `2026-07-05` | **LBR: Towards Mitigating Length Bias in Large Language Models for Recommendation** | Hongchen Li, Bohao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.04270) |
+| `2026-07-04` | **Beyond Item Order: Temporal Gap Tokenization for Generative Recommendation with Semantic IDs** | Chengkai Huang, Tianqi Gao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.03918) |
+| `2026-07-03` | **AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment** | Serge Stinckwich, Natalie Wong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.03427) |
+| `2026-07-03` | **HGenPush: A Heterogeneous Generative Recommendation Architecture for Industrial Push Notification Systems** | Xiao Liang, Jiali Feng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.03362) |
 | `2026-07-02` | **Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages** | A. Seza Doğruöz, Xixian Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.02235) |
 | `2026-06-30` | **Near-Optimal Nitrogen Recommendations for Precision Agriculture via Sequential Screening and Hierarchical Refinement** | Sakshi Arya, Abdul-Nasah Soale, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.31661) |
 | `2026-06-29` | **Diagnosing and Mitigating Retrieval Bottlenecks in LLM-Based Cold-Start Recommendation** | Zhe Dong, Fang Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2606.29947) |
