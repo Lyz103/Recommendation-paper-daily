@@ -1,4 +1,4 @@
-## Updated on 2026-07-07
+## Updated on 2026-07-08
 
 ---
 
@@ -26,6 +26,10 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-07` | **Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal Reranking** | Seungheon Doh, Minhee Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05971) |
+| `2026-07-07` | **Signed-Graph Recommendation as Structural Consistency Maximization** | Zifan Wang, Siyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05952) |
+| `2026-07-07` | **SCOReD: Student-Aware CoT Optimization for Recommendation Distillation** | Haz Sameen Shahgir, Yufei Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05734) |
+| `2026-07-03` | **Retrieval over Reasoning: A Cost-Controlled Benchmark of Language Models for Energy-Retrofit Recommendation** | Eliseo Curcio | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05440) |
 | `2026-07-06` | **Pathological Regimes of Closed-Loop Recommendation Systems over Social Networks** | Mariano Simone, Frasca Paolo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05010) |
 | `2026-07-05` | **Evaluation and Explainability of Unsupervised Scholarly Collaboration Recommendations** | Md Asaduzzaman Noor, John W. Sheppard, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.04529) |
 | `2026-07-05` | **LBR: Towards Mitigating Length Bias in Large Language Models for Recommendation** | Hongchen Li, Bohao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.04270) |

@@ -16048,6 +16048,50 @@
             "abstract": "With the explosive growth of content platforms, recommendation systems need to better satisfy user demands to enhance user satisfaction and retention. Taking short-video platforms as an example, users not only seek high-quality content but also trusted authors. Although generative recommendation systems have achieved breakthroughs in recent years, existing methods primarily generate single-type recommendation content and typically employ the inefficient autoregressive paradigm to generate semantic IDs. In this paper, we propose an end-to-end heterogeneous generative recommendation architecture called HGenPush. First, we design a hybrid user behavior understanding module that integrates multi-scenario and multi-perspective behaviors to capture precise user interest. Then, we design a dual-branch heterogeneous generative recommendation module that integrates video recommendation and author recommendation within a unified framework. In addition, to improve generation efficiency, we design a lightweight multi-token prediction method that discards the autoregressive paradigm. Finally, we design a user consumption preference alignment module, which leverages user feedback as reward signals to guide the model toward generating higher-quality content, thereby enhancing user experience and engagement. Through these designs, HGenPush simultaneously fulfills users' demands for high-quality content and trusted authors. We have deployed HGenPush on the push notification system of Kuaishou, a large-scale short-video platform, achieving a significant 0.181% increase in daily active users.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2607.05971": {
+            "title": "Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal Reranking",
+            "authors": "Seungheon Doh, Minhee Lee, Sangmoon Lee, Ben Sangbae Chon, Juhan Nam",
+            "first_author": "Seungheon Doh",
+            "url": "http://arxiv.org/abs/2607.05971v1",
+            "pdf_url": "http://arxiv.org/abs/2607.05971",
+            "publish_date": "2026-07-07",
+            "abstract": "We present VTMR, a two-stage framework for Video-To-Music Recommendation. In Stage~1, VTMR aligns comprehensive video and music signals in a joint audio-visual-text representation space and efficiently retrieves semantically compatible candidates using coarse global embeddings. In Stage~2, it reranks the retrieved candidates by attending to the temporal sequences of both video and music, thereby capturing fine-grained temporal correspondence. Evaluated on the video-to-music recommendation task, the multimodal retrieval stage improves R@10 from 14.2 to 15.9 and Median Rank from 75 to 58 over the strongest baseline; the temporal reranker further boosts R@10 to 18.3 and Median Rank to 46, demonstrating complementary gains from richer query encoding and temporal alignment. A human preference study confirms that VTMR is on par with a commercial baseline in overall preference, while outperforming a generative baseline in music quality.",
+            "primary_category": "cs.MM",
+            "code_url": "null"
+        },
+        "2607.05952": {
+            "title": "Signed-Graph Recommendation as Structural Consistency Maximization",
+            "authors": "Zifan Wang, Siyu Chen, Wenzhuo Song",
+            "first_author": "Zifan Wang",
+            "url": "http://arxiv.org/abs/2607.05952v1",
+            "pdf_url": "http://arxiv.org/abs/2607.05952",
+            "publish_date": "2026-07-07",
+            "abstract": "While signed social recommendation has shown great potential by modeling both trust and distrust relations, its effectiveness is often hindered by structural noise and data sparsity. In this work, we first identify a fundamental inconsistency across the structural, propagation, and semantic layers of existing models, which leads to biased representations learned from sparse or noisy datasets. Furthermore, we observe that most existing methods treat the observed graph as fixed, failing to bridge the gap between noisy topologies and reliable social semantics. To address these issues, we propose a unified framework named SSC-Loop that treats signed social recommendation as the maximization of structural consistency. SSC-Loop includes three dedicated modules: ESA-DA for structural consistency, a P/N/O propagation mechanism for propagation consistency, and a contrastive learning objective for semantic consistency. Experiments on Epinions demonstrate that SSC-Loop achieves strong performance on explicit signed social rating prediction, while auxiliary results on Slashdot under a derived link-existence setting further suggest its ability to exploit signed social structures. Source code is available at https://github.com/Refrainwww/SSC-Loop.",
+            "primary_category": "cs.SI",
+            "code_url": "null"
+        },
+        "2607.05734": {
+            "title": "SCOReD: Student-Aware CoT Optimization for Recommendation Distillation",
+            "authors": "Haz Sameen Shahgir, Yufei Li, Frank Shyu, Luke Simon, Sandeep Pandey, Xi Liu, Yue Dong",
+            "first_author": "Haz Sameen Shahgir",
+            "url": "http://arxiv.org/abs/2607.05734v1",
+            "pdf_url": "http://arxiv.org/abs/2607.05734",
+            "publish_date": "2026-07-07",
+            "abstract": "Chain-of-thought (CoT) distillation in the recommendation domain is a necessary precursor to RL training, but raw teacher traces are ill-suited to this task. Large teachers approach the recommendation task with unusually high reasoning uncertainty, repeatedly rechecking their answers without revising them; supervised fine-tuning on such traces produces verbose students that never revise their initial guess. Furthermore, due to the novelty of the recommendation domain, the teacher's reasoning traces are highly out-of-distribution for the small student LLM.   We propose Student-Aware CoT Optimization for Recommendation Distillation (SCOReD), a CoT optimization framework tailored to recommendation that first parses each teacher trace into typed segments and uses the student LLM's attention to score the importance of each segment. Then SCOReD dynamically selects a per-segment edit (KEEP / REWRITE / FUSE / PRUNE) based on the output length and comparative log probability lift of the answer given the edit as per the student. Therefore, SCOReD prunes redundant sections of the reasoning trace while preserving information-dense sections and adapts raw teacher traces to the student's output distribution. Training on SCOReD-optimized CoTs provides a cleaner learning signal to the student model and improves over baseline SFT by 1.56% NDCG and 1.9% Recall@5, while reducing reasoning length by 27.3%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.05440": {
+            "title": "Retrieval over Reasoning: A Cost-Controlled Benchmark of Language Models for Energy-Retrofit Recommendation",
+            "authors": "Eliseo Curcio",
+            "first_author": "Eliseo Curcio",
+            "url": "http://arxiv.org/abs/2607.05440v1",
+            "pdf_url": "http://arxiv.org/abs/2607.05440",
+            "publish_date": "2026-07-03",
+            "abstract": "Recommending the correct set of energy conservation measures (ECMs) for a building is a structured, multi-label prediction problem in which a task-specific supervised model has weak training signal and a general language model has no grounding in the local building stock. We study this problem on 10,422 real New York City Local Law 87 (LL87) energy-audit records, taking as ground truth the set of ECM categories that certified auditors actually recommended. We make four contributions. First, we establish that energy-use-intensity (EUI) prediction - the upstream task - is effectively solved by tree ensembles: across fifteen trained models, a stacking ensemble reaches a coefficient of determination R^2 = 0.757, and every one of six neural architectures is outperformed by gradient-boosted trees. Second, we show that the framing of the recommendation task dominates model choice: recasting ECM recommendation as 19-way multi-label classification rather than single-label categorization lifts a gradient-boosted-tree baseline from a previously reported 25.9% accuracy to a micro-F1 of 0.571. Third, we benchmark eight large language models (LLMs) from four providers in a 2x2 design that independently toggles retrieval grounding and explicit reasoning, scoring each arm on per-label F1, U.S.-dollar cost per building, and latency; retrieval-augmented generation (RAG) improves micro-F1 by +0.11 to +0.20 on every model, while explicit reasoning yields no measurable accuracy change (-0.018 to +0.010) at up to 8.4x the cost. Fourth, we show LLMs systematically over-recommend - high recall, low precision - and that retrieval closes the gap chiefly by improving precision. A 70-billion-parameter open-weight model with a fifteen-line nearest-neighbor retrieval step reaches 0.511 micro-F1 at $0.00032 per building, comparable to a frontier model at roughly 10.1x lower cost.",
+            "primary_category": "econ.EM",
+            "code_url": "null"
         }
     }
 }
