@@ -1,4 +1,4 @@
-## Updated on 2026-07-08
+## Updated on 2026-07-09
 
 ---
 
@@ -26,6 +26,8 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-08` | **Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation** | Hao Cong, Huizu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.07108) |
+| `2026-07-07` | **When and How to Ask: Dynamic Preference Elicitation Strategies for Conversational Recommendation** | Feng Xia, Shuo Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.06765) |
 | `2026-07-07` | **Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal Reranking** | Seungheon Doh, Minhee Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05971) |
 | `2026-07-07` | **Signed-Graph Recommendation as Structural Consistency Maximization** | Zifan Wang, Siyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05952) |
 | `2026-07-07` | **SCOReD: Student-Aware CoT Optimization for Recommendation Distillation** | Haz Sameen Shahgir, Yufei Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05734) |
