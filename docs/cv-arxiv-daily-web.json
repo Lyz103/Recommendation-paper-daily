@@ -16073,9 +16073,9 @@
         },
         "2607.05734": {
             "title": "SCOReD: Student-Aware CoT Optimization for Recommendation Distillation",
-            "authors": "Haz Sameen Shahgir, Yufei Li, Frank Shyu, Luke Simon, Sandeep Pandey, Xi Liu, Yue Dong",
+            "authors": "Haz Sameen Shahgir, Yufei Li, Xiaohan Wei, Yunchen Pu, Fei Tian, Chonglin Sun, Frank Shyu, Sandeep Pandey, Luke Simon, Yue Dong, Xi Liu",
             "first_author": "Haz Sameen Shahgir",
-            "url": "http://arxiv.org/abs/2607.05734v1",
+            "url": "http://arxiv.org/abs/2607.05734v2",
             "pdf_url": "http://arxiv.org/abs/2607.05734",
             "publish_date": "2026-07-07",
             "abstract": "Chain-of-thought (CoT) distillation in the recommendation domain is a necessary precursor to RL training, but raw teacher traces are ill-suited to this task. Large teachers approach the recommendation task with unusually high reasoning uncertainty, repeatedly rechecking their answers without revising them; supervised fine-tuning on such traces produces verbose students that never revise their initial guess. Furthermore, due to the novelty of the recommendation domain, the teacher's reasoning traces are highly out-of-distribution for the small student LLM.   We propose Student-Aware CoT Optimization for Recommendation Distillation (SCOReD), a CoT optimization framework tailored to recommendation that first parses each teacher trace into typed segments and uses the student LLM's attention to score the importance of each segment. Then SCOReD dynamically selects a per-segment edit (KEEP / REWRITE / FUSE / PRUNE) based on the output length and comparative log probability lift of the answer given the edit as per the student. Therefore, SCOReD prunes redundant sections of the reasoning trace while preserving information-dense sections and adapts raw teacher traces to the student's output distribution. Training on SCOReD-optimized CoTs provides a cleaner learning signal to the student model and improves over baseline SFT by 1.56% NDCG and 1.9% Recall@5, while reducing reasoning length by 27.3%.",
