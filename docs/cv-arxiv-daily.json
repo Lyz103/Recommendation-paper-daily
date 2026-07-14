@@ -16125,6 +16125,94 @@
             "abstract": "Accurate and timely diagnoses are essential for quality patient care. However, delayed recommendation of diagnostic tests and physicians' subjective interpretations can hinder effective care. This study introduces a pathological test recommendation system that speeds up the test selection process using patient symptoms before physician consultation. The recommendation task is framed as a multi-label classification problem utilising the Classifier Chain (CC) technique to consider dependencies between tests. We collected data from the SOUTHERN.IML pathology and then created a custom dataset with the help of the expertise. Multiple machine learning algorithms, including Logistic Regression, Decision Tree, and Random Forest, were applied to compare models and identify the best fit for our study context. The Logistic Regression with CC model had the highest overall accuracy at 98.83%, while the Majority Voting ensemble model provided the best balance with a precision of 0.93, recall of 0.85, and F1-score of 0.89. To ensure transparency of the models and clinical interpretability, we used Explainable AI (XAI) techniques utilising SHAP (SHapley Additive Explanations), which identifies how each symptom is contributing to a test recommendation. The diagnostic reasoning revealed by the model was consistent with established medical knowledge of symptoms for the recommended tests, which further adds confidence to the model's reliability for diagnostic purposes. The reasoning could help physicians make logical decisions in critical scenarios. Overall, our findings suggest that CC can improve the efficiency of the traditional algorithms in diagnostic process providing accurate test recommendations.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2607.11722": {
+            "title": "STEP: Career-Path Recommendation via Temporal and Educational Trajectory Modeling",
+            "authors": "Iman Johary, Guillaume Bied, Alexandru C. Mara, Tijl De Bie",
+            "first_author": "Iman Johary",
+            "url": "http://arxiv.org/abs/2607.11722v1",
+            "pdf_url": "http://arxiv.org/abs/2607.11722",
+            "publish_date": "2026-07-13",
+            "abstract": "Career paths encode decades of skill acquisition, role transitions, and educational investment, and understanding them at scale underpins workforce planning, labor market policy, and job recommendation. Resumes are a rich source of information about career paths: they contain detailed descriptions of work experience, education, and skills. Yet their unstructured, heterogeneous, and multilingual nature has long prevented large-scale systematic analysis. With the advent of large language models (LLMs), it is now possible to source rich career trajectory data containing temporal and educational signals from unstructured resumes, enabling new opportunities for career-path recommendation. Exploiting this opportunity, we present STEP (Sequential Trajectory of Employment Prediction), a novel career-path recommendation system that leverages temporal and educational signals to predict the next job in a career trajectory. STEP integrates a time-decay Gated Recurrent Unit (GRU) cell to model temporal dynamics, Feature-wise Linear Modulation (FiLM) conditioned on educational attainment, and attention-based sequence pooling to select relevant features for next job prediction. To improve internal occupation representation for STEP, we introduce ROUTE, a two-stage contrastive procedure that first adapts a multilingual encoder to the career domain via unsupervised denoising autoencoding, then performs supervised contrastive fine-tuning with guided negative selection. We evaluate STEP on four datasets of career trajectories, including an improved version of our publicly available JobHop dataset, and show that it outperforms state-of-the-art baselines in next job prediction. The dataset and code are publicly released to support reproducible career-trajectory research.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2607.11354": {
+            "title": "User Preference Induction with LLMs for Offline Top-N Recommendation Evaluation",
+            "authors": "David Otero, Javier Parapar",
+            "first_author": "David Otero",
+            "url": "http://arxiv.org/abs/2607.11354v1",
+            "pdf_url": "http://arxiv.org/abs/2607.11354",
+            "publish_date": "2026-07-13",
+            "abstract": "Offline evaluation is the standard methodology for comparing top-N recommender systems, yet it relies on incomplete relevance information. In most benchmark datasets, only a small subset of user--item preferences is observed, and unjudged items are commonly treated as non-relevant. This missing-as-negative assumption can bias evaluation, penalize plausible recommendations with no recorded feedback, and favour algorithms that concentrate on popular or highly exposed items. We propose an LLM-based framework to expand relevance judgements for offline recommender evaluation. Our approach uses large language models in two complementary roles. First, a preference induction stage summarizes each user's historical interactions into a textual profile that captures their tastes and interests. Second, conditioned on this profile, an LLM acts as a relevance judge for candidate recommended items that lack observed labels in the original test data. To make this process tractable and evaluation-focused, we apply judgement expansion to a pooled candidate set built from the top-ranked outputs of multiple recommenders. The resulting enriched judgements provide additional relevance evidence for previously unobserved user--item pairs, enabling ranking metrics to be computed on a more complete basis. Experimental results show that this approach is a promising strategy for improving the robustness of offline top-N evaluation and mitigating the popularity-sensitive distortions caused by sparse feedback.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.10910": {
+            "title": "ZoRRO: A Zero-Weight Personalized Recommender System for Scalable News Recommendation",
+            "authors": "Johannes Kruse, Ryotaro Shimizu, Kasper Lindskow, Jon Tofteskov, Michael Riis Andersen, Julian McAuley, Jes Frellsen",
+            "first_author": "Johannes Kruse",
+            "url": "http://arxiv.org/abs/2607.10910v1",
+            "pdf_url": "http://arxiv.org/abs/2607.10910",
+            "publish_date": "2026-07-12",
+            "abstract": "We present ZoRRO (Zero-Weight Personalized Recommender System), a zero-weight, training-free framework for personalized news recommendation designed for scalable real-world deployment. ZoRRO outperforms strong neural baselines in offline ranking evaluations and achieves click-through rate performance in online A/B testing that is nearly on par with a state-of-the-art deep learning model, while operating more than 600 times faster. Our experiments reveal gaps between offline and online performance and demonstrate that models with similar click-through rate outcomes can produce markedly different recommendation distributions, thereby influencing the overall news flow. These findings position ZoRRO as a practical and efficient solution for large-scale news recommendation and highlight the importance of evaluating recommender systems using metrics beyond accuracy alone.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.10909": {
+            "title": "Stream-aware Side Adaptation for Large Pre-trained Multimodal Embedding Models in Sequential Recommendation",
+            "authors": "Junchen Fu, Kaiwen Zheng, Ioannis Arapakis, Wenhao Deng, Xin Xin, Joemon M. Jose, Xuri Ge",
+            "first_author": "Junchen Fu",
+            "url": "http://arxiv.org/abs/2607.10909v1",
+            "pdf_url": "http://arxiv.org/abs/2607.10909",
+            "publish_date": "2026-07-12",
+            "abstract": "Recently, large pretrained multimodal embedding models such as Qwen3-VL Embedding have shown strong promise for sequential recommendation, as they provide reusable semantic item representations across modalities and domains. However, directly using these embeddings often leads to suboptimal performance because of domain misalignment. Efficient side adaptation is therefore an attractive solution. Although adapting all backbone layers should help, existing side adapters often degrade with depth, prompting layer dropping despite the loss of useful hidden states. This is due to two major challenges: (1) the lack of modeling in selecting fused representations during residual addition, and (2) the insufficient preservation of earlier representations during progressive sigmoid fusion. This paper therefore asks a practical question: How can we design a side adaptation approach that effectively unlocks the potential of large pre-trained multimodal embedding models?   To address this question, we propose Stresa, a stream-aware side-adaptation framework for frozen large pre-trained multimodal embedding models in sequential recommendation. Stresa introduces Stream-aware Hidden-Adapter Fusion (SHAF) to preserve historical side memory during fusion and Residual Stream Adapter (ReSA) to produce selective residual updates across layers. Empirically, Stresa consistently outperforms standard side adapters and state-of-the-art baselines on public datasets across multiple backbone embedding models. These results highlight the promise of adapting large embedding models for sequential recommendation. Our code is publicly available at https://github.com/GAIR-Lab/Stresa.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.10541": {
+            "title": "RecRec: Recursive Refinement for Sequential Recommendation",
+            "authors": "Pervez Shaik, Prosenjit Biswas, Abhinav Thorat, Ravi Kolla, Niranjan Pedanekar",
+            "first_author": "Pervez Shaik",
+            "url": "http://arxiv.org/abs/2607.10541v1",
+            "pdf_url": "http://arxiv.org/abs/2607.10541",
+            "publish_date": "2026-07-12",
+            "abstract": "Sequential recommender systems typically infer user preferences through single-pass encoding of interaction histories without iterative refinement, relying on increasingly deep architectures to capture complex patterns. In this work, we revisit sequential recommendation from a recursive inference perspective: can user preferences be modeled as a persistent latent state that is recursively refined? We propose RecRec (Recursive Recommendation), a lightweight model that maintains a compact latent state and updates it through a shared recursive module conditioned on interaction evidence. Unlike prior recursive models, RecRec introduces an evidence-anchored correction mechanism that stabilizes refinement by grounding each update in the original interaction context, preventing semantic drift during deep recursive reasoning. Experiments on three benchmark datasets under standard evaluation protocols show that RecRec matches or outperforms state-of-the-art sequential, graph-based, and reasoning-enhanced recommenders while using only 3.9M to 14M parameters. Ablation studies demonstrate that both recursive refinement and the evidence-anchored correction gate contribute significantly to performance, highlighting the effectiveness of recursive latent inference as a scalable alternative to deeper or language-based architectures. Code is available at https://anonymous.4open.science/r/RecRec-6B67/README.md.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.10460": {
+            "title": "Learning from an Unknown DGP: Experimental Evidence on Belief Updating with AI Recommendations",
+            "authors": "Matthew Kovach, Daniel Martin, Gerelt Tserenjigmid",
+            "first_author": "Matthew Kovach",
+            "url": "http://arxiv.org/abs/2607.10460v1",
+            "pdf_url": "http://arxiv.org/abs/2607.10460",
+            "publish_date": "2026-07-11",
+            "abstract": "We use a controlled experiment to study how beliefs are updated after receiving qualitative information (AI recommendations) from an unknown data-generating process (DGP). Across 60,252 pairs of prior and posterior beliefs, we document three behavioral patterns: updates close to zero when recommendations confirm extreme priors, larger updates when recommendations contradict extreme priors, and smaller updates for intermediate priors. These three behavioral patterns suggest four testable properties of belief updating, which we assess at the aggregate and individual levels. Finally, we examine how well updates are captured by three models of belief updating.",
+            "primary_category": "econ.GN",
+            "code_url": "null"
+        },
+        "2607.09988": {
+            "title": "An LLM-powered Agentic Recommendation System for Connected TV Content Discovery",
+            "authors": "Lei Shi, Di Wang, Harry Tran, Helsing Xu, Yuchen Lu, Dhara Ghodasara, Wilson Chaney, Xueting Liao, Jerry Yu, Huayu Ding, Mingze Gao, Shike Mei, Shuo Tang, Zhe Zhang, Jianming He, Abhishek Kumar, Haotian Wu, Hamed Firooz, Li Li",
+            "first_author": "Lei Shi",
+            "url": "http://arxiv.org/abs/2607.09988v1",
+            "pdf_url": "http://arxiv.org/abs/2607.09988",
+            "publish_date": "2026-07-10",
+            "abstract": "Recommendation systems, from traditional multi-stage to recent unified generative architectures, face challenges in incorporating diverse contextual signals, such as trending topics, breaking news, cultural events, and cross-surface user activities, into their ranking pipelines. These systems are designed to consume structured behavioral signals with consistent schemas, and lack the reasoning capability to naturally process unstructured or heterogeneously formatted contextual information. Incorporating such signals typically requires feature engineering, bespoke data pipelines, and carefully tuned heuristics. In this paper, we present an LLM-powered agentic recommendation system designed for Connected TV (CTV) content discovery that addresses these limitations. Our system leverages the reasoning capabilities of large language models to naturally process and synthesize diverse signals across varying schemas and structures, eliminating much of the manual integration inherent in traditional ranking and retrieval systems. Recognizing that current LLM-based solutions still fall short of traditional machine learning models in several recommendation tasks, including retrieval efficiency, personalization precision, and scalability, we adopt an agentic architecture that orchestrates specialized components, allowing each sub-task to be handled by the most suitable method, whether LLM-based or traditional ML. The main contribution of this work is our engineering approach to successfully overcoming the practical limitations of enabling LLM for recommendation, particularly inference latency. We share insights from our work and discuss the trade-offs and lessons learned in building a hybrid system that combines the flexibility of LLMs with the performance of established recommendation techniques.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.09954": {
+            "title": "A Knowledge-Based Multi-Agent Framework for Security Control Recommendation",
+            "authors": "Carolina Fern\u00e1ndez-Mart\u00ednez, Shuaib Siddiqui, Vanesa Daza",
+            "first_author": "Carolina Fern\u00e1ndez-Mart\u00ednez",
+            "url": "http://arxiv.org/abs/2607.09954v1",
+            "pdf_url": "http://arxiv.org/abs/2607.09954",
+            "publish_date": "2026-07-10",
+            "abstract": "Hardening IT on-premises environments can be a daunting task for teams without access to adequate cybersecurity expertise. In this regard, Decision Support Systems (DSS) with embedded expert knowledge can assist users by guiding them with security recommendations to meet their objectives. This work proposes a Security DSS that recommends security control sub-families given minimal user requirements indicating coverage of different security dimensions. It leverages a curated, unified dataset from both well-known Information Security (InfoSec) and academic sources. This DSS is defined as a non-zero-sum, simultaneous game that is grounded in a Multi-Agent Influence Diagram (MAID) model and explores the decision space over 7 security dimensions or agents, using no-regret online learning to ultimately find the security control sub-families that best fit the requirements while incurring minimal under- and over-provisioning of security resources. This work was validated in terms of performance and accuracy, among others, for varying dataset sizes. It shows exceptional satisfaction coverage results of 99% when using as little as ~65% of the SW-implementable security controls, running in 1.2-35.7 seconds; and more moderate coverage results of 73%-77% when using ~29% of the controls, resolving in 0.8-13.8 seconds.",
+            "primary_category": "cs.GT",
+            "code_url": "null"
         }
     }
 }
