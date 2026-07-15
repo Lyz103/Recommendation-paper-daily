@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-14
+## Updated on 2026-07-15
 
 ---
 
@@ -23,6 +23,13 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-14` | **ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark** | Minh Hoang Nguyen | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12946) |
+| `2026-07-14` | **RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation** | Wenhao Deng, Junchen Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12945) |
+| `2026-07-14` | **Cheaper is Better: A Discount-Aware Network for Conversion Rate Prediction in E-commerce Recommendation System** | Ruocong Tang, Yang Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12578) |
+| `2026-07-14` | **Where Reasoning Matters: Rethinking Latent Reasoning in Semantic ID-based Generative Recommendation** | Shangxin Yang, Min Gao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12425) |
+| `2026-07-14` | **Skills That Don't Exist: A Large-Scale Study of Hallucinated Skill Recommendation in LLM Agents** | Weifeng Yuan, Wenbo Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12340) |
+| `2026-07-14` | **Not Only NTP: Extending Training Signal Coverage for Generative Recommendation** | Changhao Li, Shuli Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12277) |
+| `2026-07-13` | **Agentic systems for breast cancer treatment recommendations** | Vinicius Anjos de Almeida, Nícolas Henrique Borges, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12051) |
 | `2026-07-13` | **STEP: Career-Path Recommendation via Temporal and Educational Trajectory Modeling** | Iman Johary, Guillaume Bied, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.11722) |
 | `2026-07-13` | **User Preference Induction with LLMs for Offline Top-N Recommendation Evaluation** | David Otero, Javier Parapar | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.11354) |
 | `2026-07-12` | **ZoRRO: A Zero-Weight Personalized Recommender System for Scalable News Recommendation** | Johannes Kruse, Ryotaro Shimizu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.10910) |
@@ -31,7 +38,7 @@ layout: default
 | `2026-07-11` | **Learning from an Unknown DGP: Experimental Evidence on Belief Updating with AI Recommendations** | Matthew Kovach, Daniel Martin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.10460) |
 | `2026-07-10` | **An LLM-powered Agentic Recommendation System for Connected TV Content Discovery** | Lei Shi, Di Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.09988) |
 | `2026-07-10` | **A Knowledge-Based Multi-Agent Framework for Security Control Recommendation** | Carolina Fernández-Martínez, Shuaib Siddiqui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.09954) |
-| `2026-07-09` | **Classifier Chain-based Pathological Test Recommendation** | Abu Rafe Md Jamil, Nayan Malakar | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.08299) |
+| `2026-07-09` | **MLPTR-CC: Multi-label Pathology Test Recommendation using Classifier Chains and SHAP** | Abu Rafe Md Jamil, Nayan Malakar | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.08299) |
 | `2026-07-08` | **Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation** | Hao Cong, Huizu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.07108) |
 | `2026-07-07` | **When and How to Ask: Dynamic Preference Elicitation Strategies for Conversational Recommendation** | Feng Xia, Shuo Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.06765) |
 | `2026-07-07` | **Multimodal Video-to-Music Recommendation via Semantic Retrieval and Temporal Reranking** | Seungheon Doh, Minhee Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.05971) |
