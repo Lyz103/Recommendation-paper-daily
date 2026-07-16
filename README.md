@@ -1,4 +1,4 @@
-## Updated on 2026-07-15
+## Updated on 2026-07-16
 
 ---
 
@@ -26,6 +26,7 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-15` | **OrDA: Orthogonal Disentanglement of Access Habits Framework for Homepage Marketing Block Recommendations** | Lingxiao Zhang, Xiaobo Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.13420) |
 | `2026-07-14` | **ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark** | Minh Hoang Nguyen | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12946) |
 | `2026-07-14` | **RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation** | Wenhao Deng, Junchen Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12945) |
 | `2026-07-14` | **Cheaper is Better: A Discount-Aware Network for Conversion Rate Prediction in E-commerce Recommendation System** | Ruocong Tang, Yang Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12578) |
