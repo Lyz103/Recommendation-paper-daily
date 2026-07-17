@@ -1,4 +1,4 @@
-## Updated on 2026-07-16
+## Updated on 2026-07-17
 
 ---
 
@@ -26,6 +26,10 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-16` | **Mutable Low-Rank Sketches for Retrain-Free Recommendation** | Hector J. Garcia, Nick Clayton | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15242) |
+| `2026-07-16` | **Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation** | Paul Darm, Cem Alpturk, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.14970) |
+| `2026-07-16` | **Impact of Expert-Following Strategies in Financial Asset Recommendation** | Ryuki Unno, Koshi Watanabe, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.14556) |
+| `2026-07-15` | **Black-Hole Spin Measurements from X-ray Reflection Spectroscopy: Quality Criteria and Community Recommendations** | Javier A. Garcia, Riley Connors, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.14368) |
 | `2026-07-15` | **OrDA: Orthogonal Disentanglement of Access Habits Framework for Homepage Marketing Block Recommendations** | Lingxiao Zhang, Xiaobo Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.13420) |
 | `2026-07-14` | **ViHoRec: A Quality-Controlled Vietnamese Hotel Recommendation Dataset and Cold-Start Benchmark** | Minh Hoang Nguyen | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12946) |
 | `2026-07-14` | **RecRec: Latent Interests Recursive Reasoning for Sequential Recommendation** | Wenhao Deng, Junchen Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.12945) |

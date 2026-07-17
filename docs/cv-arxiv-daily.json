@@ -16301,6 +16301,50 @@
             "abstract": "Clicks on homepage marketing blocks are driven by a dual-mechanism of content interest and access habits. However, habitual clicks often create Pseudo-Positives in marketing slots, where position advantage masks mediocre content quality, leading to biased recommendation ecosystems. We propose a framework called Orthogonal Disentanglement of Access habits (OrDA) to purify interest signals. OrDA utilizes a dual-tower structure with a gated allocation layer to adaptively route features and minimize interference. To ensure rigorous separation, we employ orthogonal regularization to constrain the latent interest and habit manifolds to be geometrically perpendicular. OrDA performs causal intervention (do-calculus) during inference to rank items solely by purified interest scores. Empirical online evaluations on large-scale datasets demonstrate that OrDA effectively eliminates access-habit bias, outperforming state-of-the-art methods in predictive accuracy. Online AB test 5.64% shows user click-through rates (UCTR) improvement on the Zhima homepage marketing block, Zhima rent-floor recommendation.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2607.15242": {
+            "title": "Mutable Low-Rank Sketches for Retrain-Free Recommendation",
+            "authors": "Hector J. Garcia, Nick Clayton",
+            "first_author": "Hector J. Garcia",
+            "url": "http://arxiv.org/abs/2607.15242v1",
+            "pdf_url": "http://arxiv.org/abs/2607.15242",
+            "publish_date": "2026-07-16",
+            "abstract": "A common bottleneck in two-stage recommendation is embedding staleness: when a user rates a new item, their embedding remains fixed until the next retrain cycle. We propose mutable sketches, which store each user's preferences in a KP-tree (a sparse segment tree with sum aggregation), fit a low-rank projection once, and recompute embeddings on-the-fly as ratings arrive. We prove that each new observation monotonically tightens the prediction error envelope (Theorem 1), a guarantee that FunkSVD and eALS lack. On KuaiRec, the mutable sketch achieves 0.810 RMSE at 1.8% data read vs. ALS 0.822 at 100%, with 8x faster per-batch updates. A new user receives personalized recommendations in <1 ms after their first rating, with no model retraining required. A comparison of sampling strategies across density regimes shows that the KP-tree's norm-proportional sampling provides 40-130% better item coverage on sparse data (<1% density), while uniform sampling suffices on dense matrices.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.14970": {
+            "title": "Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation",
+            "authors": "Paul Darm, Cem Alpturk, Kenneth Ulrich, William Duncan, Ali Anwar, Annalisa Riccardi",
+            "first_author": "Paul Darm",
+            "url": "http://arxiv.org/abs/2607.14970v1",
+            "pdf_url": "http://arxiv.org/abs/2607.14970",
+            "publish_date": "2026-07-16",
+            "abstract": "Automated optimisation is increasingly adopted in industrial processes, yet a trust gap persists between engineers who design these algorithms and operators who must act on their recommendations. Explainable AI methods like SHAP (SHapley Additive exPlanations) have transformed interpretability for machine learning predictions; optimisation outputs could benefit from similar techniques. We present an approach that integrates Implicit Function Theorem (IFT) based sensitivity analysis with SHAP attribution and narrative generation via Large Language Models (LLM), producing explanations tailored for operators. Our approach leverages IFT to compute exact parameter sensitivities $\\partial p^*/\\partial x$ from the optimality conditions, enabling efficient GradientSHAP computation. For an industrial High Pressure Grinding Roll (HPGR) control optimisation problem with 22 features, we achieve equivalent SHAP attributions (correlation $>$0.99 with KernelSHAP) with over 40$\\times$ speedup, enabling real-time natural language explanations. We validate on industrial scenarios and present feedback from domain experts on generated explanations.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.14556": {
+            "title": "Impact of Expert-Following Strategies in Financial Asset Recommendation",
+            "authors": "Ryuki Unno, Koshi Watanabe, Keigo Sakurai, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
+            "first_author": "Ryuki Unno",
+            "url": "http://arxiv.org/abs/2607.14556v1",
+            "pdf_url": "http://arxiv.org/abs/2607.14556",
+            "publish_date": "2026-07-16",
+            "abstract": "Financial institutions hold rich transaction histories, yet delivering recommendations that simultaneously maximize investment returns and ensure preference alignment remains a significant challenge. Existing approaches, namely return-based and preference-based strategies, each optimize a single objective, resulting in a fundamental trade-off between profitability (ROI) and relevance (nDCG). In this paper, we propose the Expert-Following Strategies: a framework that identifies top-performing investors based on their historical ROI and recommends the assets they purchased, scored by ROI-weighted purchase frequency. Our experiments using real-world transaction histories show that our strategy achieves statistically significant improvement over the market-average baseline in both ROI and nDCG simultaneously across all four thresholds.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.14368": {
+            "title": "Black-Hole Spin Measurements from X-ray Reflection Spectroscopy: Quality Criteria and Community Recommendations",
+            "authors": "Javier A. Garcia, Riley Connors, Laura W. Brenneman, James F. Steiner",
+            "first_author": "Javier A. Garcia",
+            "url": "http://arxiv.org/abs/2607.14368v1",
+            "pdf_url": "http://arxiv.org/abs/2607.14368",
+            "publish_date": "2026-07-15",
+            "abstract": "X-ray reflection spectroscopy provides one of the most powerful electromagnetic methods for measuring the dimensionless spin of accreting black holes. It has yielded spin constraints for stellar-mass black holes in X-ray binaries and supermassive black holes in active galactic nuclei, and is central to the science goals of current and future X-ray observatories. However, the technique is subject to observational and modeling systematics, including continuum-reflection degeneracy, limited spectral coverage, unresolved distant reflection or absorption, detector effects, source variability, accretion-state dependence, and assumptions inherent to reflection models. Motivated by discussions at the 2025 Wake Forest workshop *Recent Progress on Black Hole Spin Measurements Across the Electromagnetic and Gravitational Spectra*, we propose a practical framework for evaluating whether published reflection-based spin measurements should be considered robust, provisional, or not assessable from the available information. The framework is built on three principles: **detectability**, requiring an unambiguous relativistic reflection signal; **uniqueness**, requiring that the relativistic component be distinguishable from the continuum, distant reflection, absorption, and instrumental effects; and **robustness**, requiring that the inferred spin remain stable against reasonable changes in model assumptions, data selection, and accretion-state treatment. We translate these principles into assessment criteria, a quality-classification scheme, and a reporting checklist for future studies. Calibration of these criteria through dedicated simulations is outlined here and deferred to a companion paper. Our goal is to establish a reproducible path toward a community-maintained compilation of reliable black hole spin measurements for the high-throughput, high-resolution era of X-ray astronomy.",
+            "primary_category": "astro-ph.HE",
+            "code_url": "null"
         }
     }
 }
