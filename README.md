@@ -1,4 +1,4 @@
-## Updated on 2026-07-18
+## Updated on 2026-07-20
 
 ---
 
@@ -26,6 +26,9 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-17` | **RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation** | Ziyi Zhao, Xiaoyou Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15730) |
+| `2026-07-17` | **From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching** | Andrea Forster, Gregor Autischer, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15707) |
+| `2026-07-17` | **Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations** | Hyeon Jeon, Sungbok Shin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15608) |
 | `2026-07-16` | **Mutable Low-Rank Sketches for Retrain-Free Recommendation** | Hector J. Garcia, Nick Clayton | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15242) |
 | `2026-07-16` | **Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation** | Paul Darm, Cem Alpturk, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.14970) |
 | `2026-07-16` | **Impact of Expert-Following Strategies in Financial Asset Recommendation** | Ryuki Unno, Koshi Watanabe, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.14556) |
