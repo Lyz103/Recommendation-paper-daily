@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-20
+## Updated on 2026-07-21
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-20` | **SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation** | Hanchen Yang, Kaiwen Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17719) |
+| `2026-07-20` | **RAMP: Robust Ad Recommendation Under Limited Personalized-Feature Availability via Masking and Alignment Pathways** | Dairui Liu, Zhongyi Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17473) |
+| `2026-07-20` | **HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matthew Effect in Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17461) |
+| `2026-07-19` | **Learning Sparse Representations of Multimodal Content for Enhanced Cold Item Recommendation** | Gregor Meehan, Johan Pauwels | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17184) |
+| `2026-07-19` | **WHALE: A Scalable Unified Model for Recommendation with Wukong-HSTU Architecture** | Renqin Cai, Dawei Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17017) |
+| `2026-07-18` | **Beyond Fixed Depths and Widths: Optimizing Textual Decoding Tries in LLM-based Generative Recommendation** | Jingzhe Liu, Hanbing Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.16633) |
 | `2026-07-17` | **RECAP: Feedback-Driven Streaming Semantic User Profiles for Short-Video Recommendation** | Ziyi Zhao, Xiaoyou Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15730) |
 | `2026-07-17` | **From Skill Extraction to Multistakeholder Recommendation: A Two-Stage Framework for Bias Governance in Skills-Based Job Matching** | Andrea Forster, Gregor Autischer, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15707) |
 | `2026-07-17` | **Visualization Autocomplete: Visualization Authoring via Stepwise Design Recommendations** | Hyeon Jeon, Sungbok Shin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.15608) |
