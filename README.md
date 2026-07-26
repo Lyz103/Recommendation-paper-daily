@@ -1,4 +1,4 @@
-## Updated on 2026-07-21
+## Updated on 2026-07-26
 
 ---
 
@@ -26,7 +26,18 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
-| `2026-07-20` | **SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation** | Hanchen Yang, Kaiwen Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17719) |
+| `2026-07-23` | **Diffusion Language Model for Recommendation** | Chengyi Liu, Yongqi Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21519) |
+| `2026-07-23` | **Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation** | Jie Peng, Yanping Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21101) |
+| `2026-07-23` | **Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation** | Junchao Zeng, Junzhang Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21028) |
+| `2026-07-23` | **Controllable and Content-Based Recommendations** | Fırat Öncel, Jihoon Jeong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.20938) |
+| `2026-07-23` | **LO-FAR: A Cost-Aware Local Filter for Sparse Feature Ranking in Industrial Ad Recommendation** | Egemen Erbayat, Luis Duque, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.20873) |
+| `2026-07-23` | **Probabilistic Residual Learning for Online Recommendations** | Wenyuan Wang, Yusong Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.20863) |
+| `2026-07-22` | **Cardinality-Decomposed Loss: Matching Training Objectives to Relation Structure in Heterogeneous Recommendation Graphs** | Parul Maheshwari, Amulya Paruchuri, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.20737) |
+| `2026-07-22` | **Personalized Recommendation Tool Learning via Autonomous Language Agents** | Mingdai Yang, Zhiwei Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.19739) |
+| `2026-07-21` | **Beyond Noisy Signals: Dual-Level Denoising for Multi-modal Sequential Recommendation** | Jie Luo, Qi Jin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.18786) |
+| `2026-07-21` | **Mitigating Matthew Effect: Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.18609) |
+| `2026-07-21` | **Topology-Aware Tokenization for Generative Recommendation** | Yaokun Liu, Yifan Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.18600) |
+| `2026-07-20` | **SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation** | Hanchen Yang, Kaiwen Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17719) |
 | `2026-07-20` | **RAMP: Robust Ad Recommendation Under Limited Personalized-Feature Availability via Masking and Alignment Pathways** | Dairui Liu, Zhongyi Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17473) |
 | `2026-07-20` | **HyCoRec: Hypergraph-Enhanced Multi-Preference Learning for Alleviating Matthew Effect in Conversational Recommendation** | Yongsen Zheng, Ruilin Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17461) |
 | `2026-07-19` | **Learning Sparse Representations of Multimodal Content for Enhanced Cold Item Recommendation** | Gregor Meehan, Johan Pauwels | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.17184) |

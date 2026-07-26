@@ -16380,13 +16380,13 @@
             "code_url": "null"
         },
         "2607.17719": {
-            "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategies Refinement in E-Commerce Recommendation",
+            "title": "SR-Agent: An Experience-Driven Agentic Framework for Post-Ranking Strategy Refinement in E-Commerce Recommendation",
             "authors": "Hanchen Yang, Kaiwen Yang, Junpeng Zhuang, Yang He, Keting Cen, Bochao Liu, Zhongbo Sun, An Liu, Zhongteng Han, Chenyi Lei",
             "first_author": "Hanchen Yang",
-            "url": "http://arxiv.org/abs/2607.17719v1",
+            "url": "http://arxiv.org/abs/2607.17719v2",
             "pdf_url": "http://arxiv.org/abs/2607.17719",
             "publish_date": "2026-07-20",
-            "abstract": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in industrial RS for their simplicity and low serving cost. However, as the online recommendation environment evolves continuously, these statically configured strategies gradually become stale, degrading the user experience. Refining them typically relies on manual inspection, diagnosis, and updates, a process that is slow, costly, and hard to reuse. Although recent LLM-based agents (e.g., RecUserSim, SimUSER, and Self-EvolveRec) offer promising directions, none of them close the full loop of automated, self-evolving strategy refinement. To bridge this gap, we introduce SR-Agent, a Strategy Refinement agentic framework that, to the best of our knowledge, is the first deployed for refining post-ranking strategies in industrial RS. SR-Agent unifies three components: (i) a UserSim agent that applies staged inspection skills to surface user-perceived bad cases; (ii) an Analysis agent that consolidates recurring bad cases into structured, reusable diagnoses; and (iii) a constrained Strategy Refinement Harness that maps diagnoses to typed and bounded actions, gated by a four-stage reward pipeline with reversible rollback. Deployed on the Kuaishou e-commerce platform, SR-Agent continuously runs this refinement loop and, in a one-month online A/B test, increases order volume by 0.71%, browsing depth by 0.34%, and clicked-category diversity by 0.48%, while markedly shortening the refinement cycle and lowering operational cost.",
+            "abstract": "User experience is a first-class objective in industrial e-commerce recommender systems (RS). Post-ranking strategies, which govern diversity, similarity, and exposure over a ranked list, are widely deployed in industrial RS for their simplicity and low serving cost. However, as the online recommendation environment evolves continuously, these statically configured strategies gradually become stale, thereby degrading the user experience. Refining them typically relies on manual inspection, diagnosis, and updates, making it slow, costly, and difficult to scale or reuse. Although recent LLM-based agents (e.g., RecUserSim, SimUSER, and Self-EvolveRec) offer promising directions, none of them close the full loop of automated, self-evolving strategy refinement. To bridge this gap, we introduce SR-Agent, which, to the best of our knowledge, is the first agentic framework deployed to refine post-ranking strategies in industrial RS. SR-Agent unifies three components: (i) a UserSim agent that applies inspection skills to surface user-perceived bad cases; (ii) an Analysis agent that consolidates recurring bad cases into structured, reusable diagnoses; and (iii) a constrained Strategy Refinement Harness that maps diagnoses to typed and bounded actions, gated by a four-stage reward pipeline with reversible rollback. Deployed on the Kuaishou e-commerce platform, SR-Agent continuously runs this refinement loop and, in a one-month online A/B test, increases order volume by 0.71%, browsing depth by 0.34%, and clicked-category diversity by 0.48%, while markedly shortening the refinement cycle and lowering operational cost.",
             "primary_category": "cs.AI",
             "code_url": "null"
         },
@@ -16442,6 +16442,127 @@
             "pdf_url": "http://arxiv.org/abs/2607.16633",
             "publish_date": "2026-07-18",
             "abstract": "Generative recommendation (GR) is an increasingly popular paradigm in recommender systems, with a prominent line of work using LLMs as autoregressive backbones to predict the next item's term IDs (e.g., titles or keywords). The success of autoregressive generation hinges on constrained beam search over a decoding trie to ensure that generated outputs correspond to valid items. However, current research predominantly focuses on generating more comprehensive term IDs to describe items, while largely neglecting the structural design of the decoding trie formed by these terms. This can lead to a trie that is poorly suited to beam search, which degrades performance. To address this, we examine the effectiveness of term IDs from the perspective of decoding trie optimization. Through empirical and theoretical analyses, we identify two desirable properties for a highly performant trie: (1) adaptive and variable ID length, enabling items with varying semantic richness to be represented by IDs of appropriate lengths, and (2) constrained branching factors, especially at shallow levels, which drastically improves the success rate of constrained beam search. Motivated by these properties, we introduce BONSAI: Branching-Optimized Node Structure for Adaptive Identifiers, a novel framework that co-designs textual term IDs and their underlying decoding trie. BONSAI extracts recommendation-informative words from item metadata and employs a minimum set cover formulation to recursively build a trie that satisfies the above properties. Experiments reveal that BONSAI achieves up to a 21.6% relative improvement over state-of-the-art baselines. Further analyses confirm the crucial role of our proposed properties, and demonstrate their generalizability to be applied to enhance the performance of other term ID methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.21519": {
+            "title": "Diffusion Language Model for Recommendation",
+            "authors": "Chengyi Liu, Yongqi Zhou, Junwei Pan, Zhixiang Feng, Chengguo Yin, Haijie Gu, Jie Jiang, Yinghao Liu, Yujuan Ding, Qing Li, Wenqi Fan",
+            "first_author": "Chengyi Liu",
+            "url": "http://arxiv.org/abs/2607.21519v1",
+            "pdf_url": "http://arxiv.org/abs/2607.21519",
+            "publish_date": "2026-07-23",
+            "abstract": "Large language model (LLM)-empowered recommender systems have emerged as a promising paradigm for generative recommendation, leveraging their strong semantic reasoning and generative capacity to model complex, diverse user preferences. However, most existing approaches rely on an autoregressive paradigm that is suboptimal for recommendation. The next-token objective emphasizes sequential order rather than the structural inter-item dependencies underlying user preferences. In addition, prefix-constrained generation restricts bidirectional context and commits to left-to-right decoding, causing early errors to accumulate without correction. Inspired by the success of diffusion language models, we propose \\textbf{DLMRec}, a discrete diffusion language model tailored for recommendation that offers a compelling alternative to autoregressive generation. Specifically, DLMRec introduces three key components to bridge diffusion language modeling with recommendation. First, a collaborative-aware stochastic tokenizer encodes multi-hop collaborative signals into expressive discrete tokens compatible with diffusion modeling. Second, a curriculum-driven training strategy aligns the denoising process with preference recovery through progressive item- and token-level learning. Third, a stability-aware voting mechanism aggregates iterative predictions to improve generation consistency and robustness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.21101": {
+            "title": "Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation",
+            "authors": "Jie Peng, Yanping Zheng, Zhewei Zhe, Bin Tong, Guan Wang, Bo Zheng",
+            "first_author": "Jie Peng",
+            "url": "http://arxiv.org/abs/2607.21101v1",
+            "pdf_url": "http://arxiv.org/abs/2607.21101",
+            "publish_date": "2026-07-23",
+            "abstract": "Semantic-ID-based generative recommendation represents items as sequences of shared semantic tokens, enabling token recombination beyond isolated item IDs. However, closed-world recombination does not necessarily imply temporal open-token cold-start induction, where new items enter the item catalog with unseen atomic tokens or weakly supported SID paths. In this work, we revisit SID-based generative recommendation under an absolute-time temporal protocol that separates seen and unseen targets and diagnoses the cold item reachability at the token level. Through seen/unseen-hit analysis, coldness taxonomy, and oracle-prefix probing, we show that current SID-based models can occasionally reach future items supported by observed tokens and prefixes, but struggle with unseen atomic tokens and unsupported SID paths. We further explain this boundary by interpreting SID generation as hierarchical semantic bucketing: early tokens select coarse semantic regions, while later tokens refine item-specific paths. These findings show that SID generation is compositional but not fully open-ended, and suggest future directions in more independent SID spaces, scoring-based interfaces, and dynamic textual context.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.21028": {
+            "title": "Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation",
+            "authors": "Junchao Zeng, Junzhang Zhu, Junyang Chen, Yudong Li, Wei Liu, Chengxiang Zhuo, Zang Li",
+            "first_author": "Junchao Zeng",
+            "url": "http://arxiv.org/abs/2607.21028v1",
+            "pdf_url": "http://arxiv.org/abs/2607.21028",
+            "publish_date": "2026-07-23",
+            "abstract": "Generative Recommendation (GR) has emerged as a new paradigm for sequential recommendation, in which a representative line of work encodes items into hierarchical semantic IDs via residual quantization and predicts the IDs token by token. However, this generative formulation still exhibits structural gaps with respect to the recommendation task: flattening multi-token IDs into a single sequence destroys item-level structure, and the inconsistency between training and inference over a hierarchical codebook gives rise to semantic drift. To bridge these two gaps, we propose BARGE, which employs Item Context-Aware Attention (ICA) to restore item-level structure during encoding, and Hierarchical Path Reranking (HPR) together with Dual-Path Decoding (DPD) to suppress semantic drift from two complementary angles during decoding. Extensive experiments and analytical studies on public benchmarks and a large-scale offline test demonstrate that BARGE achieves superior recommendation performance. An online A/B test on a Tencent platform yields improvements of 0.60% in click-through rate, 1.34% in click unique visitors, and 1.70% in total reading time, confirming the practical value of BARGE in industrial-scale recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20938": {
+            "title": "Controllable and Content-Based Recommendations",
+            "authors": "F\u0131rat \u00d6ncel, Jihoon Jeong, Emiliano Penaloza, Mirco Ravanelli, Laurent Charlin, Cem Subakan",
+            "first_author": "F\u0131rat \u00d6ncel",
+            "url": "http://arxiv.org/abs/2607.20938v1",
+            "pdf_url": "http://arxiv.org/abs/2607.20938",
+            "publish_date": "2026-07-23",
+            "abstract": "Traditional recommendation systems rely on latent (dense) representations, making them difficult to interpret and control. We propose the Controllable and Content-Based Recommendations (CCBR) framework, which builds its recommendations from textual user profile representations. CCBR plugs into collaborative filtering models and introduces controllability via text bottlenecks. We show that CCBR enables text-based and multimodal interventions, allowing users to steer the model towards the directions they prefer. Different from existing controllable recommendation systems, CCBR infers the text summaries directly from item contents (images, audio or video). Across image-, audio-, and video-based datasets, we demonstrate that the proposed framework obtains competitive model performance with standard (latent-representation) models while providing controllable model summaries via text. The model also outperforms TEARS, a recent baseline for controllable recommendation systems. Through systematic interventions, we demonstrate the efficacy of the user steering mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20873": {
+            "title": "LO-FAR: A Cost-Aware Local Filter for Sparse Feature Ranking in Industrial Ad Recommendation",
+            "authors": "Egemen Erbayat, Luis Duque, Sohini Roychowdhury, Mohammad Amin, Srihari Reddy",
+            "first_author": "Egemen Erbayat",
+            "url": "http://arxiv.org/abs/2607.20873v1",
+            "pdf_url": "http://arxiv.org/abs/2607.20873",
+            "publish_date": "2026-07-23",
+            "abstract": "Industrial ad recommendation models rely heavily on sparse, high-cardinality ID-list features that encode user histories and contextual identifiers. Each is backed by a dedicated embedding table, so these features dominate storage, training, and serving cost and must be revisited as traffic and downstream models evolve. Therefore, sparse feature ranking is not just an offline modeling problem but also a recurrent systems decision limited by compute budgets and iteration cadence. We present Localized Feature Ranking (LO-FAR), a CPU-only, model-agnostic workflow that ranks each candidate feature from its stand-alone held-out predictive signal using lightweight local estimators rather than the GPU-bound retraining loops of permutation- and stochastic-gate-based methods. On a production dataset of more than one million logged interactions and 475 sparse ID-list features, LO-FAR completes ranking in approximately two CPU-hours and preserves downstream Normalized Entropy gains on CTR and CVR tasks that are competitive with shuffle-based importance, Binary Stochastic Neurons, and a coverage-based heuristic across budgets of 100--400 retained features. The contribution is a deployable workflow showing that, when cost and turnaround constraints are binding, a simple local filter can be a practical production choice over heavier interaction-aware alternatives.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20863": {
+            "title": "Probabilistic Residual Learning for Online Recommendations",
+            "authors": "Wenyuan Wang, Yusong Zhao, Zihao Xu, Hengyi Wang, Qi Xu, Zhigang Hua, Yan Xie, Yi Wang, Zihao Zhao, Bo Long, Chengzhi Mao, Shuang Yang, Hengguan Huang, Hao Wang",
+            "first_author": "Wenyuan Wang",
+            "url": "http://arxiv.org/abs/2607.20863v1",
+            "pdf_url": "http://arxiv.org/abs/2607.20863",
+            "publish_date": "2026-07-23",
+            "abstract": "Modern recommender systems are typically based on deep learning (DL) models, where a dense encoder learns representations of users and items. As a result, these systems often suffer from the black-box nature and computational complexity of the underlying models, making it difficult to systematically enhance their recommendation capabilities. To address this problem, we propose Probabilistic Residual Learning (PRL), a causal Bayesian recommendation model that models the residual between ground-truth and base predictions, enabling targeted refinement of existing systems. Specifically, PRL (1) probabilistically groups users for localized residual modeling, (2) models domain-level confounders that influence user and item representations, and (3) aggregates cluster-specific residual predictions over the confounders using do-calculus. Experiments demonstrate that our plug-and-play PRL is compatible with various base deep learning recommender systems, improving their performance while automatically discovering meaningful user clusters.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.20737": {
+            "title": "Cardinality-Decomposed Loss: Matching Training Objectives to Relation Structure in Heterogeneous Recommendation Graphs",
+            "authors": "Parul Maheshwari, Amulya Paruchuri, Yiqing Zou, Alireza Sahami Shirazi, Farhad Farahani, Prakhar Mehrotra",
+            "first_author": "Parul Maheshwari",
+            "url": "http://arxiv.org/abs/2607.20737v1",
+            "pdf_url": "http://arxiv.org/abs/2607.20737",
+            "publish_date": "2026-07-22",
+            "abstract": "Graph Neural Networks trained on heterogenous bipartite graphs form a common basis in recommendation systems. These graphs often express relations that vary in cardinality, for example, user-item preferences are one-to-many and user-attribute features are one-to-one. Traditionally, a unique loss function is applied for all of the network components which is often Bayesian Personalized Ranking (BPR). While BPR works well for the recommendation task, we find that it causes attribute embeddings to collapse to near-random geometry -- a silent failure that leaves standard ranking metrics largely unaffected and therefore invisible to conventional evaluation. This in turn pollutes user node embeddings, which are shaped by both edge types simultaneously, hurting downstream tasks like personalization, segmentation, etc. Here we propose a Cardinality-Decomposed Loss (CDL) that combines both Cross Entropy (CE) and BPR to enable the model to collectively optimize for relations across cardinalities. We confirm this CE-BPR conflict by showing the two losses compete in the shared encoder's parameter space. We evaluate CDL on five datasets spanning two structural configurations -- one-to-one attributes on user nodes (MovieLens-1M, Last.fm-360K, PayPal Audience Factory, BookCrossing) and on item nodes (Yelp) -- and find that CDL consistently improves discriminability in attribute embeddings. We also show that ranking (NDCG) improves when attributes carry meaningful preference signal, but conflicts with it when the correlation is weak. We use a lambda parameter to navigate this trade-off, and a lambda-sweep reveals that dataset behavior is governed by two graph properties -- semantic alignment and topology leakage. Semantic alignment measures whether the attribute predicts preferences, while topology leakage measures whether the graph's connectivity already encodes it.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2607.19739": {
+            "title": "Personalized Recommendation Tool Learning via Autonomous Language Agents",
+            "authors": "Mingdai Yang, Zhiwei Liu, Weizhi Zhang, Yibo Wang, Hao Peng, Philip Yu",
+            "first_author": "Mingdai Yang",
+            "url": "http://arxiv.org/abs/2607.19739v1",
+            "pdf_url": "http://arxiv.org/abs/2607.19739",
+            "publish_date": "2026-07-22",
+            "abstract": "Although large language models (LLMs) have recently gained traction in recommender systems due to their strong reasoning capabilities and extensive world knowledge, previous LLM-based agents suffer from hallucination and context-length limitations, and thus are not suitable for full-ranking recommendation tasks. To circumvent these limitations through architectural design rather than modifying the LLM itself, we propose an agent-based recommendation framework, memory-based $\\textbf{P}$ersonalized $\\textbf{R}$ecommendation $\\textbf{T}$ool learning via autonomous language $\\textbf{A}$gents (PRTA), in which an LLM acts as a central planner interacting with multiple recommendation models as tools. The LLM-based agent is responsible for high-level reasoning and personalized tool selection, while traditional recommendation models perform full-ranking scoring, leveraging their scalability in modeling behavioral patterns. To support personalized tool selection, we design reflection mechanisms that enable the agent to evaluate and compare tools for each user based on user profiles and candidate ranked lists. Extensive experiments across three public datasets demonstrate the superiority of \\modelname over traditional recommendation and LLM-based baselines in improving full-ranking recommendation performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.18786": {
+            "title": "Beyond Noisy Signals: Dual-Level Denoising for Multi-modal Sequential Recommendation",
+            "authors": "Jie Luo, Qi Jin, Xinming Zhang",
+            "first_author": "Jie Luo",
+            "url": "http://arxiv.org/abs/2607.18786v1",
+            "pdf_url": "http://arxiv.org/abs/2607.18786",
+            "publish_date": "2026-07-21",
+            "abstract": "Multi-modal Sequential Recommendation (SR) incorporates rich side information (e.g., textual and visual features) to enhance dynamic user preference modeling. However, existing frameworks inevitably suffer from a \\textbf{Dual-Noise Dilemma}: (1) \\textit{Feature-level redundancy} stemming from the semantic gap between generic pre-trained representations and fine-grained recommendation intent; and (2) \\textit{Sequence-level stochasticity} induced by spurious interactions such as accidental clicks. To break this bottleneck, we propose \\textbf{DDMSR}, a novel \\textbf{D}ual-level \\textbf{D}enoising \\textbf{M}ulti-modal \\textbf{S}equential \\textbf{R}ecommendation framework that systematically purifies signals from both feature-topological and sequence-frequency perspectives. Specifically, we first design a graph-based feature denoising module that leverages Laplacian smoothing on item semantic graphs as a structural low-pass filter, effectively suppressing high-frequency semantic noise while preserving salient features. For sequence purification, we introduce a frequency-domain sequence denoising module, utilizing the Fast Fourier Transform and a learnable frequency filter to adaptively modulate the interaction spectrum and attenuate anomalous signals. Furthermore, a multi-modal contrastive alignment objective is incorporated to bridge the heterogeneity gap and enforce cross-modal semantic consistency. Extensive experiments on four public benchmark datasets demonstrate that DDMSR consistently outperforms state-of-the-art baselines, providing a highly robust and efficient solution for multi-modal sequential recommendation. The source code is available at: ~\\href{https://github.com/jluo00/DDMSR}{\\textcolor{blue}{https://github.com/jluo00/DDMSR}}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.18609": {
+            "title": "Mitigating Matthew Effect: Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation",
+            "authors": "Yongsen Zheng, Ruilin Xu, Guohua Wang, Liang Lin, Kwok-Yan Lam",
+            "first_author": "Yongsen Zheng",
+            "url": "http://arxiv.org/abs/2607.18609v1",
+            "pdf_url": "http://arxiv.org/abs/2607.18609",
+            "publish_date": "2026-07-21",
+            "abstract": "The Matthew effect is a big challenge in Recommender Systems (RSs), where popular items tend to receive increasing attention, while less popular ones are often overlooked, perpetuating existing disparities. Although many existing methods attempt to mitigate Matthew effect in the static or quasi-static recommendation scenarios, such issue will be more pronounced as users engage with the system over time. To this end, we propose a novel framework, Multi-Hypergraph Boosted Multi-Interest Self-Supervised Learning for Conversational Recommendation (HiCore), aiming to address Matthew effect in the Conversational Recommender System (CRS) involving the dynamic user-system feedback loop. It devotes to learn multi-level user interests by building a set of hypergraphs (i.e., item-, entity-, word-oriented multiple-channel hypergraphs) to alleviate the Matthew effec. Extensive experiments on four CRS-based datasets showcase that HiCore attains a new state-of-the-art performance, underscoring its superiority in mitigating the Matthew effect effectively. Our code is available at https://github.com/zysensmile/HiCore.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.18600": {
+            "title": "Topology-Aware Tokenization for Generative Recommendation",
+            "authors": "Yaokun Liu, Yifan Liu, Zhenrui Yue, Gyuseok Lee, Zelin Li, Ruichen Yao, Dong Wang",
+            "first_author": "Yaokun Liu",
+            "url": "http://arxiv.org/abs/2607.18600v1",
+            "pdf_url": "http://arxiv.org/abs/2607.18600",
+            "publish_date": "2026-07-21",
+            "abstract": "Generative recommendation reformulates sequential recommendation as an autoregressive generation task, yet a critical issue in this paradigm remains overlooked: topology distortion in item tokenization. In particular, we observe that the intrinsic adjacency relationships of items in the pretrained semantic embedding space are significantly disrupted after quantization. This topology distortion misleads the model's perception of item similarity, ultimately bottlenecking the accuracy of generative recommendations. To address this issue, we propose Topology-Aware Tokenization (TopoTok), an item tokenization framework that preserves item relational structure throughout the quantization hierarchy. Different from the prior monolithic supervision in tokenization, TopoTok introduces a multi-level distillation scheme to progressively recover the topology from coarse to fine granularity: 1) Inter-Group Distillation to capture global cluster-wise relations; 2) Intra-Group Distillation to refine local structures within semantic clusters; and 3) Inter-Item Distillation to enforce fine-grained alignment at the individual item level. Extensive experiments on three benchmark datasets demonstrate that TopoTok effectively alleviates topology distortion and consistently outperforms state-of-the-art tokenizers, achieving significant performance gains of up to 9.42% in Recall@5.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
