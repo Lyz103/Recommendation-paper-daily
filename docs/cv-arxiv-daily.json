@@ -16471,7 +16471,7 @@
             "title": "Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation",
             "authors": "Junchao Zeng, Junzhang Zhu, Junyang Chen, Yudong Li, Wei Liu, Chengxiang Zhuo, Zang Li",
             "first_author": "Junchao Zeng",
-            "url": "http://arxiv.org/abs/2607.21028v1",
+            "url": "http://arxiv.org/abs/2607.21028v2",
             "pdf_url": "http://arxiv.org/abs/2607.21028",
             "publish_date": "2026-07-23",
             "abstract": "Generative Recommendation (GR) has emerged as a new paradigm for sequential recommendation, in which a representative line of work encodes items into hierarchical semantic IDs via residual quantization and predicts the IDs token by token. However, this generative formulation still exhibits structural gaps with respect to the recommendation task: flattening multi-token IDs into a single sequence destroys item-level structure, and the inconsistency between training and inference over a hierarchical codebook gives rise to semantic drift. To bridge these two gaps, we propose BARGE, which employs Item Context-Aware Attention (ICA) to restore item-level structure during encoding, and Hierarchical Path Reranking (HPR) together with Dual-Path Decoding (DPD) to suppress semantic drift from two complementary angles during decoding. Extensive experiments and analytical studies on public benchmarks and a large-scale offline test demonstrate that BARGE achieves superior recommendation performance. An online A/B test on a Tencent platform yields improvements of 0.60% in click-through rate, 1.34% in click unique visitors, and 1.70% in total reading time, confirming the practical value of BARGE in industrial-scale recommendation.",
@@ -16564,6 +16564,28 @@
             "publish_date": "2026-07-21",
             "abstract": "Generative recommendation reformulates sequential recommendation as an autoregressive generation task, yet a critical issue in this paradigm remains overlooked: topology distortion in item tokenization. In particular, we observe that the intrinsic adjacency relationships of items in the pretrained semantic embedding space are significantly disrupted after quantization. This topology distortion misleads the model's perception of item similarity, ultimately bottlenecking the accuracy of generative recommendations. To address this issue, we propose Topology-Aware Tokenization (TopoTok), an item tokenization framework that preserves item relational structure throughout the quantization hierarchy. Different from the prior monolithic supervision in tokenization, TopoTok introduces a multi-level distillation scheme to progressively recover the topology from coarse to fine granularity: 1) Inter-Group Distillation to capture global cluster-wise relations; 2) Intra-Group Distillation to refine local structures within semantic clusters; and 3) Inter-Item Distillation to enforce fine-grained alignment at the individual item level. Extensive experiments on three benchmark datasets demonstrate that TopoTok effectively alleviates topology distortion and consistently outperforms state-of-the-art tokenizers, achieving significant performance gains of up to 9.42% in Recall@5.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.22341": {
+            "title": "Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization",
+            "authors": "Yibowen Zhao, Yinan Zhang, Ning Liu, Lizhen Cui, Chunyan Miao",
+            "first_author": "Yibowen Zhao",
+            "url": "http://arxiv.org/abs/2607.22341v1",
+            "pdf_url": "http://arxiv.org/abs/2607.22341",
+            "publish_date": "2026-07-24",
+            "abstract": "Growing concern about environmental sustainability (e.g., reducing carbon emissions and resource use) and public health has motivated ``green'' recommender systems that steer users toward more eco-friendly and healthier choices. However, many existing green recommendation approaches require training new models from scratch, incurring substantial computational and energy costs. Reranking-based methods, meanwhile, introduce an additional sorting stage at inference, increasing latency and computational cost. In this work, we propose GRACE (Green Recommendation via Adaptive Conflict-rEsolution), a fine-tuning framework that integrates item-level sustainability signals (e.g., eco-scores or health indices) into pretrained recommendation models. Since these green values are usually discrete and non-differentiable, existing methods often rely on pairwise comparisons to promote greener items. GRACE instead introduces a differentiable approximation that enables direct optimization of the green criterion. To balance sustainability and personalization quality, GRACE further employs a gradient projection mechanism to mitigate conflicts between the green objective and the accuracy objective during fine-tuning. Experiments on real-world datasets demonstrate that GRACE improves sustainability-oriented recommendation outcomes while generally preserving recommendation accuracy through a controllable preference-anchored update mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.22287": {
+            "title": "Efficient Recommendations via Graph Coarsening and Label Propagation",
+            "authors": "Alessandro Sbandi, Federico Siciliano, Fabrizio Silvestri",
+            "first_author": "Alessandro Sbandi",
+            "url": "http://arxiv.org/abs/2607.22287v1",
+            "pdf_url": "http://arxiv.org/abs/2607.22287",
+            "publish_date": "2026-07-24",
+            "abstract": "Graph-based recommendations are widely adopted in real-world industrial applications. However, graphs in these systems often reach a massive scale, posing notable scalability and efficiency challenges. This requires techniques that can effectively balance predictive quality with computational cost. One promising approach is graph coarsening, an adaptive graph reduction technique that offers a way to systematically construct smaller, yet structurally representative, versions of the original large-scale graphs.   In this work, we propose a flexible two-stage diffusion framework that combines graph coarsening with multi-step label propagation in the telecommunications domain. Domain-specific heuristics are applied to first aggregate nodes into meaningful communities, reducing graph size while preserving essential business-relevant relationships. An initial diffusion process done by a Label Propagation Algorithm (LPA) or a Graph Neural Network (GNN) propagates labels across the coarsened graph to produce coarse-grained predictions. Finally, a second LPA within subgraphs generates the final recommendations for individual users.   On a real-world telecommunications dataset, when using LPA in both stages, our method achieves up to +24% NDCG@5 over the full-graph LPA baseline. Incorporating a lightweight GNN in the first stage further boosts NDCG@5 by more than 50%, but requires substantial training and inference time. Through extensive experiments and a detailed ablation, we quantify these trade-offs and demonstrate that our coarsening-driven approach delivers an optimal balance between scalability, latency, and recommendation quality.",
+            "primary_category": "cs.LG",
             "code_url": "null"
         }
     }

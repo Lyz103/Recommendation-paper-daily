@@ -1,4 +1,4 @@
-## Updated on 2026-07-26
+## Updated on 2026-07-27
 
 ---
 
@@ -26,6 +26,8 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-24` | **Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization** | Yibowen Zhao, Yinan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.22341) |
+| `2026-07-24` | **Efficient Recommendations via Graph Coarsening and Label Propagation** | Alessandro Sbandi, Federico Siciliano, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.22287) |
 | `2026-07-23` | **Diffusion Language Model for Recommendation** | Chengyi Liu, Yongqi Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21519) |
 | `2026-07-23` | **Can Generative Recommendation Reach Cold Items? A Temporal Perspective on Semantic-ID Generation** | Jie Peng, Yanping Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21101) |
 | `2026-07-23` | **Bridging the Structural Gap: Adapting Autoregressive Generation for Recommendation** | Junchao Zeng, Junzhang Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21028) |
