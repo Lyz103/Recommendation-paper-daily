@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-27
+## Updated on 2026-07-28
 
 ---
 
@@ -23,6 +23,20 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-27` | **LaRec: Unleashing LLM-based Latent Reasoning for Generative Recommendation** | Yu Xia, Zihan Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24617) |
+| `2026-07-27` | **One Graph, Multiple Gains: Single High-Quality Item-Item Graph for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24607) |
+| `2026-07-27` | **CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation** | Xiang Liu, Jingsong Su, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24402) |
+| `2026-07-27` | **OxygenREC-v2: Internalizing Discrimination into Generative Recommendation** | Guo Tang, Hanye Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24255) |
+| `2026-07-27` | **Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation** | Yuntong Chen, Yingqi Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24213) |
+| `2026-07-27` | **ConAlign: Conditional Alignment Framework for Balancing Biased and Unbiased Recommendation** | Jingcheng Zhang, Yihan Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24092) |
+| `2026-07-27` | **SpecFormer: Mitigating Embedding and Attention Collapse via Spectral-Aware Transformer for Recommendation** | Yu Cui, Yi Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24025) |
+| `2026-07-27` | **Mosaic: A Fleet of User Embedding Specialists for Recommendation at Meta** | John Zhiyuan Zheng, Xian Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24015) |
+| `2026-07-27` | **MEMOIR: Temporal Behavioral Memory for Recommendation Across the Preference-Drift Spectrum** | Younggue Bae | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.23986) |
+| `2026-07-26` | **Escaping the Euclidean Void: Manifold-Informed Flow Matching for Sequential Recommendation** | Dengzhao Fang, Jingtong Gao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.23762) |
+| `2026-07-26` | **Melo: A Production LLM-Powered Music Recommendation Agent** | Shijia Wang, Da Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.23718) |
+| `2026-07-26` | **CALMRec: Causally Aligned Language Memory for Long-Horizon Recommendation** | Gengyu Zhan | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.23647) |
+| `2026-07-25` | **A scalable online machine learning approach for Stock Recommendation** | Harsh Nagarkar | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.23120) |
+| `2026-07-24` | **Reflections and Recommendations on AI Adoption Practice from a Mixed-Ability Research Group** | Shalini Madan, Sreelakshmi Surabiyil Bindu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.22886) |
 | `2026-07-24` | **Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization** | Yibowen Zhao, Yinan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.22341) |
 | `2026-07-24` | **Efficient Recommendations via Graph Coarsening and Label Propagation** | Alessandro Sbandi, Federico Siciliano, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.22287) |
 | `2026-07-23` | **Diffusion Language Model for Recommendation** | Chengyi Liu, Yongqi Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.21519) |
