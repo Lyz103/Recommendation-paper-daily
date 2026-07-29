@@ -1,4 +1,4 @@
-## Updated on 2026-07-28
+## Updated on 2026-07-29
 
 ---
 
@@ -26,6 +26,25 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-28` | **RecoReward: Recommender-Guided Multimodal Description Generation for Recommendation** | Guohong Mu, Yueyang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25901) |
+| `2026-07-28` | **Hypothesis-Driven Shelf Generation for Personalised Recommendation** | Aleksandr V. Petrov, Tarun Chillara, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25823) |
+| `2026-07-28` | **Nudging Sustainable Choices through LLM-Generated Recommendation Explanations** | Haya Halimeh, Dietmar Jannach, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25726) |
+| `2026-07-28` | **LLM-as-a-Judge for Evaluating System Responses in Conversational Music Recommendation** | Seungheon Doh, Bruno Sguerra, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25640) |
+| `2026-07-28` | **TRWH: A Text-Driven Random Walk Heterogeneous GNN for Semantic-Aware Sparse Recommendation** | He Ma, Chen Liu | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25471) |
+| `2026-07-28` | **MARS: Multi-Agent Re-ranking for Repeat-Order Food Delivery Recommendation** | Jiahao Tian, Zhenkai Wang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25420) |
+| `2026-07-28` | **Sharpness-aware Model Merging with Salience Recovery for LLM-based Cross-Domain Sequential Recommendation** | Huwei Ji, Jiajie Su, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25366) |
+| `2026-07-28` | **Reward Guided Decoding for Generative Recommendation** | Ruochen Yang, Yusheng Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25344) |
+| `2026-07-28` | **SPARC: Sequence-aware Progressive Attribute Routing and Compression Framework for Generative Recommendation** | Chang Liu, Changfa Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25339) |
+| `2026-07-28` | **Grevo: A Unified Generative Recommendation Framework with Evolutionary Item Indexing** | Huanjie Wang, Liwei Guan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25329) |
+| `2026-07-28` | **The User Asks, Platforms Compete: How Agentic Recommendation Markets Take Shape** | Deyao Hong, Kehan Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25253) |
+| `2026-07-28` | **TopoGR: Revealing and Preserving Latent Structure of Semantic ID in Generative Recommendation** | Ziyu Zheng, Zhengshun Du, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25216) |
+| `2026-07-28` | **VaLiDRec: Variable-Length LLM-Aligned Semantic IDs for Generative Recommendation** | Shutong Qiao, Wei Yuan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25209) |
+| `2026-07-27` | **Memory Layer: Train the In-Model Cache for Recommendation Models** | Liangyuan Na, Gufan Yin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25110) |
+| `2026-07-27` | **Understanding Semantic IDs: From Item Representation to Item Selection in Generative Recommendation** | Junting Wang, Xinrui He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24995) |
+| `2026-07-26` | **Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems** | Baolei Li, Yiping Yuan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24865) |
+| `2026-07-26` | **KuaiLive-M3: A Multi-Modal, Multi-Domain, and Multi-Feedback Dataset for Live Streaming Recommendation** | Ke Guo, Changle Qu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24862) |
+| `2026-07-24` | **Two Views, One Voice: Evidence-Grounded Conversational Music Recommendation** | Sungwook Yoo, Sewook Yoo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24846) |
+| `2026-07-24` | **REPREC: Representation Driven Parameter-Efficient Recommendation System** | Harshini Kavuru, Dwipam Katariya, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24845) |
 | `2026-07-27` | **LaRec: Unleashing LLM-based Latent Reasoning for Generative Recommendation** | Yu Xia, Zihan Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24617) |
 | `2026-07-27` | **One Graph, Multiple Gains: Single High-Quality Item-Item Graph for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24607) |
 | `2026-07-27` | **CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation** | Xiang Liu, Jingsong Su, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.24402) |

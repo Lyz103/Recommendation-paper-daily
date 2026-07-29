@@ -16741,6 +16741,215 @@
             "abstract": "Generative AI tools have recently been rapidly adopted by academics in mixed-ability research teams for both personal and professional tasks. While previous work on adoption of AI-based workflows has focused on collaboration and productivity, the perceptions of AI use within research teams remains divided. Through qualitative analysis of interviews of the five members of our mixed-ability research team, we discuss the motivations, challenges, and practices surrounding the use of generative AI in our lab. We reflect on experiences that shaped recommendations for balanced AI use that enable mixed-ability team workflows: (1) managing disability tax & crip time, (2) homogenizing identity, (3) risk disclosure of private information, (4) self-experimentation and miscellaneous tasks, and (5) information seeking. We build upon these themes to present AI practice recommendations we established for our lab to promote AI workflow adoption while preserving agency and disability identity.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2607.25901": {
+            "title": "RecoReward: Recommender-Guided Multimodal Description Generation for Recommendation",
+            "authors": "Guohong Mu, Yueyang Liu, Jiangxia Cao, Changxin Lao, Zijie Zhuang, Yuhui Zhang, Jiaqi Feng, Ruochen Yang, Shuang Yang, Zhaojie Liu, Qibin Hou",
+            "first_author": "Guohong Mu",
+            "url": "http://arxiv.org/abs/2607.25901v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25901",
+            "publish_date": "2026-07-28",
+            "abstract": "Multimodal large language models (MLLMs) can convert multimodal item content into structured descriptions used as semantic features for recommendation. Conventional content-only generation, however, cannot use downstream user signals to determine which semantics should be emphasized. Recent user-conditioned methods incorporate these signals through user histories or profiles, but they require user information at inference and make generation user-dependent. In this paper, we introduce RecoReward, which instead uses behavior-derived rewards during training and preserves content-only inference. To instantiate this idea in live-stream recommendation, we treat historically engaged users as a proxy for future target users and use observational non-target users to estimate affinity shared broadly across users. The Recommender Affinity Score (RAS) contrasts these signals to provide user-selective feedback for reinforcement learning, allowing the learned policy to generate a single shared description without user inputs. In our offline benchmark, RecoReward-9B outperforms its Qwen3.5-9B baseline and all other evaluated models across seven recall metrics. Online A/B testing also shows performance gains. These results show that RecoReward trains the MLLM to produce item features that benefit downstream recommendation while retaining content-only serving.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25823": {
+            "title": "Hypothesis-Driven Shelf Generation for Personalised Recommendation",
+            "authors": "Aleksandr V. Petrov, Tarun Chillara, Matthew D. Moellman, Lucas de Haas, Yabai Song, Alina Susoykina, Melissa Crawford, Gabriel Negash, Erik Franco, Tasnim Rahman, Binal Jhaveri, Shubham Bansal, Hugues Bouchard, Roberto Mirizzi, Mounia Lalmas, Alo\u00efs Gruson",
+            "first_author": "Aleksandr V. Petrov",
+            "url": "http://arxiv.org/abs/2607.25823v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25823",
+            "publish_date": "2026-07-28",
+            "abstract": "Modern recommendation interfaces organise content into shelves: themed rows such as \"More of What You Like\" or \"New Releases for You.\" In production systems, these shelves are typically defined through hand-crafted templates coupled with dedicated retrieval logic. While effective for broad recommendation intents, this approach does not scale to the long tail of individual taste. We present a content-hypothesis-driven shelf generation system for Spotify Home that replaces fixed templates with natural-language hypotheses describing what a personalised shelf should contain. The system has four stages hypothesis generation, catalogue fulfilment, shelf alignment, and offline serving. This decomposition decouples shelf planning from catalogue fulfilment, supports independent optimisation of planning and retrieval, and enables both constrained generative retrieval over catalogue entities and distillation of frontier LLM behaviour into compact models. Our production pipeline combines hypothesis generation, generative retrieval, candidate selection and shelf alignment, offline LLM-as-a-judge evaluation, and precomputed serving. We describe the end-to-end architecture and evaluate it through offline analyses and an early online evaluation under uniform random exposure on Spotify Home. Results show that hypothesis-driven shelves substantially expand personalised recommendation supply with engagement that varies by content type and is competitive with strong existing shelves in some settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25726": {
+            "title": "Nudging Sustainable Choices through LLM-Generated Recommendation Explanations",
+            "authors": "Haya Halimeh, Dietmar Jannach, Oliver M\u00fcller",
+            "first_author": "Haya Halimeh",
+            "url": "http://arxiv.org/abs/2607.25726v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25726",
+            "publish_date": "2026-07-28",
+            "abstract": "Recommender systems mediate everyday consumption, offering a promising channel for encouraging sustainable choices. Prior research shows that explanations influence users' perceptions of recommendations and can support more informed decisions. We argue that explanations can also serve as behavioral nudges by foregrounding sustainability information at the moment of choice. This study investigates how different behavioral framings of sustainability information in recommendation explanations affect user choices and perceptions. Using generative AI, we generate sustainability-aware explanations by drawing on nudge theory and validate them through human evaluation and LLM-as-a-judge audits. Building on this foundation, we conduct two randomized studies ($N = 529$) in a low involvement domain (instant coffee) and a high involvement domain (hotel bookings), in which participants choose among preference matched recommendations accompanied by these explanations. Our results show that, across both domains, merely disclosing sustainability information in explanations does not change choices, whereas framing that information or invoking a descriptive social norm significantly increases sustainable selections and eases decision-making. Notably, perception and behavior diverge, as plain disclosure improves explanation evaluations without translating into more sustainable selection behavior. Our work demonstrates how LLMs can generate theory-grounded explanations at scale, pointing toward practical explanation-based interventions for social good. We conclude by discussing implications for adaptive explanation design with generative AI.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.25640": {
+            "title": "LLM-as-a-Judge for Evaluating System Responses in Conversational Music Recommendation",
+            "authors": "Seungheon Doh, Bruno Sguerra, Sergio Oramas, Elena V. Epure, Juhan Nam",
+            "first_author": "Seungheon Doh",
+            "url": "http://arxiv.org/abs/2607.25640v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25640",
+            "publish_date": "2026-07-28",
+            "abstract": "Conversational Recommendation Systems (CRS) aim to achieve two primary objectives: recommending relevant items and generating natural language responses. While recommendation accuracy is effectively measured by established ranking metrics, the evaluation of response generation poses a more fundamental challenge. Although human evaluation remains the gold standard, its cost and scalability constraints have motivated the adoption of LLM-as-a-judge as a promising proxy, whose alignment with human judgment in the context of CRS remains an open question. In this paper, we present the first user study to empirically assess the reliability of LLM-as-a-judge for evaluating CRS responses. We sample 20 multi-turn music recommendation sessions and generate candidate system responses using four instruction-tuned LLMs, inducing variance in response quality across model scales. We collect $n{=}400$ ratings from 20 domain-expert annotators, who evaluate each response across two dimensions: Personalization Quality and Explanation Quality. Through bootstrapped correlation analysis, we find that LLM-based judges exhibit moderate positive alignment with human assessments and outperform all reference-based baselines. Furthermore, we analyze how judge performance varies according to model scale and conditioning information, providing practical guidance for deploying LLM-as-a-judge.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25471": {
+            "title": "TRWH: A Text-Driven Random Walk Heterogeneous GNN for Semantic-Aware Sparse Recommendation",
+            "authors": "He Ma, Chen Liu",
+            "first_author": "He Ma",
+            "url": "http://arxiv.org/abs/2607.25471v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25471",
+            "publish_date": "2026-07-28",
+            "abstract": "Graph Neural Networks (GNNs) and Large Language Models (LLMs) have each advanced recommendation systems by modeling structural and semantic signals, respectively. However, integrating their complementary strengths remains challenging, particularly in sparse settings where maintaining semantic precision is critical. We propose TRWH (Text-driven Random Walk Heterogeneous Graph Neural Network), a novel framework that fuses LLM-generated textual profiles with heterogeneous graph structures through strategic random walk augmentation. TRWH consists of three core components: (1) Embedding Creation, which produces user and item representations using both Word2Vec and LLM-based profiling; (2) a Heterogeneous Graph Neural Network (HeteroGNN) that propagates information across multi-relational edges; and (3) Random Walk-based Path Construction, which enriches sparse graphs with second-order user-user and item-item links. Experiments on the Amazon-2023 Fashion (2M users, 825K items) and Beauty (631K users, 112K items) datasets demonstrate that TRWH achieves substantial performance gains over state-of-the-art methods, including 80.0% RMSE and 52.6% MAE reductions on Fashion, and 25.7% and 10.8% improvements on Beauty. Notably, while random walks improve performance with traditional embeddings, they can dilute the nuanced representations learned by LLMs, underscoring the importance of adaptive integration strategies.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.25420": {
+            "title": "MARS: Multi-Agent Re-ranking for Repeat-Order Food Delivery Recommendation",
+            "authors": "Jiahao Tian, Zhenkai Wang",
+            "first_author": "Jiahao Tian",
+            "url": "http://arxiv.org/abs/2607.25420v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25420",
+            "publish_date": "2026-07-28",
+            "abstract": "Large language models (LLMs) are increasingly used in recommender systems, but it is often unclear how much performance can be obtained from strong pre-trained backbones alone when they are placed inside a structured recommendation pipeline. In this paper, we present MARS, a modular multi-agent re-ranking framework for repeat-order food delivery recommendation. MARS serves as a controlled hybrid framework for studying how far pre-trained LLMs can go in this setting when combined with lightweight collaborative retrieval and contextual filtering. MARS performs coarse-to-fine recommendation in two stages: cuisine prediction followed by vendor ranking. The framework combines LightGCN-based global preference signals, Swing-based local peer evidence, geospatial filtering, and prompt-driven LLM reasoning over behavioral, temporal, and geographic context. We evaluate MARS on two real-world Delivery Hero benchmarks, DHRD-SE and DHRD-SG, and compare it against heuristic, sequential, graph-based, and food-delivery-specific baselines. We also provide detailed implementation and evaluation protocols, including prompting and decoding. Our study makes three contributions. First, it presents a modular multi-agent framework for repeat-order food delivery recommendation that integrates collaborative signals and LLM-based re-ranking in a transparent pipeline. Second, it shows that strong pre-trained backbones can already be competitive in repeat-order recommendation when paired with lightweight collaborative retrieval. Third, it establishes a reproducible evaluation setting for hybrid LLM recommenders in food delivery.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25366": {
+            "title": "Sharpness-aware Model Merging with Salience Recovery for LLM-based Cross-Domain Sequential Recommendation",
+            "authors": "Huwei Ji, Jiajie Su, Yuyuan Li, Xiaohua Feng, Chaochao Chen",
+            "first_author": "Huwei Ji",
+            "url": "http://arxiv.org/abs/2607.25366v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25366",
+            "publish_date": "2026-07-28",
+            "abstract": "LLM-based Cross-Domain Sequential Recommendation (CDSR) leverages LLMs to enhance target performance via deep semantic reasoning, alleviating the dependency on overlapping users. Among LLM-based paradigms, model merging is particularly promising for multi-domain scenarios due to its superior scalability and flexibility in integrating diverse knowledge sources. However, our empirical investigations reveal two critical bottlenecks: (1) cross-domain knowledge conflict; and (2) performance saturation in multi-domain fusion. Our analysis attributes these phenomena to parameter-level misalignment and statistical homogenization during the merging process. To address these bottlenecks, we propose SharpRec, Sharpness-aware Model Merging with Salience Recovery for LLM-based CDSR, a framework designed to lift the performance upper bound of merged models. SharpRec incorporates two synergistic modules: Sharpness-aware Geometric Alignment to establish a stable geometric foundation for interference-free fusion; and Preference Salience Activation to effectively recover the distinctive features essential for bolstering target domain performance. Extensive experiments in both dual-domain and multi-domain scenarios demonstrate that SharpRec consistently outperforms state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25344": {
+            "title": "Reward Guided Decoding for Generative Recommendation",
+            "authors": "Ruochen Yang, Yusheng Huang, Youfeng Zheng, Shuang Wen, Liangliang Chen, Pengbo Xu, Xiaoyu Zhang, Shijun Wang, Shuang Yang, Zhaojie Liu, Lantao Hu, Wenwu Ou, Jiawei Sheng, Tingwen Liu",
+            "first_author": "Ruochen Yang",
+            "url": "http://arxiv.org/abs/2607.25344v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25344",
+            "publish_date": "2026-07-28",
+            "abstract": "Generative recommendation formulates recommendation task into an SID sequence autoregressive generation paradigm, but the decoding process is often dominated by generation likelihood. This may conflict with real-world business objectives, where high-value candidates can receive low generation probability and be pruned early during beam search. Existing reranking or training-time alignment methods either intervene too late or require costly model retraining when business preferences change. To this end, we propose \\textbf{R}eward \\textbf{G}uided \\textbf{D}ecoding, named \\textbf{RGD}, a controllable decoding framework for industrial value-oriented generative recommendation. We formulate value-guided decoding as a KL-regularized reward maximization problem, deriving a closed-form reward guided decoding distribution that principledly combines generation probability with reward signals. RGD treats the base generator as a reference policy and introduces a reward model as a test-time controller, injecting reward into each decoding step to reshape the search trajectory without retraining the generator. Extensive offline and online experiments demonstrate the effectiveness of our approach for aligning personalization and business value. RGD has been deployed on the Kuaishou platform, bringing consistent improvements in real-world recommendation scenarios.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25339": {
+            "title": "SPARC: Sequence-aware Progressive Attribute Routing and Compression Framework for Generative Recommendation",
+            "authors": "Chang Liu, Changfa Wu, Hui Qian, Binbin Cao, Jian Wu, Yuliang Yan, Han Zhu, Bo Zheng",
+            "first_author": "Chang Liu",
+            "url": "http://arxiv.org/abs/2607.25339v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25339",
+            "publish_date": "2026-07-28",
+            "abstract": "Generative recommendation tokenizes items as discrete Semantic IDs (SIDs) and autoregressively generates target items from users' historical SID sequences. Although existing SIDs incorporate multimodal and structured information, they are typically statically assigned and independent of the current interaction context. In industrial scenarios, each behavior also contains heterogeneous attributes, such as category, brand, price, behavior type, and timestamp. Fully expanding these features greatly increases the input length, while directly compressing them into a single representation may prematurely discard context-relevant information.   We propose \\textbf{SPARC}, \\uline{\\textbf{S}}equence-aware \\uline{\\textbf{P}}rogressive \\uline{\\textbf{A}}ttribute \\uline{\\textbf{R}}outing and \\uline{\\textbf{C}}ompression Framework for Generative recommendation. SPARC first models the sequential dependencies of each field type to obtain context-aware field representations. It then routes the original, contextual, and identity representations of different fields into multiple slots to preserve complementary information under a fixed capacity. Finally, lightweight cross-item interaction integrates the intermediate tokens and compresses each historical item into a single token. Following the principle of contextualizing before compression, SPARC enriches user-history representations without increasing the input length of the generative backbone.   Experiments on industrial Taobao and public Amazon datasets demonstrate that SPARC outperforms strong conventional and generative baselines. Further comparisons with static compression variants show that the improvement of SPARC comes from context-conditioned information retention rather than merely increasing the expressiveness of the compression module.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25329": {
+            "title": "Grevo: A Unified Generative Recommendation Framework with Evolutionary Item Indexing",
+            "authors": "Huanjie Wang, Liwei Guan, Zekai Sun, Hongwei Zhang, Honghui Bao",
+            "first_author": "Huanjie Wang",
+            "url": "http://arxiv.org/abs/2607.25329v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25329",
+            "publish_date": "2026-07-28",
+            "abstract": "Generative recommendation has recently emerged as a promising paradigm that reformulates retrieval as autoregressive generation over semantic identifiers (SIDs), achieving strong performance and drawing increasing attention as an alternative to matching. Despite this progress, SIDs are typically frozen by a content-based tokenizer before the recommender is trained, leaving a persistent gap between what best reconstructs an item's content and what a recommender can predict from user behavior. Recent end-to-end methods close this gap by jointly training the tokenizer and the recommender, but coupling the two destabilizes the identifier space and requires a second learnable model, alignment losses, and usually a delicate alternating-optimization schedule. To address this issue, we propose Grevo, a unified Generative recommendation framework with evolutionary item indexing, which treats the SID assignment itself as an evolvable discrete variable that adapts to behavioral feedback rather than as a tokenizer to be trained. Grevo builds on a single multitask recommender that unifies a behavioral SID generation task and a semantic SID grounding task, letting the recommender absorb the tokenizer's role. Through evolutionary item indexing, Grevo then uses the trained recommender itself as a posterior evaluator to reassign a budgeted set of high-risk identifiers under a fixed vocabulary and length. Together, these components turn index construction into a stable, feedback-driven search that requires no second learnable model, no alignment losses, and no alternating-optimization schedule. Extensive experiments on multiple real-world datasets demonstrate that Grevo consistently outperforms state-of-the-art generative recommendation methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25253": {
+            "title": "The User Asks, Platforms Compete: How Agentic Recommendation Markets Take Shape",
+            "authors": "Deyao Hong, Kehan Zheng, Qian Li, Jun Zhang, Jie Jiang, Hongning Wang",
+            "first_author": "Deyao Hong",
+            "url": "http://arxiv.org/abs/2607.25253v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25253",
+            "publish_date": "2026-07-28",
+            "abstract": "Online recommendation has traditionally taken place after a user enters a platform, which determines the candidate pool and the ranking shown to the user. LLM-based user agents enable a different recommendation process: a user specifies a need before choosing a platform, leaving platforms to compete for the user's attention, which we refer to as an agentic recommendation market. In our controlled LLM-based experiments across three product domains, we find this new setting of recommendation creates a tension between access and attention. Compared with traditional platform-centric recommendation, user-centric recommendation greatly expands the opportunity for relevant items to enter comparison; yet broader participation does not translate directly into effective exposure. Competition directly triggers platforms' strategic play: selectively positive explanations occupy 73--78% of first-ranked positions. When the user agent relates platforms' actions to subsequent user feedback, this share falls to 36--41%, while the chance of a user purchasing the relevant item increases. A user agent is therefore more than a ranker over a larger pool of candidates: its querying, ranking, and feedback mechanism governing who can compete, how scarce attention is allocated, and how earlier outcomes shape the evaluation of platforms directly affect user utility. Designing agentic recommendation therefore requires treating access, attention, and accountability as a joint mechanism design problem.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.25216": {
+            "title": "TopoGR: Revealing and Preserving Latent Structure of Semantic ID in Generative Recommendation",
+            "authors": "Ziyu Zheng, Zhengshun Du, Yaming Yang, Bin Tong, Guan Wang, Meng Yan, Ziyu Guan, Wei Zhao",
+            "first_author": "Ziyu Zheng",
+            "url": "http://arxiv.org/abs/2607.25216v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25216",
+            "publish_date": "2026-07-28",
+            "abstract": "Semantic ID-based generative recommendation tokenizes each item into a sequence of discrete semantic IDs and predicts the next item by generating semantic IDs. However, existing methods typically regard SIDs as independent discrete symbols, while often overlooking the topology of the learned semantic ID space. We identify a structural mismatch between tokenization and generation: the tokenizer learns a structured code space with semantic neighborhood relations, whereas the generator consumes semantic ID tokens as independent categorical symbols. Consequently, item relatedness is reduced to exact semantic ID overlap, making it difficult to identify semantically similar items whose semantic IDs do not overlap. To address this issue, we propose TopoGR, a topology-preserving generative recommendation framework based on Bit-decomposable Semantic ID(Binary SID). Each Binary SID is learned in a bit-decomposable form and can be deterministically converted to a standard integer SID, while exposing an explicit Hamming geometry. TopoGR exploits this topology at three stages: binary SID features preserve Hamming proximity at the input layer; Hamming soft targets inject topology-aware supervision; and Hamming-consistent reranking aligns candidate items with the predicted binary prototype during inference. We further verify that the Hamming topology can capture item relatedness beyond exact SID matching. Experiments on four benchmark datasets show that TopoGR consistently outperforms existing state-of-the-art baselines in recommendation performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25209": {
+            "title": "VaLiDRec: Variable-Length LLM-Aligned Semantic IDs for Generative Recommendation",
+            "authors": "Shutong Qiao, Wei Yuan, Tong Chen, Hao Wang, Quoc Viet Hung Nguyen, Hongzhi Yin",
+            "first_author": "Shutong Qiao",
+            "url": "http://arxiv.org/abs/2607.25209v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25209",
+            "publish_date": "2026-07-28",
+            "abstract": "Generative recommendation commonly represents items using fixed-length semantic identifiers (SIDs) constructed through clustering and quantization. However, these artificial codes may overcompress item semantics, remain misaligned with pretrained LLM vocabularies, and require costly autoregressive decoding. In light of this, we propose VaLiDRec, a generative recommendation framework based on variable-length, LLM-aligned semantic identifiers. VaLiDRec constructs SIDs directly from informative native LLM vocabulary tokens via token importance estimation, semantic-quality-aware pruning, and collision-aware refinement, allowing identifier lengths to adapt to item semantic complexity. To model user preferences, VaLiDRec incorporates graph-aware soft prompts and reformulates recommendation as token-set prediction with token-level item scoring, eliminating autoregressive SID generation and beam search. Experiments on four real-world datasets show that VaLiDRec consistently outperforms strong sequential and generative recommendation baselines across all evaluation metrics. It further achieves superior zero-shot item cold-start performance and 87.49$\\times$ faster inference than LC-Rec. These results demonstrate that LLM-native variable-length semantic identifiers provide a more expressive and efficient paradigm for generative recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.25110": {
+            "title": "Memory Layer: Train the In-Model Cache for Recommendation Models",
+            "authors": "Liangyuan Na, Gufan Yin, Yixin Bao, Xianjie Chen, Justin Lin, Ziheng huang, Xinyuan Zhang, Wen Zhang, Hao Lin, Xiaoheng Mao, Shuo Tang, Min Yu, Lei Chen, Chao yang, Ziliang Zhao, Mengjiao Zhou, Zheng Qi, Dmitry Barablin, Chuo-Yun Yang, Kaustubh Vartak, Tingting Zhang, Arun Kumar Singh",
+            "first_author": "Liangyuan Na",
+            "url": "http://arxiv.org/abs/2607.25110v1",
+            "pdf_url": "http://arxiv.org/abs/2607.25110",
+            "publish_date": "2026-07-27",
+            "abstract": "Early ranking stages in recommendation systems precompute item embeddings and cache them in-model for scoring within strict latency constraints. Because this cache exists only at serving time, outside the training loop, training and serving use different item representations, a structural discrepancy that limits quality and adds operational fragility. We show that co-designing the training and serving paths removes this representation discrepancy at its source. We introduce the memory layer, an in-model key-value embedding cache co-trained with the model: the item tower writes embeddings during training and the model reads them at serving, one source of truth for item representations by construction. Always-on embeddings cover items not yet cached, so every item receives a prediction, and the design consolidates three separate trainer-to-predictor update paths into a single self-contained pipeline. Deployed in production on Instagram Reels, the memory layer raises prediction coverage from 96% to 100%, improves embedding freshness from $O(5\\text{ min})$ to $O(20\\text{ s})$, and narrows the training-serving Normalized Entropy (NE) gap by up to 86%, yielding over $2\\times$ recall for the freshest content and a 5-6% cold start engagement lift. Because embeddings are produced during training, the system needs no separate bulk-evaluation or publish-time recomputation, cutting training-and-publish computational cost by 30% at neutral serving computational cost.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24995": {
+            "title": "Understanding Semantic IDs: From Item Representation to Item Selection in Generative Recommendation",
+            "authors": "Junting Wang, Xinrui He, Yunzhe Li, Hari Sundaram",
+            "first_author": "Junting Wang",
+            "url": "http://arxiv.org/abs/2607.24995v1",
+            "pdf_url": "http://arxiv.org/abs/2607.24995",
+            "publish_date": "2026-07-27",
+            "abstract": "Semantic IDs (SIDs) are now a central component of generative recommendation. Current SID-based systems assign three roles to the same token sequence. Shared prefixes are intended to organize related items, the complete SID identifies an individual item, and each generated token narrows the items that can still be returned. We systematically investigate SIDs from item encoding and SID construction to autoregressive generation and final recommendation. We examine how SID construction changes item representations and how those changes affect generation. Across three Amazon domains and eight SID constructions, SID neighborhoods recover only 32.2% of the encoder's ten nearest neighbors on average. Alternative item descriptions still retrieve the corresponding item first in 99.57% of controlled cases, yet change 38.4% of exact SIDs. These results show that SIDs retain broad organization but lose much of the encoder's fine local structure, while their exact tokens are not determined by item meaning alone. This loss becomes consequential during generation. After the final semantic token, TIGER retains only 29.9% of held-out targets that were plausible recommendations before SID filtering. Motivated by these findings, we propose Item-Supported Decoding (ISD), a lightweight inference-time method that allows a user-specific item ranking to support corresponding SID prefixes before beam search discards them. The same ranking then orders the generated items. ISD requires no additional parameters or retraining of the SID constructor or decoder. We empirically show that ISD improves NDCG@10 over the corresponding SID backbone in every evaluated setting, with relative gains of up to 31.2%. Our results show that SIDs provide useful coarse item organization, but their fine boundaries should not alone determine which items remain available during generation.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2607.24865": {
+            "title": "Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems",
+            "authors": "Baolei Li, Yiping Yuan, Yilin Zheng, Likang Yin, Ling Liu, Fabio Soldo, Romer Rosales, Xinyang Yi, Lichan Hong",
+            "first_author": "Baolei Li",
+            "url": "http://arxiv.org/abs/2607.24865v1",
+            "pdf_url": "http://arxiv.org/abs/2607.24865",
+            "publish_date": "2026-07-26",
+            "abstract": "Large-scale recommendation systems face \"Memory Wall\" bottlenecks due to massive, dense embedding tables. While generative retrieval uses discrete tokens for IDs, high-dimensional context still relies on inefficient dense formats. Inspired by computer vision data compression, we propose Dual-purpose Semantic IDs to achieve LLM-level I/O efficiency. Our methodology uses hierarchical quantization to condense continuous embeddings into discrete Semantic IDs performing two concurrent roles: (1) Collaborative Identity: modeling user-item interactions via learnable embedding table; and (2) Content Reconstruction: using a lightweight Semantic Decoder for on-the-fly embedding approximation. This approach replaces massive vector storage with on-demand reconstruction, reducing system overhead and data footprints. We demonstrate the efficacy of our framework through offline evaluations and successful online deployment in production-scale ranking and retrieval systems at a major video sharing platform, showing that discrete tokens are indeed all you need for highly efficient, content-rich recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24862": {
+            "title": "KuaiLive-M3: A Multi-Modal, Multi-Domain, and Multi-Feedback Dataset for Live Streaming Recommendation",
+            "authors": "Ke Guo, Changle Qu, Jiayaqi Cheng, Xiao Zhang, Shijun Wang, Xiaoyu Zhang, Xueliang Wang, Le Zhang, Lantao Hu, Jun Xu",
+            "first_author": "Ke Guo",
+            "url": "http://arxiv.org/abs/2607.24862v1",
+            "pdf_url": "http://arxiv.org/abs/2607.24862",
+            "publish_date": "2026-07-26",
+            "abstract": "Existing public live streaming datasets suffer from three major limitations: they provide limited access to temporally evolving multimodal live content, overlook users' cross-domain interactions between short videos and live streams, and contain only implicit behavioral signals without explicit feedback that captures users' perceived content quality and satisfaction. These limitations prevent existing benchmarks from faithfully reflecting real-world live streaming scenarios and hinder comprehensive research on live streaming recommendation. To address these limitations, we introduce KuaiLive-M3, a multi-modal, multi-domain, and multi-feedback dataset for live streaming recommendation, collected from Kuaishou, a leading live streaming and short video platform in China. KuaiLive-M3 covers 21,938 users and contains 35 million live streaming interactions and 111 million short video interactions, with fine-grained timestamps and diverse user behaviors. It further provides approximately 88 million timestamped segment-level multi-modal embeddings that capture the temporal evolution of live streaming content, as well as 25,403 questionnaire-based feedback records that bridge implicit user behaviors and explicit user preferences. Based on these unique signals, we establish benchmarks for cross-domain recommendation, live stream highlight prediction, and questionnaire-enhanced recommendation. Extensive experiments with representative baselines demonstrate that KuaiLive-M3 provides a challenging and realistic benchmark for future live streaming recommendation research. The results further highlight the importance of modeling temporally evolving content, transferring user preferences across domains, and bridging the gap between implicit behaviors and explicit user feedback. The dataset and benchmark code are publicly available at https://imgkkk574.github.io/KuaiLive-M3/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24846": {
+            "title": "Two Views, One Voice: Evidence-Grounded Conversational Music Recommendation",
+            "authors": "Sungwook Yoo, Sewook Yoo",
+            "first_author": "Sungwook Yoo",
+            "url": "http://arxiv.org/abs/2607.24846v1",
+            "pdf_url": "http://arxiv.org/abs/2607.24846",
+            "publish_date": "2026-07-24",
+            "abstract": "Traditional conversational recommenders entangle retrieval and response generation within a single text interface, so exact entity cues fade as the dialogue's intent evolves, which compromises explanation credibility. We address this within the ACM RecSys Challenge 2026, which mandates both top-20 ranking and evidence-grounded response generation. This paper presents the third-place solution by team \"swyoo\" for the Blind-B industry track. We decouple retrieval and response into separate pipelines connected strictly via ranked tracks and metadata. Retrieval combines a hybrid lexical-dense pool for exact matching with a task-adapted pool driven by fine-tuned Qwen 8B adapters. Candidates are calibrated via LightGBM, then routed to an evidence-grounded propose-assign-select (PAS) framework to structure responses. This system also ranked second on the explanation-quality leaderboard in the final blind evaluation. Our findings demonstrate that: (i) isolating retrieval and response preserves both catalog cues and fluid intent; (ii) structuring generation via explicit evidence assignment is key to this near-best-in-class explanation reliability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2607.24845": {
+            "title": "REPREC: Representation Driven Parameter-Efficient Recommendation System",
+            "authors": "Harshini Kavuru, Dwipam Katariya, Giri Iyengar, Pranab Mohanty, Kalanand Mishra, Kalanand Mishra",
+            "first_author": "Harshini Kavuru",
+            "url": "http://arxiv.org/abs/2607.24845v1",
+            "pdf_url": "http://arxiv.org/abs/2607.24845",
+            "publish_date": "2026-07-24",
+            "abstract": "Large language models (LLMs) have been applied to sequential recommendation by formulating it as a natural language task. Previous work has improved personalization by incorporating collaborative and sequential signals through input conditioning or LLM fine-tuning. However, existing approaches often rely on one or more of the following: LLM fine-tuning, additional architectural modules, representation distillation, or item-level conditioning over long interaction histories, increasing training complexity and deployment cost. We propose REPREC, a lightweight framework that reformulates LLM-based sequential recommendation through lightweight user representation alignment. REPREC maps a fixed-size user embedding from a frozen sequential encoder into a small set of learned soft tokens through a lightweight MLP injector that conditions a frozen LLM, leaving both pretrained backbones unchanged while training only the injector. We conducted exhaustive experiments on multiple benchmark datasets and demonstrate that REPREC consistently outperforms LoRA while remaining compatible with different pretrained sequential encoders and LLM backbones, enabling a modular and production-friendly recommendation pipeline without modifying either pretrained component. The gains are particularly pronounced for casual and core users across all datasets, highlighting REPREC's effectiveness in low-data regimes. Finally, when trained on short prompt histories and evaluated with longer contexts, REPREC maintains 85-100% of LoRA's performance while reducing per-epoch training time by an average of 1.51X, demonstrating an effective balance between recommendation quality and computational efficiency for production deployment. The code is available at https://github.com/phdbotcode/REPREC",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
