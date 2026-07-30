@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-29
+## Updated on 2026-07-30
 
 ---
 
@@ -23,6 +23,15 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-29` | **Learning from the Future: Privileged Self-Distillation for Sequential Recommendation** | Jiakai Tang, Yang Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27055) |
+| `2026-07-29` | **IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation** | Yuheng Zheng, Yu Cui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27002) |
+| `2026-07-29` | **Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB** | Finn Hertsch | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26832) |
+| `2026-07-29` | **CaIRec: Calibrated Modality Imputation for Incomplete Multimodal Recommendation** | Ruiyu Liu, Xiaohao Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26720) |
+| `2026-07-29` | **WhisperRec: Latent Reasoning for Efficient Foundation Recommendation Models** | Hao Jiang, Peiru Du, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26621) |
+| `2026-07-29` | **Multi-Decoder OneRec: Controllable Generative Retrieval for Multi-Objective Industrial Recommendation** | You Wang, Zhao Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26500) |
+| `2026-07-29` | **NMKFR: A Robust Framework for Time-Aware Cold-Start Recommendation** | Chengzhi Liu, Ning Zeng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26429) |
+| `2026-07-29` | **DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval** | Yuanhao Pu, Chenghao Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26418) |
+| `2026-07-29` | **Continuous Online Evaluation of Recommendation Strategies in Social Science Academic Search** | Mehmet Deniz Türkmen, Daniel Hienert | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26380) |
 | `2026-07-28` | **RecoReward: Recommender-Guided Multimodal Description Generation for Recommendation** | Guohong Mu, Yueyang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25901) |
 | `2026-07-28` | **Hypothesis-Driven Shelf Generation for Personalised Recommendation** | Aleksandr V. Petrov, Tarun Chillara, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25823) |
 | `2026-07-28` | **Nudging Sustainable Choices through LLM-Generated Recommendation Explanations** | Haya Halimeh, Dietmar Jannach, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.25726) |
