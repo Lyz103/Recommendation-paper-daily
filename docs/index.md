@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-07-30
+## Updated on 2026-07-31
 
 ---
 
@@ -23,6 +23,14 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-30` | **CCFormer: Efficient Cross-Field Interaction and Hierarchical Sequence Compression for Industrial Recommendation at Tencent** | Yunlong Wang, Huizhe Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.28070) |
+| `2026-07-30` | **Interpretable Representation via LLM-Driven Generative Disentanglement for Local-Life Service Recommendation** | Long Zhang, Hao Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27944) |
+| `2026-07-30` | **From Understanding to Action: Feedback-Grounded Policy Discovery for Generative Recommendation** | Zhi Chen, Minmao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27789) |
+| `2026-07-30` | **Hierarchical Latent Reasoning for LLM-based Recommendation** | Peiyu Hu, Siying Gu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27760) |
+| `2026-07-30` | **ROCS: Request-Oriented Compute Sharing for Efficient Large-Scale Recommendation** | Yuxin Chen, Liang Luo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27744) |
+| `2026-07-30` | **Evaluating Algorithm-Assisted Human Decision-Making Over Repeated Algorithm Exposure: Recommendations for Effect Estimands and Experimental Design** | Maggie Wang, Michael Baiocchi | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27701) |
+| `2026-07-30` | **Restoring Collaborative Signals in Semantic-ID Generative Recommendation via Personalized Natural Language** | Changjiang Han, Qingyang Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27682) |
+| `2026-07-30` | **LoopMemGR: From Behavior Logs to Evolving Memory for Generative Recommendation** | Hui Qian, Changfa Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27647) |
 | `2026-07-29` | **Learning from the Future: Privileged Self-Distillation for Sequential Recommendation** | Jiakai Tang, Yang Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27055) |
 | `2026-07-29` | **IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation** | Yuheng Zheng, Yu Cui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27002) |
 | `2026-07-29` | **Kairos: Numerically Robust News Recommendation under Item Cold-Start via Cholesky-based LinUCB** | Finn Hertsch | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.26832) |
