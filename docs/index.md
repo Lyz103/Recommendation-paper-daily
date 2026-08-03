@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-02
+## Updated on 2026-08-03
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-07-31` | **Producing Policy Recommendations: from Statistical Decision Theory to Empirical Practice** | Giacomo Opocher | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29281) |
+| `2026-07-31` | **UniPolymer: A Unified Framework for Property Prediction, Structure Recommendation, and Evaluation in Polyimide Design** | Junquan Hu, Zhihui Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29256) |
+| `2026-07-31` | **EvoReason: Self-Evolving Reasoning Primitive-Guided On-Policy Distillation for Latent Reasoning in Generative Recommendation** | Zhuang Zhuang, Zhipeng Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29010) |
+| `2026-07-31` | **Think2Go: Generative Next POI Recommendation with LLM Reasoning** | Zhuang Zhuang, Shanshan Feng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.28997) |
+| `2026-07-31` | **TransX: Scaling Transformer-based Recommendation via Behavioral and Serving Stream Crossings** | Da Xu, Liyan Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.28940) |
+| `2026-07-30` | **LLM-Based Generative Retrieval for Snapchat Content Recommendation** | Liam Collins, Jiwen Ren, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.28895) |
 | `2026-07-30` | **CCFormer: Efficient Cross-Field Interaction and Hierarchical Sequence Compression for Industrial Recommendation at Tencent** | Yunlong Wang, Huizhe Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.28070) |
 | `2026-07-30` | **Interpretable Representation via LLM-Driven Generative Disentanglement for Local-Life Service Recommendation** | Long Zhang, Hao Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27944) |
 | `2026-07-30` | **From Understanding to Action: Feedback-Grounded Policy Discovery for Generative Recommendation** | Zhi Chen, Minmao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.27789) |
