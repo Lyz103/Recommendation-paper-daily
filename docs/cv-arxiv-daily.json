@@ -16746,7 +16746,7 @@
             "title": "RecoReward: Recommender-Guided Multimodal Description Generation for Recommendation",
             "authors": "Guohong Mu, Yueyang Liu, Jiangxia Cao, Changxin Lao, Zijie Zhuang, Yuhui Zhang, Jiaqi Feng, Ruochen Yang, Shuang Yang, Zhaojie Liu, Qibin Hou",
             "first_author": "Guohong Mu",
-            "url": "http://arxiv.org/abs/2607.25901v1",
+            "url": "http://arxiv.org/abs/2607.25901v2",
             "pdf_url": "http://arxiv.org/abs/2607.25901",
             "publish_date": "2026-07-28",
             "abstract": "Multimodal large language models (MLLMs) can convert multimodal item content into structured descriptions used as semantic features for recommendation. Conventional content-only generation, however, cannot use downstream user signals to determine which semantics should be emphasized. Recent user-conditioned methods incorporate these signals through user histories or profiles, but they require user information at inference and make generation user-dependent. In this paper, we introduce RecoReward, which instead uses behavior-derived rewards during training and preserves content-only inference. To instantiate this idea in live-stream recommendation, we treat historically engaged users as a proxy for future target users and use observational non-target users to estimate affinity shared broadly across users. The Recommender Affinity Score (RAS) contrasts these signals to provide user-selective feedback for reinforcement learning, allowing the learned policy to generate a single shared description without user inputs. In our offline benchmark, RecoReward-9B outperforms its Qwen3.5-9B baseline and all other evaluated models across seven recall metrics. Online A/B testing also shows performance gains. These results show that RecoReward trains the MLLM to produce item features that benefit downstream recommendation while retaining content-only serving.",
@@ -17202,6 +17202,127 @@
             "publish_date": "2026-07-30",
             "abstract": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM into a generative retriever in production deployment raises several challenges: the model must learn an internal item vocabulary that was absent from pretraining, and generate valid item identifiers under strict latency and cost constraints. We address these challenges through the design and launch of SnapLGR, an LLM-based generative retrieval system for short-video recommendation at Snapchat. The system is built around three main designs. First, we construct semantic identifiers (SIDs) from multimodal item embeddings and enhance them with Personalized PageRank (PPR)-based co-engagement contrastive learning, resulting in improved codebook utilization, reduced collisions, and infused collaborative signal. Second, we use continued pretraining (CPT) to ground the introduced SID tokens before supervised fine-tuning (SFT) on user interaction sequences. Third, we make SnapLGR serving practical through TensorRT-LLM CUDA-backed beam search and a decentralized worker-loop architecture. In a live A/B test, the launched system increased View Time by 0.37%, Time Spent by 0.09%, Deep Sessions by 0.18%, and Deep Sessions Unique User by 0.11% relative to the existing TIGER-style generative retrieval baseline. We then decompose this offline gap under a fixed tokenizer and quantify the gains due to model architecture, scaling, and pretraining. Overall, our deployment shows that successful production SnapLGR requires joint design across representation learning, vocabulary grounding, and efficient training and serving.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.02477": {
+            "title": "Unpaired Modality-Agnostic Generative Recommendation",
+            "authors": "Weihao Shen, Wei Chen, Fuwei Zhang, Meng Yuan, Yuqin Lan, Guojun Liu, Qingsong Hua, Wei Lin, Fuzhen Zhuang",
+            "first_author": "Weihao Shen",
+            "url": "http://arxiv.org/abs/2608.02477v1",
+            "pdf_url": "http://arxiv.org/abs/2608.02477",
+            "publish_date": "2026-08-03",
+            "abstract": "Generative Recommendation (GR) formulates recommendation as autoregressive generation over discrete semantic identifiers (IDs). Although recent multimodal GR methods improve semantic ID construction with visual and textual information, they typically require item-level paired observations, restricting tokenization to the intersection of modality availability. Moreover, incorporating unpaired observations is nontrivial because small representation shifts may cross quantization boundaries and produce incompatible identifier sequences. To address this challenge, we propose \\textbf{Unpair}ed Modality-Agnostic \\textbf{G}enerative \\textbf{R}ecommendation (UnpairGR), which learns a unified semantic-ID space from paired, image-only, and text-only observations. UnpairGR confines modality-specific processing to lightweight input projections while sharing the subsequent Transformer and residual codebooks across all observation conditions. Paired observations establish a reliability-guided cross-modal consensus, whereas unimodal observations directly refine the same representations and codes. The learned tokenizer is then fixed to provide stationary targets for a single autoregressive recommender, without feature imputation, modality-specific codebooks, or fallback mappings. Extensive experiments on three benchmark datasets demonstrate that UnpairGR consistently improves recommendation performance under both fully observed and incomplete-observation settings.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.02048": {
+            "title": "SmartGR: Hierarchy and Beam-Aware Knowledge Distillation for Generative Recommendation",
+            "authors": "Ziheng Zhang, Yu Cui, Bohao Wang, Yong He, Chao Yu, Chuan Yuan, Wujie Sun, Can Wang, Jiawei Chen",
+            "first_author": "Ziheng Zhang",
+            "url": "http://arxiv.org/abs/2608.02048v1",
+            "pdf_url": "http://arxiv.org/abs/2608.02048",
+            "publish_date": "2026-08-03",
+            "abstract": "Generative recommendation (GR) has emerged as a promising paradigm for recommender systems. Scaling up GR models can improve recommendation performance, but it also substantially increases inference cost. Knowledge distillation provides a practical solution by transferring knowledge from a large GR model to a lightweight one. However, existing distillation methods do not account for two GR-specific challenges: imbalanced distillation difficulty across the semantic ID (SID) hierarchy and incorrect prefix pruning during beam search. To address these challenges, we propose SmartGR, a novel distillation framework that utilizes Hierarchy-Aware SID Distillation to transfer the teacher's modeling capability across the hierarchy and leverages Beam-Aware Ranking Distillation to distill the teacher's ranking preferences during beam search. Extensive experiments on four benchmark datasets demonstrate the effectiveness and efficiency of SmartGR, improving the performance by 8.6% while achieving a 2.39$\\times$ inference speedup on average.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01949": {
+            "title": "A Self-Triggered Agentic Push Recommendation System",
+            "authors": "Zhao-Yu Zhang, Qingying Chen, Chunyuan Zheng, Jing Zhou, Jian Sun, Siqi Chen, Leiying Chen, Chuan Zhou, Huiyou Jiang, Xin Tao, Haoxuan Li, Zhouchen Lin",
+            "first_author": "Zhao-Yu Zhang",
+            "url": "http://arxiv.org/abs/2608.01949v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01949",
+            "publish_date": "2026-08-03",
+            "abstract": "Push notification is a critical recommendation scenario on large-scale platforms, allowing the system to proactively reach users outside the application to improve long-term re-engagement. However, designing an optimal push system requires handling a complex action space for the \"whether and when\" delivery problem under strict system resource constraints. Existing solutions typically fall into two passive paradigms: pre-planned frequency methods that allocate delivery times via offline modeling, limiting real-time adaptability; and fixed-interval triggering methods that periodically poll the system, creating a strict dilemma between excessive computational overhead and diminished optimal timing capture. Furthermore, such multi-stage frameworks severely suffer from local optima. To overcome these limitations, in this paper, we propose STEPS, a proactive, Self-Triggered End-to-end Agentic Push Recommendation System, which is already fully deployed at Douyin with over 1 billion users. STEPS reformulates push recommendation as a self-triggered agentic process in which the system decides not only whether to send a push, but also when to invoke itself again, thereby forming a closed loop that balances real-time effectiveness and efficiency. Specifically, STEPS consists of two decision transformer-based agents: a planning agent that schedules the next system invocation using a gated ordinal regression method, and an execution agent that decides whether to send a push based on trajectory rewards. Furthermore, we introduce a lightweight filtering agent to both control computational overhead and act as a crucial safeguard against unreasonable planning behaviors. Online A/B testing demonstrates that STEPS significantly increases user active days by 0.2843% and reduces the push permission disablement rate by 1.9089%, while the filtering agent reduces computational overhead by 79.42%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01846": {
+            "title": "HyperAgent4POI: Dynamic Semantic Message Passing on Multi-Agent Hypergraphs for Missing-Modality Recommendation",
+            "authors": "Jinze Wang, Yuze Liu, Tiehua Zhang, Jiong Jin, Zhu Sun",
+            "first_author": "Jinze Wang",
+            "url": "http://arxiv.org/abs/2608.01846v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01846",
+            "publish_date": "2026-08-03",
+            "abstract": "Next Point-of-Interest (POI) recommendation benefits from textual and visual content that describes venue semantics, yet such content is often incomplete in real-world services. Missing modalities weaken POI representations and reduce the semantic evidence available for ranking. The resulting representations also provide unreliable evidence for modeling higher-order user--POI interactions. We propose HyperAgent4POI, which uses Dynamic Semantic Message Passing (DSMP) to perform modality completion and soft incidence refinement within each hypergraph layer. Persistent node agents share a frozen Llama backbone and use role-specific adapters to produce node-to-hyperedge messages. Semantic hyperedge motifs formed from these messages guide soft incidence scoring and modality completion. Final node representations are cached for online ranking without LLM calls. Experiments on three real-world LBSN datasets show consistent ranking gains over 15 baselines across modality-missing rates, while cached inference provides practical online efficiency. Under a 60% modality-missing rate, HyperAgent4POI improves NDCG@20 over the strongest baseline by 8.2% on average across the three datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01732": {
+            "title": "X-KGRank: A Knowledge Graph RAG Framework for Explainable Recommendations via Pattern Mining and LLM Re-Ranking",
+            "authors": "Meenakshi Rajpurohit, Jainish Patel",
+            "first_author": "Meenakshi Rajpurohit",
+            "url": "http://arxiv.org/abs/2608.01732v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01732",
+            "publish_date": "2026-08-03",
+            "abstract": "Modern recommender systems produce predictions that users cannot interrogate. The two dominant improvements, collaborative filtering and LLM-based reasoning, each fall short: collaborative filtering captures behavioural signals but offers no reasoning, while large language models (LLMs) generate fluent explanations but hallucinate and are poorly grounded in a user's history. We present X-KGRank, a knowledge graph retrieval augmented framework that unifies structural collaborative filtering with LLM-based explanation. From the MovieLens-1M dataset (6,040 users, 3,704 items, 988,129 interactions) we construct a heterogeneous knowledge graph of 9,762 nodes and 999,264 edges spanning three relation types (RATED, HAS_GENRE, and CO_RATED) persisted in Neo4j. We train a LightGCN ranker with content-aware SBERT initialization and a rating weighted BPR objective, and apply a popularity selective routing strategy that grounds long-tail items (1,855 of 3,704) in knowledge-graph paths while serving popular items from pre-trained knowledge, reducing KG-augmented generations by roughly 50%. On the MovieLens-1M test set under a 99-sample protocol, X-KGRank achieves NDCG@10 = 0.2956 and Recall@10 = 0.5371, improving over a strong popularity baseline by 17.1% on both metrics, by 15.6% on NDCG@20 (0.3449 vs. 0.2983), and by 14.6% on MRR (0.2435 vs. 0.2124). Across three LLM backbones evaluated on 16 cases, a 1.5-billion-parameter model (Qwen2.5-1.5B) matches a 7-billion-parameter model (Mistral-7B) on heuristic explanation quality (0.97 vs. 0.94), yet qualitative analysis shows the smaller model is more prone to factual fabrication.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01731": {
+            "title": "MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets",
+            "authors": "Yoji Tomita",
+            "first_author": "Yoji Tomita",
+            "url": "http://arxiv.org/abs/2608.01731v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01731",
+            "publish_date": "2026-08-03",
+            "abstract": "Matching platforms such as job posting services and online dating platforms have become widely used over the past decade. For a matching platform to be successful, it is crucial to design appropriate reciprocal recommendation systems (RRSs) that consider the preferences of users on both sides (job candidates and employers) and prevent opportunities from being concentrated too heavily on a few popular users. However, prioritizing concentration mitigation too much can lead to recommending undesirable results to some individual users, resulting in their dissatisfaction. In this paper, we formulate the concept of ``optimality of direct effects'' of the recommendation list for an individual user, given the recommendations to other users. Furthermore, we propose a novel method, MODE, that computes mutually optimal recommendations in direct effects. Experiments with synthetic and real-world data demonstrate that MODE surpasses other existing methods in terms of mutual optimality of direct effects, exhibits faster processing speeds, and enables a higher expected number of matches.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01315": {
+            "title": "Collaborative Memory Augmentation for Generative Recommendation",
+            "authors": "Enze Liu, Zhen Tian, Wayne Xin Zhao",
+            "first_author": "Enze Liu",
+            "url": "http://arxiv.org/abs/2608.01315v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01315",
+            "publish_date": "2026-08-02",
+            "abstract": "Generative Recommendation (GR) has exhibited great potential by modeling item transitions as a sequence-to-sequence task. Despite the success of GR, existing frameworks primarily focus on modeling individual user sequences within a constrained internal parametric space, failing to explicitly leverage cross-user collaborative signals. To address this issue, we propose \\textbf{OMEGA}, a cOllaborative MEmory augmentation framework for Generative recommendAtion. OMEGA bridges the gap between implicit parametric knowledge and explicit collaborative signals. We first introduce a latent context compression method that utilizes learnable query tokens to distill sequential user behavior into compact representations, significantly reducing storage overhead. These compressed representations are aggregated into a collaborative memory bank, serving as an explicit repository of global behavioral patterns. To ensure precise knowledge acquisition, we design a lightweight and target-aware retrieval mechanism that identifies pertinent memories by considering both sequence-level and target-level similarities. Furthermore, a context-aware integration module, equipped with a gated cross-attention mechanism, is employed to adaptively fuse the retrieved collaborative memories with the local user context while mitigating the interference of noisy patterns. Empirical evaluations on multiple real-world datasets demonstrate that OMEGA significantly outperforms existing advanced GR models, validating the potential of external memory as a complement to the generative paradigm.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.01260": {
+            "title": "Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test",
+            "authors": "Kong Wang, Zhongke He, Xiang Chen, Hongwei Zeng, Kai Deng, Long Wang, Kehua Yang",
+            "first_author": "Kong Wang",
+            "url": "http://arxiv.org/abs/2608.01260v1",
+            "pdf_url": "http://arxiv.org/abs/2608.01260",
+            "publish_date": "2026-08-02",
+            "abstract": "Recent semantic and generative-retrieval recommenders report substantial improvements over ID-only sequential baselines, but it remains unclear whether these gains arise from language-model reasoning, semantic-ID generation, end-to-end semantic architectures, stronger offline item representations, or complementary semantic and collaborative signals. We investigate this attribution ambiguity through LIME-Rec, a lightweight and auditable recovery test. LIME-Rec combines three independent experts: a SASRec sequential expert, an ItemCF co-occurrence expert, and a semantic expert based on frozen BAAI/bge-base-en-v1.5 item embeddings. Their full-catalog scores are normalized per user and combined through auditable score-level fusion followed by bounded history calibration. The fusion gate and calibration head are fitted on validation data only, require no serving-time language-model inference, and keep each expert contribution separately inspectable. On Amazon Beauty, Toys, and Sports, LIME-Rec achieves R@10 scores of 0.0996, 0.1105, and 0.0593, outperforming the strongest comparison baseline by 7.0%-12.0%. Three-expert fusion without history calibration consistently outperforms calibrated SASRec, showing that calibration alone does not explain the recovery. Randomly permuting item-text embeddings across item IDs reduces R@10 by 13.6%-17.5%, indicating that the gains depend on genuine item-text correspondence rather than additional representation capacity. These results suggest that lightweight recovery from offline item representations and transparent fusion should be ruled out before improvements are attributed to serving-time language modeling, semantic-ID generation, or heavier semantic machinery.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.00750": {
+            "title": "Hierarchical Residual Policy Optimization for Generative Recommendations",
+            "authors": "Kaifeng Guo, Yiming Yang, Jingtong Gao, Guolei Zeng, Fukang Yang, Yukang Liang, Peng Jiang, Qingpeng Cai, Xiangyu Zhao",
+            "first_author": "Kaifeng Guo",
+            "url": "http://arxiv.org/abs/2608.00750v1",
+            "pdf_url": "http://arxiv.org/abs/2608.00750",
+            "publish_date": "2026-08-01",
+            "abstract": "Generative recommenders select items by autoregressively decoding semantic identifiers (SIDs), whose token positions induce a coarse-to-fine hierarchy over the item space. In practice, SID decoders are trained via supervised next-token prediction, which imitates logged trajectories rather than directly optimizing downstream utility. This motivates post-training with outcome feedback to guide decoding toward higher utility. However, logged feedback is only observed for the final exposed item, causing most post-training methods to operate at the item level and broadcast the same terminal signal across all SID tokens. As a result, token-level credit assignment becomes sparse, high-variance, and layer-dependent. To this end, we propose Hierarchical Residual Policy Optimization (HRPO), a post-training framework that converts item-level outcomes into dense, token-aligned learning signals for conservative token-wise improvement. Specifically, HRPO first estimates SID prefix-level utilities via group-wise reward smoothing over feature-based user clusters. It then decomposes these utilities into residual token credits and accumulates them into credit-to-go signals. Finally, Residual-Return Policy Optimization (RRPO) optimizes the residual credits using clipped updates, group-normalized advantages, and KL regularization to preserve stability. Experiments on a public dataset and an online A/B test in a large-scale commercial system show consistent gains in session-level utility and key business metrics. Source code and the archived artifact are available for reproduction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.00669": {
+            "title": "GARDRec: Decision-Level Graph Grounding for Large Language Model Recommendation",
+            "authors": "Yong Wang, Hongliang Sun, Jinlan Liu, Hua Zhang, Dianbo Sui, Dianhui Chu, Zhiying Tu",
+            "first_author": "Yong Wang",
+            "url": "http://arxiv.org/abs/2608.00669v1",
+            "pdf_url": "http://arxiv.org/abs/2608.00669",
+            "publish_date": "2026-08-01",
+            "abstract": "Large language models (LLMs) offer new opportunities for recommendation by interpreting item descriptions, user instructions, and external knowledge through natural-language prompts. However, existing graph-augmented LLM recommenders often use knowledge graphs mainly as prompt-level evidence, leaving ranking decisions weakly constrained by structured user-item relations. This is problematic for next-item recommendation, where the model must compare candidates under the same user context while preserving temporal preference, collaborative signals, and attribute matches. To address this issue, we propose \\emph{GARDRec}, a Graph-grounded Adaptive Reasoning and Decision-aware Recommendation framework for LLM-based next-item ranking. GARDRec constructs semantic-structural item representations from textual node features and graph propagation, derives personalized graph contexts from temporally weighted histories and first-order neighborhoods, and aligns graph-derived representations with a frozen LLM through continuous multimodal prompts. Explicit interaction and matching features are injected through late-stage decision branches, while inter-candidate attention and restricted generative likelihood support final ranking. Experiments on three public benchmarks with multiple LLM backbones show that GARDRec generally improves candidate-ranking performance over representative baselines. Ablation and diagnostic analyses verify the contributions of graph projection, neighborhood retrieval, explicit decision features, ranking loss, and generative calibration.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.00098": {
+            "title": "GRAIN: Molecules Are Not the Right Granularity -- Active-Ingredient Modeling for Safe Medication Recommendation",
+            "authors": "Juao Fan, Jinhan Li, Shengxin Zhu",
+            "first_author": "Juao Fan",
+            "url": "http://arxiv.org/abs/2608.00098v1",
+            "pdf_url": "http://arxiv.org/abs/2608.00098",
+            "publish_date": "2026-07-30",
+            "abstract": "Medication recommendation from electronic health records must balance predictive accuracy against the risk of adverse drug-drug interactions (DDIs) under polypharmacy. Existing safety-aware recommenders operate at one of two granularities: the drug code, which treats each medication as an indivisible token, or the molecular substructure, which is finer than pharmacological interaction knowledge is actually organized. We argue that the active ingredient is the missing granularity, and introduce GRAIN, a medication recommendation framework built around it.   GRAIN encodes longitudinal patient trajectories (diagnoses, procedures, past medications) with a selective state space backbone that handles long, irregular visit sequences in linear time. On top of it we introduce a joint objective unifying three knowledge sources aligned to a common medication vocabulary: a drug-level DDI graph, an ingredient-level DDI graph obtained by normalizing medication codes to active ingredients via RxNorm, and an EHR-derived co-prescription graph. A proportional controller adapts the accuracy-safety trade-off to the observed validation DDI rate rather than fixing it a priori.   Under strictly matched settings -- identical preprocessing, cohort, vocabulary, split, and evaluation code -- GRAIN improves over a re-implemented MambaHealth baseline on MIMIC-IV across all standard multi-label metrics (Jaccard 0.4488 to 0.4983, PRAUC 0.6911 to 0.7485, F1 0.5989 to 0.6453) while reducing the drug-level DDI rate from 0.1875 to 0.0948. We further define an ingredient-level DDI rate, a safety measure invisible to drug-code-level evaluation. The results indicate that ingredient-level normalization recovers predictive signal erased by code-level aggregation, and that it is complementary to, rather than in competition with, accurate sequence modeling.",
+            "primary_category": "q-bio.QM",
             "code_url": "null"
         }
     }

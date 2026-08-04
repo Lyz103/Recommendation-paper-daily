@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-03
+## Updated on 2026-08-04
 
 ---
 
@@ -23,6 +23,17 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-03` | **Unpaired Modality-Agnostic Generative Recommendation** | Weihao Shen, Wei Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02477) |
+| `2026-08-03` | **SmartGR: Hierarchy and Beam-Aware Knowledge Distillation for Generative Recommendation** | Ziheng Zhang, Yu Cui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02048) |
+| `2026-08-03` | **A Self-Triggered Agentic Push Recommendation System** | Zhao-Yu Zhang, Qingying Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01949) |
+| `2026-08-03` | **HyperAgent4POI: Dynamic Semantic Message Passing on Multi-Agent Hypergraphs for Missing-Modality Recommendation** | Jinze Wang, Yuze Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01846) |
+| `2026-08-03` | **X-KGRank: A Knowledge Graph RAG Framework for Explainable Recommendations via Pattern Mining and LLM Re-Ranking** | Meenakshi Rajpurohit, Jainish Patel | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01732) |
+| `2026-08-03` | **MODE: Mutual Optimality in Direct Effects of Reciprocal Recommendations in Matching Markets** | Yoji Tomita | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01731) |
+| `2026-08-02` | **Collaborative Memory Augmentation for Generative Recommendation** | Enze Liu, Zhen Tian, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01315) |
+| `2026-08-02` | **Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test** | Kong Wang, Zhongke He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01260) |
+| `2026-08-01` | **Hierarchical Residual Policy Optimization for Generative Recommendations** | Kaifeng Guo, Yiming Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.00750) |
+| `2026-08-01` | **GARDRec: Decision-Level Graph Grounding for Large Language Model Recommendation** | Yong Wang, Hongliang Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.00669) |
+| `2026-07-30` | **GRAIN: Molecules Are Not the Right Granularity -- Active-Ingredient Modeling for Safe Medication Recommendation** | Juao Fan, Jinhan Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.00098) |
 | `2026-07-31` | **Producing Policy Recommendations: from Statistical Decision Theory to Empirical Practice** | Giacomo Opocher | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29281) |
 | `2026-07-31` | **UniPolymer: A Unified Framework for Property Prediction, Structure Recommendation, and Evaluation in Polyimide Design** | Junquan Hu, Zhihui Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29256) |
 | `2026-07-31` | **EvoReason: Self-Evolving Reasoning Primitive-Guided On-Policy Distillation for Latent Reasoning in Generative Recommendation** | Zhuang Zhuang, Zhipeng Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2607.29010) |
