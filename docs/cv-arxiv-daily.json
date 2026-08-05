@@ -17142,7 +17142,7 @@
             "title": "Producing Policy Recommendations: from Statistical Decision Theory to Empirical Practice",
             "authors": "Giacomo Opocher",
             "first_author": "Giacomo Opocher",
-            "url": "http://arxiv.org/abs/2607.29281v1",
+            "url": "http://arxiv.org/abs/2607.29281v2",
             "pdf_url": "http://arxiv.org/abs/2607.29281",
             "publish_date": "2026-07-31",
             "abstract": "Applied research in economics is intrinsically motivated by broad normative objectives. However, it is not obvious how a researcher should direct their efforts to produce evidence toward such objectives. This paper reviews recent theoretical developments on research design for policy choice and provides new tools applied researchers can use to guide their design choices and communicate their policy recommendations. First, I focus on theoretical contributions in econometrics and provide a general framework that nests all the contexts and results reviewed using a coherent notation and narrative. Then, I present two diagrams applied researchers can use to navigate the theoretical literature starting from concrete scenarios to make thoughtful design choices. Finally, I introduce a new R package that produces one table and two figures applied researchers can plug in their `policy implications' section to provide evidence on the performance of different policy recommendations coming out of their study. The use of such tools is illustrated with an example in development economics.",
@@ -17323,6 +17323,61 @@
             "publish_date": "2026-07-30",
             "abstract": "Medication recommendation from electronic health records must balance predictive accuracy against the risk of adverse drug-drug interactions (DDIs) under polypharmacy. Existing safety-aware recommenders operate at one of two granularities: the drug code, which treats each medication as an indivisible token, or the molecular substructure, which is finer than pharmacological interaction knowledge is actually organized. We argue that the active ingredient is the missing granularity, and introduce GRAIN, a medication recommendation framework built around it.   GRAIN encodes longitudinal patient trajectories (diagnoses, procedures, past medications) with a selective state space backbone that handles long, irregular visit sequences in linear time. On top of it we introduce a joint objective unifying three knowledge sources aligned to a common medication vocabulary: a drug-level DDI graph, an ingredient-level DDI graph obtained by normalizing medication codes to active ingredients via RxNorm, and an EHR-derived co-prescription graph. A proportional controller adapts the accuracy-safety trade-off to the observed validation DDI rate rather than fixing it a priori.   Under strictly matched settings -- identical preprocessing, cohort, vocabulary, split, and evaluation code -- GRAIN improves over a re-implemented MambaHealth baseline on MIMIC-IV across all standard multi-label metrics (Jaccard 0.4488 to 0.4983, PRAUC 0.6911 to 0.7485, F1 0.5989 to 0.6453) while reducing the drug-level DDI rate from 0.1875 to 0.0948. We further define an ingredient-level DDI rate, a safety measure invisible to drug-code-level evaluation. The results indicate that ingredient-level normalization recovers predictive signal erased by code-level aggregation, and that it is complementary to, rather than in competition with, accurate sequence modeling.",
             "primary_category": "q-bio.QM",
+            "code_url": "null"
+        },
+        "2608.03692": {
+            "title": "SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation",
+            "authors": "Rui Zhou, Bo Chen, Qinglin Jia, Jiezhou Ji, Chaoyi Ma, Ruiming Tang, Hao Wang, Enhong Chen",
+            "first_author": "Rui Zhou",
+            "url": "http://arxiv.org/abs/2608.03692v1",
+            "pdf_url": "http://arxiv.org/abs/2608.03692",
+            "publish_date": "2026-08-04",
+            "abstract": "As user behavior histories continue to grow on modern Internet platforms, effectively modeling long behavior sequences has become crucial for predicting user interests in candidate items. Existing methods have evolved along two directions. One line dynamically retrieves target-relevant behaviors from long histories, enabling target-aware modeling but requiring target-dependent computation during inference. The other line compresses entire behavior sequences into compact user representations, achieving high efficiency and scalability but sacrificing target-specific adaptation due to target-independent encoding. The key challenge is therefore to enable target-aware modeling while preserving the efficiency and scalability of compressed user representations. To address this challenge, we propose \\textbf{SITA}, a target-aware compression framework for long-sequence recommendation. SITA enables target-aware compression by organizing compressed interests into semantic structures through semantic identifiers learned via parallel semantic quantization. Conditioned on the semantic identifier of the target item, SITA adaptively aggregates the corresponding structured interests to construct the target-specific user representation. Extensive experiments on public datasets and a large-scale industrial dataset demonstrate that SITA consistently outperforms representative baselines while maintaining strong scalability, highlighting its strong potential for real-world recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.03647": {
+            "title": "Conditionally Identifiable Latent-Environment Modeling for Out-of-Distribution Recommendation",
+            "authors": "Qianqian Wang, Wenwu Gong, Yunshan Li, Zhenqing Wu, Ruili Wang, Lili Yang",
+            "first_author": "Qianqian Wang",
+            "url": "http://arxiv.org/abs/2608.03647v1",
+            "pdf_url": "http://arxiv.org/abs/2608.03647",
+            "publish_date": "2026-08-04",
+            "abstract": "Out-of-distribution (OOD) recommendation is vulnerable to preference shifts induced by a latent environment. Existing methods can infer latent states from logged interactions, yet the statistical meaning of the latent environment and its effect on preference remain underdetermined. We formulate this task as conditionally identifiable risk-aware recommendation (CI-RR) and propose Conditionally Identifiable Latent-Environment Recommendation (CILER). CILER uses a user-conditioned exponential family to model the latent environment and a feature-indexed polynomial to specify how it changes preference. It predicts by marginalizing item probabilities over the inferred environment distribution. Under sufficient variation, correct specification, and decoder regularity, CILER identifies the environment-sensitive representation up to the stated equivalence class. We further bound excess deployment log-risk by environment-inference error. Controlled studies test the observable consequences of sufficient variation and model specification. Experiments on three datasets show that CILER improves all twelve OOD ranking metrics under feature, temporal, and geographical shifts within shared support.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.03382": {
+            "title": "LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation",
+            "authors": "Eugene Lee, Oseong Choi, Byungsoo Kang, Taeyeong Jang",
+            "first_author": "Eugene Lee",
+            "url": "http://arxiv.org/abs/2608.03382v1",
+            "pdf_url": "http://arxiv.org/abs/2608.03382",
+            "publish_date": "2026-08-04",
+            "abstract": "Multi-armed bandit algorithms, especially Thompson sampling, are widely used in online recommendation. Despite their ability to adapt from online feedback, these methods often suffer from cold-start limitations when newly introduced arms have little or no interaction history. In our setting, the candidate arms are user-generated textual comments, whose semantic content can reveal a title's appeal before sufficient interaction feedback is available. We therefore use large language models (LLMs) to extract semantic signals from comment text and convert them into informative Bayesian priors that warm-start Thompson sampling under sparse early-stage feedback. To account for aggregate segment-level differences in response patterns, we maintain and update posteriors separately for each gender-age segment. In a real-world online A/B/C test, we compare a uniform prior with two LLM-based designs: a Gender Prior for demographic-affinity cues and a Content Prior for title-specific identity cues. The results show that LLM-based priors are most beneficial in sparse-feedback regimes -- with the largest gains emerging once a small amount of interaction evidence has accumulated -- and that prior design leads to distinct funnel-level effects. We further analyze prior-reward alignment and demographic heterogeneity, finding that click-oriented alignment is strongest for the Gender Prior and that treatment effects vary substantially across demographic segments. These findings suggest that LLM-derived priors can serve as a practical warm-start mechanism for text-rich bandit recommendation, while also revealing deployment trade-offs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.02738": {
+            "title": "Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation",
+            "authors": "Zixuan Wang, Yuhong Chen, Yuxuan Zhu, Guidong Lei, Zhiluohan Guo, Yu Zhao, Kun Wang, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li",
+            "first_author": "Zixuan Wang",
+            "url": "http://arxiv.org/abs/2608.02738v1",
+            "pdf_url": "http://arxiv.org/abs/2608.02738",
+            "publish_date": "2026-08-03",
+            "abstract": "Industrial recommenders increasingly adopt the pretrain-then-transfer paradigm, yet behavioral distribution drift raises two questions: what to learn from behavior sequences, and how to transfer the learned knowledge while the pretrained model is continually refreshed. To resolve them, we propose Knowledge-Geometry Decoupling (KGD). For what to learn, conventional next-token prediction treats adjacency as dependency and may encode spurious transitions across unrelated sessions. We introduce Behavioral Multi-Token Prediction (BMTP) to retain only collaboratively or semantically related future items as supervision, yielding cleaner and more transferable behavioral knowledge. For how to transfer, pretrained knowledge and task-specific geometry impose conflicting optimization demands on shared parameters. To handle it, KGD assigns them to separate parameter sets: a refreshable encoder owns behavioral knowledge, while a task learner reads contextualized encoder states through read-only cross-attention and writes task-specific geometry through Anchored Calibration Residual (ACR) orthogonal to the pretrained embedding. The decoupled ownership enables continual knowledge refresh without task-gradient interference or invalidating downstream adaptation. KGD improves over strong pretrain-transfer baselines by 4-12% on eight public benchmarks and sustains its advantage over a 90-day production stream where baselines show no gains. KGD has been fully deployed in Shopee. In a live A/B test on Shopee Homepage Search, it increases GMV per user by 1.75% and advertising revenue by 1.53%, demonstrating its high practical value. We provide the core implementation of KGD at https://github.com/FuCongResearchSquad/KGD4REC.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.02682": {
+            "title": "Studying Developer Perceptions on the Potential of CI Recommendation Systems",
+            "authors": "Osamah H. Alaini, Taher A. Ghaleb",
+            "first_author": "Osamah H. Alaini",
+            "url": "http://arxiv.org/abs/2608.02682v1",
+            "pdf_url": "http://arxiv.org/abs/2608.02682",
+            "publish_date": "2026-08-03",
+            "abstract": "Continuous Integration (CI) is central to modern software development, yet developers often struggle to choose the most suitable CI service. Prior work has identified barriers to CI adoption but offers little empirical evidence on how developers select CI services or whether adoption decisions are driven by genuine project needs versus social influence. This paper presents an exploratory survey study addressing that gap. We aim to contact about 5,000 active GitHub developers, including both CI users and non-users. The study investigates: (1) what drives CI adoption and service selection, distinguishing need-driven from socially influenced motivations; (2) whether developers consider CI universally necessary or context-dependent and what barriers hinder adoption; and (3) developers' perceptions of automated CI recommendation systems. Our findings will inform researchers developing CI recommendation systems and practitioners aiming to streamline CI adoption in open-source projects.",
+            "primary_category": "cs.SE",
             "code_url": "null"
         }
     }

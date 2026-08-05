@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-04
+## Updated on 2026-08-05
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-04` | **SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation** | Rui Zhou, Bo Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03692) |
+| `2026-08-04` | **Conditionally Identifiable Latent-Environment Modeling for Out-of-Distribution Recommendation** | Qianqian Wang, Wenwu Gong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03647) |
+| `2026-08-04` | **LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation** | Eugene Lee, Oseong Choi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03382) |
+| `2026-08-03` | **Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation** | Zixuan Wang, Yuhong Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02738) |
+| `2026-08-03` | **Studying Developer Perceptions on the Potential of CI Recommendation Systems** | Osamah H. Alaini, Taher A. Ghaleb | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02682) |
 | `2026-08-03` | **Unpaired Modality-Agnostic Generative Recommendation** | Weihao Shen, Wei Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02477) |
 | `2026-08-03` | **SmartGR: Hierarchy and Beam-Aware Knowledge Distillation for Generative Recommendation** | Ziheng Zhang, Yu Cui, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.02048) |
 | `2026-08-03` | **A Self-Triggered Agentic Push Recommendation System** | Zhao-Yu Zhang, Qingying Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.01949) |
