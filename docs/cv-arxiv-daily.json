@@ -17379,6 +17379,17 @@
             "abstract": "Continuous Integration (CI) is central to modern software development, yet developers often struggle to choose the most suitable CI service. Prior work has identified barriers to CI adoption but offers little empirical evidence on how developers select CI services or whether adoption decisions are driven by genuine project needs versus social influence. This paper presents an exploratory survey study addressing that gap. We aim to contact about 5,000 active GitHub developers, including both CI users and non-users. The study investigates: (1) what drives CI adoption and service selection, distinguishing need-driven from socially influenced motivations; (2) whether developers consider CI universally necessary or context-dependent and what barriers hinder adoption; and (3) developers' perceptions of automated CI recommendation systems. Our findings will inform researchers developing CI recommendation systems and practitioners aiming to streamline CI adoption in open-source projects.",
             "primary_category": "cs.SE",
             "code_url": "null"
+        },
+        "2608.04807": {
+            "title": "WatchLens: A Configurable Platform for Online Video Recommendation Experiments",
+            "authors": "Deogyong Kim, Dongha Lee",
+            "first_author": "Deogyong Kim",
+            "url": "http://arxiv.org/abs/2608.04807v1",
+            "pdf_url": "http://arxiv.org/abs/2608.04807",
+            "publish_date": "2026-08-05",
+            "abstract": "Studying how video recommender systems shape user behavior requires online experiments that link playback behavior with the recommendation conditions that produced it. Existing user-study infrastructure provides one or the other, but not both within a single experimentation workflow. We present WatchLens, an open-source platform that fills this gap. WatchLens adopts a modular architecture in which user interfaces, content sources, and recommendation policies are independently configurable, with policies assignable separately to the feed and the watch page, while a standardized logging layer attaches the recommendation policy and ranking position to every event at recording time. This design enables researchers to analyze how recommendation policies and ranking positions shape downstream playback behavior, session continuation, and navigation between the feed and the watch page, with the linkage between policy and outcome available in each event rather than reconstructed afterwards. We demonstrate WatchLens with a short-form video case study that holds the interface, feed policy, and content pool constant while varying only the watch-page policy, showing how the platform supports session-level comparison of recommendation effects on real viewing behavior. WatchLens is released as a publicly available, single-server deployable system for reproducible online video recommendation research.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

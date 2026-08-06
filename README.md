@@ -1,4 +1,4 @@
-## Updated on 2026-08-05
+## Updated on 2026-08-06
 
 ---
 
@@ -26,6 +26,7 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-05` | **WatchLens: A Configurable Platform for Online Video Recommendation Experiments** | Deogyong Kim, Dongha Lee | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.04807) |
 | `2026-08-04` | **SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation** | Rui Zhou, Bo Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03692) |
 | `2026-08-04` | **Conditionally Identifiable Latent-Environment Modeling for Out-of-Distribution Recommendation** | Qianqian Wang, Wenwu Gong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03647) |
 | `2026-08-04` | **LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation** | Eugene Lee, Oseong Choi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03382) |
