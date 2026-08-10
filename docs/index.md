@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-09
+## Updated on 2026-08-10
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-07` | **Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census** | Vladimir Pitenin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07069) |
+| `2026-08-07` | **Teacher Retains Full Tokens, Student Merges Efficiently: TM20K for E-Commerce Sequence Modeling in Ad Recommendation** | Xinchun Li, Duoru Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07055) |
+| `2026-08-07` | **Hierarchical Quantization with Domain-Adaptive Sparse Routing for Generative Cross-Domain Recommendation** | Haiying He, Xiaopeng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.06997) |
+| `2026-08-07` | **From Classification to Recommendation: Empirical Analysis of Audio Embedding Models Application for Content-Based Music Recommendation** | Qingrui Li, Haowei Lou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.06928) |
+| `2026-08-07` | **Bridging Balancing Weights and Augmentation in Covariate-adjusted Analyses with Time-to-Event Endpoints: Theory and Practical Recommendations** | Baoshan Zhang, Yi Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.06774) |
+| `2026-08-06` | **Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation** | Ziyun Xu, Bosen Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.06632) |
 | `2026-08-05` | **Robustness and User-Perceived Value of Popularity Calibration in Music Recommendation: A User Study** | Oleg Lesota, Gustavo Escobedo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.05402) |
 | `2026-08-05` | **WatchLens: A Configurable Platform for Online Video Recommendation Experiments** | Deogyong Kim, Dongha Lee | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.04807) |
 | `2026-08-04` | **SITA: Semantic Interest Tokens for Target-Aware Compression in Long-Sequence Recommendation** | Rui Zhou, Bo Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.03692) |
