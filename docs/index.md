@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-10
+## Updated on 2026-08-11
 
 ---
 
@@ -23,6 +23,17 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-10` | **Adaptive Semantic Capacity Allocation for Parallel Generative Recommendation** | Chenxi Li, Yuchen Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09685) |
+| `2026-08-10` | **IntHQ: Task-Interactive Hierarchical Query on Dual-Stream Representations for Generative Recommendation** | Junjie Sun, Longfei Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09634) |
+| `2026-08-10` | **TSPORec: Token Selection via Preference Optimization for LLM-Based Sequential Recommendation** | Wenqiao Zhu, Chao Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09605) |
+| `2026-08-10` | **CoRCi: Cross-Reconstruction of Coherent Interests Modeling in Cross-Domain Sequential Recommendation** | Qingtian Bian, Tieying Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09580) |
+| `2026-08-10` | **CatPAL: Task-Aware Learning for Categorical Palette Recommendation** | Chin Tseng, Arran Zeyu Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09108) |
+| `2026-08-09` | **UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models** | Lei Xin, Bin Gu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.08627) |
+| `2026-08-09` | **Structure-Preserving Projection for Mitigating Modality Bias in LLM-Based Sequential Recommendation** | Tzu-Wei Chiu, Song-Duo Ma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.08583) |
+| `2026-08-08` | **Give the Long-tail More SPACE: Promoting Provider Fairness in Next POI Recommendation** | Anran Zhang, Jiaqi Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07998) |
+| `2026-08-08` | **PushDualGen: Enabling LLMs to Generate Semantic IDs with Interpretable Copy for Industrial Push Recommendation** | Manjia Lin, Da Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07989) |
+| `2026-08-07` | **Preserving Item Semantics for Free: Rethinking Token Initialization in LLM-Based Generative Recommendation** | Donald Loveland, Liam Collins, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07816) |
+| `2026-08-05` | **Weather- and Location-Aware Agentic Dining Recommendation: Leveraging LLM World Knowledge for Region-Sensitive Contextual Reasoning** | Kadharmoideen Fadurudeen | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07593) |
 | `2026-08-07` | **Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census** | Vladimir Pitenin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07069) |
 | `2026-08-07` | **Teacher Retains Full Tokens, Student Merges Efficiently: TM20K for E-Commerce Sequence Modeling in Ad Recommendation** | Xinchun Li, Duoru Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.07055) |
 | `2026-08-07` | **Hierarchical Quantization with Domain-Adaptive Sparse Routing for Generative Cross-Domain Recommendation** | Haiying He, Xiaopeng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.06997) |

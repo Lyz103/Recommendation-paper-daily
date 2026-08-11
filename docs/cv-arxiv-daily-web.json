@@ -17439,7 +17439,7 @@
             "title": "From Classification to Recommendation: Empirical Analysis of Audio Embedding Models Application for Content-Based Music Recommendation",
             "authors": "Qingrui Li, Haowei Lou, Chengkai Huang, Quan Z. Sheng, Lina Yao",
             "first_author": "Qingrui Li",
-            "url": "http://arxiv.org/abs/2608.06928v1",
+            "url": "http://arxiv.org/abs/2608.06928v2",
             "pdf_url": "http://arxiv.org/abs/2608.06928",
             "publish_date": "2026-08-07",
             "abstract": "Pretrained audio representation models learned from large-scale corpora have achieved strong performance in audio classification and understanding. However, most existing models are optimized for objectives such as masked prediction, contrastive learning, or audio-text alignment, which do not necessarily produce representation spaces well-suited to recommender systems. Unlike classification, music recommender systems must capture item relationships shaped by subjective and behavior-dependent listener preferences. Although pretrained audio embeddings have been explored in conventional recommender systems, their effectiveness in the rapidly emerging paradigm of generative recommender systems remains underexplored. To address this gap, we systematically evaluate six representative audio encoders across three types of music recommender systems: content-based, sequential, and Semantic-ID-based generative recommender systems. We further investigate how residual-quantization design, including codebook width, quantization depth, and retained Semantic-ID prefixes, affects the preservation of recommendation-relevant information. Experiments on two music recommendation datasets show that audio-text-aligned and music-domain representations are generally more effective when pretrained embedding geometry is used directly, whereas interaction-based sequential training substantially reduces performance differences among encoders. We also find that increasing Semantic-ID capacity does not consistently improve generative recommender systems and may introduce substantial instability. These findings provide practical guidance for selecting audio encoders and designing audio-derived Semantic IDs for modern music recommender systems.",
@@ -17466,6 +17466,127 @@
             "publish_date": "2026-08-06",
             "abstract": "Industrial recommendation systems predominantly adopt a passive ranking paradigm that infers user preferences from implicit behavioral signals (e.g., clicks, dwell time) rather than explicit, natural language inputs. As a result, users experience a persistent discrepancy between their explicit interests and what passive behavioral algorithms deliver, limiting their ability to express nuanced preferences or steer their feed in real time. To address this growing gap between how recommendations are optimized and how users wish to articulate their interests, we present Shape Your Feed (SYF), an LLM-based agentic recommendation framework that enables real-time, multimodal co-curation of content. SYF employs a three-tier architecture: (i) a Perception Flow that captures fine-grained user intent from text prompts, voice commands, and UI interactions; (ii) a Serving Flow that performs real-time agentic re-ranking and pruning of candidate items, grounded in a persistent Semantic Profile encoding evolving user preferences; and (iii) a Self-Evolution Flow that aligns system behavior with human judgments via Direct Preference Optimization (DPO) and an LLM-as-a-Judge ensemble. Offline evaluations show that SYF's alignment scoring module achieves 98.85% accuracy, substantially improving over strong few-shot baselines. Large-scale online A/B experiments on production traffic further demonstrate that SYF improves feed relevance and user sentiment, indicating a practical and scalable path toward interactive, user-steerable recommendation in industrial settings.",
             "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.09685": {
+            "title": "Adaptive Semantic Capacity Allocation for Parallel Generative Recommendation",
+            "authors": "Chenxi Li, Yuchen Lu, Xu Yang",
+            "first_author": "Chenxi Li",
+            "url": "http://arxiv.org/abs/2608.09685v1",
+            "pdf_url": "http://arxiv.org/abs/2608.09685",
+            "publish_date": "2026-08-10",
+            "abstract": "Autoregressive semantic ID recommenders are constrained by expensive beam-search decoding, which limits the practical length of item identifiers. Parallel generation methods alleviate this bottleneck by predicting all semantic ID tokens simultaneously, enabling longer IDs. However, existing semantic ID methods still rely on manually predefined and homogeneous ID structures, where both the number of semantic slots and the codebook size of each slot are treated as fixed hyperparameters. This ignores the heterogeneous capacity demands of different semantic subspaces and may allocate prediction capacity to slots with limited utility. We show that uniformly expanding semantic slots can provide limited gains, indicating redundant capacity in homogeneous semantic IDs. We propose InforID, a lightweight adaptive semantic target construction framework for parallel generative recommendation. InforID allocates a fixed capacity budget across candidate semantic slots, thereby jointly determining the effective ID length and slot-specific codebook sizes. Experiments demonstrate improved recommendation accuracy under comparable capacity budgets while preserving one-step parallel prediction.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.09634": {
+            "title": "IntHQ: Task-Interactive Hierarchical Query on Dual-Stream Representations for Generative Recommendation",
+            "authors": "Junjie Sun, Longfei Xu, Huimin Yan, Wei Luo, Kaikui Liu, Xiangxiang Chu",
+            "first_author": "Junjie Sun",
+            "url": "http://arxiv.org/abs/2608.09634v1",
+            "pdf_url": "http://arxiv.org/abs/2608.09634",
+            "publish_date": "2026-08-10",
+            "abstract": "Multi-task learning over heterogeneous data is fundamental to modern recommendation, while generative models are emerging as the backbone of next-generation recommenders. However, the integration of multi-task learning into the generative paradigm remains largely unexplored. Existing multi-task recommenders, in both discriminative and generative paradigms, extract task-relevant features from a single task-agnostic representation and wire tasks into a predefined conversion funnel. We show that this scheme is inherently prone to a threefold collapse. Source collapse, where task-specific signals are injected late and diluted in the shared latent space. Relational collapse, where task dependencies are either implicitly absorbed by the backbone or statically fixed by predefined funnels. Hierarchical collapse, where tasks depend on features at different scales and shift across training stages. We propose IntHQ, a multi-task generative recommender with three components, each alleviating one collapse. Dual-Stream Decoupling (DSD) injects task identity into computation stream early and separates the shared context stream from the task-specific stream, alleviating signal dilution. Task-Interactive Modeling (TIM) replaces the predefined funnel with explicit cross-task interaction, letting each task condition on the realized outcomes of its predecessors with learned, input-adaptive strength. Hierarchical Querying (HQ) lets each task gather multi-scale information across different layers at different training stages. In offline evaluations, IntHQ consistently outperforms competitive encoder backbones under four representative task-head configurations. Deployed in production on Amap, serving hundreds of millions of users for travel recommendation, IntHQ yields a 1.60\\% relative UVCTR lift.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.09605": {
+            "title": "TSPORec: Token Selection via Preference Optimization for LLM-Based Sequential Recommendation",
+            "authors": "Wenqiao Zhu, Chao Xu, Haipang Wu, Ji Liu",
+            "first_author": "Wenqiao Zhu",
+            "url": "http://arxiv.org/abs/2608.09605v1",
+            "pdf_url": "http://arxiv.org/abs/2608.09605",
+            "publish_date": "2026-08-10",
+            "abstract": "Large Language Models (LLMs) have emerged as powerful tools for improving recommendation systems. The effectiveness of LLMs arises from their ability to harness rich textual information and their capacity to model heterogeneous user preferences based on users' interaction history. However, due to the large-scale and deep architectures, LLM-based sequential recommendation approaches generally incur high inference costs, resulting in a low return on investment. To mitigate this cost, many existing approaches resort to using only the first few tokens of item descriptions, which inadvertently discards valuable information contained in the full text, thereby leading to suboptimal recommendation performance. To address this limitation, we propose a novel Token Selection approach for Preference Optimization in LLM-based sequential Recommendation, i.e., TSPORec, which accurately pinpoints informative tokens throughout the entire textual content to improve recommendation performance. Specifically, we design a three-stage pipeline to select informative tokens and introduce a novel proxy reward to facilitate the implementation. TSPORec not only enhances recommendation performance but also improves computational efficiency. Extensive experiments across two models and datasets demonstrate the superb performance (up to 31.25%) and efficiency (up to 63.4%) of our approach compared with six baseline approaches. Code is available at https://github.com/WNQzhu/TSPORec.git.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.09580": {
+            "title": "CoRCi: Cross-Reconstruction of Coherent Interests Modeling in Cross-Domain Sequential Recommendation",
+            "authors": "Qingtian Bian, Tieying Li, Marcus de Carvalho, Jiaxing Xu, Hui Fang, Yiping Ke",
+            "first_author": "Qingtian Bian",
+            "url": "http://arxiv.org/abs/2608.09580v1",
+            "pdf_url": "http://arxiv.org/abs/2608.09580",
+            "publish_date": "2026-08-10",
+            "abstract": "Cross-Domain Sequential Recommendation (CDSR) aims to alleviate data sparsity by transferring dynamic user interests across related domains. A key challenge lies in effectively bridging these domains. In single-domain modeling, models cannot distinguish between domain-specific and domain-invariant interests. Recent methods merge domain-specific sequences chronologically into a mixed-domain sequence to capture domain-invariant knowledge. However, they typically deploy separate encoders for the mixed-domain sequence and train them with per-domain loss aggregation. This workflow magnifies inter-domain discrepancies and disrupts domain-invariant interest coherence, especially when query target pairs in Seq2Seq originate from different domains. In this paper, we present CoRCi (Cross-Reconstruction for Coherent Interest), a dual-target CDSR framework that tackles these drawbacks. Specifically, CoRCi proposes a Cross-Reconstruction approach that generates mixed-domain representations directly from pre-encoded specific-domain representations via cross-attention. The generated representations are then trained using a single, sequence-level, domain-agnostic loss to preserve the coherence of domain-invariant interests. To further suppress domain discrepancies in mixed-domain modeling, CoRCi introduces FocalNCE, which embeds Focal Loss into the preceding mixed-domain InfoNCE objective. The new loss assigns higher penalties to negatives drawn from the same domain as the query, thereby strengthening domain-invariant alignment. Extensive experiments on four real-world datasets demonstrate that CoRCi consistently outperforms state-of-the-art CDSR counterparts, achieving statistically significant gains across all metrics.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.09108": {
+            "title": "CatPAL: Task-Aware Learning for Categorical Palette Recommendation",
+            "authors": "Chin Tseng, Arran Zeyu Wang, Yunqi Li, Danielle Albers Szafir",
+            "first_author": "Chin Tseng",
+            "url": "http://arxiv.org/abs/2608.09108v1",
+            "pdf_url": "http://arxiv.org/abs/2608.09108",
+            "publish_date": "2026-08-10",
+            "abstract": "Designing effective categorical palettes requires balancing a range of factors, including perceptual distinctiveness, category count, and task effectiveness. The effectiveness of categorical encodings can vary substantially depending on the target analytical tasks; however, existing recommendation tools largely ignore task context when evaluating palette quality, resulting in inconsistent performance across tasks. We synthesize findings from a series of multi-stage user studies into a unified model of task-based effectiveness for color encodings, shape encodings, and their redundant combination across category counts and seven common scatterplot tasks. Our results show that task and palette choice jointly influence perceptual accuracy: different color and shape palettes exhibit varying levels of robustness across tasks, indicating that palette effectiveness is task-dependent. We estimate task-specific perceptual strengths for 39 colors and 39 shapes using Bradley-Terry models, refined through adaptive sampling to target uncertain and task-sensitive comparisons. We further quantify cross-channel interactions using a redundant gain Delta G metric to model performance across color and shape pairings. We then train a predictive model that scores candidate palettes based on task, category count, and perceptual features. This model drives effective palette recommendations in CatPAL, a task-aware palette recommendation system grounded in empirical data responsive to user constraints. Our findings highlight the importance of selecting categorical palettes aligned with specific analytical tasks and demonstrate how task-aware modeling enables more reliable palette design. CatPAL translates empirical results into a practical tool that supports user-specified colors or shapes and returns ranked palette recommendations adaptable to a range of tasks.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2608.08627": {
+            "title": "UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models",
+            "authors": "Lei Xin, Bin Gu, Peize Li, Zitong Wang, Jianbo Zhao, Changjiang Jiang, Yanyue Xie, Chao Huang, Xuyang Zhao, Zunhai Su, Fanhu Zeng, Zhenglun Kong",
+            "first_author": "Lei Xin",
+            "url": "http://arxiv.org/abs/2608.08627v1",
+            "pdf_url": "http://arxiv.org/abs/2608.08627",
+            "publish_date": "2026-08-09",
+            "abstract": "Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without adding a compression-specific online module. To address this, we introduce UniMoMo, a post-training compression framework formulated as a constrained graph coarsening problem. Rather than relying on parameter distance, UniMoMo groups experts based on their functional similarity, using an unlabeled calibration set to measure how similarly experts respond to shared recommendation states. To prevent performance degradation, we introduce a layer-adaptive protection mechanism that restricts the merging of high-traffic experts based on their routing exposure. Across Amazon Beauty, KuaiRec, and TenRec with 2, 4, and 6 MoE blocks, the final four-expert checkpoints obtain source-relative five-run mean NDCG@10 ratios of 99.92%--102.30% and measured A100 speedups of 1.28$\\times$--1.63$\\times$. An aggressive two-expert, top-1 operating point obtains ratios of 98.36%--104.24% and speedups of 1.47$\\times$--2.21$\\times$. These endpoint results evaluate the complete conversion-and-adaptation workflow and show that a trained recommendation MoE can be exported at multiple serving budgets.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.08583": {
+            "title": "Structure-Preserving Projection for Mitigating Modality Bias in LLM-Based Sequential Recommendation",
+            "authors": "Tzu-Wei Chiu, Song-Duo Ma, Hsin-Yu Lin, Pu-Jen Cheng",
+            "first_author": "Tzu-Wei Chiu",
+            "url": "http://arxiv.org/abs/2608.08583v1",
+            "pdf_url": "http://arxiv.org/abs/2608.08583",
+            "publish_date": "2026-08-09",
+            "abstract": "Recent LLM-based recommenders integrate textual and collaborative signals by projecting collaborative embeddings into the embedding space of the LLM. However, this projection can introduce modality bias that distorts the underlying collaborative structure and limits the usefulness of projected embeddings. To address this issue, we propose a novel structure-preserving projection approach that maintains the relational geometry of collaborative embeddings through dedicated structure-preserving losses. Comprehensive experiments demonstrate that our approach consistently improves recommendation performance, providing a more reliable path for LLM-based recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.07998": {
+            "title": "Give the Long-tail More SPACE: Promoting Provider Fairness in Next POI Recommendation",
+            "authors": "Anran Zhang, Jiaqi Jiang, jiahui Jin, Yuhan Zhao",
+            "first_author": "Anran Zhang",
+            "url": "http://arxiv.org/abs/2608.07998v1",
+            "pdf_url": "http://arxiv.org/abs/2608.07998",
+            "publish_date": "2026-08-08",
+            "abstract": "Next point-of-interest (POI) recommendation predicts users' future destinations from historical mobility sequences and has become a key component of location-based services. However, mainstream models often concentrate exposure on a small set of popular POIs, leaving long-tail merchants systematically under-exposed. While provider fairness has recently attracted increasing attention, directly applying existing provider-fairness techniques to POI recommendation is problematic: (i) users face execution constraints; and (ii) POIs face resource supply constraints. To address this, we propose SPACE (Supply- and Physics-Aware Conditional Embedding generation), a model-agnostic framework that improves long-tail POI exposure via virtual user generation under explicit feasibility and supply control. SPACE consists of three stages: (1) community inference to capture heterogeneous user execution constraints; (2) unbalanced optimal-transport allocation to decide how many virtual users each tail POI should receive from which communities under POI-specific supply budgets; and (3) constraint-guided latent diffusion to generate POI-conditional, community-consistent virtual user embeddings. The generated user-POI pairs can be seamlessly used to train existing recommenders without modifying their architectures. Extensive experiments on three real-world datasets demonstrate that SPACE substantially improves provider fairness while maintaining and often improving recommendation accuracy across multiple backbone models. Our code is publicly available at https://github.com/Anniran1/SPACE-main.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.07989": {
+            "title": "PushDualGen: Enabling LLMs to Generate Semantic IDs with Interpretable Copy for Industrial Push Recommendation",
+            "authors": "Manjia Lin, Da Li, Yan Wang, Yong Jin, Zheming Ding, Wei Yuan, Lei Yan, Yanan Xia, Lu Zhang, Fan Yang, Xuanping Li, Yanan Niu",
+            "first_author": "Manjia Lin",
+            "url": "http://arxiv.org/abs/2608.07989v1",
+            "pdf_url": "http://arxiv.org/abs/2608.07989",
+            "publish_date": "2026-08-08",
+            "abstract": "Push recommendation in KuaiShou proactively delivers personalized content to nearly one billion users to facilitate their engagement. Recently, generative recommendation has achieved end-to-end user personalization through semantic ID. However, their black- box characteristics make recommendation logics difficult to trace, hindering their deployment. OneRec-Thinking addresses this by incorporating CoT before generating SIDs, but this significantly increases inference cost. To support large-scale industrial applications, we propose PushDualGen, a lightweight generator, which first generates the SID and then produces a copy as a skippable explanation. PushDualGen has been deployed in Kuaishou's push recommendation system. Online A/B tests demonstrate the effectiveness of PushDualGen, delivering significant improvements in both user attraction and satisfaction. The effective play rate for videos recommended to users has relatively increased by 8.50%, while the dissatisfaction rate has relatively fallen by 37.70%. In the long term, PushDualGen optimises the content ecosystem, providing more exposure for long-tail videos.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.07816": {
+            "title": "Preserving Item Semantics for Free: Rethinking Token Initialization in LLM-Based Generative Recommendation",
+            "authors": "Donald Loveland, Liam Collins, Bhuvesh Kumar, Danai Koutra, Neil Shah",
+            "first_author": "Donald Loveland",
+            "url": "http://arxiv.org/abs/2608.07816v1",
+            "pdf_url": "http://arxiv.org/abs/2608.07816",
+            "publish_date": "2026-08-07",
+            "abstract": "Recent advances in generative recommendation (GR) leverage large language models (LLMs) as recommender backbones, enabling LLMs to directly generate recommendations conditioned on item-interaction histories. In these systems, items are often represented through semantic IDs (SIDs) added to the LLM vocabulary as special tokens. Ideally, SIDs imbue item token representations with semantic priors, thereby improving model generalization. However, standard vocabulary expansion typically initializes these tokens as random Gaussian vectors, discarding the SIDs' underlying continuous geometry and forcing the LLM to relearn token relationships from interaction data. To demonstrate the consequences of this design, we first show that training from this initialization tends to organize SID embeddings around item popularity rather than semantics. We further show that, despite partially reducing the reliance on popularity and improving cold item performance, the computationally expensive process of continual pretraining (CPT) fails to reliably recover the original semantic geometry. To address these findings, we propose a simple, parameter-free intervention that initializes SID token embeddings directly from their corresponding centroids in the semantic embedding space. Requiring only a few lines of code and no additional training or inference overhead, this drop-in approach improves pure-SFT Recall@5 by up to 16%, reaches peak performance with up to 40% fewer SFT steps, and improves cold-item Recall@5 by up to 60%. Moreover, on datasets that benefit from additional CPT, centroid initialization reaches comparable performance while requiring half as many CPT epochs. Together, our findings show that preserving SID geometry, beyond shared-prefix structure, provides a simple and effective semantic prior for LLM-based GR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.07593": {
+            "title": "Weather- and Location-Aware Agentic Dining Recommendation: Leveraging LLM World Knowledge for Region-Sensitive Contextual Reasoning",
+            "authors": "Kadharmoideen Fadurudeen",
+            "first_author": "Kadharmoideen Fadurudeen",
+            "url": "http://arxiv.org/abs/2608.07593v1",
+            "pdf_url": "http://arxiv.org/abs/2608.07593",
+            "publish_date": "2026-08-05",
+            "abstract": "Context-aware recommender systems have long recognized that factors such as location, time, and weather shape where and what people choose to eat. Existing weather-aware food and point-of-interest recommenders, however, typically treat weather generically -- mapping conditions to preferences through hand-crafted rules or specially trained context models -- and do not capture that the culturally appropriate response to weather is itself region-specific: a rainy evening calls for hot tea and fried snacks in one culinary culture and for very different comfort food in another. Encoding such weather-by-region-by-cuisine interactions as explicit rules or training data is brittle and does not scale. We present a weather- and location-aware agentic dining-recommendation system that takes a different approach: a large language model (LLM) orchestrates tools for location and weather retrieval and then reasons in natural language over the combined context, drawing on the cultural and culinary world knowledge already latent in the model to produce region-sensitive, weather-appropriate recommendations without per-region rule tables or specialized training. We describe the agent architecture, the tool-orchestration flow (Google location services and a weather service feeding an OpenAI LLM), and the reasoning mechanism, and we report on a working prototype that was implemented and briefly deployed end-to-end. We discuss design trade-offs -- cost, latency, ambiguity handling, and fallbacks -- and we are explicit about limitations, including the absence of a formal user study and the risk of cultural stereotyping in locality-based inference. The contribution is architectural: a simple, extensible pattern for incorporating environmental and cultural context into agentic recommendation through LLM reasoning rather than engineered rules.",
+            "primary_category": "cs.HC",
             "code_url": "null"
         }
     }
