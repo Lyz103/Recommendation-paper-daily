@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-11
+## Updated on 2026-08-12
 
 ---
 
@@ -23,6 +23,16 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-11` | **Are We Really Making Progress in Group Recommendation? Unmasking the Tie-Breaking Illusion** | Song-Duo Ma, Pu-Jen Cheng | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11190) |
+| `2026-08-11` | **A Recommendation System Approach for Interference-Robust Sensor Subset Selection** | Kaan Buyukkalayci, Kyle Pak, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11143) |
+| `2026-08-11` | **TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation** | Pengyu Zhang, Yangqin Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10983) |
+| `2026-08-11` | **FedCGR: Federated Cross-Domain Generative Recommendation** | Zhuodong Liu, Hugen Lv, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10929) |
+| `2026-08-11` | **Deciding When to Rely on Visual Information: Gated Multimodal Fusion in Sequential Recommendation** | Natalija Glisovic, Danica Kragic, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10700) |
+| `2026-08-11` | **Multi Interests for Joint Search-Recommendation Modeling** | Xiangchen Pan, Wei Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10535) |
+| `2026-08-10` | **GenRec: An LLM-Backed Recommendation Ranker at Netflix** | Ying Li, Shradha Sehgal, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10257) |
+| `2026-08-10` | **Sequential Modality Dropout for Robust Multi-Modal Sequential Recommendation** | Guanqun Yang, Wenlong Zhang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10240) |
+| `2026-08-10` | **ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta** | Haoyu Han, Yuming Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10187) |
+| `2026-08-10` | **From Prediction to Incrementality: Causal Optimization for Large-Scale Targeting and Recommendation** | Changshuai Wei, John Bencina, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10182) |
 | `2026-08-10` | **Adaptive Semantic Capacity Allocation for Parallel Generative Recommendation** | Chenxi Li, Yuchen Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09685) |
 | `2026-08-10` | **IntHQ: Task-Interactive Hierarchical Query on Dual-Stream Representations for Generative Recommendation** | Junjie Sun, Longfei Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09634) |
 | `2026-08-10` | **TSPORec: Token Selection via Preference Optimization for LLM-Based Sequential Recommendation** | Wenqiao Zhu, Chao Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.09605) |

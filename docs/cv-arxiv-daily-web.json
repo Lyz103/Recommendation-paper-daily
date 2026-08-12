@@ -17588,6 +17588,116 @@
             "abstract": "Context-aware recommender systems have long recognized that factors such as location, time, and weather shape where and what people choose to eat. Existing weather-aware food and point-of-interest recommenders, however, typically treat weather generically -- mapping conditions to preferences through hand-crafted rules or specially trained context models -- and do not capture that the culturally appropriate response to weather is itself region-specific: a rainy evening calls for hot tea and fried snacks in one culinary culture and for very different comfort food in another. Encoding such weather-by-region-by-cuisine interactions as explicit rules or training data is brittle and does not scale. We present a weather- and location-aware agentic dining-recommendation system that takes a different approach: a large language model (LLM) orchestrates tools for location and weather retrieval and then reasons in natural language over the combined context, drawing on the cultural and culinary world knowledge already latent in the model to produce region-sensitive, weather-appropriate recommendations without per-region rule tables or specialized training. We describe the agent architecture, the tool-orchestration flow (Google location services and a weather service feeding an OpenAI LLM), and the reasoning mechanism, and we report on a working prototype that was implemented and briefly deployed end-to-end. We discuss design trade-offs -- cost, latency, ambiguity handling, and fallbacks -- and we are explicit about limitations, including the absence of a formal user study and the risk of cultural stereotyping in locality-based inference. The contribution is architectural: a simple, extensible pattern for incorporating environmental and cultural context into agentic recommendation through LLM reasoning rather than engineered rules.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2608.11190": {
+            "title": "Are We Really Making Progress in Group Recommendation? Unmasking the Tie-Breaking Illusion",
+            "authors": "Song-Duo Ma, Pu-Jen Cheng",
+            "first_author": "Song-Duo Ma",
+            "url": "http://arxiv.org/abs/2608.11190v1",
+            "pdf_url": "http://arxiv.org/abs/2608.11190",
+            "publish_date": "2026-08-11",
+            "abstract": "Recent group recommendation methods have reported strong improvements on standard benchmarks, but it remains unclear whether these gains always reflect genuine advances in modeling group preferences. In this paper, we show that several recent methods are affected by a systematic evaluation bias caused by the interaction between training-time score compression and evaluation-time deterministic tie-breaking. Specifically, an additional sigmoid transformation before the BPR objective can greatly increase tied top scores, making top-K metrics such as HR@K and NDCG@K highly sensitive to how ties are resolved. We revisit recent representative methods and their baselines on CAMRa2011 and Mafengwo under both group and user recommendation settings, and evaluate them with a tie-aware protocol that computes the exact expectation of HR@K and NDCG@K under uniform random tie-breaking. Our results show that many previously reported improvements shrink substantially under tie-aware evaluation, and the relative ranking of methods can change markedly. We further show that the additional sigmoid may act as implicit margin smoothing during optimization, and that temperature-scaled BPR can retain much of this benefit without inducing severe tie inflation. Overall, our findings highlight the importance of tie-aware evaluation for establishing reliable progress in group recommendation. The code is available at https://github.com/songduoma/TieAwareGroupRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.11143": {
+            "title": "A Recommendation System Approach for Interference-Robust Sensor Subset Selection",
+            "authors": "Kaan Buyukkalayci, Kyle Pak, Merve Karakas, Christina Fragouli",
+            "first_author": "Kaan Buyukkalayci",
+            "url": "http://arxiv.org/abs/2608.11143v1",
+            "pdf_url": "http://arxiv.org/abs/2608.11143",
+            "publish_date": "2026-08-11",
+            "abstract": "This paper develops a method for sensor-subset selection for tracking. Prior work showed that low-cost acoustic Received Signal Strength Indicator (RSSI) measurements can be used to recommend subsets of sensor nodes whose expensive sensing modalities, such as cameras, can achieve high tracking accuracy. While efficient, RSSI-based approaches are challenged by acoustic interference. We propose a recommendation-system-inspired framework that instead leverages frequency-band acoustic features and a Two-Tower Multi-Layer Perceptron (MLP) architecture to efficiently score candidate sensor subsets. Experimental results on outdoor vehicle-tracking deployments show that the proposed method can improve accuracy by around 20\\% over the RSSI baseline while maintaining the low computational overhead required for real-time selective sensing.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.10983": {
+            "title": "TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation",
+            "authors": "Pengyu Zhang, Yangqin Jiang, Klim Zaporojets, Congfeng Cao, Paul Groth",
+            "first_author": "Pengyu Zhang",
+            "url": "http://arxiv.org/abs/2608.10983v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10983",
+            "publish_date": "2026-08-11",
+            "abstract": "Multi-modal recommenders fuse collaborative signals with item modalities such as text, images, and audio, but the usefulness of each drifts over time and at different rates. For example, chocolate purchases typically guided by textual ingredient cues can shift toward visual packaging and ambient audio around Valentine's Day. This modality time-scale mismatch gives rise to two coupled challenges: (1) users require different modality proportions across temporal contexts, and (2) less relevant modalities are more likely to introduce outdated or misleading signals into the recommender. We address both challenges within a unified diffusion-based recommender, TimeRoute. A temporal-aware modal router maps each user's aggregated behavioral features to a personalized modality distribution, replacing the globally shared fusion weights used in prior work. The diffusion-based graph reconstructor is then conditioned on the same temporal profile through Feature-wise Linear Modulation (FiLM) with dual-stream long- and short-term denoising heads, suppressing outdated modality edges before they enter the propagation graph. Experiments on TikTok, Amazon-Baby, and Amazon-Sports demonstrate consistent improvements of up to 9.8\\% in Recall@K, Precision@K, and NDCG@K over strong baselines across 10-seed paired tests. Code is available at https://anonymous.4open.science/r/TimeRoute.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10929": {
+            "title": "FedCGR: Federated Cross-Domain Generative Recommendation",
+            "authors": "Zhuodong Liu, Hugen Lv, Xiangyu Li, Bohan Guo, Peiyu Hu",
+            "first_author": "Zhuodong Liu",
+            "url": "http://arxiv.org/abs/2608.10929v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10929",
+            "publish_date": "2026-08-11",
+            "abstract": "Cross-domain recommendation (CDR) transfers preference knowledge across related domains, but federated deployment makes cross-domain alignment difficult because the behavioral anchors that align item spaces, such as overlapping users and shared interaction signals, are often sparse, unavailable, or privacy-sensitive across clients. To address this tension, we revisit federated CDR as generation over a stable semantic item language. By representing items as discrete semantic ID (SID) sequences derived from public item-side metadata, cross-domain item alignment is induced by a shared vocabulary rather than by exchanging private interactions or aligning domain-specific embeddings. Directly federating SID-based generators, however, introduces two design constraints: the SID tokenizer must remain fixed to preserve cross-client token consistency, which creates a semantic-only bottleneck because local collaborative filtering (CF) signals cannot be globally shared or aligned; meanwhile, standard federated averaging can cause negative transfer under domain heterogeneity. To overcome these constraints, we propose FedCGR, a federated generative CDR framework that keeps the item language stable and makes adaptation explicit. FedCGR injects local CF evidence through a reliability-aware semantic interface and trains a prototype-personalized generator that selectively aggregates shared parameters according to domain relatedness while keeping domain-specific quantities local. Experiments on six Amazon cross-domain scenarios show that FedCGR consistently outperforms federated generative baselines and achieves competitive performance against strong sequential and federated CDR methods under both full-ranking and sampled evaluation protocols.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.10700": {
+            "title": "Deciding When to Rely on Visual Information: Gated Multimodal Fusion in Sequential Recommendation",
+            "authors": "Natalija Glisovic, Danica Kragic, Martin Tegner",
+            "first_author": "Natalija Glisovic",
+            "url": "http://arxiv.org/abs/2608.10700v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10700",
+            "publish_date": "2026-08-11",
+            "abstract": "Multimodal sequential recommender systems commonly fuse visual and collaborative signals uniformly, treating visual features as generically informative regardless of item or user context. We argue that visual utility, defined as the contribution of visual signals to recommendation quality, is a latent contextual variable that depends on both the item and the user's interaction history rather than a fixed item property. To model this variability, we introduce VisGate, a framework that makes adaptive item-level fusion decisions conditioned on item embeddings and the user's current sequence context. Visual representations are learned through a contrastive objective over sequential co-occurrence patterns, preserving complementarity with collaborative embeddings rather than aligning them into a shared space. Beyond achieving competitive recommendation performance, VisGate's learned gate serves as a measurement tool for understanding when and why visual information is beneficial. Our analyses show that visual utility varies across items, increases under interaction sparsity when collaborative signals are weak, and correlates with visual distinctiveness in semantically meaningful ways. Together, these findings highlight the importance of both fine-grained fusion and modality complementarity, while demonstrating that item-level visual utility can be estimated and interpreted through learned gating behaviour.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10535": {
+            "title": "Multi Interests for Joint Search-Recommendation Modeling",
+            "authors": "Xiangchen Pan, Wei Wei, Huakang Niu, Zhicong Cheng",
+            "first_author": "Xiangchen Pan",
+            "url": "http://arxiv.org/abs/2608.10535v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10535",
+            "publish_date": "2026-08-11",
+            "abstract": "Search and recommendation are crucial for understanding user preferences. More and more studies are attempting to jointly model search behavior and recommendation behavior, by integrating user active search and passive recommendation behavior data to better mine user preferences. However, although existing cross-domain unified modeling frameworks can effectively compensate for the differences in behavior between domains, they overlook the expression of interests in different scenarios under mixed sequences. In this study, we propose a multi-interest-based mixed sequential modeling framework MIJSR, which performs multi-interest mining and adaptive integration on search recommendation mixed sequences from both structural and semantic perspectives. Specifically, our model can be roughly divided into three modules: cross-domain behavior fusion, multi-interest mining, and multi-task prediction. Firstly, we align the representations of query and item through contrastive learning training. Then, we extract the multi interests of the mixed behavior sequence from both structural and semantic perspectives. Structurally, we extract search interests, recommendation interests, and cross interests through subsequence partitioning and mask settings; In terms of semantics, we use the semantic information of queries for clustering and perform semantic segmentation on mixed sequences to construct semantic multi interests. Finally, the adaptive fusion of multiple interests is combined with other side information to use a progressive layered extraction model for multi-task prediction. Extensive experiments on two open-source datasets have shown that our model can further enhance its accuracy in search and recommendation by extracting users' multi interests at a fine-grained level. Codes are available at https://github.com/pxcstart/MIJSR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10257": {
+            "title": "GenRec: An LLM-Backed Recommendation Ranker at Netflix",
+            "authors": "Ying Li, Shradha Sehgal, Arjun Rao, Rein Houthooft, Yaochen Zhu, Ashish Rastogi",
+            "first_author": "Ying Li",
+            "url": "http://arxiv.org/abs/2608.10257v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10257",
+            "publish_date": "2026-08-10",
+            "abstract": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an LLM-backed recommendation ranker built on top of an in-house foundational LLM. GenRec follows a two-phase framework: Phase 1 adapts an open-source LLM to Netflix data, developing deep understanding of the catalog and member behavior while balancing capabilities such as content understanding and instruction following. Phase 2 post-trains this foundation model with recommendation-ranking specific data, labels, and reward signals, aiming to align the ranker with business requirements and long-term member satisfaction.   This paper focuses on Phase 2 and the transition from a traditional discriminative ranker with thousands of engineered features to an LLM-backed ranker driven by verbalized user histories and context. We describe our design for input verbalization and context engineering, post-training data construction, reward integration, model architecture, and a cost-constrained serving design based on a prefill-only inference approach. We report results from a large-scale A/B test comparing GenRec against the current production ranker model, where we show that a GenRec model trained with substantially fewer Phase-2 labeled training examples and input signals can achieve statistically significant gains in offline and online metrics. We discuss how LLM-backed recommenders could shift the recommendation paradigm: from feature engineering to context engineering, and from bespoke architectures to shared foundation backbones. We also outline practical lessons for serving such systems under real-world resource constraints.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10240": {
+            "title": "Sequential Modality Dropout for Robust Multi-Modal Sequential Recommendation",
+            "authors": "Guanqun Yang, Wenlong Zhang",
+            "first_author": "Guanqun Yang",
+            "url": "http://arxiv.org/abs/2608.10240v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10240",
+            "publish_date": "2026-08-10",
+            "abstract": "Multi-modal sequential recommenders assume every item carries every modality, but real product catalogs often miss images or text, and a model trained on complete data loses much of its recommendation accuracy when a modality is unavailable at serving time. We propose Sequential Modality Dropout (SMD): during training, each modality stream (image and text) is independently erased with probability p for an entire user interaction history, so the model learns to predict the next item without relying on any single modality. We measure robustness by retention, the fraction of a model's full-modality accuracy (HR@10) that survives when a modality is removed at test time. Across four backbones (MM-SASRec, IISAN, MISSRec, and fMRLRec) on four Amazon domains, SMD raises text retention by 1.0 to 3.2x at essentially no cost to full-modality accuracy; under an extreme 95% per-item missing rate, it retains 61% of HR@10 versus 22% without (a 2.8x improvement). An optional cross-modal reconstruction loss further lifts retention from 90% to 98% on a simple additive backbone under severe text missingness. SMD is a four-line, architecture-agnostic change that makes multi-modal sequential recommenders robust to the missing modalities they actually encounter in deployment.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10187": {
+            "title": "ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta",
+            "authors": "Haoyu Han, Yuming Liu, Lei Huang, Lizhu Zhang, Jiliang Tang, Xiangjun Fan",
+            "first_author": "Haoyu Han",
+            "url": "http://arxiv.org/abs/2608.10187v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10187",
+            "publish_date": "2026-08-10",
+            "abstract": "Modern recommendation systems on social media platforms such as Meta must model complex social relationships, including friendships, group memberships, and creator interactions, alongside massive and heterogeneous content such as text and video. Traditional recommendation models, however, often omit these signals or treat them independently, lacking the reasoning capability to integrate multi-relational context for fine-grained personalization. We present ConnectionMind, a production-ready recommendation framework that tightly integrates the social network structure with large language models (LLMs) to enable scalable, interpretable, and reasoning-aware personalization in Meta. ConnectionMind constructs a heterogeneous graph connecting users, items, friends, groups, and creator pages, and formulates recommendation as a graph reasoning problem: discovering personalized paths from users to candidate items. An LLM-based policy is employed to reason over these graph structures and guide recommendation decisions. To train the system at scale, ConnectionMind adopts a two-stage learning strategy. We first perform supervised fine-tuning (SFT) on large-scale user-item interaction trajectories to initialize the reasoning policy, followed by end-to-end reinforcement learning (RL) to refine the model's ability to reason over social graphs for personalized recommendation. Extensive experiments on multiple real-world datasets demonstrate the effectiveness of ConnectionMind compared to representative baselines. More importantly, ConnectionMind has been deployed in Meta's large-scale recommendation pipeline and has been evaluated through online A/B tests, achieving a 0.43% improvement in video watch time. These results demonstrate measurable real-world impact in a production recommendation system.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.10182": {
+            "title": "From Prediction to Incrementality: Causal Optimization for Large-Scale Targeting and Recommendation",
+            "authors": "Changshuai Wei, John Bencina, Phuc Nguyen, Andre Assuncao Silva T Ribeiro, Benjamin Zelditch",
+            "first_author": "Changshuai Wei",
+            "url": "http://arxiv.org/abs/2608.10182v1",
+            "pdf_url": "http://arxiv.org/abs/2608.10182",
+            "publish_date": "2026-08-10",
+            "abstract": "Large-scale targeting and recommendation systems are typically built around predictive scores fed into heuristic or local allocation. When the business goal is incremental impact, as in marketing campaigns, incentives, and notifications, this paradigm systematically misallocates resources toward users who would have acted anyway. We present a decision-centric framework that instead optimizes causal effects under global constraints, aligning three components under a single objective: a causal neural network with a Transformer backbone for individual treatment-effect estimation, a Bayesian neural-bandit layer for uncertainty-aware exploration, and a dual-based large-scale linear-programming layer for constrained allocation. The framework also supports sequential context and multi-outcome, attribute-conditioned scoring through a Transformer encoder and outcome embeddings. We evaluate it with offline simulations on a public bandit dataset, targeted architectural ablations, and an online A/B test on LinkedIn Feed marketing traffic. We also distill production lessons on causal training-data construction and cost and delivery control, which were critical to successful deployment. The end-to-end treatment policy delivered a statistically significant $+7.20\\%$ lift in the primary long-term-value metric, demonstrating the feasibility of production-scale causal optimization under business constraints.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }
