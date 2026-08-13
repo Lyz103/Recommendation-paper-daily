@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-12
+## Updated on 2026-08-13
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-12` | **Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation** | Fenglin Yan, Bohao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12184) |
+| `2026-08-12` | **HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs** | Kangning Zhang, Haotian Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11980) |
+| `2026-08-12` | **From Overlooked to Explored: Recovering Item Relations via Mixture of Perspectives for Sequential Recommendation** | Junyoung Kim, Wonbin Kweon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11846) |
+| `2026-08-11` | **From Prompting to Behavioral Alignment: Personalized LLM Judges for Recommendation Evaluation** | Alireza S. Ziabari, Kat Ellis, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11493) |
+| `2026-08-11` | **Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces** | Mengyu Chen, Feiyu Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11354) |
 | `2026-08-11` | **Are We Really Making Progress in Group Recommendation? Unmasking the Tie-Breaking Illusion** | Song-Duo Ma, Pu-Jen Cheng | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11190) |
 | `2026-08-11` | **A Recommendation System Approach for Interference-Robust Sensor Subset Selection** | Kaan Buyukkalayci, Kyle Pak, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11143) |
 | `2026-08-11` | **TimeRoute: Time-Aware Modality Routing and Diffusion for Multi-Modal Recommendation** | Pengyu Zhang, Yangqin Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.10983) |
