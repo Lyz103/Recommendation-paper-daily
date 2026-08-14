@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-13
+## Updated on 2026-08-14
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-13` | **DTAMLP: Denoise Time-aware MLP for Session-based Recommendation** | Jiamu Zheng, Xiaojun Shan | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12975) |
+| `2026-08-13` | **FSGR: Mitigating Token Frequency Bias for Fair SID-Based Generative Recommendation** | Yuchen Zheng, Sihan Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12845) |
+| `2026-08-13` | **DrEM: Dual-Side Robust Ensemble Ranking from Noisy User Preference Predictions in Video Recommendation** | Canwei Huang, Tiantian He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12778) |
 | `2026-08-12` | **Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation** | Fenglin Yan, Bohao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12184) |
 | `2026-08-12` | **HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs** | Kangning Zhang, Haotian Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11980) |
 | `2026-08-12` | **From Overlooked to Explored: Recovering Item Relations via Mixture of Perspectives for Sequential Recommendation** | Junyoung Kim, Wonbin Kweon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11846) |
