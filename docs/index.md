@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-16
+## Updated on 2026-08-17
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-14` | **PriCoRec: A Privacy-Aware Cloud-Device Collaborative Framework for Ad Recommendation under Feature Constraints** | Dairui Liu, Zhongyi Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14429) |
+| `2026-08-14` | **MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation** | Juli Huang, Hannah Clay, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14068) |
+| `2026-08-14` | **EchoRec: Multi-Item Prediction-Empowered Generative Recommendation via Cycle-Consistent Preference Alignment** | Haokai Ma, Aoqi Hu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14011) |
+| `2026-08-14` | **Content Depth Matters in Short-Video Recommendation: Rethinking the Attention Economy** | Liwei Deng, Jing Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.13990) |
 | `2026-08-13` | **DTAMLP: Denoise Time-aware MLP for Session-based Recommendation** | Jiamu Zheng, Xiaojun Shan | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12975) |
 | `2026-08-13` | **FSGR: Mitigating Token Frequency Bias for Fair SID-Based Generative Recommendation** | Yuchen Zheng, Sihan Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12845) |
 | `2026-08-13` | **DrEM: Dual-Side Robust Ensemble Ranking from Noisy User Preference Predictions in Video Recommendation** | Canwei Huang, Tiantian He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12778) |
