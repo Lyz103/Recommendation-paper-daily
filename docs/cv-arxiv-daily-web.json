@@ -17703,7 +17703,7 @@
             "title": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
             "authors": "Fenglin Yan, Bohao Wang, Jian Zhang, Yu Cui, Tongya Zheng, Ye Feng, Can Wang, Jiawei Chen",
             "first_author": "Fenglin Yan",
-            "url": "http://arxiv.org/abs/2608.12184v1",
+            "url": "http://arxiv.org/abs/2608.12184v2",
             "pdf_url": "http://arxiv.org/abs/2608.12184",
             "publish_date": "2026-08-12",
             "abstract": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in user-item interactions, which are crucial for personalized recommendation. Existing methods either inject collaborative representations produced by external recommenders or model only intra-sequence dependencies, limiting their ability to exploit global collaborative patterns. To address this limitation, we propose GALLM, a graph-aware LLM framework for sequential recommendation. GALLM constructs a collaborative graph over text tokens and item tokens, and models three types of relations: Text--Text relations for preserving semantic dependencies, Item--Text relations for aligning item tokens with their textual descriptions, and Item--Item relations derived from global item co-occurrence patterns. These relations are transformed into lightweight learnable attention biases and incorporated into the LLM attention mechanism, enabling collaborative-aware token interactions without introducing an additional graph encoder. Experiments on four real-world benchmarks show that GALLM achieves the best performance among the compared baselines, improving over the strongest baseline by 9.76\\% on average in HR@5.",
@@ -17711,10 +17711,10 @@
             "code_url": "null"
         },
         "2608.11980": {
-            "title": "HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs",
+            "title": "Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation",
             "authors": "Kangning Zhang, Haotian Fang, Xukun Luo, Hao Yin, Yang Gao, Peng Yan, Weiwen Liu, Weinan Zhang, Yong Yu",
             "first_author": "Kangning Zhang",
-            "url": "http://arxiv.org/abs/2608.11980v1",
+            "url": "http://arxiv.org/abs/2608.11980v2",
             "pdf_url": "http://arxiv.org/abs/2608.11980",
             "publish_date": "2026-08-12",
             "abstract": "Semantic-ID generative recommenders represent each item as a short sequence of discrete semantic tokens and predict the next item by autoregressively generating this token sequence. This paradigm enables a unified generation interface for item IDs, histories, and item text, but it also creates a structured optimization bottleneck during reward-based post-training: when an early semantic token enters the wrong branch of the item-token space, finite rollout groups rarely reach the ground-truth item, so group-relative optimization receives identical zero rewards and produces no useful advantage. We propose Hint-Conditioned Generative Recommendation (HCGRec), a semantic-ID generative recommendation framework that recovers learning signal for such hard training instances. HCGRec diagnoses each instance with checkpoint rollouts and supplies a minimal target-prefix hint only when the current generator cannot reach the correct item. The model then generates the unhinted suffix under the hinted semantic branch, turning zero-reward groups into informative comparisons over item-token completions. Hinting also changes token identity: hinted prefix tokens are oracle-provided item context, while unhinted suffix tokens are sampled generation actions. We therefore introduce hint-aware credit decomposition, using supervised learning to preserve item-semantic and prefix-structure alignment for hinted tokens and GRPO to optimize the sampled suffix. Experiments on sequential recommendation benchmarks show that HCGRec substantially improves over supervised fine-tuning and vanilla reward-based post-training, while reducing zero-advantage training samples from over 70% to below 20%. The code is accessible at https://github.com/WncFht/GRec.",
@@ -17828,6 +17828,83 @@
             "pdf_url": "http://arxiv.org/abs/2608.13990",
             "publish_date": "2026-08-14",
             "abstract": "Driven by the attention economy, short-video Recommender Systems (RSs) are primarily optimized to maximize user engagement by promoting videos that capture attention within seconds. These systems inherently favor shallow-content videos that are effective at attracting immediate attention. However, growing evidence suggests that prolonged exposure to such content may negatively affect users' cognitive engagement and mental well-being, raising concerns about the long-term societal impact of the short-video platform. To tackle this challenge, this paper introduces a new metric, the \\textbf{Content Depth Score (CDS)}, to quantify the content depth of short videos. CDS measures the extent to which a video is expected to stimulate higher-order cognitive processes, using a seven-level scale grounded in established theories of cognitive psychology and learning. As an initial step toward this vision, we present \\textbf{SCOPE-Bench}, the first benchmark for content-depth evaluation in short-video recommendation. Built upon a large-scale open-source short-video dataset, SCOPE-Bench provides CDS annotations for 150K videos, enabling systematic evaluation of RSs from a cognitive-content perspective. Leveraging SCOPE-Bench, we evaluate 13 representative RSs and reveal a consistent preference for shallow-content videos. Moreover, we find that these algorithms recommending cognitively deep content are only marginally better than random selection, highlighting a previously overlooked limitation of existing recommendation objectives. Our code and datasets are available at https://liweidengdavid.github.io/SCOPE-Bench/.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.16797": {
+            "title": "UniDot: A Unified Network for Sequence Modeling and Feature Interaction in Large-scale Recommendation",
+            "authors": "Rongcheng Lin, Yan Sun, Jamey Zhang, Guanglei Xiong, Ivan Ji, Xianjie Chen, Shujian Bu",
+            "first_author": "Rongcheng Lin",
+            "url": "http://arxiv.org/abs/2608.16797v1",
+            "pdf_url": "http://arxiv.org/abs/2608.16797",
+            "publish_date": "2026-08-17",
+            "abstract": "Industrial recommenders rely on two model families that have evolved largely independently: feature-interaction models over multi-field user/item features, and sequential models over user-behavior histories. Production systems couple them only loosely. To unify the two, we present UniDot, a novel architecture for post-click conversion prediction built from the factorization-machine (FM) point of view: the embedding inner product---which powers collaborative filtering and lets a recommender generalize to unseen user--item pairs---is the same primitive as attention's query dot key scoring, so a single dot-product of tokens can underlie both feature interaction and sequence modeling. UniDot tokenizes non-sequential fields and multi-domain behavioral sequences into one shared token space and stacks a single macro-block in which a token-mixing bus and a sequence-retrieval bus (item tokens cross-attending the histories) run in parallel and exchange state each layer through an MLP-Mixer fusion, while an FM Highway carries explicit per-layer dot-product interactions around the residual stack directly to the classifier. The sequence side is embedded once per forward pass and shared by all consumers, bounding inference latency. Trained with a dual sparse/dense (Adagrad + Muon) optimizer, an auxiliary conversion-delay head, and multi-path mutual learning, UniDot finished as the runner-up on the Industrial track of the TAAC KDD Cup 2026.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.16407": {
+            "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
+            "authors": "Burak Tamer, Wolfram H\u00f6pken, Zehui Wang",
+            "first_author": "Burak Tamer",
+            "url": "http://arxiv.org/abs/2608.16407v1",
+            "pdf_url": "http://arxiv.org/abs/2608.16407",
+            "publish_date": "2026-08-17",
+            "abstract": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, where items with few or no interactions are not represented. In this paper, we propose LLM-augmented Multi-Graph Contrastive Learning (LLM-MGCL), a multi-graph neural network that uses semantic and spatial information about items to extend the LightGCN backbone with two auxiliary item-item graphs: a semantic graph constructed from sentence embeddings of LLM-generated photo summaries and keywords, and a geographic graph derived from Haversine distances between business locations. Item embeddings are propagated over all three graphs in parallel, fused additively, and aligned across views through a bidirectional InfoNCE contrastive objective that connects behavioral, semantic, and spatial representations of the same items. Experiments on the Yelp Multimodal Recommendation Dataset show that LLM-MGCL outperforms classical collaborative filtering, matrix factorization, and interaction-only graph neural network baselines. It improves Recall@20 by 52.0% and NDCG@20 by 64.8% over LightGCN while performing on par with the strongest contrastive baseline, Self-supervised Graph Learning (SGL), which is also affected by the cold-start problem. An ablation study reveals that the cross-view contrastive alignment (CA) is the primary driver of these gains, with the best performance achieved when all three graphs are combined. Our results suggest that externally grounded, LLM-derived item knowledge can effectively compensate for missing collaborative signal and mitigate the item cold-start problem in POI recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.16274": {
+            "title": "Decoupled Temporal Encoding for Generative Recommendation",
+            "authors": "Pengfei Jia, Jingjian Wang, Jingmao Li, Ge Zhang, Feng Shi",
+            "first_author": "Pengfei Jia",
+            "url": "http://arxiv.org/abs/2608.16274v1",
+            "pdf_url": "http://arxiv.org/abs/2608.16274",
+            "publish_date": "2026-08-17",
+            "abstract": "Positional encoding is a fundamental component of Transformer-based generative recommendation models, where user histories are modeled as autoregressive item sequences. Most positional encoding methods are inherited from natural language processing and mainly represent discrete item order. However, recommendation sequences go beyond ordered lists, as timestamps and temporal effects also shape item relations. Our work is motivated by a real-world food delivery and instant retail recommendation system, where user behavior exhibits multi-level temporal regularities, including recency effects, meal-time peaks, weekday-weekend shifts, and promotion-driven traffic bursts. Existing methods partially address this issue through timestamp features, interval embeddings, decay functions, or attention biases, but they usually inject heterogeneous temporal signals through a unified representation or a single modeling pathway, making it difficult to distinguish broad temporal dynamics from local order cues. To address this limitation, we propose Decoupled Temporal Encoding, a lightweight framework for generative recommendation. DTE separates temporal dynamics from order information through two complementary modules: a personalized macro-temporal module that injects compact temporal primitives into item embeddings, and a time-gated micro-sequential module that introduces relative-order bias only when interactions are temporally dense. DTE is also parameter-efficient and deployment-friendly, allowing easy integration into existing systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.16075": {
+            "title": "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
+            "authors": "WooJoo Kim, HyunSik Yoo, JunYoung Kim, JaeHyung Lim, SeongKu Kang, HwanJo Yu",
+            "first_author": "WooJoo Kim",
+            "url": "http://arxiv.org/abs/2608.16075v1",
+            "pdf_url": "http://arxiv.org/abs/2608.16075",
+            "publish_date": "2026-08-17",
+            "abstract": "Continual recommendation aims to capture evolving user interests from streaming data but struggles with sparsity. LLM enhancers mitigate this with semantic knowledge, but naive integration creates a new conflict. We identify this as the Stability-Plasticity-Cognitivity (SPC) Trilemma, where generalized LLM semantic priors (Cognitivity) conflict with retaining personalized historical preferences (Stability) and adapting to individual interest shifts (Plasticity). To address this, we propose Trilemma-Responsive Adaptive Continual Enhancement for Recommendation (TRACER). TRACER synergistically combines three specialized modules, each targeting stability, plasticity, or cognitivity, while preventing any single lemma from dominating. This holistic design enables semantic knowledge to support history retention and adaptation to evolving interests without disrupting continual learning. Across five real-world datasets, TRACER effectively harmonizes the SPC trilemma and outperforms state-of-the-art baselines by up to 14.38%. Our code is available at https://github.com/woo-joo/TRACER_CIKM26.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.16073": {
+            "title": "GOD: Enhancing Generalization via Deep Grafting for Sequential Recommendation",
+            "authors": "WooJoo Kim, JunYoung Kim, JaeHyung Lim, HwanJo Yu",
+            "first_author": "WooJoo Kim",
+            "url": "http://arxiv.org/abs/2608.16073v1",
+            "pdf_url": "http://arxiv.org/abs/2608.16073",
+            "publish_date": "2026-08-17",
+            "abstract": "Sequential recommenders often struggle with sparse and noisy histories, limiting generalization to unseen interactions. Knowledge distillation mitigates this by transferring dense supervision from a teacher to a student. However, most distillation methods run teacher and student independently, then match student outputs or representations to the teacher. Such supervision entangles student-component effects, blurring whether weak generalization stems from unreliable embeddings, overfitted encoding, or co-adaptation to sparse histories. In this paper, we propose Graft-Oriented Distillation (GOD), a component-level distillation framework for improved generalization through grafting. Grafting denotes replacing selected frozen-teacher components with trainable student counterparts to build hybrid source models. GOD uses these hybrid models to evaluate student embeddings with the teacher encoder and the student encoder with teacher embeddings, providing component-level feedback. At inference, GOD uses only the student, incurring no additional cost. Across three real-world datasets, GOD outperforms state-of-the-art baselines by up to 13.92%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.15949": {
+            "title": "Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation",
+            "authors": "Cedar Site Bai, Duanshun Li, Zhenyu Liao, Sheikh Sarwar, Huiyuan Chen, Yuan Chen, Changhe Yuan, Haiyang Zhang, Qilin Qi",
+            "first_author": "Cedar Site Bai",
+            "url": "http://arxiv.org/abs/2608.15949v1",
+            "pdf_url": "http://arxiv.org/abs/2608.15949",
+            "publish_date": "2026-08-16",
+            "abstract": "Recent advances in large language models (LLMs) have enabled their use as conversational recommender systems (CRS), demonstrating strong recommendation accuracy and natural dialogue. However, guiding multi-turn interactions to elicit user preferences effectively remains challenging. Existing approaches either use separate reinforcement learning agents with templated interactions or optimize for interactivity judged by another LLM, without measuring how much useful information is actually gained. We propose a new approach that quantifies the effectiveness of each interaction by the reduction in the assistant's uncertainty, measured via entropy over recommendations. We apply this entropy reduction as a reward---without relying on ground-truth recommendations, which are often unavailable in real-world scenarios---to fine-tune the LLM, enabling strategic interaction generation. Empirical results with supervised fine-tuning (SFT) and direct preference optimization (DPO) on the INSPIRED and ReDial datasets show that our method improves both recommendation quality and conversational efficiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.15877": {
+            "title": "Dear Algo: A Precision-First Agentic Intent Layer for Unified Search and Recommendation",
+            "authors": "Rui Wang, Jiazhou Wang, Zheng Wei, Chenglin Lu, Fangcheng Sun, Ivy Sun, Jin Sun, Hui Geng, Lillian Zhang, Chao Yang, Lei Chen, Shahin Sefati, Reem Helou, Joe Zhou, Babak Shakibi, Yiyi Pan, Bi Xue, Hong Yan, Shujian Bu",
+            "first_author": "Rui Wang",
+            "url": "http://arxiv.org/abs/2608.15877v1",
+            "pdf_url": "http://arxiv.org/abs/2608.15877",
+            "publish_date": "2026-08-16",
+            "abstract": "Search and recommendation serve a shared discovery objective but encode intent differently. We study this boundary through Dear Algo on Threads, a deployed product where open-ended requests such as \\emph{more NBA news} or \\emph{less politics} steer subsequent feed recommendations rather than return a one-shot result list. Its agentic intent layer compiles explicit, inferred, negative, and compound intent into a grounded executable plan, then invokes conventional retrieval and optional semantic or multimodal reranking. The layer shares an intent-to-retrieval contract without requiring one model or serving path across search-like and recommendation-like modes.   We evaluate Dear Algo under a precision-first objective. In a blinded audit of 300 public request-item pairs (296 evaluable), a strict categorical LLM-as-a-judge gate achieved 94.4\\% exact-Relevant precision [88.8\\%, 98.9\\%]. Across 72 normalized request clusters, the full configuration produced 7.73 judge-qualified candidates per 20 slots versus 6.61 for an LLM-derived-query baseline, a gain of 1.11 [0.12, 2.12]. In a candidate-randomized serving-path study restricted to the reranker path's first 72 eligible hours, the user-weighted judge-Irrelevant share among judged admissions was 2.80\\% versus 4.78\\% off (-1.97 points [-3.02, -0.94]), while Exact-Relevant share was 2.24 points higher [0.08, 4.41].   Together, these studies show how explicit natural-language intent can be carried into feed recommendation under a precision-first evaluation framework",
             "primary_category": "cs.AI",
             "code_url": "null"
         }

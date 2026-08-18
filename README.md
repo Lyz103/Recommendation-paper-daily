@@ -1,4 +1,4 @@
-## Updated on 2026-08-17
+## Updated on 2026-08-18
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-17` | **UniDot: A Unified Network for Sequence Modeling and Feature Interaction in Large-scale Recommendation** | Rongcheng Lin, Yan Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16797) |
+| `2026-08-17` | **POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment** | Burak Tamer, Wolfram Höpken, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16407) |
+| `2026-08-17` | **Decoupled Temporal Encoding for Generative Recommendation** | Pengfei Jia, Jingjian Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16274) |
+| `2026-08-17` | **TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation** | WooJoo Kim, HyunSik Yoo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16075) |
+| `2026-08-17` | **GOD: Enhancing Generalization via Deep Grafting for Sequential Recommendation** | WooJoo Kim, JunYoung Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16073) |
+| `2026-08-16` | **Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation** | Cedar Site Bai, Duanshun Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.15949) |
+| `2026-08-16` | **Dear Algo: A Precision-First Agentic Intent Layer for Unified Search and Recommendation** | Rui Wang, Jiazhou Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.15877) |
 | `2026-08-14` | **PriCoRec: A Privacy-Aware Cloud-Device Collaborative Framework for Ad Recommendation under Feature Constraints** | Dairui Liu, Zhongyi Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14429) |
 | `2026-08-14` | **MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation** | Juli Huang, Hannah Clay, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14068) |
 | `2026-08-14` | **EchoRec: Multi-Item Prediction-Empowered Generative Recommendation via Cycle-Consistent Preference Alignment** | Haokai Ma, Aoqi Hu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14011) |
@@ -34,7 +41,7 @@
 | `2026-08-13` | **FSGR: Mitigating Token Frequency Bias for Fair SID-Based Generative Recommendation** | Yuchen Zheng, Sihan Xu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12845) |
 | `2026-08-13` | **DrEM: Dual-Side Robust Ensemble Ranking from Noisy User Preference Predictions in Video Recommendation** | Canwei Huang, Tiantian He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12778) |
 | `2026-08-12` | **Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation** | Fenglin Yan, Bohao Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.12184) |
-| `2026-08-12` | **HCGRec: Hint-Conditioned Generative Recommendation with Semantic IDs** | Kangning Zhang, Haotian Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11980) |
+| `2026-08-12` | **Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation** | Kangning Zhang, Haotian Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11980) |
 | `2026-08-12` | **From Overlooked to Explored: Recovering Item Relations via Mixture of Perspectives for Sequential Recommendation** | Junyoung Kim, Wonbin Kweon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11846) |
 | `2026-08-11` | **From Prompting to Behavioral Alignment: Personalized LLM Judges for Recommendation Evaluation** | Alireza S. Ziabari, Kat Ellis, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11493) |
 | `2026-08-11` | **Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces** | Mengyu Chen, Feiyu Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.11354) |
