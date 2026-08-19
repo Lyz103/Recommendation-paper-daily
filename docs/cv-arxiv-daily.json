@@ -17907,6 +17907,39 @@
             "abstract": "Search and recommendation serve a shared discovery objective but encode intent differently. We study this boundary through Dear Algo on Threads, a deployed product where open-ended requests such as \\emph{more NBA news} or \\emph{less politics} steer subsequent feed recommendations rather than return a one-shot result list. Its agentic intent layer compiles explicit, inferred, negative, and compound intent into a grounded executable plan, then invokes conventional retrieval and optional semantic or multimodal reranking. The layer shares an intent-to-retrieval contract without requiring one model or serving path across search-like and recommendation-like modes.   We evaluate Dear Algo under a precision-first objective. In a blinded audit of 300 public request-item pairs (296 evaluable), a strict categorical LLM-as-a-judge gate achieved 94.4\\% exact-Relevant precision [88.8\\%, 98.9\\%]. Across 72 normalized request clusters, the full configuration produced 7.73 judge-qualified candidates per 20 slots versus 6.61 for an LLM-derived-query baseline, a gain of 1.11 [0.12, 2.12]. In a candidate-randomized serving-path study restricted to the reranker path's first 72 eligible hours, the user-weighted judge-Irrelevant share among judged admissions was 2.80\\% versus 4.78\\% off (-1.97 points [-3.02, -0.94]), while Exact-Relevant share was 2.24 points higher [0.08, 4.41].   Together, these studies show how explicit natural-language intent can be carried into feed recommendation under a precision-first evaluation framework",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2608.17613": {
+            "title": "Once Generated, Ranked: End-to-End Generative Slate Recommendation with Unified Semantic-Collaborative IDs",
+            "authors": "Yang Hu, Jiayi Guo, Jingui Ma, Ning Li, Jiangling Qin, Yanming Li, Yang Deng, Xiaoshuang Chen, Kaiqiao Zhan",
+            "first_author": "Yang Hu",
+            "url": "http://arxiv.org/abs/2608.17613v1",
+            "pdf_url": "http://arxiv.org/abs/2608.17613",
+            "publish_date": "2026-08-18",
+            "abstract": "Slate recommendation treats a slate rather than an individual item as the recommendation unit, requiring joint optimization of item interactions and slate utility. Existing approaches typically separate candidate generation from ranking and restrict optimization to retrieved candidates. Generative recommendation with Semantic IDs (SIDs) offers a path to end-to-end recommendation, but existing SID construction often lacks recommendation-aware semantics and effective local collaborative signals, while next-token prediction is misaligned with slate-level objectives. We propose OGR, an end-to-end framework that directly generates ordered slates-\"Once Generated, Ranked.\" OGR first introduces TUSID, which adaptively fuses item-specific semantic and local collaborative information into hierarchical SIDs. It then uses list-wise preference planning and pipelined position-wise SID decoding to model global preferences and inter-item dependencies while generating ordered slates. We further propose SPA, a reward-guided conservative policy optimization method that aligns generated slates with user preferences beyond likelihood imitation. Offline experiments show that OGR outperforms representative baselines, with 48.2% and 27.2% relative NDCG@5 gains on industrial and public datasets, respectively. Online A/B testing on Kuaishou further yields a 1.120% improvement in Effective Views.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.17316": {
+            "title": "Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation",
+            "authors": "Xurong Liang, Tong Chen, Quoc Viet Hung Nguyen, Jianxin Li, Xiangliang Zhang, Hongzhi Yin",
+            "first_author": "Xurong Liang",
+            "url": "http://arxiv.org/abs/2608.17316v1",
+            "pdf_url": "http://arxiv.org/abs/2608.17316",
+            "publish_date": "2026-08-18",
+            "abstract": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative, yet their reduced capacity often requires reasoning or knowledge distillation methods that increase latency or depend on larger models. Combined with autoregressive generation, these approaches face severe scalability bottlenecks. In contrast, discriminative LLM-RSs enable efficient full-corpus ranking through embedding similarity, but compact backbones remain limited in expressiveness and structural adaptivity. We propose the Fusion of Layer-wise Exits for Sequential Recommendation (FLEXRec), a discriminative framework that enhances compact LLMs while retaining scalable full-corpus ranking. FLEXRec inserts prediction heads (i.e., exits) at multiple transformer layers and adaptively fuses their score distributions. An adaptive continuous router (AC-Router) dynamically selects both the number and identity of exits for each user sequence, while a novel target-k hinge loss regulates routing sparsity. Experiments on three real-world datasets with Qwen 3 1.7B and Llama 3.2 3B show that FLEXRec achieves state-of-the-art accuracy among compact-backbone methods while remaining highly efficient. Code: https://github.com/xurong-liang/FLEXRec",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.17138": {
+            "title": "Overview of the TREC 2025 Product Search and Recommendation Track",
+            "authors": "Dean E. Alvarez, Surya Kallumadi, Daniel Campos, ChengXiang Zhai, Alessandro Magnani, Rikiya Takehi, Michael D. Ekstrand",
+            "first_author": "Dean E. Alvarez",
+            "url": "http://arxiv.org/abs/2608.17138v1",
+            "pdf_url": "http://arxiv.org/abs/2608.17138",
+            "publish_date": "2026-08-17",
+            "abstract": "In the past few years, consumers have moved the bulk of their product exploration and purchasing efforts online seeking speed, convenience, and price comparison with ease unimaginable for in-person shopping. As product catalogs have grown in diversity and size product search and recommendation have become a cornerstone for e-commerce sites.   Despite the widespread usage of search engines in e-commerce, there is no high-quality dataset designed to evaluate end-to-end retrieval quality. In 2025, we ran a revised and continued version of the Product Search track previously run at TREC 2023 and TREC 2024. The 2025 product search track had two tasks: query expansion and related-product recommendation. The related-product recommendation task is particularly novel, providing an annotated data set of product relationships that distinguishes between complementary and related products. We anticipate the data from this track will enable better recommendation and search applications that reflect user needs, as a building block for conversational product discovery experiences.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

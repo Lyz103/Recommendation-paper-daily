@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-18
+## Updated on 2026-08-19
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-18` | **Once Generated, Ranked: End-to-End Generative Slate Recommendation with Unified Semantic-Collaborative IDs** | Yang Hu, Jiayi Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17613) |
+| `2026-08-18` | **Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation** | Xurong Liang, Tong Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17316) |
+| `2026-08-17` | **Overview of the TREC 2025 Product Search and Recommendation Track** | Dean E. Alvarez, Surya Kallumadi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17138) |
 | `2026-08-17` | **UniDot: A Unified Network for Sequence Modeling and Feature Interaction in Large-scale Recommendation** | Rongcheng Lin, Yan Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16797) |
 | `2026-08-17` | **POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment** | Burak Tamer, Wolfram Höpken, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16407) |
 | `2026-08-17` | **Decoupled Temporal Encoding for Generative Recommendation** | Pengfei Jia, Jingjian Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16274) |
