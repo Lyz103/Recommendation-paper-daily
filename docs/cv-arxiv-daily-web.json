@@ -17940,6 +17940,61 @@
             "abstract": "In the past few years, consumers have moved the bulk of their product exploration and purchasing efforts online seeking speed, convenience, and price comparison with ease unimaginable for in-person shopping. As product catalogs have grown in diversity and size product search and recommendation have become a cornerstone for e-commerce sites.   Despite the widespread usage of search engines in e-commerce, there is no high-quality dataset designed to evaluate end-to-end retrieval quality. In 2025, we ran a revised and continued version of the Product Search track previously run at TREC 2023 and TREC 2024. The 2025 product search track had two tasks: query expansion and related-product recommendation. The related-product recommendation task is particularly novel, providing an annotated data set of product relationships that distinguishes between complementary and related products. We anticipate the data from this track will enable better recommendation and search applications that reflect user needs, as a building block for conversational product discovery experiences.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2608.18952": {
+            "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
+            "authors": "Minh Hoang Nguyen, Tung Le, Huy Tien Nguyen",
+            "first_author": "Minh Hoang Nguyen",
+            "url": "http://arxiv.org/abs/2608.18952v1",
+            "pdf_url": "http://arxiv.org/abs/2608.18952",
+            "publish_date": "2026-08-19",
+            "abstract": "Large language models can improve recommendation quality by reasoning explicitly over user history and candidate items - for example, extracting a user's preferences or explaining why one item fits better than another - rather than mapping history directly to a ranked list. This reasoning, however, is expensive to repeat on every ranking request and, once produced, is typically consumed once and discarded, leaving it neither reusable across future requests nor easy to inspect or correct as user tastes drift. Our insight is that reasoning does not need to be regenerated at every call if it can instead be compressed once into a compact, structured memory that a lightweight model retrieves from. We propose rEDMRec, which distills a teacher LLM's reasoning into four typed, editable experience channels - long-term preference, short-term context, item-perception, and counterfactual hard-negative comparisons - maintained by an LLM memory controller that performs Add/Delete/Modify/Keep operations and refines entries via K-agent debate. A lightweight student LLM then ranks candidates purely by retrieving from this memory, without invoking the teacher again, decoupling online inference cost from reasoning depth. Across ML-1M, Amazon Beauty, and Steam and ten student backbones, rEDMRec improves HR@1 over zero-shot, few-shot, and RAG on every backbone, and over GraphRAG on most backbones, with Impv up to 13.3% vs. the second-best baseline on ML-1M. Channel ablations show that short-term context is the only channel that helps consistently across capacity tiers, whereas long-term, item-perception, and counterfactual contributions are capacity-dependent (and can reverse on the strongest students); debate-based memory optimization lowers bank duplication by 7.4 percentage points while raising downstream HR@1 by up to +0.029 over six optimization epochs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.18779": {
+            "title": "SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation",
+            "authors": "Jiandong Ding, Huijie Qin, Tiandeng Wu, Yi Cao",
+            "first_author": "Jiandong Ding",
+            "url": "http://arxiv.org/abs/2608.18779v1",
+            "pdf_url": "http://arxiv.org/abs/2608.18779",
+            "publish_date": "2026-08-19",
+            "abstract": "Semantic-ID mappings are reusable interfaces between item tokenizers and generative recommenders, yet released mappings rarely state whether they are coherent, what structure they expose, how generated paths resolve, or what must be revalidated after a refresh. SIDScope is a source-traced diagnostic resource for these decisions. It normalizes item-to-code artifacts, verifies provenance and joins, profiles mapping structure, compares paired revisions, and accounts for path-to-item outcomes in generated traces. Across nine source-traced tokenizer exports from seven families on Amazon and Yelp data - eight executable routes plus one auditable snapshot - SIDScope reveals that interface health is multi-signal rather than scalar. Its central finding is mechanism-conditional: prefix alignment strongly tracks held-out candidate exposure when retrieval consumes SID prefixes, then weakens as scoring becomes prefix-independent. Trained trace accounting exposes a second hidden gap: a valid target path can survive without uniquely retrieving the target item by 1.2-3.0 percentage points. A refresh case establishes a third: repairing the mapping does not by itself restore an inherited generator; model reuse requires a separate handoff check. The package provides frozen evidence summaries, conformance reports, trace labels, table builders, and CPU-only verifiers. It supports decisions about artifact readiness, interface risks, and revalidation before model reuse.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.18723": {
+            "title": "Budget-First Tariff Recommendation (BFTR): A Complete Algorithmic Framework for Telecom Plan Recommendation without Overcharging",
+            "authors": "Ghislain Dorian Tchuente Mondjo",
+            "first_author": "Ghislain Dorian Tchuente Mondjo",
+            "url": "http://arxiv.org/abs/2608.18723v1",
+            "pdf_url": "http://arxiv.org/abs/2608.18723",
+            "publish_date": "2026-08-19",
+            "abstract": "Telecom operators traditionally offer predefined tariff grids, forcing users to choose from a limited set of plans. This paper proposes BFTR (Budget-First Tariff Recommendation), a complete algorithmic framework integrating eight Budget-First strategies, including two original hybrid approaches: Recursive Hybrid (conditional interpolation) and Knapsack-First Hybrid (priority knapsack). Unlike existing approaches that adjust prices upward to guarantee a minimum margin, BFTR guarantees the absence of overcharging by systematically aligning the final price with the catalog reference price. We mathematically formalize each strategy, prove the existence of an offer for any positive budget, and prove that the price deviation (surcharge) is zero for all strategies that do not use interpolation with correction. A detailed comparative analysis confronts BFTR to ten main existing tariff models on ten dimensions. Experiments on a dataset of 974 customers inspired by the Nigerian MTN market show that: (i) Recursive Hybrid is optimal for the customer (100% budget used, 29.9 GB volume, utility 0.946, 0% overcharging), (ii) Piecewise offers the highest volume (39.7 GB) with 0% overcharging, (iii) Power Law provides an excellent compromise (99.9% budget, 38.1 GB, 0% overcharging). All strategies achieve a zero surcharge, confirming the theoretical guarantees. A sensitivity analysis on the weighting parameter alpha (0.2 - volume priority, 0.5 - balance, 0.8 - budget priority) shows that utility rankings evolve logically. Execution times (< 10 ms) and very low failure rates (0% for robust strategies) confirm the operational viability of the system. The formal proof of the absence of overcharging constitutes a major theoretical contribution.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2608.18469": {
+            "title": "ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems",
+            "authors": "Ergan Shang, Flavio Sales Truzzi",
+            "first_author": "Ergan Shang",
+            "url": "http://arxiv.org/abs/2608.18469v1",
+            "pdf_url": "http://arxiv.org/abs/2608.18469",
+            "publish_date": "2026-08-19",
+            "abstract": "Lightweight proxy models enable rapid experimentation without repeatedly training frontier-scale systems, but their small kernels often leave modern accelerators underutilized. Conventional training compounds this inefficiency by scheduling the forward and backward passes as disjoint phases, so spare capacity in one cannot be filled by work from the other. We reinterpret the detachment mechanism of Forward-Forward (FF) as a scheduling primitive: given a local objective, detaching a block's output removes downstream gradient dependencies, making its backward pass ready when its forward pass finishes. ERASE launches each detached subgraph's backward pass early on a separate CUDA stream, overlapping it with subsequent forward work. Execution trace on a lightweight transformer demonstrates this overlap and its limit: a kernel that saturates the device leaves no capacity for concurrency. On a large-scale click-through-rate model, detaching six dense subarchitectures improves training throughput by up to $9.51\\%$ while keeping normalized entropy close to the baseline.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.18300": {
+            "title": "The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations",
+            "authors": "Emma Yanyang Kong, JJ Tan, Ishan Gupta, Lars Olds, Claire Campbell, David Fagnan, Veli Balin, Rohan Gosain, Louis Garcia, Minsu Jang",
+            "first_author": "Emma Yanyang Kong",
+            "url": "http://arxiv.org/abs/2608.18300v1",
+            "pdf_url": "http://arxiv.org/abs/2608.18300",
+            "publish_date": "2026-08-18",
+            "abstract": "LLM-as-a-Judge, which leverages a large language model to evaluate natural language generated by another AI application or model, has become a standard, scalable approach for accelerating and extending costly human evaluation. However, most work treats a judge as a static artifact, evaluating it once at construction or against a fixed benchmark. In contrast, we argue that an LLM judge running in a production system is better understood as having a lifecycle: it must be built, trained, deployed, and continuously maintained as the surrounding data evolves, and each phase poses distinct technical and operational challenges.   We present such a lifecycle for the LLM judges that evaluate user-facing recommendation explanations at Netflix, where our pipeline generates and the judges assess hundreds of thousands of distinct show-level explanations per week, served across the mobile experience to millions of members. Our framework has four phases: (I) Birth, defining multiple evaluation criteria and building curated benchmark datasets with human labels and rationales; (II) Training, refining the judges' rubrics via Reasoning-Aligned Rubric Tuning (RART), a rubric-tuning procedure that uses a meta-judge over reasoning output as the learning signal; (III) Deployment, in which one judge serves two production roles: quality gating and reflective generation; and (IV) Monitoring, a continuous Human-in-the-Loop alignment process that detects drift and triggers re-tuning behind a human review gate. We report post-launch results from a five-week A/B test over tens of millions of members, in which the judge-aligned explanations shifted member viewing toward novel content (previously unwatched) and increased successful browse-to-play sessions relative to a no-explanation control, with no quality-related takedowns.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }

@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-19` | **rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation** | Minh Hoang Nguyen, Tung Le, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18952) |
+| `2026-08-19` | **SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation** | Jiandong Ding, Huijie Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18779) |
+| `2026-08-19` | **Budget-First Tariff Recommendation (BFTR): A Complete Algorithmic Framework for Telecom Plan Recommendation without Overcharging** | Ghislain Dorian Tchuente Mondjo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18723) |
+| `2026-08-19` | **ERASE: EaRly bAckpropagation SchEdule for Faster Training of Modern Recommendation Systems** | Ergan Shang, Flavio Sales Truzzi | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18469) |
+| `2026-08-18` | **The Lifecycle of LLM-as-a-Judge for Large-Scale Recommendation Explanations** | Emma Yanyang Kong, JJ Tan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18300) |
 | `2026-08-18` | **Once Generated, Ranked: End-to-End Generative Slate Recommendation with Unified Semantic-Collaborative IDs** | Yang Hu, Jiayi Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17613) |
 | `2026-08-18` | **Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation** | Xurong Liang, Tong Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17316) |
 | `2026-08-17` | **Overview of the TREC 2025 Product Search and Recommendation Track** | Dean E. Alvarez, Surya Kallumadi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.17138) |
