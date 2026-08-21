@@ -1,4 +1,4 @@
-## Updated on 2026-08-20
+## Updated on 2026-08-21
 
 ---
 
@@ -26,6 +26,10 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-20` | **SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation** | Seunghyun Baek, Gyuseok Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19998) |
+| `2026-08-20` | **Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?** | Aleksandr V. Petrov, Praveen Chandar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19833) |
+| `2026-08-20` | **RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations** | En Zhi Tan, Jia Xiang Lim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19735) |
+| `2026-08-20` | **Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals** | Kyungho Kim, Sunwoo Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19665) |
 | `2026-08-19` | **rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation** | Minh Hoang Nguyen, Tung Le, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18952) |
 | `2026-08-19` | **SIDScope: A Diagnostic Resource for Semantic-ID Interfaces in Generative Recommendation** | Jiandong Ding, Huijie Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18779) |
 | `2026-08-19` | **Budget-First Tariff Recommendation (BFTR): A Complete Algorithmic Framework for Telecom Plan Recommendation without Overcharging** | Ghislain Dorian Tchuente Mondjo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.18723) |
@@ -39,7 +43,7 @@
 | `2026-08-17` | **Decoupled Temporal Encoding for Generative Recommendation** | Pengfei Jia, Jingjian Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16274) |
 | `2026-08-17` | **TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation** | WooJoo Kim, HyunSik Yoo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16075) |
 | `2026-08-17` | **GOD: Enhancing Generalization via Deep Grafting for Sequential Recommendation** | WooJoo Kim, JunYoung Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.16073) |
-| `2026-08-16` | **Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation** | Cedar Site Bai, Duanshun Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.15949) |
+| `2026-08-16` | **Ask to Be Sure: Informative Interactions for Confident Multi-Turn LLM Recommendation** | Cedar Site Bai, Zhenyu Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.15949) |
 | `2026-08-16` | **Dear Algo: A Precision-First Agentic Intent Layer for Unified Search and Recommendation** | Rui Wang, Jiazhou Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.15877) |
 | `2026-08-14` | **PriCoRec: A Privacy-Aware Cloud-Device Collaborative Framework for Ad Recommendation under Feature Constraints** | Dairui Liu, Zhongyi Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14429) |
 | `2026-08-14` | **MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation** | Juli Huang, Hannah Clay, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.14068) |
