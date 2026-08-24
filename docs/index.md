@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-23
+## Updated on 2026-08-24
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-21` | **Recommendation Quality and the Concentration of Consumption: Experimental Evidence from Netflix** | Guy Aridor, Winston Chou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21274) |
+| `2026-08-21` | **Adapting Knowledge Graphs for Behavior Denoising in Sequential Recommendation** | Zichun Jin, Zihan Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21243) |
+| `2026-08-21` | **From a Static Multi-Level Small Semantic Codebook to a Dynamic Single-Level Large Semantic Codebook for Generative Recommendation** | Tianlu Xie, Xin Ku, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21012) |
+| `2026-08-20` | **Difficulty-Aware Semantic-ID Optimization for Generative Recommendation** | Xin Yu, Stephen Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.20611) |
 | `2026-08-20` | **SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation** | Seunghyun Baek, Gyuseok Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19998) |
 | `2026-08-20` | **Do Sequential Recommendation Benchmarks Really Require Higher-Order Sequence Modelling?** | Aleksandr V. Petrov, Praveen Chandar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19833) |
 | `2026-08-20` | **RecPFN: Prior-Fitted Networks for In-Context-Based Recommendations** | En Zhi Tan, Jia Xiang Lim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.19735) |
