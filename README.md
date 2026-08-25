@@ -1,4 +1,4 @@
-## Updated on 2026-08-24
+## Updated on 2026-08-25
 
 ---
 
@@ -26,6 +26,17 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-24` | **Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation** | Naman Garg, Sarika Jain, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23484) |
+| `2026-08-24` | **Adaptive Item-based Collaborative Structures via Noise Rescheduling in Diffusion for Generative Recommendation** | Jiaqi Wang, Tianying Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23400) |
+| `2026-08-24` | **The Disconnect Between Better Descriptive Reasoning Trace Quality and Recommendation Effectiveness** | Gustavo Penha, Juan Elenter, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23154) |
+| `2026-08-24` | **A Dual-Expert Strategy Integrating LLMs to Mitigate Negative Transfer in Cross-Domain Sequential Recommendation** | Hyeongjun Yun, Kihyuk Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23131) |
+| `2026-08-24` | **Cascading Relevance-driven Recommendation Network for CTR Prediction in Trigger-Introduced Recommendation** | Kaixuan Chen, Wenwen Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.22973) |
+| `2026-08-24` | **Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation** | Seunghan Lee, Hyunsik Yoo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.22920) |
+| `2026-08-22` | **Personalized and Aspiration-Oriented Career Path Recommendation** | Kuleshwar Sahu, Girish Keshav Palshikar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.22056) |
+| `2026-08-22` | **From Click Modeling to Offline and Off-Policy Evaluation in Carousel Recommendation** | Jingwei Kang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.22022) |
+| `2026-08-22` | **Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent** | Qimeng Niu, Bowen Hao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21939) |
+| `2026-08-22` | **Revisiting N2DCG: An Empirically Grounded Reformulation of Carousel Recommendation Evaluation** | Jingwei Kang, Santiago de Leon-Martinez, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21877) |
+| `2026-08-21` | **Why didn't more people see it? Recommendation: Transparency for providers** | Meysam Varasteh, Robin Burke | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21641) |
 | `2026-08-21` | **Recommendation Quality and the Concentration of Consumption: Experimental Evidence from Netflix** | Guy Aridor, Winston Chou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21274) |
 | `2026-08-21` | **Adapting Knowledge Graphs for Behavior Denoising in Sequential Recommendation** | Zichun Jin, Zihan Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21243) |
 | `2026-08-21` | **From a Static Multi-Level Small Semantic Codebook to a Dynamic Single-Level Large Semantic Codebook for Generative Recommendation** | Tianlu Xie, Xin Ku, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.21012) |

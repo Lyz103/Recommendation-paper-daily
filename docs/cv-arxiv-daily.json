@@ -18083,6 +18083,127 @@
             "abstract": "Semantic-ID-based generative recommendation casts retrieval and ranking as autoregressive generation over hierarchical item identifiers. A common recipe is SFT followed by GRPO, yet vanilla GRPO is poorly matched to this tree-structured task. Under the frozen SFT checkpoint, the exact target is absent from the first 16 candidates of the 50-beam constrained ranking for many prompts, and in harder cases none of these candidates enters the target SID branch. This prompt-level diagnostic motivates a training concern: when on-policy GRPO groups are similarly target-missing, item-level rewards may produce weak or degenerate reward variation even if some candidates follow part of the target path. We propose Difficulty-Aware Semantic-ID Optimization (DASO), a tree-aware post-training method that addresses this failure mode as an online rollout-allocation problem. Instead of using fixed difficulty buckets or uniformly injecting ground-truth completions, DASO profiles each current rollout group by prefix-match depth, locates the bottleneck SID levels where candidates leave the target path, and reallocates a bounded portion of the group to prefix-guided completions while retaining raw rollouts for contrast. A SID-prefix reward provides graded credit, while an auxiliary SFT anchor mitigates regression on examples already solved by the SFT checkpoint. On the public benchmarks, DASO improves over MiniOneRec-style GRPO on 11 of 12 metrics and achieves the best result on 9 of 12 metrics; it also improves most level-wise recall metrics on the internal recommendation task.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2608.23484": {
+            "title": "Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation",
+            "authors": "Naman Garg, Sarika Jain, George Fazekas",
+            "first_author": "Naman Garg",
+            "url": "http://arxiv.org/abs/2608.23484v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23484",
+            "publish_date": "2026-08-24",
+            "abstract": "We present Team Semiintelligencn's solution for the ACM RecSys 2026 TalkPlayData Challenge, addressing conversational music recommendation through a multi-modal and personalized conversational recommender system. Our submitted system employs a three-stage pipeline: (1) multi-modal retrieval constructing decay-weighted centroids across seven dense embedding spaces - track- and user-level CF-BPR, Qwen3 (metadata, lyrics, attributes), CLAP audio, and SigLIP visual - supplemented by BM25 lexical retrieval and an artist substring-match signal, all fused via weighted Reciprocal Rank Fusion (RRF) with optimized signal weights; (2) lightweight reranking (history filtering, popularity smoothing, and catalog diversity penalization); and (3) persona-diversified response generation using GPT-4o-mini. Beyond this submitted configuration, we report development-time experiments with additional components - constrained LLM-guided artist injection, album continuation signals, XGBoost LambdaMART, and a superior GPT-4.1 response prompt - that were not deployed to Blind B due to cost and complexity constraints. We optimize RRF weights on a 500-session development split via differential evolution, improving MRR by +19.5%. On Blind A, we observe that unconstrained LLM-guided injection across 54 sessions causes catastrophic nDCG regression (-18.9%), while conservative injection on only 9 sessions yields the best observed Blind A nDCG - a finding we present as a Blind A observation warranting further validation. The submitted system achieves a Blind B composite score of 0.3213.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.23400": {
+            "title": "Adaptive Item-based Collaborative Structures via Noise Rescheduling in Diffusion for Generative Recommendation",
+            "authors": "Jiaqi Wang, Tianying Liu, Heng Chang, Jihong Guan, Wengen Li, Shuigeng Zhou",
+            "first_author": "Jiaqi Wang",
+            "url": "http://arxiv.org/abs/2608.23400v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23400",
+            "publish_date": "2026-08-24",
+            "abstract": "Discrete Diffusion Models (DDMs) have recently been introduced to recommendation systems, modeling user history as a token generation process via iterative denoising. However, while effective at capturing user-level sequential patterns, these methods often fail to explicitly integrate item-based collaborative filtering information, a critical component for accurate recommendation. This deficiency manifests in two key aspects: (1) the item representation is often semantic-focused, lacking collaborative priors for diffusion training; and (2) the denoising process employs a uniform noise schedule, treating all tokens indiscriminately and ignoring item-level adaptive structural dependencies. To bridge this gap, we propose ANR-DiffRec, a unified framework designed to encode item-based collaborative structures into discrete diffusion for generative recommendation. First, we explicitly incorporate an item co-occurrence matrix to guide semantic ID generation, providing a structured collaborative prior for discrete diffusion training. Second, we introduce an item-based adaptive noise rescheduling mechanism that dynamically adjusts denoising weights according to both local contextual recoverability and behavior-aware item dependencies. Specifically, the proposed strategy jointly models intra-item structural context and inter-item collaborative signals, enabling structure-aware denoising during diffusion training. Extensive experiments on multiple benchmarks demonstrate that our method consistently outperforms state-of-the-art generative recommendation models. Code: https://github.com/CalmaQi/ANR-DiffRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.23154": {
+            "title": "The Disconnect Between Better Descriptive Reasoning Trace Quality and Recommendation Effectiveness",
+            "authors": "Gustavo Penha, Juan Elenter, Claudia Hauff, Hugues Bouchard, Paul Bennett, Mounia Lalmas",
+            "first_author": "Gustavo Penha",
+            "url": "http://arxiv.org/abs/2608.23154v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23154",
+            "publish_date": "2026-08-24",
+            "abstract": "Recent work has focused on improving explicit natural-language descriptive reasoning traces for generative recommendation. This includes systems that augment semantic ID (SID) prediction with chain-of-thought reasoning. However, because SIDs are opaque learned identifiers rather than natural language, they require costly alignment before an LLM can reason over them. This provides a controlled experimental setting in which both item representation (Title vs. SID) and semantic grounding (minimal vs. extensive SID alignment) can be varied independently. We therefore present the first controlled comparison of descriptive reasoning trace quality across semantic IDs and natural-language titles in a 2 x 2 factorial study on three Amazon product domains using a shared Qwen3-1.7B backbone. We find that introducing explicit descriptive reasoning traces reduces traditional offline recommendation effectiveness under standard SFT and RL training, even though natural language titles produce substantially more grounded and interpretable traces. Extensive SID alignment improves descriptive trace quality but not traditional offline recommendation effectiveness, while a richer reward signal partially recovers performance. Overall, our results show that improving descriptive reasoning trace quality is not, by itself, sufficient to consistently improve traditional offline recommendation effectiveness under the training objectives and evaluation protocols studied here.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.23131": {
+            "title": "A Dual-Expert Strategy Integrating LLMs to Mitigate Negative Transfer in Cross-Domain Sequential Recommendation",
+            "authors": "Hyeongjun Yun, Kihyuk Song, Jaegul Choo, Chung Park",
+            "first_author": "Hyeongjun Yun",
+            "url": "http://arxiv.org/abs/2608.23131v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23131",
+            "publish_date": "2026-08-24",
+            "abstract": "Cross-Domain Sequential Recommendation (CDSR) predicts the next item a user will interact with based on their historical interaction sequences across multiple domains. Recent approaches leverage Large Language Models (LLMs) finetuned on textual representations of cross-domain user sequences to retrieve the recommended items, referred to as LLMRec. However, LLMRec primarily models the autoregressive patterns of token-level item texts, while overlooking item-level collaborative signals. This semantic misalignment often leads to distorted knowledge transfer across domains-termed negative transfer degrading performance in the CDSR task. To address this issue, we propose a novel LLM-based CDSR model, DuELRec: Domain-Gated Dual Experts with LLMs for Cross-Domain Sequential Recommendation. We propose a domain-gated dual-expert framework, equipped with an item-aware attention transformation module, which aggregates textual subtokens into item-level representations and enforces block-level attention masking. The single-domain expert restricts autoregressive attention to items within the same domain, while the cross-domain expert allows it across all domains. A gating mechanism adaptively fuses their outputs, using single-domain signals to reduce cross-domain noise that causes negative transfer. Second, we introduce a dual-sampling token-to-item contrastive learning objective that allows LLMs to capture the item-level collaborative signals from both single- and cross-domains. This is achieved by transforming token-level item texts into item-level representations and applying stochastic negative sampling from both single- and cross-domain item pools for contrastive learning. Extensive experiments on two real-world datasets across ten domains show that our model outperforms 26 state-of-the-art methods in recommendation performance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.22973": {
+            "title": "Cascading Relevance-driven Recommendation Network for CTR Prediction in Trigger-Introduced Recommendation",
+            "authors": "Kaixuan Chen, Wenwen Wang, Xing Fang, Yang Huang, Jing Wang",
+            "first_author": "Kaixuan Chen",
+            "url": "http://arxiv.org/abs/2608.22973v1",
+            "pdf_url": "http://arxiv.org/abs/2608.22973",
+            "publish_date": "2026-08-24",
+            "abstract": "E-commerce has emerged as crucial platforms for people's daily consumption and shopping interests. There is a new recommendation scenario, Trigger-Introduced Recommendation (TIR), where users click interested product, which is defined as the trigger item, containing their instant interest, and in the undertaking page following the relevant target items. Distinguished from traditional search and recommendation scenarios, trigger contains relatively strong instant interest, which is more vague and implicit compared to search terms. Relying on large amounts of labeled data, existing methods lack the exploration of trigger relevance, which affects users' immersive experience. To alleviate this problem, we propose the Cascading Relevance-driven Recommendation Network (CRRN) to emphasize the interaction and relevance between trigger and target, comprising three essential components: 1) the Trigger-Target Interaction layer extracts interaction features of trigger and target based on personalized gating. 2) Cascading Interest Fusion module explicitly estimates users' trigger intention and fuses instant and personalized interests adaptively with cascading attention blocks. 3) Category-assisted Pairwise Loss enhances trigger relevance with the guidance of category association between trigger and target. Extensive experiment results show that CRRN outperforms recent state-of-the-art methods on both industrial and public datasets. Online A/B tests further validate the effectiveness of our method. Our code is available at https://github.com/a-little-cabbage/CRRN.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.22920": {
+            "title": "Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation",
+            "authors": "Seunghan Lee, Hyunsik Yoo, Jian Kang, Susik Yoon, SeongKu Kang",
+            "first_author": "Seunghan Lee",
+            "url": "http://arxiv.org/abs/2608.22920v1",
+            "pdf_url": "http://arxiv.org/abs/2608.22920",
+            "publish_date": "2026-08-24",
+            "abstract": "Multi-behavior recommendation (MBR) leverages auxiliary behavioral signals, such as clicks and add-to-cart, to enhance target behavior prediction like purchases. While recent graph neural network-based approaches have achieved strong performance by systematically propagating auxiliary behavior signals, they still suffer from two fundamental challenges inherent to auxiliary behaviors: (1) missing auxiliary signals, which hinder generalization to items without auxiliary observations, and (2) unreliable auxiliary signals, which amplify noise misaligned with the target behavior. To address these challenges in a unified manner, we propose BOAR, an environment-conditioned MBR framework that addresses missing and unreliable auxiliary signals through two complementary modules conditioned on auxiliary observability. Extensive experiments demonstrate that BOAR consistently outperforms state-of-the-art baselines, achieving up to 7.82% gains in HR@10 overall and up to 44.2% gains for target items without auxiliary observations, highlighting its ability to capture hidden preferences beyond observed auxiliary relations. Our code is available at: https://github.com/LSH0411/BOAR.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.22056": {
+            "title": "Personalized and Aspiration-Oriented Career Path Recommendation",
+            "authors": "Kuleshwar Sahu, Girish Keshav Palshikar, Rajiv Srivastava",
+            "first_author": "Kuleshwar Sahu",
+            "url": "http://arxiv.org/abs/2608.22056v1",
+            "pdf_url": "http://arxiv.org/abs/2608.22056",
+            "publish_date": "2026-08-22",
+            "abstract": "Fulfilling career aspirations is important for growth of employee and organization. We propose a data driven methodology to recommend personalized career path for a given aspirant's career path and aspirations. The pro-posed method uses the career path similarity (CPS) between aspirant's career and candidate career path, and 'aspirational similarity' (AS) between aspiration and candidate career paths to find suitable career path. CPS ensures personalized recommendation while AS ensures aspiration fulfillment. We defined two methods to compute the CPS between career paths which are (a) domain knowledge driven (DKD) and, (b) unsupervised representation learning and alignment (URLA) based, along with different AS measures. The DKD based similarity is defined in the terms of features extracted and summarized over career paths. In the URLA, we use the sequence of event names present in the career paths of the employees to learn the embedding for each event name. In URLA we use learned embedding vector of the career path event names and as-sociated event attributes (skill cluster and domain) to find the best alignment between two career paths. We hypothesized that relative position of event names in the sequence represents semantics of event name and that can be learned. We use LSTM neural network to learn the embedding vector of each career event name. We also define the matching method to compute the AS be-tween aspiration and career path in both proposed methods. We combine CPS and AS to rank available 'candidate career paths' of employees to find the suitable one. We get better DCG value in URLA as compare to DKD. We also showed that ranking are coherent using both the methods. URLA method is better since it does not require domain knowledge to model the similarity and includes temporal aspect by optimal Levenshtein alignment using weighted cosine distance.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.22022": {
+            "title": "From Click Modeling to Offline and Off-Policy Evaluation in Carousel Recommendation",
+            "authors": "Jingwei Kang",
+            "first_author": "Jingwei Kang",
+            "url": "http://arxiv.org/abs/2608.22022v1",
+            "pdf_url": "http://arxiv.org/abs/2608.22022",
+            "publish_date": "2026-08-22",
+            "abstract": "Carousel interfaces are widely used in modern recommendation systems. Unlike traditional interfaces that present a single ranked list, carousels simultaneously present several ranked lists to the user, as horizontally swipeable rows stacked on top of each other. In this design, the rankings are closely tied to the two-dimensional layout. Consequently, user behavior is shaped not only by item preference, but also by row organization, viewport constraints, and item context. This tight coupling between ranking and presentation complicates the interpretation of user feedback, introducing new challenges for recommendation evaluation.   My PhD research aims to address these challenges by rethinking how carousel clicks are modeled and how carousel recommendation policies can be evaluated from logged interaction data. So far, I have studied how users interact with carousel interfaces and developed a click model design framework that prioritizes mathematical relationships between observed variables over latent behavioral assumptions. Building on these results, my ongoing work includes a project using discrete choice models to represent clicks as choices, alongside a project that develops carousel-specific offline metrics. As a next step, I plan to develop off-policy evaluation methods that estimate the performance of recommendation policies from logged interactions. Taken together, the expected contribution of my thesis is a connected body of work that links carousel click modeling with offline and off-policy evaluation, so that carousel recommendation policies can be improved more reliably.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.21939": {
+            "title": "Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent",
+            "authors": "Qimeng Niu, Bowen Hao, Zixuan Zhang, Shuyu Qu, Hongzhi Yin",
+            "first_author": "Qimeng Niu",
+            "url": "http://arxiv.org/abs/2608.21939v1",
+            "pdf_url": "http://arxiv.org/abs/2608.21939",
+            "publish_date": "2026-08-22",
+            "abstract": "The core challenge in group recommendation lies in modeling the dynamic evolution of user preferences and explain?ing the consensus formation process. Existing Large Language Model (LLM)-based methods, despite improved interpretability, treat interaction history as fixed text, ignoring the natural evolution of group/user preferences over time, and lacking explicit modeling of the complex group decision-making process. To address these issues, we propose AGR, a LLM-based agent, which consists of a Memory Module and a Reasoning Module. The Memory Module employs a token-based hash table to dynamically manage the historical interactions of groups and users. This design supports fundamental operations including insertion, updating, retrieval, forgetting of irrelevant records, and summarization of evolving group and user profiles for efficiently tracking. Based on these retrieved dynamic profiles, the Reason?ing Module then performs a multi-step reasoning process includ?ing Group Interests Collection, Group Consensus Refinement, Multi-dimensional Evaluation and Explainable Recommendation Generation, thereby moving beyond black-box inference to de?liver fully interpretable recommendations. In practice, we adopt the Reinforcement Fine-Tuning (RFT) paradigm, where we first use Supervised Fine-Tuning (SFT) to equip the model with basic capabilities for invoking the Memory and Reasoning modules, and then employ Group Relative Policy Optimization (GRPO) to enhance its autonomous ability to coordinate these modules. Experiments on LastFM and Douban datasets demonstrate that AGR significantly outperforms existing state-of-the-art methods in both recommendation accuracy and explainability. Our model is open-sourced at https://huggingface.co/niuqimeng/AGR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.21877": {
+            "title": "Revisiting N2DCG: An Empirically Grounded Reformulation of Carousel Recommendation Evaluation",
+            "authors": "Jingwei Kang, Santiago de Leon-Martinez, Maarten de Rijke, Harrie Oosterhuis",
+            "first_author": "Jingwei Kang",
+            "url": "http://arxiv.org/abs/2608.21877v1",
+            "pdf_url": "http://arxiv.org/abs/2608.21877",
+            "publish_date": "2026-08-22",
+            "abstract": "Carousel interfaces have been widely used in video and music streaming services, yet it remains unclear how to properly evaluate recommender systems in these two-dimensional layouts. N2DCG has been proposed to address this gap by adapting NDCG to carousel-based recommendation, but it relies on unverified assumptions borrowed from the single-list web-search setting that do not transfer well to two-dimensional carousel layouts.   We identify two substantial limitations of N2DCG: its ideal ranking, used for normalization, violates carousel constraints, and its discount function does not reflect user browsing behavior observed in empirical data. To address both limitations, we propose a reformulation of N2DCG that normalizes appropriately by respecting constraints and uses an empirically grounded discount function. We validate the proposed metric, showing that it better reflects users' empirical behavior on real-world eye-tracking data and better predicts the comparison results of carousel layouts simulated based on empirical examination patterns.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.21641": {
+            "title": "Why didn't more people see it? Recommendation: Transparency for providers",
+            "authors": "Meysam Varasteh, Robin Burke",
+            "first_author": "Meysam Varasteh",
+            "url": "http://arxiv.org/abs/2608.21641v1",
+            "pdf_url": "http://arxiv.org/abs/2608.21641",
+            "publish_date": "2026-08-21",
+            "abstract": "Transparency in recommender systems has been widely studied from the perspective of those receiving recommendations, yet the needs of item providers, the creators whose content is distributed through these platforms, remain largely unexplored. Providers often lack insight into how their items do or do not receive exposure in users' recommendation lists. In this work, we address this gap by proposing a surrogate modeling approach to explain item exposure at a system level. Rather than explaining individual user-item pairs, we train a proxy model to approximate the exposure distribution produced by a recommender. By quantifying the contribution of each feature, we seek to explain the factors driving the recommendation model's decisions across the entire user base. We evaluate our approach on two datasets and three recommendation models. Results show that the surrogate model captures the global behavior of all three recommenders with high fidelity and that the most influential factors vary meaningfully across models and domains.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
