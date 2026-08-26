@@ -18204,6 +18204,83 @@
             "abstract": "Transparency in recommender systems has been widely studied from the perspective of those receiving recommendations, yet the needs of item providers, the creators whose content is distributed through these platforms, remain largely unexplored. Providers often lack insight into how their items do or do not receive exposure in users' recommendation lists. In this work, we address this gap by proposing a surrogate modeling approach to explain item exposure at a system level. Rather than explaining individual user-item pairs, we train a proxy model to approximate the exposure distribution produced by a recommender. By quantifying the contribution of each feature, we seek to explain the factors driving the recommendation model's decisions across the entire user base. We evaluate our approach on two datasets and three recommendation models. Results show that the surrogate model captures the global behavior of all three recommenders with high fidelity and that the most influential factors vary meaningfully across models and domains.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2608.24815": {
+            "title": "Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation",
+            "authors": "Jingyu Wang",
+            "first_author": "Jingyu Wang",
+            "url": "http://arxiv.org/abs/2608.24815v1",
+            "pdf_url": "http://arxiv.org/abs/2608.24815",
+            "publish_date": "2026-08-25",
+            "abstract": "Offline return-to-go (RTG) sweeps can test whether a recommender conditioned on return is controllable, but the intervention is rarely audited. Rewriting every historical RTG token creates an increasingly synthetic context, while rewriting only the current token is more local. We test this distinction in an offline setting with a fixed window. On MovieLens 25M and MyAnimeList 2020 (MAL), we evaluate a Decision Transformer using an RTG locality ladder, a control without RTG, a logged match and score reward check, and a within-trajectory shuffled RTG ablation. On MovieLens, a $K=20$ intervention that covers the full context, applied only to real context positions, shifts the share of Crime predictions by $+23.61 \\pm 2.96$ percentage points from the validation 5th to 95th percentile, whereas changing only the current slot shifts it by $+1.77 \\pm 1.17$ points. The shuffled RTG model largely removes this response ($+2.08 \\pm 1.20$ points at $K=20$). On MAL, the same protocol does not produce a Drama response: $K=20$ changes Drama by $-0.03 \\pm 0.07$ points, and $K=1$ by $-0.01 \\pm 0.01$. Genre prediction accuracy is numerically close across real RTG, no RTG, and shuffled RTG, and at $K=1$ logged match rates and matched ratings change little. Because dataset and focus-genre selection were exploratory, these magnitudes are descriptive; the cross-diagnostic pattern across locality, shuffled RTG, and the null result on MAL does not establish reward control. We propose four checks: intervention locality, a no-RTG baseline, a reward check, and RTG-content ablation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24274": {
+            "title": "Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling",
+            "authors": "Ying Jin, Weiqing Min, Mingyu Huang, Shuqiang Jiang",
+            "first_author": "Ying Jin",
+            "url": "http://arxiv.org/abs/2608.24274v1",
+            "pdf_url": "http://arxiv.org/abs/2608.24274",
+            "publish_date": "2026-08-25",
+            "abstract": "A sustainable diet represents a multi-dimensional synergy among four essential pillars: nutrition adequacy, economic affordability, cultural acceptability, and environmental respect. Despite the prevalence of population-level sustainability modeling, practical implementation relies on effective individual-level adoption. This transition is often hindered by inter-individual heterogeneity, posing a formidable challenge in aligning sustainable diet requirements with individual preferences. To address this issue, we propose a personalized sustainable diet recommendation model based on a constraint-aware decision-making mechanism, where sustainability is incorporated through learnable constraints rather than modeled as user preferences. To systematically evaluate the proposed approach, we construct a sustainable diet dataset named SusDiet with about 150k recipes, characterized by broad coverage of sustainability indicators. Experimental results on this dataset show that our method promotes more sustainable choices without compromising individual preference. This work establishes a framework for aligning individual dietary choices with planetary health, offering quantitative evidence to guide future sustainable diet interventions and policy-making for sustainable development.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2608.24176": {
+            "title": "Tlow: Flow-based Item Tokenizer for Recommendation",
+            "authors": "Nian Li, Chonggang Song, Jingtao Ding, Lingling Yi, Yong Li, Qingmin Liao",
+            "first_author": "Nian Li",
+            "url": "http://arxiv.org/abs/2608.24176v1",
+            "pdf_url": "http://arxiv.org/abs/2608.24176",
+            "publish_date": "2026-08-25",
+            "abstract": "Item tokenizer encodes semantic embeddings into token IDs to replace the randomly assigned item IDs used in traditional recommendation models, fundamentally addressing the problems of excessive parameters and cold starts. However, the most common tokenizer, RQ-VAE, suffers from low decoding efficiency due to the inherent dependencies among its codebooks. Meanwhile, efficient independent tokenizers such as optimized product quantization (OPQ) still struggle with dimensional correlations and distribution complexity of semantic embeddings. In this work, we propose a f\\underline{low}-based item \\underline{T}okenizer (Tlow) to transform raw semantic embeddings into a latent space where embeddings conform to a unified standard normal distribution, achieving dual advantages of dimensional independence and distributional simplicity. Independent tokenization performed on these latent embeddings yields semantically clear token IDs. Additionally, we introduce a novel codebook guidance to align the codebook space with the token embedding space, further aiding the learning of more semantically distinct token embeddings. Offline experiments on four public datasets demonstrate that Tlow's tokenization and codebook guidance significantly improve recommendation performance. The improvement on cross-domain and multi-modal recommendations also proves the effectiveness of item tokenization in a simplified embedding space. Online experiments for a multi-modal retrieval task on China's largest social media platform WeChat validate Tlow's powerful distribution transformation capability. The retrieval model based on token IDs improves user CTR by 10.32\\% globally and by 11.64\\% for new items. Our codes are available at https://github.com/wjjln/Tlow.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24079": {
+            "title": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
+            "authors": "Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang",
+            "first_author": "Theodore Rogers",
+            "url": "http://arxiv.org/abs/2608.24079v1",
+            "pdf_url": "http://arxiv.org/abs/2608.24079",
+            "publish_date": "2026-08-25",
+            "abstract": "A shared search-and-recommendation index must score new items from features alone because search has no exploration slot. In a public log covering both surfaces over one catalog, $38.6\\%$ of held-out query-search impressions show an item never previously shown or visited. For user-cold engagements, the feature-based tower serves this demand without measurable loss against $99$ sampled negatives ($0.9595$ Recall@20 versus $0.9510$ warm). A lexical baseline reaches similar parity, while a full-catalog check remains statistically undecided. Dual-encoder retrieval therefore keeps the index \\emph{open} to new items, unlike an ID-softmax recommender that requires retraining. We price this openness on recommendation against six sequential baselines, each retrained and tuned through five rounds on corrected targets. A float32 timestamp bug had reordered leave-one-out targets for $19.7\\%$ of users. On MovieLens-1M, warm accuracy trails the strongest retrained baseline by $5.2\\%$ Recall@20 and $11.4\\%$ NDCG@20. On MIND, the gap narrows to $0.8$--$3.6\\%$ relative to the five strongest baselines, though the model ranks sixth of seven. Under strict zero-leakage cold-start evaluation, the content tower achieves $0.172 \\pm 0.006$ Recall@20, $1.4\\times$ the strongest retrained dedicated method ($0.124 \\pm 0.007$) and $3\\times$ a training-free floor, without cold-specific training. Exact full-softmax training raises Recall@20 by $54\\%$ on MIND-small and $6.9\\%$ on MovieLens-1M over sampled InfoNCE, but recomputes the full catalog each step and exhausts accelerator memory at $240$K items. Approximate nearest-neighbor search explains none of the remaining gap, serving cost does not regress against ID-softmax retrieval, and a history-window sweep explains half the post-recipe remainder. Exact-quality training at catalog scale remains the open problem.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.24034": {
+            "title": "TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising",
+            "authors": "Wencai Ye, Guangyi Liu, Chaoyi Wang, Wenbin Luo, Shengyu Wang, Mingjie Sun, Peng Wang, Quanming Yao, Wenjin Wu, Peng Jiang",
+            "first_author": "Wencai Ye",
+            "url": "http://arxiv.org/abs/2608.24034v1",
+            "pdf_url": "http://arxiv.org/abs/2608.24034",
+            "publish_date": "2026-08-25",
+            "abstract": "Live-streaming advertising is an important monetization channel on short-video and e-commerce platforms, where rapidly changing live content, promoted products, and user feedback impose strong freshness requirements on recommendation models. Existing generative recommenders designed for static domains fail at three levels: static semantic IDs (SID) cannot track evolving live ads; single-scale behavior modeling misses shifting intent; preference optimization conflicts between fresh on-policy feedback and training stability. We propose TAGR, a generative recommendation framework with temporal adaptation at three levels: live-ad tokenization, user intent modeling, and preference alignment. At the token level, Live Semantic-Collaborative ID (LSID) periodically refreshes each active ad's SID based on its current live scene and promoted products, while retaining a stable hierarchical token vocabulary for autoregressive generation. At the intent level, Intent-Aware Generation (IAG) models live-room entry histories at multiple temporal granularities as the primary intent sequence, keeps auxiliary behaviors as separate inputs, and weights next-token prediction (NTP) using post-request intent evidence and business value. At the alignment level, Intermittent On-Policy Preference Optimization (IOPO) periodically samples fresh candidate groups from the current policy and performs behavior- and value-aligned preference updates interleaved with supervised NTP maintenance to preserve learned behavior distribution. Deployed on a large-scale e-commerce live-stream advertising platform, TAGR improves live-room entry and shopping-cart click rates by 8.5% and 7.4%, respectively, and achieves a 16.1% revenue lift over the production baseline. These results demonstrate the effectiveness and industrial viability of temporally adaptive generative recommendation for live-stream advertising.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.23966": {
+            "title": "Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation",
+            "authors": "Yuxuan Du",
+            "first_author": "Yuxuan Du",
+            "url": "http://arxiv.org/abs/2608.23966v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23966",
+            "publish_date": "2026-08-25",
+            "abstract": "AI systems increasingly make joint recommendations for users with conflicting preferences. However, when reasonable aggregation rules support different actions, a further question arises: who may choose how those preferences are combined? We study this interaction-level problem as aggregation-rule authority. Using synthetic preference profiles and profiles constructed from empirical ratings, we conduct a controlled behavioral audit of three LLMs under three authority conditions: unspecified, explicitly retained by users, and delegated to the model. In cases where two witness rules supported different actions, models almost never committed when users retained authority, but committed in every delegated case. All three models executed both witness rules perfectly when directly instructed. Yet when authority was unspecified or delegated, their aggregation-consistent outcome distributions differed across models and preference settings. Together, these results separate rule-execution capability from aggregation-rule authority: delegation assigns the model discretion to resolve the aggregation choice, but does not determine which collective outcome follows.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2608.23852": {
+            "title": "ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations",
+            "authors": "Alexa Siu, Rajiv Jain, Abhinav Kannan, Jose Echevarria, Mary Ann,  Jawili, Yalpi Shiva Prasad, Rick Treitman, Garreth W. Tigwell, Jonathan Lazar",
+            "first_author": "Alexa Siu",
+            "url": "http://arxiv.org/abs/2608.23852v1",
+            "pdf_url": "http://arxiv.org/abs/2608.23852",
+            "publish_date": "2026-08-24",
+            "abstract": "Effective color contrast in visual design is essential for content accessibility. While existing tools can identify contrast issues, they often operate in isolation from design workflows or are used as an afterthought. We present ColorA11Y, a system that supports designers in creating accessible content by providing just-in-time feedback and actionable recommendations throughout the authoring process to meet accessibility color contrast guidelines. Our system analyzes the visual properties of text and background elements and offers recommended changes, including text color adjustments, background modifications, and opacity changes. Through two user studies, we evaluate ColorA11Y's effectiveness. A user preference study (n=40) revealed varying effectiveness of different recommendations based on design context, while a qualitative study with designers (n=8) indicated a more seamless workflow experience in comparison to a baseline using a color contrast checker. This work advances a born-accessible approach to design, where accessibility considerations are seamlessly integrated into the creative process rather than treated as an afterthought.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
         }
     }
 }

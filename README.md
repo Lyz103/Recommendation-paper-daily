@@ -1,4 +1,4 @@
-## Updated on 2026-08-25
+## Updated on 2026-08-26
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-25` | **Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation** | Jingyu Wang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24815) |
+| `2026-08-25` | **Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling** | Ying Jin, Weiqing Min, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24274) |
+| `2026-08-25` | **Tlow: Flow-based Item Tokenizer for Recommendation** | Nian Li, Chonggang Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24176) |
+| `2026-08-25` | **RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation** | Theodore Rogers, Joe Standerfer, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24079) |
+| `2026-08-25` | **TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising** | Wencai Ye, Guangyi Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24034) |
+| `2026-08-25` | **Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation** | Yuxuan Du | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23966) |
+| `2026-08-24` | **ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations** | Alexa Siu, Rajiv Jain, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23852) |
 | `2026-08-24` | **Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conversational Music Recommendation** | Naman Garg, Sarika Jain, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23484) |
 | `2026-08-24` | **Adaptive Item-based Collaborative Structures via Noise Rescheduling in Diffusion for Generative Recommendation** | Jiaqi Wang, Tianying Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23400) |
 | `2026-08-24` | **The Disconnect Between Better Descriptive Reasoning Trace Quality and Recommendation Effectiveness** | Gustavo Penha, Juan Elenter, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23154) |
