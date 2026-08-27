@@ -18281,6 +18281,72 @@
             "abstract": "Effective color contrast in visual design is essential for content accessibility. While existing tools can identify contrast issues, they often operate in isolation from design workflows or are used as an afterthought. We present ColorA11Y, a system that supports designers in creating accessible content by providing just-in-time feedback and actionable recommendations throughout the authoring process to meet accessibility color contrast guidelines. Our system analyzes the visual properties of text and background elements and offers recommended changes, including text color adjustments, background modifications, and opacity changes. Through two user studies, we evaluate ColorA11Y's effectiveness. A user preference study (n=40) revealed varying effectiveness of different recommendations based on design context, while a qualitative study with designers (n=8) indicated a more seamless workflow experience in comparison to a baseline using a color contrast checker. This work advances a born-accessible approach to design, where accessibility considerations are seamlessly integrated into the creative process rather than treated as an afterthought.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2608.25755": {
+            "title": "Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation",
+            "authors": "Shuiying Liao, P. Y. Mok",
+            "first_author": "Shuiying Liao",
+            "url": "http://arxiv.org/abs/2608.25755v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25755",
+            "publish_date": "2026-08-26",
+            "abstract": "Sequential recommendation requires understanding how user preferences evolve over time, yet most existing models treat such evolution as a first order process where the next state depends solely on the current latent representation. Nevertheless, real user behavior often exhibits richer dynamics, including inertia, periodicity, and sudden shifts that cannot be fully captured by these first order assumptions. Motivated by these behavioral characteristics, we reconceptualize sequential recommendation through the lens of second order dynamical systems and introduce the Hamiltonian Spectral Recommender (HSR), which recasts preference evolution as a dissipative Hamiltonian system in a latent phase space of position (stable preference) and momentum (short-term tendency). The linear time-invariant structure of the governing equation admits a closed-form solution in the frequency domain. A learnable dissipation mechanism further captures natural interest decay, while a short local impulse refinement module models abrupt behavioral fluctuations commonly observed in sparse interaction logs. This design jointly accounts for global periodic patterns, inertial evolution, and localized shocks, where three phenomena that are underrepresented in existing sequential models. Extensive experiments on three benchmark datasets demonstrate that HSR consistently outperforms state-of-the-art Transformer-based and state space model (SSM)-based recommenders.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25737": {
+            "title": "D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble",
+            "authors": "Bingnan Wang, Yi Li, Xiongxin Tang, Fanjiang Xu, Jiangmeng Li",
+            "first_author": "Bingnan Wang",
+            "url": "http://arxiv.org/abs/2608.25737v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25737",
+            "publish_date": "2026-08-26",
+            "abstract": "Incorporating items' information shared among multiple modalities into a fused representation, multi-modal recommendation (MR) has demonstrated documented success than canonical unimodal recommendation. Although several attempts have been made to extract the discriminative information unique in each modality, existing methods suffer from a core limitation: the joint learning of modal-homogeneity discriminative information (HOI) and modal-heterogeneity discriminative information (HEI) tends to weaken their individual effectiveness. To remedy this deficiency, we propose a novel method, dubbed Disentangle and Distillation-based Dynamic Ensemble for multi-modal Recommendation (D3ER). We introduce gradient boosting into MR for the first time to formalize the optimization objective for alternately learning HOI and HEI. This design enables models dedicated to each type of information to focus on their proficient samples, thereby promoting specialized optimization. Furthermore, to mitigate the inherent high storage cost and risk of local optima in gradient boosting, we enhance our framework with knowledge distillation and a global correction regularization. Experiments on prevalent real-world datasets confirm the superiority of our proposed method on MR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25601": {
+            "title": "A Dual-Transformer for Multi-Camera View Recommendation",
+            "authors": "Josep Cabacas-Maso, Carles Ventura, Ismael Benito-Altamirano",
+            "first_author": "Josep Cabacas-Maso",
+            "url": "http://arxiv.org/abs/2608.25601v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25601",
+            "publish_date": "2026-08-26",
+            "abstract": "Multi-camera systems are foundational to modern media production, and multi-camera editing is a critical task. This involves the proper selection of the appropriate camera view at each moment. In this paper, we propose a novel Dual-Transformer architecture with Cross-Attention that heavily outperformed the current SOTA models over the TVMCE dataset (TV Shows Multicamera Editing dataset). Our model decouples these tasks: (1) a dedicated temporal encoder first processes the sequence of past frames to build a rich memory of the recent history, and (2) the candidate camera views then act as queries to this memory via a cross-attention module, allowing each candidate to independently interrogate the historical context and find the most relevant information for its own evaluation.   Our approach achieved 56.60% Precision@0.5, representing a substantial improvement over the prior best result of 37.16%. We further conducted an ablation study exploring the use of lightweight backbone architectures, where the SwinV2 backbone yielded the best performance, achieving 69.65% Precision@0.5.   Using this best-performing configuration, we then investigated the feasibility of adapting the model to replicate the editing style of a specific human editor. To this end, we fine-tuned the model using varying proportions of the initial segment of a target video. Our results demonstrate that even with only 20% of the video used for fine-tuning, the model exhibited measurable improvements in Precision@0.5, indicating strong potential for data-efficient personalization of editing style adapted to each individual TV show or producer.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2608.25546": {
+            "title": "An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation",
+            "authors": "Fan Xia, Zhaoheng Zheng, Iman Setayesh, Ruogu Lin, Yiqin Pan, Samarth Mittal, Wentao Bao, Vinti Pandey, Sachin Patil, Jianpeng Cheng, Jun Xiao, Zhuang Wang, Xiangjun Fan, Sri Reddy, Minghai Chen",
+            "first_author": "Fan Xia",
+            "url": "http://arxiv.org/abs/2608.25546v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25546",
+            "publish_date": "2026-08-26",
+            "abstract": "LLM-based recommendation has scaled along model capacity and sequence length, yet each position encodes only text, semantic IDs, or a few categorical features, discarding rich user, item, context, and outcome signals available at each event. Under autoregressive modeling, this yields weak queries at each position and, since each position becomes context for the next, the degradation compounds across the sequence. We propose an event-centric paradigm that represents each interaction by its full temporal snapshot, and identify a new scaling dimension we term snapshot resolution: the amount of information encoded per event. To efficiently scale snapshot resolution, we introduce AMBER (Autoregressive Modeling via Bottlenecked Event Representation), which compresses each temporal snapshot into a compact Event Token, a new LLM input modality. The representation is learned end-to-end, while Event Tokens are pre-computed and cached for serving, decoupling snapshot resolution from real-time serving compute. On industrial-scale ranking and retrieval benchmarks, AMBER advances the compute-quality Pareto frontier relative to alternative recommendation paradigms. At sufficient capacity, a single unified tokenizer even outperforms dedicated per-entity tokenizers, demonstrating positive transfer across structurally different entity types. AMBER's Event Tokens also transfer across model architectures: when integrated into a heavily optimized non-LLM ranker as serving-time historical features, they yield statistically significant improvements. Further scaling Event Tokenizer capacity provides additional improvements.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25528": {
+            "title": "TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation",
+            "authors": "Zhifei Zheng, Yunfei Liu, Bin Liu, Qiren Zhu, Hanbing Liu, Ziru Xu, Han Zhu, Jian Xu, Qi Qi, Bo Zheng",
+            "first_author": "Zhifei Zheng",
+            "url": "http://arxiv.org/abs/2608.25528v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25528",
+            "publish_date": "2026-08-26",
+            "abstract": "Applying scaling laws to recommendation retrieval is hindered by feature heterogeneity: naively stacking Transformer layers yields diminishing returns because heterogeneous fields produce severe token-norm divergence. We present TransRetrieval, a Transformer-based retrieval framework that scales with both computational budget and cross-domain data. The key enabler is (1) weighted average aggregation, which restores the homogeneous-token assumption Transformers rely on. Building on this, we introduce (2) target token compression that cuts per-candidate FLOPs by 85% while preserving cross-attention expressiveness, and (3) position-style domain embeddings that unify multiple domains at negligible additional cost, turning cross-domain data into a scaling asset. On a 40-billion-interaction industrial dataset and the public KuaiRand benchmark, scaling compute from 0.1 to 2 MFLOPs per target yields +19.3/+22.2 pt Recall@2000, confirming robust log-linear scaling. In online A/B tests, TransRetrieval lifts platform revenue by 2.53% under the same end-to-end latency constraint as the production baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.25381": {
+            "title": "MOTIF: Motivation-guided Topology Inference for Cold-start Multimodal Recommendation",
+            "authors": "Yurui Shi, Yuchen Miao, Ximing Hu, Zijun Wang, Chang Han",
+            "first_author": "Yurui Shi",
+            "url": "http://arxiv.org/abs/2608.25381v1",
+            "pdf_url": "http://arxiv.org/abs/2608.25381",
+            "publish_date": "2026-08-26",
+            "abstract": "Cold-start multimodal recommendation faces three coupled challenges: (i) sparse interactions obscure user intent, (ii) cold items remain topologically isolated, and (iii) similarity-based item graphs may cause semantic drift. To address these issues, we propose MOTIF, a Motivation-guided Topology Inference framework for cold-start multimodal recommendation. MOTIF integrates Semantic Motivation Reasoning, Knowledge-enhanced Graph Reconstruction, Weighted Graph Contrastive Learning, and Semantic-Structural Alignment. It uses offline LLM reasoning to infer motivation semantics, reconstructs transferable item-item topology, and learns robust graph embeddings without injecting generated text into prediction. Experiments on three multimodal benchmarks show consistent gains over graph-based, multimodal, cold-start, and LLM-enhanced baselines, with up to 6.07% relative improvement over the strongest recent baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

@@ -1,4 +1,4 @@
-## Updated on 2026-08-26
+## Updated on 2026-08-27
 
 ---
 
@@ -26,6 +26,12 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-26` | **Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25755) |
+| `2026-08-26` | **D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble** | Bingnan Wang, Yi Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25737) |
+| `2026-08-26` | **A Dual-Transformer for Multi-Camera View Recommendation** | Josep Cabacas-Maso, Carles Ventura, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25601) |
+| `2026-08-26` | **An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation** | Fan Xia, Zhaoheng Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25546) |
+| `2026-08-26` | **TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation** | Zhifei Zheng, Yunfei Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25528) |
+| `2026-08-26` | **MOTIF: Motivation-guided Topology Inference for Cold-start Multimodal Recommendation** | Yurui Shi, Yuchen Miao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25381) |
 | `2026-08-25` | **Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation** | Jingyu Wang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24815) |
 | `2026-08-25` | **Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling** | Ying Jin, Weiqing Min, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24274) |
 | `2026-08-25` | **Tlow: Flow-based Item Tokenizer for Recommendation** | Nian Li, Chonggang Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24176) |
