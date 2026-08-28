@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-08-27
+## Updated on 2026-08-28
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-27` | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Maksim Utushkin, Andrei Ovsiannikov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27413) |
+| `2026-08-27` | **Profit based evaluation of machine learning for nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27205) |
+| `2026-08-27` | **Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval** | Ante Kapetanovic, Tomislav Duricic, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27006) |
+| `2026-08-27` | **Incremental Recommendation via Causal Models** | Athanasios Vlontzos, David Gustafsson, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.26804) |
+| `2026-08-27` | **Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation** | Hongren Wang, Tianjun Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.26728) |
+| `2026-08-27` | **Preference Flow Matching with Spectral Factorization for Micro-video Recommendation** | Xinxin Dong, Haokai Ma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.26579) |
 | `2026-08-26` | **Hamiltonian Spectral-Temporal Dissipative Dynamics for Sequential Recommendation** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25755) |
 | `2026-08-26` | **D3ER: Supporting Multi-Modal Recommendation via Disentangle and Distillation-based Dynamic Ensemble** | Bingnan Wang, Yi Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25737) |
 | `2026-08-26` | **A Dual-Transformer for Multi-Camera View Recommendation** | Josep Cabacas-Maso, Carles Ventura, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.25601) |
@@ -32,7 +38,7 @@ layout: default
 | `2026-08-25` | **Auditing Return Conditioning as a Control Knob: An Offline Diagnostic for Decision Transformer Recommendation** | Jingyu Wang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24815) |
 | `2026-08-25` | **Eating for a Sustainable Planet: Personalized Sustainable Diet Recommendation via Constraint-Aware Decision-Making Modeling** | Ying Jin, Weiqing Min, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24274) |
 | `2026-08-25` | **Tlow: Flow-based Item Tokenizer for Recommendation** | Nian Li, Chonggang Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24176) |
-| `2026-08-25` | **RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation** | Theodore Rogers, Joe Standerfer, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24079) |
+| `2026-08-25` | **Keeping the Index Open: The Recommendation-Side Cost of Shared Search and Recommendation** | Theodore Rogers, Joe Standerfer, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24079) |
 | `2026-08-25` | **TAGR: Temporally Adaptive Generative Recommendation for Industrial Live-Streaming Advertising** | Wencai Ye, Guangyi Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.24034) |
 | `2026-08-25` | **Who Chooses How Preferences Are Aggregated? Auditing Aggregation-Rule Authority in LLM-Based Group Recommendation** | Yuxuan Du | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23966) |
 | `2026-08-24` | **ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color Accessibility Recommendations** | Alexa Siu, Rajiv Jain, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.23852) |

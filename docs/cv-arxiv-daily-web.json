@@ -18239,10 +18239,10 @@
             "code_url": "null"
         },
         "2608.24079": {
-            "title": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
+            "title": "Keeping the Index Open: The Recommendation-Side Cost of Shared Search and Recommendation",
             "authors": "Theodore Rogers, Joe Standerfer, Dmitrii Timoshenko, Haoxue Li, Zuhaib Akhtar, Soyoung Yang",
             "first_author": "Theodore Rogers",
-            "url": "http://arxiv.org/abs/2608.24079v1",
+            "url": "http://arxiv.org/abs/2608.24079v2",
             "pdf_url": "http://arxiv.org/abs/2608.24079",
             "publish_date": "2026-08-25",
             "abstract": "A shared search-and-recommendation index must score new items from features alone because search has no exploration slot. In a public log covering both surfaces over one catalog, $38.6\\%$ of held-out query-search impressions show an item never previously shown or visited. For user-cold engagements, the feature-based tower serves this demand without measurable loss against $99$ sampled negatives ($0.9595$ Recall@20 versus $0.9510$ warm). A lexical baseline reaches similar parity, while a full-catalog check remains statistically undecided. Dual-encoder retrieval therefore keeps the index \\emph{open} to new items, unlike an ID-softmax recommender that requires retraining. We price this openness on recommendation against six sequential baselines, each retrained and tuned through five rounds on corrected targets. A float32 timestamp bug had reordered leave-one-out targets for $19.7\\%$ of users. On MovieLens-1M, warm accuracy trails the strongest retrained baseline by $5.2\\%$ Recall@20 and $11.4\\%$ NDCG@20. On MIND, the gap narrows to $0.8$--$3.6\\%$ relative to the five strongest baselines, though the model ranks sixth of seven. Under strict zero-leakage cold-start evaluation, the content tower achieves $0.172 \\pm 0.006$ Recall@20, $1.4\\times$ the strongest retrained dedicated method ($0.124 \\pm 0.007$) and $3\\times$ a training-free floor, without cold-specific training. Exact full-softmax training raises Recall@20 by $54\\%$ on MIND-small and $6.9\\%$ on MovieLens-1M over sampled InfoNCE, but recomputes the full catalog each step and exhausts accelerator memory at $240$K items. Approximate nearest-neighbor search explains none of the remaining gap, serving cost does not regress against ID-softmax retrieval, and a history-window sweep explains half the post-recipe remainder. Exact-quality training at catalog scale remains the open problem.",
@@ -18345,6 +18345,72 @@
             "pdf_url": "http://arxiv.org/abs/2608.25381",
             "publish_date": "2026-08-26",
             "abstract": "Cold-start multimodal recommendation faces three coupled challenges: (i) sparse interactions obscure user intent, (ii) cold items remain topologically isolated, and (iii) similarity-based item graphs may cause semantic drift. To address these issues, we propose MOTIF, a Motivation-guided Topology Inference framework for cold-start multimodal recommendation. MOTIF integrates Semantic Motivation Reasoning, Knowledge-enhanced Graph Reconstruction, Weighted Graph Contrastive Learning, and Semantic-Structural Alignment. It uses offline LLM reasoning to infer motivation semantics, reconstructs transferable item-item topology, and learns robust graph embeddings without injecting generated text into prediction. Experiments on three multimodal benchmarks show consistent gains over graph-based, multimodal, cold-start, and LLM-enhanced baselines, with up to 6.07% relative improvement over the strongest recent baseline.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27413": {
+            "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+            "authors": "Maksim Utushkin, Andrei Ovsiannikov, Alexander D'yakonov",
+            "first_author": "Maksim Utushkin",
+            "url": "http://arxiv.org/abs/2608.27413v1",
+            "pdf_url": "http://arxiv.org/abs/2608.27413",
+            "publish_date": "2026-08-27",
+            "abstract": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production-scale social graph with hundreds of millions of users and tens of billions of edges requires addressing numerous modeling and systems challenges. We present a scalable end-to-end GNN ranking system for production social graphs, focusing on two design choices that are critical in this setting: multi-hash ID embeddings and temporal neighbor sampling. Multi-hash embeddings are common for high-cardinality features, but industrial GNN systems typically either ignore trainable IDs or accept full embedding tables, exceeding 200 GB for our graph. We integrate multi-hash as the primary node representation, reducing the ID-embedding table size by more than 98 percent while preserving ranking quality. Temporal neighbor sampling is well understood in principle, but existing implementations scan full adjacency lists, which is a non-starter for users with tens of thousands of friends. We implement timestamp-sorted CSR storage with binary search, reducing the per-node temporal sampling cost from $O(deg(v) + k)$ to $O(\\log(deg(v)) + k)$. Beyond these components, we show that this combination scales and yields measurable production impact. On a graph with 194M users and 28B edges, offline ablations isolate each design choice's contribution. In an online A/B test, our system increases friend additions from recommendations by 16 percent and unique friend adders by 11.5 percent over a strong production baseline. We release our framework for distributed training and inference on large temporal graphs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.27205": {
+            "title": "Profit based evaluation of machine learning for nitrogen recommendations in winter wheat",
+            "authors": "Xulong Wang, Po Yang",
+            "first_author": "Xulong Wang",
+            "url": "http://arxiv.org/abs/2608.27205v1",
+            "pdf_url": "http://arxiv.org/abs/2608.27205",
+            "publish_date": "2026-08-27",
+            "abstract": "Nitrogen rates for winter wheat are set before the season, under unknown prices and weather. The standard UK advice does not respond to prices, yet recent price swings moved the most profitable rate by tens of kilograms per hectare. Machine learning is often proposed as the fix. However, it is usually judged on prediction accuracy, and accurate prediction does not by itself make the recommended rate more profitable. Our insight is to score nitrogen advice directly by the profit it forgoes on measured yield response curves. We build a test bench on 892 such curves from two long running UK experiments, and sweep the nitrogen to grain price ratio to cover all price scenarios. On this bench, machine learning fails as a predictor. No model recovers the best rate within farm tolerance, and the benchmark noise shows none can. At normal prices, every model also loses to the standard advice on profit. The gain sits elsewhere. A simple correction step applied after the model cuts profit losses by a quarter, while better models and extra features give no gain. The same frozen correction cuts losses by 43% at the second site without any retraining. A hybrid of standard advice plus a damped correction removes bias and trims rare large losses. The same price sweep also prices emission cuts, at a cost comparable to current carbon prices. Machine learning therefore pays as a profit scored correction to standard advice, not as its replacement.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2608.27006": {
+            "title": "Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval",
+            "authors": "Ante Kapetanovic, Tomislav Duricic, Dionizije Fa, Andro Mercep, Emanuel Lacic",
+            "first_author": "Ante Kapetanovic",
+            "url": "http://arxiv.org/abs/2608.27006v1",
+            "pdf_url": "http://arxiv.org/abs/2608.27006",
+            "publish_date": "2026-08-27",
+            "abstract": "Conversational recommender systems based on large language models (LLMs) are usually evaluated on static, pre-indexed item collections, yet e-commerce catalogues change continuously as products are added or removed, repriced, and restocked. We present a merchant-agnostic, multi-turn conversational shopping assistant that operates over such live catalogues. Its central component is a self-refreshing retriever that ingests a merchant product feed, enriches the records, and synchronizes them into a vector index. On each run, per-item hashes identify which products are new, changed, deleted, or unchanged, so only the delta is processed rather than rebuilding the whole catalogue. A controller-based dialogue layer consumes this index, using an LLM only for intent classification and preference elicitation while retrieval, reranking, and diversity selection run as dedicated functions. Our demonstration is a WhatsApp shopping assistant in which catalogue changes reach the recommendations after the next successful sync. A live chatbot, documentation, and a recorded walkthrough are available at https://github.com/infobip/infobip-agentic-crs.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.26804": {
+            "title": "Incremental Recommendation via Causal Models",
+            "authors": "Athanasios Vlontzos, David Gustafsson, Michael O'Riordan, Ciar\u00e1n M. Gilligan-Lee",
+            "first_author": "Athanasios Vlontzos",
+            "url": "http://arxiv.org/abs/2608.26804v1",
+            "pdf_url": "http://arxiv.org/abs/2608.26804",
+            "publish_date": "2026-08-27",
+            "abstract": "Recommendation impressions are a finite resource, hence delivering a recommendation to a user who would discover the content organically yields no incremental value and displaces other recommendations that could. We address this by extending an existing production recommendation model to a causal architecture using holdback data that is already collected as part of routine experimentation infrastructure, requiring no new data collection. A central challenge is that attribution windows differ between treated and holdback observations: treated users are attributed a stream within a short direct-response window, while holdback users are attributed organic streams over a multi-day window. This mismatch makes naive treatment-effect subtraction invalid. We resolve this with a dual-threshold targeting policy that delivers a recommendation only when the probability of a treated stream is high and the probability of organic stream is low. In a production-scale A/B test on millions of Spotify users, this policy reduces recommendation impressions by 7% with no statistically significant reduction in overall recommended content consumption. We further show that joint training with holdback data improves calibration of the treated head relative to the production baseline, and argue this can be taken as evidence that causal models learn more generalisable representations than models trained on observational data alone.",
+            "primary_category": "stat.ML",
+            "code_url": "null"
+        },
+        "2608.26728": {
+            "title": "Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation",
+            "authors": "Hongren Wang, Tianjun Wei, Yingpeng Du, Jie Zhang, Yin-Leng Theng",
+            "first_author": "Hongren Wang",
+            "url": "http://arxiv.org/abs/2608.26728v1",
+            "pdf_url": "http://arxiv.org/abs/2608.26728",
+            "publish_date": "2026-08-27",
+            "abstract": "Data sparsity remains a long-standing challenge in recommender systems, and it becomes more severe for methods relying on user-generated content (UGC) such as textual reviews, which capture fine-grained preferences but require more user efforts to produce. As a result, UGC exhibits (1) missing reviews, where interactions lack any review, and (2) incomplete reviews, where available reviews cover only a subset of relevant attributes. Existing approaches often overlook these UGC-specific issues, leading to degraded accuracy. Motivated by meta-review in academic peer review, we propose MOSAIC (Meta-review On Sparse And Incomplete user-generated Content), which constructs a meta-review for each target user by aggregating attribute-sentiment evidence from neighbor users' reviews. A multi-gate mixture-of-experts (MMoE) architecture jointly optimizes rating prediction and meta-review attribute-sentiment prediction, while an attention module personalizes the aggregated meta-review signals to each target user, yielding both refined rating predictions and attribute-level explanations. Experiments on four real-world datasets demonstrate that MOSAIC consistently outperforms state-of-the-art baselines in both recommendation accuracy and explanation quality, mitigating UGC sparsity and incompleteness while delivering consistent gains for users with limited interaction history.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2608.26579": {
+            "title": "Preference Flow Matching with Spectral Factorization for Micro-video Recommendation",
+            "authors": "Xinxin Dong, Haokai Ma, Fei Hu, YuZe Zheng, Bin Wu, Yonghui Yang, Xiaodong Wang",
+            "first_author": "Xinxin Dong",
+            "url": "http://arxiv.org/abs/2608.26579v1",
+            "pdf_url": "http://arxiv.org/abs/2608.26579",
+            "publish_date": "2026-08-27",
+            "abstract": "Micro-video recommendation aims to infer user preferences from historical interactions and multimodal video content, thereby identifying the next video of interest. However, prevailing methods compress frame sequences into a single holistic representation, entangling the stable visual semantics and the evolving dynamics that jointly shape user preferences. Meanwhile, diffusion- and flow matching-based recommenders condition their generation process solely on coarse behavioral context, leaving its internal temporal structure outside preference formation. We therefore propose PrismRec, a Preference Flow Matching framework with Spectral Factorization for Micro-video Recommendation. Analogous to a prism that disperses white light into its constituent spectrum, PrismRec devises Spectral Semantic Factorization (SSF) to derive complementary static semantic and dynamic factors from frame-level representations via a prior-guided learnable frequency mask in the temporal frequency domain. Then, it proposes Context-Calibrated Preference Matching (CPM) to weigh them with each user's specific sensitivity and inject the calibrated context as a structured condition to steer the matching trajectory toward the target representation, making video content as an intrinsic driver of preference formation rather than auxiliary side information. Experiments on four datasets from two platforms show that PrismRec surpasses the SOTA baseline by up to 22.65%, with the lowest inference cost and peak memory among the compared methods.",
             "primary_category": "cs.IR",
             "code_url": "null"
         }
