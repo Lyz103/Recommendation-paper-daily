@@ -1,4 +1,4 @@
-## Updated on 2026-08-30
+## Updated on 2026-08-31
 
 ---
 
@@ -26,8 +26,14 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-28` | **Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining** | Kia Kazemi-Nia, Harsh Bandhey, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.28552) |
+| `2026-08-28` | **Timing-Aware Repurchase Prediction for Web-Scale E-Commerce: Survival Models for Multi-Surface Grocery Recommendation** | Akshay Kekuda, Shreeranjani Srirangamsridharan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.28393) |
+| `2026-08-28` | **HubMixer: Progressive Latent Hub Mixing for Parameter-Efficient Feature Interaction in Recommendation** | Jie Zhou, Zixian Gong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27991) |
+| `2026-08-28` | **Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation** | Wenze Ma, Chenyu Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27950) |
+| `2026-08-28` | **An Empirical Evaluation of Cross-City POI Recommendation on a Large-Scale Benchmark** | Peibo Li, Yang Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27840) |
+| `2026-08-28` | **Personalized and Multi-View Representation for Federated Cold-Start Recommendation** | Jaehyung Lim, Wonbin Kweon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27826) |
 | `2026-08-27` | **Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling** | Maksim Utushkin, Andrei Ovsiannikov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27413) |
-| `2026-08-27` | **Profit based evaluation of machine learning for nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27205) |
+| `2026-08-27` | **Accurate prediction is not profitable advice: profit-based evaluation of machine learning nitrogen recommendations in winter wheat** | Xulong Wang, Po Yang | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27205) |
 | `2026-08-27` | **Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval** | Ante Kapetanovic, Tomislav Duricic, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27006) |
 | `2026-08-27` | **Incremental Recommendation via Causal Models** | Athanasios Vlontzos, David Gustafsson, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.26804) |
 | `2026-08-27` | **Beyond a Single Story: Meta-Reviewing Sparse and Incomplete User-generated Contents for Recommendation** | Hongren Wang, Tianjun Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.26728) |
