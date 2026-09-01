@@ -1,4 +1,4 @@
-## Updated on 2026-08-31
+## Updated on 2026-09-01
 
 ---
 
@@ -26,6 +26,12 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-08-31` | **Beyond Ranking Accuracy: Evaluating LLM-Cited Feature Rationales for Next Basket Repurchase Recommendation** | Yanan Cao, Anay Dombe, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.30333) |
+| `2026-08-30` | **The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.30052) |
+| `2026-08-29` | **Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.29410) |
+| `2026-08-29` | **FISICA: A Deployed Service for Plantar-Pressure and Posture Assessment with Ontology-Grounded Recommendation** | Juhwan Song, Heejung Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.29336) |
+| `2026-08-29` | **TAAL: Mitigating Early Beam Pruning in Generative Recommendation via Temporal Autoregressive Alignment** | Lianjie Li, Zhiying Tu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.29179) |
+| `2026-08-28` | **Explainable Artificial Intelligence (XAI) in Computational Pathology: Definitions, Taxonomy, and Recommendations** | Shubham Innani, Suhang You, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.28820) |
 | `2026-08-28` | **Advancing Interaction-Sensitive Feature Selection: Novel Relief-Based Algorithms, Expanded Comparisons, and Recommendations for Biomedical Data Mining** | Kia Kazemi-Nia, Harsh Bandhey, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.28552) |
 | `2026-08-28` | **Timing-Aware Repurchase Prediction for Web-Scale E-Commerce: Survival Models for Multi-Surface Grocery Recommendation** | Akshay Kekuda, Shreeranjani Srirangamsridharan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.28393) |
 | `2026-08-28` | **HubMixer: Progressive Latent Hub Mixing for Parameter-Efficient Feature Interaction in Recommendation** | Jie Zhou, Zixian Gong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.27991) |
