@@ -1,4 +1,4 @@
-## Updated on 2026-09-01
+## Updated on 2026-09-02
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-01` | **From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs** | Jie Chen, Xiangqian Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.01240) |
+| `2026-09-01` | **Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation** | Xin Liu | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00996) |
+| `2026-09-01` | **TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning** | TGR Team, Lei Cheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00986) |
+| `2026-09-01` | **RPCBench: A Benchmark for Proactive Premise Critique in LLM-based Recommendation** | Zhongru Chen, Yuan Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00918) |
+| `2026-08-31` | **Authority Bias in Conversational Search Engines for Academic Paper Recommendation** | Uthman Jinadu, Parsa Ghazvinian, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00248) |
+| `2026-08-31` | **Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback** | Ziwen Pan, Zihan Liang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00165) |
+| `2026-08-31` | **Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation** | Ante Kapetanovic, Tomislav Duricic, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00086) |
 | `2026-08-31` | **Beyond Ranking Accuracy: Evaluating LLM-Cited Feature Rationales for Next Basket Repurchase Recommendation** | Yanan Cao, Anay Dombe, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.30333) |
 | `2026-08-30` | **The Language of the Question Selects the Market: Query Language and Exit IP as Separable Factors in Commercial Recommendations from a Generative Search Interface** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.30052) |
 | `2026-08-29` | **Agents as Knowledge Integrator and Utilizer in Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2608.29410) |

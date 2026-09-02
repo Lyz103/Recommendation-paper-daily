@@ -18545,6 +18545,83 @@
             "abstract": "Computational pathology (CompPath) is transforming medicine by leveraging artificial intelligence (AI) algorithms to support diagnosis, prognosis, and treatment prediction from gigapixel whole-slide images. Clinical adoption is progressing, but is constrained by concerns about safety, accountability, and regulatory oversight in high-stakes clinical environments. Explainable AI (XAI) systems hold promise for building trust and enabling verification, yet the literature remains fragmented due to inconsistent terminology, overlapping methodological families, ad hoc validation, and current reviews. This review aims to formalize XAI methods in CompPath through the: i) introduction of a pathology-centric vocabulary comprising seven core terms; ii) development of a taxonomy across methodological families and three orthogonal axes (stage, type, scope); and iii) establishment of a task-driven framework that maps five clinical questions to recommended methods, method evaluation, and deployment context. Five key gaps between current XAI capabilities and clinical deployment are identified, and actionable steps are proposed to advance XAI for CompPath.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2609.01240": {
+            "title": "From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs",
+            "authors": "Jie Chen, Xiangqian Yu, Yanchao Lian, Tan Lu, Run Yang, Zhengchun Shang, Xing Wang, Cheng Chen, Ke Hu, Qiang Li, Tianjiu Yin, Xiaobing Liu",
+            "first_author": "Jie Chen",
+            "url": "http://arxiv.org/abs/2609.01240v1",
+            "pdf_url": "http://arxiv.org/abs/2609.01240",
+            "publish_date": "2026-09-01",
+            "abstract": "Scaling Transformers has driven large gains in language modeling, but transplanting this to behavior-sequence modeling in production ranking is challenging: recommendation differs in signal quality, where behavior sequences are noisy, temporally irregular, and sparsely supervised, and in computation asymmetry, where each request scores many candidates against one shared user history under tight latency budgets. We propose ReST, a recommendation-native Transformer scaling framework. For signal quality, it introduces a sequence encoder with dual-gated attention, rotary positional and temporal embedding, stabilized residual normalization, and training-only auxiliary objectives. For computation asymmetry, it factorizes ranking into a heavy reusable encoder and a lightweight cross decoder with projection-free KV attention and token-specific parameterization, coupling user-level shared-prefix training with shared-prefix serving for compute-once, decode-many-times ranking. Across industrial and public benchmarks, ReST achieves higher accuracy and scales more consistently along sequence length, depth, and width, where LLM-style Transformer blocks saturate. A one-week online A/B test on a production advertising platform improves online AUC by 1.31% and lifts a core revenue metric by 11.93% within a 50 ms P99 budget; ReST has since been fully deployed in production, showing that behavior-sequence scaling remains a promising, under-exploited axis for production ranking.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.00996": {
+            "title": "Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation",
+            "authors": "Xin Liu",
+            "first_author": "Xin Liu",
+            "url": "http://arxiv.org/abs/2609.00996v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00996",
+            "publish_date": "2026-09-01",
+            "abstract": "Personalized video recommendation predicts user preference at the video level, while temporal video grounding localizes query-relevant moments. However, strong localization does not establish whether the retrieved moment constitutes valid evidence for recommending the video to a particular user. We study counterfactual behavior-grounded evidence retrieval, which separates where personalized evidence occurs from whether such evidence exists and evaluates whether model predictions respond consistently when that evidence is replaced. We introduce CBGER-10K, containing 5,000 controlled factual--counterfactual pairs for 3,026 users, where each pair replaces only the focal behavior-supported segment while preserving the user, temporal position, and hard distractors. We further propose CBGER, a compact framework that decouples segment-level localization from video-level evidence estimation and learns both through structured counterfactual supervision. CBGER achieves $0.4432$ MRR, $0.6977$ Pair Accuracy, and $0.6987$ Intervention Consistency across five adapted personalized-highlight and temporal-grounding baselines. Notably, compared with QD-DETR, its MRR improvement is not statistically significant, while Pair Accuracy improves by $11.03$ points. These results show that accurate temporal localization does not necessarily imply reliable personalized evidence existence, motivating explicit evaluation of Whether alongside Where.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2609.00986": {
+            "title": "TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning",
+            "authors": " TGR Team, Lei Cheng, Haonan Hu, Beibei Kong, Yudong Li, Zang Li, Yunsheng Pang, Hongyang Su, Jianchao Tu, Yunlong Wang, Bing Wen, Junzhang Zhu, Shaojie Zhu, Chengxiang Zhuo",
+            "first_author": " TGR Team",
+            "url": "http://arxiv.org/abs/2609.00986v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00986",
+            "publish_date": "2026-09-01",
+            "abstract": "Industrial recommender systems typically rely on cascaded retrieval, pre-ranking, ranking, and reranking stages, whose separately optimized models limit scaling, fragment decision making, and lack semantic knowledge and reasoning. We present TGR (Tencent Generative Recommendation), an industrial framework that advances recommendation toward the generative paradigm along three coupled directions. TGR-GenRank upgrades ranking through CCFormer, which combines unified feature tokenization, a scalable Transformer backbone, feature-field separated cross attention, subspace token mixing, and hierarchical sequence compression while retaining per-item multi-task outputs. TGR-GenRec explores end-to-end generation under two paradigms: BARGE bridges item-boundary loss and semantic drift in hierarchical semantic-ID generation through item context-aware attention, hierarchical path reranking, and orthogonal dual-path decoding; HiGR performs whole-slate generation with prefix-structured semantic IDs, coarse-to-fine decoding, and listwise multi-objective alignment. TGR-Reason injects offline-generated semantic-ID reason tokens into online decoding, providing reasoning without request-time rollout. TGR is deployed across Tencent production surfaces serving hundreds of millions of users. CCFormer delivers significant gains in five A/B-tested scenarios and is fully launched in two, including +3.57% CTR and +1.71% advertising revenue. BARGE improves Hit@5 by 10.2-16.9% and yields +0.60% CTR and +1.70% reading time after full rollout. HiGR improves offline slate quality by 15.9-21.3% with a 5x inference speedup and achieves up to +1.22% watch time and +1.73% video views. TGR-Reason raises cold-start new-user Hit@1 by 477.8% and delivers +1.75% effective consumption and +13.09% new-user exposure-to-conversion online.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.00918": {
+            "title": "RPCBench: A Benchmark for Proactive Premise Critique in LLM-based Recommendation",
+            "authors": "Zhongru Chen, Yuan Wu, Yi Chang",
+            "first_author": "Zhongru Chen",
+            "url": "http://arxiv.org/abs/2609.00918v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00918",
+            "publish_date": "2026-09-01",
+            "abstract": "Large language models are increasingly used as interactive recommender assistants. Their evaluation should therefore go beyond plausible item recommendation and test whether they can recognize flawed recommendation requests. Existing recommender benchmarks mainly assess ranking, generation, or preference satisfaction, while existing error-detection benchmarks are usually not grounded in recommendation-specific user and candidate evidence. To address this gap, we introduce RPCBench, a benchmark for evaluating Recommender-Premise Critique: the ability to detect, diagnose, and properly handle faulty premises in natural-language recommendation requests. RPCBench contains evidence-grounded test instances from five recommendation domains and covers ten types of premise failures. Each instance provides a visible recommendation context and a corrupted user query. We further design a fine-grained evaluation framework that measures proactive detection, error localization, post-detection handling strategy, and evidence faithfulness. Through a systematic evaluation of 11 LLMs, we find that proactive detection is the main bottleneck in Recommender-Premise Critique, and models perform worst on underspecified-premise errors. We also observe that target-critical information density matters more than redundant evidence, and that longer reasoning does not monotonically improve critique quality: performance peaks at intermediate reasoning length, while overly long reasoning is accompanied by an overthinking penalty. The code is available at https://github.com/ZhongruChen/RPCBench.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.00248": {
+            "title": "Authority Bias in Conversational Search Engines for Academic Paper Recommendation",
+            "authors": "Uthman Jinadu, Parsa Ghazvinian, Anjila Budathoki, Benjamin M. Ampel, Rajshekhar Sunderraman, Yi Ding",
+            "first_author": "Uthman Jinadu",
+            "url": "http://arxiv.org/abs/2609.00248v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00248",
+            "publish_date": "2026-08-31",
+            "abstract": "Large Language Models (LLMs) are increasingly used as conversational search engines for academic literature, yet whether they judge papers on content or on authority signals has not been tested causally. We investigate authority bias: systematic preference for papers based on author prestige, venue, and citations rather than content. Holding title and abstract constant, we vary authority metadata across three counterfactual conditions (original, flipped, boosted) over eight LLMs (five open-weight and three frontier closed-weight) in an in-context, single-turn, top-1 recommendation setting. Our experiments show that authority bias is substantial and directional, varies markedly across models, and is only partially addressable through prompt-level debiasing. We further document a say-do gap: debiasing instructions suppress authority mentions far faster than authority-driven flips, so surface auditing systematically underestimates behavioral bias.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.00165": {
+            "title": "Two-Sided State-Space Models for Sequential Recommendation with Non-Random Multimodal Review Feedback",
+            "authors": "Ziwen Pan, Zihan Liang, Ruoxuan Xiong",
+            "first_author": "Ziwen Pan",
+            "url": "http://arxiv.org/abs/2609.00165v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00165",
+            "publish_date": "2026-08-31",
+            "abstract": "Two-sided digital platforms are inherently dynamic: user preferences shift, item popularity evolves, and reviews both reflect and drive these changes. Yet most sequential recommendation systems treat reviews as passive signals for updating user states, leaving two aspects underexplored. First, review generation is nonrandom, depending on evolving latent states of both users and items. Second, reviews can reshape item states, induce spillover across related items, and influence future user decisions. To address these gaps, we propose a two-sided state-space model (TS-SSM) for event-conditioned sequential recommendation. TS-SSM consists of three components: (1) a modality-missing-not-at-random fusion module that encodes review content and informative observation patterns; (2) user-state evolution with temporal variation and local graph message passing that uses related item states to refine user preferences; and (3) item-state evolution with asymmetric carryover of positive and negative review feedback. In experiments across six Amazon categories, TS-SSM increases Recall@20 over BSARec by 14.8%--18.8% and exceeds HM4SR by 11.7% on average. On Goodreads Fantasy, Recall@20 improves HM4SR from .5191 to .5847. Ablations highlight distinct contributions of observation patterns, local propagation, and item dynamics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.00086": {
+            "title": "Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation",
+            "authors": "Ante Kapetanovic, Tomislav Duricic, Andro Mercep, Emanuel Lacic",
+            "first_author": "Ante Kapetanovic",
+            "url": "http://arxiv.org/abs/2609.00086v1",
+            "pdf_url": "http://arxiv.org/abs/2609.00086",
+            "publish_date": "2026-08-31",
+            "abstract": "Large language models (LLMs) are increasingly used as rerankers in conversational recommender systems, yet measured gains depend strongly on the retrieval and inference protocol. On the ReDial conversational movie recommendation benchmark, we compare proprietary, open-weight, and fine-tuned LLM rerankers with collaborative-filtering and sequential baselines in a shared retrieve-then-rerank pipeline. We vary candidate-pool size, first-stage retriever, and decoding temperature. With a shared semantic top-250 candidate pool and strict candidate-aware scoring, the best proprietary reranker reaches NDCG@10 of 0.1497, compared with 0.0939 for the strongest non-LLM baseline. The same reranker reaches 0.2925 in zero-shot generation, showing that unconstrained scoring can yield a much larger apparent advantage than matched-pool evaluation. No evaluated open-weight LLM outperforms the tuned shallow autoencoder baseline under this protocol. For the strongest proprietary and open-weight rerankers, switching from semantic to collaborative-filtering candidates raises NDCG@10 by more than 50%, showing that measured reranker performance is highly sensitive to candidate generation. For the best proprietary reranker, raising temperature from 0 to 1.0 increases top-10 Jaccard distance from 0.0900 to 0.1240 while mean NDCG@10 changes negligibly, whereas weaker LLMs show larger degradation. These ReDial results support treating candidate generation, candidate-pool size, scoring policy, and decoding configuration as required reporting fields rather than implementation details.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
         }
     }
 }
