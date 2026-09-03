@@ -1,4 +1,4 @@
-## Updated on 2026-09-02
+## Updated on 2026-09-03
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-02` | **DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation** | Wei Zhang, Hongji Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02170) |
+| `2026-09-02` | **GenCAR: Generative Counterfactual Alignment with Risk-Controlled Selection for Out-of-Distribution Recommendation** | Qianqian Wang, Yunshan Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02162) |
+| `2026-09-02` | **Beyond Modality Harmony: Orthogonal Purification and Topology-Guided MoE for Conflict-Aware Multimodal Recommendation** | Jialin Liu, Zhaorui Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02152) |
+| `2026-09-02` | **SPAR: Enhancing Industrial-Scale Generative POI Recommendation via Real-World Spatial Perception** | Fangye Wang, Yunjin Gu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02062) |
+| `2026-09-01` | **UAV Thermal Imagery for Inert Ordnance Screening: Multi Campaign Dataset Development,Object Detection, and Practical Recommendations** | Chad Melton, PhD., et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.01738) |
+| `2026-08-31` | **From Feature Interaction to Feature Transport - A Unified Block for Scalable Recommendation Models** | Zichen Luo, Jiachen Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.01655) |
+| `2026-08-31` | **Not All Matches Are Equally Valuable: An Online Experiment of Retention-Focused Recommendation in a Job-Matching Platform** | Tatsuya Ute, Chiaki Ichimura, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.01652) |
 | `2026-09-01` | **From Language to Behavior: Scaling Sequence Transformers for Industrial Recommendation Ranking with Rec-Native Designs** | Jie Chen, Xiangqian Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.01240) |
 | `2026-09-01` | **Does This Moment Justify the Recommendation? Counterfactual Behavior-Grounded Evidence Retrieval for Personalized Video Recommendation** | Xin Liu | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00996) |
 | `2026-09-01` | **TGR: Advancing Industrial Recommendation from Generative-Paradigm Ranking toward Unified Generation and Reasoning** | TGR Team, Lei Cheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.00986) |
