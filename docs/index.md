@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-03
+## Updated on 2026-09-04
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-03` | **Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable** | Shai Vardi, João Sedoc | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04127) |
+| `2026-09-03` | **The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04047) |
+| `2026-09-03` | **EPIC: Explicit Posterior Item Conditioning for Semantic ID Diffusion Recommendation** | Tuan-Binh Tran, Thanh Tam Nguyen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.03522) |
+| `2026-09-03` | **SelfDR: Self-Distillation from Reasoning for LLM-Based Recommendation** | Chumeng Jiang, Jiayin Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.03313) |
 | `2026-09-02` | **DMRL: Document-Mediated Reinforcement Learning for Skill Optimization in Advertising Recommendation** | Wei Zhang, Hongji Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02170) |
 | `2026-09-02` | **GenCAR: Generative Counterfactual Alignment with Risk-Controlled Selection for Out-of-Distribution Recommendation** | Qianqian Wang, Yunshan Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02162) |
 | `2026-09-02` | **Beyond Modality Harmony: Orthogonal Purification and Topology-Guided MoE for Conflict-Aware Multimodal Recommendation** | Jialin Liu, Zhaorui Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.02152) |
