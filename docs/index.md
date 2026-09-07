@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-06
+## Updated on 2026-09-07
 
 ---
 
@@ -23,6 +23,14 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-04` | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | Siliang Liu, Mohammad Ghasemi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05363) |
+| `2026-09-04` | **Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro** | Aleksandra Osowska-Kurczab, Klaudia Nazarko, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05063) |
+| `2026-09-04` | **Repeated Queries Exhaust an LLM's Brand Recommendations but Not Its Sources** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05059) |
+| `2026-09-04` | **AtomRec: Evolving Atomic Memory for Agentic Recommendation** | Peiyu Hu, Weihai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04882) |
+| `2026-09-04` | **Personalized Task Dependency Graphs for Mitigating Signal Erosion in Multi-Task Recommendation** | Fuyuan Liu, Tiandeng Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04862) |
+| `2026-09-04` | **Continual Graph Memory for Adaptive Recommendation under Intent Drift** | Hao Nguyen Ngoc, Tung Nguyen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04651) |
+| `2026-09-04` | **Latent-Aligned Reasoning for Multimodal Recommendation** | Jiarui Jin, Anyang Ji | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04645) |
+| `2026-09-04` | **MURAL: Multimodal Uncertainty-aware Recommendation via Adaptive edge Learning** | Ahmad Mousavi, Majid Alikhani, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04574) |
 | `2026-09-03` | **Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable** | Shai Vardi, João Sedoc | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04127) |
 | `2026-09-03` | **The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.04047) |
 | `2026-09-03` | **EPIC: Explicit Posterior Item Conditioning for Semantic ID Diffusion Recommendation** | Tuan-Binh Tran, Thanh Tam Nguyen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.03522) |
