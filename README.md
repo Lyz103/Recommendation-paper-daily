@@ -1,4 +1,4 @@
-## Updated on 2026-09-08
+## Updated on 2026-09-09
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-08` | **Structured Positive-Definite Optimal Control Synthesis of Closed-Loop Recommendation Systems over Social Networks** | Mariano Simone, Frasca Paolo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.08567) |
+| `2026-09-08` | **SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching** | Lin Guan, Jia-Qi Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.08443) |
+| `2026-09-07` | **Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy** | Danni Peng, Kai Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.07175) |
+| `2026-09-07` | **EAGER: Enrich-and-Align Generative Query Recommendation from Clicked Items in E-commerce Search** | Shuwei Yuan, Mingqian Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.07143) |
+| `2026-09-05` | **Closing the Long-Short View Gap in Sequential Recommendation without Cached History** | Lingfeng Shi, Chengkai Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.06219) |
+| `2026-09-05` | **Do All Nodes Benefit Equally from Knowledge Graphs? Adaptive Node-Aware KG Fusion for Recommendation** | Jaehyun Park, Minseo Jeon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05909) |
+| `2026-09-04` | **A Multi-Source Ensemble Approach to Candidate Generation for Alternative Vacation Rental Property Recommendations** | Syed Mohammed Arshad Zaidi, Eric Rincon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05748) |
 | `2026-09-04` | **Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation** | Siliang Liu, Mohammad Ghasemi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05363) |
 | `2026-09-04` | **Beyond Co-purchase Relation: Evolution of Complementary Recommendations at Allegro** | Aleksandra Osowska-Kurczab, Klaudia Nazarko, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05063) |
 | `2026-09-04` | **Repeated Queries Exhaust an LLM's Brand Recommendations but Not Its Sources** | Dmitrij Żatuchin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.05059) |
