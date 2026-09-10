@@ -18908,6 +18908,17 @@
             "abstract": "Alternative property recommendations play a critical role in vacation rental marketplaces, helping users discover relevant options when viewing a specific listing. However, generating high-quality candidate alternatives presents unique challenges: heterogeneous inventory, geographic constraints, rapid availability changes, and long-tail property distributions. We present a comprehensive study of candidate generation (CG) approaches for vacation rental alternatives, comparing collaborative filtering, shallow embeddings, and graph neural network (GNN) methods.   Our experiments on a large-scale vacation rental platform (over 2M active properties) show that a hybrid architecture combining item-based collaborative filtering with GNN-based retrieval improves Recall@300 by 14.8% over the strongest baseline, by leveraging the complementary strengths of the two sources: collaborative filtering excels at early recall for properties with rich interaction history, while GNNs discover diverse, non-obvious alternatives and handle cold-start scenarios more effectively. As a component result, GNN-based embeddings alone substantially outperform shallow Hotel2Vec embeddings (48-68% relative recall improvement across K), motivating their inclusion in the ensemble.   Crucially, we examine how CG-stage gains carry through to the downstream ranking stage, and find that a stronger candidate pool yields higher downstream ranking quality, though attributing this effect cleanly is complicated by the coupling between candidate generation and ranker training. This recall-conversion gap is an important consideration for practitioners deploying new retrieval methods in two-stage recommendation systems.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2609.09465": {
+            "title": "Democracy Needs Reach: Political Equality, Online Speech, and Algorithmic Recommendation",
+            "authors": "Etienne Brown",
+            "first_author": "Etienne Brown",
+            "url": "http://arxiv.org/abs/2609.09465v1",
+            "pdf_url": "http://arxiv.org/abs/2609.09465",
+            "publish_date": "2026-09-08",
+            "abstract": "Within democracies, the capacity to influence political outcomes through speech depends not only on the right to express oneself, but also on the opportunity to reach relevant audiences. In this paper, I argue that the unequal distribution of algorithmic reach on social media platforms undermines equality of opportunity for political influence (EOPI), which is a central democratic ideal. Drawing on Niko Kolodny's work, I contend that current recommendation algorithms create and perpetuate informal inequalities by concentrating attention among a small minority of already-amplified speakers while systematically marginalizing others. To address this problem, I propose recommendation floors as a mechanism for equalizing political speech. To help users achieve meaningful participation, each verified account would receive guaranteed minimum recommendation for up to a limited number of political posts per week. Although this measure represents one component of the structural reforms needed to move the digital public sphere closer to democratic ideals, it offers a feasible pathway to reducing informal inequalities in political influence online.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
         }
     }
 }
