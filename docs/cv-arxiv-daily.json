@@ -18919,6 +18919,39 @@
             "abstract": "Within democracies, the capacity to influence political outcomes through speech depends not only on the right to express oneself, but also on the opportunity to reach relevant audiences. In this paper, I argue that the unequal distribution of algorithmic reach on social media platforms undermines equality of opportunity for political influence (EOPI), which is a central democratic ideal. Drawing on Niko Kolodny's work, I contend that current recommendation algorithms create and perpetuate informal inequalities by concentrating attention among a small minority of already-amplified speakers while systematically marginalizing others. To address this problem, I propose recommendation floors as a mechanism for equalizing political speech. To help users achieve meaningful participation, each verified account would receive guaranteed minimum recommendation for up to a limited number of political posts per week. Although this measure represents one component of the structural reforms needed to move the digital public sphere closer to democratic ideals, it offers a feasible pathway to reducing informal inequalities in political influence online.",
             "primary_category": "cs.CY",
             "code_url": "null"
+        },
+        "2609.11876": {
+            "title": "On the Regularization Landscape for the Linear Recommendation Models",
+            "authors": "Dong Li, Zhenming Liu, Ruoming Jin, Hao Zhou, Zhi Liu, Jing Gao, Bin Ren",
+            "first_author": "Dong Li",
+            "url": "http://arxiv.org/abs/2609.11876v1",
+            "pdf_url": "http://arxiv.org/abs/2609.11876",
+            "publish_date": "2026-09-10",
+            "abstract": "Recently, a wide range of recommendation algorithms inspired by deep learning techniques have emerged as the performance leaders on several standard recommendation benchmarks. While these algorithms were built on different DL techniques (e.g., dropouts, autoencoder), they have similar performance and even similar cost functions. This paper studies whether the models' comparable performance are sheer coincidence, or they can be unified under a single framework. We find that all linear performance leaders effectively add only a nuclear-norm based regularizer, or a Frobenius-norm based regularizer. The former ones possess a (surprising) rigid structure that limits the models' predictive power but their solutions are low rank and have closed form. The latter ones are more expressive and more efficient for recommendation but their solutions are either full-rank or require executing hard-to-tune numeric procedures such as ADMM. Along this line of finding, we further propose two low-rank, closed-form solutions, derived from carefully generalizing Frobenius-norm based regularizers. The new solutions get the best of both nuclear-norm and Frobenius-norm world.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.11632": {
+            "title": "FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation",
+            "authors": "Mingzhe Han, Jiahao Liu, Dongsheng Li, Jiankui Zhou, Hansu Gu, Peng Zhang, Ning Gu, Tun Lu",
+            "first_author": "Mingzhe Han",
+            "url": "http://arxiv.org/abs/2609.11632v1",
+            "pdf_url": "http://arxiv.org/abs/2609.11632",
+            "publish_date": "2026-09-10",
+            "abstract": "Federated recommendation enables collaborative model training while keeping user interaction data on local clients. A central problem in federated recommendation is how to aggregate useful information across clients for personalized recommendation. Existing personalized aggregation methods usually construct client relations from predefined parameter-based assumptions, such as parameter similarity or complementarity, and use these relations to determine aggregation weights. However, such methods construct a single global relation, which is insufficient to capture the hierarchical and multi-granularity nature of user relations in recommendation. Moreover, these predefined relations cannot directly reflect whether the related clients can improve prediction performance after aggregation. To address these limitations, we propose FedHUR, a federated recommendation framework for learning hierarchical utility-guided client relations. FedHUR takes item-item filters as the object for relation construction and aggregation. Specifically, it first aggregates and clusters each client's local information to obtain global hierarchical information. Each client computes hierarchical utility signals based on its local information and the global hierarchical information, indicating which collaborative information is useful for improving its prediction. The server uses these utility signals to retrieve clients that are useful to that client for further personalized aggregation. Extensive experiments on five real-world datasets show that FedHUR consistently outperforms existing federated recommendation baselines, demonstrating the effectiveness of hierarchical utility-guided client relation learning. Code is available at https://github.com/Mingzhe-Han/FedHUR.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.10856": {
+            "title": "Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation",
+            "authors": "Hsuan Lo",
+            "first_author": "Hsuan Lo",
+            "url": "http://arxiv.org/abs/2609.10856v1",
+            "pdf_url": "http://arxiv.org/abs/2609.10856",
+            "publish_date": "2026-09-09",
+            "abstract": "Large language models are becoming the first point of contact for consumer search in domains where the stakes are material and the law is explicit. Existing audits show that models steer housing seekers by perceived identity, but none can say what a user loses when a recommender overlooks a suitable option, for want of an enumerated inventory to score omissions against. We audit AI housing recommendation against a verifiable ground truth. For each of 150 synthetic renter scenarios in New York City we build a pool of 120 real listings with known rent, bedrooms and GTFS-computed transit commute, compute the exact set satisfying the renter's stated constraints, and derive its Pareto frontier. The primary outcome assumes no utility function: a recommendation is strictly dominated if the same pool holds a listing cheaper, faster to commute from and no smaller in bedrooms. Across 9,945 calls to three models from two vendors, compliance is near-perfect (1.8% violation against a 66.6% random floor), yet 39.0% of recommendations are strictly dominated, and the dominating listing is a median 900 USD/month cheaper and 3.5 minutes closer. A within-scenario manipulation separates two capabilities usually conflated: changing one sentence moves median recommended rent by 646 USD/month in the correct direction, so preferences are honored, yet recommendations still sit 606 USD/month above the five cheapest qualifying listings on the same screen, and an unambiguous lexicographic instruction gives no improvement under equivalence testing against a pre-specified 50 USD/month bound. The gap widens with candidate-set size and replicates across OpenAI and Anthropic models to within 3 USD. We characterize the failure as compliance without optimization, propose dominance-rate instrumentation as a deployable diagnostic, and release all code, prompts and per-call results.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
         }
     }
 }

@@ -1,4 +1,4 @@
-## Updated on 2026-09-10
+## Updated on 2026-09-11
 
 ---
 
@@ -26,6 +26,9 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-10` | **On the Regularization Landscape for the Linear Recommendation Models** | Dong Li, Zhenming Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.11876) |
+| `2026-09-10` | **FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation** | Mingzhe Han, Jiahao Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.11632) |
+| `2026-09-09` | **Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation** | Hsuan Lo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.10856) |
 | `2026-09-08` | **Democracy Needs Reach: Political Equality, Online Speech, and Algorithmic Recommendation** | Etienne Brown | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.09465) |
 | `2026-09-08` | **Structured Positive-Definite Optimal Control Synthesis of Closed-Loop Recommendation Systems over Social Networks** | Mariano Simone, Frasca Paolo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.08567) |
 | `2026-09-08` | **SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching** | Lin Guan, Jia-Qi Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.08443) |
