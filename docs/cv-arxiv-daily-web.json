@@ -18952,6 +18952,226 @@
             "abstract": "Large language models are becoming the first point of contact for consumer search in domains where the stakes are material and the law is explicit. Existing audits show that models steer housing seekers by perceived identity, but none can say what a user loses when a recommender overlooks a suitable option, for want of an enumerated inventory to score omissions against. We audit AI housing recommendation against a verifiable ground truth. For each of 150 synthetic renter scenarios in New York City we build a pool of 120 real listings with known rent, bedrooms and GTFS-computed transit commute, compute the exact set satisfying the renter's stated constraints, and derive its Pareto frontier. The primary outcome assumes no utility function: a recommendation is strictly dominated if the same pool holds a listing cheaper, faster to commute from and no smaller in bedrooms. Across 9,945 calls to three models from two vendors, compliance is near-perfect (1.8% violation against a 66.6% random floor), yet 39.0% of recommendations are strictly dominated, and the dominating listing is a median 900 USD/month cheaper and 3.5 minutes closer. A within-scenario manipulation separates two capabilities usually conflated: changing one sentence moves median recommended rent by 646 USD/month in the correct direction, so preferences are honored, yet recommendations still sit 606 USD/month above the five cheapest qualifying listings on the same screen, and an unambiguous lexicographic instruction gives no improvement under equivalence testing against a pre-specified 50 USD/month bound. The gap widens with candidate-set size and replicates across OpenAI and Anthropic models to within 3 USD. We characterize the failure as compliance without optimization, propose dominance-rate instrumentation as a deployable diagnostic, and release all code, prompts and per-call results.",
             "primary_category": "cs.CY",
             "code_url": "null"
+        },
+        "2609.17011": {
+            "title": "On personal recommendations in social networks",
+            "authors": "Philipp Gr\u00fcnter, Karl Henrik Johansson, Angela Fontan",
+            "first_author": "Philipp Gr\u00fcnter",
+            "url": "http://arxiv.org/abs/2609.17011v1",
+            "pdf_url": "http://arxiv.org/abs/2609.17011",
+            "publish_date": "2026-09-15",
+            "abstract": "Social networks in which algorithms actively influence humans through personal recommendations are ubiquitous. While opinion dynamics is an established tool to analyze these systems, existing models typically do not capture how individual agents process personal recommendations. In this work, we introduce a model for personal recommendations that is analytically tractable and consistent with the confirmation bias phenomenon from behavioral psychology. We describe how individuals process recommendations based on prior beliefs and a sensitivity parameter using a Gaussian influence function. Using this model, we analyze the effect of different recommendation policies. For broadcast policies, where recommendations are homogeneous across the agents, a bifurcation analysis shows that the system exhibits bistability, which may result in unintended consequences. For personally targeted policies, we first derive optimal personal recommendations and then extend to robust convergence when the agents' sensitivity to personal recommendations is uncertain. The collective behavior of the proposed model and the derived policies are illustrated and evaluated through numerical simulations.",
+            "primary_category": "eess.SY",
+            "code_url": "null"
+        },
+        "2609.16560": {
+            "title": "ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing",
+            "authors": "Haoran Yang, Fei Chen, Yutian Xiao, Jiahao Liang",
+            "first_author": "Haoran Yang",
+            "url": "http://arxiv.org/abs/2609.16560v1",
+            "pdf_url": "http://arxiv.org/abs/2609.16560",
+            "publish_date": "2026-09-15",
+            "abstract": "User behavior in real-world recommender systems is heterogeneous. While some users exhibit coherent preferences, others show abrupt interest shifts, bursty interactions, excessive repetition, or inconsistency with collaborative neighborhoods. Such deviations may arise from benign variation or manipulation, including shilling attacks, but do not alone establish malicious intent. Existing robust recommenders exploit user-risk signals through training-time reweighting or graph aggregation, whereas adapting generation to estimated user-level weak risk remains underexplored in LLM-based generative recommendation. We propose ReliGRec (Reliability-oriented Generative Recommendation), a weakly supervised framework whose name denotes its design goal rather than a supervised reliability variable. ReliGRec derives user-level weak-risk proxy labels from review-feedback signals for a subset of users and represents sequential behavior and collaborative context using a Behavior Token and temporal Graph Tokens, respectively. A Dual-View Weak-Risk Estimator fuses the representations to produce a user-level weak-risk score that selects a Simple or Cautious Prompt at inference. The Cautious Prompt is designed to encourage attention to stable, collaboratively supported evidence while reducing overreliance on isolated, short-term, or repeated interactions. The Behavior Token affects generation through weak-risk estimation and routing, whereas the aggregated Graph Token provides collaborative context for next-item Semantic ID generation. ReliGRec thus turns weak-risk estimation from an auxiliary prediction into a generation-time control signal. Experiments report competitive recommendation and weak-risk proxy-label prediction, while routing analyses characterize the recommendation-quality and inference-cost behavior of weak-risk-guided prompting.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.16304": {
+            "title": "Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations",
+            "authors": "Edward Malthouse, Kun-Yu Lee, Jing Yang, Sanchary Pal, Xueyan Feng",
+            "first_author": "Edward Malthouse",
+            "url": "http://arxiv.org/abs/2609.16304v1",
+            "pdf_url": "http://arxiv.org/abs/2609.16304",
+            "publish_date": "2026-09-14",
+            "abstract": "Large language models (LLMs) are increasingly used for product recommendation, but evaluating their recommendations presents challenges that differ from conventional information retrieval and recommender systems. LLMs can generate recommendations without an explicit candidate set, and repeated responses to the same query can produce different brands and rankings. We introduce a framework for evaluating open-ended LLM brand recommendations that defines the competitive set independently of model outputs and estimates recommendation prevalence and prominence through repeated sampling. We operationalize these constructs using Brand Recommendation Probability (BRP@$k$) and Mean Reciprocal Rank (MRR@$k$), and apply the framework to six LLMs across five product categories. Category-only queries reveal substantial omission of established brands and limited evidence that recommendation prominence follows conventional brand popularity. Instead, prominence is associated with broader marketplace-visibility signals, particularly search interest and online brand conversation. Needs-based queries show that contextualizing users' goals and constraints changes which brands are retrieved, while diagnostic positioning probes demonstrate that brands omitted from ordinary recommendations can remain conditionally retrievable when distinctive cues are supplied. These findings highlight the need to evaluate LLM recommendation as a stochastic retrieval-and-ranking process rather than from individual generated lists. We provide open-source software and data to support reproducible evaluation of LLM-generated brand recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.15692": {
+            "title": "Complete Suffix Prediction for Recommendation via Latent Retrieval over Process Graphs",
+            "authors": "Sarra Madad, Myriam Maumy, Fr{\u00e9}d{\u00e9}ric Bertrand, Yoann Valero",
+            "first_author": "Sarra Madad",
+            "url": "http://arxiv.org/abs/2609.15692v1",
+            "pdf_url": "http://arxiv.org/abs/2609.15692",
+            "publish_date": "2026-09-14",
+            "abstract": "Complete suffix prediction is challenging in sequential decision settings, where the same prefix can remain compatible with several plausible suffixes. We propose a graphbased metric-learning framework that reformulates complete suffix prediction as latent retrieval over process graphs. Prefixes and suffixes are represented as directed attributed graphs and encoded by edge-conditioned graph neural networks, allowing event-level activities and transition-level durations to be modelled jointly. Prefix representations are projected into the latent suffix space through a predictor trained with a joint reconstruction and contrastive objective strengthened using process-aware hard negatives. To stabilise the learned retrieval geometry, spectral normalisation, and retrieval robustness, spectral normalisation is applied to enforce a Lipschitz constraint on both encoders and predictor. Experiments on two real-life process datasets demonstrate that the proposed framework achieves the best overall results across nearly all evaluated criteria. It improves semantic suffix accuracy measured by normalized Damerau-Levenshtein distance, yields strong retrieval quality through Recall@1, Recall@5, and MRR@5, and maintains temporal plausibility according to Mean Absolute Error. These results show that graph-based latent retrieval is an effective alternative to sequential suffix prediction for recommendation-oriented process monitoring under structural and KPI-related constraints.",
+            "primary_category": "cs.NE",
+            "code_url": "null"
+        },
+        "2609.15598": {
+            "title": "Self-Evolving Memory for Generative Recommendation",
+            "authors": "Xinyu Lin, Zhuosong Jiang, Zixiao Suo, Siqin Wang, Hanqing Zeng, Hanchao Yu, Yinglong Xia, Jiang Zhang, Aashu Singh, Fei Liu, Wenjie Wang, Fuli Feng, Yang Song, Qifan Wang, Tat-Seng Chua",
+            "first_author": "Xinyu Lin",
+            "url": "http://arxiv.org/abs/2609.15598v1",
+            "pdf_url": "http://arxiv.org/abs/2609.15598",
+            "publish_date": "2026-09-14",
+            "abstract": "Generative recommendation has emerged as a promising end-to-end paradigm for personalized recommendation. However, user preferences continuously evolve over time, making self-evolving an essential capability for generative recommender systems. Existing evolving strategies, such as continual retraining and distillation-based adaptation, directly update the shared model parameters using streaming interactions. Nevertheless, we find that directly applying such strategies to generative recommendation introduces a critical issue, termed evolution conflict. Specifically, heterogeneous preference shifts from different users are optimized within a fully shared autoregressive parameter space, causing dominant behavioral patterns to progressively dominate the model evolution process while underrepresented patterns become increasingly overlooked. To address this issue, we propose a self-evolving memory paradigm for generative recommendation, aiming to enable effective evolution across heterogeneous behavioral patterns. We further identify three key principles for effective self-evolving recommendation systems, including isolated memorization, reinforced evolution, and scalable application. Guided by these principles, we develop LION, a simple yet effective framework centered on a sparse Key-Value memory layer. Specifically, LION introduces sparse memory activation to isolate the evolution of different behavioral patterns, while a consolidation loss is designed to reinforce the learning of underrepresented preference dynamics during continual adaptation. Extensive experiments on diverse real-world datasets demonstrate the effectiveness of LION under various continual evolution settings (e.g., per-period evaluation, user/item group evaluation, and evolution convergence analysis). The codes are released at https://github.com/JazyJiang/Self-Evolving-Memory-for-Generative-Recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.15205": {
+            "title": "TEAR: Table Extraction with Attribute Recommendation from Texts via Large Language Models",
+            "authors": "Tong Li, Shuye Ding, Jiachuan Wang, Yongqi Zhang, Shuangyin Li, Lei Chen, Bo Li",
+            "first_author": "Tong Li",
+            "url": "http://arxiv.org/abs/2609.15205v1",
+            "pdf_url": "http://arxiv.org/abs/2609.15205",
+            "publish_date": "2026-09-14",
+            "abstract": "Table extraction from texts is an important task for information systems, and recent approaches that prompt large language models (LLMs) with instructions have drawn great attention for their strong performance. Existing works have assumed the input texts to be table descriptions or specialized documents. However, these efforts have largely overlooked another prevalent category of texts, commonly found in news reports and social media: naturally occurring texts. Extracting tabular information from such texts poses two distinct challenges. First, high variability and the absence of explicit structural cues make fixed heuristic LLM prompts limited in precisely delineating extraction boundaries. Second, manually predefined schemas cannot capture open-ended, unseen attributes in naturally occurring text. In this paper, we propose a framework, TEAR, to address these challenges. It comprises two synergistic workflows: a Table Extraction Workflow that dynamically adapts instructions to overcome the limitation of heuristic instructions, and an Attribute Recommendation Workflow that discovers new attributes from texts to complement the heuristic schema. To our knowledge, TEAR is the first framework that supports automated text-driven attribute recommendation, enabling exploratory schema design for table extraction. To evaluate TEAR, we establish the benchmark for table extraction and attribute recommendation on naturally occurring texts, including two real-world datasets, manual annotations, appropriate metrics, and baseline comparisons. Experiments show that TEAR achieves state-of-the-art performance on both tasks, and the recommended attributes effectively enhance extraction performance in exploratory scenarios.",
+            "primary_category": "cs.DB",
+            "code_url": "null"
+        },
+        "2609.15094": {
+            "title": "Generate to Explore, Select to Exploit: Aligning LLM-based Headline Generation with Personalized Recommendation",
+            "authors": "Yi Chen, Rufeng Cheng, Qiang Xie, Tao Li",
+            "first_author": "Yi Chen",
+            "url": "http://arxiv.org/abs/2609.15094v1",
+            "pdf_url": "http://arxiv.org/abs/2609.15094",
+            "publish_date": "2026-09-14",
+            "abstract": "In industrial recommendation feeds, presenting a static headline for an item often fails to satisfy the diverse, multimodal interests of the user population, particularly suppressing the needs of long-tail audiences. While Large Language Models (LLMs) have been integrated into recommendation for content understanding or ranking, directly optimizing them to output a single best headline typically leads to mode collapse---converging to generic patterns that satisfy average tastes but miss specific latent intents. To bridge this gap, we introduce GESE (Generate to Explore, Select to Exploit), a framework operating at the system's presentation layer that decouples personalization into generative exploration and selective exploitation. First, we treat the LLM as a probabilistic explorer, utilizing Group Sequence Policy Optimization (GSPO) with a hierarchical reward mechanism to generate a candidate set that maximizes the semantic coverage of potential user interests. Subsequently, a lightweight, real-time feedback-aware selector acts as the exploiter, identifying the optimal realization from the candidate pool based on instant contextual signals. Extensive deployment on a commercial platform with over 100 million daily active users demonstrates that GESE significantly outperforms state-of-the-art baselines, achieving a 2.57% lift in CTR and 0.87% in dwell time. These results validate that decoupling diversity-oriented generation from precision-oriented selection offers a robust blueprint for aligning generative AI with dynamic user utility.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.14978": {
+            "title": "LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training",
+            "authors": "Xiaodong Li, Alin Fan, Mingyang Li, Yan Xiao, Shichao Nie, Junfeng Zhang, Shaochuan Lin, Zhanming Ou, Tao Luo, Xiaoyi Zeng",
+            "first_author": "Xiaodong Li",
+            "url": "http://arxiv.org/abs/2609.14978v1",
+            "pdf_url": "http://arxiv.org/abs/2609.14978",
+            "publish_date": "2026-09-14",
+            "abstract": "Transformers have shown promising performance in LLMs due to their outstanding scalability, several studies have investigated the scalability of Transformers for industrial recommendation. They typically rely on a single ranking model to optimize both sparse and dense parameters from scratch, resulting in substantial computational resource consumption and slow convergence. Fortunately, the pre-training models offer an effective solution to the above issues by providing favorable initialization of both sparse and dense parameters for the subsequent ranking. However, they still face two major limitations: (1) Since the input features used in pre-training and ranking are usually inconsistent, directly transferring dense parameters from pre-training to ranking may lead to negative transfer. (2) Multi-epoch training during the ranking process may result in the overfitting of sparse parameters, while freezing the sparse parameters limits their adaptability to the ranking objectives. To this end, we propose a Scaling Transformer for Industrial Recommendation via Transferable Generative Pre-training, termed LazFormer. Specifically, we first present a generative pre-training module to autoregressively generate sequential features, providing favorable initialization of both sparse and dense parameters for the subsequent ranking. To solve the negative transfer of dense parameters, we propose a transferable residual adapter that injects additional ranking-specific features into ranking in a residual manner. Moreover, a request-aware ranking module integrates long-sequence compression, hybrid sparse attention, and a request-aware paradigm to efficiently model users' long sequences. Besides, we further propose an asymmetric multi-epoch training strategy that resets sparse parameters while continuously accumulating dense parameters across epochs, alleviating the overfitting of sparse parameters.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.16070": {
+            "title": "Efficient Multimodal Generative Recommendation with Latent Narrative Reasoning",
+            "authors": "Chenxing Wang, Nantao Zheng, Hao Miao, Juyuan Wang, Xinke Jiang, Yuchen Fang, Aolin Li, Haijun Wu",
+            "first_author": "Chenxing Wang",
+            "url": "http://arxiv.org/abs/2609.16070v1",
+            "pdf_url": "http://arxiv.org/abs/2609.16070",
+            "publish_date": "2026-09-13",
+            "abstract": "Generative recommendation reformulates item prediction as semantic identifier generation, yet episodic content introduces a fundamentally different setting where the target is determined by narrative evolution rather than user preference. This task requires models to understand multimodal storyline progression while addressing the efficiency challenges caused by redundant visual contexts and costly explicit reasoning generation. We propose \\textbf{NarraLite}, an efficient multimodal generative recommendation framework that jointly compresses perception and reasoning. Specifically, Progressive Spectral Compression selectively distills long visual contexts into compact narrative-relevant evidence, preserving transition-critical information while reducing redundant visual computation. Latent Narrative Reasoning introduces context-routed latent reasoning tokens and aligns their contextualized representations with future continuation semantics, enabling implicit narrative inference without autoregressively decoding textual rationales. We further establish a user-agnostic multimodal benchmark for short-form drama continuation across UGC, PGC, and OOD settings. Extensive experiments demonstrate that NarraLite consistently improves continuation accuracy, narrative coherence, and robustness over existing approaches, while achieving a favorable accuracy--efficiency trade-off.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2609.14565": {
+            "title": "TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation",
+            "authors": "Yuchen Guan, Jiaye Liu, Yifei Han, Zhenxi Zhang, Yixuan Weng, Bin Li",
+            "first_author": "Yuchen Guan",
+            "url": "http://arxiv.org/abs/2609.14565v1",
+            "pdf_url": "http://arxiv.org/abs/2609.14565",
+            "publish_date": "2026-09-13",
+            "abstract": "LLM-based sequential recommenders usually cast next-item prediction as text generation, but this interface is poorly matched to full-catalog top-K ranking. We propose TATK, a Triple-Aware framework that couples Top-K Learning (TKL) with Knowledge-Grounded Verification (KGV) for LLM-based sequential recommendation. Top-K Learning combines context-aware metadata-KG prompt grounding with position-aware top-K rewards, aligning training with ranking utility; Knowledge-Grounded Verification then applies structure-aware reranking over the top-M candidates after a single LLM forward pass, using the same metadata-derived item graph. We evaluate TATK on Musical Instruments, CDs and Vinyl, and Video Games from Amazon Reviews 2023 under a matched R2ec-style full-catalog protocol. Experiments use Gemma-2-2B-It and Qwen2.5-3B-Instruct backbones, compare against sequential, generative, KG-augmented, and reasoning-enhanced baselines, and include component, reward-shape, sequence-perturbation, reranking, relation-quality, and candidate-pool diagnostics. TATK improves over the matched R2ec reproduction on all 36 reported metrics. On NDCG@10, it improves Qwen by 8.05%, 4.26%, and 3.78% on the three datasets, and improves Gemma by 27.03%, 10.52%, and 10.23%, while keeping inference within 1.17x of Base RecPO latency. The diagnostics show that structural evidence is most useful for recoverable top-M candidates with reliable KG support, and should be gated when metadata relations are sparse or noisy.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2609.14236": {
+            "title": "Assessing the Applicability of Existing Design Recommendations to AI Companion Design: A Multi-Method Study",
+            "authors": "Soobin Cho, Deveshi Modi, Divya Mavinkurve, Jieqiong Ding, Mark Zachry",
+            "first_author": "Soobin Cho",
+            "url": "http://arxiv.org/abs/2609.14236v1",
+            "pdf_url": "http://arxiv.org/abs/2609.14236",
+            "publish_date": "2026-09-13",
+            "abstract": "With the rapid proliferation of large language model (LLM)-based systems, AI companions have emerged as conversational agents designed to cultivate emotional connection rather than primarily to support humans in instrumental tasks. Because engagement with AI companions involves relational, emotional, and potentially long-term interactions, their design is consequential. Prior work has offered guidance for designing trustworthy and relational AI systems and has begun to examine design for AI companionship. However, while such work provides insights into possible design solutions, less is known about what makes AI companion design difficult as a design problem. To examine this challenge, we assessed the applicability of existing design recommendations from adjacent domains in the context of AI companion design. Our multi-method investigation unfolded across four phases: literature review, practitioner co-analysis, internal heuristic evaluation, and external expert assessment. Throughout this process, we synthesized nine design principle areas that surfaced tensions in the applicability of existing recommendations to AI companion design. Our findings show that ethical and UX-oriented considerations are deeply intertwined and often require context-sensitive application. We document a systematic, multi-method problem analysis that uses these principle areas as an analytic artifact to examine why existing recommendations cannot be directly transferred to AI companion contexts.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2609.13993": {
+            "title": "P3Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation",
+            "authors": "Jinfei Chen, Weihai Lu, Jiawei Cheng",
+            "first_author": "Jinfei Chen",
+            "url": "http://arxiv.org/abs/2609.13993v2",
+            "pdf_url": "http://arxiv.org/abs/2609.13993",
+            "publish_date": "2026-09-12",
+            "abstract": "Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically distill LLM-derived preference knowledge into lightweight recommenders to avoid costly online LLM inference. However, they often construct distillation knowledge from only one perspective. Prior preference captures users' stable and consistent interests but provides limited guidance for the current decision, whereas posterior preference reveals target-relevant fine-grained interests but may rely excessively on target clues. To address these limitations, we propose P$^3$Rec, a framework that jointly extracts and internalizes complementary prior and posterior preference reasoning knowledge. Specifically, P$^3$Rec first derives target-agnostic prior preferences and target-conditioned posterior preferences from the user side, while further extracting item-centric preference representations from item semantics and predecessor interactions. It then progressively internalizes prior and posterior knowledge into behavioral representations through prior preference absorption and posterior-guided preference distillation. Since the resulting comprehensive preference representation may not always provide an equally decisive retrieval direction, P$^3$Rec further characterizes historical interest dispersion with interest entropy and adaptively calibrates the user representation before contrastive retrieval optimization. In this way, P$^3$Rec achieves more complete preference reasoning while preserving efficient recommendation. Extensive experiments on multiple public datasets demonstrate its effectiveness.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.13678": {
+            "title": "Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation",
+            "authors": "Jiayi Dan",
+            "first_author": "Jiayi Dan",
+            "url": "http://arxiv.org/abs/2609.13678v1",
+            "pdf_url": "http://arxiv.org/abs/2609.13678",
+            "publish_date": "2026-09-12",
+            "abstract": "Generative recommendation reformulates sequential recommendation as autoregressive generation by encoding items into semantic tokens, enabling improved scaling capability and cross-domain generalization. However, existing generative recommender systems typically follow a two-stage pipeline, where item tokenization is largely dominated by textual semantics with limited incorporation of collaborative signals and interaction similarity, leading to code assignments that are misaligned with downstream generation. Conversely, the generation stage tends to overlook the original semantic information, as the code sequences are re-embedded based on interaction data. This cross-stage information decoupling limits semantic coherence and recommendation accuracy.   To address this issue, we propose SCRec, a general framework that enhances cross-stage coherence through bidirectional information supplementation. Specifically, we introduce (i) collaborative-enhanced tokenization to explicitly inject textualized collaborative signals into semantic tokenization, without introducing additional alignment task, (ii) semantic-guided generation to dynamically recalibrate semantic priors with learnable code embeddings in generation stage, and (iii) manifold alignment to reconcile the geometric mismatch between the embedding space of discrete codebook indices and the dense continuous semantic space. These interrelated components form a general framework that aligns semantic and collaborative signals and enhances cross-stage information coherence, with minimal additional training and inference costs. Extensive experiments demonstrate the effectiveness, robustness, and generalizability of our proposed framework.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.12958": {
+            "title": "Middleware for Feed Recommendation in Practice: How Feed Creators Build, Maintain, and Sustain Custom Feeds on Bluesky",
+            "authors": "Tony Zhou, Leijie Wang, Amy X. Zhang",
+            "first_author": "Tony Zhou",
+            "url": "http://arxiv.org/abs/2609.12958v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12958",
+            "publish_date": "2026-09-11",
+            "abstract": "Scholars have long proposed third-party middleware as an alternative to centralized algorithmic feeds: feeds built and distributed by independent feed creators. This vision saw no large-scale instantiation until Bluesky, a decentralized microblogging platform, introduced custom feeds in 2023. Although central to the middleware ecosystem, we know little about how feed creators understand their role, build feeds, and sustain them. Through interviews with n = 26 feed creators and third-party developers of feed-building tools, and analysis of n = 88,302 custom feeds, we identify two creator orientations---utility-providing and community-building. Additionally, creators struggle to maintain feeds that fully realize middleware ideals: they lack granular interaction data, receive little feedback, and lack technical expertise to act on either. Finally, creators sustain their feeds as unpaid hobbyists with little platform support and are divided on whether to monetize beyond covering costs. We conclude with design and policy implications for strengthening the middleware feed ecosystem.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2609.12842": {
+            "title": "MIMA: Multi-Interest Recommendation via Multi-Positive Exclusive Assignment",
+            "authors": "Xingyuan Mao, Alin Fan, Shichao Nie, Junfeng Zhang, Yan Xiao, Tao Luo, Xiaoyi Zeng",
+            "first_author": "Xingyuan Mao",
+            "url": "http://arxiv.org/abs/2609.12842v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12842",
+            "publish_date": "2026-09-11",
+            "abstract": "Multi-interest recommendation represents each user with multiple interest vectors for fine-grained candidate matching, yet it often suffers from interest collapse, where the learned interests converge to similar representations. We highlight the prevailing single-positive paradigm as one important factor behind this issue. Since each instance provides only one positive item, intents are optimized independently, potentially causing the same best-matching interest to be repeatedly updated toward different positives while leaving the others under-supervised. Moreover, existing methods rarely model how strongly a user activates each interest, leaving scores from different interest channels incomparable at inference. To address these problems, we propose MIMA, a Multi-Interest recommendation framework built on Multi-positive exclusive Assignment. MIMA groups items co-occurring within the same request into a positive set, generates complementary interests with a causal Transformer decoder, and exclusively assigns each positive to supervise a distinct interest via Hungarian matching, so that interest differentiation emerges from the training objective itself rather than auxiliary regularization. A lightweight routing module further estimates user-interest activation probabilities to calibrate scores across interest channels. Experiments on three public datasets and an industrial dataset show that MIMA consistently outperforms state-of-the-art baselines, and an online A/B test yields significant business gains.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.13339": {
+            "title": "PCGNet: Unifying Shared and Specific Information for Fashion Matching Recommendations",
+            "authors": "Shuiying Liao, P. Y. Mok",
+            "first_author": "Shuiying Liao",
+            "url": "http://arxiv.org/abs/2609.13339v1",
+            "pdf_url": "http://arxiv.org/abs/2609.13339",
+            "publish_date": "2026-09-11",
+            "abstract": "In fashion domain, recommending complementary clothing items that match selected pieces is a crucial cross-selling technique that improves customer satisfaction. Nevertheless, fashion matching presents significant challenges, as recommendations must not only align with individual user fashion preferences but also ensure compatibility between garments. These challenges are twofold. First, existing models often assume an overly simplified decoupled relationship between product compatibility and personalized user preferences, overlooking the natural complexity between the two. Second, existing data-driven approaches are not optimized for real-world fashion data, which is typically sparse and characterized by noisy interactions. To address these challenges, we propose Personalized Compatibility Graph Network, a multi-objective graph learning framework that organically unifies the modeling of product compatibility and personal preferences. PCGNet uses contrastive mutual information maximization to extract and align shared and view-specific patterns, thereby capturing the complex interplay between compatibility and personal preferences. Moreover, we introduce a correlation-aware neighbor sampling and a learnable global graph augmentation, which enhance the model by incorporating self-supervised signals mined directly from the graph, ensuring more stable and informative representations. Finally, PCGNet generates recommendation scores through the joint optimization of BPR ranking loss and multi-view mutual information losses. Experimental validation on two benchmark datasets demonstrates that PCGNet significantly outperforming state-of-the-art methods across all four evaluation metrics.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.12679": {
+            "title": "Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace",
+            "authors": "Atefeh Mollabagher, Yogesh Gautam, Houtan Jebelli, Parinaz Naghizadeh",
+            "first_author": "Atefeh Mollabagher",
+            "url": "http://arxiv.org/abs/2609.12679v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12679",
+            "publish_date": "2026-09-11",
+            "abstract": "Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers' well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in health and trust sensitivity. Specifically, in our proposed dynamic model, worker health evolves over time, worker trust is affected by both health and recommendation dynamics, and trust in turn affects compliance with future recommendations. Given this model, we characterize the recommender policy, including a health-based recommendation triggering threshold and the recommendation frequency. We do so using both model-based short-horizon control and model-free reinforcement learning. We then investigate how recommendation frequencies are adjusted for different workers to balance their health, productivity, and trust. Our findings provide insight into the design of personalized health recommendation policies in construction workplaces and beyond.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.12556": {
+            "title": "Preference-Drift-Aware Subsequence Learning and Hierarchical Context Fusion for Long-Sequence Generative Recommendation",
+            "authors": "Fei Li, Qingyun Gao, Jianzhe Zhao, Guibing Guo, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li",
+            "first_author": "Fei Li",
+            "url": "http://arxiv.org/abs/2609.12556v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12556",
+            "publish_date": "2026-09-11",
+            "abstract": "Long-sequence generative recommendation methods autoregressively model the user's interaction sequence to generate the next-item representation. Existing methods generally fall into two categories: efficient full-sequence modeling and target-aware context retrieval. Our experiments reveal that as the sequence length increases, the former incurs steadily growing computational cost while its accuracy gains quickly saturate and even degrade due to noise; the latter, though shortening the input sequence, is susceptible to noise that is semantically consistent yet preference-inconsistent, as well as to incomplete contexts. Both paradigms ignore the dynamic changes of user preferences and the cross-subsequence dependencies when handling historical information, thereby limiting accuracy and efficiency. To address these issues, we propose a preference-drift-aware subsequence learning and hierarchical context fusion for long-sequence generative recommendation. Specifically, we learn differentiable soft subsequence boundaries using multidimensional preference-drift information and aggregate items within each subsequence into preference-coherent representations via linear attention with soft assignment weights, thereby circumventing the expense of full-sequence attention. A cross-attention mechanism is then employed to capture dependencies between recent interactions and relevant subsequence contexts, mitigating noise in learning recent-item representations. Finally, a gated fusion mechanism adaptively combines the recent-item representation with the global subsequence context, allowing the resulting target representation to encode both recent and long-term preferences. Extensive experiments demonstrate that our method consistently outperforms existing baselines in both recommendation accuracy and computational efficiency.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.12399": {
+            "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+            "authors": "Xiangrui Yang, Cheng Peng, Yunfeng Zhao, Liang Zeng, Ao Hu, Jiawei Yang, Shengzhe Wang, Jingshan Lv, Xiao Liang, Chen Yang, Jiaqiang Liu, Yiming Qiu",
+            "first_author": "Xiangrui Yang",
+            "url": "http://arxiv.org/abs/2609.12399v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12399",
+            "publish_date": "2026-09-11",
+            "abstract": "Generative recommendation (GR) relies on large-beam decoding to generate hundreds of candidate items, creating a new scaling challenge for recurrent linear attention. Existing linear attention serving systems either materialize a full recurrent state for every beam or repeatedly replay shared history, incurring substantial memory and traffic overhead. To address this, we present OneLA, a linear-attention decoding framework that exploits the shared prompt and short divergent suffixes of GR workloads. Specifically, OneLA represents all beam states using a single shared prompt-derived state and compact, append-only records of their divergent transitions. Using this representation, OneLA computes only the state information required at each decoding step, without reconstructing a full recurrent state for every beam. Furthermore, OneLA uses a lightweight ancestry index to track the transition records that make up each beam's history, allowing beams to be updated without moving or copying existing records. A fused GPU kernel further reuses the shared state across beams. Our analysis shows that OneLA achieves 1.54-2.46x end-to-end decode speedups while substantially reducing recurrent-state memory use and data movement.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.12270": {
+            "title": "Recommendation Retrievers Need Verifiers: Universal Generative Reranking for Sequential Recommendations",
+            "authors": "Benyu Zhang, Qiang Zhang, Rui Li, Qunshu Zhang, Devansh Tandon, Neeraj Bhatia",
+            "first_author": "Benyu Zhang",
+            "url": "http://arxiv.org/abs/2609.12270v1",
+            "pdf_url": "http://arxiv.org/abs/2609.12270",
+            "publish_date": "2026-09-10",
+            "abstract": "First-stage recommenders in multi-stage systems produce a ranked candidate list from which a limited prefix is forwarded to downstream rankers. Because each forwarded item must be processed by more expensive ranking stages, this shortlist cannot be arbitrarily large. The first-stage objective is therefore high coverage of relevant items within the forwarded prefix, commonly measured by Recall@$k$. A relevant item may be available deeper in the retrieved list but absent from the shorter prefix that is actually consumed. This paper studies post-hoc verification for promoting such candidates into the consumed shortlist without retraining or replacing the retriever.   We introduce a lightweight generative verifier for retrieval models. Given a retriever state and a candidate item, the verifier scores the item through the likelihood of its identifier tokens. It is trained post hoc with next-token cross entropy, requires no sampled negatives or candidate pool during training, and scores only the retriever's top-$K$ candidates at inference. The interface is minimal: the retriever supplies a query state and candidate items, and the item representation can use any fixed tokenization.   Across Amazon product recommendation and YaMBDa music recommendation, the same verifier training recipe improves Recall@10 for SASRec, GRU4Rec, NextItNet, and MiniOneRec. Ablations show that the improvements are not explained solely by injecting item-content features into the retriever, supporting verification as a post-hoc output-side adaptation mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

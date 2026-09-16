@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-12
+## Updated on 2026-09-16
 
 ---
 
@@ -23,6 +23,26 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-15` | **On personal recommendations in social networks** | Philipp Grünter, Karl Henrik Johansson, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.17011) |
+| `2026-09-15` | **ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing** | Haoran Yang, Fei Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.16560) |
+| `2026-09-14` | **Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations** | Edward Malthouse, Kun-Yu Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.16304) |
+| `2026-09-13` | **Efficient Multimodal Generative Recommendation with Latent Narrative Reasoning** | Chenxing Wang, Nantao Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.16070) |
+| `2026-09-14` | **Complete Suffix Prediction for Recommendation via Latent Retrieval over Process Graphs** | Sarra Madad, Myriam Maumy, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.15692) |
+| `2026-09-14` | **Self-Evolving Memory for Generative Recommendation** | Xinyu Lin, Zhuosong Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.15598) |
+| `2026-09-14` | **TEAR: Table Extraction with Attribute Recommendation from Texts via Large Language Models** | Tong Li, Shuye Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.15205) |
+| `2026-09-14` | **Generate to Explore, Select to Exploit: Aligning LLM-based Headline Generation with Personalized Recommendation** | Yi Chen, Rufeng Cheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.15094) |
+| `2026-09-14` | **LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training** | Xiaodong Li, Alin Fan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14978) |
+| `2026-09-13` | **TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation** | Yuchen Guan, Jiaye Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14565) |
+| `2026-09-13` | **Assessing the Applicability of Existing Design Recommendations to AI Companion Design: A Multi-Method Study** | Soobin Cho, Deveshi Modi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14236) |
+| `2026-09-12` | **P3Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation** | Jinfei Chen, Weihai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13993) |
+| `2026-09-12` | **Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation** | Jiayi Dan | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13678) |
+| `2026-09-11` | **PCGNet: Unifying Shared and Specific Information for Fashion Matching Recommendations** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13339) |
+| `2026-09-11` | **Middleware for Feed Recommendation in Practice: How Feed Creators Build, Maintain, and Sustain Custom Feeds on Bluesky** | Tony Zhou, Leijie Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12958) |
+| `2026-09-11` | **MIMA: Multi-Interest Recommendation via Multi-Positive Exclusive Assignment** | Xingyuan Mao, Alin Fan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12842) |
+| `2026-09-11` | **Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace** | Atefeh Mollabagher, Yogesh Gautam, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12679) |
+| `2026-09-11` | **Preference-Drift-Aware Subsequence Learning and Hierarchical Context Fusion for Long-Sequence Generative Recommendation** | Fei Li, Qingyun Gao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12556) |
+| `2026-09-11` | **OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation** | Xiangrui Yang, Cheng Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12399) |
+| `2026-09-10` | **Recommendation Retrievers Need Verifiers: Universal Generative Reranking for Sequential Recommendations** | Benyu Zhang, Qiang Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12270) |
 | `2026-09-10` | **On the Regularization Landscape for the Linear Recommendation Models** | Dong Li, Zhenming Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.11876) |
 | `2026-09-10` | **FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation** | Mingzhe Han, Jiahao Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.11632) |
 | `2026-09-09` | **Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation** | Hsuan Lo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.10856) |
