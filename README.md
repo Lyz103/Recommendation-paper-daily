@@ -1,4 +1,4 @@
-## Updated on 2026-09-16
+## Updated on 2026-09-17
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-16` | **"If I Had to Buy Just ONE: Galaxy S26 Ultra": Auditing AI-Generated Product Recommendations** | Lucas G. Uberti-Bona Marin, Thales Bertaglia, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18729) |
+| `2026-09-16` | **BanglaShop-CRS: A User-Centric Bangla Dataset for Conversational Recommendation** | Tabia Tanzin Prama, Christopher M. Danforth, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18715) |
+| `2026-09-16` | **Understanding AI Provider Recommendations in Local Service Markets** | Hazem Ibrahim, Yasir Zaki | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18341) |
+| `2026-09-16` | **Re2A: Situated Conversational Recommendation via Rubric-based Preference Reasoning and Alignment** | Dongding Lin, Jian Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18249) |
+| `2026-09-16` | **LIGE-GR: A Smooth Leap from Ranking to Generative Recommendation in the LLM Era** | Venkat Srinivas, Chenzhang He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18148) |
+| `2026-09-15` | **SNOMED CT Concept Recommendation from Masked Clinical Context** | Ali Noori | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.17855) |
+| `2026-09-15` | **Scaling Articulated Rationales for MLLM-based Recommendation** | Haoke Xiao, Yueyang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.17639) |
 | `2026-09-15` | **On personal recommendations in social networks** | Philipp Grünter, Karl Henrik Johansson, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.17011) |
 | `2026-09-15` | **ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing** | Haoran Yang, Fei Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.16560) |
 | `2026-09-14` | **Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations** | Edward Malthouse, Kun-Yu Lee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.16304) |
@@ -37,7 +44,7 @@
 | `2026-09-14` | **LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training** | Xiaodong Li, Alin Fan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14978) |
 | `2026-09-13` | **TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation** | Yuchen Guan, Jiaye Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14565) |
 | `2026-09-13` | **Assessing the Applicability of Existing Design Recommendations to AI Companion Design: A Multi-Method Study** | Soobin Cho, Deveshi Modi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.14236) |
-| `2026-09-12` | **P3Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation** | Jinfei Chen, Weihai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13993) |
+| `2026-09-12` | **P$^3$Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation** | Jinfei Chen, Weihai Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13993) |
 | `2026-09-12` | **Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation** | Jiayi Dan | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13678) |
 | `2026-09-11` | **PCGNet: Unifying Shared and Specific Information for Fashion Matching Recommendations** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.13339) |
 | `2026-09-11` | **Middleware for Feed Recommendation in Practice: How Feed Creators Build, Maintain, and Sustain Custom Feeds on Bluesky** | Tony Zhou, Leijie Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.12958) |
