@@ -19260,6 +19260,28 @@
             "abstract": "In this reproducibility study, we investigate the transparency and scrutability of recommender systems enhanced by incorporating generated natural-language user profiles that represent user preferences. The original paper explores the synthesis of user profiles from raw user-generated review text across domains such as movies and accommodations (Amazon Movies & TV, TripAdvisor). Crucially, these natural-language user profiles enable direct user interaction and intervention, allowing users to customize recommendations by correcting misattributed preferences or addressing cold-start settings. We successfully reproduce the core findings of the original study. Additionally, we extend the evaluation by conducting systematic context ablation experiments, multi-seed stability across five distinct random seeds to establish statistical reliability, and a mechanistic interpretability analysis using the nnsight framework to probe internal model representations under counterfactual profile perturbations. Our findings verify the original paper's claim that User Profile Recommendation (UPR) achieves competitive performance under its test-set reranking protocol and makes recommendations more transparent. Perturbing the natural-language profiles does change predictions, but it shifts predicted ratings uniformly across genres with no detectable genre-selective effect, leaving rankings unchanged even under direct activation steering. We trace this back to the rating-regression objective rather than the profile interface, with ranking-objective models clearly exceeding in this task.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.21548": {
+            "title": "Dual-Interest Sequential Product Recommendation With Multi-Granular SSM",
+            "authors": "Shuiying Liao, P. Y. Mok",
+            "first_author": "Shuiying Liao",
+            "url": "http://arxiv.org/abs/2609.21548v1",
+            "pdf_url": "http://arxiv.org/abs/2609.21548",
+            "publish_date": "2026-09-18",
+            "abstract": "Sequential recommendation aims to predict the next item a user will interact with based on their historical behavior. Advances in Transformers have significantly improved sequential recommendation but are still limited by cost efficiency. Although State Space Models (SSMs) have recently enabled efficient long-range modeling, most existing methods encode each item with a single static contextual role, overlooking the phenomenon of item polysemy. In fact, the same item often plays different semantic roles depending on user context, and existing methods are limited in capturing dynamic behavior across different temporal granularities. In this work, we propose DSRec, a novel dual-interest cross-SSM model that explicitly disentangles item roles across long-term and short-term semantic context. Sequential items are encoded into long-term interest embeddings that capture stable preferences via historical aggregation, and a short-term interest branch that emphasizes local session intent modulated by inter-click time intervals. These interest embeddings are processed through distinct SSM encoders: a full-sequence Mamba for long-term modeling, and a time-modulated SSM that dynamically adjusts state evolution based on temporal gaps. To enable effective cross-granularity alignment, we adopt a residual cross-fusion mechanism that exchanges contextual information between the two branches while preserving semantic independence. Experiments on public benchmarks demonstrate that DSRec outperforms other state-of-the-art methods.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.21547": {
+            "title": "Do We Care About Personalization and Explainability? An Interview Study with News Recommendation Engineers",
+            "authors": "Jasmin Kareem, Siddharth Mehrotra, Martijn C. Willemsen, Maarten de Rijke",
+            "first_author": "Jasmin Kareem",
+            "url": "http://arxiv.org/abs/2609.21547v1",
+            "pdf_url": "http://arxiv.org/abs/2609.21547",
+            "publish_date": "2026-09-18",
+            "abstract": "Research on explainability in recommender systems largely centers on end users, overlooking the perspectives of those who build and maintain these systems and their potential use cases such as model debugging. In this study, we examine how news engineers and related technical stakeholders perceive and implement personalization and explainability in practice. We conducted 15 semi-structured interviews across nine news organizations, spanning diverse regions in both public and private sectors, to investigate the challenges and motivations shaping their approaches. Our findings reveal that personalization is not always a straightforward or desirable choice for news organizations, as concerns around user tracking, editorial control, and resource constraints often limit its adoption. Even among organizations implementing personalized news recommender systems in production, explainability is rarely prioritized, with day-to-day operational demands frequently taking precedence over longer-term transparency goals. Definitions of explainability vary widely across organizations, though some demonstrate promising internal practices and visualization tools that facilitate communication between engineering teams and newsrooms. Based on our analysis, we provide actionable and practical guidelines for news engineers and researchers on how to adopt explainability methods within a news personalization pipeline.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
         }
     }
 }

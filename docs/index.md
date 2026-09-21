@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-20
+## Updated on 2026-09-21
 
 ---
 
@@ -23,6 +23,8 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-18` | **Dual-Interest Sequential Product Recommendation With Multi-Granular SSM** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.21548) |
+| `2026-09-18` | **Do We Care About Personalization and Explainability? An Interview Study with News Recommendation Engineers** | Jasmin Kareem, Siddharth Mehrotra, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.21547) |
 | `2026-09-17` | **Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles** | Noah Mamié, Laurin van den Bergh | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.19831) |
 | `2026-09-16` | **"If I Had to Buy Just ONE: Galaxy S26 Ultra": Auditing AI-Generated Product Recommendations** | Lucas G. Uberti-Bona Marin, Thales Bertaglia, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18729) |
 | `2026-09-16` | **BanglaShop-CRS: A User-Centric Bangla Dataset for Conversational Recommendation** | Tabia Tanzin Prama, Christopher M. Danforth, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.18715) |
