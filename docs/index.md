@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-21
+## Updated on 2026-09-22
 
 ---
 
@@ -23,6 +23,15 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-21` | **What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study** | Yufei Chen, Junchen Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.24430) |
+| `2026-09-20` | **Explainable Recommendations at Scale: LLM Rationales for YouTube Music Artist Discovery** | Xiao Liu, Yanwei Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23877) |
+| `2026-09-20` | **A Redundancy Reduction Approach for Controllable Sequential Recommendations** | Veronika Ivanova, Marina Munkhoeva, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23849) |
+| `2026-09-20` | **UNIQUE: A Unified Retrieval and Ranking System for Large-Scale Feed Recommendation** | Zhuang Liu, Yongkang Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23718) |
+| `2026-09-20` | **MuSeR: Scalable Long-sequence Recommendation with Multi-interest Modeling** | Yongkang Fu, Beining Bao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23677) |
+| `2026-09-19` | **From Prompt to Recommendation: A Fitted Stage Model of Brand Visibility in AI Search** | Benjamin Tannenbaum | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23162) |
+| `2026-09-19` | **Inherit4Rec: Parameter Inheritance for Efficient Scaling of Recommendation Models** | Ruihao Zhang, Bo Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23111) |
+| `2026-09-19` | **Automatic multimodal UX improvement recommendations from LLM agent user simulations** | Anu Chowdhury, Bin Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.22971) |
+| `2026-09-19` | **Reproducibility Challenges in Computational Network Science: Evidence, Causes, and Recommendations** | Akrati Saxena | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.22914) |
 | `2026-09-18` | **Dual-Interest Sequential Product Recommendation With Multi-Granular SSM** | Shuiying Liao, P. Y. Mok | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.21548) |
 | `2026-09-18` | **Do We Care About Personalization and Explainability? An Interview Study with News Recommendation Engineers** | Jasmin Kareem, Siddharth Mehrotra, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.21547) |
 | `2026-09-17` | **Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles** | Noah Mamié, Laurin van den Bergh | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.19831) |
