@@ -1,4 +1,4 @@
-## Updated on 2026-09-23
+## Updated on 2026-09-24
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-23` | **Do Electromagnetic Side-Channel Attacks Threaten Electronic Polling Stations? Scenarios and Recommendations** | Lucas Brito, Leonardo Teodoro, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.28209) |
+| `2026-09-23` | **A Flexible Recommendation System for Individuals and Groups** | Yacine Mokhtari, Grégory Smits | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27998) |
+| `2026-09-23` | **A Systematic Benchmark of Explainable Methods for Temporal Attribution in Sequential Recommendation Systems** | Akash Pandey, Kanisha Shah, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27201) |
+| `2026-09-23` | **When LLM-Based User Profiling Adds Value in Production Streaming Recommendation** | Milad Sabouri, Neeraj Sharma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27183) |
+| `2026-09-22` | **The Like Trap: Multi-Stage Poisoning against Agents in Similarity-based Recommendation Systems** | Yue Xing, Pengfei He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27155) |
 | `2026-09-21` | **What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study** | Yufei Chen, Junchen Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.24430) |
 | `2026-09-20` | **Explainable Recommendations at Scale: LLM Rationales for YouTube Music Artist Discovery** | Xiao Liu, Yanwei Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23877) |
 | `2026-09-20` | **A Redundancy Reduction Approach for Controllable Sequential Recommendations** | Veronika Ivanova, Marina Munkhoeva, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.23849) |

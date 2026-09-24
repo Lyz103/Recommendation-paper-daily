@@ -19381,6 +19381,61 @@
             "abstract": "Reproducibility is essential for scientific progress, enabling validation, fair comparison, and building upon prior work. In computational network science (CNS), however, reproducibility remains limited due to missing code, inaccessible datasets, and insufficient reporting of experimental details. This paper presents a taxonomy of reproducibility in CNS, structured around artifact availability, algorithmic clarity, experimental environments, and data processing and experimental pipelines. To systematically examine these challenges, we conduct four case studies spanning diverse methodological settings: topic-based influential user detection (network science and natural language processing-based methods), influence-based community detection (pure network-based methods), influence maximization (classical, heuristic, approximation, and AI-based mixed approaches), and reinforcement learning for network analysis (learning-based methods). Across these domains, we observe a consistent lack of publicly available artifacts, particularly code and datasets, hindering verification and comparison of results. We identify key causes of this reproducibility gap, including limited incentives for sharing artifacts, data access restrictions, incomplete experimental descriptions, and a complex methodological pipeline. Finally, we outline recommendations to improve reproducibility, including mandatory artifact sharing policies, standardized benchmarks, and comprehensive reporting of experimental setups. Addressing these gaps is critical to ensure transparency, comparability, and sustained progress in computational network science.",
             "primary_category": "cs.SI",
             "code_url": "null"
+        },
+        "2609.28209": {
+            "title": "Do Electromagnetic Side-Channel Attacks Threaten Electronic Polling Stations? Scenarios and Recommendations",
+            "authors": "Lucas Brito, Leonardo Teodoro, Pedro Tomaz, Alyson Isaluski, Leandro Hyeda, Antonio Oliveira-Jr, Saulo Queiroz",
+            "first_author": "Lucas Brito",
+            "url": "http://arxiv.org/abs/2609.28209v1",
+            "pdf_url": "http://arxiv.org/abs/2609.28209",
+            "publish_date": "2026-09-23",
+            "abstract": "This paper investigates the threat to ballot secrecy in the Brazilian   electronic voting machine (UEB) posed by electromagnetic side-channel attacks, also known as TEMPEST attacks. In these attacks, screen content can be reconstructed remotely by intercepting electromagnetic emanations associated with the target device's video signal. This work is motivated by a recent ruling by a Brazilian electoral court concerning an attempt to violate ballot secrecy using electronic equipment. Based on publicly available information about the electoral system, attack scenarios against polling stations are proposed. Experiments using software-defined radio show that the effectiveness of TEMPEST attacks strongly depends on the lack of oversight resulting from public unawareness of the threat. Finally, awareness guidelines are proposed for voters, poll workers, and party representatives to mitigate attack risks within a polling station.",
+            "primary_category": "cs.CR",
+            "code_url": "null"
+        },
+        "2609.27998": {
+            "title": "A Flexible Recommendation System for Individuals and Groups",
+            "authors": "Yacine Mokhtari, Gr\u00e9gory Smits",
+            "first_author": "Yacine Mokhtari",
+            "url": "http://arxiv.org/abs/2609.27998v1",
+            "pdf_url": "http://arxiv.org/abs/2609.27998",
+            "publish_date": "2026-09-23",
+            "abstract": "Group recommender systems typically rely on either aggregating individual preferences or treating groups as distinct meta-users. However, these methods often suffer from static aggregation strategies or data sparsity issues within group histories. This paper introduces a novel approach, that relies on a GNN-based architecture to learn a dual representation of each user's preferences, capturing their behavior as an independent individual from one side and as a member of a collective from the other side. By performing a differential analysis of these individual and group-oriented preferences, our system then determines the behavioral profile of each user when joining a group. Finally, specific preference aggregation strategies are defined to cope with the behavioral profiles of the users composing a group. Consequently, the system is equally capable of delivering precise recommendations to individuals and to arbitrary groups, effectively unifying the two traditional paradigms of recommendation. Experiments on synthetic data simulating diverse group settings and behaviors confirm the flexibility and relevance of the proposed approach compared to state-of-the-art methods.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.27201": {
+            "title": "A Systematic Benchmark of Explainable Methods for Temporal Attribution in Sequential Recommendation Systems",
+            "authors": "Akash Pandey, Kanisha Shah, Addrish Roy, Dwipam Katariya, Hongyangyang Shi, Amanda Ding, Kalanand Mishra, Pranab Mohanty",
+            "first_author": "Akash Pandey",
+            "url": "http://arxiv.org/abs/2609.27201v1",
+            "pdf_url": "http://arxiv.org/abs/2609.27201",
+            "publish_date": "2026-09-23",
+            "abstract": "Sequential RecSys are central to modern personalization, exploiting user's historical interaction sequences to drive next-step decisions. Deep learning models, particularly CNN and Transformer-based architectures, have proven highly effective at capturing temporal dependencies in these histories. For transparency and trust, understanding which past interactions drive a given recommendation is increasingly important --- both for developers auditing model behavior and for users seeking a rationale. However, the non-linearities that give these models their predictive power also render them black boxes, making it difficult to attribute decisions to specific interactions. While gradient-based, perturbation-based, and attention-based explainability methods exist, a systematic benchmark of their faithfulness for sequential recommendation is missing. We address this gap by introducing a dual-model masking metric in which one model supplies per-timestep attribution scores and a separately trained, masking-robust probe measures the resulting change in predicted probability. Using this metric, we benchmark ten XAI methods across CNN, Transformer, SASRec, and BERT4Rec backbones on KuaiRand and MovieLens, complemented by analyses of temporal attribution patterns, item popularity confounding, and robustness to input corruption. Our key findings are: (1) gradient-based methods, particularly GradientSHAP and Integrated Gradients, yield the most faithful and robust attributions; (2) raw attention weights are unreliable, but gradient-weighted attention restores faithfulness on shorter sequences, with degradation on longer horizons as softmax attention probabilities converge toward uniform importance scores, diminishing the method's ability to identify informative interactions; and (3) temporal attribution patterns in faithful methods reflect genuine task structure rather than recency or popularity bias.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.27183": {
+            "title": "When LLM-Based User Profiling Adds Value in Production Streaming Recommendation",
+            "authors": "Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah",
+            "first_author": "Milad Sabouri",
+            "url": "http://arxiv.org/abs/2609.27183v1",
+            "pdf_url": "http://arxiv.org/abs/2609.27183",
+            "publish_date": "2026-09-23",
+            "abstract": "Personalized recommendation depends critically on how user representations are constructed from historical behavior. Two paradigms have emerged for constructing semantic user profiles in content-based recommendation. First, aggregate methods derive user representations as numerical aggregates of semantic item embeddings. Second, LLM-based methods generate natural-language summaries of user preferences and encode them through a text encoder. Each paradigm can be combined with temporal disentanglement of recent versus historical behavior. LLM-based profile generation is significantly more expensive than aggregate approaches, raising the question of when this additional cost is justified. We present a systematic comparison of four semantic user-profiling strategies, factorially crossed across representation type and temporal handling, evaluated on a real-world production dataset. The comparison reveals how these strategies differ across user behavior types, across both accuracy and beyond-accuracy dimensions of recommendation quality, and across the temporal-window setting that governs the disentanglement.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.27155": {
+            "title": "The Like Trap: Multi-Stage Poisoning against Agents in Similarity-based Recommendation Systems",
+            "authors": "Yue Xing, Pengfei He, Zitao Li",
+            "first_author": "Yue Xing",
+            "url": "http://arxiv.org/abs/2609.27155v1",
+            "pdf_url": "http://arxiv.org/abs/2609.27155",
+            "publish_date": "2026-09-22",
+            "abstract": "With recent advancements in large language models (LLMs) and LLM-based agents, these agents are becoming increasingly autonomous and gaining broader access to act on users' behalf on the internet. However, the vulnerability of automated agents deployed on social media platforms (e.g., for managing a user's personal account) remains underexplored. Existing studies on agent poisoning typically assume that the adversary can expose poisoned content to the agent. Although such an attack is direct and effective, it is more easily detected and mitigated. In the context of social media platforms, this leaves open whether the recommendation system itself would surface such content to the agent in a more subtle manner. Through theoretical analysis, we show that the like-score mechanism used in OASIS can be exploited, and we characterize the conditions under which a multi-stage chain of poisoned posts can steer the agent's feed. Based on these insights, we further develop an algorithm that crafts realistic poisoned posts. Experiments support our theoretical findings and demonstrate the effectiveness of the proposed algorithm. Notably, by exploiting the like-score feedback loop, the attack causes the recommendation system to select poisoned posts even when their user-post similarity falls below the retrieval threshold.",
+            "primary_category": "cs.CR",
+            "code_url": "null"
         }
     }
 }
