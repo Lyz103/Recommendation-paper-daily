@@ -1,4 +1,4 @@
-## Updated on 2026-09-24
+## Updated on 2026-09-25
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-24` | **From Interests to Semantic IDs: Retrieval-Grounded Credit Assignment for Generative Recommendation** | Mengdan Zhu, Yufan Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29983) |
+| `2026-09-24` | **Learning Better Reasoning for Generative Recommendation with Semantic IDs** | Mengdan Zhu, Yufan Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29973) |
+| `2026-09-24` | **LSF-SR: Latent Semantic Fusion for Sequential Recommendation via Flow-based Conditional Variational Autoencoders** | Shih-Hong Chen, Josh Jia-Ching Ying, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29815) |
+| `2026-09-24` | **Decoupled Learning and Selection in Slate Recommendation for Privacy and Stability Under Noisy Scores** | Sam Urmian, Qinyi Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29453) |
+| `2026-09-24` | **Cross-Country Code-Mixing for Generative Recommendation** | Yuan Gao, Hao Deng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.28972) |
 | `2026-09-23` | **Do Electromagnetic Side-Channel Attacks Threaten Electronic Polling Stations? Scenarios and Recommendations** | Lucas Brito, Leonardo Teodoro, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.28209) |
 | `2026-09-23` | **A Flexible Recommendation System for Individuals and Groups** | Yacine Mokhtari, Grégory Smits | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27998) |
 | `2026-09-23` | **A Systematic Benchmark of Explainable Methods for Temporal Attribution in Sequential Recommendation Systems** | Akash Pandey, Kanisha Shah, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.27201) |
