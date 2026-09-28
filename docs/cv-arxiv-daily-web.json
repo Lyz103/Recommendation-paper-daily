@@ -19491,6 +19491,94 @@
             "abstract": "Cross-country recommendation on modern e-commerce platforms is typically deployed with disjoint user and item ID spaces across markets, removing the shared anchors that conventional cross-domain methods rely on. Generative recommendation (GR) mitigates this by mapping items into a shared token space and training a unified model, but existing approaches keep behavior sequences strictly country-specific, so knowledge transfer occurs only at the parameter level and remains absent at the data level. Inspired by code-switching corpora in multilingual natural language processing, we propose CMRec, a cross-country GR framework that injects cross-country supervision at the data level via dual-constrained, context-aware code-mixing. CMRec first learns a shared semantic codebook from multi-modal content and behavioral co-occurrence across countries. It then uses this codebook to synthesize mixed-country sequences via token-level substitutions that satisfy both static (content) and dynamic (e.g., price, audience, popularity) constraints. Finally, it introduces a context-aware loss that reweights mixed samples according to their plausibility in the current sequence. Experiments on two real-world multi-country datasets and an online A/B test show that CMRec substantially improves recommendation quality in data-sparse countries while preserving performance in data-rich countries, achieving +1.77% advertising revenue and +2.64% orders on a large-scale e-commerce platform.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.31253": {
+            "title": "Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings",
+            "authors": "Ekaterina Trushkova, Artur Gimranov, Anton Lysenko",
+            "first_author": "Ekaterina Trushkova",
+            "url": "http://arxiv.org/abs/2609.31253v1",
+            "pdf_url": "http://arxiv.org/abs/2609.31253",
+            "publish_date": "2026-09-25",
+            "abstract": "Sequential recommenders typically rely on learnable positional embeddings to encode the order of user interactions. In this work, we ask whether this ordinal signal can be replaced by a structural one derived from the item space. We propose to use Laplacian positional embeddings in SASRec: we build an item co-occurrence graph from training interactions, compute eigenvectors of its symmetric normalized Laplacian, and use them as frozen graph-derived positional embeddings. The backbone architecture and training objective remain unchanged. Experiments on four public sequential-recommendation benchmarks show that this simple replacement improves SASRec performance on most ranking metrics and remains competitive with strong positional and temporal encoding baselines. These findings indicate that item-item graph structure can be an effective substitute for standard ordinal positional embeddings in sequential recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.31164": {
+            "title": "SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations",
+            "authors": "Tobias Vente, Maarten Peirsman, Noah Dani\u00ebls, Hannu Toivonen, Bart Goethals",
+            "first_author": "Tobias Vente",
+            "url": "http://arxiv.org/abs/2609.31164v1",
+            "pdf_url": "http://arxiv.org/abs/2609.31164",
+            "publish_date": "2026-09-25",
+            "abstract": "Recommender systems engineer serendipity to foster active exploration and break predictable consumption cycles. The problem with existing offline beyond-accuracy metrics is that they often either isolate historical similarity or global popularity. We aim to design an evaluation metric that examines similarity, popularity, and actual user relevance. To achieve this, we introduce SPADE (Serendipitous Pareto Distance Evaluation). SPADE maps all items into a two-dimensional space to directly calculate a user-specific Pareto frontier of maximally popular and historically similar items. The final serendipity score is then computed by averaging the minimum Euclidean distance from this boundary strictly for the correctly recommended test-set items. Evaluating SPADE across five datasets and five baseline algorithms confirms its effectiveness; our results show that the metric successfully prevents algorithms from exploiting beyond-accuracy measures with irrelevant or non-personalized recommendations, reliably isolating serendipitous discoveries.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.30812": {
+            "title": "Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms",
+            "authors": "Yi-Chun Akchen, Sena Asli Bozkurt, Chen-An Lin",
+            "first_author": "Yi-Chun Akchen",
+            "url": "http://arxiv.org/abs/2609.30812v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30812",
+            "publish_date": "2026-09-25",
+            "abstract": "Modern service platforms often provide customers with real-time congestion information, such as anticipated waiting times, before they decide whether to use a service. This creates an intertemporal tradeoff in service recommendation: directing a customer to a service may generate immediate value, but the resulting congestion can make that service less attractive to future customers. We study this tradeoff through a finite-horizon stochastic optimization problem in which a platform dynamically recommends among multiple services, each represented by a queue, with customers' joining probabilities decreasing with congestion.   We first formulate the problem as a Markov decision process and show that optimal decisions generally depend on the joint congestion state, giving rise to a prohibitively large state space. We develop two complementary approximation algorithms that overcome this curse of dimensionality. First, we provide a quasi-polynomial-time approximation scheme that uses truncation and rounding of the model primitives to compress the joint congestion state, while carefully accounting for how these approximations affect the stochastic evolution of the system to establish near-optimality. Second, we develop a polynomial-time LP-guided algorithm that replaces the joint-state representation with service-level marginal information and achieves a (1-1/e) approximation guarantee under substantially more general service and joining dynamics. Finally, we show that monotone joining behavior, whereby customers become less likely to join as a service becomes more congested, marks a fundamental tractability boundary: without monotonicity, the problem is NP-hard to approximate within any constant factor. This establishes monotonicity as a key behavioral property that enables tractable dynamic service recommendation despite the complexity introduced by congestion-dependent joining.",
+            "primary_category": "math.OC",
+            "code_url": "null"
+        },
+        "2609.30717": {
+            "title": "RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent",
+            "authors": "Xiao Chen, Yicheng Zhao, Yingying Wu, Zhendong Chu, Changyi Ma, Qingsong Wen, Xuan Song",
+            "first_author": "Xiao Chen",
+            "url": "http://arxiv.org/abs/2609.30717v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30717",
+            "publish_date": "2026-09-25",
+            "abstract": "Recent advances in agentic recommender systems are shifting recommender systems from passive filtering engines to instruction-following agents that use external tools to resolve user intent. However, existing benchmarks often assume explicit user intent, simplified tool environments, or isolated function calls, leaving realistic tool orchestration for recommendation underexplored. To bridge this gap, we propose RecToolBench, a Model Context Protocol (MCP)-based benchmark for evaluating tool-using recommender agents under fuzzy user instructions. RecToolBench contains more than 1,200 executable tasks across three recommendation domains, 13 MCP servers, and 32 tools, spanning single-tool calls, parallel tool calls, sequential tool chains, and hybrid tool orchestration. We construct RecToolBench with a scalable synthesize--fuzzify--judge pipeline that generates executable fuzzy recommendation tasks, and evaluates agent trajectories using rule-based execution checks and rubric-based LLM evaluation. Experiments on representative LLMs show that syntactically valid tool calls do not guarantee successful recommendations. Models struggle with semantic parameter grounding, multi-step evidence integration, and grounded final recommendations, especially as orchestration complexity increases. Our results identify tool orchestration under fuzzy user intent as a major bottleneck for agentic recommender systems. Our data and code are available at https://github.com/ShawnChenn/RecToolBench.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.30711": {
+            "title": "Recommendation World Models for Future-State Control",
+            "authors": "Jinfeng Xu, Zheyu Chen, Ziyue Peng, Jianheng Tang, Zheng Lin, Jing Yang, Puzhen Wu, Zheng Xing, Victor C. M. Leung",
+            "first_author": "Jinfeng Xu",
+            "url": "http://arxiv.org/abs/2609.30711v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30711",
+            "publish_date": "2026-09-25",
+            "abstract": "Sequential recommendation optimizes which items to rank, while each displayed slate also shapes subsequent feedback and user state. We study how a trained ranker can support decisions about these future consequences. We introduce UA-TWM, a utility-anchored world-model interface that constructs nearby slate actions, estimates their target-relevant consequences, and selects an alternative subject to utility constraints. The reference slate serves as a fallback when no alternative qualifies. A logged-replay instantiation combines utility and target-gain estimates with calibrated failure-risk prediction; a closed-loop instantiation uses one-step state-action prediction and updates its decisions after observed feedback. We evaluate transfer across twelve sequential backbones on MovieLens-25M and KuaiRand-Pure, and repeated target-directed interaction in KuaiSim. Attaching the interface improves Recall@20, NDCG@20, and future-state alignment for every matched logged backbone. Selection ablations reveal the utility and risk costs of aggressive target pursuit, while closed-loop diagnostics isolate the contribution of action-conditioned prediction. Local consequence modeling thus enables target-aware selection around a trained sequential ranker.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.30656": {
+            "title": "Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems",
+            "authors": "Dharak Kharod, Yuzhen Huang, Zhou Wang, Jackie Xu, Fuzail Khan, Jacky Zhou, Hao Yan, Lidong Zhao, Xizhou Feng, Yvonne Liu, Karthik Jayaraman, Praveen Ramachandran, Vishwa Karia, Yashasvi Makin",
+            "first_author": "Dharak Kharod",
+            "url": "http://arxiv.org/abs/2609.30656v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30656",
+            "publish_date": "2026-09-25",
+            "abstract": "Large-scale recommendation models pose distinct, under-explored profiling challenges. Most recommendation model architectures are structurally heterogeneous, intermixing memory-bandwidth-bound operations, small compute-bound dense layers, dynamic shapes from jagged categorical features, and low-arithmetic-intensity operations. Recommendation models evolve rapidly as modeling engineers experiment with compositions, often written without visibility into hardware execution characteristics. Standard profiling tools offer either end-to-end throughput or operator-level traces, but cannot attribute performance to the submodules that practitioners reason about. We present Component Benchmark (CB), a profiling system that independently characterizes each submodule performance in a hierarchical manner, providing a tree-structured, interactive visualization that brings performance clarity to ML practitioners. At its core, CB provides a simple yet extensible, submodule-based benchmarking framework with a plugin architecture that enables hierarchical performance analysis. These large-scale recommendation models are TB-scale, run on thousands of GPUs and ingest 100B examples per day. We demonstrate CB's effectiveness on common open sourced models and discuss how CB has been leveraged to accelerate modern recommendation model performance analysis and optimization.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.30576": {
+            "title": "T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation",
+            "authors": "Yang Liu, Noel Loo, Ali Khanafer, Shuying Sun, Akshay Soni, Zhong Wu, Linjun Yang",
+            "first_author": "Yang Liu",
+            "url": "http://arxiv.org/abs/2609.30576v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30576",
+            "publish_date": "2026-09-24",
+            "abstract": "Large-scale recommenders increasingly adopt the sequential generative recipe behind large language models, bringing the Transformer into recommendation along with design choices made for text, including Rotary Position Embedding (RoPE). In language models, RoPE encodes token indices for relative position reasoning, but in recommendation, an interaction index records only event order, saying nothing about elapsed time, behavioral cycles across scales, or calendar phase. We revisit this choice and propose T-RoPE, a time-aware RoPE for sequential generative recommendation that replaces index-only rotation with timestamp-based angles, learnable temporal coefficients, multiscale frequency banks, shifted query alignment, and non-stationary key rotation. We prove that standard RoPE, even on timestamps, remains time-translation invariant and cannot distinguish seasonal contexts, and that T-RoPE breaks this invariance while preserving the RoPE interface. Across five public benchmarks, T-RoPE achieves the best result on every metric on every dataset, improving over the strongest baseline by 78--130\\% in HR@10 on the sparse PixelRec data and 8--12\\% across metrics on Amazon Books. On an industrial-scale e-commerce dataset with more than 6B interactions, it improves every metric over the HSTU + Time RAB backbone by 13--82\\%, with ablations attributing the largest gains to multiscale frequencies ($+56\\%$ NDCG@50) and non-stationary keys ($+4\\%$). An online A/B test in the Shop app yields positive lifts in conversion rate ($+0.33\\%$) and order count ($+0.63\\%$). We also provide forward and backward algorithms whose added cost is linear in sequence length and head dimension, keeping time-aware RoPE practical for large generative recommenders.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.30568": {
+            "title": "Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation",
+            "authors": "Matt Sandler",
+            "first_author": "Matt Sandler",
+            "url": "http://arxiv.org/abs/2609.30568v1",
+            "pdf_url": "http://arxiv.org/abs/2609.30568",
+            "publish_date": "2026-09-24",
+            "abstract": "A deployed B2B music-discovery platform serves both query-driven search (text prompts, vibe tags) and seed-driven recommendation (seed-track and artist stations) over one licensed catalog, one LAION-CLAP joint audio-text embedding space, one candidate-generation filter, and one ranking head -- and neither path consumes end-listener behavioral signal. In this content-only regime, curator judgment is the principal feedback signal available, and offline cosine similarity predicts it poorly: 38% of cosine-nearest neighbors are rejected by curators. The rejections reveal a clean partition: a majority (55%) are sound failures the encoder could address (style, tempo, mood mismatch), and a substantial minority (37%) are context failures orthogonal to the waveform (wrong language, holiday content, devotional content, rights and lyric flags). We deploy this sound-vs-context decomposition as feedback infrastructure, routing each failure mode to the layer that can absorb it: context failures to a constraint filter at candidate generation, sound failures to an embedding reweighting head at the representation layer -- both below the search/recommendation split, so a single curator loop maintains both experiences. On 1,200 curator judgments collected over two production rounds one month apart, the combined intervention reduces rejection rate from 38.17% to 28.83% (-24.5% relative, McNemar chi-squared = 22.4, p = 2.2e-6). An accounting decomposition attributes 4.08 pp of the drop to filter-eligible categories and 5.25 pp to the rest; the deployment was unblinded and compound, so this is a production accounting bound, not a causal estimate. We present this as an industrial case study rather than a validated general method, and close with lessons for content-only discovery: the failure partition is orthogonal to the paradigm partition, and corrections land in layers shared by both paradigms.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

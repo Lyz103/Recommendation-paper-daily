@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-27
+## Updated on 2026-09-28
 
 ---
 
@@ -23,6 +23,14 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-25` | **Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings** | Ekaterina Trushkova, Artur Gimranov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.31253) |
+| `2026-09-25` | **SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations** | Tobias Vente, Maarten Peirsman, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.31164) |
+| `2026-09-25` | **Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms** | Yi-Chun Akchen, Sena Asli Bozkurt, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30812) |
+| `2026-09-25` | **RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent** | Xiao Chen, Yicheng Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30717) |
+| `2026-09-25` | **Recommendation World Models for Future-State Control** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30711) |
+| `2026-09-25` | **Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems** | Dharak Kharod, Yuzhen Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30656) |
+| `2026-09-24` | **T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation** | Yang Liu, Noel Loo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30576) |
+| `2026-09-24` | **Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation** | Matt Sandler | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30568) |
 | `2026-09-24` | **From Interests to Semantic IDs: Retrieval-Grounded Credit Assignment for Generative Recommendation** | Mengdan Zhu, Yufan Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29983) |
 | `2026-09-24` | **Learning Better Reasoning for Generative Recommendation with Semantic IDs** | Mengdan Zhu, Yufan Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29973) |
 | `2026-09-24` | **LSF-SR: Latent Semantic Fusion for Sequential Recommendation via Flow-based Conditional Variational Autoencoders** | Shih-Hong Chen, Josh Jia-Ching Ying, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.29815) |
