@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-28
+## Updated on 2026-09-29
 
 ---
 
@@ -23,6 +23,17 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-28` | **Mitigating Popularity Bias in Recommendation with Global Listwise Learning and Progressive Bi-Weighting** | Tianyu Zhu, Jiandong Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.35041) |
+| `2026-09-28` | **Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition** | Riki Okamura, Toshiharu Sugawara | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.35034) |
+| `2026-09-28` | **No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution** | Tao Huang, Wei Zhou | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.34802) |
+| `2026-09-28` | **SPRINT: Single-Step Generative Recommendation via Average Probability Velocity** | Zhuo Cai, Shoujin Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.34306) |
+| `2026-09-28` | **Beyond One Epoch: Uncertainty-Weighted Sensitivity Regularization for Recommendation Models** | Richard Lettich, Shagun Gupta | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.34083) |
+| `2026-09-27` | **Beyond the Beam: Constructive Repair and Candidate Completion for Generative Recommendation** | Zijun Zhao, Peng Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.33745) |
+| `2026-09-27` | **What Gets Measured Gets Managed: Sign-aware Recommendation Needs Sign-aware Evaluation** | Minchan Kim, Jungmin Hwang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.33346) |
+| `2026-09-27` | **Algorithmic Harms Associated with Generative Model-Augmented Recommendation Systems** | Christine Herlihy, Xumei Xi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.33073) |
+| `2026-09-27` | **Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation** | Seungheon Doh, Sergio Oramas, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.33045) |
+| `2026-09-26` | **Mend the Measurement Gap: Latent User Preference Modeling for Short-Form Video Recommendation** | Shuo Chang, Yueqi Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.32839) |
+| `2026-09-26` | **DP-Rec: Towards Dynamic Patching for Efficient Long-Sequence Recommendation** | Dwipam Katariya, Thomas Caputo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.32215) |
 | `2026-09-25` | **Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings** | Ekaterina Trushkova, Artur Gimranov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.31253) |
 | `2026-09-25` | **SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations** | Tobias Vente, Maarten Peirsman, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.31164) |
 | `2026-09-25` | **Dynamic Service Recommendation with Congestion-Dependent Joining: Near-Optimal and Constant-Factor Approximation Algorithms** | Yi-Chun Akchen, Sena Asli Bozkurt, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.30812) |

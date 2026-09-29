@@ -19579,6 +19579,127 @@
             "abstract": "A deployed B2B music-discovery platform serves both query-driven search (text prompts, vibe tags) and seed-driven recommendation (seed-track and artist stations) over one licensed catalog, one LAION-CLAP joint audio-text embedding space, one candidate-generation filter, and one ranking head -- and neither path consumes end-listener behavioral signal. In this content-only regime, curator judgment is the principal feedback signal available, and offline cosine similarity predicts it poorly: 38% of cosine-nearest neighbors are rejected by curators. The rejections reveal a clean partition: a majority (55%) are sound failures the encoder could address (style, tempo, mood mismatch), and a substantial minority (37%) are context failures orthogonal to the waveform (wrong language, holiday content, devotional content, rights and lyric flags). We deploy this sound-vs-context decomposition as feedback infrastructure, routing each failure mode to the layer that can absorb it: context failures to a constraint filter at candidate generation, sound failures to an embedding reweighting head at the representation layer -- both below the search/recommendation split, so a single curator loop maintains both experiences. On 1,200 curator judgments collected over two production rounds one month apart, the combined intervention reduces rejection rate from 38.17% to 28.83% (-24.5% relative, McNemar chi-squared = 22.4, p = 2.2e-6). An accounting decomposition attributes 4.08 pp of the drop to filter-eligible categories and 5.25 pp to the rest; the deployment was unblinded and compound, so this is a production accounting bound, not a causal estimate. We present this as an industrial case study rather than a validated general method, and close with lessons for content-only discovery: the failure partition is orthogonal to the paradigm partition, and corrections land in layers shared by both paradigms.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2609.35041": {
+            "title": "Mitigating Popularity Bias in Recommendation with Global Listwise Learning and Progressive Bi-Weighting",
+            "authors": "Tianyu Zhu, Jiandong Ding, Yansong Shi, Guoqing Chen, Jian-Yun Nie",
+            "first_author": "Tianyu Zhu",
+            "url": "http://arxiv.org/abs/2609.35041v1",
+            "pdf_url": "http://arxiv.org/abs/2609.35041",
+            "publish_date": "2026-09-28",
+            "abstract": "In recommender systems, user feedback typically follows a long-tail distribution, which leads many recommendation algorithms to exacerbate popularity bias by disproportionately favoring popular items. To mitigate this issue, recent studies have employed Inverse Propensity Scoring (IPS) to rebalance training data via reweighting user-item interactions. However, the effectiveness of IPS-based approaches is often constrained by locally unbiased objectives and inaccurate propensity estimation. In this paper, we propose Multinomial Likelihood with Bi-Weighting (Mult-BiW) to address these limitations. First, we introduce a debiasing framework, termed Mult-IPS, which integrates multinomial likelihood with IPS to capture global and unbiased user preferences over the entire item set. Second, we develop a Bi-Weighting (BiW) strategy that jointly leverages propensity scores and a collection model, incorporating a smoothing mechanism to enhance the robustness of propensity estimation. We further provide theoretical analyses that establish an upper bound on the empirical bias and characterize the optimal form of the collection model. Third, to mitigate the adverse effects of aggressive reweighting on representation learning, we design a Progressive Bi-Weighting strategy that gradually transitions from discriminative representation learning to popularity debiasing. Extensive experiments on real-world datasets show that Mult-BiW consistently outperforms state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.35034": {
+            "title": "Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition",
+            "authors": "Riki Okamura, Toshiharu Sugawara",
+            "first_author": "Riki Okamura",
+            "url": "http://arxiv.org/abs/2609.35034v1",
+            "pdf_url": "http://arxiv.org/abs/2609.35034",
+            "publish_date": "2026-09-28",
+            "abstract": "Off-policy evaluation, which estimates evaluation policy performance from logged data, is key for recommender ranking policies. However, logged clicks cannot distinguish unexamined items from examined non-clicks, causing bias in existing estimators when the assumed examination structures fail. We propose two estimators based on the decomposition of clicks into examination and relevance. First, the latent-examination independent inverse propensity score (LE-IIPS) estimator corrects the IIPS bias using policy examination probability ratios. Second, the examination-decomposed doubly robust (ED-DR) estimator extends LE-IIPS to a doubly robust framework. ED-DR is unbiased if the examination probabilities are correct regardless of relevance accuracy, or under ranking-independent examination, even if both model estimates are inaccurate. Experiments show that ED-DR achieves a lower MSE than existing methods with large sample sizes, especially when the examination depends on ranking. We also highlight its limitations under small samples or cascade user behavior conditions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.34802": {
+            "title": "No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution",
+            "authors": "Tao Huang, Wei Zhou",
+            "first_author": "Tao Huang",
+            "url": "http://arxiv.org/abs/2609.34802v1",
+            "pdf_url": "http://arxiv.org/abs/2609.34802",
+            "publish_date": "2026-09-28",
+            "abstract": "Session-based recommendation (SBR) predicts the next choice in a session by analyzing recent interactions. Transformer-based models are widely used because of their ability to capture long-range dependencies through self-attention mechanisms. In contrast, traditional convolutional models, although more efficient, are often limited by their weak global modeling capabilities and are losing ground in SBR tasks. In this work, we propose a Next-generation Pure Convolutional Framework (NextConvRec) for SBR tasks, aiming to balance efficiency and performance. NextConvRec uses a Structural and Positional Convolutional Encoder (SPCE) for preprocessing, combining learnable convolutional positional biases with session-level structural signals extracted through GCN layers. Its backbone convolutional module effectively expands the effective receptive field through depthwise convolutions and pointwise convolutions, enabling robust long-range preference modeling without attention mechanisms. Extensive experiments on 4 benchmark datasets show that NextConvRec outperforms several state-of-the-art baselines by around 1.73% on average, and reduces the average inference time per session by 16.7%. The convolutional architectures remain a promising direction for efficient and accurate session-based recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.34306": {
+            "title": "SPRINT: Single-Step Generative Recommendation via Average Probability Velocity",
+            "authors": "Zhuo Cai, Shoujin Wang, Peilin Zhou, Min Xu, Julian McAuley, Fang Chen",
+            "first_author": "Zhuo Cai",
+            "url": "http://arxiv.org/abs/2609.34306v1",
+            "pdf_url": "http://arxiv.org/abs/2609.34306",
+            "publish_date": "2026-09-28",
+            "abstract": "Semantic ID (SID) based generative recommendation represents each item as a sequence of discrete tokens, and recommends by generating the SID of the item a user would like to interact with. Both dominant paradigms in this domain generally pay for generation token by token: autoregressive models decode the tokens left-to-right, while non-autoregressive models decode in parallel yet still need multiple rounds of refinement to stay competitive. Therefore, both generally spend multiple forward passes per item, a cost that is prohibitive in latency-sensitive recommender systems. We ask whether an item can be generated in a single forward pass, and answer it through a new perspective which we call average probability velocity. We view SID generation as a flow of token generation probabilities and characterize it by its average velocity over the whole generation process. We prove that this average velocity is fully determined by the average generation probability of each token. Therefore, we directly parameterize and learn the probabilities of all tokens in a single forward pass with a bidirectional Transformer. As these probabilities are generated independently across positions and the coherence among tokens is lost, we further design a dual-level flow contrastive objective to restore the coherence among an item's tokens. It contrasts the target SID against negative SIDs at both the token and SID levels. The token level ranks the generation probabilities of the target tokens above those of negative SIDs, while the SID level scores the tokens of each SID as a whole item for capturing token coherence of each item. Extensive experiments show that our model not only generates recommendations far more efficiently ($8.39-10.04\\times$ speedup over the second-fastest AR/NAR method) but also attains superior recommendation accuracy ($7.77\\%$ average improvement over the second-best.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.34083": {
+            "title": "Beyond One Epoch: Uncertainty-Weighted Sensitivity Regularization for Recommendation Models",
+            "authors": "Richard Lettich, Shagun Gupta",
+            "first_author": "Richard Lettich",
+            "url": "http://arxiv.org/abs/2609.34083v1",
+            "pdf_url": "http://arxiv.org/abs/2609.34083",
+            "publish_date": "2026-09-28",
+            "abstract": "Recommendation models with sparse embeddings and a shared consumer often exhibit the one-epoch phenomenon: a second epoch lowers training loss while sharply degrading generalization. We present a view based on the violation of the prequential principle. On the first epoch, an example's label has not affected the embedding rows used to score it. On later epochs, those rows contain a displacement induced by the labels earlier update. This creates an incentive for the shared consumer to exploit this displacement in subsequent epochs, which fails to generalize. We call this self-influence asymmetry. Using an exact scalar model and local influence analysis, we connect this mismatch to the uncertainty in the embeddings and the consumers incentive to exploit it in subsequent epochs. We verify this hypothesis using an embedding-consumer-update interventions in deep recommendation models and propose uncertainty-weighted sensitivity regularization (UWSR) which counteracts this mismatch by augmenting the loss function to penalize the consumer for relying on uncertain embeddings. Unlike existing remedies, UWSR preserves the learned embeddings and across three benchmarks, four-epoch UWSR reduces test cross-entropy by 1.38%-6.78% and improves AUC by 0.0058-0.0231 relative to one-epoch training.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.33745": {
+            "title": "Beyond the Beam: Constructive Repair and Candidate Completion for Generative Recommendation",
+            "authors": "Zijun Zhao, Peng Zhang, Gang Zhang, Yuanchi Ma, Hui He, Zhendong Niu",
+            "first_author": "Zijun Zhao",
+            "url": "http://arxiv.org/abs/2609.33745v1",
+            "pdf_url": "http://arxiv.org/abs/2609.33745",
+            "publish_date": "2026-09-27",
+            "abstract": "Generative recommenders retrieve items by generating identifiers, but a valid identifier can remain outside the beam after catalog expansion. This raises two connected questions: which failures can identifier assignment repair, and how should retrieval proceed beyond the initial beam? We characterize assignment repair with a fixed generator and retained old identifiers. Output-invariance certificates identify failures shared by all admissible assignments. Under a common effective prefix, coupled support and ranking constraints give the exact feasible interval of new-item counts for target recovery. Building on this characterization, Beyond the Beam (BB) obtains minimum-replacement repairs through an integral flow formulation, selects a shared map and adapts the generator. At inference, generative likelihood and collaborative evidence define one score for ranking, candidate priority and stopping. Retained prefix bounds guide candidate completion and certify its global Top-$K$ when the stopping condition is met. Exhaustive finite-catalog evaluation confirms construction in every feasible case. Across three Amazon Reviews categories and three random seeds, the full T5 procedure improves mean Recall@10 by 15.5--46.3% and NDCG@10 by 15.2--44.4% over the best-performing evaluated generative baseline for each dataset and metric. Matched controls show that shared construction and adaptation improve new-target ranking and certification efficiency on Beauty and Toys. Combined scoring and candidate completion improve NDCG@10 across all three datasets with both T5 and decoder-only LC-Rec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.33346": {
+            "title": "What Gets Measured Gets Managed: Sign-aware Recommendation Needs Sign-aware Evaluation",
+            "authors": "Minchan Kim, Jungmin Hwang, Hyunwoo Park",
+            "first_author": "Minchan Kim",
+            "url": "http://arxiv.org/abs/2609.33346v1",
+            "pdf_url": "http://arxiv.org/abs/2609.33346",
+            "publish_date": "2026-09-27",
+            "abstract": "Sign-aware recommender systems have recently been developed to leverage negative feedback for a deeper understanding of user preferences. However, our empirical diagnosis reveals that state-of-the-art graph-based sign-aware recommender systems are paradoxically valence-blind. Even though they explicitly incorporate sign information during training, they consistently fail to differentiate liked items from disliked ones at the ranking stage, frequently infiltrating top-K recommendations with disliked content. Through linear probing, we show that while valence information exists in the learned embeddings, it remains inaccessible to the inner-product scoring function. This widespread failure remains entirely undetected because conventional evaluation metrics, such as Recall, HR, and NDCG, assign a uniform utility of zero to both negative and unobserved items, creating a systematic evaluation blind spot. To bridge this gap, we propose a family of signed metrics, Signed Recall, Signed HR, and Signed NDCG, that explicitly penalize the recommendation of disliked content. Systematic re-evaluation under our proposed metrics fundamentally reshapes the established performance landscape, revealing that methods ranked highly under conventional metrics often fail to protect users from disliked content. Finally, through a proof-of-concept auxiliary loss, we confirm that the proposed metrics provide actionable training signals, guiding models toward valence-aware behavior without sacrificing conventional relevance. For transparency, our source code is available at: https://anonymous.4open.science/r/signed-rec-benchmark-07E4",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.33073": {
+            "title": "Algorithmic Harms Associated with Generative Model-Augmented Recommendation Systems",
+            "authors": "Christine Herlihy, Xumei Xi, Shloka Desai, Kevin Bannerman Hutchful, Pedro Silva",
+            "first_author": "Christine Herlihy",
+            "url": "http://arxiv.org/abs/2609.33073v1",
+            "pdf_url": "http://arxiv.org/abs/2609.33073",
+            "publish_date": "2026-09-27",
+            "abstract": "In this work, we consider algorithmic harms that may arise as generative models are incorporated into machine learning platforms. We argue that existing harm taxonomies and threat models require extension to (1) address novel causal drivers of well-studied representational and quality-of-service harms; and (2) anticipate and mitigate endogenous harms, such as sanitization, which may arise when system inputs are misaligned with the system designer's objectives, or the generative model's inductive priors. To this end, we introduce an expanded taxonomy of algorithmic harms associated with the use of generative models in non-conversational recommendation systems. In addition, we offer a causal analysis of how problematic subsets of the (input, output) joint distribution can arise, in an effort to inform harms detection and mitigation efforts.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.33045": {
+            "title": "Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation",
+            "authors": "Seungheon Doh, Sergio Oramas, Bruno Sguerra, Abhinav Bohra, Claudio Pomo, Francesco Barile",
+            "first_author": "Seungheon Doh",
+            "url": "http://arxiv.org/abs/2609.33045v1",
+            "pdf_url": "http://arxiv.org/abs/2609.33045",
+            "publish_date": "2026-09-27",
+            "abstract": "The RecSys Challenge 2026 studies conversational music recommendation as a joint item recommendation and response generation problem: given a multi-turn dialogue, systems must retrieve relevant tracks from a large catalog and produce a grounded natural-language response. This paper presents the challenge task, dataset, evaluation protocol, and official results. Beyond the leaderboard, we analyze the 16 accepted systems through a common retrieve--rerank--generate framework and examine how recommendation performance varies across users, requests, and dialogue contexts. Strong systems commonly combine heterogeneous candidate sources and preserve source-specific evidence for learned reranking. Across the system papers and our organizer-side analysis, robust design also means 1) grounding cold-start retrieval in multi-turn conversation and item signals, 2) using intent detectors, and 3) modeling the full multi-turn context rather than the current query alone. We further identify limitations of the benchmark and evaluation protocol, including single-ground-truth relevance and teacher-forced evaluation of synthetic dialogues. Together, these findings provide practical guidance for future conversational recommender systems and shared evaluation efforts.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.32839": {
+            "title": "Mend the Measurement Gap: Latent User Preference Modeling for Short-Form Video Recommendation",
+            "authors": "Shuo Chang, Yueqi Wang, Zihuan Diao, Ali Montazer, Jiangguo Zhang, Joyneel Misra, Dapeng Hong, Tomer Margolin, Sourabh Bansod, Ningren Han",
+            "first_author": "Shuo Chang",
+            "url": "http://arxiv.org/abs/2609.32839v1",
+            "pdf_url": "http://arxiv.org/abs/2609.32839",
+            "publish_date": "2026-09-26",
+            "abstract": "Recommender systems rely heavily on heterogeneous behavioral feedback to infer user preference. Although abundant, these signals are imperfect measurements: the same observed behavior can arise from different underlying states, such as genuine enjoyment, passive consumption, or inattention. The challenge is especially acute in short-form video, where watch-based signals are strongly affected by measurement confounders such as video duration - the same watch time can imply different levels of preference for videos of different lengths, while ratio-based metrics can systematically favor short videos. As a result, optimizing raw engagement can amplify measurement artifacts rather than improving user value. We propose a Factorized Latent Value Model (FLVM) for measuring user preference from heterogeneous behavioral feedback. The model treats observed behaviors as noisy measurements of a low-dimensional, factorized latent value state and uses structured output heads to model heterogeneous feedback signals. A restricted baseline path captures predictable variation from measurement-confounding features such as video duration, user propensity, and session context, while a routed latent path estimates preference-relevant value advantage. The resulting latent value score can be integrated into an existing recommender system as a ranking feature or ranking score. On YouTube Shorts, a major short-form video platform, this model improves offline metrics and lifts a primary viewer enjoyment metric by 2.67% in online A/B tests.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.32215": {
+            "title": "DP-Rec: Towards Dynamic Patching for Efficient Long-Sequence Recommendation",
+            "authors": "Dwipam Katariya, Thomas Caputo, Akshat Shreemali, Juan Manuel Origgi, Nikita Seleznev, Pranab Mohanty, Kalanand Mishra, Nam Nguyen, James Montgomery",
+            "first_author": "Dwipam Katariya",
+            "url": "http://arxiv.org/abs/2609.32215v1",
+            "pdf_url": "http://arxiv.org/abs/2609.32215",
+            "publish_date": "2026-09-26",
+            "abstract": "Transformers have redefined sequential recommendation by effectively modeling dynamic user behaviors and long-range dependencies. However, they remain inherently inefficient: standard architectures operate at a fixed rate, allocating comparable computation to every item in a user's history regardless of its information content. This leads to prohibitive computational overhead on long sequences and increased sensitivity to behavioral noise. To address this, practitioners often resort to lossy sequence compression, staged modeling, or truncation. This limits the model's ability to leverage the full context of long histories during inference. Inspired by the recent success of Byte Latent Transformer, we propose DP-Rec, a dynamic latent patching architecture for recommendation. DP-Rec shifts from item-level modeling to patch-level modeling by segmenting interaction sequences using contrastive entropy surprise to identify informative behavioral boundaries. A lightweight patch encoder compresses these temporally contextualized segments into a reduced set of dynamic latent behavior vectors, which are then processed by a larger latent transformer and decoded for next-item prediction. Extensive experiments show that, under constrained computational budgets, DP-Rec scales effectively to long sequences and achieves a superior efficiency-accuracy trade-off over both non-compressed and fixed-size compression baselines.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }
