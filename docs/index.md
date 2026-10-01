@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-09-29
+## Updated on 2026-10-01
 
 ---
 
@@ -23,6 +23,19 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-09-30` | **Decision-Oriented Recommendation Reranking: An Empirical Study of Jev** | Hanjia Lyu, Yinglong Xia | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.40241) |
+| `2026-09-30` | **KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation** | Jiangxia Cao, Hao Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39828) |
+| `2026-09-30` | **When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation** | Sanjeev Suresh | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39696) |
+| `2026-09-30` | **Recommendation Systems for Exploratory Data Tasks** | Anna Fariha | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39412) |
+| `2026-09-30` | **RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation** | Junyeong Song, Jaemin Yoo | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39007) |
+| `2026-09-30` | **When LLM-Inferred User Context Adds Value in Production Streaming Recommendation** | Milad Sabouri, Neeraj Sharma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.38999) |
+| `2026-09-29` | **Sense and Sensitivity: Benchmarking LLM Clinical Triage Recommendations with Physician Experts** | Abinitha Gourabathina, Haoran Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.38600) |
+| `2026-09-29` | **AdaM-Rec: Adaptive Modality Routing for Multimodal Recommendation** | Honghao Fu, Jiacheng Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.38455) |
+| `2026-09-29` | **Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation** | Serafima Lebedeva, Sumantrak Mukherjee, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.37800) |
+| `2026-09-29` | **How Can Recommendation Feedback Evolve Agent Memory?** | Shanwen Mao, Mingming Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.37544) |
+| `2026-09-29` | **ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents** | Haohao Qu, Yongcheng Jing, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.37311) |
+| `2026-09-29` | **HELIX: Purified and Unified - Rethinking Feature Interaction and Sequence Modeling for Large-Scale Recommendation** | Yuntao Zheng, Miao Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.37183) |
+| `2026-09-29` | **FineSID: Scalable and Efficient Semantic Identifier Learning for Generative Recommendation** | Song-Li Wu, Weinan Gan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.36670) |
 | `2026-09-28` | **Mitigating Popularity Bias in Recommendation with Global Listwise Learning and Progressive Bi-Weighting** | Tianyu Zhu, Jiandong Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.35041) |
 | `2026-09-28` | **Recommendation Ranking Off-Policy Evaluation under Ranking-Dependent Examination via Examination-Relevance Decomposition** | Riki Okamura, Toshiharu Sugawara | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.35034) |
 | `2026-09-28` | **No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution** | Tao Huang, Wei Zhou | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.34802) |

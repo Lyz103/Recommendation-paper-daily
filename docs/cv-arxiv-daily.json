@@ -19700,6 +19700,149 @@
             "abstract": "Transformers have redefined sequential recommendation by effectively modeling dynamic user behaviors and long-range dependencies. However, they remain inherently inefficient: standard architectures operate at a fixed rate, allocating comparable computation to every item in a user's history regardless of its information content. This leads to prohibitive computational overhead on long sequences and increased sensitivity to behavioral noise. To address this, practitioners often resort to lossy sequence compression, staged modeling, or truncation. This limits the model's ability to leverage the full context of long histories during inference. Inspired by the recent success of Byte Latent Transformer, we propose DP-Rec, a dynamic latent patching architecture for recommendation. DP-Rec shifts from item-level modeling to patch-level modeling by segmenting interaction sequences using contrastive entropy surprise to identify informative behavioral boundaries. A lightweight patch encoder compresses these temporally contextualized segments into a reduced set of dynamic latent behavior vectors, which are then processed by a larger latent transformer and decoded for next-item prediction. Extensive experiments show that, under constrained computational budgets, DP-Rec scales effectively to long sequences and achieves a superior efficiency-accuracy trade-off over both non-compressed and fixed-size compression baselines.",
             "primary_category": "cs.LG",
             "code_url": "null"
+        },
+        "2609.40241": {
+            "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+            "authors": "Hanjia Lyu, Yinglong Xia",
+            "first_author": "Hanjia Lyu",
+            "url": "http://arxiv.org/abs/2609.40241v1",
+            "pdf_url": "http://arxiv.org/abs/2609.40241",
+            "publish_date": "2026-09-30",
+            "abstract": "Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally a structured choice among predefined candidate items. Specifically, we conduct a controlled empirical study of Jev, described by TypeSafe AI as a ``System One Model,'' for personalized recommendation reranking and compare it with recommendation-specific models and pointwise and listwise Qwen rerankers across multiple Amazon Reviews domains and candidate-set sizes, evaluating both recommendation effectiveness and observed serving latency. Our results show that Jev maintains strong recommendation effectiveness relative to the evaluated baselines while exhibiting substantially more gradual latency growth than the pointwise Qwen rerankers, although its observed serving latency remains substantially higher than that of recommendation-specific models. Together, these characteristics place Jev in a distinct quality--latency operating regime across candidate sizes and domains. These findings motivate further investigation of decision-oriented models for recommendation and other ranking tasks with structured output spaces.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.39828": {
+            "title": "KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation",
+            "authors": "Jiangxia Cao, Hao Peng, Wenlong Xu, Jiaxin Deng, Zhixin Ling, Xingmei Wang, Kun Shang, Can Tang, Zhihuai Cai, Jun Du, Fang Su, Xiaojuan Liu, Yiling Li, Chenglong Yu, Chongling Rao, Haixuan Gao, Haitao Xu, Jian Liang, Ruiming Tang, Chenglong Chu, Guohong Mu, Honghui Bao, Hui Wang, Jialong Chen, Jiao Ou, Muhao Wei, Peng Zhang, Renpu Liu, Ruochen Yang, Shugui Liu, Xinqi Jin, Yan Sun, Yifan Wang, Yingzhi He, Yufei Ye, Yusen Huo, Tingkuo Wang, Jihong Zhang, Lanxi Zhu, Pengyuan Liu, Zhipeng Yi, Luankang Zhang, Hang Lv, Xuyang Zhi, Tianyu Li, Bintao Wu, Chuang Ou, Siyue Su, Ziyuan Wang, Yuliang Sun, Baiyan Che, Feiyang Xu, Shiwen Zhang, Shiteng Cao, Chongcong Jiang, Yuan Fang, Xiangwu Yang, Hao Deng, Zijian Du, Pengxun Wang, Xiaoming Wang, Shun Qin, Yingqi Song, Tianyi Li, Naixiao Peng, Chenyu Zhou, Qiliang Jiang, Quan Zheng, Cheng Jin, Siying Zeng, Hongjia Xu, Junwu Hu, Teng Fu, Zhengkang Mei, Haijun Yu, Kai Li, Shengyang Zhou, Zhijia Wei, Siyi Xiong, Bo Liu, Zichun Guo, Zhubin Han, Jinpeng Fu, Bingqian Liu, Yuyi Wang, Yu Liu, Qinghai Tan, Ruijie Zhou, Zhuohang Li, Zhijia Zhong, Xiangnan He, Jirong Wen, Min Zhang, Wenwu Ou, Peng Jiang, Han Li, Kaiqiao Zhan, Yanan Niu, Lantao Hu, Kun Gai",
+            "first_author": "Jiangxia Cao",
+            "url": "http://arxiv.org/abs/2609.39828v1",
+            "pdf_url": "http://arxiv.org/abs/2609.39828",
+            "publish_date": "2026-09-30",
+            "abstract": "Generative recommendation, has been attracted a surge of attentions in industrial and academic research community, towards to build more smart system to build next-generation recommender. Under the significant developing wave of large language model, our team have been developed Semantic ID based OneRec/OneRec-V2. These models have been widely deployed in production and demonstrate the scaling potential of the autoregressive next-item prediction paradigm for industrial recommender systems. Building on the success of OneRec, we further explored a series of models, including OneRec-Think, OpenOneRec, and OneReason, that connect item Semantic IDs with natural language in a unified representation space and seek to unlock the potential of natural-language chain-of-thought (CoT) reasoning for recommendation. However, our preliminary works found that introducing reasoning CoT does not always improve the recommendation performance. To address this issue, OneReason strengthens the semantic alignment between items and language, introduces structured template-based supervision for interest reasoning, and applies advanced reinforcement learning techniques to make reasoning more beneficial to recommendation. As a frontier topic to building recommendation foundation models, we believe this topic has significant research value and hope to encourage more researchers to explore it together. To this end, together with the SIGIR 2026 community, we organized the KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.39696": {
+            "title": "When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation",
+            "authors": "Sanjeev Suresh",
+            "first_author": "Sanjeev Suresh",
+            "url": "http://arxiv.org/abs/2609.39696v1",
+            "pdf_url": "http://arxiv.org/abs/2609.39696",
+            "publish_date": "2026-09-30",
+            "abstract": "Synthetic dialogues generated by LLM pipelines now serve as complete conversational-recommendation benchmarks: an LLM listener talks to an LLM recommender, and the track logged next in the conversation becomes the official label for each turn. These policy-selected labels make large-scale evaluation reproducible, but they are proxies for what the simulated user asked. We audit the one place where label and request are directly comparable: turns where the user asks for an exact song by name. In the RecSys Challenge 2026 TalkPlay benchmark, using visible dialogue and catalog metadata alone, we find that the official label contradicts the user's exact-song request in half of the audited development turns. This matters beyond one benchmark: naming the desired item is the dominant intent in real music search, where deployed systems avoid substituting an alternative for an exactly named item, on the premise that it costs satisfaction. A small training-time supplement closes most of the gap: adding catalog-resolved request-satisfying targets to a small fraction of training turns yields a 53.3% relative gain in nDCG@20 on the 43 conflict turns while leaving the official metric intact, verified against a matched control that detects the same requests but trains only on official labels.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.39412": {
+            "title": "Recommendation Systems for Exploratory Data Tasks",
+            "authors": "Anna Fariha",
+            "first_author": "Anna Fariha",
+            "url": "http://arxiv.org/abs/2609.39412v1",
+            "pdf_url": "http://arxiv.org/abs/2609.39412",
+            "publish_date": "2026-09-30",
+            "abstract": "A large class of data-centric tasks is exploratory, where users iteratively steer workflows, refining subjective goals as new insights emerge. These Exploratory Data Tasks (EDTs) are performed by millions of users with varying levels of expertise to understand unfamiliar data, discover trends, and identify evidence that informs critical decision-making. However, a key challenge in EDTs is the enormous space of possible actions that one can take at each step: users struggle to choose among thousands of joins, transformations, and aggregations, causing \"exploration paralysis\". Because EDT workflows are interconnected, each choice impacts subsequent exploration, and suboptimal choices can lead to inefficiency, missed insights, confirmation bias, and incomplete coverage. This calls for intelligent recommendations that efficiently guide users toward optimal EDT actions.   We envision recommendation as a core capability of data systems, proactively guiding users toward promising actions and thereby lowering the barrier to exploratory data tasks. EDT recommendation is challenging because the action space is combinatorial and actions are data-dependent, which require costly materialization. Moreover, recommendation often involves bundles or sequences of actions across interdependent tasks, requiring coordination across tasks. In this paper, we present our vision of EDT recommendation systems along two axes: single-task vs. multi-task settings and single-action vs. multi-action recommendations. We outline a research agenda that progresses from recommending individual EDT actions to constrained bundles and sequences of actions, and ultimately to coordinated recommendations across interconnected EDTs. We identify research directions for incorporating various contexts (user, data, task, and ecosystem), addressing efficiency challenges, and coordinating across tasks.",
+            "primary_category": "cs.DB",
+            "code_url": "null"
+        },
+        "2609.39007": {
+            "title": "RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation",
+            "authors": "Junyeong Song, Jaemin Yoo",
+            "first_author": "Junyeong Song",
+            "url": "http://arxiv.org/abs/2609.39007v1",
+            "pdf_url": "http://arxiv.org/abs/2609.39007",
+            "publish_date": "2026-09-30",
+            "abstract": "Sessionized interaction histories contain behavioral patterns that can improve sequential recommendation. However, existing models process all sessions through the same parameterized blocks, regardless of their behavioral differences. Mixture of Experts (MoE) enables conditional computation, but it leaves open what should guide expert allocation. We propose RouteRec, a sequential recommender that uses observed session behavior as the routing criterion. RouteRec summarizes four types of behavioral evidence from sessionized histories: interaction tempo, item-group focus, repetition and carryover, and popularity tendency. It uses these cues to route computation at macro, mid, and micro scopes. Cue-derived scores first select expert groups; within each selected group, the current backbone state then refines expert selection. Across six public datasets and 18 dataset-metric combinations, RouteRec ranks first in 12 and second in three, yielding the best overall average rank of 1.61 compared with 4.11 for the next-best baseline. Additional analyses suggest that the behavioral cues guide expert allocation beyond added capacity and produce routing patterns aligned with observed behavior. Our code is available at https://github.com/jy1559/RouteRec",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.38999": {
+            "title": "When LLM-Inferred User Context Adds Value in Production Streaming Recommendation",
+            "authors": "Milad Sabouri, Neeraj Sharma, Sardar Hamidian, Shaghayegh Agah",
+            "first_author": "Milad Sabouri",
+            "url": "http://arxiv.org/abs/2609.38999v1",
+            "pdf_url": "http://arxiv.org/abs/2609.38999",
+            "publish_date": "2026-09-30",
+            "abstract": "Contextual information in recommender systems is shifting from static, predefined variables toward latent representations inferred from behavior. Large language models support this shift by rendering an unstructured interaction history as a natural-language summary, which yields a thematic user context that can be encoded and used in place of an aggregate profile. The conditions under which such generated profiles outperform aggregate embeddings have received limited characterization mainly at the domain level. We evaluate semantic user-profiling strategies on a production streaming platform, ranking against the full catalog. The evaluation covers a 2*2 design space crossing representation type (aggregate or LLM-generated) with contextual scope (holistic history or attention-fused short-term and long-term contexts). The relative ordering of the two representation types is conditional on the user's consumption regime. Aggregate profiles are consistently stronger under habitual consumption, which characterizes approximately four-fifths of the population, while LLM-generated profiles are stronger for exploratory users whose subsequent interactions diverge semantically from their history. We also observe a popularity-attractor effect in LLM-generated profiles, which modestly raises within-list diversity while substantially lowering catalog coverage and reducing novelty. These results indicate that a context-aware system can select a profiling strategy from the inferred consumption regime rather than applying one representation to all users.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.38600": {
+            "title": "Sense and Sensitivity: Benchmarking LLM Clinical Triage Recommendations with Physician Experts",
+            "authors": "Abinitha Gourabathina, Haoran Zhang, Yuexing Hao, Walter Gerych, Marzyeh Ghassemi",
+            "first_author": "Abinitha Gourabathina",
+            "url": "http://arxiv.org/abs/2609.38600v1",
+            "pdf_url": "http://arxiv.org/abs/2609.38600",
+            "publish_date": "2026-09-29",
+            "abstract": "As large language models (LLMs) are increasingly used in clinical settings, it is critical to evaluate their reliability under realistic variation in clinical text. We study this question in clinical triage, comparing LLMs to practicing physicians under text perturbations that preserve the underlying clinical setting. We introduce a benchmark of over 6,000 clinical scenarios, 7,000 physician annotations, and 225,000 model responses. Using this benchmark, we make two key observations. First, LLMs are more likely than physicians to recommend unnecessary care at baseline, and this tendency increases under perturbed inputs. Further, we find that LLM recommendations are more sensitive to gender and tone perturbations than human recommendations. Together, these results demonstrate that LLMs can vary under clinically irrelevant textual changes, highlighting the need for deployment-oriented evaluations grounded in expert physician behavior.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.38455": {
+            "title": "AdaM-Rec: Adaptive Modality Routing for Multimodal Recommendation",
+            "authors": "Honghao Fu, Jiacheng Chen, Manxi Lin, Junjun Zheng, Xiangheng Kong, Yiwei Wang, Xin Yu, Miao Xu, Yuning Jiang, Yujun Cai",
+            "first_author": "Honghao Fu",
+            "url": "http://arxiv.org/abs/2609.38455v1",
+            "pdf_url": "http://arxiv.org/abs/2609.38455",
+            "publish_date": "2026-09-29",
+            "abstract": "While recent multimodal recommender systems have demonstrated the effectiveness of incorporating visual and textual information to improve downstream performance, most existing methods rely on static modality fusion, assuming that the relative importance of textual and visual signals remains stable across recommendation scenarios. This design may not fully account for an important variation across recommendation requests: some queries require fine-grained visual cues, whereas others are better served by textual or functional semantics, in which case indiscriminate modality fusion brings in uninformative cues and impairs recommendation quality. To address this, we propose AdaM-Rec, an LLM-based framework for adaptive modality routing in multimodal recommendation, which enables dynamic calibration of reliance on textual and multimodal evidence for user-specific queries. Built on structured natural-language representations of items and user preferences, it estimates modality reliability using proxy recall tasks. Specifically, it generates pseudo-queries that match the granularity of the actual query while pointing to the user's positively interacted items as verifiable proxy targets, evaluating which modality yields better recall performance in analogous scenarios and optimizing the routing strategy in an agentic manner. It then performs routed recall with optimized strategy, enriches results with collaborative items, and ranks candidates by their relevance to both the query and user preferences. Experiments demonstrate that AdaM-Rec delivers strong performance against state-of-the-art baselines, highlighting the effectiveness and broader potential of adaptive control over modality reliance in multimodal recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.37800": {
+            "title": "Challenges and Solutions for Bandits in the Wild: Warm-Started Mixture Bandits for Cross-Cohort Slate Recommendation",
+            "authors": "Serafima Lebedeva, Sumantrak Mukherjee, Ali Arshad Sadal, Ilias Ek\u015fi, Rahul Sharma, Julia Mueller, Theresa Dombrowski, Jakob Karolus, Viktor Bengs, Eyke H\u00fcllermeier, Sebastian Vollmer",
+            "first_author": "Serafima Lebedeva",
+            "url": "http://arxiv.org/abs/2609.37800v1",
+            "pdf_url": "http://arxiv.org/abs/2609.37800",
+            "publish_date": "2026-09-29",
+            "abstract": "Many recommender services repeatedly encounter cold-start cohorts, where new users arrive with little or no interaction history. This creates two challenges: learning user preferences quickly from limited feedback and sustaining useful recommendations when each user has a finite catalog that can become repetitive or depleted over time. We propose CohortMix-TS, a warm-started mixture bandit that learns latent user groups from earlier cohorts and uses available metadata to construct group-informed priors for new users. Starting from these fixed priors, the model personalizes independently as feedback from each user becomes available. Session slates combine Thompson sampling with diversity and inventory-depletion controls. We evaluate CohortMix-TS through simulation, semi-synthetic experiments, and a 25-day randomized in-the-wild deployment with 713 registered participants in a Campus Games quiz application. Our evaluations show that cross-cohort transfer improves early recommendation quality and user-level regret, while inventory-aware slate construction helps prevent premature exhaustion of preferred items. In the field deployment, treatment users also showed a larger early-to-late change in correctness than users receiving random recommendations. Together, these results show how warm-start transfer and inventory-aware recommendations can support personalization for short-lived, repeatedly cold-starting cohorts.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2609.37544": {
+            "title": "How Can Recommendation Feedback Evolve Agent Memory?",
+            "authors": "Shanwen Mao, Mingming Li, Hao Zhang, Zhiheng Li, Yige Wang, Penghua Yu, Junxiong Zhu",
+            "first_author": "Shanwen Mao",
+            "url": "http://arxiv.org/abs/2609.37544v2",
+            "pdf_url": "http://arxiv.org/abs/2609.37544",
+            "publish_date": "2026-09-29",
+            "abstract": "Content-generation agents continuously receive impressions, clicks, conversions, and negative feedback from recommendation systems, providing real-world outcome signals for memory evolution. However, these signals are delayed and noisy, confounded by audience composition, placement, and recommendation policies, and may result from the combined influence of multiple memories, making accurate attribution difficult. Existing methods rely primarily on immediate feedback or semantic retrieval and therefore struggle to reliably translate recommendation outcomes into memory fitness. To address this challenge, we propose TIDE (Trajectory-Informed Directed Memory Evolution), an external memory evolution framework driven by delayed recommendation feedback. We further introduce Memory Evolution Gain (MEG), which measures the utility improvement of evolved memory over a no memory baseline on strictly future tasks. TIDE treats memory as a capacity-constrained population of experiences: temporal and semantic credit assignment estimates contextual fitness, while responsibility credit distributes outcome signals according to the memories referenced during generation. These signals are then used to reinforce, crossover, mutate, or evict memories. On an e-commerce membership marketing content-generation agent, TIDE achieves a +7.75-percentage-point MEG in offline temporal replay and significantly improves both unique click-through rate (UCTR) and activation rate in an online A/B test. On a delayed-label benchmark, TIDE achieves the lowest mean absolute error (MAE) and root mean squared error (RMSE) and the highest MEG among the compared methods, demonstrating its effectiveness.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.37311": {
+            "title": "ReMem: Rethinking Perception and Memory in Long-Context Recommendation Agents",
+            "authors": "Haohao Qu, Yongcheng Jing, Chun Hin Chan, Shanru Lin, Wenqi Fan, Dacheng Tao",
+            "first_author": "Haohao Qu",
+            "url": "http://arxiv.org/abs/2609.37311v1",
+            "pdf_url": "http://arxiv.org/abs/2609.37311",
+            "publish_date": "2026-09-29",
+            "abstract": "Recent Recommendation Agents (RecAgents) offer a promising alternative by shifting recommendation to an active, user-side paradigm, where generative agents autonomously perceive external platforms, reason over user preferences, and execute decisions. However, existing RecAgents still suffer from two critical limitations: brittle item perception based on noisy and heterogeneous item pages, and inefficient long-context reasoning over extended user histories and multi-step interaction traces. To address these challenges, we propose a novel recommendation agent framework, termed as ReMem, that combines OCR-based multimodal perception with time-evolving dynamic memory. Instead of parsing raw HTML, ReMem observes item pages through screenshots and extracts structured multimodal information via an OCR tool, enabling a more humanoid and platform-agnostic perception mechanism. To support long-horizon preference modeling, ReMem further introduces a chunk-wise sequential memory update strategy, where the agent selectively maintains a fixed-size memory of informative historical interactions while processing arbitrarily long contexts with linear inference complexity and bounded context length. This design allows the agent to preserve evolving user preferences without relying on external memory modules or disrupting the standard autoregressive generation process. To enhance the dynamic memory instruction, we further develop a multi-memory GRPO variant, which propagates the final-answer advantage to all intermediate conversations that contribute to the final response. Extensive experiments on three datasets demonstrate that ReMem consistently outperforms state-of-the-art baselines, achieving an average improvement of 5.16\\% across three recommendation agent tasks, namely searching, ranking, and judging.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2609.37183": {
+            "title": "HELIX: Purified and Unified - Rethinking Feature Interaction and Sequence Modeling for Large-Scale Recommendation",
+            "authors": "Yuntao Zheng, Miao Zhang, Yadong Ding, Yanchuan Tang, Lixiyu Chen, Hao Wang, Quan Li, Shiying Cai, Yue Lin, Jiayu Li, Yu Feng, Wentao Yang, Rongkun Xing, Jiekai Wang, Mingge Zhang, Feiling Gong, Xiang Gao, Jinyu Dong, Yajing Zhang, Pengfei Ren, Yinzhou Wang",
+            "first_author": "Yuntao Zheng",
+            "url": "http://arxiv.org/abs/2609.37183v2",
+            "pdf_url": "http://arxiv.org/abs/2609.37183",
+            "publish_date": "2026-09-29",
+            "abstract": "Industrial recommendation ranking models typically scale along two modeling axes: feature interaction over heterogeneous user, item, context, and cross features, and sequence modeling over long, informative, and multi-type user behavior histories. We find that scaling either capability in isolation is insufficient, as each exhibits a limited scaling ceiling and a suboptimal scaling-law slope. We conjecture that achieving a more favorable scaling-law slope requires jointly scaling both axes. To support this, we present HELIX, a purified and unified architecture for large-scale recommendation. HELIX interleaves sequence retrieval and feature interaction while enforcing one-way information flow from reusable sequence states to candidate-conditioned mix-tokens. This design preserves cross-depth communication between the two modeling axes while keeping user-side sequence computation amortizable, enabling flexible and asymmetric scaling of sequence modeling and feature interaction. Deployed in TikTok's e-commerce recommendation system, HELIX consistently improves offline CTR AUC, CVR AUC, and other ranking metrics. In online A/B tests, it achieves an approximately 6% increase in e-commerce video GMV per user.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2609.36670": {
+            "title": "FineSID: Scalable and Efficient Semantic Identifier Learning for Generative Recommendation",
+            "authors": "Song-Li Wu, Weinan Gan, Zhaocheng Du, Xianquan Wang, Jingyi Wang",
+            "first_author": "Song-Li Wu",
+            "url": "http://arxiv.org/abs/2609.36670v1",
+            "pdf_url": "http://arxiv.org/abs/2609.36670",
+            "publish_date": "2026-09-29",
+            "abstract": "A critical prerequisite of generative recommendation is designing semantic identifiers (SIDs) that are both scalable to large item sets and efficiently learnable. Existing SID learning methods fundamentally rely on Top-1 hard assignment during vector quantization. While heuristic strategies -- such as clustering-based initialization or forced post-hoc collision resolution -- can artificially inflate codebook coverage, they often disrupt end-to-end semantic alignment and fail to address the underlying optimization bottleneck: sparse gradient propagation. In standard Top-1 assignment, gradients concentrate on a narrow subset of frequently selected codewords, leaving the majority inherently under-trained and causing severe SID collisions. To overcome this limitation natively without relying on complex initialization priors, we propose FineSID, a unified quantization framework that moves beyond Top-1 assignment by enabling fine-grained gradient propagation across the entire codebook. Instead of updating only a single selected codeword, FineSID distributes learning signals to all codewords in a soft, differentiable manner. This design promotes globally balanced codebook optimization while strictly preserving semantic consistency, effectively alleviating SID collisions and stabilizing training in large, high-dimensional codebooks. Extensive experiments on multiple public benchmarks demonstrate that FineSID is robust to initialization configurations and consistently improves both codebook utilization and recommendation accuracy. Our work provides a principled, initialization-agnostic solution for semantic identifier learning, advancing the practicality of generative recommendation.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
