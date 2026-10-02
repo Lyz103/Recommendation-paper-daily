@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-01
+## Updated on 2026-10-02
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-01` | **Optimizing Effective Training Time for Large-Scale Recommendation Systems** | Mingming Ding, Ruilin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.02057) |
+| `2026-10-01` | **AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation** | Haoran Qiang, Guannan Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.01705) |
+| `2026-10-01` | **HADRec: A Hierarchy-Aware Drug Recommendation Framework by Fusing Molecular Knowledge and Electronic Health Record** | Junke Wang, Hongshun Ling, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.00984) |
 | `2026-09-30` | **Decision-Oriented Recommendation Reranking: An Empirical Study of Jev** | Hanjia Lyu, Yinglong Xia | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.40241) |
 | `2026-09-30` | **KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation** | Jiangxia Cao, Hao Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39828) |
 | `2026-09-30` | **When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation** | Sanjeev Suresh | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2609.39696) |
