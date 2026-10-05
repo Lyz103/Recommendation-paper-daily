@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-04
+## Updated on 2026-10-05
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-02` | **EVOL: Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning Path Recommendation** | Geonwoo Bang, Dongho Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.03273) |
+| `2026-10-02` | **Generating eukaryotic reference genome assemblies: Earth BioGenome Project quality standards and recommendations** | Kerstin Howe, Dolores R. Agius, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.03075) |
+| `2026-10-02` | **Reasoning with Evidence, Not Merely Rationales: Verifiable Preference Proofs for LLM-Based Recommendation** | Yu Hou, Nathaniel Kang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.02968) |
+| `2026-10-01` | **When History Misleads: Asymmetric Margin Supervision for Instruction-Guided LLM Generative Recommendation** | Ming Yin, Yuhan Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.02600) |
 | `2026-10-01` | **Optimizing Effective Training Time for Large-Scale Recommendation Systems** | Mingming Ding, Ruilin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.02057) |
 | `2026-10-01` | **AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation** | Haoran Qiang, Guannan Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.01705) |
 | `2026-10-01` | **HADRec: A Hierarchy-Aware Drug Recommendation Framework by Fusing Molecular Knowledge and Electronic Health Record** | Junke Wang, Hongshun Ling, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.00984) |
