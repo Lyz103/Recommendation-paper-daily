@@ -1,4 +1,4 @@
-## Updated on 2026-10-05
+## Updated on 2026-10-06
 
 ---
 
@@ -26,6 +26,14 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-05` | **Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs** | Manousos Linardakis, Georgios Alexandridis | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06703) |
+| `2026-10-05` | **SPRIG: Semantic-ID-enhanced Paths for Knowledge Graph-based Generative Recommendation** | Justin Hangoebl, Marta Moscati, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06590) |
+| `2026-10-05` | **MATE: Adaptive Long- and Short-Term User Memory for LLM-Based Recommendation** | Yu Hou | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06050) |
+| `2026-10-05` | **Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings** | Md Arman Hossain, Mubashir Jawad, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.05787) |
+| `2026-10-04` | **Cut Binary Cross Entropy: Efficient Large-Vocabulary Loss and Gradient Kernels for Sequential Recommendation** | Yaoyiran Li, Haowen Ning, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.05559) |
+| `2026-10-04` | **OpticalRec: Unified Optical Vision-Language Representation for Multimodal Recommendation** | Yueqi Wang, Zitian Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.05432) |
+| `2026-10-03` | **From Valid to Useful: Post-Verification Acquisition for Recursive Self-Improving Recommendation** | Tonmoy Hasan, Taylor Foust, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.04302) |
+| `2026-10-02` | **Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation** | Xiaolin Zheng, Qiyong Zhong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.03923) |
 | `2026-10-02` | **EVOL: Simulator-Guided Evolutionary Expert Synthesis for Deployment-Free Learning Path Recommendation** | Geonwoo Bang, Dongho Kim, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.03273) |
 | `2026-10-02` | **Generating eukaryotic reference genome assemblies: Earth BioGenome Project quality standards and recommendations** | Kerstin Howe, Dolores R. Agius, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.03075) |
 | `2026-10-02` | **Reasoning with Evidence, Not Merely Rationales: Verifiable Preference Proofs for LLM-Based Recommendation** | Yu Hou, Nathaniel Kang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.02968) |
