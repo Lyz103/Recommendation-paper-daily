@@ -1,4 +1,4 @@
-## Updated on 2026-10-06
+## Updated on 2026-10-07
 
 ---
 
@@ -26,6 +26,16 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-06` | **Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation** | Wenwen Si, Honghao Wei | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08743) |
+| `2026-10-06` | **Personalized Recommendations Without Inducing Congestion: Mitigating Disparities in the NYC High School Match** | Erica Chiang, Kenny Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08275) |
+| `2026-10-06` | **Aligning Performance with Contribution: Towards Contribution-Aware Fair Recommendation** | Shuai Zhang, Hui Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08245) |
+| `2026-10-06` | **Contrastive Learning for Aspect Representation towards Explainable Recommendation** | Emrul Hasan, Chen Ding | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07761) |
+| `2026-10-06` | **A Pedagogically Demonstrative Model Visualizing the Pathway from Online Interactions to Personalized Recommendation** | Sushmita Khan, Connor Pennington, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07744) |
+| `2026-10-06` | **Evidence Before Sampling: Interpretable Implicit Negative Candidate Discovery for Recommendation** | Shreya Rajpal, Sonia Sharma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07708) |
+| `2026-10-06` | **Personal-Agent Mediated Recommendation with Cross-Platform User History** | Yu Xia, Jiangfan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07588) |
+| `2026-10-05` | **MARS: Multi-resolution Adaptive Routing for Sequential Recommendation** | Ming Yin, Sixun Dong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07505) |
+| `2026-10-05` | **Rethinking Semantic ID Construction for Generative Recommendation: SimHash with Parallel Decoding and Semantic Alignment** | Yuqing Liu, Huiyuan Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07402) |
+| `2026-10-05` | **Beyond Successor Accuracy: State Retention for Recursive Self-Improvement in Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.07105) |
 | `2026-10-05` | **Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs** | Manousos Linardakis, Georgios Alexandridis | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06703) |
 | `2026-10-05` | **SPRIG: Semantic-ID-enhanced Paths for Knowledge Graph-based Generative Recommendation** | Justin Hangoebl, Marta Moscati, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06590) |
 | `2026-10-05` | **MATE: Adaptive Long- and Short-Term User Memory for LLM-Based Recommendation** | Yu Hou | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.06050) |

@@ -20008,6 +20008,116 @@
             "abstract": "LLM-driven sequential recommendation formulates next-item prediction as autoregressive generation conditioned on natural-language prompts. However, minor wording changes in semantically equivalent prompts can cause substantial performance fluctuations, undermining robustness and requiring costly manual prompt engineering. Continuous prompt learning reduces template dependence but faces two interacting challenges: shared task-level instructions lack user-specific reasoning guidance, while gradient updates can push continuous prompts outside the LLM's effective semantic space. Injecting personalized signals can further amplify this semantic drift. To address these challenges, we propose LRPRec, a learnable prompting framework that initializes continuous instruction prompts from discrete templates and introduces two complementary mechanisms. Personalized prompt injection encodes user behavior into a preference embedding and additively injects it into shared prompts, enabling parameter-efficient user-level adaptation. A semantic drift constraint regularizes the shared prompts within a trust region around their initialization anchors to preserve semantic validity during optimization. By constraining the shared component while allowing additive personalization, LRPRec decouples stability from expressiveness. Extensive experiments on three benchmark datasets demonstrate consistent improvements over strong baselines while eliminating the need for manual tuning of background and task inference templates.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2610.08743": {
+            "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+            "authors": "Wenwen Si, Honghao Wei",
+            "first_author": "Wenwen Si",
+            "url": "http://arxiv.org/abs/2610.08743v1",
+            "pdf_url": "http://arxiv.org/abs/2610.08743",
+            "publish_date": "2026-10-06",
+            "abstract": "Sequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating whether the set contains an action in a proxy target. We prove a deterministic bound on the observed proxy miss rate along adaptive trajectories. To quantify the effect of pruning on reward, we derive an exact decomposition of value loss into filtering and selection losses. Under explicit proxy and critic approximation conditions, this decomposition yields a finite session reward bound that also accounts for imperfect selection and set truncation, without requiring the learning parameters to converge. Experiments on KuaiRand-Pure and MovieLens 1M compare two RLCP implementations with four RL baselines. In each of the 19 configurations, at least one RLCP variant achieves the highest catalog diversity, reaching $1.11\\times$ to $5.21\\times$ that of the strongest baseline, with competitive session depth and no larger retained sets.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2610.08275": {
+            "title": "Personalized Recommendations Without Inducing Congestion: Mitigating Disparities in the NYC High School Match",
+            "authors": "Erica Chiang, Kenny Peng, Rebecca Lichtenstein, Brielle McDaniel, Kristen O'Neil, Deja Thomas, Lianna Wright, Jon Kleinberg, Eva Tardos, Nikhil Garg",
+            "first_author": "Erica Chiang",
+            "url": "http://arxiv.org/abs/2610.08275v1",
+            "pdf_url": "http://arxiv.org/abs/2610.08275",
+            "publish_date": "2026-10-06",
+            "abstract": "Algorithmic recommendations can help participants navigate large matching markets. For example, recommendations for school and college choices may reduce information frictions and disparities in access to high-performing programs. At scale, however, recommenders in capacity-constrained settings can be self-defeating: if they steer too many users toward the same items, then even users who were originally predicted to have a high chance of matching to an item may not, due to increased competition. In this paper, we formalize this phenomenon of recommendation-induced congestion; motivated by the NYC high school match, we show that naive recommendations can cause sharp decreases in program acceptance rates, most affecting applicants with the fewest nearby options. Next, we propose and theoretically analyze a congestion-aware, bilevel optimize-and-simulate approach to allocate recommendations and improve match outcomes safely, in equilibrium. Finally, we deploy this approach in the 2025-26 admissions cycle of the NYC high school match, aiming to reduce disparities by highlighting personalized lists of nearby, high-performing programs where an applicant has a high predicted offer likelihood. In a randomized controlled trial, we find that 16.4% of treatment applicants ranked a recommended program, versus 10.5% of control applicants who ranked a program they would have been recommended (57% relative increase; $p$=0.011); 5.6% of treatment applicants matched to such a program, versus 3.3% of control applicants (71% relative increase; $p$=0.071); further, no treatment applicant was rejected from a recommended program. Our findings suggest that recommenders should be analyzed and designed as market-shaping interventions.",
+            "primary_category": "cs.CY",
+            "code_url": "null"
+        },
+        "2610.08245": {
+            "title": "Aligning Performance with Contribution: Towards Contribution-Aware Fair Recommendation",
+            "authors": "Shuai Zhang, Hui Fang, Zun Sun",
+            "first_author": "Shuai Zhang",
+            "url": "http://arxiv.org/abs/2610.08245v1",
+            "pdf_url": "http://arxiv.org/abs/2610.08245",
+            "publish_date": "2026-10-06",
+            "abstract": "Existing research on user fairness in recommender systems has developed diverse objectives. However, it has paid limited attention to a distinct distributive perspective: whether users' contributions to model learning should be reflected in the recommendation benefits they receive. We argue that, in addition to existing fairness protections, a fair system may account for the alignment between users' estimated contributions and the recommendation performance they receive. Such alignment can incentivize sustained and informative engagement, thereby supporting a sustainable recommendation ecosystem. To this end, we propose Contribution-Performance Fairness, a novel fairness perspective which requires recommendation performance to be aligned with estimated contribution across user groups and to remain equitable among users with comparable contributions within a same group. To instantiate this perspective, we introduce the Contribution-Performance Fair Recommender (CPFR), a framework applicable to different backbone recommenders. CPFR constructs ordered user groups from a training-dependent contribution considering interaction volume, loss alignment, and optimization intensity, and jointly optimizes recommendation accuracy with the two fairness requirements. A game-theoretic analysis shows that such alignment can strengthen contribution incentives and improve system-level recommendation accuracy under voluntary contribution. Experiments on three datasets and three backbone models demonstrate that CPFR achieves a strong accuracy--fairness trade-off under the proposed operational metric.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.07761": {
+            "title": "Contrastive Learning for Aspect Representation towards Explainable Recommendation",
+            "authors": "Emrul Hasan, Chen Ding",
+            "first_author": "Emrul Hasan",
+            "url": "http://arxiv.org/abs/2610.07761v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07761",
+            "publish_date": "2026-10-06",
+            "abstract": "In this work, we propose a novel recommendation model, CLARER (Contrastive Learning for Aspect Representation towards Explainable Recommendation) that integrates aspect features learned from textual reviews with rating information to improve the accuracy and explainability of recommendations. Our proposed framework learns user and item representations by combining rating-based features and aspect-based features from reviews. Specifically, rating-based features are learned through a multi-layer perceptron (MLP) model, while aspect-specific review representations are learned using a transformer encoder to capture the semantic information and contrastive learning to better distinguish user preferences. To provide explanations, we train a transformer decoder, using the final representations of users and items from both rating and aspect-based features as context. Experimental results in three benchmark data sets demonstrate that our model achieves superior performance compared to baseline methods in both recommendation (accuracy) and explanation generation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.07744": {
+            "title": "A Pedagogically Demonstrative Model Visualizing the Pathway from Online Interactions to Personalized Recommendation",
+            "authors": "Sushmita Khan, Connor Pennington, Bart P Knijnenburg",
+            "first_author": "Sushmita Khan",
+            "url": "http://arxiv.org/abs/2610.07744v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07744",
+            "publish_date": "2026-10-06",
+            "abstract": "Personal digital activity increasingly shapes online experiences, yet few users have been educated regarding the processes transforming raw interactions into personalized suggestions. We developed an education artifact that illustratively simulates how AI leverages users' digital activities to shape online recommendations (e.g., ads). Our artifact processes users' digital activity using a locally-hosted LLM to generate user profiles of their inferred interests and personalized recommendations. A three-layered Sankey diagram maps data sources through inferred interests to personalized recommendations. Interactive filters enable users to explore how different combinations of data sources influence personalized outcomes. This paper describes the artifact and its educational value, and reports findings of a pilot think-aloud study with six young adults. We find that the artifact effectively taught participants the conceptual relationship between digital activities and personalized recommendations. While this did lead participants to develop privacy awareness, they anticipated minimal behavior change due to the perceived unavoidability of platform participation.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2610.07708": {
+            "title": "Evidence Before Sampling: Interpretable Implicit Negative Candidate Discovery for Recommendation",
+            "authors": "Shreya Rajpal, Sonia Sharma, Swapnil Parekh, Lisa Li, Jeyendran Balakrishnan, Nagaraj Janardhana, Andrew Mattarella-Micke",
+            "first_author": "Shreya Rajpal",
+            "url": "http://arxiv.org/abs/2610.07708v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07708",
+            "publish_date": "2026-10-06",
+            "abstract": "Recommender systems learn from observed user-item interactions, but explicit negative feedback is often unavailable. Since deep learning models require negative signals for training, negative sampling methods typically treat selected unobserved interactions as negatives. However, a missing interaction does not explain why a user is uninterested in an item or whether there is sufficient evidence to label it negative. This is especially important in business recommendation, where negative signals should be interpretable and aligned with business objectives. We formulate implicit negative candidate discovery to identify unobserved interactions supported by observed customer behavior. We encode these patterns as symbolic rules, score them based on support, informativeness, and product relevance, and rank the retained rules by evidence. An LLM then interprets the retained rules using business objectives and domain knowledge; the interpretations are combined with the statistical evidence in the final report. We evaluate our method in an industrial B2B setting and across five public recommendation datasets. Candidate-quality evaluations in the industrial setting and three public datasets show higher precision than the evaluated baselines, while symbolic selection improves downstream test PR-AUC by 12.5% over random selection with four negatives per positive example in the industrial task. Our results show that negative candidate validity can be evaluated separately from downstream recommendation performance. This distinction enables evidence-based, business-aligned, and explainable negative selection, improving both interpretability and model training in sparse, skewed, real-world recommendation settings.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2610.07588": {
+            "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
+            "authors": "Yu Xia, Jiangfan Zhang, Jun Xiao, Julian McAuley, Xiangjun Fan",
+            "first_author": "Yu Xia",
+            "url": "http://arxiv.org/abs/2610.07588v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07588",
+            "publish_date": "2026-10-06",
+            "abstract": "Modern recommendation is shifting from platform-centric personalization toward user-governed personalization, where a personal LLM agent can act on the user's behalf across services. We formalize this emerging paradigm as Personal-Agent Mediated Recommendation: a platform recommender ranks a candidate set using platform-local information, and a personal agent uses user-authorized cross-platform history to mediate the resulting ranking and produce the final top-K slate. Such mediation is nontrivial: the platform ranking can encode strong population evidence that the personal agent cannot observe, so effective mediation must therefore balance beneficial rescues against harmful overrides. To study this trade-off, we introduce MediateRec, a benchmark that includes scalable proxy cross-platform environments and a real cross-platform test under a controlled platform-agent information boundary. To train the agent to use cross-platform history effectively, we further propose Personal Attribution Mediation Optimization (PAMO), which counterfactually masks that history to estimate personal mediation support and reallocates rank-aware advantage mass under a platform-relative value floor. We theoretically prove that PAMO preserves cutoff-level advantage mass and is locally optimal among first-order reallocations that preserve this mass without lowering average platform-relative value. Experiments on MediateRec show that personal-agent mediation enables meaningful platform corrections, yet even strong proprietary LLMs introduce non-negligible harmful overrides. PAMO consistently improves over matched outcome-only RL across seen and unseen target platforms and on the real cross-platform test, while achieving a better rescue-harm balance.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2610.07505": {
+            "title": "MARS: Multi-resolution Adaptive Routing for Sequential Recommendation",
+            "authors": "Ming Yin, Sixun Dong, Yudong Liu, Wen-Yun Yang, Yunjiang Jiang, Yiran Chen",
+            "first_author": "Ming Yin",
+            "url": "http://arxiv.org/abs/2610.07505v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07505",
+            "publish_date": "2026-10-05",
+            "abstract": "Long-history recommenders often compress each user's history into a compact, candidate-independent memory that is cached and reused to score large candidate pools. We show that real user histories exhibit multi-scale semantic structure, with short-lived intent, medium-term interests, and long-term preferences coexisting in one sequence, and that monolithic cached memories preserve these scales unevenly: linear probes recover recent and mid-range content far worse than long-range content. We call this failure mode \\textit{temporal aliasing}. We propose \\textbf{MARS}, a multi-resolution user memory that writes the full history into recurrent state tracks anchored to different half-lives, and a sparse routing reader that materializes compact seed memories by selecting the relevant temporal resolutions for each seed, preserving fixed-size candidate scoring. MARS outperforms strong baselines on three public datasets, with gains that grow with history length. Component-matched ablations with paired tests show that temporal diversity and selective routing each contribute beyond what hard-window memories or added capacity provide. The advantage of MARS over its interface-matched baseline also widens after within-user behavioral shifts, at about $1.02\\times$ that baseline's warm-cache serving latency for $1{,}000$ candidates per user.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2610.07402": {
+            "title": "Rethinking Semantic ID Construction for Generative Recommendation: SimHash with Parallel Decoding and Semantic Alignment",
+            "authors": "Yuqing Liu, Huiyuan Chen, Yibo Wang, Wooseong Yang, Philip S. Yu",
+            "first_author": "Yuqing Liu",
+            "url": "http://arxiv.org/abs/2610.07402v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07402",
+            "publish_date": "2026-10-05",
+            "abstract": "Semantic ID-based generative recommendation represents each item as a sequence of discrete tokens, enabling structured modeling of item semantics. A critical challenge is constructing semantic IDs that are both semantically expressive and computationally efficient. While recent approaches favor complex learned quantization, simple hashing-based methods such as SimHash are widely regarded as fundamentally inferior. In this work, we challenge this consensus by showing that the apparent performance gap does not stem from inherent limitations of hashing, but rather from a structural mismatch with autoregressive decoding, coupled with the inevitable information loss during rigid discretization. Based on this insight, we propose FLASH, a two-stage framework that revitalizes training-free SimHash tokenization through parallel decoding and explicit semantic alignment. Despite its simplicity, FLASH achieves state-of-the-art performance across multiple datasets without requiring any tokenizer training, while exhibiting stronger generalization in cold-start scenarios. Notably, we demonstrate that semantic alignment acts as a universally effective mechanism across diverse paradigms. Our findings suggest that, with compatible decoding and semantic grounding, simple and efficient tokenizers can achieve performance comparable to complex learned counterparts in generative recommendation. Our code is available at https://github.com/KevinC2015/Flash.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.07105": {
+            "title": "Beyond Successor Accuracy: State Retention for Recursive Self-Improvement in Recommendation",
+            "authors": "Jinfeng Xu, Zheyu Chen, Ziyue Peng, Zheng Lin, Wenhao Yuan, Jian Chen, Shujie Li, Edith Ngai",
+            "first_author": "Jinfeng Xu",
+            "url": "http://arxiv.org/abs/2610.07105v1",
+            "pdf_url": "http://arxiv.org/abs/2610.07105",
+            "publish_date": "2026-10-05",
+            "abstract": "Recommendation recursive self-improvement (Rec-RSI) feeds recommender outputs into subsequent training. Evaluating each round solely through its latest model assumes that the successor consolidates the update, although pre- and post-update models may retain complementary ranking decisions. We term this \\emph{distributed progress} and quantify it using cross-generation advantage (CGA), a marginally matched contrast between cross- and within-generation model pairs. A rank-separation statistic, label-free at selection time, predicts which family to retain. Across four datasets and three sequential recommendation encoders, the preferred retention regime varies by architecture: cross-generation pairing benefits GRU4Rec and SASRec, whereas FMLP initially favors within-generation pairing and shifts toward cross-generation pairing after a second update. Rank separation selects the stronger family in 12/12 first-update and 5/6 second-update dataset-encoder settings; on held-out tests, the selected family outperforms the direct successor in 34/36 trajectories. Five transfer mechanisms do not consistently reproduce these gains in one model. These findings establish state retention as a distinct Rec-RSI problem: progress may reside in relations between generations as well as in the latest model. Code is available at \\href{https://github.com/Jinfeng-Xu/RecRSI}{https://github.com/Jinfeng-Xu/RecRSI}.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
