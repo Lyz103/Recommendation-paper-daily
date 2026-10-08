@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-07
+## Updated on 2026-10-08
 
 ---
 
@@ -23,6 +23,7 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-07` | **Training with Missed Targets in Generative Recommendation: Separating Supervision from Probability Competition** | Xuesi Wang, Yangbin Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.10124) |
 | `2026-10-06` | **Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation** | Wenwen Si, Honghao Wei | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08743) |
 | `2026-10-06` | **Personalized Recommendations Without Inducing Congestion: Mitigating Disparities in the NYC High School Match** | Erica Chiang, Kenny Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08275) |
 | `2026-10-06` | **Aligning Performance with Contribution: Towards Contribution-Aware Fair Recommendation** | Shuai Zhang, Hui Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.08245) |

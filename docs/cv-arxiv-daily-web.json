@@ -20118,6 +20118,17 @@
             "abstract": "Recommendation recursive self-improvement (Rec-RSI) feeds recommender outputs into subsequent training. Evaluating each round solely through its latest model assumes that the successor consolidates the update, although pre- and post-update models may retain complementary ranking decisions. We term this \\emph{distributed progress} and quantify it using cross-generation advantage (CGA), a marginally matched contrast between cross- and within-generation model pairs. A rank-separation statistic, label-free at selection time, predicts which family to retain. Across four datasets and three sequential recommendation encoders, the preferred retention regime varies by architecture: cross-generation pairing benefits GRU4Rec and SASRec, whereas FMLP initially favors within-generation pairing and shifts toward cross-generation pairing after a second update. Rank separation selects the stronger family in 12/12 first-update and 5/6 second-update dataset-encoder settings; on held-out tests, the selected family outperforms the direct successor in 34/36 trajectories. Five transfer mechanisms do not consistently reproduce these gains in one model. These findings establish state retention as a distinct Rec-RSI problem: progress may reside in relations between generations as well as in the latest model. Code is available at \\href{https://github.com/Jinfeng-Xu/RecRSI}{https://github.com/Jinfeng-Xu/RecRSI}.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2610.10124": {
+            "title": "Training with Missed Targets in Generative Recommendation: Separating Supervision from Probability Competition",
+            "authors": "Xuesi Wang, Yangbin Shi, Xiaolin Zheng",
+            "first_author": "Xuesi Wang",
+            "url": "http://arxiv.org/abs/2610.10124v1",
+            "pdf_url": "http://arxiv.org/abs/2610.10124",
+            "publish_date": "2026-10-07",
+            "abstract": "Generative recommenders return a limited candidate set and may omit observed targets before reranking. A training strategy appends these missed targets to reranker training lists, although inference still ranks only original candidates. This operation simultaneously changes retrieved-target weight, adds supervision over appended targets, and makes the two groups compete for probability. An append/no-append comparison therefore cannot explain changes in returned-item rankings. We construct three matched losses that hold retrieved-target weight fixed while introducing appended-target supervision and group competition separately. The intermediate loss trains within both groups but normalizes them separately, preventing training-only targets from competing with inference candidates. Experiments with a released OneRec model and locally trained Amazon generators show that this competition can harm returned-item ranking. In four prespecified Amazon Video Games comparisons, removing it improved full-target normalized discounted cumulative gain (FT-NDCG) by 7.8--22.2\\%; 95\\% intervals over users and three of four intervals over training runs excluded zero. A conservative development-set rule selected appended-target training for two of three generators in one held-out category and rejected it for all three in another, avoiding a 1.7\\% loss. Candidate completion should therefore be evaluated for each generator rather than applied automatically.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
