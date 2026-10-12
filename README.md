@@ -1,4 +1,4 @@
-## Updated on 2026-10-11
+## Updated on 2026-10-12
 
 ---
 
@@ -26,6 +26,8 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-09` | **Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks** | Ali Safarpoor Dehkordi, Mohammad Shirzadi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.13351) |
+| `2026-10-09` | **Beyond Semantic IDs: Finite-Beam Reachability and Continuous-Query Generation in Generative Recommendation** | Yu Sun, Renkai Xiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.12977) |
 | `2026-10-08` | **Beyond Sequences: Distilling Structured Decision Memory for LLM Recommendation** | Leikun Liang, Guoshuai Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.11501) |
 | `2026-10-08` | **Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths** | Jason Marcell Setiadi, Xin Cao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.11228) |
 | `2026-10-07` | **Training with Missed Targets in Generative Recommendation: Separating Supervision from Probability Competition** | Xuesi Wang, Yangbin Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.10124) |
