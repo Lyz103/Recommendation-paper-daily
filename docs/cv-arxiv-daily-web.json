@@ -20173,6 +20173,149 @@
             "abstract": "Generative recommendation (GR) of social media platforms commonly retrieves items by autoregressively decoding discrete Semantic IDs (SIDs) with finite-width beam search. This work examines how this output interface constrains whether held-out targets enter finite returned lists, while distinguishing catalog-wide scoreability from empirical top-K support. We introduce two continuous-query paradigms: CQG-Single generates one retrieval query in a single pass, and CQG-AR autoregressively generates continuous residual updates, retaining step-wise decoding while removing the SID item-token vocabulary, code lookup, and discrete beam expansion. These designs thereby eliminate the SID-specific reachability constraint induced by finite-beam decoding and avoid the technical challenge of aligning a discrete SID vocabulary with the pretrained backbone's vector space. Both methods make every encoded item directly scoreable through dense or approximate-nearest-neighbor retrieval. Under a unified protocol with valid-prefix constrained decoding, CQG-Single exceeds the TIGER-style baseline in all seven runs while using 55.3% as many trainable parameters. CQG-AR remains comparable on ML-1M and is numerically stronger on Beauty and Sports datasets. A controlled depth ablation further shows that additional continuous refinement does not monotonically improve shallow accuracy. These findings motivate decoupling output representation, autoregressive modeling, and retrieval budget when evaluating generative recommendation systems.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2610.17823": {
+            "title": "Mitigating Popularity Bias in Sequential Recommendations with Sparse Prior-Regularized Objective",
+            "authors": "Anton Pembek, Anton Klenitskiy, Alexander Savchenko, Alexey Vasilev",
+            "first_author": "Anton Pembek",
+            "url": "http://arxiv.org/abs/2610.17823v1",
+            "pdf_url": "http://arxiv.org/abs/2610.17823",
+            "publish_date": "2026-10-13",
+            "abstract": "Popularity bias is a well-known challenge in recommender systems, often leading to the over-exposure of popular items and reduced catalog coverage. In this work, we propose PR-entmax, a sparse prior-regularized objective that makes popularity correction context-dependent. We derive our method from a generalized variational principle in which an item popularity prior is incorporated directly into a sparse probability mapping, yielding a popularity-aware active support: the set of items receiving non-zero probabilities and hence non-zero gradients is determined jointly by contextual relevance and item popularity. As a result, the prior affects not only item probabilities, but also which items participate in gradient updates during training. The method requires no architectural changes and can be integrated into existing training pipelines by modifying only the loss function. At inference time, the prior term is removed, and items are ranked by the learned contextual relevance alone. Experiments across multiple benchmark datasets and sequential recommendation architectures show that PR-entmax consistently reduces popularity bias while preserving or improving recommendation relevance, advancing the relevance-debiasing trade-off.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.17368": {
+            "title": "HASTE: Hierarchical and Attribute-aware Supervision for Generative Recommendation",
+            "authors": "Tripti Shukla, Shwetha Somasundaram, Akshat Gupta, Rohit Garg, Paul Duff, Ian Anderson",
+            "first_author": "Tripti Shukla",
+            "url": "http://arxiv.org/abs/2610.17368v1",
+            "pdf_url": "http://arxiv.org/abs/2610.17368",
+            "publish_date": "2026-10-12",
+            "abstract": "Generative recommendation models have shown promising results by representing items as semantic IDs and generating these IDs autoregressively. We introduce an approach showing that explicitly incorporating hierarchical and attribute-level supervision into generative recommendation can simultaneously improve training efficiency and long-tail recommendation performance. Existing approaches typically optimize semantic ID prediction with a standard causal cross-entropy objective, which does not explicitly exploit the hierarchical structure of semantic IDs and can require substantial training to learn effective item representations. Moreover, data-sparse tail items often suffer from poor representations due to limited supervision, resulting in weaker long-tail recommendation performance. We address these challenges with HASTE (Hierarchical and Attribute-aware Supervision for generaTive rEcommendation), a unified training framework that introduces hierarchical and attribute-specific supervision. HASTE's Hierarchical Loss explicitly exploits the multi-level structure of semantic IDs, providing supervision at each level of the item hierarchy and substantially accelerating training convergence. Its Attribute-Specific Losses encourage the model to preserve fine-grained item attributes, leveraging the language model's inherent semantic knowledge to improve representations and recommendations for tail items. We extensively evaluate HASTE on a fashion recommendation benchmark and across multiple domains of the Amazon dataset. HASTE improves recommendation performance across datasets and item-frequency regimes. Notably, the Hierarchical Loss achieves approximately 2x faster convergence than the standard causal cross-entropy objective, substantially improving training efficiency while maintaining strong recommendation quality.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.16440": {
+            "title": "ARMED: Adaptive Retrieval-Augmented Medication Recommendation",
+            "authors": "Kyungkeon Chung, Se Un Park, Hyejin Lee, Junyoung Park",
+            "first_author": "Kyungkeon Chung",
+            "url": "http://arxiv.org/abs/2610.16440v1",
+            "pdf_url": "http://arxiv.org/abs/2610.16440",
+            "publish_date": "2026-10-12",
+            "abstract": "Medication recommendation requires jointly considering diagnoses, comorbidities, longitudinal patient history, and treatment interactions. Although recent retrieval-augmented generation approaches using language models have shown promise for clinical recommendation, most existing systems rely on fixed retrieval pipelines that cannot adapt to diverse clinical retrieval scenarios and may introduce noisy or irrelevant evidence. We propose ARMED, an adaptive clinical RAG framework that dynamically expands retrieval according to retrieval sufficiency and current-admission relevance. ARMED first observes the initial retrieval outcome and selectively performs supplementary or fallback multi-query retrieval when additional evidence is needed. The framework also incorporates a relevance gate that activates only clinically relevant same-patient history and organizes retrieved evidence into structured query-level clinical evidence. Experiments on MIMIC-IV demonstrate that ARMED consistently outperforms previous static retrieval baselines and improves overall medication recommendation quality. By combining locally runnable small language models with adaptive retrieval, ARMED supports medication recommendation without relying on external language model APIs or task-specific fine-tuning.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2610.16229": {
+            "title": "Tackling the Modality Inhibitance Effect with Wavelet-based Modality Integration in Multi-modal Recommendation",
+            "authors": "Rongqing Kenneth Ong, Andy W. H. Khong",
+            "first_author": "Rongqing Kenneth Ong",
+            "url": "http://arxiv.org/abs/2610.16229v1",
+            "pdf_url": "http://arxiv.org/abs/2610.16229",
+            "publish_date": "2026-10-12",
+            "abstract": "Harnessing rich modality features has recently gained prominence in multi-modal recommendation systems (MRSs). To delineate user modality preferences, existing works focus on modality fusion, which can be achieved via attentive summation or concatenation. In this work, we introduce the modality inhibitance effect - a phenomenon which limits existing MRSs when these models transit from dual-modal to tri-modal configurations resulting in significant performance degradation. In particular, apart from the modal-specific contamination encapsulated in the newly introduced modality, the inclusion of new features results in excessive informational redundancy, thereby severely impeding effective integration within current approaches. To address the modality inhibitance effect, we propose a new multi-scale modality wavelet (MMWave) multi-modal recommender, which aims to fully capitalize on essential modality features and suppress modal-specific noise. This is acheived by employing wavelet decomposition from a multi-scale (time \\& frequency) perspective, ensuring that only essential (non-redundant) features of each modality are extracted. We then account for the latent associations between item modality features by designing a new structure-aware multi-modal graph learning module that captures high-order latent structural information pertaining to items. To modulate the relative contributions of modality features and achieve effective integration, we then propose a new adaptive modality regulator component that employs a new cross-weight integration strategy. Experiments conducted on four real-world datasets validate the efficacy of our proposed model. The source code for this work has been made publicly available at https://github.com/kennethorq/MMWave.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.16132": {
+            "title": "UniSGR-V2: Stepwise Target-Side Feature Anticipation and Crossing for Generative Recommendation",
+            "authors": "Jun Yang, Jiasi Chen, Jiawei Sun, Ziyue Guo, Jianan Yan, Tao Luo, Xiaoyi Zeng",
+            "first_author": "Jun Yang",
+            "url": "http://arxiv.org/abs/2610.16132v1",
+            "pdf_url": "http://arxiv.org/abs/2610.16132",
+            "publish_date": "2026-10-12",
+            "abstract": "Semantic-ID-based generative recommendation unifies retrieval and ranking through autoregressive decoding but differs structurally from discriminative models, which can directly access rich target-item side features. The attributes are compressed into a finite codebook during quantization, while the target item remains undetermined during decoding and its features cannot be looked up. This target-side feature vacuum weakens generation at each semantic-ID level through high conditional entropy and cascading errors, and final ranking through missing target-side feature crossing.   Existing methods interact with candidate representations or generate discrete attribute tokens, but none reconstructs a continuous target-side representation inside decoding to support both stepwise generation and ranking. We propose TacGR (Stepwise Target-Side Feature Anticipation and Crossing for Generative Recommendation). Before decoding each codeword, TacGR anticipates a continuous target-side feature vector and crosses it with the semantic prefix and user behavior sequence inside the decoder. The crossed representation conditions current-level generation and is directly used for ranking.   Continuous-vector regression risks a learnable target collapsing with its prediction and prediction noise propagating into generation through attention. TacGR addresses these challenges with a semantic-anchoring auxiliary tower and a unidirectional visibility mask, respectively. For extremely long industrial behavior histories, it introduces gated convolutional denoising to suppress noise and adapts the pyramid memory funnel to reduce inference cost. Offline experiments on a large-scale Lazada dataset show significant gains over OneRec, UniRec, and UniSGR. Online A/B testing improves IPV, Order, and GMV by 0.79%, 5.55%, and 3.09%, respectively.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.16038": {
+            "title": "OT-FlowRec: Optimal Transport-Guided Multi-Bridge Flow for Multimodal Sequential Recommendation",
+            "authors": "Miao Sun",
+            "first_author": "Miao Sun",
+            "url": "http://arxiv.org/abs/2610.16038v1",
+            "pdf_url": "http://arxiv.org/abs/2610.16038",
+            "publish_date": "2026-10-12",
+            "abstract": "E-commerce user preferences evolve dynamically within sessions, exhibiting concurrent and multi-centric interest distributions. While existing multimodal sequential recommendation methods leverage global attention to compress historical interactions, they inadequately capture the concurrent nature of multi-interest behaviors and fail to model the underlying multi-centric distribution of user intent. To tackle this issue, we propose OT-FlowRec, an optimal transport-guided multi-bridge flow matching framework that explicitly models multi-interest distributions to facilitate multimodal sequential recommendation. Unlike single-path generative models, OT-FlowRec constructs a mixture of parallel, interest-specific transport flows to model the multi-centric distribution characteristics, where each flow preserves a distinct user interest cluster via an optimal transport plan. Then, a geometric transport mechanism is designed to establish minimum-cost paths from the latent multi-interest distribution to target preference prototypes to provide multi-interest awareness. Moreover, a progressive time-sampling warmup strategy dynamically biases optimization weights toward the final states of the generation process, bridging the gap between continuous global distribution fitting and practical top-$k$ ranking metrics. This approach achieves explicit interest disentanglement, ensuring the preservation of a multi-peaked preference representation instead of collapsing it into a unimodal average. Extensive experiments on three public datasets demonstrate that OT-FlowRec outperforms existing state-of-the-art baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.15864": {
+            "title": "Personalized LLM Recommendation with Semantic IDs: Autoregressive Beam Search vs. Multi-Token Prediction",
+            "authors": "Sejoon Oh, Fernando Amat Gil, Evan Smothers, Dan Iter, Mark Thornburg, Dawit Mureja Argaw, Sourabh Medapati, Thea Wang, Ria Verma, Qiuling Xu, Harshit Syal, Ehsan Gholami, Moumita Bhattacharya, Ashish Rastogi",
+            "first_author": "Sejoon Oh",
+            "url": "http://arxiv.org/abs/2610.15864v1",
+            "pdf_url": "http://arxiv.org/abs/2610.15864",
+            "publish_date": "2026-10-11",
+            "abstract": "Large-scale personalization is shifting from embedding-table retrieval to LLM-based recommenders that generate the Semantic ID (SID) of the item to recommend, where each SID is a short sequence of discrete hierarchical content codes. A single instruction-tuned model can then unify retrieval, content understanding, and language, and recommend brand-new titles from their content alone using SID; then, how should the model generate the SID? Traditionally, models rely on a single language modeling head that generates tokens autoregressively, typically using constrained beam search. In contrast, an emerging body of work explores multi-token prediction (MTP), where dedicated heads predict all tokens in parallel, substantially reducing the decoding latency associated with beam search. We report an industry-scale, apples-to-apples comparison of these two generation paradigms: single-head autoregressive decoding vs. MTP. We introduce a new auxiliary ranking loss, defined over the joint SID score, to train the MTP objective. We evaluate the SID training objectives on both quality and training/inference cost, inside a multi-task LLM that jointly does personalized retrieval, content question-answering (QA), and instruction following over a large streaming-media catalog. Our experiments show single-head beam search consistently beats MTP on most product-critical metrics: ranking and content QA, and trains at roughly 2.6x lower dollar cost on Qwen3-8B scale; MTP wins only on raw inference throughput. Around this finding, we detail an efficient training and inference stack and report end-to-end gains over the previous non-SID baseline equipped with an auxiliary ranking head: +77% item cold-start ranking, +22% content-QA accuracy, +2.8x faster training, with language metric regression traced to SID vocabulary expansion. We address the language regression by reinforcement learning post training.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.15832": {
+            "title": "Local Citation Recommendation Without Graph Signals",
+            "authors": "Benjamin Basseri, Pavlos Protopapas, Kemeng Zhang, Alberto Accomazzi, Stephanie Jarmak, Anna Kelbert",
+            "first_author": "Benjamin Basseri",
+            "url": "http://arxiv.org/abs/2610.15832v1",
+            "pdf_url": "http://arxiv.org/abs/2610.15832",
+            "publish_date": "2026-10-11",
+            "abstract": "Resolving correct citations can be a time-consuming task for research writers. We address local citation recommendation (LCR), where the goal is to retrieve appropriate references for a given sentence. Web tools generally depend on the existing citation graph, which may bias results toward citation count or more recent publications. LCR research using full paper texts has been limited by the lack of publicly available data. We present a new dataset, the Local Citation Recommendation Corpus (LCRC), containing 14,735 scientific statements derived from astrophysics review papers, each with one or more citation targets whose full text is accessible via API. Using this dataset we systematically compare retrieval methods and develop a citation recommendation system that avoids citation graph bias while achieving 8.0% improvement in Recall@25 and 6.9% improvement in NDCG@25 over dense retrieval baselines without model fine-tuning. To support reproducibility, we make our code and dataset publicly available.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.15523": {
+            "title": "Rethinking Evidence Modeling: Context-Coupled Graph Learning for Multimodal Recommendation",
+            "authors": "Mingqiao Zhang, Qiyao Peng, Yumeng Wang, Wenzhe Dong, Hongtao Liu, Jian Yang",
+            "first_author": "Mingqiao Zhang",
+            "url": "http://arxiv.org/abs/2610.15523v1",
+            "pdf_url": "http://arxiv.org/abs/2610.15523",
+            "publish_date": "2026-10-11",
+            "abstract": "Multimodal graph recommendation integrates observed interactions with item images and text to learn user preferences. These inputs constitute Semantic-Behavioral Evidence (SBE). Many existing graph methods incorporate collaborative and multimodal semantic relations, yet their aggregation and state updates remain context-separated, limiting the continuous composition of preference evidence across layers and the joint use of multiple sources. To address this limitation, we propose CC-MGRec, a context-coupled graph learning method that organizes SBE within a common graph learning context for cross-relation modeling and compositional propagation. Its context-coupled multimodal graph integrates user-item collaborative relations and item-item semantic relations, coordinating their message scales through joint normalization. Recommendation-grounded semantic calibration uses training behavior to adjust semantic neighbor weights while preserving normalized collaborative propagation coefficients. Collaborative-semantic compositional propagation updates shared node states layer by layer to continuously compose collaborative and multimodal semantic evidence, implicitly forming Preference Evidence Chains (PECs), including collaborative-semantic and visual-textual PECs. Joint execution of relation messages on the same shared node states within each layer preserves propagation outputs while reducing intermediate output processing and fusion overhead. We provide theoretical analysis of the proposed mechanisms. Experiments on three Amazon datasets demonstrate improved recommendation quality and faster inference during graph propagation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.15505": {
+            "title": "Federated Semantic Residuals for Multimodal Recommendation",
+            "authors": "Zhiwei Li, Guodong Long, Chengqi Zhang, Jing Jiang",
+            "first_author": "Zhiwei Li",
+            "url": "http://arxiv.org/abs/2610.15505v1",
+            "pdf_url": "http://arxiv.org/abs/2610.15505",
+            "publish_date": "2026-10-11",
+            "abstract": "Federated Recommendation Systems (FedRSs) learn collaborative scores from interaction histories on device and rank items by them, so a higher score means a higher rank. Item text and images add semantic information that can reorder the list. Existing Federated Multimodal Recommenders (FedMRs) fuse this content into their models, which can obscure how content reorders the list. We therefore propose the SEmantic Residual Adapter (SERA), which keeps content out of an existing FedRS and adds semantic residual scores to its collaborative scores. Content can then lift an item above another only when its semantic residual score exceeds the other's by more than their collaborative score gap. This score grows with the item's content similarity to the user's interaction history and is capped at a residual bound. We prove that for any content, an item can enter the list only if its collaborative score is within twice this bound of the lowest one in the list. A larger bound lets content lift more items, including irrelevant ones, so the bound trades off how far content reaches against accuracy. With a validated bound, SERA improves all three FedRSs on all six datasets without adding personalized parameters. It outperforms FedMRs in most comparisons and lifts some FedRSs above centralized baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.15484": {
+            "title": "Toward Explainability in Multimodal Recommendation",
+            "authors": "Chen Liang, Jinghui Li, Xiuze Zhou, Zongyue Wang, Yuanguo Lin, Han Yu",
+            "first_author": "Chen Liang",
+            "url": "http://arxiv.org/abs/2610.15484v1",
+            "pdf_url": "http://arxiv.org/abs/2610.15484",
+            "publish_date": "2026-10-11",
+            "abstract": "Multimodal recommender systems effectively alleviate data sparsity and cold-start problems by integrating heterogeneous information, yet complex cross-modal representations and model decision-making processes also introduce new interpretability challenges. Despite the rapid growth of research on the interpretability of multimodal recommendation in recent years, relevant methods and evaluation criteria remain relatively fragmented, lacking a unified conceptual framework. To address this gap, this paper categorizes existing methods into modality explanation and post-hoc explanation based on the timing and manner of explanation generation, and further constructs a progressive system for each category. Building on this foundation, this paper synthesizes four categories of evaluation metrics from both objective quantitative and subjective perceptual perspectives, and reviews relevant datasets along the dimensions of application domain and data source. Through a comprehensive analysis of existing research, we further propose future research directions. This paper aims to establish a unified analytical perspective across multimodal representation, recommendation decision-making, and user preferences, providing a research foundation for building transparent and trustworthy multimodal recommender systems.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.14579": {
+            "title": "Fine-Tuning Strategy, Not Just Data: A Statistically Rigorous Audit of Gender and Stereotypical Bias in Embedding Models for HR Recommendation Systems",
+            "authors": "Ekta Yadav",
+            "first_author": "Ekta Yadav",
+            "url": "http://arxiv.org/abs/2610.14579v1",
+            "pdf_url": "http://arxiv.org/abs/2610.14579",
+            "publish_date": "2026-10-10",
+            "abstract": "Embedding models underpin modern job-candidate matching: resumes, job descriptions, and queries are encoded as dense vectors, and recommendations come from nearest-neighbor retrieval over that space. Any social bias in the embeddings therefore feeds directly into HR recommendations. We audit six multilingual sentence-embedding models (LaBSE- and E5-family, both public and custom fine-tuned) using Bias-in-Bios (occupational gender bias) and StereoSet (stereotypes across profession, race, gender, and religion). We treat statistical validity as a first-class concern: we identify a non-independence error in a naive significance test, where pooling non-independent pairwise similarities inflated a trivial 0.0046 mean difference to $p \\approx 0$, and replace it with a profession-level paired Wilcoxon signed-rank test, individual-resampling bootstrap confidence intervals, and permutation tests for StereoSet. Under the corrected methodology, knowledge-distillation (KD) fine-tuning of E5-Base significantly increases measured bias on Bias-in-Bios ($\u0394= -0.177$, $p < 10^{-8}$; more negative means more bias), although this measure is sensitive to global embedding geometry. The KD result is corroborated by pro-stereotype patterns in the StereoSet profession category (uncorrected $p < 0.05$). Binary-classification fine-tuning of the same base model shows no statistically distinguishable change ($p = 0.218$). Fine-tuning strategy is thus an actionable design lever for practitioners building HR recommenders. We also report which benchmark categories are underpowered, and note that two domain-adapted models could not be included in significance testing due to a software-access constraint, which limits our conclusions.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.14474": {
+            "title": "RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation",
+            "authors": "Cong Wang, Jin Li, Shoujin Wang, Yishuo Li, Huilin Gu, Wenpeng Lu",
+            "first_author": "Cong Wang",
+            "url": "http://arxiv.org/abs/2610.14474v1",
+            "pdf_url": "http://arxiv.org/abs/2610.14474",
+            "publish_date": "2026-10-10",
+            "abstract": "Medication recommendations seek to deliver personalized drug combinations based on patients' clinical information, where ensuring transparent decision-making and personalized safety are of paramount importance. However, existing approaches predominantly operate as ``black boxes'', offering limited interpretability and hindering clinician trust. Furthermore, they typically rely on fixed, patient-agnostic safety constraints, neglecting the heterogeneity of risk tolerance across individuals, which poses significant risks to vulnerable populations. To address these gaps, we propose \\textbf{RES-MR}, a novel Risk-aware Reasoning framework for Explainable and Safe Medication Recommendation using LLMs. RES-MR follows a two-stage training paradigm: (1) an explainable clinical reasoning distillation stage to elicit diagnostic capabilities by fine-tuning on synthesized reasoning trajectories, grounded in patient-specific knowledge from graph retrieval; and (2) a risk-aware policy optimization stage to dynamically balance therapeutic efficacy with personalized safety. This stage employs disentangled drug factors to construct patient-specific reference prototypes that capture desired therapeutic drug features and risk features to avoid. These prototypes enable risk boundary calibration and guide the model toward safe recommendations via reward shaping and clipping. Extensive experiments on benchmark datasets demonstrate that RES-MR significantly outperforms state-of-the-art baselines in terms of accuracy, safety, and explainability. Our code and data are available at: https://github.com/wangcong2001/RES-MR.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

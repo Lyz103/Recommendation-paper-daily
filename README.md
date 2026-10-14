@@ -1,4 +1,4 @@
-## Updated on 2026-10-13
+## Updated on 2026-10-14
 
 ---
 
@@ -26,6 +26,19 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-13` | **Mitigating Popularity Bias in Sequential Recommendations with Sparse Prior-Regularized Objective** | Anton Pembek, Anton Klenitskiy, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.17823) |
+| `2026-10-12` | **HASTE: Hierarchical and Attribute-aware Supervision for Generative Recommendation** | Tripti Shukla, Shwetha Somasundaram, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.17368) |
+| `2026-10-12` | **ARMED: Adaptive Retrieval-Augmented Medication Recommendation** | Kyungkeon Chung, Se Un Park, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.16440) |
+| `2026-10-12` | **Tackling the Modality Inhibitance Effect with Wavelet-based Modality Integration in Multi-modal Recommendation** | Rongqing Kenneth Ong, Andy W. H. Khong | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.16229) |
+| `2026-10-12` | **UniSGR-V2: Stepwise Target-Side Feature Anticipation and Crossing for Generative Recommendation** | Jun Yang, Jiasi Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.16132) |
+| `2026-10-12` | **OT-FlowRec: Optimal Transport-Guided Multi-Bridge Flow for Multimodal Sequential Recommendation** | Miao Sun | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.16038) |
+| `2026-10-11` | **Personalized LLM Recommendation with Semantic IDs: Autoregressive Beam Search vs. Multi-Token Prediction** | Sejoon Oh, Fernando Amat Gil, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.15864) |
+| `2026-10-11` | **Local Citation Recommendation Without Graph Signals** | Benjamin Basseri, Pavlos Protopapas, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.15832) |
+| `2026-10-11` | **Rethinking Evidence Modeling: Context-Coupled Graph Learning for Multimodal Recommendation** | Mingqiao Zhang, Qiyao Peng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.15523) |
+| `2026-10-11` | **Federated Semantic Residuals for Multimodal Recommendation** | Zhiwei Li, Guodong Long, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.15505) |
+| `2026-10-11` | **Toward Explainability in Multimodal Recommendation** | Chen Liang, Jinghui Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.15484) |
+| `2026-10-10` | **Fine-Tuning Strategy, Not Just Data: A Statistically Rigorous Audit of Gender and Stereotypical Bias in Embedding Models for HR Recommendation Systems** | Ekta Yadav | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.14579) |
+| `2026-10-10` | **RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation** | Cong Wang, Jin Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.14474) |
 | `2026-10-09` | **Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks** | Ali Safarpoor Dehkordi, Mohammad Shirzadi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.13351) |
 | `2026-10-09` | **Beyond Semantic IDs: Finite-Beam Reachability and Continuous-Query Generation in Generative Recommendation** | Yu Sun, Renkai Xiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.12977) |
 | `2026-10-08` | **Beyond Sequences: Distilling Structured Decision Memory for LLM Recommendation** | Leikun Liang, Guoshuai Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.11501) |
