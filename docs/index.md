@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-14
+## Updated on 2026-10-15
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-14` | **HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation** | Min Xiao, Jin Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.20191) |
+| `2026-10-14` | **Bridging the Topological Divide: Dual-Branch Graph Distillation with Semantic Priors for Robust Cold-Start Recommendation** | Yuanfeng Qiu | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.19578) |
+| `2026-10-14` | **xLightGCN: Explainable Graph Neural Network Based Recommendation Systems with Most Influential Peers** | Calder Johnson, Robin Cohen | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.19446) |
 | `2026-10-13` | **Mitigating Popularity Bias in Sequential Recommendations with Sparse Prior-Regularized Objective** | Anton Pembek, Anton Klenitskiy, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.17823) |
 | `2026-10-12` | **HASTE: Hierarchical and Attribute-aware Supervision for Generative Recommendation** | Tripti Shukla, Shwetha Somasundaram, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.17368) |
 | `2026-10-12` | **ARMED: Adaptive Retrieval-Augmented Medication Recommendation** | Kyungkeon Chung, Se Un Park, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.16440) |
