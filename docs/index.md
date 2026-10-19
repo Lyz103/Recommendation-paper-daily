@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-18
+## Updated on 2026-10-19
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-16` | **Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs** | Sam Partee, River Stevens, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23707) |
+| `2026-10-16` | **LSNR: Learned Sparse News Recommendations with Attentive User Modeling** | David Vos, Andrew Yates, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23510) |
+| `2026-10-16` | **QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity** | Takashi Ishida, Taro Makino, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23470) |
 | `2026-10-15` | **A Quantum Machine Learning Approach to Content-Based Media Recommendation** | Mina Abbaszadeh, Ouissal Moumou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.21562) |
 | `2026-10-15` | **RecSoup: Efficient Model Merging Approach for Controllable Multi-Objective Recommendation** | Zidong Jia, Guofu Xie, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.21220) |
 | `2026-10-14` | **TransX Technical Report: Scaling Sequence Transduction for Recommendation** | Da Xu, Liyan Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.20913) |
