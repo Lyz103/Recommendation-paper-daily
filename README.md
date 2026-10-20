@@ -1,4 +1,4 @@
-## Updated on 2026-10-19
+## Updated on 2026-10-20
 
 ---
 
@@ -26,6 +26,15 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-19` | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | Qian Xie, Wenyue Hua, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26676) |
+| `2026-10-19` | **SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling** | Kanglin Xu, Michael Papka, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26577) |
+| `2026-10-19` | **Multimodal Decoupling for Diversified Recommendation through Semantic and Structural Shaping** | Changran He, Jiaming Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26024) |
+| `2026-10-19` | **Learning Complementary Agent Groups via Task Hypergraphs for Next-POI Recommendation with Missing Modalities** | Jinze Wang, Yuze Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.25801) |
+| `2026-10-18` | **When Semantics Fall Short: Persona-Guided Cross-Domain Sequential Recommendation with Large Language Models** | Jundong Chen, Honglei Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.25221) |
+| `2026-10-18` | **Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs** | Minsung Hwang, Donggyu Yoon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.25182) |
+| `2026-10-18` | **Structure-Aligned History Learning with Subspace-Structured Semantic IDs for Generative Recommendation** | Kaiwen Wei, Kejun He, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.25093) |
+| `2026-10-17` | **DuoLM: Fast and Effective Personalized Recommendation with Language Models** | Jiang Wu, Yutong Song, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.24481) |
+| `2026-10-16` | **Candidate-dependent residual routing trades top-of-list accuracy for recall in sequential recommendation** | Han Chen, Yingrui Li | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.24200) |
 | `2026-10-16` | **Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs** | Sam Partee, River Stevens, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23707) |
 | `2026-10-16` | **LSNR: Learned Sparse News Recommendations with Attentive User Modeling** | David Vos, Andrew Yates, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23510) |
 | `2026-10-16` | **QD-Rec: Open-Ended Evolution of Recommendations via Quality-Diversity** | Takashi Ishida, Taro Makino, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.23470) |
