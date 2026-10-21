@@ -20514,6 +20514,50 @@
             "abstract": "Candidate-dependent routing lets a sequential recommender weight a user's past behaviors differently for each item it scores. We test whether this flexibility helps by adding a small residual routing module to a self-attentive baseline, in two versions that differ only in what sets the routing weights: the user's history representation or the candidate item's embedding. Across five paired seeds on the REES46 cosmetics-shop dataset, with matched training for all three models, candidate-dependent routing leaves the primary metric, normalized discounted cumulative gain at cutoff ten (NDCG@10), essentially unchanged (mean relative change +0.003%). Secondary and exploratory analyses show that this flat average hides two effects that cancel. The candidate-dependent model places more relevant items in its top ten (recall +1.81%) but ranks the first one lower (mean reciprocal rank -1.09%), and most of its new hits land at positions six to ten. Its gains come from queries with at least one target among the user's last 50 events, while queries whose targets all lie outside that window get worse. In this form, candidate-dependent routing trades accuracy at the top of the list for recall further down.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2610.27898": {
+            "title": "SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs",
+            "authors": "Chunrui Zhang, Gaoyun Lin, Chang Zhou, Zheng Hu, Qiran Song, Shimin Cai, Tao Zhou",
+            "first_author": "Chunrui Zhang",
+            "url": "http://arxiv.org/abs/2610.27898v1",
+            "pdf_url": "http://arxiv.org/abs/2610.27898",
+            "publish_date": "2026-10-20",
+            "abstract": "Semantic ID (SID)-based generative recommendation retrieves items through successive token-level decisions, making personalization at each decoding step essential. However, existing methods insufficiently account for prefix-dependent user evidence and imbalanced historical interaction loads among candidate branches. This can cause irreversible branch-selection errors and favor popular paths. We propose SPAR, a generative recommendation framework that jointly improves stepwise personalization and SID construction. Its PATH Decoder retrieves prefix-relevant evidence from compressed long-term user memories and combines it with recent behavior, user profiles, and event context to guide each token decision. Its RQ-PIB module balances historical interaction loads among sibling branches under each parent prefix while preserving semantic structure. Experiments on large-scale Youku production data show an average relative HitRate improvement of 2.66% over the strongest baseline. SPAR also increases target-prefix retention by 5.79 percentage points and reduces the traffic-weighted largest child-branch share by 32.84% across SID levels. In a 7-day online A/B test, SPAR serves 10% of Youku's production traffic and improves average watch time per user by 3.95% and play conversion rate by 3.38%. These results demonstrate more reliable hierarchical decoding, balanced SID branches, and improved user engagement in industrial recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.27232": {
+            "title": "Neighborhood-Aware Unlearning for Generative Recommendation",
+            "authors": "Pierre Lubitzsch, Yubao Tang, Maarten de Rijke, Sebastian Schelter",
+            "first_author": "Pierre Lubitzsch",
+            "url": "http://arxiv.org/abs/2610.27232v1",
+            "pdf_url": "http://arxiv.org/abs/2610.27232",
+            "publish_date": "2026-10-19",
+            "abstract": "Generative recommendation predicts items by autoregressively generating semantic identifiers (SIDs), whose tokens are shared across semantically related items. With this paradigm gaining adoption, the question of how to support unlearning in it has become pressing. If training interactions must later be removed, such as injected spam or interactions with items a user no longer wants, this sharing lets an unlearning update unintentionally affect the predictions for the interactions' neighbors. We show that this effect is locally structured and hidden by global metrics: unlearning can leave recommendation utility on the whole test set nearly unchanged while substantially degrading it on neighborhoods of the forgotten interactions' SIDs. We propose Neighborhood-Aware Unlearning (NAU), which augments interaction-level unlearning with explicit control over the probability mass assigned to the forgotten items' neighborhoods. Across three datasets and four SID tokenizers, NAU restores spam-induced exposure toward the retrained reference while retaining more than 95% of retrained utility, and recovers the neighborhood utility that forget-and-repair unlearning loses at no global cost. We identify local probability redistribution as an important failure mode of unlearning in SID-based generative recommenders and show that explicitly controlling this redistribution can mitigate its effects.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.26948": {
+            "title": "LightCRS: Lightweight Multi-Domain Conversational Recommendation System",
+            "authors": "He Ma, Lan You, Qiyang Wu, Chen Liu",
+            "first_author": "He Ma",
+            "url": "http://arxiv.org/abs/2610.26948v1",
+            "pdf_url": "http://arxiv.org/abs/2610.26948",
+            "publish_date": "2026-10-18",
+            "abstract": "Conversational recommender systems have recently adopted vision-language models to match user dialogue intents with multimodal product information. However, extending these methods to many product domains faces a dilemma: deploying a separately adapted VLM per domain scales cost linearly with the number of domains and requires routing each dialogue to the right model, while naively merging all domains into a single VLM degrades accuracy because product characteristics vary widely across categories. We propose LightCRS, a lightweight, query-conditioned framework for unified multi-domain multimodal conversational recommendation. LightCRS precomputes multimodal product representations once offline with frozen encoders. Online, a compact 5.3M-parameter module fuses this evidence for each dialogue via query-conditioned cross-attention, whose parameters are shared across all domains, and compares candidates jointly with an inter-candidate Transformer. To enable rigorous evaluation, we construct MM-R2A-25, a 25-domain benchmark pairing natural Reddit recommendation-seeking conversations with Amazon product listings. LightCRS achieves state-of-the-art average HR@1, NDCG@5, and MRR, improving HR@1 by 35.4\\% over the strongest baseline while reducing per-query latency by 266 times. Joint multi-domain training itself improves HR@1 by 15.2\\% over separately trained single-domain models.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2610.26902": {
+            "title": "MOSS: A Production Framework for Monitoring and Diagnosing Semantic Failures in Search and Recommendation Systems",
+            "authors": "Alina Nesen, Prathyusha Kanmanth Reddy, David Relyea, Rohit Avinash Mujumdar, Samaneh Karimi, Bo Shen, Jordan Hashemi",
+            "first_author": "Alina Nesen",
+            "url": "http://arxiv.org/abs/2610.26902v1",
+            "pdf_url": "http://arxiv.org/abs/2610.26902",
+            "publish_date": "2026-10-16",
+            "abstract": "Detecting semantic failures in production recommendation and search systems is hard: behavioral metrics lag by days, manual review does not scale, and most LLM evaluation frameworks are designed for offline, fixed datasets rather than continuous operational monitoring. We present Model Sanity Service (MOSS), a production framework that addresses this operational gap by embedding LLM-based relevance scoring into a recurring monitoring loop with targeted sampling, strategy-aware prompting, structured alerting, and diagnostic follow-up prompting that categorizes failures into actionable root causes.   MOSS has been running in production at a large U.S. retailer for over six months across recommendation, search, and offer surfaces, and has surfaced two confirmed serving defects. For one of these, a backfill blending defect, MOSS quantified the impact of the proposed fix offline as a 76.4\\% relative reduction in alert rate. On a 498-pair human-annotated recommendation benchmark, frontier LLM judges achieve higher F1 and AUC point estimates than non-LLM baselines (internal production embeddings and SBERT), with the largest gains on strategy-dependent tasks requiring intent-level relational reasoning. The same judge, score scale, and threshold transfer to a 466-pair search benchmark spanning 21 queries with only a surface-specific prompt adaptation, achieving strong F1 and AUC without retuning. These results show that a single LLM monitoring framework can provide useful, actionable quality signals across multiple product discovery surfaces in a large-scale e-commerce setting.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }

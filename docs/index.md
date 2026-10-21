@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-20
+## Updated on 2026-10-21
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-20` | **SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs** | Chunrui Zhang, Gaoyun Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.27898) |
+| `2026-10-19` | **Neighborhood-Aware Unlearning for Generative Recommendation** | Pierre Lubitzsch, Yubao Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.27232) |
+| `2026-10-18` | **LightCRS: Lightweight Multi-Domain Conversational Recommendation System** | He Ma, Lan You, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26948) |
+| `2026-10-16` | **MOSS: A Production Framework for Monitoring and Diagnosing Semantic Failures in Search and Recommendation Systems** | Alina Nesen, Prathyusha Kanmanth Reddy, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26902) |
 | `2026-10-19` | **Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows** | Qian Xie, Wenyue Hua, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26676) |
 | `2026-10-19` | **SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling** | Kanglin Xu, Michael Papka, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26577) |
 | `2026-10-19` | **Multimodal Decoupling for Diversified Recommendation through Semantic and Structural Shaping** | Changran He, Jiaming Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26024) |
