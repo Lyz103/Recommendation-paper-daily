@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-21
+## Updated on 2026-10-22
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-21` | **Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation** | Zhanshuo Cao, Jiakai Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30128) |
+| `2026-10-21` | **SOAR: Social and Opinion-Aware Recommendations** | Giannis Christoforidis, Apostolos N. Papadopoulos | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.29556) |
+| `2026-10-21` | **From Scores to Safe Sets: Exact Safety--Constrained Decoding for Medication Recommendation** | Animesh Agarwal, Meysam Ghaffari, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.29228) |
 | `2026-10-20` | **SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs** | Chunrui Zhang, Gaoyun Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.27898) |
 | `2026-10-19` | **Neighborhood-Aware Unlearning for Generative Recommendation** | Pierre Lubitzsch, Yubao Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.27232) |
 | `2026-10-18` | **LightCRS: Lightweight Multi-Domain Conversational Recommendation System** | He Ma, Lan You, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.26948) |

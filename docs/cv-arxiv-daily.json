@@ -20495,9 +20495,9 @@
         },
         "2610.24481": {
             "title": "DuoLM: Fast and Effective Personalized Recommendation with Language Models",
-            "authors": "Jiang Wu, Yutong Song, Hongbo Wang, Guanghe Cao, Jeff Liang",
+            "authors": "Jiang Wu, Yutong Song, Hongbo Wang, Guanghe Cao, Jeff Lei Liang",
             "first_author": "Jiang Wu",
-            "url": "http://arxiv.org/abs/2610.24481v1",
+            "url": "http://arxiv.org/abs/2610.24481v2",
             "pdf_url": "http://arxiv.org/abs/2610.24481",
             "publish_date": "2026-10-17",
             "abstract": "Language models can make personalized recommendations from rich item content, user history, and feedback. However, evaluating many candidates with full-text inputs incurs substantial online computation and limits serving throughput. We introduce DuoLM, a framework for fast and effective personalized recommendation that integrates a compact recommendation model with an efficient serving runtime. An encoder LLM learns compact item representations for offline reuse, while a personalized ranker LLM combines them with user history and feedback for recommendation. We train both models end to end with recommendation supervision and teacher distillation. The runtime further accelerates inference through virtual token IDs for embedding access, shared history computation, and CUDA Graph replay. Benchmark results show that our framework achieves recommendation quality comparable to that of the expert teacher model. On a single H100, it delivers approximately 26,400 candidate scores per second, about $60\\times$ the throughput of the teacher served with vLLM and automatic prefix caching.",
@@ -20557,6 +20557,39 @@
             "publish_date": "2026-10-16",
             "abstract": "Detecting semantic failures in production recommendation and search systems is hard: behavioral metrics lag by days, manual review does not scale, and most LLM evaluation frameworks are designed for offline, fixed datasets rather than continuous operational monitoring. We present Model Sanity Service (MOSS), a production framework that addresses this operational gap by embedding LLM-based relevance scoring into a recurring monitoring loop with targeted sampling, strategy-aware prompting, structured alerting, and diagnostic follow-up prompting that categorizes failures into actionable root causes.   MOSS has been running in production at a large U.S. retailer for over six months across recommendation, search, and offer surfaces, and has surfaced two confirmed serving defects. For one of these, a backfill blending defect, MOSS quantified the impact of the proposed fix offline as a 76.4\\% relative reduction in alert rate. On a 498-pair human-annotated recommendation benchmark, frontier LLM judges achieve higher F1 and AUC point estimates than non-LLM baselines (internal production embeddings and SBERT), with the largest gains on strategy-dependent tasks requiring intent-level relational reasoning. The same judge, score scale, and threshold transfer to a 466-pair search benchmark spanning 21 queries with only a surface-specific prompt adaptation, achieving strong F1 and AUC without retuning. These results show that a single LLM monitoring framework can provide useful, actionable quality signals across multiple product discovery surfaces in a large-scale e-commerce setting.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.30128": {
+            "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+            "authors": "Zhanshuo Cao, Jiakai Tang, Yuqi Zhou, Sunhao Dai, Jun Xu",
+            "first_author": "Zhanshuo Cao",
+            "url": "http://arxiv.org/abs/2610.30128v1",
+            "pdf_url": "http://arxiv.org/abs/2610.30128",
+            "publish_date": "2026-10-21",
+            "abstract": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shallow processing while a critical minority only stabilizes at full depth. (2) Suboptimality of fixed allocation: given oracle access to the target item, a non-uniform depth assignment consistently outranks the fixed one, indicating that existing uniform computation both wastes capacity on already-converged items and sacrifices overall recommendation quality. These observations motivate a shift from fixed-depth computation to item-level adaptive reasoning. To this end, we propose LoopRec. LoopRec recursively applies a single weight-shared block and introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently. Items whose representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions. This design converts the fixed global depth into a learned, per-item property without auxiliary depth labels, and is readily adaptable to diverse backbone architectures. Extensive experiments on public benchmarks with four backbone families demonstrate that LoopRec consistently outperforms matched fixed-depth counterparts. Further analysis reveals that LoopRec's learned allocation exhibits interpretable patterns aligned with our post-hoc oracle analysis: lower-frequency items and more recent interactions naturally receive deeper computation. Our code is available at https://github.com/Elpmis117/LoopRec.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2610.29556": {
+            "title": "SOAR: Social and Opinion-Aware Recommendations",
+            "authors": "Giannis Christoforidis, Apostolos N. Papadopoulos",
+            "first_author": "Giannis Christoforidis",
+            "url": "http://arxiv.org/abs/2610.29556v1",
+            "pdf_url": "http://arxiv.org/abs/2610.29556",
+            "publish_date": "2026-10-21",
+            "abstract": "One of the enduring challenges in online platforms is recommendation. Both communities and advertisers face difficulties in analyzing complex user behavior, identifying habits and evolving preferences, and providing timely recommendations that are relevant to user interests. In particular, point of interest recommendation poses the additional challenge of identifying the factors that influence user behavior, capturing user tendencies, and generating accurate, personalized recommendations for each individual. In this work, we propose SOAR, a Social and Opinion Aware Recommendation model that incorporates both the user's friendship network and textual reviews to assess whether a location is suitable for a specific user, with a particular emphasis on the sentiment of shared reviews. Experimental results in real-world datasets demonstrate that incorporating reviews into the recommendation process improves the precision of the recommendation.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2610.29228": {
+            "title": "From Scores to Safe Sets: Exact Safety--Constrained Decoding for Medication Recommendation",
+            "authors": "Animesh Agarwal, Meysam Ghaffari, Nina Fatehi, Anushka Swarup, Carlos Morato",
+            "first_author": "Animesh Agarwal",
+            "url": "http://arxiv.org/abs/2610.29228v1",
+            "pdf_url": "http://arxiv.org/abs/2610.29228",
+            "publish_date": "2026-10-21",
+            "abstract": "Recent generative medication recommendation systems ultimately produce sets of drugs, but drug--drug interaction (DDI) constraints depend on the set as a whole. A natural post-hoc approach is to first predict medications and then locally repair interacting pairs by removing one drug at a time. We ask whether this local repair step itself introduces avoidable error. Using fixed medication scores from FLAME's frozen classifier on MIMIC-III, we compare increasingly strong local repair strategies with an exact global decoder while holding the scores, output size, and DDI constraint fixed. The global decoder jointly selects the highest-scoring feasible medication set using mixed-integer linear programming. Across validation and test splits, global decoding consistently achieves higher Jaccard similarity than greedy repair, degree-aware repair, and degree-aware repair strengthened with exhaustive 1-swap local search. Its advantage is small under loose DDI constraints and becomes larger as the constraint tightens; on the test split it reaches +0.0064 Jaccard over the strongest local baseline at the strict DDI operating point. The finding also holds across a fine accuracy--DDI sweep at matched realized DDI exposure and under three score representations. At the strict setting, global decoding retains more true-positive medications while removing more false positives. These results show that medication recommendation is not only a representation-learning problem: even with a frozen clinical model, how its scores are converted into a constrained medication set can materially affect the final prediction.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }
