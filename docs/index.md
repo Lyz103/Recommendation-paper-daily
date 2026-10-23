@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-22
+## Updated on 2026-10-23
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-22` | **FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation** | Kodur Sai Vinay Sathvik, Kakoli Bora, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.31506) |
+| `2026-10-22` | **PAIR: Preference-Aligned Intent Retrieval for Premium People Recommendation at LinkedIn** | Zhongkai Shangguan, Yanbin Kang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30941) |
+| `2026-10-22` | **Bezier-Guided Adaptive Flow for Cross-domain Sequential Recommendation** | Ziang Lu, Yu Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30825) |
+| `2026-10-22` | **OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models** | Hao Jiang, Peiru Du, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30675) |
+| `2026-10-21` | **FAIRGate: Agentic Runtime Policy Selection and Verified Repair for Fairer Recommendation Delivery** | Navkar Jain, Enock Ayiku, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30359) |
 | `2026-10-21` | **Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation** | Zhanshuo Cao, Jiakai Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30128) |
 | `2026-10-21` | **SOAR: Social and Opinion-Aware Recommendations** | Giannis Christoforidis, Apostolos N. Papadopoulos | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.29556) |
 | `2026-10-21` | **From Scores to Safe Sets: Exact Safety--Constrained Decoding for Medication Recommendation** | Animesh Agarwal, Meysam Ghaffari, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.29228) |
