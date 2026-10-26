@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-25
+## Updated on 2026-10-26
 
 ---
 
@@ -23,6 +23,10 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-23` | **Separating Thinking from Spelling for Efficient Generative Recommendation** | Danil Gusak, Anna Volodkevich, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32980) |
+| `2026-10-23` | **Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation** | Yixuan Xu, Hailin Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32943) |
+| `2026-10-23` | **TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent** | Junlin He, Junzhang Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32326) |
+| `2026-10-23` | **From Item Scores to Semantic Tokens: Test-Time Collaborative Adaptation for Generative Recommendation** | Xiongfeng Shan, Xing Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32098) |
 | `2026-10-22` | **FairFRESH: A Neuro-Symbolic Framework for Fair and Explainable Household Food Recommendation** | Kodur Sai Vinay Sathvik, Kakoli Bora, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.31506) |
 | `2026-10-22` | **PAIR: Preference-Aligned Intent Retrieval for Premium People Recommendation at LinkedIn** | Zhongkai Shangguan, Yanbin Kang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30941) |
 | `2026-10-22` | **Bezier-Guided Adaptive Flow for Cross-domain Sequential Recommendation** | Ziang Lu, Yu Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.30825) |
