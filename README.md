@@ -1,4 +1,4 @@
-## Updated on 2026-10-26
+## Updated on 2026-10-27
 
 ---
 
@@ -26,6 +26,13 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-26` | **Cross-Domain Sequential Recommendation with Representation-Level User Transfer** | Abdulaziz Samra, Nikita Sukhorukov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.35550) |
+| `2026-10-26` | **MuSID-KD: Multigranularity Knowledge Distillation for Generative Recommendation with Semantic IDs** | Fengshi Zhang, Xiyan Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.35218) |
+| `2026-10-26` | **DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction** | Pingchuan Ma, Bohan Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34700) |
+| `2026-10-26` | **Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents** | Xinyu Zhang, Weiwei Sun | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34673) |
+| `2026-10-25` | **MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation** | Linjiang Guo, Nitin Bisht, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34192) |
+| `2026-10-25` | **LoopGR: Parameter-Efficient Scaling for Generative Recommendation via Recurrent Depth** | Huizhe Zhang, Yudong Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34157) |
+| `2026-10-25` | **Decision-Native Recommendation with Large Language Models** | Daoxuan Liu, Jiayi Liao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34124) |
 | `2026-10-23` | **Separating Thinking from Spelling for Efficient Generative Recommendation** | Danil Gusak, Anna Volodkevich, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32980) |
 | `2026-10-23` | **Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation** | Yixuan Xu, Hailin Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32943) |
 | `2026-10-23` | **TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent** | Junlin He, Junzhang Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.32326) |
