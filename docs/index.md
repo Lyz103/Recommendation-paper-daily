@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-10-27
+## Updated on 2026-10-28
 
 ---
 
@@ -23,6 +23,23 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-27` | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37584) |
+| `2026-10-27` | **Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation** | Zhenye Yang, Jinpeng Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37409) |
+| `2026-10-27` | **LESSRec: Level-Specific History Modeling for Semantic ID-Based Recommendation** | Shangxin Yang, Zongwei Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37286) |
+| `2026-10-27` | **Modeling Preference Dependencies with Directed Acyclic Graphs for Narrative-Driven Recommendation** | Mingzhe Lu, Jian Qin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37280) |
+| `2026-10-27` | **AutoRSE: Evaluating LLM Agents as Recommendation Engineers for Self-Evolving Recommender Systems** | Rui Tian, Yi Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37228) |
+| `2026-10-27` | **Compote: Collapse-Resistant Multiple Hypothesis Learning For Sequential Recommendation** | Louis Castres Saint Martin, Clement Calauzenes, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37005) |
+| `2026-10-27` | **KL-MOPD: Discrepancy-Aware Multi-Objective On-Policy Distillation for Generative Recommendation** | Weiqin Yang, Yandong Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36973) |
+| `2026-10-27` | **Algorithmic Monoculture in Machine Learning-based Site-Specific Fertilizer Recommendation** | Abdelghani Belgaid | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36941) |
+| `2026-10-27` | **JevRec: Linguistic Encoding with Jev-like Decision Modeling for LLM-based Generative Recommendation** | Qiyong Zhong, Jiajie Su, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36937) |
+| `2026-10-27` | **Latent Residual Reasoning for Ranking in Generative Recommendation** | Haihan Shi, Ruidong Han, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36890) |
+| `2026-10-27` | **DuTri: Dual-Branch Modeling with Triadic Factorization for Multimodal Multi-Scenario Recommendation** | Jintao Huang, Chaohua Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36836) |
+| `2026-10-27` | **The Vocabulary Is Already Here: Adapting Pretrained Interpretable Features for Generative Recommendation** | Ziluowen Luo, Ruochen Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36763) |
+| `2026-10-26` | **MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations** | Reza Yousefi Maragheh, Jayesh Uddhav Kudase, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36389) |
+| `2026-10-26` | **IOSage: Detecting HPC I/O Bottleneck Patterns to Guide LLM Recommendations** | Mahdi Banisharif, Tabassum Mahmud, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36370) |
+| `2026-10-26` | **BehaveRec: When Does Long-Term Behavioral History Help Sequential Recommendation? A Study with Session, History, and Community Signals** | Aysenur Inan, Reza Yousefi Maragheh, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36239) |
+| `2026-10-26` | **Counterfactual Profile Perturbations for Recommendation Explanations: A Reproducibility Study** | Meysam Varasteh, Elizabeth McKinnie, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36208) |
+| `2026-10-26` | **RELAY: One Query, Two Roles for Sequential Recommendation** | Zesheng Li, Chengchang Pan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.36000) |
 | `2026-10-26` | **Cross-Domain Sequential Recommendation with Representation-Level User Transfer** | Abdulaziz Samra, Nikita Sukhorukov, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.35550) |
 | `2026-10-26` | **MuSID-KD: Multigranularity Knowledge Distillation for Generative Recommendation with Semantic IDs** | Fengshi Zhang, Xiyan Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.35218) |
 | `2026-10-26` | **DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction** | Pingchuan Ma, Bohan Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.34700) |
