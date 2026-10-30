@@ -1,4 +1,4 @@
-## Updated on 2026-10-29
+## Updated on 2026-10-30
 
 ---
 
@@ -26,6 +26,17 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-29` | **Reversing Polarization through Tolerance-Aware Recommendation and Adaptive Diversification** | Zhanzhan Zhao, Shuqi Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.40289) |
+| `2026-10-29` | **R2QRec: Learning Recommendation Queries from Retrieval Feedback** | Weixin Chen, Shuchang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39984) |
+| `2026-10-29` | **Category-Anchored Large Language Models for Next POI Recommendation** | Lexi Bai, Xiaopeng Zeng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39518) |
+| `2026-10-29` | **RoFiGR: Coarse Routing, Fine Refinement via Level-Adaptive Distillation in Multimodal Generative Recommendation** | Ji Dai, Zhipeng Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39470) |
+| `2026-10-29` | **UGR: Unified Generative Ranking for Heterogeneous E-commerce Recommendation** | Zonghe Shao, Huabin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39426) |
+| `2026-10-29` | **PFA: Attention Can Be Progressively Focused in Long-Sequence Generative Recommendation** | Pengjie Zhou, Weiqin Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39273) |
+| `2026-10-29` | **Read More, Reason Deeper: Latent Workspaces for Long-Sequence Recommendation** | Renzhi Wu, Li Sheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39188) |
+| `2026-10-28` | **Personalising Parametric Audio Effect Recommendation for Vocals from Parameter-only Style Priors** | Soumya Sai Vanka, Hayato Yamakawa, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.38696) |
+| `2026-10-28` | **Towards Reliable, Scalable, and Value-Aligned Generative Recommendation for Large-Scale Advertising** | Yatong Xiao, Yibo Sheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.38378) |
+| `2026-10-28` | **Floor It, Then Fill It: Simulating Creator Ecosystems for Fair Video-Content Recommendation Systems at Billion User Scale** | Sohini Roychowdhury, Long Sha, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.38155) |
+| `2026-10-27` | **Merge and Branch: Efficient Tree-Structured Supervised Fine-Tuning of LLMs for Recommendation** | Yunqin Zhu, Yao Xie | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37973) |
 | `2026-10-27` | **REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation** | Yuxi Huang, Silin Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37584) |
 | `2026-10-27` | **Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation** | Zhenye Yang, Jinpeng Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37409) |
 | `2026-10-27` | **LESSRec: Level-Specific History Modeling for Semantic ID-Based Recommendation** | Shangxin Yang, Zongwei Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.37286) |
