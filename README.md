@@ -1,4 +1,4 @@
-## Updated on 2026-11-01
+## Updated on 2026-11-02
 
 ---
 
@@ -26,6 +26,9 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-10-30` | **Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation** | Guangyuan Weng, Lin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41911) |
+| `2026-10-30` | **RecIS: Unifying Sparse and Dense Computation for Efficient Recommendation Training** | Hua Zong, Shuai Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41457) |
+| `2026-10-30` | **MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation** | Yi Zou, Wei Luo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41319) |
 | `2026-10-29` | **Reversing Polarization through Tolerance-Aware Recommendation and Adaptive Diversification** | Zhanzhan Zhao, Shuqi Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.40289) |
 | `2026-10-29` | **R2QRec: Learning Recommendation Queries from Retrieval Feedback** | Weixin Chen, Shuchang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39984) |
 | `2026-10-29` | **Category-Anchored Large Language Models for Next POI Recommendation** | Lexi Bai, Xiaopeng Zeng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.39518) |
