@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-02
+## Updated on 2026-11-03
 
 ---
 
@@ -23,6 +23,27 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-02` | **Diverse-Teacher On-Policy Distillation for Generative Recommendation** | Zhipeng Yi, Xinyu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03272) |
+| `2026-11-02` | **Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation** | Furkan Yasir Goksu, Yaren Yilmaz, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03113) |
+| `2026-11-02` | **PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation** | Junzhao Huang, Xi Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03068) |
+| `2026-11-02` | **Utility-Aware Generative Recommendation: Utility-Enriched Semantic Codes and Utility-Guided Decoding** | Yang Hu, Duo Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02981) |
+| `2026-11-02` | **RecRSI: Mechanism-Guided Discovery of Recommendation Algorithms** | Tingran Gan, Zhouziyue Lu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02487) |
+| `2026-11-02` | **Think Globally, Generate Personally: Multi-View Thinking with Adaptive Generation for Generative Recommendation** | Yuxuan Hu, Yingyi Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02463) |
+| `2026-11-02` | **Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration** | Liangbo Ning, Siyuan Liang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02457) |
+| `2026-11-02` | **RecGroupMemory: Feedback-Aware Cohort Memory for E-Commerce Recommendation** | Wendong Zhang, Weipeng Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02453) |
+| `2026-11-01` | **Multicriteria Recommendation System by Leveraging Predefined, Implicit, and Undefined Criteria** | Emrul Hasan, Chen Ding | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02040) |
+| `2026-11-01` | **Multi-criteria Rating and Review based Recommendation Model** | Emrul Hasan, Chen Ding, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.02019) |
+| `2026-11-01` | **SparseLift: Automatically Optimizing Opaque Sparse Paths in Industrial-Scale Recommendation Model Training** | Changqing Shi, Anan Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01702) |
+| `2026-11-01` | **Search-Aware On-Policy Self-Distillation with Sibling Alignment for Generative Recommendation** | Rongfeng Guo, Zhuang Zhuang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01568) |
+| `2026-10-31` | **Projecting the Public: Reflections and Recommendations for Empirical Visualization Studies of General Audiences** | Mandi Cai, Jack McNiel, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01198) |
+| `2026-10-31` | **Recommendations with Costly Verification** | Ying Gao, Yingju Ma | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01195) |
+| `2026-10-31` | **SIDRec: End-to-End Semantic ID Representation and Modeling for Recommendation** | Zhuohang Jiang, Yongsen Pan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01136) |
+| `2026-10-31` | **HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation** | Zhuohang Jiang, Yuxin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01129) |
+| `2026-10-31` | **Where Beam Search Loses Top-Ranked Items:First-Step Coverage in Generative Recommendation** | Heng Yao, Hanwei Zhu | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01072) |
+| `2026-10-31` | **Efficient Conformal Calibration for Paired Recommendation Decisions** | Xinyu Qiao, Yichen Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.01053) |
+| `2026-10-31` | **PACT: Defending Recommendation against Promotional News Rewriting via Attack-Diverse Score Consistency** | Chongxian Chen, Fan Mo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.00972) |
+| `2026-10-31` | **WAR-CRAFT: Refining Web API Recommendations through Requirement Auditing** | Zishuo Xu, Dezhong Yao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.00564) |
+| `2026-10-30` | **Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation** | Zhuosheng Liu, Yihan Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.00323) |
 | `2026-10-30` | **Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation** | Guangyuan Weng, Lin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41911) |
 | `2026-10-30` | **RecIS: Unifying Sparse and Dense Computation for Efficient Recommendation Training** | Hua Zong, Shuai Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41457) |
 | `2026-10-30` | **MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation** | Yi Zou, Wei Luo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2610.41319) |

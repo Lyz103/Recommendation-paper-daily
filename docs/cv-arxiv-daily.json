@@ -21108,6 +21108,237 @@
             "abstract": "Map applications bridge everyday mobility with local services, creating opportunities to recommend places by uncovering users' implicit intents. However, utility-driven map interactions provide only indirect and incomplete evidence of consumption demands, making it challenging to infer personalized service needs from observed behaviors. We propose MILES-Rec, a cross-domain POI recommendation framework that infers latent service intents from heterogeneous map behaviors and expresses them as prioritized natural language queries. It first learns from progressive reasoning demonstrations that synthesize user profiles and map histories for situation understanding, intent expansion, and query prioritization. We then introduce intent-aligned group relative policy optimization, using subsequent user interactions to reward query relevance and ranked service coverage while penalizing redundancy and excessive response length. A two-level credit assignment mechanism integrates shared list-level advantages with query-specific advantages, coordinating individual query quality with the complementary coverage of the complete query list. We further construct MILES-Bench from real user interaction logs on a large-scale mapping platform, supporting training and evaluation across diverse services under rich and sparse behavioral histories. Extensive experiments against general-purpose LLMs and specialized recommendation baselines demonstrate superior POI retrieval utility and strong service and semantic alignment, with consistent gains from behavioral policy optimization across four backbone scales.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2611.03272": {
+            "title": "Diverse-Teacher On-Policy Distillation for Generative Recommendation",
+            "authors": "Zhipeng Yi, Xinyu Lin, Minxuan Shan, Zipeng Chen, Yujiao Zhao, Chuanyu Xu, Wenjie Wang",
+            "first_author": "Zhipeng Yi",
+            "url": "http://arxiv.org/abs/2611.03272v1",
+            "pdf_url": "http://arxiv.org/abs/2611.03272",
+            "publish_date": "2026-11-02",
+            "abstract": "Generative recommendation generates the semantic ID (SID) of the next item from a user's interaction history. Existing training objectives mainly supervise target SID tokens, while on-policy distillation (OPD) provides denser supervision through a teacher's probability distribution over all tokens for more effective and efficient training. However, OPD can aggravate popularity bias: teacher feedback favors popular-item tokens, transferring this preference to the student, while student rollout favors popular items, leaving unpopular-item SID paths rarely generated and supervised. These two sources of bias reinforce each other and reduce recommendation diversity. We propose HERO, a diversity-aware OPD framework. Heterogeneous teacher distillation trains two teachers specializing in popular and unpopular items and routes each training sample to the teacher matching the popularity group of its ground-truth item. The student learns from the routed teacher's probability distribution along its own generated SIDs. Diversity-aware item rollout incorporates ground-truth SIDs of unpopular items into training, covering SID paths that the student rarely generates. Only the student is used for inference. Offline experiments on an industrial dataset and three public datasets further demonstrate its effectiveness, diversity, and robustness. Moreover, we deploy HERO in the \"Guess What You Like\" module on the 1688 homepage, where a 15-day online A/B test shows a 3.412% increase in gross merchandise value (GMV).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.03113": {
+            "title": "Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation",
+            "authors": "Furkan Yasir Goksu, Yaren Yilmaz, Sule Gunduz Oguducu",
+            "first_author": "Furkan Yasir Goksu",
+            "url": "http://arxiv.org/abs/2611.03113v1",
+            "pdf_url": "http://arxiv.org/abs/2611.03113",
+            "publish_date": "2026-11-02",
+            "abstract": "Large language models (LLMs) have introduced a generative approach to recommendation, producing item lists from textual representations of user histories and item information. However, this generative setting raises challenges concerning output validity, prompt consistency, and sensitivity to demographic descriptors. In this work, we investigate how preprocessing choices in fine-tuning data affect recommendation utility and fairness-related behavior in a generative LLM-based recommender system. We first establish a controlled recommendation pipeline that combines supervised fine-tuning, catalog-constrained decoding, and prompt augmentation. We then study three preprocessing choices: item-title representation, demographic balancing, and auxiliary item-knowledge enrichment. Experiments on MovieLens-1M show that the catalog-constrained pipeline eliminates out-of-catalog items and ensures complete ten-item outputs, while prompt augmentation improves prompt consistency and utility. Original MovieLens titles increase HR@10 from 10.67% to 12.47% and Coverage@10 from 41.36% to 47.88%. Fairness-related effects are attribute-dependent: age balancing and knowledge enrichment reduce selected group-level utility gaps while largely preserving utility, whereas gender balancing reduces utility without improving the evaluated gender-related indicators. Overall, preprocessing choices in fine-tuning data should be evaluated jointly in terms of utility, output behavior, and demographic sensitivity.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.03068": {
+            "title": "PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation",
+            "authors": "Junzhao Huang, Xi Wu, Zihan Wang, Zijing Wang, Ming Wang, Kang Liu, Xiaocui Yang, Shi Feng, Daling Wang, Yifei Zhang, Ting Yang, Xurui Li",
+            "first_author": "Junzhao Huang",
+            "url": "http://arxiv.org/abs/2611.03068v1",
+            "pdf_url": "http://arxiv.org/abs/2611.03068",
+            "publish_date": "2026-11-02",
+            "abstract": "Large language model (LLM) embeddings have been increasingly adopted in sequential recommendation to encode static item attributes and alleviate the limitations of item ID embeddings under sparse interactions. However, these embeddings typically capture only static content similarity while neglecting sequential transitions, and since their adaptation quality relies on sparse per-item updates or global geometric calibration, existing methods still struggle to explicitly transfer preceding interaction contexts from frequent to long-tail items under unevenly distributed behavioral evidence, limiting recommendation effectiveness across the catalog. To address this challenge, we propose PACERec, an ID-free progressive adaptation framework that incorporates preceding interaction contexts into semantic representation adaptation by learning a shared velocity field from items with sufficient interactions via frequency-weighted flow matching. In this way, PACERec progressively guides static LLM embeddings toward collaborative behavioral targets while preserving original item semantics, overcoming sparse per-item updates to effectively generalize sequential transition patterns to long-tail items for both user modeling and candidate scoring. Extensive experiments on three real-world datasets across three sequential backbones demonstrate the superiority of our method over competitive baselines in both overall and long-tail recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.02981": {
+            "title": "Utility-Aware Generative Recommendation: Utility-Enriched Semantic Codes and Utility-Guided Decoding",
+            "authors": "Yang Hu, Duo Wang, Ning Li, Kang Li, Junda She, Chengcheng Guo, Kuo Cai, Bin Liu, Youhua Liu, Xiaoshuang Chen",
+            "first_author": "Yang Hu",
+            "url": "http://arxiv.org/abs/2611.02981v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02981",
+            "publish_date": "2026-11-02",
+            "abstract": "Generative recommendation has been widely adopted in large-scale industrial recommendation systems, where multimodal item embeddings are quantized into offline semantic identifiers (SIDs) and items are retrieved by autoregressively generating their SIDs. However, conventional SID construction often underrepresents item utility reflected in post-exposure behaviors such as shares, long views, and video completion, making semantically similar items with different utility insufficiently distinguishable while struggling to accommodate rapidly changing utility signals. Moreover, generation likelihood may be misaligned with downstream utility, causing high-utility candidates to be prematurely pruned during beam search before post-generation reranking or training-time reward alignment can effectively compensate. To address these limitations, we propose UAGR, which aligns both SID construction and decoding with downstream multi-objective utility. Our Utility-Enriched Semantic Codes preserve the original semantic information while incorporating item-level utility without increasing SID length or vocabulary size, supporting incremental utility updates with no additional tokenization or sequence-decoding cost. Meanwhile, our Utility-Guided Decoding estimates candidate utility by combining predictions of multiple post-exposure outcomes and incorporates these estimates into beam scoring, reducing the risk of prematurely pruning high-utility paths while enabling flexible utility control without interfering with generative backbone training. Extensive offline experiments and online A/B tests under real-world traffic demonstrate the effectiveness and deployability of UAGR, which has been fully deployed on Kuaishou and increases video watch time by 0.206\\% online.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.02487": {
+            "title": "RecRSI: Mechanism-Guided Discovery of Recommendation Algorithms",
+            "authors": "Tingran Gan, Zhouziyue Lu, Dian Jin, Tao Li, Yang Gao, Ming Liu, Weiwen Liu, Jianghao Lin, Weinan Zhang, Yong Yu",
+            "first_author": "Tingran Gan",
+            "url": "http://arxiv.org/abs/2611.02487v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02487",
+            "publish_date": "2026-11-02",
+            "abstract": "Improving recommendation algorithms for the Web requires coordinating interacting design choices and learning from experiments. We present RecRSI, an LLM-based research framework that uses mechanism hypotheses to organize algorithm discovery. Each hypothesis links a proposed mechanism change to a reference design, a rationale, and an expected observation. MechSpace derives implementable primitives and composition rules from the task source; Research Line uses this space and prior evidence to develop and test hypotheses; Mechanism Feedback carries outcomes and their design context into subsequent research. This organization makes each experiment inform which mechanisms to develop, revise, or combine next. Across four initial recommenders and four datasets, RecRSI yields average relative improvements of 8.48% in NDCG@5 and 6.88% in HR@5 over the initial algorithms, and 2.60% and 2.20%, respectively, over the strongest competing result for each setting and metric. Component and process studies link these gains to coordinated mechanism choices and evidence-guided follow-up. Our code is publicly available at https://github.com/DynamisG210/RecRSI.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.02463": {
+            "title": "Think Globally, Generate Personally: Multi-View Thinking with Adaptive Generation for Generative Recommendation",
+            "authors": "Yuxuan Hu, Yingyi Zhang, Wenlin Zhang, Chao Zhang, Haotian Nan, Ziwei Liu, Jiancheng Dong, Tongzhou Wu, Beibei Kong, Lei Cheng, Chengxiang Zhuo, Zang Li, Wanyu Wang, Xiangyu Zhao",
+            "first_author": "Yuxuan Hu",
+            "url": "http://arxiv.org/abs/2611.02463v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02463",
+            "publish_date": "2026-11-02",
+            "abstract": "Semantic-ID-based (SID) generative recommendation (GR) represents each item as a sequence of discrete tokens and predicts the next item through autoregressive SID generation. However, existing methods face two challenges. First, insufficient shared context modeling for user sequences: full-history and recent behaviors provide overlapping yet complementary evidence, but modeling them within a single sequence may dilute current cues, whereas processing them through separate streams may fail to coordinate them. Second, insufficient personalized adaptation in progressive SID decisions: although decoder states evolve with generated prefixes, existing models typically use a shared output-side transformation across recommendation instances, without explicitly selecting a transformation suited to the current user need.   To address these challenges, we propose Multi-View Thinking with Adaptive Generation (MV-Thinker), a framework that Thinks Globally and Generates Personally. First, Multi-View Temporal Thinking uses view-specific thinking queries and readers over overlapping full-history and recent-history views, coordinating both sources into complementary user-conditioned contexts before SID generation. Second, Hierarchical Residual Adaptation organizes lightweight adapters into nested residual paths before a shared vocabulary projection, adaptively transforming context-bearing decoder states for SID decisions. Extensive experiments on four public datasets demonstrate that MV-Thinker consistently outperforms strong discriminative and generative recommendation baselines across multiple ranking metrics. The implementation code and datasets are available on: https://anonymous.4open.science/r/MV-Thinker",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.02457": {
+            "title": "Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration",
+            "authors": "Liangbo Ning, Siyuan Liang, Yi Zhou, Yifeng Zhang, Qing Li, Wenqi Fan, Dacheng Tao",
+            "first_author": "Liangbo Ning",
+            "url": "http://arxiv.org/abs/2611.02457v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02457",
+            "publish_date": "2026-11-02",
+            "abstract": "Reasoning-augmented recommender systems (RecSys) enhance user preference modeling by generating reasoning trajectories over historical interactions before making recommendations. Knowledge distillation provides a practical paradigm for transferring such reasoning capabilities from powerful large language models to lightweight RecSys. However, existing methods typically rely on a single fixed teacher, remain constrained by the teacher knowledge ceiling, and indiscriminately distill teacher-generated trajectories without assessing their actual utility for downstream recommendation. To address these limitations, we propose MUSE (Multi-Teacher Utility-guided Selection with Self-Exploration), an adaptive reasoning distillation framework that jointly improves reasoning generation and reasoning utilization. MUSE first constructs a diverse reasoning pool using multiple teacher LLMs and progressively augments it via student self-exploration, enabling the student to leverage the strengths of different teachers and gradually explore reasoning strategies beyond teacher imitation. We then develop Rank-Gain Utility Assessment (RGUA), which evaluates each candidate according to the normalized full-catalog rank improvement of the ground-truth item and identifies the most and least recommendation-beneficial trajectories. Based on these utility-aware trajectory pairs, we introduce dual-level contrastive learning objectives that guide the student generator to prefer beneficial reasoning while training the recommendation encoder to more effectively exploit recommendation-relevant preference evidence. Extensive experiments on three real-world datasets demonstrate the effectiveness and robustness of the proposed framework.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.02453": {
+            "title": "RecGroupMemory: Feedback-Aware Cohort Memory for E-Commerce Recommendation",
+            "authors": "Wendong Zhang, Weipeng Huang, Zhixin Ma, Bin Zhang, Dimin Wang",
+            "first_author": "Wendong Zhang",
+            "url": "http://arxiv.org/abs/2611.02453v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02453",
+            "publish_date": "2026-11-02",
+            "abstract": "Cohort memory can support LLM-based recommendation planning through group-level user profiles and advice. As outcome feedback becomes available, this guidance may need to be updated while preserving the underlying observations. We present RecGroupMemory, a workflow that provides this memory to an orchestration LLM and separates memory construction from feedback-based revision. It uses feedback from the previous day to revise decision guidance, while validation checks keep selected source values unchanged. Online comparisons were conducted among Taobao users with low purchasing power selected by the business team. Relative to a no-memory baseline, memory without feedback and memory with feedback showed increases of 1.58% and 1.78%, respectively, in the number of guided transaction users.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.02040": {
+            "title": "Multicriteria Recommendation System by Leveraging Predefined, Implicit, and Undefined Criteria",
+            "authors": "Emrul Hasan, Chen Ding",
+            "first_author": "Emrul Hasan",
+            "url": "http://arxiv.org/abs/2611.02040v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02040",
+            "publish_date": "2026-11-01",
+            "abstract": "Data sparsity, a long-standing problem in the recommendation system, occurs when the user-item utility matrix is sparse. For years, many approaches have been experimented with, including utilizing user's textual reviews and multiple criteria ratings. In a review-based recommendation system, user preferences and item attributes are learned from reviews, while in multi-criteria recommendation systems, criteria ratings are used for the recommendation task. Multi-criteria are domain-specific pre-defined explicit criteria and users are bound to provide feedback only on these criteria with discrete values. On the contrary, users are free to express their opinions through textual reviews, which can cover multiple perspectives or aspects. It is possible that these pre-defined, domain-specific explicit criteria are not enough to fully capture the multi-faceted user preferences. To this end, we propose a novel multi-criteria recommendation model that utilizes predefined, implicit, and undefined criteria. We use a semantic similarity-based sentence clustering method to identify the predefined and implicit criteria and a sentiment analyzer to estimate their ratings. The criteria that are extracted from the review and are aligned with predefined criteria are referred to as implicit criteria. A sentence is considered as expressing opinions on an undefined criterion if the similarity score between this sentence and all the predefined criteria is lower than a predefined threshold. Ratings are computed for each extracted implicit criterion and the undefined criterion based on the review content. Finally, we use all three types of criteria and an aggregation model to make the final rating prediction for the recommendation system. Our proposed method demonstrates the superiority compared to several baselines on TripAdvisor and Beer Advocate datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.02019": {
+            "title": "Multi-criteria Rating and Review based Recommendation Model",
+            "authors": "Emrul Hasan, Chen Ding, Alfredo Cuzzocrea",
+            "first_author": "Emrul Hasan",
+            "url": "http://arxiv.org/abs/2611.02019v1",
+            "pdf_url": "http://arxiv.org/abs/2611.02019",
+            "publish_date": "2026-11-01",
+            "abstract": "These days, due to the advancement of information technology, recommendation system has become one of the key tools for e-commerce business. E-commerce platforms allow users to provide feedback in both written comments and numerical ratings. Recommendation systems are utilized to recommend users to new or unseen items based on these previously collected comments or ratings. In recent years, multi-aspect or multi-criteria based recommendation systems have been studied a lot by the recommendation research community. However, these research works are conducted either with reviews or ratings, not with both. In this project, we argue that integrating both textual reviews (with multiple aspects) and numerical multi-criteria ratings can further enhance the overall rating prediction accuracy. We propose a Multi-criteria Rating and Review based Recommendation model (MRRRec). We show that incorporating multi-criteria ratings into multi-aspect ratings from reviews has a great impact on performance. Our proposed model outperforms several state-of-the-art models such as ANR, DeepCoNN, and Deep Multi-criteria Recommendation System in terms of MSE, MAE, precision, recall, and F1. We show that our proposed model achieves an average of 19% and 23.0% lower MSE and MAE respectively and 7.0%, 1.0% and 3.8% higher precision, recall, and F1 score respectively. We further show that our model performs significantly better with Word2Vec word embedding than the GloVe word embedding method.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.01702": {
+            "title": "SparseLift: Automatically Optimizing Opaque Sparse Paths in Industrial-Scale Recommendation Model Training",
+            "authors": "Changqing Shi, Anan Liu, Genbao Chen, Junchao Yang",
+            "first_author": "Changqing Shi",
+            "url": "http://arxiv.org/abs/2611.01702v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01702",
+            "publish_date": "2026-11-01",
+            "abstract": "The sparse path, comprising sparse operations and collective communication, is a critical component of large-scale recommendation models. However, these operations are often represented as opaque nodes in the training computation graph, hindering whole-graph optimization. We present SparseLift, a low-overhead compiler for the sparse path of large-scale recommendation training. It exposes sparse computation and communication to whole-graph analysis to expand the optimization space and improve training efficiency. By analyzing model structure and runtime information, SparseLift reconstructs opaque nodes as analyzable subgraphs, recovering the resource semantics of sparse computation and communication within the graph. Building on the recovered semantics, we design incremental cost models and a constraint-aware planner to automatically select and organize subgraph optimizations into an execution plan that is reused during subsequent steady-state training. We evaluate SparseLift on an industrial video-platform recommendation task with 100B sparse parameters and the public DLRM benchmark. SparseLift improves steady-state throughput for ordinary industrial training steps by 16.5\\% over the native baseline. On DLRM, it achieves $1.60\\times$ and $1.26\\times$ model-execution speedups over DLRM-Baseline and TorchRec, respectively.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.01568": {
+            "title": "Search-Aware On-Policy Self-Distillation with Sibling Alignment for Generative Recommendation",
+            "authors": "Rongfeng Guo, Zhuang Zhuang, Ji Dai, Peng Zhao, Shijie Li, Jie Chen, Teng Long, Vincent Tao Hu, Fei Pan",
+            "first_author": "Rongfeng Guo",
+            "url": "http://arxiv.org/abs/2611.01568v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01568",
+            "publish_date": "2026-11-01",
+            "abstract": "Generative recommendation retrieves items by autoregressively generating semantic IDs, typically via beam search. On-policy self-distillation (OPSD) enhances training supervision by transferring privileged self-teacher knowledge at student-generated states. However, beam-search retention depends on competition among prefixes: visited states differ in importance, and initially reliable decisions may approach the pruning boundary as training evolves. Moreover, conventional distribution matching couples target-token confidence with preferences among competing continuations, potentially weakening relational supervision when the self-teacher strongly favors the target. To address these challenges, we propose Search-Aware On-Policy Self-Distillation (SA-OPSD), a framework that transfers privileged self-teacher knowledge to the states visited during the student's own beam search. Specifically, we introduce Evolving-Boundary Sampling, which prioritizes search-critical states by considering both current pruning-boundary proximity and initial-reference retention-margin decline under a controlled distillation budget. Furthermore, we develop Confidence-Decoupled Branch Distillation, which separates target-probability calibration from informative sibling relations to better preserve the teacher's preferences among competing branches. Experiments on Industrial, Office, and Instruments demonstrate strong performance for SA-OPSD.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.01198": {
+            "title": "Projecting the Public: Reflections and Recommendations for Empirical Visualization Studies of General Audiences",
+            "authors": "Mandi Cai, Jack McNiel, Erik C. Nisbet, Matthew Kay",
+            "first_author": "Mandi Cai",
+            "url": "http://arxiv.org/abs/2611.01198v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01198",
+            "publish_date": "2026-10-31",
+            "abstract": "Calls for shifting visualization research to general audiences outside of professional contexts have been put forward since the early 2000s, but expanding outwards means contending with a diversity in visualization's communicative purpose beyond transmitting insights from data. After our own experiences studying public-facing visualizations, we sought a set of considerations to help early-career visualization researchers reason through designing empirical visualization studies for the general public that confronts the various ways visualizations are interpreted. We examined literature on guiding paradigms of research, reviewed 73 visualization papers that specify a focus on audiences broader than domain experts, and conducted 15 semi-structured interviews with authors of such papers, to derive the following: (1) a conceptualization of any experiment as 3 elements-casting audience, constructing experimental setting, and projecting audience impressions and interactions into measurable constructs (2) an account of interviewees' aspirations for each element of study design, versus the real challenges that occurred. We detail their approaches to navigate the gaps between aspirations and reality when working with general audiences and summarize them as actionable recommendations. The conceptual framework is intended to help junior researchers scope and outline experimental designs of visualizations \"for the masses\", while the recommendations provide concrete guidance for putting those designs into practice. The 73 papers are filterable and visualized on our study website, and our code to sample the papers is on GitHub.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2611.01195": {
+            "title": "Recommendations with Costly Verification",
+            "authors": "Ying Gao, Yingju Ma",
+            "first_author": "Ying Gao",
+            "url": "http://arxiv.org/abs/2611.01195v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01195",
+            "publish_date": "2026-10-31",
+            "abstract": "A recommender faces consumers who can verify recommendations, but differ in their attention costs or in the salience of their choice of adoption. We characterize the conditions under which a technology that increases transparency by lowering the cost of verifying a product's quality will increase or decrease false recommendations. Without commitment, reducing verification costs never increases false recommendations, but when the recommender can commit to a policy, transparency can worsen both the quality of recommendations and consumer welfare. The necessary and sufficient condition is that the log-elasticity of the distribution of consumer cost types is decreasing. It can hold when the distribution is sufficiently fat-tailed, or when it mixes sophisticated and naive consumers. Our results can be applied to platform-recommended listings, security ratings, and audits.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2611.01136": {
+            "title": "SIDRec: End-to-End Semantic ID Representation and Modeling for Recommendation",
+            "authors": "Zhuohang Jiang, Yongsen Pan, Pangjing Wu, Zihuai Zhao, Zheng Hu, Yuxin Chen",
+            "first_author": "Zhuohang Jiang",
+            "url": "http://arxiv.org/abs/2611.01136v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01136",
+            "publish_date": "2026-10-31",
+            "abstract": "Semantic IDs (SIDs) have emerged as a promising approach for discriminative recommendation by encoding continuous item rep- resentations into compact discrete identifiers. However, existing SID-based methods face two fundamental limitations: semantic mis- match between content semantics and collaborative preferences, and objective mismatch between SID construction and downstream recommendation optimization. To address these challenges, we propose SIDRec, an end-to-end recommendation-aware SID learn- ing framework that jointly models content and collaborative in- formation while aligning SID construction with recommendation objectives. Specifically, SIDRec introduces a self-updating fusion mechanism that explicitly integrates pretrained content represen- tations with collaborative embeddings initialized from a trained recommendation model, enabling preference-aware semantic mod- eling. Furthermore, SIDRec employs an MMoE-inspired joint opti- mization mechanism with shared experts and task-specific gates, allowing recommendation supervision to directly guide differen- tiable quantization and produce task-adaptive discrete representa- tions. Extensive experiments on three public benchmark datasets demonstrate that SIDRec consistently outperforms all competing methods across both AUC and GAUC, achieving up to 5.15% relative improvements over the strongest baselines. Further ablation stud- ies validate the effectiveness and complementarity of collaborative semantic modeling and end-to-end SID optimization.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.01129": {
+            "title": "HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation",
+            "authors": "Zhuohang Jiang, Yuxin Chen, Haohao Qu, ZeFei luo, Yunlong Wang, Xu Yuan, Haojie Ding, Boheng Zhang, Fan Yang, Hongyang Wang, Jun Wang, Zhongbo Sun, Wenqi Fan, Li Qing, Wenwu Ou, Peng Jiang",
+            "first_author": "Zhuohang Jiang",
+            "url": "http://arxiv.org/abs/2611.01129v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01129",
+            "publish_date": "2026-10-31",
+            "abstract": "Generative recommendation promises to simplify conventional multi-stage recommender systems by generating item Semantic IDs (SIDs) autoregressively. However, two obstacles limit its effective- ness in industrial settings: interaction-only supervision underuses the semantic knowledge encoded in pretrained language models, while beam-search likelihood ranks token sequences rather than directly estimating item relevance. To address these limitations, we propose HiGenTrans, a three-level framework that introduces LLM knowledge at the input, representation, and decision levels. First, Global Semantic Priming (GSP) adds an LLM-derived user representation to the beginning-of-sequence embedding, provid- ing a semantic prior before SID generation. Second, Hierarchi- cal Representation Transfer (HRT) aligns intermediate LLM representations with depth-matched GenRec layers through mean- centered projections and gated residual connections. Finally, Multi- Signal Decision Calibration (MDC) uses a lightweight mixture- of-experts calibrator to combine semantic relevance, generation confidence, and candidate-set context when reranking beam-search outputs. All semantic features are computed only from the observ- able interaction prefix, preventing target leakage, and can be cached offline. Experiments on three public benchmarks show that HiGen- Trans improves Recall@10 by up to 12.9% and NDCG@10 by up to 33.7% over the strongest baselines. These results demonstrate the value of transferring LLM knowledge at complementary stages of the generative recommendation pipeline.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.01072": {
+            "title": "Where Beam Search Loses Top-Ranked Items:First-Step Coverage in Generative Recommendation",
+            "authors": "Heng Yao, Hanwei Zhu",
+            "first_author": "Heng Yao",
+            "url": "http://arxiv.org/abs/2611.01072v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01072",
+            "publish_date": "2026-10-31",
+            "abstract": "Generative recommendation can reproduce a wider beam's ranked output with roughly half the prefix-capacity budget by reallocating retention capacity across semantic-ID positions. We identify a \\emph{first-step coverage bottleneck}: across six full-test settings of the TIGER generative recommender spanning three domains and two identifier constructions, every pruned exact top-10 path is first lost at the initial decoding step. An exact-catalog reference isolates search losses and guides a controlled budget intervention. Moving width to the first step raises Search Recall@10 by 0.96--10.90 percentage points at Beam-50's unchanged budget. Across all 77,373 test users with residual-quantized variational autoencoder (RQ-VAE) tokenization, the reallocated schedule reproduces Beam-100's ordered top-10 at nominal budgets of 151 rather than 301, without retraining or changing identifiers or scores. Matched-output timing saves 6.35--6.39\\% of decoder latency; profiling identifies the execution costs that limit the translation from reduced search work to runtime savings. Larger-candidate experiments reveal how output size changes retention requirements. These findings make budget placement an actionable serving decision: locate ranking loss, redirect search capacity, and preserve downstream inputs before increasing uniform beam width.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.01053": {
+            "title": "Efficient Conformal Calibration for Paired Recommendation Decisions",
+            "authors": "Xinyu Qiao, Yichen Lin, Zhewen Chen, Xue Wang, Tao Yao",
+            "first_author": "Xinyu Qiao",
+            "url": "http://arxiv.org/abs/2611.01053v1",
+            "pdf_url": "http://arxiv.org/abs/2611.01053",
+            "publish_date": "2026-10-31",
+            "abstract": "Risk control can suppress useful changes to a frozen recommendation rule. We study how to recover valid activation from the same observed fractional losses. Two specified internal calibrators can lose efficiency by compressing losses into their sum or clipping auxiliary inverse counts before averaging. We propose Averaged Conformal Risk Calibration, or ACRC, which averages before clipping. A product identity proves expected-risk validity, while pointwise bounds characterize the additional activation. For fixed populations sampled without replacement, we connect activation to signed utility under heterogeneous users and switching constraints. Near the budgets, positive population mean gain and the stated nondegeneracy conditions give positive leading-order utility increments despite sampling dependence. Across six datasets, changing only calibration improves discounted net utility by $0.010226$ over raw and $0.008337$ over RB. A separately frozen Jester confirmation gives $0.011025 \\pm 0.001082$ over raw with the rule and filter fixed, using a five-seed approximate 95 percent paired interval. Against information-matched SCoRE selecting risk or reward scores, the mean utility difference is $+0.015934 \\pm 0.001440$. These gains use more mean realized risk within the declared budgets. Upstream failures delimit the benefit: efficient calibration releases useful modifications when the proposals themselves have value.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.00972": {
+            "title": "PACT: Defending Recommendation against Promotional News Rewriting via Attack-Diverse Score Consistency",
+            "authors": "Chongxian Chen, Fan Mo, Xin Fan, Hayato Yamana",
+            "first_author": "Chongxian Chen",
+            "url": "http://arxiv.org/abs/2611.00972v1",
+            "pdf_url": "http://arxiv.org/abs/2611.00972",
+            "publish_date": "2026-10-31",
+            "abstract": "Personalized news recommenders are increasingly vulnerable to LLM-powered promotional attacks, where content providers rephrase headlines to manipulate rankings without altering underlying facts. Defending against such manipulation requires covering a wide spectrum of LLM generators and optimization strategies--ranging from stylistic prompting to reinforcement feedback--without incurring prohibitive training or inference costs. In this work, we present PACT (Pooled Attack Consistency Training), a model-agnostic defense that decouples relevance estimation from superficial rhetorical variations. PACT integrates three synergistic operations: it pools offline, fact-checked rewrites from multi-generator and multi-strategy attack sources; samples a constant number of variants at each training visit to yield an unbiased estimator of the pool-wide consistency objective under a fixed compute budget; and aligns original and rewritten ranking scores within the same user context jointly with click supervision. Requiring no architectural modifications or test-time filtering, PACT deploys the trained recommender with zero extra latency. Across nine experimental settings spanning three recommendation backbones and three unseen-generator attacks, PACT consistently achieves the lowest promotion rate and target exposure, outperforming the strongest defense baseline by up to 3.0 percentage points in promotion reduction under LANCE. Further evaluations verify that PACT's superiority holds robustly under unseen attack-strategy holdouts and adaptive white-box retraining, while keeping clean recommendation utility virtually intact.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.00564": {
+            "title": "WAR-CRAFT: Refining Web API Recommendations through Requirement Auditing",
+            "authors": "Zishuo Xu, Dezhong Yao, Zhiqiang Xu",
+            "first_author": "Zishuo Xu",
+            "url": "http://arxiv.org/abs/2611.00564v1",
+            "pdf_url": "http://arxiv.org/abs/2611.00564",
+            "publish_date": "2026-10-31",
+            "abstract": "Web API recommenders return a set of APIs for a mashup request but do not check it against provider documentation, the main public evidence of an API's capabilities. The set can therefore contain unsupported or redundant APIs and miss requested capabilities. Filling every apparent gap does not fix this, because a gap may already be served, may not need its own API, or may have no documented provider. We study post-recommendation refinement, which revises a frozen recommender's output using only the request, the catalog, and provider documentation. We propose WAR-CRAFT, which treats refinement as three decisions. An LLM removes unsupported or subsumed APIs by judging candidates jointly, then audits the remaining set against a requirement checklist derived from the request. For each uncovered requirement, a fine-tuned catalog-constrained Resolver proposes a catalog API or abstains, and an independent documentation check admits only supported proposals. On ProgrammableWeb with 7 heterogeneous upstream recommenders, WAR-CRAFT raises mean SetF1 from 0.558 to 0.644, above the strongest of 5 refinement baselines (62.5%), and roughly halves functional redundancy (0.127 to 0.065) without changing mean functional coverage. Gains range from +2.2 points on generative recommenders to +18.2 on fixed-cutoff rankers. At matched set sizes, WAR-CRAFT still outperforms truncating the upstream output, so the gain is not explained by set-size calibration alone. Our code is available at https://github.com/ZsXu-enrico/WAR-CRAFT.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.00323": {
+            "title": "Beyond Semantic IDs: Atomic Creator Tokens for Large-Scale Generative Recommendation",
+            "authors": "Zhuosheng Liu, Yihan Wu, Ziyun Xu, Xiaoxuan Liu, Longfei Yun, Kevin Han, Mingze Gao, Pengfei Wang, Junfeng Pan, Wenjie Fu, Haoran Liu",
+            "first_author": "Zhuosheng Liu",
+            "url": "http://arxiv.org/abs/2611.00323v1",
+            "pdf_url": "http://arxiv.org/abs/2611.00323",
+            "publish_date": "2026-10-30",
+            "abstract": "Recommending creators that a user does not yet follow is a cold-start problem: from hundreds of thousands of popular creators and only a short trail of prior engagements, the system must predict the next creator worth surfacing. The prevailing generative recommendation recipe tokenizes each creator into a \\emph{Semantic ID} (SID) by quantizing a frozen embedding and trains a language model to generate SIDs. We show that this SID layer, not the language model, is the binding constraint. The creator-to-SID map is many-to-one, so colliding creators must be resolved by a popularity tie-break that caps creator-level recall and favors already-popular creators, and the frozen quantizer stops the training gradient from reaching the creator representation. We propose Atomic Creator Token (ACT), which gives every creator its own vocabulary token trained end-to-end. The map is bijective, so collisions are impossible and inference is a direct top-$k$ over creator logits. In a controlled comparison on production data in which the token layer is the only variable, ACT improves creator-level Recall@15 by 19.8 points ($1.84\\times$) over a matched SID baseline, still leads when the SID codebook is enlarged $64\\times$, and serves at ${\\sim}2.7\\times$ lower per-user latency. The advantage carries over to the public KuaiRand dataset, where ACT is the only method that beats a global-popularity baseline, provided each creator token sees enough training examples. In a live A/B test, ACT is directionally positive on every reported metric against both the SID-enhanced and the classic production rankers.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
         }
     }
 }
