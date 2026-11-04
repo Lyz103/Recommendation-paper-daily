@@ -1,4 +1,4 @@
-## Updated on 2026-11-03
+## Updated on 2026-11-04
 
 ---
 
@@ -26,6 +26,17 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-03` | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | Zhen Tao, Xun Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05319) |
+| `2026-11-03` | **Dataset Recommendation for Heterogeneous and Dynamic Scholarly Graphs via Multimodal Representation Learning** | Ornella Irrera, Matteo Lissandrini, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05071) |
+| `2026-11-03` | **When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions** | Yu Zhang, Zhihan Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05006) |
+| `2026-11-03` | **Learning to Rank Explanations for Recommendation with Language Models** | Ben Kabongo, Vincent Guigue | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04775) |
+| `2026-11-03` | **ZeroGR: Filtering-First Constrained Decoding for Generative Recommendation** | Xiangrui Yang, Jiawei Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04715) |
+| `2026-11-03` | **Setting the Stage: Enhancing Music Recommendations with Spoken Introductions to Stimulate Serendipity** | Brett Binst | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04570) |
+| `2026-11-03` | **SourceFlow: Collaborative Source Coupling for Flow-Based Recommendation** | Chenghao Wu, Yongqi Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04455) |
+| `2026-11-03` | **DualEvolve: Dual-Level Self-Evolution of Mechanism and Orchestration for Recommendation** | Tianqi Gao, Chenxu Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04439) |
+| `2026-11-03` | **IntentGEO: Intent-aware Generative Engine Optimization for Recommendation** | Runlin Lei, Shiqi Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04225) |
+| `2026-11-03` | **Toward User-Centered Agentic Recommendation: When Does Platform Competition Benefit Users?** | Kehan Zheng, Deyao Hong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.04203) |
+| `2026-11-01` | **DualClusterNet: Personalized Pattern-Space Composition for Next-POI Recommendation** | Ziyang Su, Guanjie Zheng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03726) |
 | `2026-11-02` | **Diverse-Teacher On-Policy Distillation for Generative Recommendation** | Zhipeng Yi, Xinyu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03272) |
 | `2026-11-02` | **Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation** | Furkan Yasir Goksu, Yaren Yilmaz, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03113) |
 | `2026-11-02` | **PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation** | Junzhao Huang, Xi Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.03068) |

@@ -21339,6 +21339,127 @@
             "abstract": "Recommending creators that a user does not yet follow is a cold-start problem: from hundreds of thousands of popular creators and only a short trail of prior engagements, the system must predict the next creator worth surfacing. The prevailing generative recommendation recipe tokenizes each creator into a \\emph{Semantic ID} (SID) by quantizing a frozen embedding and trains a language model to generate SIDs. We show that this SID layer, not the language model, is the binding constraint. The creator-to-SID map is many-to-one, so colliding creators must be resolved by a popularity tie-break that caps creator-level recall and favors already-popular creators, and the frozen quantizer stops the training gradient from reaching the creator representation. We propose Atomic Creator Token (ACT), which gives every creator its own vocabulary token trained end-to-end. The map is bijective, so collisions are impossible and inference is a direct top-$k$ over creator logits. In a controlled comparison on production data in which the token layer is the only variable, ACT improves creator-level Recall@15 by 19.8 points ($1.84\\times$) over a matched SID baseline, still leads when the SID codebook is enlarged $64\\times$, and serves at ${\\sim}2.7\\times$ lower per-user latency. The advantage carries over to the public KuaiRand dataset, where ACT is the only method that beats a global-popularity baseline, provided each creator token sees enough training examples. In a live A/B test, ACT is directionally positive on every reported metric against both the SID-enhanced and the classic production rankers.",
             "primary_category": "cs.AI",
             "code_url": "null"
+        },
+        "2611.05319": {
+            "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+            "authors": "Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun",
+            "first_author": "Zhen Tao",
+            "url": "http://arxiv.org/abs/2611.05319v1",
+            "pdf_url": "http://arxiv.org/abs/2611.05319",
+            "publish_date": "2026-11-03",
+            "abstract": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the collaborative graph, UNDERSTAND the other side, and SYNC it from the next interaction. This formulation reveals three unresolved communication challenges: the item side never produces a comparable self-description (one-sided BUILD); profile-level signals enter only the bandwidth-limited reranker prompt rather than retrieval, where they would not compete for context tokens (prompt-trapped UNDERSTAND); and the user's description is frozen after warmup with no principled update rule (absent SYNC). We instantiate the missing stages as HARP (Homophily-aware Agentic Recommendation via dual Profiles), a training-free, three-operator addition to a frozen LLM backbone: a rule-extracted symmetric item profile (zero extra LLM calls), a channel-decomposable profile-level homophily H(phi_u, phi_i) consumed at retrieval time rather than inside the reranker prompt, and a single-pass reflective update realising in-context profile evolution without any gradient step. On four public benchmarks (Yelp, Books, MovieTV, Goodreads), HARP lifts Hit@1 over the strongest published baseline by 6.9%-24.0%, with family-wise Holm-corrected p < 1e-9 on every dataset. Ablations and a per-case attribution study show that the operators contribute complementary gains, with the retrieval-side gate as the main source; we also report the trade-off introduced by the reflective pass. We formulate agentic communication and provide a training-free instantiation. Code is available at https://github.com/Jove-Zhen/HARP.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.05071": {
+            "title": "Dataset Recommendation for Heterogeneous and Dynamic Scholarly Graphs via Multimodal Representation Learning",
+            "authors": "Ornella Irrera, Matteo Lissandrini, Daniele Dell'Aglio, Gianmaria Silvello",
+            "first_author": "Ornella Irrera",
+            "url": "http://arxiv.org/abs/2611.05071v1",
+            "pdf_url": "http://arxiv.org/abs/2611.05071",
+            "publish_date": "2026-11-03",
+            "abstract": "Researchers struggle to find relevant datasets amid the growing volume of data across repositories and scholarly publications. Manual dataset retrieval is time-consuming and often fails to identify valuable resources that are not easily discoverable through direct links or popularity metrics. Dataset recommendation, which aims to identify datasets relevant to a paper, author, or query, has become essential for improving dataset discoverability and reuse. However, this task remains challenging because Scholarly Knowledge Graphs (SKGs) are large-scale, heterogeneous, dynamic, and incomplete. Although openly available SKGs organize scientific knowledge by linking scholarly outcomes, they often lack meaningful connections between datasets, leaving them isolated and underutilized. These graphs contain millions of evolving relations but still suffer from missing or inaccurate metadata, duplicate records, and weak dataset integration. This work presents the Multimodal Scholarly Attention Network (MM-SAN), a heterogeneous multimodal graph representation learning method for recommending datasets relevant to research publications within real-world SKGs. MM-SAN combines topology-aware and text-based embeddings, enabling effective recommendations even when textual metadata is limited or absent. It operates in transductive, semi-inductive, and fully inductive settings, adapting to evolving SKGs without requiring retraining. Experiments show that MM-SAN outperforms state-of-the-art methods, providing a robust and scalable solution for dataset recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.05006": {
+            "title": "When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions",
+            "authors": "Yu Zhang, Zhihan Wang, Yuhang Lu, Shuai Li",
+            "first_author": "Yu Zhang",
+            "url": "http://arxiv.org/abs/2611.05006v1",
+            "pdf_url": "http://arxiv.org/abs/2611.05006",
+            "publish_date": "2026-11-03",
+            "abstract": "Content-category dashboards summarize production recommendation logs, although the serving policy selects the users, items, and contexts behind each mean. Using KuaiRand random-insertion impressions, we audit these summaries on the same 12,472 users and 5,486 videos in both logs. Standard means have absolute/centered mean absolute error (MAE) 0.1935/0.0491 and rank correlation 0.7833. User demeaning plus a random grand-mean anchor reduces absolute MAE by 80.0%, but centered MAE by only 21.0%, without reliably improving rank. A complete-support ledger allocates weighted squared error mainly to within-video residual (72.41%) and video mix (23.90%), with 3.65% from random support. In a frozen later test, early category calibration reaches MAE 0.0251 versus 0.0531 for scalar calibration; their direct difference is -0.0280 [-0.0296, -0.0172]. Decision evidence is cutoff-specific: the nominal top-10 regret change for row-weighted demeaning versus naive is -0.0062 [-0.0084, -0.0003], while top-5 and top-20 intervals include zero. The six-contrast family-wise top-10 interval [-0.0136, 0.0013] includes zero. An outcome-free disjoint randomized-reference split also leaves all six nominal contrasts covering zero. A known-truth stress test shows incomplete improvement under a mean-additive positive control and failure under item mix and weak overlap. All decompositions are descriptive and each result is conditional on its overlap cohort. KuaiRand intervals quantify user-cluster variation conditional on the realized catalog and calendar; we claim neither intrinsic category effects nor a universally valid correction.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.04775": {
+            "title": "Learning to Rank Explanations for Recommendation with Language Models",
+            "authors": "Ben Kabongo, Vincent Guigue",
+            "first_author": "Ben Kabongo",
+            "url": "http://arxiv.org/abs/2611.04775v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04775",
+            "publish_date": "2026-11-03",
+            "abstract": "Recommender systems are ubiquitous on the Web, making understandable explanations essential for users. Although large language models (LLMs) increasingly generate natural-language justifications, evaluating their factual grounding and personalized relevance remains challenging. Statement-level ranking offers an alternative by selecting concise, review-derived explanations, enabling fine-grained and reproducible evaluation using established ranking metrics. However, existing statement ranking methods largely rely on collaborative representations, while semantic enhancements often fail to outperform simple user-history popularity baselines. Moreover, directly adapting language models for personalized statement ranking remains largely unexplored. In this work, we introduce LMStaR (Language Models for Statement Ranking), a fully text-based framework that formulates personalized explanation ranking as dense retrieval. A query encoder represents the user's interaction history and target-item metadata, while a statement encoder maps candidate explanations into a shared embedding space. Both encoders are jointly adapted through multi-positive contrastive learning to learn personalized relevance. Experiments on Amazon Beauty, Amazon Toys, and Yelp show that LMStaR achieves the highest NDCG@1 across all three domains, outperforming CLER by 1.06--8.25 points (+11.8--65.9%). It also leads top-five ranking on both Amazon datasets, although CLER remains stronger on Yelp. Task-specific adaptation improves all five evaluated backbones and transfers across domains without target-domain fine-tuning. Counterfactual analyses further reveal the importance of user-specific histories. These findings highlight the potential of task-adapted language models for personalized explanation ranking.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.04715": {
+            "title": "ZeroGR: Filtering-First Constrained Decoding for Generative Recommendation",
+            "authors": "Xiangrui Yang, Jiawei Yang, Liang Zeng, Daqian Ding, Ziqian Liu, Bing Tian, Cheng Peng, Yunfeng Zhao, Fangyu Zhang, Jiaqiang Liu, Xiao Liang, Yiming Qiu",
+            "first_author": "Xiangrui Yang",
+            "url": "http://arxiv.org/abs/2611.04715v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04715",
+            "publish_date": "2026-11-03",
+            "abstract": "Generative recommendation is gaining traction in production, retrieving items by generating their identifiers one token at a time. The generated sequences must identify relevant catalog items, so constrained decoding couples relevance scoring with validity filtering. Because most possible sequences are invalid, scoring before filtering wastes computation on candidates that will be discarded. Our evaluation shows that filtering first can avoid this work with negligible impact on recommendation quality. We present ZeroGR, a filtering-first constrained decoding system for generative recommendation. ZeroGR uses a step-sliced filtering index to reduce GPU memory use by tailoring data representations to each decoding step. Its execution engine adopts shared-slot execution to accelerate data exchange across stages and hybrid projection to adapt computation to workload patterns, thereby reducing execution overhead. During index refreshes, ZeroGR applies layout-guided streaming construction to speed up updates and limit serving interference. Extensive evaluation shows that ZeroGR accelerates the filtering and scoring pipeline by up to $9.9\\times$ over representative baselines while reducing GPU index memory use and accelerating index reconstruction.",
+            "primary_category": "cs.DB",
+            "code_url": "null"
+        },
+        "2611.04570": {
+            "title": "Setting the Stage: Enhancing Music Recommendations with Spoken Introductions to Stimulate Serendipity",
+            "authors": "Brett Binst",
+            "first_author": "Brett Binst",
+            "url": "http://arxiv.org/abs/2611.04570v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04570",
+            "publish_date": "2026-11-03",
+            "abstract": "People like to keep their music listening fresh and interesting, but recommender systems often struggle to support this need. Even when a recommended song is potentially refreshing and enriching, listeners may not perceive it as such. Building on Silvia's appraisal theory of interest, this paper studies whether enhancing recommendations with spoken introductions, immersive or informative, can stimulate two distinct flavors of experienced serendipity: taste-broadening (sparking interest in music outside one's typical preferences) and taste-deepening (deepening interest in music within one's typical preferences). Results from a large-scale user study show that both introduction types stimulate taste-broadening and taste-deepening serendipity. Taste-broadening is most effectively stimulated through transportation (absorption in a narrative world), whereas taste-deepening is most effectively stimulated through cognitive elaboration (learning something new about the artist or the social context in which the music emerged). We discuss how these findings could be translated into practice through curated taste-broadening playlists, where both introduction types appear promising, and taste-deepening playlists, where informative introductions seem particularly effective.",
+            "primary_category": "cs.HC",
+            "code_url": "null"
+        },
+        "2611.04455": {
+            "title": "SourceFlow: Collaborative Source Coupling for Flow-Based Recommendation",
+            "authors": "Chenghao Wu, Yongqi Zhou, Jin Chen, Yifeng Zhou, Jinchang Zhu, Junwei Pan, Chao Zhou, Zhixiang Feng, Chengguo Yin, Menglin Yang",
+            "first_author": "Chenghao Wu",
+            "url": "http://arxiv.org/abs/2611.04455v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04455",
+            "publish_date": "2026-11-03",
+            "abstract": "Diffusion-based recommenders learn user preferences by denoising interaction histories, but the added noise can distort the original preference signals. Flow-based collaborative filtering (CF) instead learns a discrete path from a sampled source to the user's observed training interactions (the target history), enabling inference in a few steps. Existing flow-based CF methods sample sources using global item frequencies to reflect the sparsity and popularity of observed interactions. Each source is sampled independently of its target history, leaving the predictor without user-specific source cues for learning to reconstruct that history. We propose SourceFlow, which brings collaborative structure into the source distribution itself rather than adding further conditioning to the predictor. Like inference from observed histories, training uses collaborative evidence to predict missing interactions. Specifically, Neighborhood Coupling constructs displaced binary sources by replacing historical items with unobserved collaborative alternatives. Collaborative Consensus further refines replacement probabilities using evidence from other interactions of users who share the observed item. Stretched Restoration retains these replacements at late flow times during training, providing more opportunities to recover the original interactions. Experiments on five recommendation datasets show consistent improvements over competitive baselines, including a mean relative Recall@10 gain of 15.7% over the strongest flow-based baseline. Controlled experiments confirm that these gains depend on correctly pairing collaborative sources with their target histories, as reassigning the same source vectors across users reverses the gains. Code will be publicly released upon acceptance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.04439": {
+            "title": "DualEvolve: Dual-Level Self-Evolution of Mechanism and Orchestration for Recommendation",
+            "authors": "Tianqi Gao, Chenxu Wang, Wenxuan Yang, Yueqi Mou, Biao Tang, Ming Liu, Peng Yan",
+            "first_author": "Tianqi Gao",
+            "url": "http://arxiv.org/abs/2611.04439v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04439",
+            "publish_date": "2026-11-03",
+            "abstract": "Recommender systems are widely used in e-commerce and content platforms, where improvement requires repeated model design, training optimization, and experimental validation. Large language model (LLM) agents increasingly automate this development cycle. Sustained autonomous improvement requires agents to improve both recommendation models and their development workflows. However, task-performance-driven approaches select updates mainly by candidates' final scores, without a separate optimization signal for experimentation quality. We therefore present DualEvolve, a dual-level framework that co-evolves recommendation mechanisms and agent orchestration toward recursive self-improvement. Inner evolution revises model and training code using task feedback to improve recommendation performance. Outer evolution scores the inner-loop experimental process, updates harness and skill rules using these scores and execution traces, and adjusts orchestration choices based on next-round scores to improve the quality of subsequent experiments. Experiments on MovieLens-1M and three Amazon Reviews 2023 subsets cover four recommendation methods and 16 settings. DualEvolve achieves higher test means than Base, OpenEvolve, and DeepEvolve in all 64 setting-metric comparisons, with macro-averaged relative gains over DeepEvolve of 7.6% (HR@5) and 9.0% (NDCG@5).",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.04225": {
+            "title": "IntentGEO: Intent-aware Generative Engine Optimization for Recommendation",
+            "authors": "Runlin Lei, Shiqi Zhang, Xiaokui Xiao, Zhewei Wei",
+            "first_author": "Runlin Lei",
+            "url": "http://arxiv.org/abs/2611.04225v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04225",
+            "publish_date": "2026-11-03",
+            "abstract": "Large language models (LLMs) increasingly shape recommendations across chatbots, e-commerce, and user-generated content (UGC) platforms, creating demand for Generative Engine Optimization (GEO) to improve item visibility in generated responses. Existing GEO studies are mainly content-centric, optimizing visibility under general-purpose queries. However, a shared item description usually serves users with different needs and decision goals, resulting in its visibility gains being dependent on the request. To investigate how changing intent affects visibility, we formulate IntentGEO to evaluate shared rewrites across need specificity and decision progression. We revisit existing GEO methods and find that their visibility gains vary across user intents. More critically, learning-based prompt optimization can underperform its handwritten seed on average. Tracing these updates reveals prompt drift from explicit recommendation instructions toward generic promotional tactics. To address this drift, we propose AMO (Anchored Meta-Optimization), which preserves recommendation instructions in a fixed core while learning appended strategies from citation feedback. Across four domains and ten intent states, AMO improves average citation-rank gain by 35% over the strongest prior learning-based baseline and leads on nine states. Ablations show that learned additions improve on the fixed core alone and that AMO outperforms full-prompt optimization initialized from that core. It also achieves the highest gains in an agentic recommendation pipeline and, after separate adaptation, on Doubao, a commercially deployed, closed-source online assistant. These findings highlight user intent as a key dimension of GEO evaluation and support anchored adaptation across recommendation needs and decision stages.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.04203": {
+            "title": "Toward User-Centered Agentic Recommendation: When Does Platform Competition Benefit Users?",
+            "authors": "Kehan Zheng, Deyao Hong, Qian Li, Jun Zhang, Jie Jiang, Hongning Wang",
+            "first_author": "Kehan Zheng",
+            "url": "http://arxiv.org/abs/2611.04203v1",
+            "pdf_url": "http://arxiv.org/abs/2611.04203",
+            "publish_date": "2026-11-03",
+            "abstract": "Conventional recommender systems operate within platform-specific catalogs, limiting access to potentially valuable resources across platforms. We propose user-centered agentic recommendation, a paradigm in which user agents compare recommendations from competing platform agents, and formalize their interaction as a repeated game. Platforms strategically modify descriptions without changing intrinsic item value, while each user agent assesses platform credibility using feedback from consumed items only. Our analysis shows that expanded resource access need not improve user welfare: strategic misrepresentation and limited verification can offset the benefits of platform competition. We quantify when platform credibility assessment allows users to benefit from broader access despite strategic exaggeration. Our analysis identifies resource and reporting conditions that guarantee higher average welfare than the original platform with an interaction budget linear in platform count. Experiments on synthetic and Amazon-grounded markets show that credibility assessment can improve finite-horizon utility, while its benefits depend on market size and mechanism parameters.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.03726": {
+            "title": "DualClusterNet: Personalized Pattern-Space Composition for Next-POI Recommendation",
+            "authors": "Ziyang Su, Guanjie Zheng, Jilin Hu, Linghe Kong",
+            "first_author": "Ziyang Su",
+            "url": "http://arxiv.org/abs/2611.03726v1",
+            "pdf_url": "http://arxiv.org/abs/2611.03726",
+            "publish_date": "2026-11-01",
+            "abstract": "Next point-of-interest (POI) recommendation supports personalized place discovery on location-based Web platforms. Mobility routines can recur across users while being realized at different places and adapted to individual preferences. We present DualClusterNet, a causal sequential recommender that composes two population-shared prototype dictionaries. At each observed prefix, soft routers retrieve pattern and spatial mixtures; a factorized multiplicative interaction couples them, feature-wise affine modulation adapts the shared representation, and a separate user-conditioned branch with an additive--projective gate retains individual variation. The prediction head combines this representation with a learned first-order transition term and ranks the complete training POI vocabulary. We evaluate on NYC and TKY using a training-only vocabulary and an original-final-target protocol that neither bridges unknown POIs nor substitutes earlier targets. The available single-seed results show competitive full-candidate ranking, while controlled analyses support the contribution of the compositional and personalized branches. Code is available at https://anonymous.4open.science/r/DualClusterNet-F4EE/.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
