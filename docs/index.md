@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-04
+## Updated on 2026-11-05
 
 ---
 
@@ -23,6 +23,11 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-04` | **Deliberate Latent Reasoning for Sequential Recommendation** | Haobo Zhang, Qiannan Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.06521) |
+| `2026-11-04` | **PMRecBench: A Benchmark for Personalization in Recommendation Agents under Multimodal Queries** | Xiaoyu Zhang, Yougang Lyu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.06349) |
+| `2026-11-04` | **From Waste to Discovery: Recycling High-Scored Unexposed Candidates in Taobao Feed Recommendation** | Ge Fan, Kai Meng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05997) |
+| `2026-11-04` | **One Basket, Many Experts: Decorrelated Re-ranking for Financial Asset Recommendation** | Ryuki Unno, Keigo Sakurai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05952) |
+| `2026-11-03` | **Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling** | John Martabano Landy, Louis C. Tiao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05643) |
 | `2026-11-03` | **HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation** | Zhen Tao, Xun Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05319) |
 | `2026-11-03` | **Dataset Recommendation for Heterogeneous and Dynamic Scholarly Graphs via Multimodal Representation Learning** | Ornella Irrera, Matteo Lissandrini, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05071) |
 | `2026-11-03` | **When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions** | Yu Zhang, Zhihan Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05006) |
