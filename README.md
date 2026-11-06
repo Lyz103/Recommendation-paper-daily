@@ -1,4 +1,4 @@
-## Updated on 2026-11-05
+## Updated on 2026-11-06
 
 ---
 
@@ -26,6 +26,10 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-05` | **Do Recommenders Need to Think in Words? Latent Reasoning for Efficient LLM-Based Recommendation** | Hongyang Su, Beibei Kong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07866) |
+| `2026-11-05` | **OptST: Optimizing Semantic Tokenization for LLM-Enhanced Recommendation** | Hanchong Chen, Jie Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07523) |
+| `2026-11-05` | **BRIDGE: Bridging the Semantic Quantization Gap for Generative Recommendation** | Yatong Xiao, Mingjie Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07425) |
+| `2026-11-05` | **Robust Ranking of Port Impacts from Impending Tropical Cyclones: A Two-Stage Recommendation System** | Chenchen Kuai, Shixuan Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07296) |
 | `2026-11-04` | **Deliberate Latent Reasoning for Sequential Recommendation** | Haobo Zhang, Qiannan Zhu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.06521) |
 | `2026-11-04` | **PMRecBench: A Benchmark for Personalization in Recommendation Agents under Multimodal Queries** | Xiaoyu Zhang, Yougang Lyu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.06349) |
 | `2026-11-04` | **From Waste to Discovery: Recycling High-Scored Unexposed Candidates in Taobao Feed Recommendation** | Ge Fan, Kai Meng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.05997) |
