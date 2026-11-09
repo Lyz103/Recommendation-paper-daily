@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-08
+## Updated on 2026-11-09
 
 ---
 
@@ -23,6 +23,15 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-06` | **SAGE-PAIR: Source-Pretrained Routed Residual Adaptation for Sparse-Feedback Recommendation** | Weiqing Zeng, Zida Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09728) |
+| `2026-11-06` | **Reliable Prerequisite-Aware Learning Path Recommendation under Uncertain Knowledge Structures: Long-Horizon Evaluation and Cross-Dataset Validation** | M. M. Golam Hafiz, A. K. M. Shahriar Emtiaz, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09345) |
+| `2026-11-06` | **PAGSL: Path-Augmenting Graph Structure Learning for explainable scholar recommendation** | Jiale Xu, Mingshu Ai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09126) |
+| `2026-11-06` | **Rethinking Latent Reasoning for Generative Recommendation: Beyond Teacher-Generated CoT and Recurrent Hidden-State Feedback** | Yiwen Chen, Fuwei Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09006) |
+| `2026-11-05` | **Generative Search and Recommendation at Shopify** | Juhana Kangaspunta, Khalil Hajji, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.08804) |
+| `2026-11-05` | **SteerGR: Steering Generative Recommendation via Sparse Autoencoders for Controllable Game Discovery** | Sunkyung Lee, Xiaokai Wei, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.08790) |
+| `2026-11-05` | **Learning from How Users Interpret: Personalizing Recommendation Explanation Order** | Deo Munduku, Elsa Negre | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.08785) |
+| `2026-11-05` | **Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation** | Emilly Pitman de Castro, Vanessa Silva, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.08718) |
+| `2026-11-05` | **CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation** | Kai Zhao, Guilin Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.08566) |
 | `2026-11-05` | **Do Recommenders Need to Think in Words? Latent Reasoning for Efficient LLM-Based Recommendation** | Hongyang Su, Beibei Kong, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07866) |
 | `2026-11-05` | **OptST: Optimizing Semantic Tokenization for LLM-Enhanced Recommendation** | Hanchong Chen, Jie Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07523) |
 | `2026-11-05` | **BRIDGE: Bridging the Semantic Quantization Gap for Generative Recommendation** | Yatong Xiao, Mingjie Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.07425) |
