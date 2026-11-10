@@ -1,4 +1,4 @@
-## Updated on 2026-11-09
+## Updated on 2026-11-10
 
 ---
 
@@ -26,6 +26,15 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-09` | **RecoGEM: A Serving System for Production-Scale Generative Recommendation** | Xiangrui Yang, Yunfeng Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.12296) |
+| `2026-11-09` | **Severity-Controlled Prediction Sets for Medication Recommendation** | Yu Gu, Zijun Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11847) |
+| `2026-11-08` | **Not All Branches Are Equal: Adaptive Semantic ID Construction for Generative Recommendation** | Guy Hadad, Haggai Roitman, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11549) |
+| `2026-11-08` | **IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning** | Xiao Chen, Dong Fang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11346) |
+| `2026-11-08` | **An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users' Temporal Preference** | Jung-Hsien Chiang, Chung-Yao Ma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11278) |
+| `2026-11-07` | **Slim Foundation Models for Latency-Critical Recommendation Serving** | Danyal Aftab, Anas Zafar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11013) |
+| `2026-11-07` | **Clinical Evidence-Guided Residual Learning for Medication Recommendation with Dynamic DDI Regularization** | Zesheng Li, Chengchang Pan, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.10613) |
+| `2026-11-07` | **SepLRM: A Foundation Model Paradigm for Recommendation** | Di Chen, Xijun Xiao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.10356) |
+| `2026-11-07` | **SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments** | Jingtong Yang, Dongding Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.10349) |
 | `2026-11-06` | **SAGE-PAIR: Source-Pretrained Routed Residual Adaptation for Sparse-Feedback Recommendation** | Weiqing Zeng, Zida Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09728) |
 | `2026-11-06` | **Reliable Prerequisite-Aware Learning Path Recommendation under Uncertain Knowledge Structures: Long-Horizon Evaluation and Cross-Dataset Validation** | M. M. Golam Hafiz, A. K. M. Shahriar Emtiaz, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09345) |
 | `2026-11-06` | **PAGSL: Path-Augmenting Graph Structure Learning for explainable scholar recommendation** | Jiale Xu, Mingshu Ai, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.09126) |

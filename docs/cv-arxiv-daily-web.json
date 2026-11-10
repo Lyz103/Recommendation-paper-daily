@@ -21542,7 +21542,7 @@
             "title": "BRIDGE: Bridging the Semantic Quantization Gap for Generative Recommendation",
             "authors": "Yatong Xiao, Mingjie Sun, Peng Wang, Wenjin Wu, Peng Jiang",
             "first_author": "Yatong Xiao",
-            "url": "http://arxiv.org/abs/2611.07425v1",
+            "url": "http://arxiv.org/abs/2611.07425v2",
             "pdf_url": "http://arxiv.org/abs/2611.07425",
             "publish_date": "2026-11-05",
             "abstract": "Generative recommendation retrieves items by autoregressively generating Semantic IDs(SIDs), where an RQ-VAE quantizes each item into a hierarchical SID sequence that the decoder generates level by level. We identify an overlooked bottleneck in this paradigm: the Semantic Quantization Gap(SQG). Quantization derives SIDs from rich continuous signals, including codebook centroids, local neighborhood geometry, and level-wise entropy. However, the decoder receives only discrete identifiers and loses the semantic structure that shaped them. This mismatch manifests in three ways: a grounding gap, where the decoder lacks semantic anchors when target-side information is limited; a neighborhood gap, where token-level supervision discards inter-item similarity and exacerbates exposure bias; and a difficulty gap, where computation is allocated uniformly despite generation difficulty diminishing with depth.   To bridge the SQG, we propose BRIDGE. Codebook-grounded latent reasoning injects frozen quantizer centroids as semantic anchors before SID generation. Privileged EMA self-distillation transfers neighborhood-aware knowledge from a teacher to an on-policy student, preserving inter-item geometry while mitigating exposure bias. Effort-aware recurrence allocates more computation to the challenging early levels and progressively reduces it with depth. Across three Amazon benchmarks, BRIDGE improves Recall@10 and NDCG@10 by 10.9% and 9.7% on average over the strongest baseline (up to 12.6% and 10.7%). In a one-week online A/B experiment on a large-scale e-commerce advertising platform with 5% traffic, BRIDGE improves eCPM by 0.65%.",
@@ -21657,6 +21657,105 @@
             "publish_date": "2026-11-05",
             "abstract": "Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users with sparse interaction histories it often lowers quality. We present CascadeRec, a two-tier LLM reranking cascade deployed in production at a large financial planning and analysis (FP&A) SaaS provider. It serves content recommendations to enterprise tenants on AWS EKS and GKE. A lightweight Tier-1 model reranks every request. A router escalates only the requests where extra inference-time compute is likely to help, and sends them to a more expensive Tier-2 procedure (self-consistency sampling, multi-path reasoning, or a larger model). The system has run in a production A/B experiment for over a month. Compared with uniform use of the expensive tier, CascadeRec has reduced inference cost by about 10%, with minimal latency impact and no quality regression observed to date. Tenant data cannot be released, so we also evaluate the pipeline on public benchmarks (MovieLens-1M and Amazon-Electronics). Segment-level analysis with paired-bootstrap confidence intervals shows that uniform LLM reranking lowers NDCG@10 for sparse-history users by up to 30%, and its only statistically significant gain appears on the segment with the longest histories. Escalating cold users can make the loss larger instead of repairing it. Which segments benefit from escalation depends on the domain, and this motivates the segment-gated rollout we use in production. We describe the deployment architecture, the measured benefits, and lessons learned, including inter-tenant load imbalance as a driver for cascading and the handling of LLM output-parsing failures at the serving layer.",
             "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.12296": {
+            "title": "RecoGEM: A Serving System for Production-Scale Generative Recommendation",
+            "authors": "Xiangrui Yang, Yunfeng Zhao, Jiawei Yang, Fangyu Zhang, Enrui Zhao, Liang Zeng, Cheng Peng, Minhui Xie, Jiaqiang Liu, Xiao Liang, Yiming Qiu",
+            "first_author": "Xiangrui Yang",
+            "url": "http://arxiv.org/abs/2611.12296v1",
+            "pdf_url": "http://arxiv.org/abs/2611.12296",
+            "publish_date": "2026-11-09",
+            "abstract": "Generative recommendation (GR) is moving industrial recommender systems (RecSys) from scoring candidate items to autoregressively generating item identifiers. This shift promises higher recommendation quality, but makes serving substantially harder: each request executes a short sequence of dependent decoding steps that explore a large item space and select promising candidates on the latency-critical path. GR not only creates structural mismatches with conventional RecSys pipelines, but also challenges the architectural and optimization assumptions of LLM serving stacks, making direct adoption of existing systems difficult. We present RecoGEM, our production GR serving system. RecoGEM uses a runtime--engine decoupling architecture to move GR-specific serving responsibilities, such as candidate-state transitions and live artifact updates, to a dedicated runtime. Its execution engine exploits GR's short token sequences, large candidate populations, and predictable step shapes to optimize self-attention, candidate selection, and execution planning. RecoGEM has been deployed for over nine months across our production lines, serving applications with hundreds of millions of users and supporting more than ten GR model families. On our OneModel production workloads, RecoGEM reaches over 1,000 QPS per serving instance with P99 latency below 35 ms and a 2.88$\\times$ throughput improvement over representative baselines.",
+            "primary_category": "cs.DC",
+            "code_url": "null"
+        },
+        "2611.11847": {
+            "title": "Severity-Controlled Prediction Sets for Medication Recommendation",
+            "authors": "Yu Gu, Zijun Yu, Chi-Kuang Yeh, Xinyu Wang, Ziyang Song",
+            "first_author": "Yu Gu",
+            "url": "http://arxiv.org/abs/2611.11847v1",
+            "pdf_url": "http://arxiv.org/abs/2611.11847",
+            "publish_date": "2026-11-09",
+            "abstract": "Medication recommendation is a multi-label prediction task. However, existing prediction-set evaluation and calibration methods rely mainly on exact-overlap metrics and therefore treat all missed medications as equally severe, overlooking how closely the prediction set matches them within the medication hierarchy. To address this, we introduce Conformal Severity Control (CSC), a post-hoc framework for calibrating medication prediction sets under hierarchy-aware mismatch severity. CSC uses the Anatomical Therapeutic Chemical (ATC) hierarchy to quantify mismatch severity and controls patient-level severity without retraining the predictor, supporting both average severity and upper-quantile severity for the highest-severity mismatches. Experiments on MIMIC-IV show that CSC tracks user-specified severity tolerances and shifts prediction sets away from distant mismatches toward exact or close matches.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.11549": {
+            "title": "Not All Branches Are Equal: Adaptive Semantic ID Construction for Generative Recommendation",
+            "authors": "Guy Hadad, Haggai Roitman, Bracha Shapira",
+            "first_author": "Guy Hadad",
+            "url": "http://arxiv.org/abs/2611.11549v1",
+            "pdf_url": "http://arxiv.org/abs/2611.11549",
+            "publish_date": "2026-11-08",
+            "abstract": "Generative recommendation models represent items as sequences of discrete tokens known as semantic IDs. Existing approaches derive these identifiers using residual or hierarchical vector quantization, assuming that tokens carry independent semantic meaning across quantization levels. Revisiting this assumption, we argue that semantic IDs should behave as hierarchical paths where each token's meaning is conditioned on its prefix. This highlights a mismatch between conventional fixed-codebook quantization and the hierarchical structure implicitly learned by generative recommenders. Motivated by this insight, we propose Adaptive Silhouette Tree (AST), a top-down divisive clustering method that constructs semantic IDs as paths within a tree structure. Unlike prior methods with fixed branching factors, AST dynamically determines the number of branches at each node by maximizing the silhouette coefficient, enabling finer partitions in dense regions and compact groupings in homogeneous ones. We further introduce constrained variants that enforce minimum probability mass during splitting to improve supervision for long-tail items. Extensive experiments on five Amazon Review datasets of varying sizes and domains show that AST significantly outperforms strong baselines. These results demonstrate that aligning semantic ID construction with the inherent hierarchical structure of generative recommenders leads to more effective recommendations.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.11346": {
+            "title": "IntentLens: Grounding Underspecified Multimodal Queries for Recommendation via Tool-Augmented Reasoning",
+            "authors": "Xiao Chen, Dong Fang, Haitao Li, Qing Li",
+            "first_author": "Xiao Chen",
+            "url": "http://arxiv.org/abs/2611.11346v1",
+            "pdf_url": "http://arxiv.org/abs/2611.11346",
+            "publish_date": "2026-11-08",
+            "abstract": "As intelligent personal assistants are increasingly deployed in real-world scenarios, recommendation paradigms are shifting from passive preference matching to inferring user intent from underspecified multimodal inputs. In practical interactions, users typically issue a reference image paired with a vague natural language query, keeping key visual attributes, personalized preferences, and item-side constraints implicit. Existing recommendation methods either leverage historical user interactions augmented with multimodal item features or assume fully articulated textual queries; both paradigms struggle to resolve underspecified multimodal queries for accurate item matching. To address this limitation, we propose IntentLens, a tool-augmented recommendation framework that grounds ambiguous multimodal queries into query-relevant evidence prior to user-item matching. IntentLens follows a ground-then-rank pipeline: a shared multimodal LLM leverages visual tools, user memory modules, and item attribute retrieval tools to (i) infer latent user intent from image-text inputs and (ii) augment each candidate item with fine-grained, query-conditioned evidence. Subsequently, a lightweight ranker scores candidates based on the grounded representations. To facilitate research in this novel setting, we construct two benchmarks with underspecified multimodal queries, namely \\textsc{GoogleReview-MMTool} and \\textsc{Yelp-MMTool}. Extensive experiments on these benchmarks demonstrate that IntentLens outperforms competitive MLLM and retrieval baselines, and exhibits strong generalization to unseen categories and datasets.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.11278": {
+            "title": "An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users' Temporal Preference",
+            "authors": "Jung-Hsien Chiang, Chung-Yao Ma, Chi-Shiang Wang, Pei-Yi Hao",
+            "first_author": "Jung-Hsien Chiang",
+            "url": "http://arxiv.org/abs/2611.11278v1",
+            "pdf_url": "http://arxiv.org/abs/2611.11278",
+            "publish_date": "2026-11-08",
+            "abstract": "Recommendation systems have become more important since the widespread use of the Internet. The large amount of information means that it is difficult for users to discover they really need. However, users' preferences can change over time because of the age and the impact of social networks. Recommendation systems must capture users' preferences and recommend suitable items, which is a difficult challenge. This study proposes a novel recommendation system that adapts to the changing preferences of users. By learning and adapting to users' changing preferences better recommendations are provided. This study uses context factors as additional information to model users' preferences more precisely. For the proposed recommendation system, the context is based on users' interaction items within each defined time interval. This study proposes two novel attention mechanisms for the recommendation system. The contextual item attention module captures contextual information, changing pattern in users' preference and the importance of items. The multi-head attention module extends the diversity of users' preferences and adapts to changing preferences. The recommendation performance is improved using additional item's temporal information to model the contextual item's representation. Experiments compare the proposed algorithm with several state-of-the-art recommendation methods using three real-world datasets. The experimental results demonstrate that the proposed context-aware recommendation model outperforms traditional methods and demonstrate the effectiveness with which contextual information is captured by the attention mechanism.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.11013": {
+            "title": "Slim Foundation Models for Latency-Critical Recommendation Serving",
+            "authors": "Danyal Aftab, Anas Zafar, Assadig Abakr, Steven Davy",
+            "first_author": "Danyal Aftab",
+            "url": "http://arxiv.org/abs/2611.11013v1",
+            "pdf_url": "http://arxiv.org/abs/2611.11013",
+            "publish_date": "2026-11-07",
+            "abstract": "Click-through rate (CTR) prediction is a core component of recommendation and advertising systems. Large language models (LLMs) offer rich semantic priors that improve prediction quality, particularly in cold-start and long-tail settings. Injecting a full-scale LLM into a CTR pipeline is, however, prohibitively expensive at inference time: existing LLM-enhanced CTR methods avoid this cost by caching LLM outputs offline rather than serving the LLM online. We propose a resource-efficient pipeline, SlimFM, that makes online LLM-based semantic modeling practical: (1) dependency-aware structured pruning compresses LLaMA3-8B by 44% to a 4.5B-parameter backbone; (2) LoRA-based field-aware fine-tuning trains the pruned model to produce discriminative field-level semantic embeddings from lightweight textual prompts; (3) a semantic-guided fusion module injects these embeddings into the feature interactions of a conventional CTR model. Across four datasets and six CTR backbones, SlimFM retains over 99% of uncompressed-model accuracy while reducing inference latency by up to 3.4x relative to existing LLM-enhanced baselines.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.10613": {
+            "title": "Clinical Evidence-Guided Residual Learning for Medication Recommendation with Dynamic DDI Regularization",
+            "authors": "Zesheng Li, Chengchang Pan, Honggang Qi",
+            "first_author": "Zesheng Li",
+            "url": "http://arxiv.org/abs/2611.10613v1",
+            "pdf_url": "http://arxiv.org/abs/2611.10613",
+            "publish_date": "2026-11-07",
+            "abstract": "Medication recommendation must combine patient-specific treatment evidence with the interaction structure of a prescription. The central challenge is to determine which evidence supports each medication and how strongly to regularize interactions while preserving predictive quality. We propose EviDrug, a clinical evidence-guided residual learning framework. Its clinical-memory backbone integrates a self-trained visit-aware encoder, training-case memory and one medication-set interaction block to establish a patient-specific prescription. A gated refinement head combines the backbone states with clinical associations and history-conditioned medication identities through bounded logit corrections. Drug-drug interaction (DDI) feedback adapts regularization strength using training-query predictions. Across MIMIC-IV, NWICU and SICdb, EviDrug leads twelve published-method baselines in AP, F1 and Jaccard, improving AP by 2.26, 2.06 and 1.71 percentage points over the strongest comparator. These gains come at lower parameter and runtime costs than MetaDrug. Matched controls demonstrate DDI reductions with stable predictive quality. Code is available at https://github.com/LIZESHENG13/EviDrug.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.10356": {
+            "title": "SepLRM: A Foundation Model Paradigm for Recommendation",
+            "authors": "Di Chen, Xijun Xiao, Qin Ren, Weijiang Lai, Zhijian Pan, Zhentao Pan, Pengfei Nie, Cheng Yuan, Zixuan Tan, Xuyang Liu, Tao Wang, Yunwen Huang, Hao Fang, Yichao Wang, Hao Zhang, Siyuan Wu, Hao Chen, Han Diao, Mingyu Yang, Yongkang Feng, Beihong Jin, Jinfeng Yang, Deping Xie, Peng Xu, Zheng Chai, Yuchao Zheng",
+            "first_author": "Di Chen",
+            "url": "http://arxiv.org/abs/2611.10356v1",
+            "pdf_url": "http://arxiv.org/abs/2611.10356",
+            "publish_date": "2026-11-07",
+            "abstract": "Large recommendation models (LRMs) improve recommendation performance by scaling behavior sequence length, model capacity, and training compute. However, the return on investment (ROI) of continued scaling deteriorates as marginal gains diminish and long-sequence encoding costs rise, especially when this computation is repeatedly executed by distinct models for diverse recommendation stages and business scenarios. To address this issue, we propose SepLRM, a recommendation foundation model (RFM) paradigm that identifies reusable sequence encoding and reorganizes multiple end-to-end (E2E) LRMs into one RFM and multiple independently optimized vertical models (VMs). The RFM adopts an encoder-decoder architecture and exports its final-layer encoder state as the shared key-value (KV) cache that is independent of downstream task-offered candidates. Unlike candidate-specific logits or aggregated user embeddings, the KV cache preserves fine-grained behavioral information. Separation at this native KV interface also allows each VM to construct candidate-conditioned queries while retaining the same query-KV interaction as its E2E counterpart, enabling high-fidelity capability transfer. To ensure both transfer effectiveness and system efficiency, we co-design cache compression, the training and serving workflows, and LG-Store, a distributed storage system for KV caches. Experiments on three large-scale datasets show that SepLRM achieves state-of-the-art offline performance with a transfer rate of approximately 100%. It also demonstrates strong transferability across model iterations, recommendation stages, and business scenarios. Deployment in two large-scale industrial scenarios substantially improves the ROI of sequence scaling and delivers consistent gains in online A/B tests at ByteDance.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.10349": {
+            "title": "SituRecBench: Evaluating Frontier Models as Situated Recommendation Assistants in 3D Environments",
+            "authors": "Jingtong Yang, Dongding Lin, Jian Wang, Wenjie Li",
+            "first_author": "Jingtong Yang",
+            "url": "http://arxiv.org/abs/2611.10349v1",
+            "pdf_url": "http://arxiv.org/abs/2611.10349",
+            "publish_date": "2026-11-07",
+            "abstract": "Recommender systems are transitioning from static retrieval engines into interactive assistants grounded in physical environments. However, current studies largely neglect the combined complexities of spatial navigation, visual grounding, and multi-turn social interaction. To bridge this gap, we introduce SituRecBench, an interactive benchmark for evaluating frontier vision-language models (VLMs) as situated recommendation assistants within high-fidelity 3D environments. We reformulate recommendation as a situated assistance process in which an assistant interacts with a user while sharing the user's egocentric view. Our benchmark simulates real-world shopping environments (e.g., supermarkets and home furnishings stores), requiring assistants to elicit preferences, ground recommendations in the environment, and guide the user to relevant locations through dialogue. The benchmark evaluates dialogue quality, recommendation utility, and navigation effectiveness through a unified interactive protocol. Extensive experiments reveal persistent challenges in spatial grounding and preference elicitation, highlighting limitations in their ability to integrate global contextual information with local observations. SituRecBench provides a rigorous foundation for advancing the development of situated assistants in the real world.",
+            "primary_category": "cs.AI",
             "code_url": "null"
         }
     }
