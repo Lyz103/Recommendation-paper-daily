@@ -1,4 +1,4 @@
-## Updated on 2026-11-10
+## Updated on 2026-11-11
 
 ---
 
@@ -26,6 +26,9 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-10` | **LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation** | Zehui Wang, Wolfram Höpken, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.14004) |
+| `2026-11-10` | **Benchmarking LLM Next-Step Recommendations with Knowledge Space Theory** | Peter Steiner, Jan Hochweber | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.13667) |
+| `2026-11-10` | **Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems** | Zhiliang Chen, Sammy Nammari, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.13539) |
 | `2026-11-09` | **RecoGEM: A Serving System for Production-Scale Generative Recommendation** | Xiangrui Yang, Yunfeng Zhao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.12296) |
 | `2026-11-09` | **Severity-Controlled Prediction Sets for Medication Recommendation** | Yu Gu, Zijun Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11847) |
 | `2026-11-08` | **Not All Branches Are Equal: Adaptive Semantic ID Construction for Generative Recommendation** | Guy Hadad, Haggai Roitman, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.11549) |
