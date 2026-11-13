@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-12
+## Updated on 2026-11-13
 
 ---
 
@@ -23,6 +23,13 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-12` | **KuaiRecV2: Benchmarking Large-Scale Continual Learning for Diversified and Multi-task Recommendation** | Chenxu Li, Shuchang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16795) |
+| `2026-11-12` | **Towards Automated Recommendation of Steady-State Detection Algorithms for Software Performance Benchmarks** | Martin Beseda, Vittorio Cortellessa, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16566) |
+| `2026-11-12` | **ReSID: Rethinking Long-Tail Retrieval in Generative Recommendation through Item Reachability** | Muyu Zou, Shunye Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16404) |
+| `2026-11-12` | **TriGen: A Generative Paradigm for Trigger-Induced Recommendation** | Muyu Zou, Haibo Xing, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16395) |
+| `2026-11-12` | **From Tokens to Behaviors: Rethinking Generative Recommendation for User Trajectory Prediction** | Jiaqi Wang, Hanchen Yang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16159) |
+| `2026-11-11` | **When Does a Recommendation Spark Curiosity? Theory, Measurement, and Field Evidence** | Pan Li, Alexander Tuzhilin | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.14938) |
+| `2026-11-11` | **Caprese: Change Impact Recommendation Using History and Runtime Analysis** | Sadjad Tavakoli, Saba Alimadadi | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.14937) |
 | `2026-11-10` | **LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation** | Zehui Wang, Wolfram Höpken, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.14004) |
 | `2026-11-10` | **Benchmarking LLM Next-Step Recommendations with Knowledge Space Theory** | Peter Steiner, Jan Hochweber | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.13667) |
 | `2026-11-10` | **Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems** | Zhiliang Chen, Sammy Nammari, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.13539) |
