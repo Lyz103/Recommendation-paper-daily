@@ -21861,11 +21861,44 @@
             "title": "Caprese: Change Impact Recommendation Using History and Runtime Analysis",
             "authors": "Sadjad Tavakoli, Saba Alimadadi",
             "first_author": "Sadjad Tavakoli",
-            "url": "http://arxiv.org/abs/2611.14937v1",
+            "url": "http://arxiv.org/abs/2611.14937v2",
             "pdf_url": "http://arxiv.org/abs/2611.14937",
             "publish_date": "2026-11-11",
             "abstract": "Change impact recommendation identifies program entities potentially affected by source code changes. Historical co-changes and runtime dependencies provide complementary evidence, particularly in JavaScript, where dynamic and asynchronous behaviour complicates dependency analysis. We present Caprese, an open-source framework for function-level change impact recommendation in Node.js. Given a change set, it produces a ranked impact set of potentially affected functions. It supports repository-based recommendation through confidence-guided mining of recurring, change-set-relevant co-change patterns of varying lengths; dynamic recommendation through execution-derived dependencies involving calls, callbacks, events, timers, and shared state; and hybrid recommendation integrating both analyses. Its modular implementation supports reusable analyses. Evaluation on ten open-source applications and 100 selected change sets shows that, on average across projects, 77.4% of the relevant functions among the top 60 hybrid recommendations are identified exclusively by one analysis, demonstrating substantial complementarity. Dynamic recommendation achieves the highest mean precision among the top five recommendations (0.65), while repository-based recommendation performs best when the ranking is extended to 60 recommendations (0.42). Hybrid recommendation outperforms TARMAQ on average but does not consistently outperform the individual modes. Caprese is publicly available with source code, documentation, and evaluation artifacts.",
             "primary_category": "cs.SE",
+            "code_url": "null"
+        },
+        "2611.18244": {
+            "title": "RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation",
+            "authors": "Tianqi Liu, Kaipu Sun, Kairui Fu, Wenkai Wang, Sihao Liu, Hui Zang, Ran Chen, Tao Wang, Shengyu Zhang",
+            "first_author": "Tianqi Liu",
+            "url": "http://arxiv.org/abs/2611.18244v1",
+            "pdf_url": "http://arxiv.org/abs/2611.18244",
+            "publish_date": "2026-11-13",
+            "abstract": "Efficient sequential recommendation has emerged as a promising paradigm for providing real-time personalized service. To deploy models under resource-constrained environment, model compression becomes a necessity, yet existing methods typically apply uniform compression ratios, overlooking the heterogeneity in user intent complexity. This \"one-size-fits-all\" approach leads to a fundamental Capacity-Complexity Mismatch, where computational resources are either wasted on simple instances or insufficient for complex ones. To address this, we propose RACE (Ranking-uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation), a framework that dynamically adapts both model structures and input sequences with uncertainty-aware compression ratios. To ensure capacity-adaptive inference, RACE captures the model's intrinsic uncertainty of its predictions and transforms it into a proactive resource allocator. Specifically, we derive a list-wise ranking-uncertainty metric from the distributional stability of top-$K$ predictions, which serves as a measurable proxy for instance complexity. A lightweight predictor is then trained via self-supervision to anticipate this uncertainty from early-layer features. Guided by this signal, RACE performs instance-specific slimming in two dimensions: a hypernetwork-style channel sensitivity extractor identifies parameter redundancy, while importance-aware progressive sequence filtering mitigates data redundancy. Extensive experiments on four popular datasets demonstrate that RACE outperforms state-of-the-art baselines on accuracy, efficiency, and adaptability.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.17921": {
+            "title": "RecMem: Recurrent Memory Compression for Long-Sequence Generative Recommendation",
+            "authors": "Haoyi Hu, Gaoyang Guo, Yunjia Xi, Wen Chen, Weiwen Liu, Jian Wu, Yuning Jiang, Weinan Zhang",
+            "first_author": "Haoyi Hu",
+            "url": "http://arxiv.org/abs/2611.17921v1",
+            "pdf_url": "http://arxiv.org/abs/2611.17921",
+            "publish_date": "2026-11-13",
+            "abstract": "Generative recommendation benefits from long interaction histories, but the cost of processing them directly grows with history length. We propose RecMem, a recurrent memory compression framework guided by three desiderata: space invariance, semantic fidelity, and lifelong evolvability. RecMem compresses historical segments into a fixed set of memory slots using a bifurcated encoder-decoder with shared lower layers and slot-wise forget-gated updates. Recommendation supervision trains the memory to preserve predictive information, while stream-consistency training aligns predictions from sequential and packed processing. By construction, the memory state and decoder context are independent of history length; under contraction and approximate semigroup consistency, we further derive a horizon-independent bound on the state discrepancy between these two processing orders. On MerRec, RecMem uses 16 memory slots and a 216-token decoder context, compared with 1,200 tokens for HSTU-1200, while retaining 87.9% of HSTU-1200's Recall@10 and 97.0% of its Recall@200. It outperforms PHSTU and the evaluated recent-only and retrieval baselines, and analyses of distant history show that archived interactions contribute predictive signal.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.17490": {
+            "title": "Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy",
+            "authors": "Yuwen Ma, Nicola Bastianello, Sarah Spurgeon, Boli Chen",
+            "first_author": "Yuwen Ma",
+            "url": "http://arxiv.org/abs/2611.17490v1",
+            "pdf_url": "http://arxiv.org/abs/2611.17490",
+            "publish_date": "2026-11-12",
+            "abstract": "This paper investigates human-in-the-loop recommendation systems, where effectiveness relies on human compliance and privacy concerns restrict the use of historical response data. The pro posed framework models the implemented action as a random response to the recommendation and formulates the recommendation mechanism as a decision-dependent optimisation problem under an unknown compliance distribution. A batched Gaussian process upper confidence bound algorithm is then adapted to learn from locally perturbed historical actions, providing privacy for individual raw records. The analysis establishes record-level differential privacy and derives high-probability simple regret bounds when the compliance distribution is unknown. These bounds characterise how privacy noise, batch size, and behavioural information affect the guaranteed quality of the learned recommendation. In particular, a known upper bound on the non-compliance rate enables the rec ommendation space to be screened before any private data are queried. Simulations of a fixed-state car-following problem with synthetic historical driver responses demonstrate the effectiveness of the proposed algorithm and verify the theoretical findings.",
+            "primary_category": "cs.HC",
             "code_url": "null"
         }
     }

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-15
+## Updated on 2026-11-16
 
 ---
 
@@ -23,6 +23,9 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-13` | **RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation** | Tianqi Liu, Kaipu Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.18244) |
+| `2026-11-13` | **RecMem: Recurrent Memory Compression for Long-Sequence Generative Recommendation** | Haoyi Hu, Gaoyang Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.17921) |
+| `2026-11-12` | **Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy** | Yuwen Ma, Nicola Bastianello, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.17490) |
 | `2026-11-12` | **KuaiRecV2: Benchmarking Large-Scale Continual Learning for Diversified and Multi-task Recommendation** | Chenxu Li, Shuchang Liu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16795) |
 | `2026-11-12` | **Towards Automated Recommendation of Steady-State Detection Algorithms for Software Performance Benchmarks** | Martin Beseda, Vittorio Cortellessa, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16566) |
 | `2026-11-12` | **ReSID: Rethinking Long-Tail Retrieval in Generative Recommendation through Item Reachability** | Muyu Zou, Shunye Tang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.16404) |
