@@ -23,6 +23,7 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-16` | **Learning to Reason with Predictive Gains for Generative Recommendation** | Zhuoyang Li, Teng Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21441) |
 | `2026-11-16` | **Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?** | Daisuke Kikuta | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21155) |
 | `2026-11-16` | **EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation** | Sabino Roccotelli, Potito Aghilar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21032) |
 | `2026-11-15` | **Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19974) |
