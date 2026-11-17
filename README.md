@@ -1,4 +1,4 @@
-## Updated on 2026-11-16
+## Updated on 2026-11-17
 
 ---
 
@@ -26,6 +26,14 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-16` | **Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?** | Daisuke Kikuta | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21155) |
+| `2026-11-16` | **EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation** | Sabino Roccotelli, Potito Aghilar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21032) |
+| `2026-11-15` | **Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19974) |
+| `2026-11-15` | **Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents** | Jinfeng Xu, Zheyu Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19847) |
+| `2026-11-15` | **Exploration of Reinforcement Learning in Generative Recommendation Models** | Pengfei Zheng, Wuchao Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19742) |
+| `2026-11-14` | **Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation** | Wei-Hsiang Huang, Jyun-Yu Jiang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19320) |
+| `2026-11-14` | **CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests** | Qi Guo, Reza Mirghaderi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19110) |
+| `2026-11-14` | **TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation** | Kaihui Wu, Guoming Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.19074) |
 | `2026-11-13` | **RACE: Ranking-Uncertainty Aware Capacity-Adaptive Customization for Efficient Sequential Recommendation** | Tianqi Liu, Kaipu Sun, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.18244) |
 | `2026-11-13` | **RecMem: Recurrent Memory Compression for Long-Sequence Generative Recommendation** | Haoyi Hu, Gaoyang Guo, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.17921) |
 | `2026-11-12` | **Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy** | Yuwen Ma, Nicola Bastianello, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.17490) |

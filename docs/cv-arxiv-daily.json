@@ -21900,6 +21900,94 @@
             "abstract": "This paper investigates human-in-the-loop recommendation systems, where effectiveness relies on human compliance and privacy concerns restrict the use of historical response data. The pro posed framework models the implemented action as a random response to the recommendation and formulates the recommendation mechanism as a decision-dependent optimisation problem under an unknown compliance distribution. A batched Gaussian process upper confidence bound algorithm is then adapted to learn from locally perturbed historical actions, providing privacy for individual raw records. The analysis establishes record-level differential privacy and derives high-probability simple regret bounds when the compliance distribution is unknown. These bounds characterise how privacy noise, batch size, and behavioural information affect the guaranteed quality of the learned recommendation. In particular, a known upper bound on the non-compliance rate enables the rec ommendation space to be screened before any private data are queried. Simulations of a fixed-state car-following problem with synthetic historical driver responses demonstrate the effectiveness of the proposed algorithm and verify the theoretical findings.",
             "primary_category": "cs.HC",
             "code_url": "null"
+        },
+        "2611.21155": {
+            "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+            "authors": "Daisuke Kikuta",
+            "first_author": "Daisuke Kikuta",
+            "url": "http://arxiv.org/abs/2611.21155v1",
+            "pdf_url": "http://arxiv.org/abs/2611.21155",
+            "publish_date": "2026-11-16",
+            "abstract": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit recommendation and build EditRecBench, a benchmark for evaluating the performance of LLMs on this task, from real-world conversation logs in WildChat-4.8M. Through benchmarking and failure analysis, we identify a practical challenge that some cases are inherently difficult to predict in real-world settings. To address this, we introduce decision model-based gating to filter out cases where predictions are unlikely to be correct before they are presented to the user. Our trained model outperforms existing decision models and raises pass@5 among shown suggestions by 12--25 points at a gating threshold. Our code is available at https://github.com/ntt-dkiku/llm-edit-recommendation.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2611.21032": {
+            "title": "EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation",
+            "authors": "Sabino Roccotelli, Potito Aghilar, Vito Walter Anelli, Alejandro Bellog\u00edn, Tommaso Colafiglio, Michelantonio Trizio, Tommaso Di Noia",
+            "first_author": "Sabino Roccotelli",
+            "url": "http://arxiv.org/abs/2611.21032v1",
+            "pdf_url": "http://arxiv.org/abs/2611.21032",
+            "publish_date": "2026-11-16",
+            "abstract": "Music listening is intrinsically tied to emotion, which drifts continuously within a single session. Although modern browsers interface with wearable brain-computer interfaces, recommendation systems remain structured around discrete logs and lack the infrastructure to integrate continuous physiological signals. Furthermore, existing affect-aware models rely on static user profiles and offline training, failing to serve anonymous newcomers without model retraining. We present a web platform that resolves both challenges. Pairing with a consumer electroencephalogram (EEG) headband over Web Bluetooth, the system captures live EEG, mapping frontal alpha asymmetry and arousal index to normalized valence-arousal proxy coordinates on Russell's circumplex plane. Driven by these coordinates, an affective adapter unifies structurally diverse recommendation backbones under a shared live scoring mechanism. By parameterizing anonymous visitors through a few favorite tracks, the module recommends tracks conditioned on live proxy coordinates. This demonstrates that real-time EEG-derived control signals can steer recommendations without persistent user tables or model retraining.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.19974": {
+            "title": "Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation",
+            "authors": "Jinfeng Xu, Zheyu Chen, Shuo Yang, Jinze Li, Wenhao Yuan, Ziyue Peng, Puzhen Wu, Shujie Li, Jian Chen, Zheng Lin, Edith C. H. Ngai",
+            "first_author": "Jinfeng Xu",
+            "url": "http://arxiv.org/abs/2611.19974v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19974",
+            "publish_date": "2026-11-15",
+            "abstract": "Although multimodal recommendations have shown the ability to learn user preferences and item properties by leveraging explicit multimodal information, they remain constrained by two critical limitations: low-quality representation learning and modality fusion. For the former, existing solutions primarily focus on multi-granularity representation learning; however, we argue that training such representations is difficult due to the inherent data sparsity problem in recommendation scenarios. For the latter, existing solutions often rely on contrastive learning to align representations of different modalities to facilitate modality fusion, yet alignment-only objectives may over-compress valuable modality-specific information. To this end, we suggest \\underline{``Take a Step Back\"} and propose a \\textbf{D}ual-granularity raw feature empowered \\textbf{I}ntermediate fusion \\textbf{G}raph \\textbf{C}onvolutional \\textbf{N}etwork (\\textbf{DIGCN}) for multimodal recommendation. DIGCN leverages the multimodal understanding capabilities of Large Language Models (LLMs) to construct dual-granularity raw features directly. Furthermore, DIGCN introduces an intermediate fusion graph convolutional network equipped with dynamic cross-modality weight correction, designed to capture cross-modality signals and achieve effective modality fusion. Comprehensive experiments on four real-world datasets validate that DIGCN consistently outperforms a variety of strong baselines. Additional analyses confirm its superiority under varying levels of data sparsity and cold-start scenarios. Notably, DIGCN demonstrates high extensibility, capable of further benefiting from additional contrastive learning-based alignment tasks.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.19847": {
+            "title": "Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents",
+            "authors": "Jinfeng Xu, Zheyu Chen, Ziyue Peng, Jianheng Tang, Zheng Lin, Wenhao Yuan, Jian Chen, Shujie Li, Victor Leung",
+            "first_author": "Jinfeng Xu",
+            "url": "http://arxiv.org/abs/2611.19847v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19847",
+            "publish_date": "2026-11-15",
+            "abstract": "This work aims to make recommendation agents more efficient by reducing unnecessary LLM reflection while preserving full-catalog ranking and inference reranking. Since BRAVE changes only how training-time reflection is allocated, it does not introduce new user data requirements or additional LLM exposure beyond the base agent protocol. The main potential risk is that a poorly calibrated allocator may assign less reflection to users whose preferences are sparse, niche, or under-represented, which could weaken personalization for those users or indirectly affect item exposure.   This risk can be mitigated through deployment-time auditing and conservative allocation design. In practice, reflection budgets should be evaluated not only by aggregate Recall or NDCG, but also across user-history lengths, item popularity groups, and application-relevant cohorts when such analysis is permitted. The allocator should rely on task-side ranking evidence rather than sensitive attributes, and fallback policies can reserve a small portion of the budget for random or fairness-aware coverage when subgroup robustness is important. Privacy risks can be controlled with the same protections required by the base recommendation agent: minimizing user text sent to the LLM controller, anonymizing user identifiers, retaining only necessary interaction evidence, and applying standard access-control and logging policies. Overall, BRAVE is designed as a cost-aware allocation layer, and its ethical deployment depends on validating that the saved computation does not come at the expense of vulnerable users or responsible exposure.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.19742": {
+            "title": "Exploration of Reinforcement Learning in Generative Recommendation Models",
+            "authors": "Pengfei Zheng, Wuchao Li, Shiyao Wang, Honghui Bao, Hongyi Xie, Jiaxin Deng, Xingmei Wang, Jinghao Zhang, Yufei Ye, Ruiming Tang, Guorui Zhou, Han Li, Kun Gai, Defu Lian",
+            "first_author": "Pengfei Zheng",
+            "url": "http://arxiv.org/abs/2611.19742v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19742",
+            "publish_date": "2026-11-15",
+            "abstract": "Traditional cascaded recommender systems balance accuracy and efficiency over large item spaces, but misaligned stage-wise objectives hinder end-to-end optimization. Generative recommendation unifies these stages in an autoregressive framework, providing a natural interface for reinforcement learning (RL) to optimize the entire generation process. However, directly applying RL often leads to unstable optimization and degraded recommendation quality.   We revisit Group Relative Policy Optimization (GRPO) and other ratio-based objectives through a unified logit-gradient view. We identify three issues: (i) clipped surrogates create dead-gradient regions, under-utilizing samples; (ii) negative-advantage updates can become effectively unbounded as importance ratios grow, allowing a small subset of negatives to dominate optimization; and (iii) ratio-based control lacks sensitivity to absolute policy confidence, so updates on high-confidence cases may fail to vanish.   Motivated by this diagnosis, we propose \\emph{Gradient-Bounded Policy Optimization} (GBPO), a simple objective with stop-gradient normalization that is simultaneously (a) fully gradient-active, (b) sign-symmetrically bounded for both positive and negative updates, and (c) explicitly confidence-weighted under current policy probabilities. This ensures that updates gracefully vanish for $\u03c0\\!\\to\\!1$ positives and $\u03c0\\!\\to\\!0$ negatives. Across the evaluated settings, GBPO achieves competitive recommendation performance with more stable training than competing RL methods.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.19320": {
+            "title": "Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation",
+            "authors": "Wei-Hsiang Huang, Jyun-Yu Jiang, Pu-Jen Cheng",
+            "first_author": "Wei-Hsiang Huang",
+            "url": "http://arxiv.org/abs/2611.19320v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19320",
+            "publish_date": "2026-11-14",
+            "abstract": "Sequential recommendation has recently witnessed growing interest in generative retrieval. One of the most popular approaches is to autoregressively generate the semantic identifiers (SIDs) of items as recommendations. Existing efforts mainly rely on semantic alignment, sophisticated architectural designs, and extensive hyperparameter tuning. However, the conventional learning framework for generative models could have foundational limitations. Specifically, most generative models directly predict target items without explicitly learning negative compositions and relative ranking signals. This is not well aligned with the philosophy of Bayesian personalized ranking (BPR), which emphasizes the importance of relative rankings between positive and negative samples.   In this paper, we show that adding a simple multiple-choice auxiliary task into the learning objective can effectively address this issue. With minimal adaptation, we introduce Task Identifiers and Candidate Constructions to synthesize training data for the multiple-choice auxiliary task. In addition, we provide theoretical analysis of the fundamental benefits of the multiple-choice auxiliary task from the perspectives of information theory and compositional generalization. Extensive experiments on four publicly available benchmark datasets show that our approach can improve TIGER, a conventional generative recommendation model, by 4.9% to 79% in NDCG@10.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.19110": {
+            "title": "CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests",
+            "authors": "Qi Guo, Reza Mirghaderi, Iordanis Fostiropoulos, David Fan, Yuchen Liu, Shiliang Tang, Lukasz Korycki, Golnaz Ghasemiesfeh, Xinzhu Bei, Sasha Vorontsov, Hanchao Yu, Brendan Quinlivan, Khoi Pham, Jigar Gada, Hao Yu, Felix Li, Hang Gao, Boyu Fang, Yang Gao, Yale Thomas, Xiaomeng Jin, Avishek Dutta, Hong Hong, Janet Xia, Ethan Zhu, Ellie Pan, Xiang Shen, Jawwad Zakaria, Jinfeng Lin, Jonathan Rush, Ruixue Lian, Noah Kennedy, Brian Vanover, Jas Pyneni, Daniel Thiyagu, Apoorv Saxena, Sanyogeeta Lawande, Huayu Ding, Hima Cherukuru, Yang Liu, Chen Kovacs, Qunshu Zhang, Lizhu Zhang, Benyu Zhang, Kate Chen, Ashish Singal, Danny Kanoff, Zhiyu Liu, Jiayi Liu, Jianyu Wang, Fei Liu, Xiangjun Fan, Abhishek Kumar, Hong Yan",
+            "first_author": "Qi Guo",
+            "url": "http://arxiv.org/abs/2611.19110v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19110",
+            "publish_date": "2026-11-14",
+            "abstract": "Modern recommenders keep learned preferences in representations people cannot inspect or change. We present CLEAR (Controllable and Legible End-to-end Architecture for Recommendation), an end-to-end system deployed at Meta and built around an editable natural-language interest layer. CLEAR makes a ranked subset of inferred interests readable and stores accepted additions and suppressions as authoritative preference state. Behavioral grounding maps each inferred interest back to supporting events in the user's own history. The resulting interest object is also a serving address: its label and profile-conditioned rewrites drive lexical retrieval, its supporting events seed behavioral retrieval, its projection queries an embedding index, and its stable identity supports ranking, attribution, and exposure control. A fresh user declaration may precede behavioral support, so it enters through the same serving identity and initially draws candidates from topical retrieval. Ranking makes those candidates competitive, while a delivery controller observes attributable exposure and replenishes underexposed interests. Direct user review found that users rated about 88.5% of displayed interests accurate. In an offline benchmark using a shared evaluation protocol, the Specialized 3B generator reached 0.3967 mean-user F1@10, compared with 0.3633 for Gemini 2.5 Pro and 0.1911 for the prior generator. For a newly declared interest, a user-randomized cumulative ablation measured same-day delivery losses of 8.7 percentage points for added-interest ranking terms, 11.1 for reserved top-slot insertion, and 13.7 for interest-conditioned candidate sourcing, conditional on the tested removal sequence. CLEAR components have operated in production for over one year; the system spans four surfaces on Instagram and Facebook, with an interest layer people can inspect, correct, and use to direct recommendations.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.19074": {
+            "title": "TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation",
+            "authors": "Kaihui Wu, Guoming Li, Liang Guo, Yifeng Zhou, Yuehong Hu, Junwei Pan, Zhixiang Feng, Chengguo Yin, Wenqi Fan, Haijie Gu, Jie Jiang",
+            "first_author": "Kaihui Wu",
+            "url": "http://arxiv.org/abs/2611.19074v1",
+            "pdf_url": "http://arxiv.org/abs/2611.19074",
+            "publish_date": "2026-11-14",
+            "abstract": "Industrial recommendation faces a resolution--complexity dilemma: dense interactions make detailed modeling of long behavior histories expensive, while compact history summaries restrict the evidence available to prediction. A unified backbone must preserve rich behavioral details within strict serving budgets. We introduce \\textbf{TokenFormer V2}, a unified architecture that explicitly decouples \\emph{representation resolution} from \\emph{interaction density}. Its group-wise token layout jointly encodes behavior segments with non-sequential context, expands interaction ranges via hierarchical group merging, and coordinates distributed groups through \\emph{NS Fusion} and \\emph{Global Sync} modules. Through this \\emph{local--global decomposition} paradigm, computation is concentrated on structured interactions while preserving fine-grained evidence, ensuring that every encoded event remains directly accessible to the \\emph{Full-Resolution Readout} module. On the Tencent Advertising Algorithm Competition 2026 (TAAC 2026) benchmark, TokenFormer V2 achieves top-ranking accuracy among unified recommendation baselines while using \\textbf{5.1$\\times$ fewer FLOPs} than leading baselines, sustaining its advantage across long histories and imbalanced behavior domains. Furthermore, in billion-parameter evaluations on WeChat Channels advertising, it consistently outperforms state-of-the-art industrial baselines, yielding up to a \\textbf{+0.07 pp} overall AUC gain. In live online A/B testing against the production model, TokenFormer V2 delivers a statistically significant \\textbf{2.33\\% increase in GMV}. These results establish TokenFormer V2 as a battle-tested blueprint for scalable, full-resolution behavior modeling in industrial recommendation.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
         }
     }
 }
