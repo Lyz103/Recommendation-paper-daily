@@ -1,4 +1,4 @@
-## Updated on 2026-11-17
+## Updated on 2026-11-18
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-17` | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22838) |
+| `2026-11-17` | **COTTI: Contrastive Training and Time-Aware Inference for Robust Industrial Recommendation under Promotional Drift** | Maolei Huang, Jing Tian, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22597) |
+| `2026-11-17` | **More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation** | Zipeng Chen, Xinyu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22410) |
+| `2026-11-17` | **GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation** | Shiyi Yang, Xinshu Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22274) |
+| `2026-11-17` | **Cluster-Guided Decoding with Trust-Region Constraints for Personalized Recommendation** | Gezheng Wen, Chao Shen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22163) |
 | `2026-11-16` | **Learning to Reason with Predictive Gains for Generative Recommendation** | Zhuoyang Li, Teng Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21441) |
 | `2026-11-16` | **Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?** | Daisuke Kikuta | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21155) |
 | `2026-11-16` | **EE-Motion: An EEG-based Web Architecture for Live Affective Music Recommendation** | Sabino Roccotelli, Potito Aghilar, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.21032) |
