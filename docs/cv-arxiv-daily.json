@@ -22054,6 +22054,72 @@
             "abstract": "Most recommenders score each item in the catalog separately, and do not explicitly model which semantic region of the catalog a recommendation belongs to. Models expressive enough to offer that control are often too slow to run over a full catalog for online inference. In this paper, we present Cluster-Guided Generative Reconstruction (CG2R), which learns a hierarchy of semantic clusters and uses a cluster-level prior to steer item ranking for personalized recommendations. Unlike existing systems that only use clusters to pre-select candidates, CG2R adds the cluster prior directly to the item scoring rule, so that the learned cluster structure shapes the ranking itself. Because the prior is assembled from cluster centroids rather than per-item statistics, it remains defined even for cold-start users when no history is available. Across the three benchmark datasets evaluated, CG2R outperforms classical, neural, and LLM-based baselines in terms of Recall and nDCG, with its performance gains widening as the catalog grows sparser. In addition, CG2R serves recommendations in milliseconds, suggesting potential as low-latency first-stage retrieval.",
             "primary_category": "cs.IR",
             "code_url": "null"
+        },
+        "2611.24464": {
+            "title": "Platform Recommendation and Competition in Search Markets",
+            "authors": "Sanxi Li, Jun Yu, Mingsheng Zhang",
+            "first_author": "Sanxi Li",
+            "url": "http://arxiv.org/abs/2611.24464v1",
+            "pdf_url": "http://arxiv.org/abs/2611.24464",
+            "publish_date": "2026-11-18",
+            "abstract": "Recommendation rules affect both sellers' incentives and the alternatives consumers expect to find. We develop a framework for evaluating these rules with heterogeneous sellers, endogenous pricing and advertising, and costly consumer search. For a broad class of separable recommendation scores, we establish conditions under which a unique market equilibrium exists. Three applications illustrate the use of the framework. A stronger reward for low prices does not necessarily lower equilibrium prices and benefit consumers when products are sufficiently differentiated in qualities. Quality guidance can lower the price of each product and benefit consumers while raising the average transaction price. With heterogeneous match distributions, a reward for the best initial inspection can help consumers with advertising fixed and harm them when advertising adjusts. A two-type design extension shows that no finite optimum over implementable outcomes uses positive weights on both quality and low prices, even when the platform values consumer surplus.",
+            "primary_category": "econ.TH",
+            "code_url": "null"
+        },
+        "2611.24266": {
+            "title": "Sensitivity analysis in real options studies: systematic review and recommendations",
+            "authors": "Mariia Kozlova, Julian Scott Yeomans",
+            "first_author": "Mariia Kozlova",
+            "url": "http://arxiv.org/abs/2611.24266v1",
+            "pdf_url": "http://arxiv.org/abs/2611.24266",
+            "publish_date": "2026-11-18",
+            "abstract": "Real options (RO) modeling provides a powerful framework for valuing managerial flexibility under uncertainty in capital-intensive investments across various industries, including climate, energy, and transportation. However, the transparency and usefulness of such models depends heavily on sensitivity analysis (SA). This study reviews over 100 peer-reviewed RO journal articles to examine the extent and quality of SA practices. The review focuses particularly on the extent of model scrutiny: how many input variables are subjected to sensitivity analysis; whether local or global approaches are applied; and whether the shape of the input-output relationships is examined. Our findings reveal a strong overreliance on one-at-a-time (OAT) techniques and a corresponding minimal adoption of global sensitivity analysis (GSA). This methodological gap limits the ability of the RO field to critically examine its own models and to support its decision-making. The paper concludes by outlining concrete recommendations for how to effectively incorporate GSA into future RO studies in order to enhance model transparency, relevance, and credibility.",
+            "primary_category": "q-fin.CP",
+            "code_url": "null"
+        },
+        "2611.23969": {
+            "title": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
+            "authors": "Dae Kyoo Kim, Heejung Cho, Sungmoo Hong, Eunil Park",
+            "first_author": "Dae Kyoo Kim",
+            "url": "http://arxiv.org/abs/2611.23969v1",
+            "pdf_url": "http://arxiv.org/abs/2611.23969",
+            "publish_date": "2026-11-18",
+            "abstract": "CoT-style LLM recommenders generate a natural-language preference note as a chain-of-thought prefix to ranking, but the note is trusted without verification, and the ranker never consults behaviorally similar users. We propose ReflectRec, organized around a preference-to-history round-trip verifier whose recall score serves as an operational signal of preference-to-history recoverability, enabling conditional regeneration for low-recoverability preferences and selection among regeneration attempts. Around this verifier, we wire a semantic Stage-1 prompt, conditional regeneration, and Forward-Look retrieval that injects future watches of behaviorally similar users as a collaborative hint. On MovieLens-100K and MovieLens-1M, the full pipeline outperforms CoT4Rec-ICL by +16.25 / +4.46 pp Hit@10, with positive gains across all ValScore buckets and three LLM backbones (Qwen3-30B, Qwen2.5-72B, and Llama-3.3-70B). We also observe a similar verifier-guided regeneration pattern on Amazon Electronics.",
+            "primary_category": "cs.CL",
+            "code_url": "null"
+        },
+        "2611.23910": {
+            "title": "MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems",
+            "authors": "Matthew Li, Albert Liang, Dilip Raj",
+            "first_author": "Matthew Li",
+            "url": "http://arxiv.org/abs/2611.23910v1",
+            "pdf_url": "http://arxiv.org/abs/2611.23910",
+            "publish_date": "2026-11-18",
+            "abstract": "The typical workflow for improving large-scale ranking and recommendation models is slow and tedious: an engineer forms a hypothesis, implements it as a code change, trains a model, and evaluates it both offline and online, often relying on their own intuition and experience along the way. Autonomous LLM agents promise to speed this up by running the loop on their own, but it is still unclear whether they can do this in industry-scale systems rather than on benchmarks or small proxy tasks. We build human-on-the-loop machine learning engineer (MLE) agents that propose, implement, train, and evaluate model changes on large-scale search rankers. Engineers retain control over objective design, search direction, and final-model review. We identify three obstacles that make this industry setting challenging: feedback takes hours per experiment, offline metrics do not always predict online impact, and improvements saturate after the early wins. We address these with parallel training runs, an objective calibrated to match online impact, and careful context engineering. In one campaign, the system ran 1,097 completed candidate experiments and accepted 325, a 29.6\\% acceptance rate compared with 15.6\\% in the earlier campaign under a different objective and search constraint. Its best model increases search volume by 0.23\\% in an A/B test of large scale. Several improvements were architectural changes the team had never tried, drawn from the broader industry and literature, suggesting that MLE agents can explore regions of the design space that human intuition overlooks. We find that the design of the harness around the model matters: intuition suggests that a stronger underlying model is enough, but in our experience, the design of the loop around it is just as critical. More broadly, our work shows that autonomous agents can do real machine-learning engineering in industry-scale systems.",
+            "primary_category": "cs.AI",
+            "code_url": "null"
+        },
+        "2611.23710": {
+            "title": "CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation",
+            "authors": "Haopeng Jin, Bingkang Shi, Tao Yu, Yifei Ma, Hao Liu, Hongzhu Yi, Jinwen Luo",
+            "first_author": "Haopeng Jin",
+            "url": "http://arxiv.org/abs/2611.23710v1",
+            "pdf_url": "http://arxiv.org/abs/2611.23710",
+            "publish_date": "2026-11-18",
+            "abstract": "Multimodal generative recommendation with discrete semantic identifiers (SIDs) requires distinguishing historical modalities that merely alter token predictions from those that genuinely reduce catalog-level ambiguity. When audiovisual, visual, or textual streams are missing, degraded, or semantically conflicting, uniform fusion and unconstrained token gates can propagate misleading content across iterative denoising steps. We propose CONCORD-Rec, a reliability-conditioned discrete diffusion recommender supervised by counterfactual catalog-partition utility. Given a fixed tokenizer and a partially masked SID state, CONCORD-Rec evaluates out-of-fold teacher coalitions over the exact feasible catalog support and aggregates item posteriors across the target code partition at each unresolved position. Rather than distilling raw token probabilities directly, the resulting counterfactual loss differences supervise an availability-masked tokenwise gate that allocates bounded modality residuals around a behavioral denoiser while retaining an exact behavioral fallback slot. We establish theoretical fixed-support ranking stability bounds under gate perturbations and evaluate position-level and code-conditional allocation across audiovisual and image-text recommendation benchmarks under controlled missingness, signal degradation, and semantic conflict. Across 20 source-compatible protocol-dataset rows, CONCORD-Rec improves NDCG by 4%; under matched 30% conflict it improves NDCG by 14.63%. The full-vs-uniform-T=16 sweep improves quality by 2.00-3.58% while reducing p95 latency by up to 86.89%.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.23339": {
+            "title": "Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference",
+            "authors": "Shing Wai Pun, Kai Wu, Pengfei Xia, Hui Zang, Wei Guo, Yong Liu",
+            "first_author": "Shing Wai Pun",
+            "url": "http://arxiv.org/abs/2611.23339v1",
+            "pdf_url": "http://arxiv.org/abs/2611.23339",
+            "publish_date": "2026-11-17",
+            "abstract": "Generative recommendation (GR) inference differs substantially from conventional LLM serving, featuring long input sequences, wide beam search, and only a few fixed output tokens. Existing LLM serving engines such as vLLM process beams as batched independent sequences, causing redundant KV cache accesses over the shared prompt prefix. Furthermore, vLLM executes each beam search generation step as a separate engine invocation, incurring host-side beam processing overhead between decoding steps and substantial runtime KV block management in PagedAttention. Using Tree Attention, we concatenate beams along the sequence dimension to eliminate redundant KV accesses, and further optimize execution through pre-generated partial-attention masks, static KV cache allocation, loop-unrolled generation dispatch, TorchAir graph compilation, automatic operator fusion, and vocabulary-constrained decoding. Without the use of custom kernels, our approach reduces end-to-end latency by up to 25x over vLLM on Ascend NPUs, and achieves generation latency comparable to a SOTA solution using custom kernels, showing that the generation pipeline should be optimized holistically before resorting to custom kernel development.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
         }
     }
 }

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-18
+## Updated on 2026-11-19
 
 ---
 
@@ -23,6 +23,12 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-18` | **Platform Recommendation and Competition in Search Markets** | Sanxi Li, Jun Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24464) |
+| `2026-11-18` | **Sensitivity analysis in real options studies: systematic review and recommendations** | Mariia Kozlova, Julian Scott Yeomans | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24266) |
+| `2026-11-18` | **ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation** | Dae Kyoo Kim, Heejung Cho, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23969) |
+| `2026-11-18` | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Liang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23910) |
+| `2026-11-18` | **CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation** | Haopeng Jin, Bingkang Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23710) |
+| `2026-11-17` | **Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference** | Shing Wai Pun, Kai Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23339) |
 | `2026-11-17` | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22838) |
 | `2026-11-17` | **COTTI: Contrastive Training and Time-Aware Inference for Robust Industrial Recommendation under Promotional Drift** | Maolei Huang, Jing Tian, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22597) |
 | `2026-11-17` | **More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation** | Zipeng Chen, Xinyu Lin, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22410) |
