@@ -21960,7 +21960,7 @@
             "title": "Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation",
             "authors": "Wei-Hsiang Huang, Jyun-Yu Jiang, Pu-Jen Cheng",
             "first_author": "Wei-Hsiang Huang",
-            "url": "http://arxiv.org/abs/2611.19320v1",
+            "url": "http://arxiv.org/abs/2611.19320v2",
             "pdf_url": "http://arxiv.org/abs/2611.19320",
             "publish_date": "2026-11-14",
             "abstract": "Sequential recommendation has recently witnessed growing interest in generative retrieval. One of the most popular approaches is to autoregressively generate the semantic identifiers (SIDs) of items as recommendations. Existing efforts mainly rely on semantic alignment, sophisticated architectural designs, and extensive hyperparameter tuning. However, the conventional learning framework for generative models could have foundational limitations. Specifically, most generative models directly predict target items without explicitly learning negative compositions and relative ranking signals. This is not well aligned with the philosophy of Bayesian personalized ranking (BPR), which emphasizes the importance of relative rankings between positive and negative samples.   In this paper, we show that adding a simple multiple-choice auxiliary task into the learning objective can effectively address this issue. With minimal adaptation, we introduce Task Identifiers and Candidate Constructions to synthesize training data for the multiple-choice auxiliary task. In addition, we provide theoretical analysis of the fundamental benefits of the multiple-choice auxiliary task from the perspectives of information theory and compositional generalization. Extensive experiments on four publicly available benchmark datasets show that our approach can improve TIGER, a conventional generative recommendation model, by 4.9% to 79% in NDCG@10.",
@@ -22119,6 +22119,61 @@
             "publish_date": "2026-11-17",
             "abstract": "Generative recommendation (GR) inference differs substantially from conventional LLM serving, featuring long input sequences, wide beam search, and only a few fixed output tokens. Existing LLM serving engines such as vLLM process beams as batched independent sequences, causing redundant KV cache accesses over the shared prompt prefix. Furthermore, vLLM executes each beam search generation step as a separate engine invocation, incurring host-side beam processing overhead between decoding steps and substantial runtime KV block management in PagedAttention. Using Tree Attention, we concatenate beams along the sequence dimension to eliminate redundant KV accesses, and further optimize execution through pre-generated partial-attention masks, static KV cache allocation, loop-unrolled generation dispatch, TorchAir graph compilation, automatic operator fusion, and vocabulary-constrained decoding. Without the use of custom kernels, our approach reduces end-to-end latency by up to 25x over vLLM on Ascend NPUs, and achieves generation latency comparable to a SOTA solution using custom kernels, showing that the generation pipeline should be optimized holistically before resorting to custom kernel development.",
             "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.26249": {
+            "title": "Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation",
+            "authors": "Fuyi Wang, Yuxin Cao, Yifan Liao, Renyang Liu, Lin Li, Wei Song",
+            "first_author": "Fuyi Wang",
+            "url": "http://arxiv.org/abs/2611.26249v1",
+            "pdf_url": "http://arxiv.org/abs/2611.26249",
+            "publish_date": "2026-11-19",
+            "abstract": "Short-video platforms rank new uploads before anyone has watched them, using content towers that read a video's cover, title and frames. Existing attacks on content-aware recommenders perturb pixels or features and ignore platform re-encoding, and existing defenses train against norm-bounded perturbations that neither match real edits nor preserve recommendation quality. We show with REAP, a realizable attack through {a simulated platform channel (H.264 transcoding, rescaling, cropping and JPEG)}, that packaging edits raise a cold video by 32.0 rank-percentile points in unrelated audiences. We then observe that cold-start ranking does not need the packaging at all: a tower that sees only the video body ranks cold items best. Building on this, we propose Evidence-First Ranking (EFR), which scores cold videos from their body, admits packaging only through a support-gated residual bounded by $\u03b3$, and merges cold and warm rankings by rank percentile, yielding an exact certificate against any packaging edit. On MicroLens-100K, EFR cuts the attack gain by 81% and raises cold-start Recall@100 from 0.1133 to 0.170, while keeping the merged NDCG@10 within 4% of the undefended system.",
+            "primary_category": "cs.CV",
+            "code_url": "null"
+        },
+        "2611.26096": {
+            "title": "From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation",
+            "authors": "Zhixiong Hu, Meng Li, Maggie Zhang, Deborshi Goswami, David Bailey, James Bradley",
+            "first_author": "Zhixiong Hu",
+            "url": "http://arxiv.org/abs/2611.26096v1",
+            "pdf_url": "http://arxiv.org/abs/2611.26096",
+            "publish_date": "2026-11-19",
+            "abstract": "Personalized content recommendation on large marketplace websites must reconcile heterogeneous candidate content (e.g., customer stories, product pages, industry pages, and learning content) with sparse, fast-changing user behavior, placing increasing demands on the retrieval stage to represent user interest well, not just the downstream ranking stage. We present LSER (LLM Session Embedding Retrieval), a production content recommendation system for autodesk.com that derives session- and history-level embeddings from a pretrained large language model (LLM) and adds them as auxiliary user-side features in the retrieval-stage user tower alongside existing learned sequence encoders. To keep user-side embeddings fresh under real-time behavior, we build a nearline serving path that asynchronously refreshes sequential and LLM-derived user vectors for our main content recommendation server. We validate the incremental value of the LLM features through an ablation study across our full multi-content-type catalog. Our results indicate that integrating LLM-derived embeddings as additional retrieval signals, together with production-grade nearline serving, is technically feasible and can improve model performances.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.25606": {
+            "title": "Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis",
+            "authors": "Shotaro Ishihara",
+            "first_author": "Shotaro Ishihara",
+            "url": "http://arxiv.org/abs/2611.25606v1",
+            "pdf_url": "http://arxiv.org/abs/2611.25606",
+            "publish_date": "2026-11-19",
+            "abstract": "Text-based generative recommenders can go beyond ranking existing items by directly generating item titles or other textual representations. In the news domain, this raises a societal concern that models may repeatedly surface already popular articles and thereby narrow the diversity of information to which users are exposed. We investigate training-data memorization as one mechanism behind this concentration. Using approximately 20 million browsing sessions from a Japanese news service, we continually trained an instruction-tuned Llama 3 8B model to generate the next article title in a session. The generated-title distribution was more concentrated and less diverse than the distribution of titles observed in the browsing logs. Frequently repeated target titles exhibited greater verbatim and approximate memorization, and more strongly memorized titles were generated in response to a wider range of prompts. These findings support a pathway in which popularity in behavioral logs becomes repeated training text, is preferentially memorized, and is subsequently reproduced by a generative recommender. An exploratory target-level deduplication condition reduced both memorization and output concentration, while substantially reducing the training-set size and recommendation accuracy. Our results suggest that popularity bias in generative recommendation may arise not only from user preferences or ranking objectives, but also from the model's tendency to reproduce frequently encountered strings, with important implications for information diversity on news platforms.",
+            "primary_category": "cs.IR",
+            "code_url": "null"
+        },
+        "2611.25288": {
+            "title": "Intelligent Embedding Pruning for Large-Scale Recommendation Models",
+            "authors": "Anish Khazane, Alex Saad-Falcon, Guanchu Wu, Marcio Porto, Jasper Shan, Fei Yu, Eugene Shulga, Intaik Park, Yongzhe Zhang, Xiaoyu Deng, Sheng Luo, Xiaoya Wang",
+            "first_author": "Anish Khazane",
+            "url": "http://arxiv.org/abs/2611.25288v1",
+            "pdf_url": "http://arxiv.org/abs/2611.25288",
+            "publish_date": "2026-11-18",
+            "abstract": "Modern recommendation systems face substantial memory pressure, largely from the sparse embedding layer that maps high-cardinality categorical features into dense vectors. In-training embedding pruning (ITEP) removes less important embedding rows during training, yielding end-to-end memory savings but sometimes degrading accuracy because per-table pruning ratios are set by size-based heuristics. We use feature importance (FI) to guide these ratios (FI-ITEP), assigning higher pruning to tables tied to less important features. Across three large-scale recommendation models, FI-ITEP achieves 20--40% total memory reduction while matching or improving accuracy relative to percentile-based ITEP. Because the feature-importance signal requires minimal resources to compute, these memory savings translate into concrete systems benefits: the same models train on fewer GPU trainers (e.g., 112 to 80) with higher per-GPU throughput, saving 1,000+ GPU-hours per model launch. We reproduce these trends on the open-source DLRM (Criteo 1TB) and quantify the end-to-end training-time and GPU-cost tradeoff---including the burden of computing FI---offering practical guidance for embedding pruning in real-world systems.",
+            "primary_category": "cs.LG",
+            "code_url": "null"
+        },
+        "2611.25256": {
+            "title": "LQ-Rec: Late Quantization for Sequential Recommendation",
+            "authors": "Satoshi Koide, Yueqi Wang, Julian McAuley",
+            "first_author": "Satoshi Koide",
+            "url": "http://arxiv.org/abs/2611.25256v1",
+            "pdf_url": "http://arxiv.org/abs/2611.25256",
+            "publish_date": "2026-11-18",
+            "abstract": "Generative retrieval (GR) for sequential recommendation compresses each item into a short semantic ID and trains an autoregressive decoder to generate next-item codes from a user history. While appealing for cold-start handling and storage, au- toregressive GR suffers a structural scaling limit: typically, longer semantic IDs reduce quantization error in principle but degrade ranking quality and quadratic memory usage against semantic ID length. We propose Late Quantization (LQ), a non-autoregressive paradigm that confines discretization to the output (item) side of the pipeline. The encoder and scoring rule operate in continuous space, while items are stored and matched as semantic IDs produced by an end-to-end-trained residual quantizer. This architectural shift permits an additive error decomposition and a pairwise ordering theorem that jointly bound the quantization- induced ranking drop, a structural guarantee absent in prior semantic-ID recommenders. Across four public benchmarks, the resulting recommender, LQ-Rec, delivers three capabilities simultaneously: ranking quality improves monotonically with the semantic-ID length and outperforms existing baselines; a single trained model supports anytime compression, tuning ranking quality against inference cost without retraining; and LQ-Rec shows superior generalization on a memorization/generalization partition.",
+            "primary_category": "cs.IR",
             "code_url": "null"
         }
     }

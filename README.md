@@ -1,4 +1,4 @@
-## Updated on 2026-11-19
+## Updated on 2026-11-20
 
 ---
 
@@ -26,6 +26,11 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-19` | **Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation** | Fuyi Wang, Yuxin Cao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.26249) |
+| `2026-11-19` | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation** | Zhixiong Hu, Meng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.26096) |
+| `2026-11-19` | **Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis** | Shotaro Ishihara | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.25606) |
+| `2026-11-18` | **Intelligent Embedding Pruning for Large-Scale Recommendation Models** | Anish Khazane, Alex Saad-Falcon, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.25288) |
+| `2026-11-18` | **LQ-Rec: Late Quantization for Sequential Recommendation** | Satoshi Koide, Yueqi Wang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.25256) |
 | `2026-11-18` | **Platform Recommendation and Competition in Search Markets** | Sanxi Li, Jun Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24464) |
 | `2026-11-18` | **Sensitivity analysis in real options studies: systematic review and recommendations** | Mariia Kozlova, Julian Scott Yeomans | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24266) |
 | `2026-11-18` | **ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation** | Dae Kyoo Kim, Heejung Cho, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23969) |
