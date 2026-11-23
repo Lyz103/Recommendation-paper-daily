@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-22
+## Updated on 2026-11-23
 
 ---
 
@@ -23,6 +23,8 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-20` | **Mode Recommendation and Dynamic Routing Guidance for Improved Trip Quality in Mixed Traffic Networks** | Jin Zhang, Andreas A. Malikopoulos, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.27091) |
+| `2026-11-20` | **Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations** | Teya Bergamaschi, Bijal Rajput, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.27007) |
 | `2026-11-19` | **Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation** | Fuyi Wang, Yuxin Cao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.26249) |
 | `2026-11-19` | **From Sessions to Serving: Integrating LLM-Based Embeddings into Retrieval for Production Content Recommendation** | Zhixiong Hu, Meng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.26096) |
 | `2026-11-19` | **Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis** | Shotaro Ishihara | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.25606) |
@@ -31,7 +33,7 @@ layout: default
 | `2026-11-18` | **Platform Recommendation and Competition in Search Markets** | Sanxi Li, Jun Yu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24464) |
 | `2026-11-18` | **Sensitivity analysis in real options studies: systematic review and recommendations** | Mariia Kozlova, Julian Scott Yeomans | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.24266) |
 | `2026-11-18` | **ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation** | Dae Kyoo Kim, Heejung Cho, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23969) |
-| `2026-11-18` | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Liang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23910) |
+| `2026-11-18` | **MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems** | Matthew Li, Albert Jiongqian Liang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23910) |
 | `2026-11-18` | **CONCORD-Rec: Catalog-Conditioned Modality Utility for Semantic-ID Diffusion Recommendation** | Haopeng Jin, Bingkang Shi, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23710) |
 | `2026-11-17` | **Optimize the Cob, Then the Kernel: Optimizing Beam Search for Generative Recommendation Inference** | Shing Wai Pun, Kai Wu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.23339) |
 | `2026-11-17` | **Better Rankers, Worse Retrievers: The Hidden Cost of RL Post-Training in Generative Recommendation** | Yuheng Chen, Fan Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.22838) |
