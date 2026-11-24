@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-23
+## Updated on 2026-11-24
 
 ---
 
@@ -23,6 +23,13 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-23` | **Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions** | Sungchul Kim, Weixiao Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.31175) |
+| `2026-11-23` | **From Head to Tail: LLM-Augmented Sequential Recommendation and Trade-off Optimization** | Adeep Hande, Shaghayegh Agah, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.31052) |
+| `2026-11-23` | **Learning and Dynamic Route Recommendation Under Unknown Traveler Compliance and Road Conditions** | Yanru Guo, Siqian Shen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.30719) |
+| `2026-11-23` | **Beyond Knowledge Transfer: How User Overlap Shapes Diversity in Cross-Domain Recommendation** | Yuhan Zhao, Weixin Chen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.30156) |
+| `2026-11-22` | **MoR4Rec: Mixture-of-Recursion for Sequential Recommendation** | Tiwari Ankit Satyaprakash, Adamya Shyam, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.29462) |
+| `2026-11-21` | **MADRec: Reliable Multi-Agent Reasoning with Evidence-Grounded Debate for Recommendation** | Zunlong Liu, Weijie Feng, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.28604) |
+| `2026-11-20` | **Beyond Relevance: An Empirical Study of Multimodal LLMs for Diversity-Aware Recommendation Reranking** | Chengkai Liu, Yan Fu, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.28379) |
 | `2026-11-20` | **Mode Recommendation and Dynamic Routing Guidance for Improved Trip Quality in Mixed Traffic Networks** | Jin Zhang, Andreas A. Malikopoulos, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.27091) |
 | `2026-11-20` | **Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations** | Teya Bergamaschi, Bijal Rajput, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.27007) |
 | `2026-11-19` | **Beyond Covers and Titles: Evidence-First Ranking for Robust Cold-Start Recommendation** | Fuyi Wang, Yuxin Cao, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.26249) |
