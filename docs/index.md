@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026-11-24
+## Updated on 2026-11-25
 
 ---
 
@@ -23,6 +23,8 @@ layout: default
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-24` | **Speculative Decoding for Semantic-ID-Based Generative Recommendations** | Harshal A. Chaudhari | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.32855) |
+| `2026-11-24` | **LazUnirec: Unifying Retrieval and Ranking in Multi-scenario Industrial Recommendation** | Xiaodong Li, Junfeng Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.32590) |
 | `2026-11-23` | **Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions** | Sungchul Kim, Weixiao Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.31175) |
 | `2026-11-23` | **From Head to Tail: LLM-Augmented Sequential Recommendation and Trade-off Optimization** | Adeep Hande, Shaghayegh Agah, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.31052) |
 | `2026-11-23` | **Learning and Dynamic Route Recommendation Under Unknown Traveler Compliance and Road Conditions** | Yanru Guo, Siqian Shen, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.30719) |
