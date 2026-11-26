@@ -1,4 +1,4 @@
-## Updated on 2026-11-25
+## Updated on 2026-11-26
 
 ---
 
@@ -26,6 +26,10 @@
 | Date | Title | Authors | Links |
 |:----------:|:---|:---|:---:|
 | `2005-12-29` | **The Topology of Music Recommendation Networks** | Pedro Cano, Oscar Celma, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/physics/0512266) |
+| `2026-11-25` | **Grounding User Preferences in Shared Multimodal Concepts for Recommendation** | Ao Xu, Jinhui Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.34436) |
+| `2026-11-25` | **Calibration of Neuromusculoskeletal Models Using Differentiable Physics: Recommendations for Improving Model Accuracy** | Philip Sanderink, Yingfan Zhou, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.34428) |
+| `2026-11-25` | **RecField: Embedding Recommendations into Spatial Movie Organization as Affordances for Serendipitous Encounters** | Kenta Oku | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.34330) |
+| `2026-11-25` | **Multi-Modal Causal Disentanglement for Multi-Domain Sequential Audio Recommendation** | Yu Ren, Pengcheng Li, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.33628) |
 | `2026-11-24` | **Speculative Decoding for Semantic-ID-Based Generative Recommendations** | Harshal A. Chaudhari | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.32855) |
 | `2026-11-24` | **LazUnirec: Unifying Retrieval and Ranking in Multi-scenario Industrial Recommendation** | Xiaodong Li, Junfeng Zhang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.32590) |
 | `2026-11-23` | **Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions** | Sungchul Kim, Weixiao Huang, et al. | [![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b)](http://arxiv.org/abs/2611.31175) |
